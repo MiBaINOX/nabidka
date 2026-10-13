@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Přehled nabídek moderních webů – Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: #0F172A; color: #F8FAFC; line-height: 1.6; padding: 48px 24px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 56px; }
+        .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 2.5rem; margin-bottom: 12px; color: #FFFFFF; }
+        .header p { color: #94A3B8; font-size: 1.1rem; max-width: 700px; margin: 0 auto; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 28px; }
+        .card { background: #1E293B; border-radius: 16px; border: 1px solid #334155; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s ease, border-color 0.3s ease; }
+        .card:hover { transform: translateY(-6px); border-color: #3B82F6; }
+        .card-thumb { height: 210px; background: #0A0F1D; position: relative; overflow: hidden; }
+        .card-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+        .card-badge { position: absolute; top: 14px; left: 14px; background: rgba(15, 23, 42, 0.9); color: #38BDF8; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3); }
+        .card-lang { position: absolute; top: 14px; right: 14px; background: #2563EB; color: #FFFFFF; font-size: 0.72rem; font-weight: 800; padding: 4px 8px; border-radius: 6px; }
+        .card-body { padding: 24px; display: flex; flex-direction: column; flex-grow: 1; }
+        .card-title { font-size: 1.3rem; font-weight: 800; margin-bottom: 8px; color: #FFFFFF; }
+        .card-meta { font-size: 0.82rem; color: #94A3B8; margin-bottom: 16px; }
+        .card-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; margin-top: auto; }
+        .card-badges span { background: rgba(255,255,255,0.06); color: #E2E8F0; font-size: 0.75rem; font-weight: 600; padding: 4px 10px; border-radius: 6px; }
+        .card-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .btn { display: inline-flex; align-items: center; justify-content: center; padding: 10px 16px; border-radius: 8px; font-size: 0.85rem; font-weight: 700; text-decoration: none; text-align: center; transition: all 0.2s; }
+        .btn-web { background: #2563EB; color: #FFFFFF; }
+        .btn-web:hover { background: #1D4ED8; }
+        .btn-pdf { background: #334155; color: #F8FAFC; border: 1px solid #475569; }
+        .btn-pdf:hover { background: #475569; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Přehled vygenerovaných nabídek</h1>
+            <p>Hotové, 100% responzivní weby s reálnými daty, fotografiemi, animacemi a prezentačními PDF bez uvedení cen.</p>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="kotas/screenshots/screen_desktop.jpg" alt="K.o.T.a.S">
+                    <span class="card-badge">Bankovní & pokladní technika</span>
+                    <span class="card-lang">CZ | EN | DE</span>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">K.o.T.a.S, spol. s r.o.</h2>
+                    <div class="card-meta">IČO: 00560235 • Třinec • od roku 1990</div>
+                    <div class="card-badges">
+                        <span>✓ Vícejazyčný přepínač</span>
+                        <span>✓ Počítadla čísel</span>
+                        <span>✓ 6 autentických fotek</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="kotas/index.html" class="btn btn-web">🌐 Otevřít web</a>
+                        <a href="../nabidky_pdf/Nabidka_kotas.pdf" class="btn btn-pdf">📄 PDF nabídka</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="revize-bagru/screenshots/screen_desktop.jpg" alt="REVIZE BAGRU">
+                    <span class="card-badge">Revize & školení mechanizace</span>
+                    <span class="card-lang">CZ | EN | DE</span>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">REVIZE BAGRU s.r.o.</h2>
+                    <div class="card-meta">IČO: 01719980 • Ostrava & celá ČR</div>
+                    <div class="card-badges">
+                        <span>✓ Vícejazyčný přepínač</span>
+                        <span>✓ On-line objednávka</span>
+                        <span>✓ 9 autentických fotek</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="revize-bagru/index.html" class="btn btn-web">🌐 Otevřít web</a>
+                        <a href="../nabidky_pdf/Nabidka_revize-bagru.pdf" class="btn btn-pdf">📄 PDF nabídka</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="reality-pkr/screenshots/screen_desktop.jpg" alt="REALITY KRKONOŠE">
+                    <span class="card-badge">Prémiové horské reality</span>
+                    <span class="card-lang">CZ | EN | DE</span>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">P.K.R. s.r.o. (REALITY KRKONOŠE)</h2>
+                    <div class="card-meta">IČO: 08952167 • Vrchlabí & Špindlerův Mlýn</div>
+                    <div class="card-badges">
+                        <span>✓ Vícejazyčný přepínač</span>
+                        <span>✓ HD fotogalerie</span>
+                        <span>✓ 21 autentických fotek</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="reality-pkr/index.html" class="btn btn-web">🌐 Otevřít web</a>
+                        <a href="../nabidky_pdf/Nabidka_reality-pkr.pdf" class="btn btn-pdf">📄 PDF nabídka</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="stavebnictvi-skorvaga/screenshots/screen_desktop.jpg" alt="Štefan Škorvaga">
+                    <span class="card-badge">Zateplení, fasády & domy</span>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Štefan Škorvaga s.r.o.</h2>
+                    <div class="card-meta">IČO: 29393698 • Ostrava • 20+ let praxe</div>
+                    <div class="card-badges">
+                        <span>✓ Bento grid & Lightbox</span>
+                        <span>✓ Scroll animace</span>
+                        <span>✓ 42 autentických fotek</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="stavebnictvi-skorvaga/index.html" class="btn btn-web">🌐 Otevřít web</a>
+                        <a href="../nabidky_pdf/Nabidka_stavebnictvi-skorvaga.pdf" class="btn btn-pdf">📄 PDF nabídka</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="vv-saveko/screenshots/screen_desktop.jpg" alt="V+V SAVEKO">
+                    <span class="card-badge">Inženýrské sítě & infrastruktura</span>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">V+V SAVEKO s.r.o.</h2>
+                    <div class="card-meta">IČO: 25818881 • Kopřivnice / Nový Jičín</div>
+                    <div class="card-badges">
+                        <span>✓ Technické vybavení</span>
+                        <span>✓ ISO 9001 certifikace</span>
+                        <span>✓ Inženýrské reference</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="vv-saveko/index.html" class="btn btn-web">🌐 Otevřít web</a>
+                        <a href="../nabidky_pdf/Nabidka_vv-saveko.pdf" class="btn btn-pdf">📄 PDF nabídka</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

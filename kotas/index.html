@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.o.T.a.S, spol. s r.o. – Bankovní & Pokladní Technika | FALSE HUNTER</title>
+    <meta name="description" content="Výhradní zastoupení, vývoj a autorizovaný servis bankovní techniky od roku 1990. Počítačky bankovek, třídičky mincí s CCD SELEX a patentovaný systém FALSE HUNTER testovaný v ECB a ČNB.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-info">
+                <span class="top-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span data-i18n="top_badge">Certifikovaná bankovní a pokladní technika od roku 1990</span></span>
+                <span class="top-link">🏛️ IČO: 00560235</span>
+                <span class="top-link">🔧 <span data-i18n="top_service_center">Centrální servisní dispečink ČR</span></span>
+            </div>
+            <div class="top-contact">
+                <a href="tel:+420558325264" class="top-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +420 558 325 264</a>
+                <a href="tel:+420601532022" class="top-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Dispečink: +420 601 532 022</a>
+                <a href="mailto:all@kotas.com" class="top-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> all@kotas.com</a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">
+                <div class="logo-badge">K</div>
+                <div class="logo-text-wrap">
+                    <span class="logo-text">K.o.T.a.S, spol. s r.o.</span>
+                    <span class="logo-sub">Třinec • Bankovní technika od r. 1990</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#o-nas" data-i18n="nav_about">O nás & Historie</a></li>
+                <li><a href="#false-hunter" data-i18n="nav_false_hunter">Systém FALSE HUNTER</a></li>
+                <li><a href="#katalog" data-i18n="nav_catalog">Katalog zařízení (19 modelů)</a></li>
+                <li><a href="#servis" data-i18n="nav_service">Servisní síť</a></li>
+                <li><a href="#kontakt" class="btn btn-primary btn-nav" data-i18n="nav_contact">Poptávka & Kontakt</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="lang-switch">
+                    <button type="button" class="lang-btn active" data-lang="cs">CZ</button>
+                    <button type="button" class="lang-btn" data-lang="en">EN</button>
+                    <button type="button" class="lang-btn" data-lang="de">DE</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <div class="hero-tag">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                    <span data-i18n="hero_tag">Výhradní zastoupení, vývoj a autorizovaný servis od roku 1990</span>
+                </div>
+                <h1 class="hero-title" data-i18n="hero_title">Špičková bankovní technika a patentovaný systém FALSE HUNTER</h1>
+                <p class="hero-desc" data-i18n="hero_desc">Dodáváme a servisujeme certifikované počítačky bankovek, vysokorychlostní třídičky mincí s CCD SELEX a detektory padělků testované v Evropské centrální bance a České národní bance. Více než 7 500 instalací v ČR a SR.</p>
+                <div class="hero-actions">
+                    <a href="#kontakt" class="btn btn-primary" data-i18n="hero_cta">Poptat zařízení</a>
+                    <a href="#katalog" class="btn btn-secondary" data-i18n="hero_catalog_cta">Prohlédnout 19 modelů</a>
+                </div>
+                <div class="hero-stats" id="stats">
+                    <div class="stat-item reveal">
+                        <div class="stat-num-wrap">
+                            <span class="stat-counter" data-target="1990">0</span>
+                        </div>
+                        <span class="stat-label" data-stat-cs="Založeno v ČR" data-stat-en="Founded in CZ" data-stat-de="Gegründet in CZ">Založeno v ČR</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-num-wrap">
+                            <span class="stat-counter" data-target="7500">0</span><span>+</span>
+                        </div>
+                        <span class="stat-label" data-stat-cs="Instalací v ČR a SR" data-stat-en="Installations in CZ & SK" data-stat-de="Installationen in CZ & SK">Instalací v ČR a SR</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-num-wrap">
+                            <span class="stat-counter" data-target="2000">0</span><span>+</span>
+                        </div>
+                        <span class="stat-label" data-stat-cs="Zařízení vyvezených do EU" data-stat-en="Exported Machines to EU" data-stat-de="Exportierte Maschinen in EU">Zařízení vyvezených do EU</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-num-wrap">
+                            <span class="stat-counter" data-target="100">0</span><span>%</span>
+                        </div>
+                        <span class="stat-label" data-stat-cs="Záchyt v testech ČNB a ECB" data-stat-en="Detection in CNB & ECB" data-stat-de="Erkennung bei EZB & CNB">Záchyt v testech ČNB a ECB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-showcase">
+                    <div class="showcase-card showcase-main" data-gallery-src="images/BC3000.jpg">
+                        <img src="images/BC3000.jpg" alt="Počítačka bankovek BC-3000" loading="eager">
+                        <div class="showcase-caption">
+                            <strong>K.o.T.a.S BC-3000</strong>
+                            <span>Hodnotové počítání netříděných bankovek</span>
+                        </div>
+                    </div>
+                    <div class="showcase-card" data-gallery-src="images/S3.jpg">
+                        <img src="images/S3.jpg" alt="Třídička mincí S3-MOON" loading="eager">
+                        <div class="showcase-caption">
+                            <strong>K.o.T.a.S S3-MOON</strong>
+                            <span>CCD SELEX detekce nepravých mincí</span>
+                        </div>
+                    </div>
+                    <div class="showcase-card" data-gallery-src="images/SB9.jpg">
+                        <img src="images/SB9.jpg" alt="Bankovní sorter SB-9" loading="eager">
+                        <div class="showcase-caption">
+                            <strong>K.o.T.a.S SB-9</strong>
+                            <span>2-kapsový sorter pro nepřetržitý provoz</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section section-alt" id="o-nas">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag" data-i18n="about_tag">Tradice a mezinárodní uznání od roku 1990</span>
+                <h2 class="section-title" data-i18n="about_title">O společnosti K.o.T.a.S, spol. s r.o.</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card reveal">
+                    <div class="about-icon">🏛️</div>
+                    <h3>Založení 1990 & americký kontrakt BRANDT</h3>
+                    <p>Firma K.o.T.a.S se již od svého založení v roce 1990 profilovala jako specialista na malou bankovní techniku. V témže roce jsme podepsali výhradní kontrakt s americkou společností <strong>BRANDT</strong> pro distribuci a servis bankovní techniky v České a Slovenské republice.</p>
+                </div>
+                <div class="about-card reveal">
+                    <div class="about-icon">🇯🇵</div>
+                    <h3>Spolupráce s japonským lídrem TOYO COMMUNICATION</h3>
+                    <p>Dlouhodobá úzká spolupráce s japonským výrobcem <strong>TOYO COMMUNICATION Inc.</strong> umožnila firmě K.o.T.a.S aplikovat a úspěšně prodávat vlastní vyvinuté systémy v celosvětovém mezinárodním měřítku. Od roku 1999 se pravidelně prezentujeme na mezinárodním veletrhu <strong>CEBIT v Hannoveru</strong>.</p>
+                </div>
+                <div class="about-card reveal">
+                    <div class="about-icon">🇪🇺</div>
+                    <h3>Testování v Evropské centrální bance (ECB)</h3>
+                    <p>Jako <strong>jediné české společnosti</strong> zabývající se vývojem a distribucí bankovní techniky nám bylo opakovaně umožněno v pobočce Evropské centrální banky (Deutsche Bundesbank ve Frankfurtu nad Mohanem) otestovat svá zařízení a verifikační čidla přímo na bankovkách EURO vyprodukovaných všemi tiskárnami cenin.</p>
+                </div>
+                <div class="about-card reveal">
+                    <div class="about-icon">🇨🇿</div>
+                    <h3>Ověření v Kabinetu platidel České národní banky</h3>
+                    <p>Kabinet platidel ČNB provedl opakované testy na všech známých typech padělků české měny všech tříd nebezpečnosti. Na základě úspěšných testů v ČNB máme oficiální svolení uvádět: <strong>systém zachytí 100 % všech dosud známých padělků české měny</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="false-hunter">
+        <div class="container">
+            <div class="fh-box reveal">
+                <div class="fh-content">
+                    <span class="section-tag" style="color:var(--accent-light);" data-i18n="fh_tag">Patentovaná technologie</span>
+                    <h2 data-i18n="fh_title">Revoluční systém verifikace pravosti FALSE HUNTER</h2>
+                    <p>V roce 1997 se firma K.o.T.a.S začala zabývat vývojem systému pro verifikaci pravosti bankovek <strong>FALSE HUNTER (FH)</strong>. Systém založený na vyhodnocování ochranných prvků v infračerveném spektru (IR) překvapil odbornou veřejnost a způsobil revoluci v oblasti malé bankovní techniky.</p>
+                    <div class="fh-features">
+                        <div class="fh-feat-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            <div>
+                                <strong>Exaktní definice pravé bankovky</strong>
+                                <span>Software neporovnává skeny bankovek mezi sebou, ale přímo s matematickou definicí pravé bankovky. Zcela odpadá subjektivní a nespolehlivé nastavování citlivosti.</span>
+                            </div>
+                        </div>
+                        <div class="fh-feat-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            <div>
+                                <strong>Plná rychlost až 1 600 bankovek za minutu</strong>
+                                <span>Verifikace pravosti probíhá bez jakéhokoliv zpomalení chodu zařízení. Systém automaticky rozpoznává měny a nominály bez zásahu obsluhy.</span>
+                            </div>
+                        </div>
+                        <div class="fh-feat-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            <div>
+                                <strong>Nezávislost na doplňkových systémech</strong>
+                                <span>Systém FALSE HUNTER je plně schopen samostatně a zodpovědně verifikovat pravost měny na nejvyšší bezpečnostní úrovni.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fh-badge-panel">
+                    <div class="fh-big-stat">1 600</div>
+                    <div class="fh-stat-sub">bankovek / minutu v plné IR verifikaci</div>
+                    <div class="fh-certs">
+                        <span>✓ ECB Frankfurt certifikace</span>
+                        <span>✓ Kabinet platidel ČNB</span>
+                        <span>✓ Záchyt všech známých padělků</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="katalog">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag" data-i18n="catalog_tag">Sortiment produktů</span>
+                <h2 class="section-title" data-i18n="catalog_title">Kompletní katalog bankovní a pokladní techniky</h2>
+                <p style="color:var(--text-muted); font-size:1.05rem;" data-i18n="catalog_desc">Kliknutím na fotografii otevřete detailní náhled zařízení. Všechny modely dodáváme včetně záručního a pozáručního servisu po celé ČR.</p>
+            </div>
+
+            <div class="catalog-filters reveal">
+                <button type="button" class="cat-filter-btn active" data-filter="all" data-i18n="filter_all">Všechna zařízení (19)</button>
+                <button type="button" class="cat-filter-btn" data-filter="bankovky" data-i18n="filter_banknotes">Počítačky bankovek (7)</button>
+                <button type="button" class="cat-filter-btn" data-filter="mince" data-i18n="filter_coins">Třídičky a počítačky mincí (5)</button>
+                <button type="button" class="cat-filter-btn" data-filter="doplnky" data-i18n="filter_detectors">Detektory & doplňky (7)</button>
+            </div>
+
+            <div class="catalog-grid" id="catalogGrid">
+                
+        <div class="product-card reveal" data-category="bankovky" data-gallery-src="images/BC50.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Počítačky bankovek</span>
+                <img src="images/BC50.jpg" alt="K.o.T.a.S EP-100" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S EP-100</h3>
+                <p class="product-desc">Certifikovaná dvoukapsová počítačka bankovek schválená Evropskou centrální bankou (ECB). Umožňuje plynulé nepřetržité zpracování hotovosti CZK, EUR, USD a dalších světových měn. Automatické rozpoznání nominálu i měny bez nutnosti manuálního přepínání. Vybavena patentovaným automatickým krytem odebírací přihrádky, který chrání obsluhu před polétavým prachem a výrazně snižuje hlučnost provozu.</p>
+                
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S EP-100">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="bankovky" data-gallery-src="images/BC3000.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Počítačky bankovek</span>
+                <img src="images/BC3000.jpg" alt="K.o.T.a.S BC-3000" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S BC-3000</h3>
+                <p class="product-desc">Nová vysoce výkonná počítačka bankovek s vynikajícím poměrem ceny a kvality. Jednoduchá obsluha, mimořádně spolehlivý chod a velký přehledný LCD displej. Možnost počítání v nominálních hodnotách (hodnotové počítání netříděných bankovek) a okamžitý tisk protokolu o přepočtu.</p>
+                <ul class='product-specs'><li>Rychlost počítání: 900 bankovek / min 1200 bankovek / min 1500 bankovek / min</li><li>Kapacita podávacího zásobníku Kapacita odebíracího zásobníku: 500 ks 200 ks</li><li>Rozměry bankovek: délka      120 ~ 175 mm výška       50 ~ 90 mm tloušťka   0,05 ~ 0,2 mm</li><li>Hlavní počítadlo Počítadlo hodnoty: 0 ~ 9999 ks / 4 číslice 0 ~ 999999 / 6 číslic</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S BC-3000">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="bankovky" data-gallery-src="images/SB9.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Počítačky bankovek</span>
+                <img src="images/SB9.jpg" alt="K.o.T.a.S SB-9" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S SB-9</h3>
+                <p class="product-desc">Dvoukapsový kompaktní bankovní sorter a počítačka pro nepřetržitý provoz. Druhá odkládací kapsa (Reject) umožňuje vyřazovat podezřelé padělky, jiné nominály nebo poškozené kusy bez zastavení procesu počítání. Vhodné pro pokladny s velkým denním obratem.</p>
+                
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S SB-9">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="bankovky" data-gallery-src="images/SB7_1.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Počítačky bankovek</span>
+                <img src="images/SB7_1.jpg" alt="K.o.T.a.S SB-7" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S SB-7</h3>
+                <p class="product-desc">Osvědčený víceúčelový sorter bankovek určený pro finanční instituce a směnárny. Vícespektrální kontrola pravosti (UV, MG, infračervený obraz CIS a magnetický proužek). Rychlost až 1 500 bankovek za minutu s maximální přesností.</p>
+                <ul class='product-specs'><li>Rozměry: 280 x 269 x 261 mm</li><li>Hmotnost: 8 kg</li><li>Kapacita podavače: 500 ks bankovek</li><li>Kapacita odkládacího zásobníku: 200 ks bankovek</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S SB-7">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="bankovky" data-gallery-src="images/Nc60.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Počítačky bankovek</span>
+                <img src="images/Nc60.jpg" alt="K.o.T.a.S NC-60" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S NC-60</h3>
+                <p class="product-desc">Profesionální systém NC-60 pro přesné vyřazování poškozených, popsaných či opotřebených bankovek během počítání dle striktních směrnic České národní banky (fitness sorting). Zaručuje, že do bankomatů a dalšího oběhu odchází pouze 100% způsobilé bankovky.</p>
+                <ul class='product-specs'><li>druh zpracovávaných měn:: CZK, EURO-automatický výběr měny bez přepínání.Další volitelné měny : ruská (RUB), polská (PLZ), ukrainská (UAH), kazachstánská (KZT), slovenská (SKK), turecká (LIR)</li><li>systém detekce poškozených resp. padělaných bankovek:: FH II : sofistikovaný systém celoplošného snímání bankovky v IR spektru (detekce pravosti bankovky a to v 16 384 aktivních bodech)i3D II : druhá generace inteligentního měření všech 3 rozměrů bankovek (eliminuje výskyt falešných hlášení o rozměru starších a mechanicky poškozených bankovek)iM : detekce ochranných magnetických stop bankovky (spektrální magnetická analýza)iUV : inteligentní měření UV absorbce a reflexivity papíru bankovky s přihlédnutím na fluorescenci</li><li>rychlost zpracování (možnost nastavení různých rychlostí) :: Všechny funkce počítání, včetně detekce falsifikátů, pracují nezávísle na rychlosti zpracování bankovek. Max.: 1600 ks/min, Stř.: 1200 ks/min, Min.: 700 ks/min</li><li>kapacita podavače :: 400 ks bankovek</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S NC-60">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="bankovky" data-gallery-src="images/BC2000.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Počítačky bankovek</span>
+                <img src="images/BC2000.jpg" alt="K.o.T.a.S BC-2000" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S BC-2000</h3>
+                <p class="product-desc">Odolná stolní počítačka bankovek pro střední a větší zátěž. Víceúrovňová detekce padělků včetně kontroly magnetického inkoustu a UV fluorescenčních prvků. Přehledný numerický panel s předvolbou dávkování.</p>
+                <ul class='product-specs'><li>Rychlost počítání: 700 bankovek / min 1000 bankovek / min 1500 bankovek / min</li><li>Kapacita podávacího zásobníku Kapacita odebíracího zásobníku: 500 ks 200 ks</li><li>Rozměry bankovek: délka      120 ~ 175 mm výška       50 ~ 90 mm tloušťka   0,06 ~ 0,12 mm</li><li>Hlavní počítadlo Počítadlo "balíček": 0 ~ 9999 ks / 4 číslice 0 ~ 200 ks / 3 číslice</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S BC-2000">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="bankovky" data-gallery-src="images/BC40.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Počítačky bankovek</span>
+                <img src="images/BC40.jpg" alt="SCH 160 UV/MG" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">SCH 160 UV/MG</h3>
+                <p class="product-desc">Kompaktní spolehlivá počítačka pro každodenní pokladní operace v maloobchodě. Integrovaná kontrola rozměrů bankovek, UV a magnetické čidlo. Tichý chod a nízká spotřeba energie.</p>
+                
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="SCH 160 UV/MG">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="mince" data-gallery-src="images/S3.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Třídičky a počítačky mincí</span>
+                <img src="images/S3.jpg" alt="K.o.T.a.S S3-MOON" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S S3-MOON</h3>
+                <p class="product-desc">Špičková vysokorychlostní třídička mincí K.o.T.a.S S3-MOON s revolučním bezkontaktním systémem detekce nepravých mincí CCD SELEX. Určena především pro banky, spořitelny, supermarkety a dopravní podniky. Mince roztřídí dle nominální hodnoty do samostatných výstupů, načte počty i celkové částky a vytiskne výčetku na připojené tiskárně.</p>
+                <ul class='product-specs'><li>Rychlost třídění :: 1000  - 1500 mincí / min</li><li>Kapacita zásobníku :: 2000 mincí</li><li>Rozměry mincí :: tloušťka : 1 až 3,2 mmprůměr : 14 až 34 mm</li><li>Rozměry třídičky :: 750 x 510 x 360 mm</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S S3-MOON">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="mince" data-gallery-src="images/S2.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Třídičky a počítačky mincí</span>
+                <img src="images/S2.jpg" alt="K.o.T.a.S S2" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S S2</h3>
+                <p class="product-desc">Kompaktní a tichá třídička mincí K.o.T.a.S S2 pro menší a střední pokladny. Spolehlivý mechanismus třídění do 8 přihrádek s funkcí automatického zastavení při naplnění zadané dávky.</p>
+                <ul class='product-specs'><li>Rychlost počítání :: 1500 mincí / min</li><li>Kapacita zásobníku :: 2000 mincí</li><li>Rozměry mincí :: tloušťka : 1 až 3,2 mmprůměr : 14 až 34 mm</li><li>Rozměry počítačky :: 400 x 385 x 280 mm</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S S2">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="mince" data-gallery-src="images/CS-1000n.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Třídičky a počítačky mincí</span>
+                <img src="images/CS-1000n.jpg" alt="K.o.T.a.S CS-1000" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S CS-1000</h3>
+                <p class="product-desc">Vysokokapacitní počítačka mincí CS-1000 konstruovaná pro těžký provoz. Rychlost počítání až 2 300 mincí za minutu s robustním celokovovým podavačem a nastavitelnou tloušťkou i průměrem mincí.</p>
+                <ul class='product-specs'><li>Rychlost počítání :: 1800 mincí / min</li><li>Kapacita zásobníku :: až 2000 mincí</li><li>Rozměry mincí :: tloušťka : 0,7 až 3,9 mmprůměr : 14 až 34 mm</li><li>Maximální zobrazení displeje :: 99999</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S CS-1000">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="mince" data-gallery-src="images/CS2000_p.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Třídičky a počítačky mincí</span>
+                <img src="images/CS2000_p.jpg" alt="K.o.T.a.S CS-2000" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S CS-2000</h3>
+                <p class="product-desc">Průmyslová velkokapacitní třídička a počítačka mincí CS-2000 pro zpracovatelská centra hotovosti a velkoobchody. Extrémní spolehlivost a minimální nároky na údržbu.</p>
+                <ul class='product-specs'><li>Rychlost počítání :: 2300 mincí / min</li><li>Kapacita zásobníku :: 3000 - 9000 mincí</li><li>Rozměry mincí :: tloušťka : 0,7 až 3,9 mmprůměr : 14 až 34 mm</li><li>Maximální zobrazení displeje :: 999999</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S CS-2000">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="mince" data-gallery-src="images/1001.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Třídičky a počítačky mincí</span>
+                <img src="images/1001.jpg" alt="K.o.T.a.S 1001" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">K.o.T.a.S 1001</h3>
+                <p class="product-desc">Spolehlivá stolní počítačka mincí K.o.T.a.S 1001 pro rychlé balení mincí do sáčků či ruliček. Velký vstupní zásobník a jednoduché intuitivní ovládání.</p>
+                <ul class='product-specs'><li>pracovní režimy :: 1. kontinuální počítání2. balíčkování (od 1 do 99999)</li><li>rychlost zpracování :: 1500 mincí/min</li><li>kapacita podavače :: 4000 mincí</li><li>rozměry a hmotnost stroje :: 386 x 227 x 347 mm, 12 kg</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="K.o.T.a.S 1001">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="doplnky" data-gallery-src="images/sc100_a.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Detektory & doplňky</span>
+                <img src="images/sc100_a.jpg" alt="Počítací váha K.o.T.a.S SC-100" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">Počítací váha K.o.T.a.S SC-100</h3>
+                <p class="product-desc">Přesná počítací váha K.o.T.a.S SC-100 pro bleskovou inventuru celé pokladní zásuvky (bankovky i mince) během několika vteřin. Výrazně zkracuje čas uzávěrek a eliminuje lidské chyby.</p>
+                <ul class='product-specs'><li>rozměry :: 230 x 140 x 110 mm</li><li>hmotnost :: 0,5 kg</li><li>napájení :: 220V / 50Hz nebo baterie 9V</li><li>příkon :: 5W</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="Počítací váha K.o.T.a.S SC-100">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="doplnky" data-gallery-src="images/FD1_k.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Detektory & doplňky</span>
+                <img src="images/FD1_k.jpg" alt="IR kamera FALSE DOCUMENTER" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">IR kamera FALSE DOCUMENTER</h3>
+                <p class="product-desc">Kompaktní infračervená kamera FALSE DOCUMENTER pro vizuální verifikaci ochranných prvků bankovek, pasů, víz a dokladů na vestavěném monitoru v reálném čase.</p>
+                <ul class='product-specs'><li>Obrazový senzor: CMOS - 5.0 megapixelů</li><li>Apertura objektivu: F3,2 (f=7,2 mm)</li><li>Displej LCD: 2,5'' TFT LCD</li><li>Obrazové rozlišení: HD 720p : 1280 x 720,  D1 : 720 x 480,  VGA : 648 x 480,  QVGA : 320 x 240</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="IR kamera FALSE DOCUMENTER">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="doplnky" data-gallery-src="images/A630.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Detektory & doplňky</span>
+                <img src="images/A630.jpg" alt="Termotiskárna K.o.T.a.S A630" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">Termotiskárna K.o.T.a.S A630</h3>
+                <p class="product-desc">Rychlá termotiskárna K.o.T.a.S A630 pro přímé připojení k počítačkám a třídičkám. Okamžitý tisk detailního rozpisu hotovosti, data a jména pokladníka na standardní termopapír.</p>
+                <ul class='product-specs'><li>způsob tisku :: termotisk, 180 x 180 dpi</li><li>tiskové fonty :: A :16 x 24 bodů (24 sloupců)B :9 x 24 bodů (40 sloupců)</li><li>kapacita znaků / řádek :: A : 24B : 40</li><li>délka řádku :: 48 mm</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="Termotiskárna K.o.T.a.S A630">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="doplnky" data-gallery-src="images/disp_nc60.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Detektory & doplňky</span>
+                <img src="images/disp_nc60.jpg" alt="Externí klientský displej" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">Externí klientský displej</h3>
+                <p class="product-desc">Externí zákaznický displej umožňující klientovi u přepážky nebo směnárny transparentně sledovat průběh a výsledek počítání hotovosti.</p>
+                <ul class='product-specs'><li>rozměry :: 190 x 50 x 30 mm</li><li>hmotnost :: 0,37 kg</li><li>napájení :: prostřednictvím připojené počítačky bankovek</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="Externí klientský displej">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="doplnky" data-gallery-src="images/ird2200.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Detektory & doplňky</span>
+                <img src="images/ird2200.jpg" alt="Detektor pravosti IRD-2200" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">Detektor pravosti IRD-2200</h3>
+                <p class="product-desc">Stolní infračervený detektor pravosti K.o.T.a.S IRD-2200 pro okamžitou verifikaci bankovek všech světových měn v IR spektru přímo u pokladny.</p>
+                <ul class='product-specs'><li>IR spektrum :: 850 nm a 940 nm</li><li>Hmotnost :: 0,55 kg</li><li>Napájení :: 220V / 50Hz</li><li>Příkon :: 12 W</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="Detektor pravosti IRD-2200">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="doplnky" data-gallery-src="images/cashflow.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Detektory & doplňky</span>
+                <img src="images/cashflow.jpg" alt="Cash Flow Calculator" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">Cash Flow Calculator</h3>
+                <p class="product-desc">Speciální kalkulátor hotovostních toků pro optimalizaci pokladních zůstatků a plánování odvodů hotovosti.</p>
+                
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="Cash Flow Calculator">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product-card reveal" data-category="doplnky" data-gallery-src="images/dp323.jpg">
+            <div class="product-thumb">
+                <span class="product-badge">Detektory & doplňky</span>
+                <img src="images/dp323.jpg" alt="Tester bankovek MINI DP-323" loading="lazy">
+            </div>
+            <div class="product-body">
+                <h3 class="product-title">Tester bankovek MINI DP-323</h3>
+                <p class="product-desc">Kapesní tester bankovek MINI DP-323 pro terénní pracovníky, řidiče a kurýry. Zvuková a světelná signalizace podezřelého platidla během vteřiny.</p>
+                <ul class='product-specs'><li>kontrola UV: ano</li><li>kontrola MG: ano</li><li>rozměry: 85 mm x 25 mm</li><li>napájení: baterie LR44</li></ul>
+                <div class="product-actions">
+                    <button type="button" class="btn btn-select-model" data-model-name="Tester bankovek MINI DP-323">
+                        <span>Poptat tento model</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="servis">
+        <div class="container">
+            <div class="service-network-box reveal">
+                <div class="sn-header">
+                    <span class="section-tag" data-i18n="service_tag">Zázemí a podpora</span>
+                    <h2 data-i18n="service_title">Vlastní servisní síť a dispečink v ČR</h2>
+                    <p>Firma K.o.T.a.S zajišťuje záruční i pozáruční servis na celém území České republiky výhradně prostřednictvím svých stálých kmenových zaměstnanců. Náš servis je postaven na centrálním servisním dispečinku v Třinci a pěti regionálních servisních střediscích pokrývajících celou ČR.</p>
+                </div>
+                <div class="sn-grid">
+                    <div class="sn-item">
+                        <div class="sn-icon">📞</div>
+                        <h4>Centrální servisní dispečink</h4>
+                        <p>Okamžité nahlášení požadavku, technická hotline a koordinace výjezdů servisních techniků po celé ČR.</p>
+                        <strong>Mobil: +420 601 532 022</strong>
+                    </div>
+                    <div class="sn-item">
+                        <div class="sn-icon">📍</div>
+                        <h4>5 servisních středisek v ČR</h4>
+                        <p>Regionální servisní základny pro rychlý dojezd technika do vašeho bankovního či pokladního provozu.</p>
+                        <strong>Dojezd servisního technika</strong>
+                    </div>
+                    <div class="sn-item">
+                        <div class="sn-icon">⚙️</div>
+                        <h4>Pravidelná kalibrace a software</h4>
+                        <p>Aktualizace verifikačních algoritmů při vydání nových emisí bankovek ČNB a ECB, čištění a seřízení optických drah.</p>
+                        <strong>Autorizovaná kalibrace</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="kontakt">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-panel reveal">
+                    <div>
+                        <span class="section-tag" style="color:var(--accent-light);">Kontakt & Centrála</span>
+                        <h3 data-i18n="contact_title">Poptávka techniky a objednávka servisu</h3>
+                        <p style="color:#CBD5E1; margin-top:8px;" data-i18n="contact_desc">Vyberte konkrétní zařízení z katalogu nebo popište svůj požadavek. Náš technik vás obratem kontaktuje.</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                        <div class="contact-item-text">
+                            <span>Sídlo společnosti</span>
+                            <p>Míru 26, 739 61 Třinec, Česká republika</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                        <div class="contact-item-text">
+                            <span>Pevná linka & Fax</span>
+                            <a href="tel:+420558325264">+420 558 325 264</a>
+                            <p style="font-size:0.85rem; color:#94A3B8;">Fax: +420 558 335 134</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                        <div class="contact-item-text">
+                            <span>Servisní dispečink (mobil)</span>
+                            <a href="tel:+420601532022">+420 601 532 022</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                        <div class="contact-item-text">
+                            <span>E-mailové spojení</span>
+                            <a href="mailto:all@kotas.com">all@kotas.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-box reveal">
+                    <div class="form-success" id="formSuccess"></div>
+                    <form id="inquiryForm" data-recipient="all@kotas.com" data-company="K.o.T.a.S, spol. s r.o.">
+                        <div class="form-group">
+                            <label class="form-label">Jméno a příjmení / Název společnosti</label>
+                            <input type="text" id="formName" name="name" class="form-input" required placeholder="Ing. Jan Novák / Komerční banka a.s.">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Telefonní kontakt</label>
+                            <input type="tel" id="formPhone" name="phone" class="form-input" required placeholder="+420 ...">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">E-mailová adresa</label>
+                            <input type="email" id="formEmail" name="email" class="form-input" required placeholder="novak@spolecnost.cz">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Vybraný model zařízení / Požadovaná služba</label>
+                            <select id="formService" name="service" class="form-select">
+                                <option value="Obecná poptávka / Servisní konzultace">Obecná poptávka / Servisní konzultace</option>
+<option value="K.o.T.a.S EP-100">K.o.T.a.S EP-100</option>
+<option value="K.o.T.a.S BC-3000">K.o.T.a.S BC-3000</option>
+<option value="K.o.T.a.S SB-9">K.o.T.a.S SB-9</option>
+<option value="K.o.T.a.S SB-7">K.o.T.a.S SB-7</option>
+<option value="K.o.T.a.S NC-60">K.o.T.a.S NC-60</option>
+<option value="K.o.T.a.S BC-2000">K.o.T.a.S BC-2000</option>
+<option value="SCH 160 UV/MG">SCH 160 UV/MG</option>
+<option value="K.o.T.a.S S3-MOON">K.o.T.a.S S3-MOON</option>
+<option value="K.o.T.a.S S2">K.o.T.a.S S2</option>
+<option value="K.o.T.a.S CS-1000">K.o.T.a.S CS-1000</option>
+<option value="K.o.T.a.S CS-2000">K.o.T.a.S CS-2000</option>
+<option value="K.o.T.a.S 1001">K.o.T.a.S 1001</option>
+<option value="Počítací váha K.o.T.a.S SC-100">Počítací váha K.o.T.a.S SC-100</option>
+<option value="IR kamera FALSE DOCUMENTER">IR kamera FALSE DOCUMENTER</option>
+<option value="Termotiskárna K.o.T.a.S A630">Termotiskárna K.o.T.a.S A630</option>
+<option value="Externí klientský displej">Externí klientský displej</option>
+<option value="Detektor pravosti IRD-2200">Detektor pravosti IRD-2200</option>
+<option value="Cash Flow Calculator">Cash Flow Calculator</option>
+<option value="Tester bankovek MINI DP-323">Tester bankovek MINI DP-323</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Specifikace poptávky nebo popis servisní závady</label>
+                            <textarea id="formMsg" name="message" class="form-textarea" required placeholder="Uveďte počet kusů, požadavky na měny (CZK, EUR, USD) nebo podrobnosti k servisu..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width:100%;">Odeslat poptávku na K.o.T.a.S →</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>&copy; 2026 K.o.T.a.S, spol. s r.o. Všechna práva vyhrazena.</span>
+            <span>IČO: 00560235 • Míru 26, 739 61 Třinec</span>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lbClose">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lbPrev">&#10094;</button>
+        <button class="lightbox-nav lightbox-next" id="lbNext">&#10095;</button>
+        <img class="lightbox-content" id="lbImg" src="" alt="Detail zvětšeného zařízení">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

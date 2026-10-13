@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REALITY KRKONOŠE s.r.o. (P.K.R.) – Realitní kancelář & Odhady nemovitostí Trutnov</title>
+    <meta name="description" content="30 let tradice na realitním trhu v Krkonoších a Podkrkonoší. Prodej horských chalup, stavebních pozemků, znalecké posudky a odhady nemovitostí Trutnov.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-info">
+                <span class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> <span data-i18n="top_badge">30 let tradice prodeje nemovitostí v Krkonoších a Podkrkonoší (1994–2026)</span></span>
+                <span class="top-link">Kancelář Trutnov: Pražská 88</span>
+            </div>
+            <div class="top-contact">
+                <a href="tel:+420777300093" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +420 777 300 093</a>
+                <a href="mailto:m.danielis@pkr.cz" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> m.danielis@pkr.cz</a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">
+                <div class="logo-badge">PKR</div>
+                <div class="logo-text-wrap">
+                    <span class="logo-text">REALITY KRKONOŠE</span>
+                    <span class="logo-sub">P.K.R. s.r.o. • Trutnov & Praha</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#nabidka" data-i18n="nav_listings">Nabídka nemovitostí</a></li>
+                <li><a href="#sluzby" data-i18n="nav_services">Realitní & Soudní služby</a></li>
+                <li><a href="#bonus" data-i18n="nav_bonus">Něco navíc pro Vás</a></li>
+                <li><a href="#makleri" data-i18n="nav_team">Náš tým</a></li>
+                <li><a href="#kontakt" class="btn btn-primary btn-nav" data-i18n="nav_contact">Konzultace zdarma</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="lang-switch">
+                    <button type="button" class="lang-btn active" data-lang="cs">CZ</button>
+                    <button type="button" class="lang-btn" data-lang="en">EN</button>
+                    <button type="button" class="lang-btn" data-lang="de">DE</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <div class="hero-tag">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    <span data-i18n="hero_tag">„Jsme úspěšní tam, kde působíme“ • 30 let v Krkonoších</span>
+                </div>
+                <h1 class="hero-title" data-i18n="hero_title">Prodej a odhady prémiových nemovitostí v srdci Krkonoš</h1>
+                <p class="hero-desc" data-i18n="hero_desc">Specializujeme se na horské chalupy, stavební pozemky, komerční objekty a bytové projekty v Trutnově, Peci pod Sněžkou, Janských Lázních a Vrchlabí. Komplexní právní servis, certifikované odhady i hypoteční financování.</p>
+                <div class="hero-actions">
+                    <a href="#nabidka" class="btn btn-primary" data-i18n="hero_cta">Prohlédnout aktuální portfolio</a>
+                    <a href="#sluzby" class="btn btn-secondary" data-i18n="hero_sec_cta">Znalecké posudky a odhady</a>
+                </div>
+                <div class="hero-stats" id="stats">
+                    <div class="stat-item reveal">
+                        <div class="stat-num-wrap"><span class="stat-counter" data-target="30">0</span><span> let</span></div>
+                        <span class="stat-label" data-i18n="stat_0">Zkušeností v Krkonoších</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-num-wrap"><span class="stat-counter" data-target="1250">0</span><span>+</span></div>
+                        <span class="stat-label" data-i18n="stat_1">Prodaných nemovitostí</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-num-wrap"><span class="stat-counter" data-target="100">0</span><span>%</span></div>
+                        <span class="stat-label" data-i18n="stat_2">Právní jistota & úschova</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-num-wrap"><span class="stat-counter" data-target="14">0</span><span> dní</span></div>
+                        <span class="stat-label" data-i18n="stat_3">Průměrná doba ocenění</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-card-preview">
+                    <img src="images/real_17058.jpg" alt="Nemovitosti Krkonoše" class="hero-img">
+                    <div class="hero-card-badge">
+                        <div class="badge-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                        <div>
+                            <strong>Certifikovaná realitní kancelář</strong>
+                            <span>Ing. Michal Danielis • Pražská 88, Trutnov</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="nabidka">
+        <div class="container">
+            <div class="section-head reveal">
+                <div class="section-tag" data-i18n="port_tag">Aktuální portfolio</div>
+                <h2 class="section-title" data-i18n="port_title">Výběr z naší nabídky v Krkonoších a Podkrkonoší</h2>
+                <p class="section-desc" data-i18n="port_desc">Prohlédněte si prověřené stavební pozemky, komerční objekty i rekreační lokality připravené k okamžitému jednání.</p>
+            </div>
+            <div class="listings-grid">
+                <div class="listing-card reveal">
+                    <div class="listing-img-wrap">
+                        <img src="images/real_17058.jpg" alt="Stavební pozemek pro bydlení v ÚP Krkonoše" class="listing-img">
+                        <span class="listing-badge">Doporučujeme</span>
+                        <span class="listing-id">č. 1618</span>
+                    </div>
+                    <div class="listing-body">
+                        <div class="listing-type">Pozemek pro bydlení</div>
+                        <h3 class="listing-title" data-i18n="item_1618_title">Stavební pozemek pro bydlení v ÚP Krkonoše</h3>
+                        <div class="listing-loc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Horní Maršov, Krkonoše</div>
+                        <p class="listing-desc" data-i18n="item_1618_desc">Exkluzivní pozemek schválený v platném územním plánu obce pro výstavbu rodinného domu či horské chalupy. Příjezdová komunikace, nádherné výhledy.</p>
+                        <div class="listing-foot">
+                            <a href="#kontakt" class="btn btn-secondary btn-sm" data-i18n="item_btn">Poptat nemovitost</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="listing-card reveal">
+                    <div class="listing-img-wrap">
+                        <img src="images/real_16803.jpeg" alt="Komerční pozemek Rodov – Smiřice" class="listing-img">
+                        <span class="listing-badge">Investice</span>
+                        <span class="listing-id">č. 1605</span>
+                    </div>
+                    <div class="listing-body">
+                        <div class="listing-type">Komerční využití</div>
+                        <h3 class="listing-title" data-i18n="item_1605_title">Komerční pozemek Rodov – Smiřice</h3>
+                        <div class="listing-loc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Smiřice, Královéhradecký kraj</div>
+                        <p class="listing-desc" data-i18n="item_1605_desc">Strategická komerční plocha s výborným dopravním napojením na tah Hradec Králové – Jaroměř. Vhodné pro skladovací halu, lehkou výrobu nebo logistiku.</p>
+                        <div class="listing-foot">
+                            <a href="#kontakt" class="btn btn-secondary btn-sm" data-i18n="item_btn">Poptat nemovitost</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="listing-card reveal">
+                    <div class="listing-img-wrap">
+                        <img src="images/real_16797.jpg" alt="Pozemky s vodní plochou Stanovice u Kuksu" class="listing-img">
+                        <span class="listing-badge">Rarita</span>
+                        <span class="listing-id">č. 1601</span>
+                    </div>
+                    <div class="listing-body">
+                        <div class="listing-type">Vodní plocha & Příroda</div>
+                        <h3 class="listing-title" data-i18n="item_1601_title">Pozemky s vodní plochou Stanovice u Kuksu</h3>
+                        <div class="listing-loc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Stanovice u Kuksu, Trutnov</div>
+                        <p class="listing-desc" data-i18n="item_1601_desc">Unikátní přírodní pozemek s vlastní vodní nádrží v romantické lokalitě nedaleko barokního hospitalu Kuks. Ideální pro rekreaci, rybolov či ekoturistiku.</p>
+                        <div class="listing-foot">
+                            <a href="#kontakt" class="btn btn-secondary btn-sm" data-i18n="item_btn">Poptat nemovitost</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="listing-card reveal">
+                    <div class="listing-img-wrap">
+                        <img src="images/real_13511.jpg" alt="Pozemek Černý Důl – Krkonoše KRNAP" class="listing-img">
+                        <span class="listing-badge">KRNAP</span>
+                        <span class="listing-id">č. 1582</span>
+                    </div>
+                    <div class="listing-body">
+                        <div class="listing-type">Travní porost v KRNAP</div>
+                        <h3 class="listing-title" data-i18n="item_1582_title">Pozemek Černý Důl – Krkonoše KRNAP</h3>
+                        <div class="listing-loc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Černý Důl, Krkonoše</div>
+                        <p class="listing-desc" data-i18n="item_1582_desc">Scénický pozemek v chráněné zóně Krkonošského národního parku pod Černou horou. Klidná horská lokalita s bezprostřední návazností na turistické trasy.</p>
+                        <div class="listing-foot">
+                            <a href="#kontakt" class="btn btn-secondary btn-sm" data-i18n="item_btn">Poptat nemovitost</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="listing-card reveal">
+                    <div class="listing-img-wrap">
+                        <img src="images/real_5646.jpg" alt="Komerční prostory a prodejna Trutnov" class="listing-img">
+                        <span class="listing-badge">Pronájem</span>
+                        <span class="listing-id">č. 1400</span>
+                    </div>
+                    <div class="listing-body">
+                        <div class="listing-type">Pronájem komerčních prostor</div>
+                        <h3 class="listing-title" data-i18n="item_1400_title">Komerční prostory a prodejna Trutnov</h3>
+                        <div class="listing-loc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Trutnov – centrum</div>
+                        <p class="listing-desc" data-i18n="item_1400_desc">Reprezentativní obchodní prostory s výlohou v frekventované části Trutnova. Vhodné pro prodejnu, klientské centrum, pobočku služeb či lékařskou praxi.</p>
+                        <div class="listing-foot">
+                            <a href="#kontakt" class="btn btn-secondary btn-sm" data-i18n="item_btn">Poptat nemovitost</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="listing-card reveal">
+                    <div class="listing-img-wrap">
+                        <img src="images/real_17013.jpg" alt="Stavební pozemky pro bydlení Hostinné – Chotěvice" class="listing-img">
+                        <span class="listing-badge">Novinka</span>
+                        <span class="listing-id">č. 1379</span>
+                    </div>
+                    <div class="listing-body">
+                        <div class="listing-type">Pozemek pro bydlení</div>
+                        <h3 class="listing-title" data-i18n="item_1379_title">Stavební pozemky pro bydlení Hostinné – Chotěvice</h3>
+                        <div class="listing-loc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Chotěvice u Hostinného</div>
+                        <p class="listing-desc" data-i18n="item_1379_desc">Klidné slunné pozemky v podhůří Krkonoš určené pro výstavbu individuálního rodinného bydlení. Výborná dostupnost do Vrchlabí, Trutnova i Dvora Králové.</p>
+                        <div class="listing-foot">
+                            <a href="#kontakt" class="btn btn-secondary btn-sm" data-i18n="item_btn">Poptat nemovitost</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="listing-card reveal">
+                    <div class="listing-img-wrap">
+                        <img src="images/real_13228.jpg" alt="Zemědělské pozemky s panoramatem Krkonoš" class="listing-img">
+                        <span class="listing-badge">Panoráma</span>
+                        <span class="listing-id">č. 633</span>
+                    </div>
+                    <div class="listing-body">
+                        <div class="listing-type">Zemědělský pozemek</div>
+                        <h3 class="listing-title" data-i18n="item_633_title">Zemědělské pozemky s panoramatem Krkonoš</h3>
+                        <div class="listing-loc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Čermná u Trutnova</div>
+                        <p class="listing-desc" data-i18n="item_633_desc">Rozsáhlé ucelené zemědělské pozemky s nerušeným výhledem na hřebeny Krkonoš. Výborná dlouhodobá investice a uchovatel hodnoty.</p>
+                        <div class="listing-foot">
+                            <a href="#kontakt" class="btn btn-secondary btn-sm" data-i18n="item_btn">Poptat nemovitost</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light" id="sluzby">
+        <div class="container">
+            <div class="section-head reveal">
+                <div class="section-tag" data-i18n="serv_tag">Komplexní servis</div>
+                <h2 class="section-title" data-i18n="serv_title">Vše pod jednou střechou od ocenění po převod</h2>
+                <p class="section-desc" data-i18n="serv_desc">V Krkonoších poskytujeme bezpečný a transparentní servis podložený 30 lety zkušeností a autorizací soudního znalce.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="s-icon">🏡</div>
+                    <h3 data-i18n="s1_t">Zprostředkování prodeje & koupě</h3>
+                    <p data-i18n="s1_d">Kompletní realizace prodeje rodinných domů, horských apartmánů, chalup a pozemků. Prezentace na TOP českých realitních serverech i v celostátních médiích pro dosažení maximální tržní ceny.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="s-icon">⚖️</div>
+                    <h3 data-i18n="s2_t">Znalecké posudky a tržní odhady</h3>
+                    <p data-i18n="s2_d">Oceňování nemovitostí pro dědická řízení, banky, soudy i daňové účely. Provozujeme specializovaný portál <strong>www.odhady-trutnov.cz</strong> s garantovanou platností.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="s-icon">🏢</div>
+                    <h3 data-i18n="s3_t">Pronájem bytových i nebytových prostor</h3>
+                    <p data-i18n="s3_d">Spolehlivý pronájem komerčních prostor, prodejen, kanceláří i bytů. Prověření bonity zájemců, příprava nájemních smluv a protokolární předání.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="s-icon">📜</div>
+                    <h3 data-i18n="s4_t">Převodní smlouvy & PENB</h3>
+                    <p data-i18n="s4_d">Bezpečné kupní a budoucí smlouvy zpracované advokátní kanceláří. Zajištění advokátní/bankovní úschovy finančních prostředků a vystavení energetických štítků budov.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="s-icon">💳</div>
+                    <h3 data-i18n="s5_t">Hypotéky a financování</h3>
+                    <p data-i18n="s5_d">Nezávislé poradenství a zprostředkování hypotečních úvěrů u všech předních bankovních domů s výhodnými sazbami pro kupující klienty.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="s-icon">🌲</div>
+                    <h3 data-i18n="s6_t">Pozemky a rozvojové projekty</h3>
+                    <p data-i18n="s6_d">Zastupování při jednání o územních plánech, vyjádřeních Správy KRNAP, inženýrských sítích a dělení parcel pro budoucí výstavbu v podhůří.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="bonus">
+        <div class="container">
+            <div class="bonus-box reveal">
+                <div class="bonus-badge">Něco navíc pro Vás</div>
+                <h2 class="bonus-title" data-i18n="bonus_title">Dejte nám tip na nemovitost a získejte víkendový pobyt v Janských Lázních!</h2>
+                <p class="bonus-desc" data-i18n="bonus_desc">Víte o někom, kdo plánuje prodej rodinného domu, chalupy, pozemku nebo komerčního objektu v Krkonoších a okolí? Doporučte nás! Po úspěšném dokončení obchodu Vás jako poděkování odměníme relaxačním víkendovým pobytem pro dvě osoby v komfortním horském Penzionu v Janských Lázních.</p>
+                <div class="bonus-cta">
+                    <a href="#kontakt" class="btn btn-primary" data-i18n="bonus_btn">Doporučit nemovitost za odměnu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light" id="makleri">
+        <div class="container">
+            <div class="section-head reveal">
+                <div class="section-tag" data-i18n="team_tag">Osobní přístup</div>
+                <h2 class="section-title" data-i18n="team_title">Poznejte náš tým makléřů v Trutnově a Vrchlabí</h2>
+                <p class="section-desc" data-i18n="team_desc">Zakládáme si na individuální péči, diskrétnosti a detailní znalosti místního horského trhu.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card reveal">
+                    <div class="team-avatar">MD</div>
+                    <div class="team-role" data-i18n="t1_role">Ředitel & Certifikovaný makléř</div>
+                    <h3 class="team-name">Ing. Michal Danielis</h3>
+                    <p class="team-bio" data-i18n="t1_bio">Více než 30 let praxe v oblasti oceňování a prodeje nemovitostí v regionu Krkonoše a Trutnovsko. Certifikovaný soudní znalec pro obor nemovitostí.</p>
+                    <div class="team-contacts">
+                        <a href="tel:+420777300093" class="t-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +420 777 300 093</a>
+                        <a href="mailto:m.danielis@pkr.cz" class="t-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> m.danielis@pkr.cz</a>
+                    </div>
+                </div>
+
+                <div class="team-card reveal">
+                    <div class="team-avatar">DD</div>
+                    <div class="team-role" data-i18n="t2_role">Realitní specialistka • Vrchlabí</div>
+                    <h3 class="team-name">Dagmar Danielisová</h3>
+                    <p class="team-bio" data-i18n="t2_bio">Pobočka REALITY Vrchlabí s.r.o. Specializace na bytové domy, apartmány v lyžařských střediscích a klientský servis pro kupující z celé ČR i zahraničí.</p>
+                    <div class="team-contacts">
+                        <a href="tel:+420777854433" class="t-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +420 777 854 433</a>
+                        <a href="mailto:d.danielisova@pkr.cz" class="t-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> d.danielisova@pkr.cz</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="kontakt">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="section-tag" data-i18n="c_tag">Napište nám</div>
+                    <h2 class="contact-title" data-i18n="c_title">Domluvte si nezávaznou konzultaci v naší kanceláři v Trutnově</h2>
+                    <p class="contact-desc" data-i18n="c_desc">Plánujete prodej nemovitosti, potřebujete znalecký posudek nebo hledáte vysněné bydlení v Krkonoších? Ozvěte se nám – rádi se vám budeme věnovat.</p>
+                    
+                    <div class="contact-cards">
+                        <div class="c-card">
+                            <div class="c-icon">📍</div>
+                            <div>
+                                <strong>Kancelář Trutnov</strong>
+                                <span>Pražská 88, 541 01 Trutnov</span>
+                            </div>
+                        </div>
+                        <div class="c-card">
+                            <div class="c-icon">🏛️</div>
+                            <div>
+                                <strong>Sídlo společnosti</strong>
+                                <span>Soukenická 1085/4, 110 00 Praha 1 - Nové Město</span>
+                            </div>
+                        </div>
+                        <div class="c-card">
+                            <div class="c-icon">📑</div>
+                            <div>
+                                <strong>Firemní údaje</strong>
+                                <span>IČ: 27462684 • DIČ: CZ27462684 • Sp. zn. C 146233 MS v Praze</span>
+                            </div>
+                        </div>
+                        <div class="c-card">
+                            <div class="c-icon">🌐</div>
+                            <div>
+                                <strong>Partnerský portál odhadů</strong>
+                                <a href="http://www.odhady-trutnov.cz" target="_blank" rel="noopener" class="c-link">www.odhady-trutnov.cz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap reveal">
+                    <form class="contact-form" id="contactForm">
+                        <h3 class="form-title" data-i18n="f_title">Nezávazná poptávka / Dotaz na nemovitost</h3>
+                        <div class="form-group">
+                            <label for="name" data-i18n="f_name">Vaše jméno a příjmení *</label>
+                            <input type="text" id="name" required placeholder="např. Jan Novák">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone" data-i18n="f_phone">Telefonní číslo *</label>
+                                <input type="tel" id="phone" required placeholder="+420 777 ... ...">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-i18n="f_email">E-mailová adresa *</label>
+                                <input type="email" id="email" required placeholder="novak@email.cz">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest" data-i18n="f_type">O co máte zájem? *</label>
+                            <select id="interest" required>
+                                <option value="Chci prodat nemovitost">Chci prodat nemovitost v Krkonoších</option>
+                                <option value="Hledám nemovitost ke koupi">Hledám nemovitost ke koupi</option>
+                                <option value="Potřebuji znalecký posudek / odhad">Potřebuji znalecký posudek / tržní odhad</option>
+                                <option value="Mám tip na nemovitost (odměna víkend)">Mám tip na nemovitost (chci víkendový pobyt)</option>
+                                <option value="Pronájem prostor">Pronájem komerčních prostor či bytu</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="msg" data-i18n="f_msg">Zpráva / Popis nemovitosti *</label>
+                            <textarea id="msg" rows="4" required placeholder="Lokalita, číslo nabídky nebo podrobnosti vašeho požadavku..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" data-i18n="f_btn">Odeslat zprávu makléři</button>
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <div class="logo-text">REALITY KRKONOŠE s.r.o.</div>
+                <p>30 let úspěšného působení na realitním trhu v Krkonoších a Podkrkonoší. Poskytujeme komplexní servis prodeje, nákupu a oceňování nemovitostí s maximální právní jistotou.</p>
+                <div class="footer-partner">
+                    <span>Odhady nemovitostí Trutnov:</span>
+                    <a href="http://www.odhady-trutnov.cz" target="_blank" rel="noopener">www.odhady-trutnov.cz</a>
+                </div>
+            </div>
+            <div class="footer-links-wrap">
+                <h4>Rychlé odkazy</h4>
+                <ul>
+                    <li><a href="#nabidka">Nabídka nemovitostí</a></li>
+                    <li><a href="#sluzby">Znalecké posudky</a></li>
+                    <li><a href="#bonus">Něco navíc pro Vás</a></li>
+                    <li><a href="#makleri">Náš tým makléřů</a></li>
+                    <li><a href="#kontakt">Kancelář Trutnov</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Kancelář & Kontakty</h4>
+                <p>Pražská 88, 541 01 Trutnov</p>
+                <p>Soukenická 1085/4, Praha 1</p>
+                <p>IČ: 27462684 | DIČ: CZ27462684</p>
+                <p>Tel: +420 777 300 093</p>
+                <p>Tel: +420 777 854 433</p>
+                <p>Email: m.danielis@pkr.cz</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <div>&copy; 2026 REALITY KRKONOŠE s.r.o. (P.K.R.) Všechna práva vyhrazena.</div>
+            <div class="footer-badge">Krkonoše • Vrchlabí • Trutnov • Praha</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
