@@ -1015,3 +1015,18 @@ input:focus, select:focus, textarea:focus {
         padding: 30px;
     }
 }
+.mapy-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #FBBF24;
+    text-decoration: none;
+    transition: color var(--transition);
+}
+.mapy-link:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
