@@ -24,18 +24,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const revealElements = document.querySelectorAll('.reveal');
+    revealElements.forEach(el => el.classList.add('visible', 'active'));
     if (revealElements.length > 0 && 'IntersectionObserver' in window) {
         const obs = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
+                    entry.target.classList.add('visible', 'active');
                     obs.unobserve(entry.target);
                 }
             });
         }, { threshold: 0.1 });
         revealElements.forEach(el => obs.observe(el));
-    } else {
-        revealElements.forEach(el => el.classList.add('visible'));
     }
 
     const statSection = document.getElementById('stats');
@@ -119,6 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    filterGallery();
+
     const lightbox = document.getElementById('lightbox');
     const lbImg = document.getElementById('lbImg');
     const lbClose = document.getElementById('lbClose');
@@ -138,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const title = btn.getAttribute('data-title');
         lbImg.src = src;
         lbImg.alt = title;
-        lightbox.classList.add('active');
+        lightbox.classList.add('active', 'open');
     }
 
     document.querySelectorAll('.btn-gal-zoom').forEach(btn => {
@@ -153,12 +154,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (lbClose) {
         lbClose.addEventListener('click', () => {
-            lightbox.classList.remove('active');
+            lightbox.classList.remove('active', 'open');
         });
     }
     if (lightbox) {
         lightbox.addEventListener('click', (e) => {
-            if (e.target === lightbox) lightbox.classList.remove('active');
+            if (e.target === lightbox) lightbox.classList.remove('active', 'open');
         });
     }
     if (lbPrev) {
