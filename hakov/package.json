@@ -1,0 +1,19 @@
+{
+  "name": "hakov-web-modern",
+  "version": "2.0.0",
+  "description": "Moderní webová prezentace společnosti HAKOV, a.s. - Čistírny odpadních vod a vodohospodářské technologie",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "hakov",
+    "čistírny odpadních vod",
+    "vodohospodářství",
+    "čov",
+    "vodní technologie"
+  ],
+  "author": "HAKOV, a.s.",
+  "license": "ISC"
+}

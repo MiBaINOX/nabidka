@@ -56,22 +56,35 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightboxImg = document.getElementById('lbImg');
     const lightboxClose = document.getElementById('lbClose');
 
+    function closeLightbox() {
+        if (lightbox) {
+            lightbox.classList.remove('active');
+        }
+        document.body.style.overflow = '';
+    }
+
     document.querySelectorAll('[data-gallery-src]').forEach(item => {
         item.addEventListener('click', () => {
             const src = item.getAttribute('data-gallery-src');
             if (lightbox && lightboxImg && src) {
                 lightboxImg.src = src;
                 lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
             }
         });
     });
 
     if (lightboxClose && lightbox) {
-        lightboxClose.addEventListener('click', () => lightbox.classList.remove('active'));
+        lightboxClose.addEventListener('click', closeLightbox);
         lightbox.addEventListener('click', (e) => {
-            if (e.target === lightbox) lightbox.classList.remove('active');
+            if (e.target === lightbox) closeLightbox();
         });
     }
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox && lightbox.classList.contains('active')) {
+            closeLightbox();
+        }
+    });
 
     const inquiryForm = document.getElementById('inquiryForm');
     const formSuccess = document.getElementById('formSuccess');

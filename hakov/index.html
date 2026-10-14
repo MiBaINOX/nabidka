@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="cs" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAKOV, a.s. | Čistírny odpadních vod a vodohospodářské technologie</title>
+  <meta name="description" content="HAKOV, a.s. - Komplexní dodávky a montáže vodohospodářských celků, čistírny odpadních vod na klíč, projektová dokumentace, elektroinstalace a řídící systémy.">
+  <meta name="keywords" content="Hakov, čistírny odpadních vod, ČOV, vodohospodářské stavby, technologie úpravy vody, elektroinstalace, MaR, SCADA">
+  <meta name="author" content="HAKOV, a.s.">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/brand/favicon.ico" type="image/x-icon">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <a href="tel:+420602585069">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          +420 602 585 069
+        </a>
+        <a href="mailto:hakov@hakov.cz">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          hakov@hakov.cz
+        </a>
+        <span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Hranice | Brno
+        </span>
+      </div>
+      <div class="top-bar-actions">
+        <span>ISO EN 9001 • ISO EN 14001 • ISO 45001</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#uvod" class="brand" title="Hakov, a.s.">
+          <img src="assets/brand/logo.png" alt="Hakov, a.s. Logo">
+        </a>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#uvod" class="nav-link active">Úvod</a></li>
+          <li><a href="#o-nas" class="nav-link">O nás</a></li>
+          <li><a href="#sluzby" class="nav-link">Služby</a></li>
+          <li><a href="#reference" class="nav-link">Reference</a></li>
+          <li><a href="#galerie" class="nav-link">Fotogalerie</a></li>
+          <li><a href="#udaje" class="nav-link">Identifikace</a></li>
+          <li><a href="#kontakty" class="nav-link">Kontakty</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <button class="theme-toggle" id="themeToggle" title="Přepnout tmavý / světlý režim" aria-label="Theme toggle">
+            <!-- Icon rendered by JS -->
+          </button>
+          <a href="#poptavka" class="btn btn-primary btn-sm">Nezávazná poptávka</a>
+          <button class="mobile-toggle" id="mobileToggle" aria-label="Mobilní menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="uvod">
+    <div class="hero-slider-bg">
+      <div class="hero-slide active"><img src="assets/slides/1.jpg" alt="Čistírna odpadních vod realizace 1"></div>
+      <div class="hero-slide"><img src="assets/slides/2.jpg" alt="Čistírna odpadních vod realizace 2"></div>
+      <div class="hero-slide"><img src="assets/slides/3.jpg" alt="Čistírna odpadních vod realizace 3"></div>
+      <div class="hero-slide"><img src="assets/slides/4.jpg" alt="Čistírna odpadních vod realizace 4"></div>
+      <div class="hero-slide"><img src="assets/slides/5.jpg" alt="Čistírna odpadních vod realizace 5"></div>
+      <div class="hero-slide"><img src="assets/slides/6.jpg" alt="Čistírna odpadních vod realizace 6"></div>
+      <div class="hero-slide"><img src="assets/slides/7.jpg" alt="Čistírna odpadních vod realizace 7"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+          Tradice & Kvalita od roku 1993
+        </div>
+        <h1 class="hero-title">
+          Špičková vodohospodářská řešení a <span>čistírny odpadních vod na klíč</span>
+        </h1>
+        <p class="hero-subtitle">
+          Společnost HAKOV, a.s. zajišťuje kompletní dodávku a montáž vodohospodářských celků – od návrhu technologie a projektové dokumentace přes strojní a elektro realizaci až po uvedení do provozu a dlouhodobý servis.
+        </p>
+        <div class="hero-cta">
+          <a href="#poptavka" class="btn btn-primary">Zadat poptávku</a>
+          <a href="#reference" class="btn btn-outline-white">Prohlédnout reference</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slider-controls">
+      <button class="slider-btn" id="slidePrev" aria-label="Předchozí snímek">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <div class="slider-dots">
+        <div class="slider-dot active"></div>
+        <div class="slider-dot"></div>
+        <div class="slider-dot"></div>
+        <div class="slider-dot"></div>
+        <div class="slider-dot"></div>
+        <div class="slider-dot"></div>
+        <div class="slider-dot"></div>
+      </div>
+      <button class="slider-btn" id="slideNext" aria-label="Další snímek">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- Stats Strip -->
+  <section class="stats-strip">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </div>
+          <div class="stat-info">
+            <div class="stat-number">30+ Let</div>
+            <div class="stat-label">Zkušeností na trhu</div>
+          </div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="stat-info">
+            <div class="stat-number">60+ Projektů</div>
+            <div class="stat-label">Dokončených referencí</div>
+          </div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </div>
+          <div class="stat-info">
+            <div class="stat-number">ISO Standard</div>
+            <div class="stat-label">9001 • 14001 • 45001</div>
+          </div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <div class="stat-info">
+            <div class="stat-number">2 Centrály</div>
+            <div class="stat-label">Hranice & Brno</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Company Profile Section -->
+  <section class="section section-alt" id="o-nas">
+    <div class="container">
+      <div class="profile-grid">
+        <div class="profile-content">
+          <div class="section-tag">O nás</div>
+          <h2 class="section-title">Komplexní partner pro <span>čištění a úpravu vod</span></h2>
+          <p>
+            Společnost <strong>HAKOV, a.s.</strong> nabízí ucelené služby v oboru čištění a úpravy vody. Hlavním oborem naší činnosti je <strong>dodávka a montáž vodohospodářských investičních celků</strong> včetně zpracování projektové dokumentace všech stupňů, komplexních zkoušek, uvedení do provozu, vedení zkušebního provozu a spolehlivého pozáručního servisu.
+          </p>
+          <p>
+            Zaměstnáváme zkušené a certifikované odborníky v oborech <strong>strojních dodávek, elektroinstalací, moderních řídících systémů a dálkového přenosu dat</strong>. Našimi klíčovými zákazníky jsou malé i střední obce, města a významné průmyslové podniky po celé České republice i na Slovensku.
+          </p>
+
+          <div class="cert-badges-list">
+            <div class="cert-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <span>ISO EN 9001 (Kvalita řízení)</span>
+            </div>
+            <div class="cert-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <span>ISO EN 14001 (Životní prostředí)</span>
+            </div>
+            <div class="cert-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <span>ISO OHSAS 18001 / 45001 (BOZP)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card-preview">
+          <img id="certPreviewImg" src="assets/cert/certifikat.jpg" alt="Oficiální certifikace HAKOV a.s." title="Kliknutím zvětšíte certifikát">
+          <p style="font-size: 0.9rem; color: var(--text-muted); font-weight: 500;">
+            🔍 Klikněte pro zobrazení certifikátů v plném rozlišení
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="sluzby">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Komplexní řešení</div>
+        <h2 class="section-title">Poskytované <span>služby a technologie</span></h2>
+        <p class="section-description">
+          Zajišťujeme celý životní cyklus vodohospodářských staveb. Od úvodní studie a projektování po finální kolaudaci, dohled a servis.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+          </div>
+          <h3 class="service-title">Návrh technologie</h3>
+          <p class="service-desc">
+            Vypracování optimálního technologického návrhu pro mechanické, biologické i chemické čištění a úpravu odpadních i pitných vod na míru lokalitě.
+          </p>
+          <ul class="service-bullets">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Hydrodynamické výpočty</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Optimalizace energetické náročnosti</li>
+          </ul>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+          </div>
+          <h3 class="service-title">Projektová dokumentace</h3>
+          <p class="service-desc">
+            Kompletní inženýring a zpracování projektové dokumentace všech stupňů – od studie přes dokumentaci pro stavební povolení až po prováděcí projekty.
+          </p>
+          <ul class="service-bullets">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Vlastní projekční kancelář Brno</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Autorizovaní inženýři ČKAIT</li>
+          </ul>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <h3 class="service-title">Strojně-technologické celky</h3>
+          <p class="service-desc">
+            Dodávka a precizní montáž provzdušňovacích systémů, čerpadel, míchadel, lapáků písku a tuků, dosazovacích nádrží a kalového hospodářství.
+          </p>
+          <ul class="service-bullets">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Nerezové a odolné materiály</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Špičkové strojírenské komponenty</li>
+          </ul>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <h3 class="service-title">Elektroinstalace & MaR</h3>
+          <p class="service-desc">
+            Silnoproudé i slaboproudé rozvody, výroba rozvaděčů, osazení měření průtoku, hladin, rozpuštěného kyslíku a automatické regulace.
+          </p>
+          <ul class="service-bullets">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Certifikovaní revizní technici</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Spolehlivé jištění a zálohování</li>
+          </ul>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <h3 class="service-title">Řídící systémy & SCADA</h3>
+          <p class="service-desc">
+            Implementace PLC systémů, dispečerských vizualizací, GSM/LTE dálkových přenosů dat a automatizovaného monitoringu v reálném čase.
+          </p>
+          <ul class="service-bullets">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Vzdálený přístup z PC i mobilu</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Alarmový a varovný systém</li>
+          </ul>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+          </div>
+          <h3 class="service-title">Zkušební provoz & Servis</h3>
+          <p class="service-desc">
+            Komplexní odzkoušení celku, zaškolení obsluhy, odborné vedení i vyhodnocení zkušebního provozu a rychlý záruční i pozáruční servis.
+          </p>
+          <ul class="service-bullets">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Pohotovostní servisní tým</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Pravidelné garanční prohlídky</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- References Section -->
+  <section class="section section-alt" id="reference">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Prověřené reference</div>
+        <h2 class="section-title">Přehled <span>dokončených staveb ČOV</span></h2>
+        <p class="section-description">
+          Prohlédněte si portfolio více než 60 úspěšně dokončených a zkolaudovaných vodohospodářských zakázek pro města, obce a průmyslové investory.
+        </p>
+      </div>
+
+      <!-- Controls (Search, Filters, View toggle) -->
+      <div class="references-controls">
+        <div class="search-input-box">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="refSearch" placeholder="Hledat podle obce, investora nebo názvu stavby...">
+        </div>
+
+        <div class="filter-tags-group">
+          <button class="filter-btn active" data-filter="all">Všechny stavby</button>
+          <button class="filter-btn" data-filter="intensification">Intenzifikace & Rekonstrukce</button>
+          <button class="filter-btn" data-filter="municipal">Obecní ČOV</button>
+          <button class="filter-btn" data-filter="industry">Průmyslové ČOV</button>
+          <button class="filter-btn" data-filter="sludge">Odvodnění kalů</button>
+        </div>
+
+        <div class="view-mode-toggle">
+          <button class="view-btn active" id="viewGridBtn" title="Karty">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          </button>
+          <button class="view-btn" id="viewTableBtn" title="Tabulka">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--text-muted); font-weight: 600;" id="refCount">
+        Načítání referencí...
+      </div>
+
+      <!-- Grid container -->
+      <div class="ref-grid" id="refGridContainer">
+        <!-- Rendered via JS -->
+      </div>
+
+      <!-- Table container (Hidden by default) -->
+      <div class="ref-table-wrapper" id="refTableWrapper" style="display: none;">
+        <table class="ref-table">
+          <thead>
+            <tr>
+              <th>Název zakázky</th>
+              <th>Lokalita</th>
+              <th>Objednatel</th>
+              <th>Dokončení</th>
+            </tr>
+          </thead>
+          <tbody id="refTableBody">
+            <!-- Rendered via JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery Section -->
+  <section class="section" id="galerie">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Fotodokumentace</div>
+        <h2 class="section-title">Fotogalerie <span>realizovaných technologií</span></h2>
+        <p class="section-description">
+          Ukázky strojních celků, aktivačních i dosazovacích nádrží, kalového hospodářství a řídících technologií v reálném provozu.
+        </p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Identification Data Section -->
+  <section class="section section-alt" id="udaje">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Fakturační a právní údaje</div>
+        <h2 class="section-title">Identifikační <span>údaje společnosti</span></h2>
+      </div>
+
+      <div class="info-cards-grid">
+        <!-- Card 1: Billing Data -->
+        <div class="info-card">
+          <h3>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+            Obchodní a bankovní údaje
+          </h3>
+          <div class="company-data-table">
+            <div class="data-row">
+              <span class="data-label">Obchodní jméno:</span>
+              <span class="data-val">Hakov, a.s.</span>
+            </div>
+            <div class="data-row">
+              <span class="data-label">Sídlo / Fakturace:</span>
+              <span class="data-val">K Nádraží 256, 753 61 Hranice IV</span>
+            </div>
+            <div class="data-row">
+              <span class="data-label">IČ:</span>
+              <span class="data-val">
+                48392855
+                <button class="copy-btn" data-copy="48392855" title="Kopírovat IČ">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </span>
+            </div>
+            <div class="data-row">
+              <span class="data-label">DIČ:</span>
+              <span class="data-val">
+                CZ48392855
+                <button class="copy-btn" data-copy="CZ48392855" title="Kopírovat DIČ">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </span>
+            </div>
+            <div class="data-row">
+              <span class="data-label">Bankovní spojení:</span>
+              <span class="data-val">ČSOB a.s. pobočka Hranice</span>
+            </div>
+            <div class="data-row">
+              <span class="data-label">Číslo účtu:</span>
+              <span class="data-val">
+                188669127/0300
+                <button class="copy-btn" data-copy="188669127/0300" title="Kopírovat číslo účtu">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </span>
+            </div>
+            <div class="data-row">
+              <span class="data-label">Obchodní rejstřík:</span>
+              <span class="data-val">Krajský soud Ostrava, oddíl B, vložka 10147</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Legal Scope -->
+        <div class="info-card">
+          <h3>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+            Předmět podnikání dle živnostenského rejstříku
+          </h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 1.2rem; margin-top: 1rem;">
+            <li style="display: flex; align-items: flex-start; gap: 0.75rem;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <div>
+                <strong>Provádění staveb, jejich změn a odstraňování</strong>
+                <p style="font-size: 0.88rem; color: var(--text-muted);">Kompletní stavební a technologické realizace vodohospodářských celků.</p>
+              </div>
+            </li>
+            <li style="display: flex; align-items: flex-start; gap: 0.75rem;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <div>
+                <strong>Projektová činnost ve výstavbě</strong>
+                <p style="font-size: 0.88rem; color: var(--text-muted);">Autorizované inženýrské a technologické projekční práce.</p>
+              </div>
+            </li>
+            <li style="display: flex; align-items: flex-start; gap: 0.75rem;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <div>
+                <strong>Výroba, obchod a služby neuvedené v přílohách 1 až 3 živnostenského zákona</strong>
+                <p style="font-size: 0.88rem; color: var(--text-muted);">Zprostředkování, dodávky komponent, servis a technické poradenství.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts & Team Section -->
+  <section class="section" id="kontakty">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Spojte se s námi</div>
+        <h2 class="section-title">Kontakty a <span>naše pobočky</span></h2>
+        <p class="section-description">
+          Jsme vám k dispozici na dvou strategických pracovištích v Hranicích a Brně.
+        </p>
+      </div>
+
+      <!-- Branch Selection Tabs -->
+      <div class="branch-tabs">
+        <button class="branch-tab-btn active" data-branch="hranice">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Sídlo společnosti – Hranice
+        </button>
+        <button class="branch-tab-btn" data-branch="brno">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Pobočka Brno – Projekce
+        </button>
+      </div>
+
+      <!-- Branch 1: Hranice -->
+      <div class="branch-panel active" id="panel-hranice">
+        <div class="branch-layout">
+          <div class="branch-info-box">
+            <h4>HAKOV, a.s. – Sídlo Hranice</h4>
+            <div class="branch-address">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>K Nádraží 256, Hranice IV – Drahotuše, PSČ 753 61</span>
+            </div>
+            <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.6;">
+              Vedení společnosti, výrobní zázemí, skladové hospodářství, technická příprava a servisní výjezdové středisko.
+            </p>
+            <div class="map-embed">
+              <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=17.680%2C49.548%2C17.692%2C49.558&amp;layer=mapnik&amp;marker=49.553194%2C17.686210" loading="lazy"></iframe>
+            </div>
+            <div style="display: flex; gap: 0.75rem; margin-top: 0.85rem; flex-wrap: wrap;">
+              <a href="https://mapy.cz/zakladni?q=K%20N%C3%A1dra%C5%BE%C3%AD%20256%2C%20Hranice%20IV-Drahotu%C5%A1e" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="flex: 1; min-width: 140px; font-size: 0.8rem;">
+                🗺️ Otevřít na Mapy.cz
+              </a>
+              <a href="https://www.google.com/maps/search/?api=1&query=49.553194,17.686210" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="flex: 1; min-width: 140px; font-size: 0.8rem;">
+                📍 Google Mapy
+              </a>
+            </div>
+          </div>
+
+          <div class="team-grid">
+            <div class="team-card">
+              <div class="team-avatar">DH</div>
+              <div class="team-info">
+                <div class="team-name">Ing. Dušan Haluzík</div>
+                <div class="team-role">Předseda správní rady</div>
+                <div class="team-links">
+                  <a href="tel:+420602585069">📞 602 585 069</a>
+                  <a href="mailto:haluzik@hakov.cz">✉️ haluzik@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">JS</div>
+              <div class="team-info">
+                <div class="team-name">Ing. Jan Svoboda</div>
+                <div class="team-role">Ředitel výroby</div>
+                <div class="team-links">
+                  <a href="tel:+420602504734">📞 602 504 734</a>
+                  <a href="mailto:svoboda@hakov.cz">✉️ svoboda@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">ES</div>
+              <div class="team-info">
+                <div class="team-name">Erika Stáhalová</div>
+                <div class="team-role">Asistentka</div>
+                <div class="team-links">
+                  <a href="tel:+420702148793">📞 702 148 793</a>
+                  <a href="mailto:stahalova@hakov.cz">✉️ stahalova@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">MH</div>
+              <div class="team-info">
+                <div class="team-name">Michaela Holoubková</div>
+                <div class="team-role">Hlavní účetní</div>
+                <div class="team-links">
+                  <a href="tel:+420607779369">📞 607 779 369</a>
+                  <a href="mailto:holoubkova@hakov.cz">✉️ holoubkova@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">LB</div>
+              <div class="team-info">
+                <div class="team-name">Lukáš Bednář</div>
+                <div class="team-role">Příprava materiálu – sklad</div>
+                <div class="team-links">
+                  <a href="tel:+420607026318">📞 607 026 318</a>
+                  <a href="mailto:bednar@hakov.cz">✉️ bednar@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">VH</div>
+              <div class="team-info">
+                <div class="team-name">Vladimír Holoubek</div>
+                <div class="team-role">Příprava materiálu – servis</div>
+                <div class="team-links">
+                  <a href="tel:+420702153794">📞 702 153 794</a>
+                  <a href="mailto:holoubek@hakov.cz">✉️ holoubek@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Branch 2: Brno -->
+      <div class="branch-panel" id="panel-brno">
+        <div class="branch-layout">
+          <div class="branch-info-box">
+            <h4>HAKOV, a.s. – Pobočka Brno</h4>
+            <div class="branch-address">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Jugoslávská 102, 613 00 Brno</span>
+            </div>
+            <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.6;">
+              Projekční a inženýrské centrum, technologické návrhy, výpočty a konzultace vodohospodářských projektů.
+            </p>
+            <div class="map-embed">
+              <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=16.618%2C49.206%2C16.628%2C49.214&amp;layer=mapnik&amp;marker=49.210311%2C16.622902" loading="lazy"></iframe>
+            </div>
+            <div style="display: flex; gap: 0.75rem; margin-top: 0.85rem; flex-wrap: wrap;">
+              <a href="https://mapy.cz/zakladni?q=Jugosl%C3%A1vsk%C3%A1%20102%2C%20Brno" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="flex: 1; min-width: 140px; font-size: 0.8rem;">
+                🗺️ Otevřít na Mapy.cz
+              </a>
+              <a href="https://www.google.com/maps/search/?api=1&query=49.210311,16.622902" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="flex: 1; min-width: 140px; font-size: 0.8rem;">
+                📍 Google Mapy
+              </a>
+            </div>
+          </div>
+
+          <div class="team-grid">
+            <div class="team-card">
+              <div class="team-avatar">LR</div>
+              <div class="team-info">
+                <div class="team-name">Ing. Ladislav Režňák</div>
+                <div class="team-role">Místopředseda správní rady</div>
+                <div class="team-links">
+                  <a href="tel:+420724150516">📞 724 150 516</a>
+                  <a href="mailto:reznak@hakov.cz">✉️ reznak@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">VŠ</div>
+              <div class="team-info">
+                <div class="team-name">Ing. Vlasta Švestková</div>
+                <div class="team-role">Projektový inženýr</div>
+                <div class="team-links">
+                  <a href="tel:+420602765034">📞 602 765 034</a>
+                  <a href="mailto:svestkova@hakov.cz">✉️ svestkova@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">BV</div>
+              <div class="team-info">
+                <div class="team-name">Ing. Bohdan Vlasák</div>
+                <div class="team-role">Projektový inženýr</div>
+                <div class="team-links">
+                  <a href="tel:+420602585074">📞 602 585 074</a>
+                  <a href="mailto:vlasak@hakov.cz">✉️ vlasak@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">JK</div>
+              <div class="team-info">
+                <div class="team-name">Ing. Jiří Kozelský</div>
+                <div class="team-role">Technolog / Inženýr</div>
+                <div class="team-links">
+                  <a href="tel:+420606606920">📞 606 606 920</a>
+                  <a href="mailto:kozelsky@hakov.cz">✉️ kozelsky@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">MJ</div>
+              <div class="team-info">
+                <div class="team-name">Ing. Marie Janišová</div>
+                <div class="team-role">Projektový inženýr</div>
+                <div class="team-links">
+                  <a href="tel:+420602270035">📞 602 270 035</a>
+                  <a href="mailto:janisova@hakov.cz">✉️ janisova@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-card">
+              <div class="team-avatar">JB</div>
+              <div class="team-info">
+                <div class="team-name">Ing. Jiří Březina</div>
+                <div class="team-role">Technolog / Inženýr</div>
+                <div class="team-links">
+                  <a href="tel:+420722953963">📞 722 953 963</a>
+                  <a href="mailto:brezina@hakov.cz">✉️ brezina@hakov.cz</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inquiry Contact Form Section -->
+      <div class="contact-form-section" id="poptavka">
+        <div style="text-align: center; max-width: 650px; margin: 0 auto 2.5rem;">
+          <h3 style="font-size: 2rem; font-weight: 800; margin-bottom: 0.8rem; color: #ffffff;">Máte zájem o spolupráci či cenovou nabídku?</h3>
+          <p style="color: #cbd5e1; font-size: 1.05rem;">
+            Vyplňte níže uvedený formulář a naši specialisté vás budou neprodleně kontaktovat s nezávaznou konzultací.
+          </p>
+        </div>
+
+        <form id="inquiryForm" class="form-grid">
+          <div class="form-group">
+            <label for="formName">Jméno a příjmení / Společnost *</label>
+            <input type="text" id="formName" class="form-control" placeholder="např. Ing. Pavel Novák, Obec Horní Lhota" required>
+          </div>
+          <div class="form-group">
+            <label for="formEmail">E-mailová adresa *</label>
+            <input type="email" id="formEmail" class="form-control" placeholder="vas-email@domena.cz" required>
+          </div>
+          <div class="form-group">
+            <label for="formPhone">Telefonní číslo</label>
+            <input type="tel" id="formPhone" class="form-control" placeholder="+420 123 456 789">
+          </div>
+          <div class="form-group">
+            <label for="formService">Typ poptávané služby</label>
+            <select id="formService" class="form-control" style="background: #0f172a; color: #ffffff;">
+              <option value="cov-nova">Nová čistírna odpadních vod (ČOV na klíč)</option>
+              <option value="intenzifikace">Intenzifikace / Rekonstrukce stávající ČOV</option>
+              <option value="projekce">Projektová dokumentace & Inženýring</option>
+              <option value="strojni">Strojní technologie a kalové hospodářství</option>
+              <option value="elektro">Elektroinstalace, MaR a SCADA</option>
+              <option value="servis">Servis a zkušební provoz</option>
+              <option value="jine">Jiné / Obecný dotaz</option>
+            </select>
+          </div>
+          <div class="form-group full">
+            <label for="formMsg">Podrobnější popis projektu či dotaz *</label>
+            <textarea id="formMsg" class="form-control" rows="4" placeholder="Popište lokalitu, kapacitu EO (ekvivalentních obyvatel) nebo požadovaný rozsah dodávky..." required></textarea>
+          </div>
+          <div class="form-group full" style="text-align: center; margin-top: 1rem;">
+            <button type="submit" class="btn btn-primary" style="padding: 0.9rem 2.8rem; font-size: 1.1rem;">
+              Odeslat poptávku
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Corporate Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <img src="assets/brand/logomini.png" alt="Hakov logo" style="height: 38px;">
+            <span style="color: #ffffff; font-weight: 800; font-size: 1.3rem;">HAKOV, a.s.</span>
+          </div>
+          <p>
+            Tradiční a prověřený dodavatel vodohospodářských investičních celků, čistíren odpadních vod, automatizačních systémů a moderních ekologických technologií.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Rychlé odkazy</h5>
+          <ul class="footer-links">
+            <li><a href="#uvod">Úvod</a></li>
+            <li><a href="#o-nas">O nás</a></li>
+            <li><a href="#sluzby">Služby a technologie</a></li>
+            <li><a href="#reference">Reference</a></li>
+            <li><a href="#galerie">Fotogalerie</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Pobočky</h5>
+          <ul class="footer-links">
+            <li><a href="#kontakty">Sídlo Hranice</a></li>
+            <li><a href="#kontakty">Pobočka Brno</a></li>
+            <li><a href="#udaje">Identifikační údaje</a></li>
+            <li><a href="#poptavka">Poptávkový formulář</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Kontakt</h5>
+          <p style="margin-bottom: 0.5rem; color: #cbd5e1;"><strong>Centrála Hranice:</strong></p>
+          <p style="font-size: 0.9rem; margin-bottom: 0.8rem;">K Nádraží 256, 753 61 Hranice</p>
+          <p style="font-size: 0.9rem;">Tel: <a href="tel:+420602585069" style="color: #38bdf8;">+420 602 585 069</a></p>
+          <p style="font-size: 0.9rem;">E-mail: <a href="mailto:hakov@hakov.cz" style="color: #38bdf8;">hakov@hakov.cz</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> Hakov, a.s. Všechna práva vyhrazena.
+        </div>
+        <div>
+          Moderní prezentace vodohospodářských technologií
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal Container -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Zavřít">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Předchozí obrázek">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Další obrázek">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+
+    <div class="lightbox-content">
+      <div class="lightbox-img-wrapper">
+        <img class="lightbox-img" id="lightboxImg" src="" alt="Náhled fotografie">
+      </div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/data.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
