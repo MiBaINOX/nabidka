@@ -163,7 +163,7 @@ img {
     gap: 24px;
 }
 
-.nav-links a {
+.nav-links a:not(.btn) {
     font-weight: 600;
     font-size: 0.92rem;
     color: var(--text);
@@ -261,14 +261,18 @@ img {
     color: var(--secondary);
 }
 
+.nav-links a.btn-nav,
 .btn-nav {
-    padding: 11px 40px;
-    min-width: 145px;
+    padding: 12px 52px !important;
+    min-width: 175px !important;
     font-size: 0.95rem;
+    font-weight: 700;
     text-align: center;
     display: inline-flex;
+    align-items: center;
     justify-content: center;
     white-space: nowrap;
+    box-sizing: border-box;
 }
 
 .btn-block {
