@@ -98,33 +98,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const propModalClose = document.getElementById('propModalClose');
     const propModalContent = document.getElementById('propModalContent');
 
-    document.querySelectorAll('.btn-open-modal').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const propId = btn.getAttribute('data-prop-id');
-            openPropertyModal(propId);
-        });
-    });
+    function getDatabase() {
+        if (typeof window !== 'undefined' && window.PKR_DATABASE && Array.isArray(window.PKR_DATABASE)) {
+            return window.PKR_DATABASE;
+        }
+        if (typeof PKR_DATABASE !== 'undefined' && Array.isArray(PKR_DATABASE)) {
+            return PKR_DATABASE;
+        }
+        return [];
+    }
 
-    document.querySelectorAll('.btn-inquire-quick').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const propId = btn.getAttribute('data-inquire-id');
-            const propTitle = btn.getAttribute('data-inquire-title');
-            const msgEl = document.getElementById('msg');
-            if (msgEl) {
-                msgEl.value = 'Dobrý den, mám zájem o bližší informace k nabídce č. ' + propId + ' (' + propTitle + ').';
-                msgEl.focus();
-            }
-        });
-    });
+    function closeModal() {
+        if (propModal) {
+            propModal.classList.remove('active');
+        }
+        document.body.style.overflow = '';
+    }
 
     function openPropertyModal(id) {
-        if (!window.PKR_DATABASE) return;
-        const prop = window.PKR_DATABASE.find(p => p.id === id);
+        const db = getDatabase();
+        const prop = db.find(p => String(p.id) === String(id));
         if (!prop) return;
 
         const ribbonCls = prop.mode === 'prodej' ? 'ribbon-sale' : 'ribbon-rent';
         const ribbonTxt = prop.mode === 'prodej' ? 'PRODEJ' : 'PRONÁJEM';
-        const photos = prop.saved_photos && prop.saved_photos.length ? prop.saved_photos : ['filename_17058.jpg'];
+        const photos = prop.photos && prop.photos.length ? prop.photos : (prop.saved_photos && prop.saved_photos.length ? prop.saved_photos : ['filename_17058.jpg']);
         const mainPhoto = 'images/' + photos[0];
 
         let thumbsHtml = '';
@@ -141,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const mapQuery = encodeURIComponent(prop.location);
-        const mapUrl = `https://mapy.cz/zakladni?q=${mapQuery}`;
+        const mapUrl = 'https://mapy.cz/zakladni?q=' + mapQuery;
 
         propModalContent.innerHTML = `
             <div class="modal-header-hero">
@@ -154,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="modal-body">
                 <div class="modal-meta-top">
                     <span class="badge-ribbon ${ribbonCls}" style="position:static;">${ribbonTxt}</span>
-                    <span class="listing-id" style="position:static;">č. zakázky ${prop.id}</span>
+                    <span class="listing-id" style="position:static;">číslo nabídky: ${prop.id}</span>
                     <span style="font-weight:700; color:var(--primary); font-size:0.85rem;">${prop.type_label}</span>
                 </div>
                 <h2 class="modal-title">${prop.title}</h2>
@@ -166,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>${prop.desc.replace(/\n\n/g, '</p><p>').replace(/\n/g, '<br>')}</p>
                     </div>
                     <div class="modal-specs-col">
-                        <h4>Parametry a parametry zakázky</h4>
+                        <h4>Parametry a specifikace nabídky</h4>
                         <table class="modal-specs-table">
                             ${specsHtml}
                         </table>
@@ -180,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <div class="modal-actions">
                     <a href="#kontakt" class="btn btn-primary modal-inquire-btn" data-inquire-id="${prop.id}">Poptat tuto nemovitost makléři →</a>
-                    <button type="button" class="btn btn-secondary modal-close-action">Zavřít kartu nemovitosti</button>
+                    <button type="button" class="btn btn-secondary modal-close-action">Zavřít kartu nabídky</button>
                 </div>
             </div>
         `;
@@ -197,28 +195,61 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.querySelectorAll('.modal-inquire-btn').forEach(btn => {
             btn.addEventListener('click', () => {
-                propModal.classList.remove('active');
+                closeModal();
                 const msgEl = document.getElementById('msg');
                 if (msgEl) {
-                    msgEl.value = 'Dobrý den, mám zájem o prohlídku nemovitosti č. ' + prop.id + ' (' + prop.title + ').';
+                    msgEl.value = 'Dobrý den, mám zájem o prohlídku nabídky č. ' + prop.id + ' (' + prop.title + ').';
                     msgEl.focus();
                 }
             });
         });
 
         document.querySelectorAll('.modal-close-action').forEach(btn => {
-            btn.addEventListener('click', () => propModal.classList.remove('active'));
+            btn.addEventListener('click', closeModal);
         });
 
         propModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
     }
 
-    if (propModalClose && propModal) {
-        propModalClose.addEventListener('click', () => propModal.classList.remove('active'));
+    document.querySelectorAll('.listing-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+            if (e.target.closest('.btn-inquire-quick')) {
+                return;
+            }
+            const propId = card.getAttribute('data-id');
+            if (propId) {
+                openPropertyModal(propId);
+            }
+        });
+    });
+
+    document.querySelectorAll('.btn-inquire-quick').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const propId = btn.getAttribute('data-inquire-id');
+            const propTitle = btn.getAttribute('data-inquire-title');
+            const msgEl = document.getElementById('msg');
+            if (msgEl) {
+                msgEl.value = 'Dobrý den, mám zájem o bližší informace k nabídce č. ' + propId + ' (' + propTitle + ').';
+                msgEl.focus();
+            }
+        });
+    });
+
+    if (propModalClose) {
+        propModalClose.addEventListener('click', closeModal);
+    }
+    if (propModal) {
         propModal.addEventListener('click', (e) => {
-            if (e.target === propModal) propModal.classList.remove('active');
+            if (e.target === propModal) closeModal();
         });
     }
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && propModal && propModal.classList.contains('active')) {
+            closeModal();
+        }
+    });
 
     const contactForm = document.getElementById('contactForm');
     const formStatus = document.getElementById('formStatus');

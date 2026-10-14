@@ -453,6 +453,7 @@ img {
     transition: var(--transition);
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .listing-card:hover {
