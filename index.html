@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Přehled nabídek moderních webů – Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: 'Inter', sans-serif; background: #0F172A; color: #F8FAFC; line-height: 1.6; padding: 48px 24px; }
-        .container { max-width: 1200px; margin: 0 auto; }
+        .container { max-width: 1360px; margin: 0 auto; }
         .header { text-align: center; margin-bottom: 56px; }
-        .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 2.5rem; margin-bottom: 12px; color: #FFFFFF; }
-        .header p { color: #94A3B8; font-size: 1.1rem; max-width: 750px; margin: 0 auto; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 28px; }
-        .card { background: #1E293B; border-radius: 16px; border: 1px solid #334155; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s ease, border-color 0.3s ease; }
-        .card:hover { transform: translateY(-6px); border-color: #3B82F6; }
+        .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 2.6rem; margin-bottom: 14px; color: #FFFFFF; letter-spacing: -0.02em; }
+        .header p { color: #94A3B8; font-size: 1.15rem; max-width: 820px; margin: 0 auto; }
+        .stats-summary { display: flex; justify-content: center; gap: 32px; margin-top: 24px; flex-wrap: wrap; }
+        .summary-badge { background: rgba(255, 255, 255, 0.06); padding: 8px 18px; border-radius: 50px; font-size: 0.9rem; font-weight: 600; color: #38BDF8; border: 1px solid rgba(56, 189, 248, 0.25); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 28px; }
+        .card { background: #1E293B; border-radius: 16px; border: 1px solid #334155; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; }
+        .card:hover { transform: translateY(-6px); border-color: #38BDF8; box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.5); }
         .card-thumb { height: 210px; background: #0A0F1D; position: relative; overflow: hidden; }
         .card-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
-        .card-badge { position: absolute; top: 14px; left: 14px; background: rgba(15, 23, 42, 0.9); color: #38BDF8; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3); }
+        .card-badge { position: absolute; top: 14px; left: 14px; background: rgba(15, 23, 42, 0.92); backdrop-filter: blur(6px); color: #38BDF8; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3); }
         .card-lang { position: absolute; top: 14px; right: 14px; background: #2563EB; color: #FFFFFF; font-size: 0.72rem; font-weight: 800; padding: 4px 8px; border-radius: 6px; }
         .card-body { padding: 24px; display: flex; flex-direction: column; flex-grow: 1; }
-        .card-title { font-size: 1.3rem; font-weight: 800; margin-bottom: 8px; color: #FFFFFF; }
+        .card-title { font-size: 1.25rem; font-weight: 800; margin-bottom: 8px; color: #FFFFFF; line-height: 1.3; }
         .card-meta { font-size: 0.82rem; color: #94A3B8; margin-bottom: 16px; }
         .card-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; margin-top: auto; }
         .card-badges span { background: rgba(255,255,255,0.06); color: #E2E8F0; font-size: 0.75rem; font-weight: 600; padding: 4px 10px; border-radius: 6px; }
@@ -32,6 +36,7 @@
         .btn-old:hover { background: #475569; color: #FFFFFF; border-color: #64748B; }
         .btn-pdf { grid-column: 1 / -1; background: rgba(56, 189, 248, 0.1); color: #38BDF8; border: 1px solid rgba(56, 189, 248, 0.3); }
         .btn-pdf:hover { background: rgba(56, 189, 248, 0.22); color: #FFFFFF; border-color: #38BDF8; }
+        .footer-portfolio { margin-top: 60px; text-align: center; color: #64748B; font-size: 0.9rem; border-top: 1px solid #334155; padding-top: 28px; }
     </style>
 </head>
 <body>
@@ -39,8 +44,14 @@
         <div class="header">
             <h1>Přehled modernizací webových stránek</h1>
             <p>Hotové, 100% responzivní webové prezentace s reálnými daty, fotografiemi, animacemi a přímým srovnáním s původním webem firmy.</p>
+            <div class="stats-summary">
+                <span class="summary-badge">Celkem zpracováno: 26 firem</span>
+                <span class="summary-badge">Moravskoslezský kraj</span>
+                <span class="summary-badge">100% Bezpečnost & HTTPS</span>
+            </div>
         </div>
         <div class="grid">
+
             <div class="card">
                 <div class="card-thumb">
                     <img src="kotas/screenshots/screen_desktop.jpg" alt="K.o.T.a.S, spol. s r.o.">
@@ -51,9 +62,7 @@
                     <h2 class="card-title">K.o.T.a.S, spol. s r.o.</h2>
                     <div class="card-meta">IČO: 00560235 • Třinec • od roku 1990</div>
                     <div class="card-badges">
-                        <span>✓ Vícejazyčný přepínač</span>
-                        <span>✓ Kompletní katalog</span>
-                        <span>✓ Mapa na Mapy.cz</span>
+                        <span>✓ Vícejazyčný přepínač</span><span>✓ Kompletní katalog</span><span>✓ Mapa na Mapy.cz</span>
                     </div>
                     <div class="card-actions">
                         <a href="kotas/" class="btn btn-web">🌐 Otevřít nový web</a>
@@ -62,19 +71,17 @@
                     </div>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-thumb">
                     <img src="revize-bagru/screenshots/screen_desktop.jpg" alt="REVIZE BAGRU s.r.o.">
                     <span class="card-badge">Revize & školení mechanizace</span>
+                    
                 </div>
                 <div class="card-body">
                     <h2 class="card-title">REVIZE BAGRU s.r.o.</h2>
                     <div class="card-meta">IČO: 01719980 • Ostrava & celá ČR</div>
                     <div class="card-badges">
-                        <span>✓ Technické kontroly & kurzy</span>
-                        <span>✓ Školící středisko</span>
-                        <span>✓ Odkaz na Mapy.cz</span>
+                        <span>✓ Technické kontroly & kurzy</span><span>✓ Školící středisko</span><span>✓ Odkaz na Mapy.cz</span>
                     </div>
                     <div class="card-actions">
                         <a href="revize-bagru/" class="btn btn-web">🌐 Otevřít nový web</a>
@@ -83,19 +90,17 @@
                     </div>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-thumb">
                     <img src="reality-pkr/screenshots/screen_desktop.jpg" alt="P.K.R. s.r.o. (REALITY KRKONOŠE)">
                     <span class="card-badge">Prémiové horské reality & Znalecká kancelář</span>
+                    
                 </div>
                 <div class="card-body">
                     <h2 class="card-title">P.K.R. s.r.o. (REALITY KRKONOŠE)</h2>
                     <div class="card-meta">IČO: 27462684 • Trutnov & Vrchlabí • od roku 1994</div>
                     <div class="card-badges">
-                        <span>✓ Původní horské panorama</span>
-                        <span>✓ Katalog Prodej / Pronájem</span>
-                        <span>✓ Znalecké odhady & Mapy.cz</span>
+                        <span>✓ Původní horské panorama</span><span>✓ Katalog Prodej / Pronájem</span><span>✓ Znalecké odhady & Mapy.cz</span>
                     </div>
                     <div class="card-actions">
                         <a href="reality-pkr/" class="btn btn-web">🌐 Otevřít nový web</a>
@@ -104,19 +109,17 @@
                     </div>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-thumb">
                     <img src="stavebnictvi-skorvaga/screenshots/screen_desktop.jpg" alt="Štefan Škorvaga s.r.o.">
                     <span class="card-badge">Zateplení, fasády & domy</span>
+                    
                 </div>
                 <div class="card-body">
                     <h2 class="card-title">Štefan Škorvaga s.r.o.</h2>
                     <div class="card-meta">IČO: 29393698 • Ostrava • 20+ let praxe</div>
                     <div class="card-badges">
-                        <span>✓ Archiv staveb podle let</span>
-                        <span>✓ Průběhy staveb (fáze)</span>
-                        <span>✓ Kancelář na Mapy.cz</span>
+                        <span>✓ Archiv staveb podle let</span><span>✓ Průběhy staveb (fáze)</span><span>✓ Kancelář na Mapy.cz</span>
                     </div>
                     <div class="card-actions">
                         <a href="stavebnictvi-skorvaga/" class="btn btn-web">🌐 Otevřít nový web</a>
@@ -125,19 +128,17 @@
                     </div>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-thumb">
                     <img src="vv-saveko/screenshots/screen_desktop.jpg" alt="V+V SAVEKO s.r.o.">
                     <span class="card-badge">Inženýrské sítě & infrastruktura</span>
+                    
                 </div>
                 <div class="card-body">
                     <h2 class="card-title">V+V SAVEKO s.r.o.</h2>
                     <div class="card-meta">IČO: 25818881 • Kopřivnice / Nový Jičín</div>
                     <div class="card-badges">
-                        <span>✓ Strojní vybavení</span>
-                        <span>✓ ISO 9001 certifikace</span>
-                        <span>✓ Mapa areálu</span>
+                        <span>✓ Strojní vybavení</span><span>✓ ISO 9001 certifikace</span><span>✓ Mapa areálu</span>
                     </div>
                     <div class="card-actions">
                         <a href="vv-saveko/" class="btn btn-web">🌐 Otevřít nový web</a>
@@ -146,21 +147,17 @@
                     </div>
                 </div>
             </div>
-
             <div class="card">
                 <div class="card-thumb">
                     <img src="hakov/screenshots/screen_desktop.jpg" alt="HAKOV, a.s.">
                     <span class="card-badge">Čistírny odpadních vod & technologie</span>
-                    <span class="card-lang" style="background: #0284C7;">ISO 9001 • 14001</span>
+                    <span class="card-lang">ISO 9001 • 14001</span>
                 </div>
                 <div class="card-body">
                     <h2 class="card-title">HAKOV, a.s.</h2>
                     <div class="card-meta">IČO: 48392855 • Hranice & Brno • od roku 1993</div>
                     <div class="card-badges">
-                        <span>✓ 62+ referenčních staveb</span>
-                        <span>✓ Ostrá fotogalerie ČOV</span>
-                        <span>✓ Centrála Hranice & Brno</span>
-                        <span>✓ Fulltext vyhledávání</span>
+                        <span>✓ 62+ referenčních staveb</span><span>✓ Ostrá fotogalerie ČOV</span><span>✓ Centrála Hranice & Brno</span><span>✓ Fulltext vyhledávání</span>
                     </div>
                     <div class="card-actions">
                         <a href="hakov/" class="btn btn-web">🌐 Otevřít nový web</a>
@@ -169,6 +166,389 @@
                     </div>
                 </div>
             </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="joros/screenshots/screen_desktop.jpg" alt="JOROS s.r.o.">
+                    <span class="card-badge">Generální dodávky staveb</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">JOROS s.r.o.</h2>
+                    <div class="card-meta">IČO: 27775402 • Ostrava - Kunčice</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="joros/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://joros.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_joros.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="s4-stavebni/screenshots/screen_desktop.jpg" alt="S4-Stavební, s.r.o.">
+                    <span class="card-badge">Projektování a výstavba investičních celků</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">S4-Stavební, s.r.o.</h2>
+                    <div class="card-meta">IČO: 27804321 • Ostrava - Krásné Pole</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="s4-stavebni/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://s4stavebni.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_s4-stavebni.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="arktis-servis/screenshots/screen_desktop.jpg" alt="Arktis Servis, s.r.o.">
+                    <span class="card-badge">Prodej</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Arktis Servis, s.r.o.</h2>
+                    <div class="card-meta">IČO: 06576443 • Ostrava - Hrabůvka</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="arktis-servis/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://arktis-servis.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_arktis-servis.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="geosta-ostrava/screenshots/screen_desktop.jpg" alt="GEOSTA Ostrava s.r.o.">
+                    <span class="card-badge">Inženýrskogeologický průzkum</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">GEOSTA Ostrava s.r.o.</h2>
+                    <div class="card-meta">IČO: 00575321 • Ostrava - Mariánské Hory</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="geosta-ostrava/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://geosta.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_geosta-ostrava.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="sts-sluzby-kravare/screenshots/screen_desktop.jpg" alt="STS - služby Kravaře spol. s r.o.">
+                    <span class="card-badge">Přesné strojní obrábění</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">STS - služby Kravaře spol. s r.o.</h2>
+                    <div class="card-meta">IČO: 47682175 • Kravaře</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="sts-sluzby-kravare/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://stssluzby.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_sts-sluzby-kravare.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="chlazeni-servis/screenshots/screen_desktop.jpg" alt="CHLAZENÍ servis s.r.o.">
+                    <span class="card-badge">Dodávka</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">CHLAZENÍ servis s.r.o.</h2>
+                    <div class="card-meta">IČO: 26830507 • Opava</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="chlazeni-servis/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://chlazeniservis.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_chlazeni-servis.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="t-dex/screenshots/screen_desktop.jpg" alt="T-DEX, s.r.o.">
+                    <span class="card-badge">Dopravní a pozemní stavby</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">T-DEX, s.r.o.</h2>
+                    <div class="card-meta">IČO: 25898141 • Třinec - Oldřichovice</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="t-dex/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://t-dex.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_t-dex.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="stadakor/screenshots/screen_desktop.jpg" alt="STADAKOR s.r.o.">
+                    <span class="card-badge">Výstavba rodinných domů</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">STADAKOR s.r.o.</h2>
+                    <div class="card-meta">IČO: 26845342 • Frýdek-Místek</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="stadakor/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://stadakor.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_stadakor.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="trinecka-stavebni/screenshots/screen_desktop.jpg" alt="Třinecká Stavební s.r.o.">
+                    <span class="card-badge">Stavby s důrazem na kvalitu</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Třinecká Stavební s.r.o.</h2>
+                    <div class="card-meta">IČO: 03886733 • Třinec</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="trinecka-stavebni/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://trineckastavebni.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_trinecka-stavebni.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="dagett66/screenshots/screen_desktop.jpg" alt="DAGETT 66, s.r.o.">
+                    <span class="card-badge">Přesné CNC obrábění kovů</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">DAGETT 66, s.r.o.</h2>
+                    <div class="card-meta">IČO: 25899261 • Kopřivnice</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="dagett66/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://dagett66.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_dagett66.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="kvalitystav/screenshots/screen_desktop.jpg" alt="KVALITYSTAV s.r.o.">
+                    <span class="card-badge">Generální dodavatel pozemních staveb</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">KVALITYSTAV s.r.o.</h2>
+                    <div class="card-meta">IČO: 02540606 • Kopřivnice</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="kvalitystav/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://kvalitystav.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_kvalitystav.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="kovolux/screenshots/screen_desktop.jpg" alt="Kovolux s.r.o.">
+                    <span class="card-badge">Zakázkové zámečnictví</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Kovolux s.r.o.</h2>
+                    <div class="card-meta">IČO: 27777936 • Starý Bohumín</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="kovolux/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://kovolux.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_kovolux.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="ztka-zamecnictvi/screenshots/screen_desktop.jpg" alt="ZTKA s.r.o.">
+                    <span class="card-badge">Zakázkové zámečnictví</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">ZTKA s.r.o.</h2>
+                    <div class="card-meta">IČO: 27823521 • Karviná</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="ztka-zamecnictvi/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://zamecnictvi-twardzik.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_ztka-zamecnictvi.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="deta-bruntal/screenshots/screen_desktop.jpg" alt="DETA spol. s r. o.">
+                    <span class="card-badge">Průmyslová kovovýroba</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">DETA spol. s r. o.</h2>
+                    <div class="card-meta">IČO: 47153059 • Bruntál</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="deta-bruntal/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://detacompany.com" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_deta-bruntal.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="gronky-car/screenshots/screen_desktop.jpg" alt="GRONKY car s.r.o.">
+                    <span class="card-badge">Komplexní autoservis</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">GRONKY car s.r.o.</h2>
+                    <div class="card-meta">IČO: 26857901 • Bruntál</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="gronky-car/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://gronkycar.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_gronky-car.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="stores-bruntal/screenshots/screen_desktop.jpg" alt="STORES Bruntál, s.r.o.">
+                    <span class="card-badge">Velkoobchod a maloobchod: hutní materiál</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">STORES Bruntál, s.r.o.</h2>
+                    <div class="card-meta">IČO: 25838024 • Bruntál</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="stores-bruntal/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://stores-bruntal.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_stores-bruntal.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="psg-solid/screenshots/screen_desktop.jpg" alt="PSG solid s.r.o.">
+                    <span class="card-badge">Generální dodavatel pozemních staveb</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">PSG solid s.r.o.</h2>
+                    <div class="card-meta">IČO: 26848147 • Krnov</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="psg-solid/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://psgsolid.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_psg-solid.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="lsbagry/screenshots/screen_desktop.jpg" alt="LSBAGRY s.r.o.">
+                    <span class="card-badge">Výkopové práce</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">LSBAGRY s.r.o.</h2>
+                    <div class="card-meta">IČO: 01574621 • Kobeřice</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="lsbagry/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://lsbagry.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_lsbagry.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="bsc-stav/screenshots/screen_desktop.jpg" alt="BSC stav, s.r.o.">
+                    <span class="card-badge">Výstavba bytových</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">BSC stav, s.r.o.</h2>
+                    <div class="card-meta">IČO: 01617001 • Ostrava</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="bsc-stav/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://bscstav.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_bsc-stav.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-thumb">
+                    <img src="eie-elektro/screenshots/screen_desktop.jpg" alt="EiE elektro s.r.o.">
+                    <span class="card-badge">Silnoproudé i slaboproudé elektroinstalace</span>
+                    
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">EiE elektro s.r.o.</h2>
+                    <div class="card-meta">IČO: 01686445 • Bílovec</div>
+                    <div class="card-badges">
+                        <span>✓ 100% mobilní responzivita</span><span>✓ SSL zabezpečení HTTPS</span><span>✓ Sídlo na Mapy.cz</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="eie-elektro/" class="btn btn-web">🌐 Otevřít nový web</a>
+                        <a href="http://eieelektro.cz" target="_blank" rel="noopener" class="btn btn-old">Původní web ↗</a>
+                        <a href="pdf/Nabidka_eie-elektro.pdf" target="_blank" class="btn btn-pdf">📄 Otevřít PDF nabídku</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-portfolio">
+            © 2026 Portfolio modernizací webových prezentací firem. Všechna práva vyhrazena.
         </div>
     </div>
 </body>
