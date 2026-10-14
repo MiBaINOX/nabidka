@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flukstavby – Výstavba domů, Zděné stavby & Tesařství Morávka / Beskydy</title>
+    <meta name="description" content="Stavíme domy, které zapadají do malebné beskydské krajiny a odolají náročným horským klimatickým podmínkám. Od základů přes poctivé tesařské krovy až po finální">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-info">
+                <span class="top-link"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>IČO: 09860304 • DIČ: CZ09860304</span></span>
+                <span class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> <span>Morávka</span></span>
+            </div>
+            <div class="top-contact">
+                <a href="tel:+420734300914" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +420 734 300 914</a>
+                <a href="mailto:jfluksa@gmail.com" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> jfluksa@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+<polygon points="24,6 42,22 6,22" fill="#0F172A"/><rect x="12" y="22" width="24" height="18" fill="#92400E"/><path d="M24 22v18" stroke="#FFFFFF" stroke-width="2.5"/>
+</svg>
+                <div class="logo-text-wrap">
+                    <span class="logo-title">Flukstavby s.r.o.</span>
+                    <span class="logo-sub">Stavby rodinných domů, roubenek, t</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#sluzby">Služby</a></li>
+                <li><a href="#o-nas">O společnosti</a></li>
+                <li><a href="#galerie">Fotogalerie</a></li>
+                <li><a href="#kontakt" class="btn btn-primary btn-nav">Kontakt & Poptávka</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-tag"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg> Stavební firma & Tesařství Morávka, Frýdlant, Třinec</span>
+                <h1 class="hero-title">Výstavba rodinných domů, tesařské konstrukce krovů, pergoly a roubenky</h1>
+                <p class="hero-desc">Stavíme domy, které zapadají do malebné beskydské krajiny a odolají náročným horským klimatickým podmínkám. Od základů přes poctivé tesařské krovy až po finální obklady.</p>
+                <div class="hero-actions">
+                    <a href="#kontakt" class="btn btn-primary">Poptat nezávazně kalkulaci</a>
+                    <a href="#sluzby" class="btn btn-secondary">Přehled nabízených služeb</a>
+                </div>
+                <div class="hero-stats" id="heroStats">
+                    
+        <div class="stat-item reveal">
+            <span class="stat-num" data-target="2021" data-suffix="">2021</span>
+            <span class="stat-label">Rok vzniku</span>
+        </div>
+        
+        <div class="stat-item reveal">
+            <span class="stat-num" data-target="5" data-suffix="+">5+</span>
+            <span class="stat-label">Let v Beskydech</span>
+        </div>
+        
+        <div class="stat-item reveal">
+            <span class="stat-num" data-target="75" data-suffix="+">75+</span>
+            <span class="stat-label">Postavených domů a krovů</span>
+        </div>
+        
+        <div class="stat-item reveal">
+            <span class="stat-num" data-target="100" data-suffix="%">100%</span>
+            <span class="stat-label">Poctivé horské řemeslo</span>
+        </div>
+        
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <div class="hero-img-card">
+                    <img src="images/real_1.jpg" alt="Flukstavby s.r.o. praxe">
+                </div>
+                <div class="hero-badge-float">
+                    <div class="badge-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                    <div class="badge-text">
+                        <strong>Ověřená společnost</strong>
+                        <span>Moravskoslezský kraj • Tradice a reference</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section section-alt" id="sluzby">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Specializace</span>
+                <h2 class="section-title">Komplexní portfolio našich služeb</h2>
+                <p style="color:var(--text-muted); font-size:1.05rem;">Zakládáme si na spolehlivosti, certifikovaných materiálech a profesionálním přístupu ke každé zakázce.</p>
+            </div>
+            <div class="services-grid">
+                
+        <div class="service-card reveal">
+            <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 class="service-title">Výstavba zděných i dřevěných domů</h3>
+            <p class="service-desc">Kompletní realizace rodinných domů a rekreačních chalup s respektem k tradiční architektuře Beskyd.</p>
+            <a href="#kontakt" class="service-link">
+                <span>Poptat nezávazně</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+        </div>
+        
+        <div class="service-card reveal">
+            <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 class="service-title">Tesařské práce a montáže krovů</h3>
+            <p class="service-desc">Výroba a montáž klasických vázaných krovů, vazníků, dřevěných přístřešků pro auta a zahradních pergol.</p>
+            <a href="#kontakt" class="service-link">
+                <span>Poptat nezávazně</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+        </div>
+        
+        <div class="service-card reveal">
+            <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 class="service-title">Pokrývačské a klempířské práce</h3>
+            <p class="service-desc">Pokládka plechových i skládaných střešních krytin, montáž střešních oken, okapových systémů a oplechování komínů.</p>
+            <a href="#kontakt" class="service-link">
+                <span>Poptat nezávazně</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+        </div>
+        
+        <div class="service-card reveal">
+            <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 class="service-title">Dřevěné fasádní obklady a terasy</h3>
+            <p class="service-desc">Montáž odvětrávaných fasád ze sibiřského modřínu a smrku a stavba venkovních dřevěných teras.</p>
+            <a href="#kontakt" class="service-link">
+                <span>Poptat nezávazně</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+        </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="o-nas">
+        <div class="container about-grid">
+            <div class="about-content reveal">
+                <span class="section-tag">O společnosti</span>
+                <h2 class="section-title">Dlouholeté zkušenosti a prověřené zázemí</h2>
+                <p class="about-text">Stavební společnost Flukstavby s.r.o. vedená Janem Fluksou sídlí v srdci Beskyd v obci Morávka. Klademe důraz na poctivost řemesla, použití kvalitního řeziva a osobní přístup k investorům od prvního náčrtu až po kolaudaci.</p>
+                <ul class="about-features">
+                    <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Vlastní technické kapacity a moderní strojní vybavení</li>
+                    <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Zkušení pracovníci s platnými certifikacemi a zkouškami</li>
+                    <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Individuální přístup a férové jednání od zaměření po realizaci</li>
+                </ul>
+                <a href="#kontakt" class="btn btn-primary">Kontaktujte nás pro konzultaci</a>
+            </div>
+            <div class="about-visual reveal">
+                <div class="hero-img-card">
+                    <img src="real_2.jpg" alt="Flukstavby s.r.o. realizace a technika" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="galerie">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Fotogalerie</span>
+                <h2 class="section-title">Ukázky z naší práce a realizací</h2>
+                <p style="color:var(--text-muted); font-size:1.05rem;">Kliknutím na fotografii otevřete detail ve vysokém rozlišení.</p>
+            </div>
+            <div class="gallery-grid">
+                
+        <div class="gallery-item reveal">
+            <img src="images/real_1.jpg" alt="Flukstavby s.r.o. realizace" loading="lazy">
+            <div class="gallery-overlay">
+                <span>Zvětšit detail</span>
+            </div>
+        </div>
+        
+        <div class="gallery-item reveal">
+            <img src="images/real_2.jpg" alt="Flukstavby s.r.o. realizace" loading="lazy">
+            <div class="gallery-overlay">
+                <span>Zvětšit detail</span>
+            </div>
+        </div>
+        
+        <div class="gallery-item reveal">
+            <img src="images/work_1.jpg" alt="Flukstavby s.r.o. realizace" loading="lazy">
+            <div class="gallery-overlay">
+                <span>Zvětšit detail</span>
+            </div>
+        </div>
+        
+        <div class="gallery-item reveal">
+            <img src="images/work_2.jpg" alt="Flukstavby s.r.o. realizace" loading="lazy">
+            <div class="gallery-overlay">
+                <span>Zvětšit detail</span>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="kontakt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Kontakt</span>
+                <h2 class="section-title">Spojte se s námi</h2>
+                <p style="color:var(--text-muted); font-size:1.05rem;">Vyplňte rychlý poptávkový formulář nebo využijte přímé kontakty na vedení společnosti.</p>
+            </div>
+            <div class="contact-box reveal">
+                <div class="contact-info">
+                    <div>
+                        <h3>Kontaktní informace</h3>
+                        <p>Ozvěte se nám telefonicky, e-mailem nebo nás navštivte v našem sídle.</p>
+                        <div class="contact-rows">
+                            <div class="contact-row">
+                                <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                                <div>
+                                    <div class="contact-label">Sídlo společnosti</div>
+                                    <div class="contact-value">č.p. 562, 739 04 Morávka</div>
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                                <div>
+                                    <div class="contact-label">Telefonní spojení</div>
+                                    <div class="contact-value"><a href="tel:+420734300914" style="color:inherit;">+420 734 300 914</a></div>
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                                <div>
+                                    <div class="contact-label">Elektronická pošta</div>
+                                    <div class="contact-value"><a href="mailto:jfluksa@gmail.com" style="color:inherit;">jfluksa@gmail.com</a></div>
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <div class="contact-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                                <div>
+                                    <div class="contact-label">Identifikace</div>
+                                    <div class="contact-value">IČO: 09860304 • DIČ: CZ09860304</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://mapy.cz/zakladni?q=%C4%8D.p.+562%2C+739+04+Mor%C3%A1vka" target="_blank" rel="noopener" class="map-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Zobrazit trasu na Mapy.cz ↗
+                        </a>
+                    </div>
+                    <div id="mapEmbed" class="map-embed-container"></div>
+                </div>
+                <div class="contact-form-wrap">
+                    <h3>Nezávazná poptávka</h3>
+                    <p>Máte zájem o spolupráci nebo cenovou kalkulaci? Napište nám své požadavky.</p>
+                    <form id="contactForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Jméno a příjmení / Firma *</label>
+                                <input type="text" id="name" class="form-control" required placeholder="Jan Novák">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefonní číslo *</label>
+                                <input type="tel" id="phone" class="form-control" required placeholder="+420 ...">
+                            </div>
+                            <div class="form-group full">
+                                <label for="email">E-mailová adresa *</label>
+                                <input type="email" id="email" class="form-control" required placeholder="vas@email.cz">
+                            </div>
+                            <div class="form-group full">
+                                <label for="msg">Popis vaší poptávky nebo projektu *</label>
+                                <textarea id="msg" class="form-control" required placeholder="Uveďte podrobnosti o poptávaném rozsahu prací nebo výrobků..."></textarea>
+                            </div>
+                        </div>
+                        <div id="formStatus" style="display:none; padding:12px; background:#DCFCE7; color:#166534; border-radius:6px; margin-bottom:14px; font-weight:600; font-size:0.9rem;"></div>
+                        <button type="submit" class="btn btn-primary" style="width:100%;">Odeslat nezávaznou poptávku →</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h4>Flukstavby s.r.o.</h4>
+                <p>Stavby rodinných domů, roubenek, tesařské konstrukce a rekonstrukce v Beskydech. Spolehlivý partner pro zákazníky v celém Moravskoslezském kraji i České republice.</p>
+                <div style="font-size:0.82rem; color:#94A3B8;">GPS: 49.5982N, 18.5285E</div>
+            </div>
+            <div class="footer-col">
+                <h5>Rychlá navigace</h5>
+                <ul class="footer-links">
+                    <li><a href="#hero">Úvod</a></li>
+                    <li><a href="#sluzby">Služby</a></li>
+                    <li><a href="#o-nas">O společnosti</a></li>
+                    <li><a href="#galerie">Fotogalerie</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Hlavní činnosti</h5>
+                <ul class="footer-links">
+                    <li>Výstavba zděných i dřevěných domů</li>
+                    <li>Tesařské práce a montáže krovů</li>
+                    <li>Pokrývačské a klempířské práce</li>
+                    <li>Dřevěné fasádní obklady a terasy</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Sídlo a kontakt</h5>
+                <ul class="footer-links">
+                    <li>č.p. 562, 739 04 Morávka</li>
+                    <li>Tel: <a href="tel:+420734300914" style="color:inherit;">+420 734 300 914</a></li>
+                    <li>Email: <a href="mailto:jfluksa@gmail.com" style="color:inherit;">jfluksa@gmail.com</a></li>
+                    <li><a href="https://mapy.cz/zakladni?q=%C4%8D.p.+562%2C+739+04+Mor%C3%A1vka" target="_blank" rel="noopener" style="text-decoration:underline;">Kde nás najdete (Mapy.cz)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>&copy; 2026 Flukstavby s.r.o.. Všechna práva vyhrazena.</span>
+            <span>IČO: 09860304 • DIČ: CZ09860304</span>
+        </div>
+    </footer>
+
+    <div class="lightbox-modal" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="Detail zvětšené fotografie">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
