@@ -98,4 +98,35 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = "mailto:saveko@saveko.cz?subject=" + mailSubject + "&body=" + mailBody;
         });
     }
+
+    document.querySelectorAll('.cert-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const img = card.querySelector('img');
+            const cap = card.getAttribute('data-caption') || (card.querySelector('h3') ? card.querySelector('h3').textContent : '');
+            if (lightbox && lightboxImg && img) {
+                lightboxImg.src = img.src;
+                if (lightboxCaption) lightboxCaption.textContent = cap;
+                lightbox.classList.add('active');
+            }
+        });
+    });
+
+    const savekoMapEl = document.getElementById('savekoMap');
+    if (savekoMapEl && typeof L !== 'undefined') {
+        const map = L.map('savekoMap', { scrollWheelZoom: false }).setView([49.596015, 18.139718], 16);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap | <a href="https://mapy.cz/zakladni?q=Z%C3%A1humenn%C3%AD%201346%2C%20742%2021%20Kop%C5%99ivnice" target="_blank" rel="noopener">Mapy.cz</a>'
+        }).addTo(map);
+
+        const redPin = L.divIcon({
+            className: 'custom-pin-marker',
+            html: '<div style="width:36px; height:48px; filter:drop-shadow(0 4px 8px rgba(0,0,0,0.35));"><svg width="36" height="48" viewBox="0 0 36 48" fill="none"><path d="M18 0C8.06 0 0 8.06 0 18c0 13.5 18 30 18 30s18-16.5 18-30C36 8.06 27.94 0 18 0z" fill="#E11D48"/><circle cx="18" cy="18" r="7" fill="#FFFFFF"/><circle cx="18" cy="18" r="3.5" fill="#E11D48"/></svg></div>',
+            iconSize: [36, 48],
+            iconAnchor: [18, 48],
+            popupAnchor: [0, -44]
+        });
+        const marker = L.marker([49.596015, 18.139718], { icon: redPin }).addTo(map);
+        marker.bindPopup('<div style="font-family:sans-serif; font-size:13px; line-height:1.4;"><strong>V+V SAVEKO s.r.o.</strong><br>Záhumenní 1346, 742 21 Kopřivnice<br><a href="https://mapy.cz/zakladni?q=Z%C3%A1humenn%C3%AD%201346%2C%20742%2021%20Kop%C5%99ivnice" target="_blank" rel="noopener" style="color:#1E3A8A; font-weight:700; text-decoration:underline; display:inline-block; margin-top:4px;">Navigovat na Mapy.cz ↗</a></div>').openPopup();
+    }
 });

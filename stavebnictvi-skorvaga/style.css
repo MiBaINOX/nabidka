@@ -1406,3 +1406,8 @@ img {
     color: #FFFFFF;
     border-color: var(--primary);
 }
+.custom-pin-marker {
+    background: transparent !important;
+    border: none !important;
+}
+

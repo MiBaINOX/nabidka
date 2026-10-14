@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -297,7 +299,7 @@
                         <h3>Nová zelená úsporám (NZÚ)</h3>
                         <p>Získejte zpět až 50 % způsobilých výdajů na zateplení fasády, střechy, stropů a výměnu oken. V Moravskoslezském kraji navíc platí zvýhodněný dotační bonus 10 %.</p>
                         <ul class="dc-list">
-                            <li><strong>Až stovek tisíc Kč dotace</strong> na komplexní zateplení obálky domu</li>
+                            <li><strong>Výrazná dotační podpora</strong> na komplexní zateplení obálky domu</li>
                             <li><strong>Vyřízení projektové dokumentace</strong> a energetického posudku</li>
                             <li><strong>Podání žádosti na SFŽP</strong> a doložení realizace na klíč</li>
                             <li>Výrazné snížení účtů za plyn a elektřinu na desítky let dopředu</li>
@@ -1046,7 +1048,7 @@
                     </a>
                 </div>
                 <div class="sk-map-frame-wrap">
-                    <iframe src="https://frame.mapy.cz/?x=18.2702768&y=49.7809483&z=16" class="sk-map-frame" title="Kancelář Štefan Škorvaga s.r.o. na Mapy.cz" loading="lazy"></iframe>
+                    <div id="skorvagaMap" class="sk-map-frame" style="height:420px; width:100%;"></div>
                 </div>
             </div>
         </div>

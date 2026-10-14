@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,14 +29,15 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="#hero" class="brand-logo">
-                <div class="logo-badge">SAVEKO</div>
+                <img src="images/saveko-logo.jpg" alt="V+V SAVEKO s.r.o." class="brand-logo-img">
                 <div class="logo-text-wrap">
                     <span class="logo-text">V+V SAVEKO s.r.o.</span>
                     <span class="logo-sub">Výstavba inženýrských sítí • Kopřivnice</span>
                 </div>
             </a>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#o-spolecnosti">O společnosti & Certifikace</a></li>
+                <li><a href="#o-spolecnosti">O společnosti</a></li>
+                <li><a href="#certifikaty">Certifikáty</a></li>
                 <li><a href="#sluzby">Inženýrské sítě</a></li>
                 <li><a href="#technika">Strojní park</a></li>
                 <li><a href="#reference">Realizované stavby</a></li>
@@ -126,7 +129,69 @@
         </div>
     </section>
 
-    <section class="section bg-light" id="sluzby">
+    <section class="section bg-light" id="certifikaty">
+        <div class="container">
+            <div class="section-head reveal">
+                <div class="section-tag">Ověřená kvalita & Autorizace</div>
+                <h2 class="section-title">Certifikáty a oprávnění společnosti V+V SAVEKO</h2>
+                <p class="section-desc">Společnost má certifikovaný systém managementu kvality dle ISO 9001:2015 a disponuje zákonnými autorizacemi ČKAIT pro vodohospodářské i pozemní stavby.</p>
+            </div>
+            <div class="certs-grid reveal">
+                <div class="cert-card" data-caption="Osvědčení o autorizaci ČKAIT – Vodohospodářské stavby">
+                    <div class="cert-thumb-wrap">
+                        <img src="images/autorizace-stavitel.jpg" alt="Autorizace ČKAIT Vodohospodářské stavby" loading="lazy">
+                        <div class="cert-zoom-overlay"><span>Zvětšit certifikát</span></div>
+                    </div>
+                    <div class="cert-card-body">
+                        <h3>Autorizace ČKAIT – Vodohospodářské stavby</h3>
+                        <p>Specializace stavby zdravotnětechnické dle zákona č. 360/1992 Sb.</p>
+                    </div>
+                </div>
+                <div class="cert-card" data-caption="Osvědčení o autorizaci ČKAIT – Pozemní stavby">
+                    <div class="cert-thumb-wrap">
+                        <img src="images/autorizace-stavby.jpg" alt="Autorizace ČKAIT Pozemní stavby" loading="lazy">
+                        <div class="cert-zoom-overlay"><span>Zvětšit certifikát</span></div>
+                    </div>
+                    <div class="cert-card-body">
+                        <h3>Autorizace ČKAIT – Pozemní stavby</h3>
+                        <p>Osvědčení o autorizaci pro garantované technologické postupy pozemního stavitelství.</p>
+                    </div>
+                </div>
+                <div class="cert-card" data-caption="Výpis z Obchodního rejstříku V+V SAVEKO s.r.o.">
+                    <div class="cert-thumb-wrap">
+                        <img src="images/vypis-or-2024.jpg" alt="Výpis z Obchodního rejstříku" loading="lazy">
+                        <div class="cert-zoom-overlay"><span>Zvětšit dokument</span></div>
+                    </div>
+                    <div class="cert-card-body">
+                        <h3>Výpis z Obchodního rejstříku</h3>
+                        <p>Krajský soud v Ostravě, oddíl C, vložka 19128. Právní kontinuita od roku 1990.</p>
+                    </div>
+                </div>
+                <div class="cert-card" data-caption="Živnostenský list – Provádění staveb">
+                    <div class="cert-thumb-wrap">
+                        <img src="images/zl.jpg" alt="Živnostenský list Provádění staveb" loading="lazy">
+                        <div class="cert-zoom-overlay"><span>Zvětšit listinu</span></div>
+                    </div>
+                    <div class="cert-card-body">
+                        <h3>Živnostenský list – Provádění staveb</h3>
+                        <p>Koncese k provádění staveb, jejich změn a odstraňování včetně inženýrských sítí.</p>
+                    </div>
+                </div>
+                <div class="cert-card" data-caption="Živnostenský list – Doprava a nakládání s odpady">
+                    <div class="cert-thumb-wrap">
+                        <img src="images/zl-2.jpg" alt="Živnostenský list Doprava a odpady" loading="lazy">
+                        <div class="cert-zoom-overlay"><span>Zvětšit listinu</span></div>
+                    </div>
+                    <div class="cert-card-body">
+                        <h3>Živnostenský list – Doprava & Odpady</h3>
+                        <p>Oprávnění pro silniční nákladní dopravu a nakládání se stavebními odpady.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="sluzby">
         <div class="container">
             <div class="section-head reveal">
                 <div class="section-tag">Hlavní činnosti</div>
@@ -511,7 +576,7 @@
                     </a>
                 </div>
                 <div class="sv-map-frame-wrap">
-                    <iframe src="https://frame.mapy.cz/?x=18.1397175&y=49.596015&z=16" class="sv-map-frame" title="Areál V+V SAVEKO na Mapy.cz" loading="lazy"></iframe>
+                    <div id="savekoMap" class="sv-map-frame" style="height:420px; width:100%;"></div>
                 </div>
             </div>
         </div>

@@ -219,7 +219,14 @@ document.addEventListener('DOMContentLoaded', () => {
             attribution: '&copy; OpenStreetMap | <a href="https://mapy.cz/zakladni?q=M%C3%ADru%2026%2C%20739%2061%20T%C5%99inec" target="_blank" rel="noopener">Mapy.cz</a>'
         }).addTo(map);
 
-        const marker = L.marker([49.67696, 18.64859]).addTo(map);
-        marker.bindPopup('<div style=\"font-family:sans-serif; font-size:13px; line-height:1.4;\"><strong>K.o.T.a.S, spol. s r.o.</strong><br>Míru 26, 739 61 Třinec<br><a href=\"https://mapy.cz/zakladni?q=M%C3%ADru%2026%2C%20739%2061%20T%C5%99inec\" target=\"_blank\" rel=\"noopener\" style=\"color:#2563EB; font-weight:700; text-decoration:underline; display:inline-block; margin-top:4px;\">Navigovat na Mapy.cz ↗</a></div>').openPopup();
+        const redPin = L.divIcon({
+            className: 'custom-pin-marker',
+            html: '<div style="width:36px; height:48px; filter:drop-shadow(0 4px 8px rgba(0,0,0,0.35));"><svg width="36" height="48" viewBox="0 0 36 48" fill="none"><path d="M18 0C8.06 0 0 8.06 0 18c0 13.5 18 30 18 30s18-16.5 18-30C36 8.06 27.94 0 18 0z" fill="#E11D48"/><circle cx="18" cy="18" r="7" fill="#FFFFFF"/><circle cx="18" cy="18" r="3.5" fill="#E11D48"/></svg></div>',
+            iconSize: [36, 48],
+            iconAnchor: [18, 48],
+            popupAnchor: [0, -44]
+        });
+        const marker = L.marker([49.67696, 18.64859], { icon: redPin }).addTo(map);
+        marker.bindPopup('<div style="font-family:sans-serif; font-size:13px; line-height:1.4;"><strong>K.o.T.a.S, spol. s r.o.</strong><br>Míru 26, 739 61 Třinec<br><a href="https://mapy.cz/zakladni?q=M%C3%ADru%2026%2C%20739%2061%20T%C5%99inec" target="_blank" rel="noopener" style="color:#2563EB; font-weight:700; text-decoration:underline; display:inline-block; margin-top:4px;">Navigovat na Mapy.cz ↗</a></div>').openPopup();
     }
 });

@@ -223,4 +223,24 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'mailto:info@skorvaga.cz?subject=' + mailSubject + '&body=' + mailBody;
         });
     }
+
+    const skorvagaMapEl = document.getElementById('skorvagaMap');
+    if (skorvagaMapEl && typeof L !== 'undefined') {
+        const map = L.map('skorvagaMap', { scrollWheelZoom: false }).setView([49.7809483, 18.2702768], 16);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap | <a href="https://mapy.cz/zakladni?q=M%C3%ADsteck%C3%A1%20126/256%2C%20720%2000%20Ostrava%20-%20Hrabov%C3%A1" target="_blank" rel="noopener">Mapy.cz</a>'
+        }).addTo(map);
+
+        const redPin = L.divIcon({
+            className: 'custom-pin-marker',
+            html: '<div style="width:36px; height:48px; filter:drop-shadow(0 4px 8px rgba(0,0,0,0.35));"><svg width="36" height="48" viewBox="0 0 36 48" fill="none"><path d="M18 0C8.06 0 0 8.06 0 18c0 13.5 18 30 18 30s18-16.5 18-30C36 8.06 27.94 0 18 0z" fill="#E11D48"/><circle cx="18" cy="18" r="7" fill="#FFFFFF"/><circle cx="18" cy="18" r="3.5" fill="#E11D48"/></svg></div>',
+            iconSize: [36, 48],
+            iconAnchor: [18, 48],
+            popupAnchor: [0, -44]
+        });
+        const marker = L.marker([49.7809483, 18.2702768], { icon: redPin }).addTo(map);
+        marker.bindPopup('<div style="font-family:sans-serif; font-size:13px; line-height:1.4;"><strong>Štefan Škorvaga s.r.o.</strong><br>Místecká 126/256, Ostrava - Hrabová<br><a href="https://mapy.cz/zakladni?q=M%C3%ADsteck%C3%A1%20126/256%2C%20720%2000%20Ostrava%20-%20Hrabov%C3%A1" target="_blank" rel="noopener" style="color:#0284C7; font-weight:700; text-decoration:underline; display:inline-block; margin-top:4px;">Navigovat na Mapy.cz ↗</a></div>').openPopup();
+    }
 });
+

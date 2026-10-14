@@ -273,4 +273,24 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'mailto:m.danielis@pkr.cz?subject=' + mailSubject + '&body=' + mailBody;
         });
     }
+
+    const pkrMapEl = document.getElementById('pkrMap');
+    if (pkrMapEl && typeof L !== 'undefined') {
+        const map = L.map('pkrMap', { scrollWheelZoom: false }).setView([50.560051, 15.910846], 16);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap | <a href="https://mapy.cz/zakladni?q=Pra%C5%BEsk%C3%A1%2088%2C%20541%2001%20Trutnov" target="_blank" rel="noopener">Mapy.cz</a>'
+        }).addTo(map);
+
+        const redPin = L.divIcon({
+            className: 'custom-pin-marker',
+            html: '<div style="width:36px; height:48px; filter:drop-shadow(0 4px 8px rgba(0,0,0,0.35));"><svg width="36" height="48" viewBox="0 0 36 48" fill="none"><path d="M18 0C8.06 0 0 8.06 0 18c0 13.5 18 30 18 30s18-16.5 18-30C36 8.06 27.94 0 18 0z" fill="#E11D48"/><circle cx="18" cy="18" r="7" fill="#FFFFFF"/><circle cx="18" cy="18" r="3.5" fill="#E11D48"/></svg></div>',
+            iconSize: [36, 48],
+            iconAnchor: [18, 48],
+            popupAnchor: [0, -44]
+        });
+        const marker = L.marker([50.560051, 15.910846], { icon: redPin }).addTo(map);
+        marker.bindPopup('<div style="font-family:sans-serif; font-size:13px; line-height:1.4;"><strong>P.K.R. s.r.o. – REALITY KRKONOŠE</strong><br>Pražská 88, 541 01 Trutnov<br><a href="https://mapy.cz/zakladni?q=Pra%C5%BEsk%C3%A1%2088%2C%20541%2001%20Trutnov" target="_blank" rel="noopener" style="color:#C5A059; font-weight:700; text-decoration:underline; display:inline-block; margin-top:4px;">Navigovat na Mapy.cz ↗</a></div>').openPopup();
+    }
 });
+

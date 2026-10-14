@@ -1382,3 +1382,8 @@ input:focus, select:focus, textarea:focus {
         height: 120px;
     }
 }
+.custom-pin-marker {
+    background: transparent !important;
+    border: none !important;
+}
+

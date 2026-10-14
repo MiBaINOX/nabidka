@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -479,7 +481,7 @@
                     </div>
                 </div>
                 <div class="pkr-map-frame-wrap">
-                    <iframe src="https://frame.mapy.cz/?x=15.910846&y=50.560051&z=16" class="pkr-map-frame" title="Kancelář Reality PKR na Mapy.cz" loading="lazy"></iframe>
+                    <div id="pkrMap" class="pkr-map-frame" style="height:420px; width:100%;"></div>
                 </div>
             </div>
         </div>
