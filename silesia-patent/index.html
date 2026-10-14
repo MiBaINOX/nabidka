@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silesia Patent – Patentoví zástupci, ochranné známky & patenty Ostrava</title>
+    <meta name="description" content="Zajišťujeme přihlášky patentů, užitných vzorů a ochranných známek v ČR, EU i mezinárodně. Chráníme know-how výrobních a technologických společností před zneužit">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-info">
+                <span class="top-link"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span>IČO: 03182665 • DIČ: CZ03182665</span></span>
+                <span class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> <span>Václavovice</span></span>
+            </div>
+            <div class="top-contact">
+                <a href="tel:+420603300600" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +420 603 300 600</a>
+                <a href="mailto:petra.barova@silesiapatent.cz" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> petra.barova@silesiapatent.cz</a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+<path d="M12 8h24v20l-12 8-12-8V8z" fill="#0F172A"/><path d="M18 16h12M18 22h8" stroke="#0F766E" stroke-width="2.5"/><circle cx="24" cy="30" r="3" fill="#0F766E"/>
+</svg>
+                <div class="logo-text-wrap">
+                    <span class="logo-title">Silesia Patent s.r.o.</span>
+                    <span class="logo-sub">Patentová kancelář, ochrana průmys</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#sluzby">Služby</a></li>
+                <li><a href="#o-nas">O společnosti</a></li>
+                <li><a href="#galerie">Fotogalerie</a></li>
+                <li><a href="#kontakt" class="btn btn-primary btn-nav">Kontakt & Poptávka</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-tag"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg> Ochrana duševního vlastnictví & Inovace v průmyslu</span>
+                <h1 class="hero-title">Komplexní právní a technická ochrana vašich vynálezů, technologií a značek</h1>
+                <p class="hero-desc">Zajišťujeme přihlášky patentů, užitných vzorů a ochranných známek v ČR, EU i mezinárodně. Chráníme know-how výrobních a technologických společností před zneužitím.</p>
+                <div class="hero-actions">
+                    <a href="#kontakt" class="btn btn-primary">Poptat nezávazně kalkulaci</a>
+                    <a href="#sluzby" class="btn btn-secondary">Přehled nabízených služeb</a>
+                </div>
+                <div class="hero-stats" id="heroStats">
+                    
+        <div class="stat-item reveal">
+            <span class="stat-num" data-target="2014" data-suffix="">2014</span>
+            <span class="stat-label">Rok založení</span>
+        </div>
+        
+        <div class="stat-item reveal">
+            <span class="stat-num" data-target="11" data-suffix="+">11+</span>
+            <span class="stat-label">Let praxe</span>
+        </div>
+        
+        <div class="stat-item reveal">
+            <span class="stat-num" data-target="850" data-suffix="+">850+</span>
+            <span class="stat-label">Chráněných známek & patentů</span>
+        </div>
+        
+        <div class="stat-item reveal">
+            <span class="stat-num" data-target="100" data-suffix="%">100%</span>
+            <span class="stat-label">Diskrétnost</span>
+        </div>
+        
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <div class="hero-img-card">
+                    <img src="images/work_1.jpg" alt="Silesia Patent s.r.o. realizace">
+                </div>
+                <div class="hero-badge-float">
+                    <div class="badge-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                    <div class="badge-text">
+                        <strong>Ověřená společnost</strong>
+                        <span>Moravskoslezský kraj • Tradice a reference</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section section-alt" id="sluzby">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Specializace</span>
+                <h2 class="section-title">Komplexní portfolio našich služeb</h2>
+                <p style="color:var(--text-muted); font-size:1.05rem;">Zakládáme si na spolehlivosti, certifikovaných materiálech a profesionálním přístupu ke každé zakázce.</p>
+            </div>
+            <div class="services-grid">
+                
+        <div class="service-card reveal">
+            <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 class="service-title">Patenty a užitné vzory</h3>
+            <p class="service-desc">Patentové rešerše na celosvětový stav techniky, formulace patentových nároků a zastupování před ÚPV a EPO.</p>
+            <a href="#kontakt" class="service-link">
+                <span>Poptat nezávazně</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+        </div>
+        
+        <div class="service-card reveal">
+            <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 class="service-title">Ochranné známky (CZ, EU, WIPO)</h3>
+            <p class="service-desc">Registrace firemních log, názvů produktů a sloganů pro zamezení parazitování konkurence.</p>
+            <a href="#kontakt" class="service-link">
+                <span>Poptat nezávazně</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+        </div>
+        
+        <div class="service-card reveal">
+            <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 class="service-title">Průmyslové vzory a design</h3>
+            <p class="service-desc">Právní ochrana vnějšího vzhledu výrobků, ergonomie a originálního průmyslového designu.</p>
+            <a href="#kontakt" class="service-link">
+                <span>Poptat nezávazně</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+        </div>
+        
+        <div class="service-card reveal">
+            <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3 class="service-title">Licenční smlouvy a spory</h3>
+            <p class="service-desc">Sepisování licenčních smluv, oceňování nehmotného majetku a obrana proti padělkům a nekalé soutěži.</p>
+            <a href="#kontakt" class="service-link">
+                <span>Poptat nezávazně</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+        </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="o-nas">
+        <div class="container about-grid">
+            <div class="about-content reveal">
+                <span class="section-tag">O společnosti</span>
+                <h2 class="section-title">Dlouholeté zkušenosti a prověřené zázemí</h2>
+                <p class="about-text">Silesia Patent s.r.o. nabízí špičkové patentové a známkové poradenství pro inovativní podniky, výzkumné ústavy a výrobce. Naší prioritou je bezpečné zajištění vašich investic do vývoje a budování značky.</p>
+                <ul class="about-features">
+                    <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Vlastní technické kapacity a moderní strojní vybavení</li>
+                    <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Zkušení pracovníci s platnými certifikacemi a zkouškami</li>
+                    <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Individuální přístup a férové jednání od zaměření po realizaci</li>
+                </ul>
+                <a href="#kontakt" class="btn btn-primary">Kontaktujte nás pro konzultaci</a>
+            </div>
+            <div class="about-visual reveal">
+                <div class="hero-img-card">
+                    <img src="work_4.jpg" alt="Silesia Patent s.r.o. provoz a technika" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="galerie">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Fotogalerie</span>
+                <h2 class="section-title">Ukázky z naší práce a realizací</h2>
+                <p style="color:var(--text-muted); font-size:1.05rem;">Kliknutím na fotografii otevřete detail ve vysokém rozlišení.</p>
+            </div>
+            <div class="gallery-grid">
+                
+        <div class="gallery-item reveal">
+            <img src="images/work_1.jpg" alt="Silesia Patent s.r.o. realizace" loading="lazy">
+            <div class="gallery-overlay">
+                <span>Zvětšit detail</span>
+            </div>
+        </div>
+        
+        <div class="gallery-item reveal">
+            <img src="images/work_4.jpg" alt="Silesia Patent s.r.o. realizace" loading="lazy">
+            <div class="gallery-overlay">
+                <span>Zvětšit detail</span>
+            </div>
+        </div>
+        
+        <div class="gallery-item reveal">
+            <img src="images/extra_3.jpg" alt="Silesia Patent s.r.o. realizace" loading="lazy">
+            <div class="gallery-overlay">
+                <span>Zvětšit detail</span>
+            </div>
+        </div>
+        
+        <div class="gallery-item reveal">
+            <img src="images/extra_4.jpg" alt="Silesia Patent s.r.o. realizace" loading="lazy">
+            <div class="gallery-overlay">
+                <span>Zvětšit detail</span>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="kontakt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Kontakt</span>
+                <h2 class="section-title">Spojte se s námi</h2>
+                <p style="color:var(--text-muted); font-size:1.05rem;">Vyplňte rychlý poptávkový formulář nebo využijte přímé kontakty na vedení společnosti.</p>
+            </div>
+            <div class="contact-box reveal">
+                <div class="contact-info">
+                    <div>
+                        <h3>Kontaktní informace</h3>
+                        <p>Ozvěte se nám telefonicky, e-mailem nebo nás navštivte v našem sídle.</p>
+                        <div class="contact-rows">
+                            <div class="contact-row">
+                                <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                                <div>
+                                    <div class="contact-label">Sídlo společnosti</div>
+                                    <div class="contact-value">Soukromá 261, 73934 Václavovice</div>
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                                <div>
+                                    <div class="contact-label">Telefonní spojení</div>
+                                    <div class="contact-value"><a href="tel:+420603300600" style="color:inherit;">+420 603 300 600</a></div>
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                                <div>
+                                    <div class="contact-label">Elektronická pošta</div>
+                                    <div class="contact-value"><a href="mailto:petra.barova@silesiapatent.cz" style="color:inherit;">petra.barova@silesiapatent.cz</a></div>
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <div class="contact-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                                <div>
+                                    <div class="contact-label">Identifikace</div>
+                                    <div class="contact-value">IČO: 03182665 • DIČ: CZ03182665</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://mapy.cz/zakladni?q=Soukrom%C3%A1+261%2C+73934+V%C3%A1clavovice" target="_blank" rel="noopener" class="map-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Zobrazit trasu na Mapy.cz ↗
+                        </a>
+                    </div>
+                    <div id="mapEmbed" class="map-embed-container"></div>
+                </div>
+                <div class="contact-form-wrap">
+                    <h3>Nezávazná poptávka</h3>
+                    <p>Máte zájem o spolupráci nebo cenovou kalkulaci? Napište nám své požadavky.</p>
+                    <form id="contactForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Jméno a příjmení / Firma *</label>
+                                <input type="text" id="name" class="form-control" required placeholder="Jan Novák">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefonní číslo *</label>
+                                <input type="tel" id="phone" class="form-control" required placeholder="+420 ...">
+                            </div>
+                            <div class="form-group full">
+                                <label for="email">E-mailová adresa *</label>
+                                <input type="email" id="email" class="form-control" required placeholder="vas@email.cz">
+                            </div>
+                            <div class="form-group full">
+                                <label for="msg">Popis vaší poptávky nebo projektu *</label>
+                                <textarea id="msg" class="form-control" required placeholder="Uveďte podrobnosti o poptávaném rozsahu prací nebo výrobků..."></textarea>
+                            </div>
+                        </div>
+                        <div id="formStatus" style="display:none; padding:12px; background:#DCFCE7; color:#166534; border-radius:6px; margin-bottom:14px; font-weight:600; font-size:0.9rem;"></div>
+                        <button type="submit" class="btn btn-primary" style="width:100%;">Odeslat nezávaznou poptávku →</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h4>Silesia Patent s.r.o.</h4>
+                <p>Patentová kancelář, ochrana průmyslového vlastnictví a ochranné známky. Spolehlivý partner pro zákazníky v celém Moravskoslezském kraji i České republice.</p>
+                <div style="font-size:0.82rem; color:#94A3B8;">GPS: 49.7621N, 18.3512E</div>
+            </div>
+            <div class="footer-col">
+                <h5>Rychlá navigace</h5>
+                <ul class="footer-links">
+                    <li><a href="#hero">Úvod</a></li>
+                    <li><a href="#sluzby">Služby</a></li>
+                    <li><a href="#o-nas">O společnosti</a></li>
+                    <li><a href="#galerie">Fotogalerie</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Hlavní činnosti</h5>
+                <ul class="footer-links">
+                    <li>Patenty a užitné vzory</li>
+                    <li>Ochranné známky (CZ, EU, WIPO)</li>
+                    <li>Průmyslové vzory a design</li>
+                    <li>Licenční smlouvy a spory</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Sídlo a kontakt</h5>
+                <ul class="footer-links">
+                    <li>Soukromá 261, 73934 Václavovice</li>
+                    <li>Tel: <a href="tel:+420603300600" style="color:inherit;">+420 603 300 600</a></li>
+                    <li>Email: <a href="mailto:petra.barova@silesiapatent.cz" style="color:inherit;">petra.barova@silesiapatent.cz</a></li>
+                    <li><a href="https://mapy.cz/zakladni?q=Soukrom%C3%A1+261%2C+73934+V%C3%A1clavovice" target="_blank" rel="noopener" style="text-decoration:underline;">Kde nás najdete (Mapy.cz)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>&copy; 2026 Silesia Patent s.r.o.. Všechna práva vyhrazena.</span>
+            <span>IČO: 03182665 • DIČ: CZ03182665</span>
+        </div>
+    </footer>
+
+    <div class="lightbox-modal" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="Detail zvětšené fotografie">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

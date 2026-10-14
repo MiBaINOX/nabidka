@@ -1,6 +1,4 @@
-/* ==========================================================================
-   HAKOV, a.s. - Modern Corporate Design System
-   ========================================================================== */
+
 
 :root {
   --primary: #0284c7;
@@ -69,9 +67,7 @@
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
 }
 
-/* ==========================================================================
-   Reset & Base Styles
-   ========================================================================== */
+
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -134,9 +130,7 @@ button, input, textarea, select {
   background-color: var(--bg-surface);
 }
 
-/* ==========================================================================
-   Typography & Headers
-   ========================================================================== */
+
 
 .section-header {
   text-align: center;
@@ -180,9 +174,7 @@ button, input, textarea, select {
   line-height: 1.7;
 }
 
-/* ==========================================================================
-   Header & Navigation
-   ========================================================================== */
+
 
 .top-bar {
   background: var(--brand-navy);
@@ -354,9 +346,7 @@ button, input, textarea, select {
   padding: 0.5rem;
 }
 
-/* ==========================================================================
-   Buttons & Badges
-   ========================================================================== */
+
 
 .btn {
   display: inline-flex;
@@ -429,9 +419,7 @@ button, input, textarea, select {
   font-size: 0.85rem;
 }
 
-/* ==========================================================================
-   Hero Section & Slider
-   ========================================================================== */
+
 
 .hero {
   position: relative;
@@ -594,9 +582,7 @@ button, input, textarea, select {
   background: #38bdf8;
 }
 
-/* ==========================================================================
-   Stats Bar
-   ========================================================================== */
+
 
 .stats-strip {
   background: var(--bg-surface);
@@ -645,9 +631,7 @@ button, input, textarea, select {
   font-weight: 500;
 }
 
-/* ==========================================================================
-   Services Grid
-   ========================================================================== */
+
 
 .services-grid {
   display: grid;
@@ -738,9 +722,7 @@ button, input, textarea, select {
   margin-top: 3px;
 }
 
-/* ==========================================================================
-   Company Profile & Certificates
-   ========================================================================== */
+
 
 .profile-grid {
   display: grid;
@@ -811,9 +793,7 @@ button, input, textarea, select {
   transform: scale(1.02);
 }
 
-/* ==========================================================================
-   References Interactive Catalog
-   ========================================================================== */
+
 
 .references-controls {
   background: var(--bg-card);
@@ -912,7 +892,7 @@ button, input, textarea, select {
   color: #ffffff;
 }
 
-/* References Grid View */
+
 .ref-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -981,7 +961,7 @@ button, input, textarea, select {
   gap: 0.4rem;
 }
 
-/* References Table View */
+
 .ref-table-wrapper {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -1022,9 +1002,7 @@ button, input, textarea, select {
   background: var(--primary-50);
 }
 
-/* ==========================================================================
-   Gallery Section & Lightbox
-   ========================================================================== */
+
 
 .gallery-grid {
   display: grid;
@@ -1085,7 +1063,7 @@ button, input, textarea, select {
   margin-bottom: auto;
 }
 
-/* Lightbox Modal */
+
 .lightbox-modal {
   position: fixed;
   top: 0;
@@ -1180,9 +1158,7 @@ button, input, textarea, select {
 .lightbox-next { right: 2rem; }
 .lightbox-nav:hover { background: var(--primary); }
 
-/* ==========================================================================
-   Company Info & Identifikační údaje
-   ========================================================================== */
+
 
 .info-cards-grid {
   display: grid;
@@ -1254,9 +1230,7 @@ button, input, textarea, select {
   color: #ffffff;
 }
 
-/* ==========================================================================
-   Contacts, Branches & Team
-   ========================================================================== */
+
 
 .branch-tabs {
   display: flex;
@@ -1414,9 +1388,7 @@ button, input, textarea, select {
   color: var(--primary);
 }
 
-/* ==========================================================================
-   Contact Form & CTA
-   ========================================================================== */
+
 
 .contact-form-section {
   background: linear-gradient(135deg, var(--brand-navy) 0%, #0d223a 100%);
@@ -1465,9 +1437,7 @@ button, input, textarea, select {
   box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
 }
 
-/* ==========================================================================
-   Toast Feedback Notification
-   ========================================================================== */
+
 
 .toast-box {
   position: fixed;
@@ -1493,9 +1463,7 @@ button, input, textarea, select {
   opacity: 1;
 }
 
-/* ==========================================================================
-   Footer
-   ========================================================================== */
+
 
 .footer {
   background: var(--brand-navy);
@@ -1552,9 +1520,7 @@ button, input, textarea, select {
   gap: 1rem;
 }
 
-/* ==========================================================================
-   Responsive Breakpoints
-   ========================================================================== */
+
 
 @media (max-width: 1024px) {
   .services-grid { grid-template-columns: repeat(2, 1fr); }

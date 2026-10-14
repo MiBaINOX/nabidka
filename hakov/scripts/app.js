@@ -1,15 +1,11 @@
-/**
- * HAKOV, a.s. - Modern Web Application JavaScript
- */
 
-// Global state & Data
+
 let allReferences = [];
 let allGallery = [];
 let currentLightboxIndex = 0;
 let currentSlideIndex = 0;
 let heroSlideTimer = null;
 
-// Initialize on DOM Ready
 document.addEventListener('DOMContentLoaded', async () => {
   initTheme();
   initMobileMenu();
@@ -17,7 +13,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   initCopyButtons();
   initContactForm();
 
-  // Load Structured Data (from embedded data.js or fetch fallback)
   if (window.HAKOV_DATA) {
     allReferences = window.HAKOV_DATA.references || [];
     allGallery = window.HAKOV_DATA.gallery || [];
@@ -41,9 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initCertModal();
 });
 
-/* ==========================================================================
-   Theme Management (Light / Dark)
-   ========================================================================== */
+
 function initTheme() {
   const toggleBtn = document.getElementById('themeToggle');
   const savedTheme = localStorage.getItem('hakov-theme') || 'light';
@@ -70,9 +63,7 @@ function updateThemeIcon(theme) {
     : `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
 }
 
-/* ==========================================================================
-   Header Scroll & Mobile Menu
-   ========================================================================== */
+
 function initHeaderScroll() {
   const header = document.querySelector('.header');
   window.addEventListener('scroll', () => {
@@ -100,9 +91,7 @@ function initMobileMenu() {
   });
 }
 
-/* ==========================================================================
-   Hero Slider
-   ========================================================================== */
+
 function initHeroSlider() {
   const slides = document.querySelectorAll('.hero-slide');
   const dots = document.querySelectorAll('.slider-dot');
@@ -155,9 +144,7 @@ function initHeroSlider() {
   startAutoPlay();
 }
 
-/* ==========================================================================
-   References (Search, Filter, View Switcher)
-   ========================================================================== */
+
 function initReferences() {
   const gridContainer = document.getElementById('refGridContainer');
   const tableBody = document.getElementById('refTableBody');
@@ -173,7 +160,6 @@ function initReferences() {
 
   function render() {
     const filtered = allReferences.filter(item => {
-      // Query search
       const q = activeQuery.toLowerCase().trim();
       const matchQuery = !q ||
         item.title.toLowerCase().includes(q) ||
@@ -181,7 +167,6 @@ function initReferences() {
         item.client.toLowerCase().includes(q) ||
         item.completionDate.includes(q);
 
-      // Filter tag
       let matchTag = true;
       if (activeFilter === 'municipal') {
         matchTag = item.title.toLowerCase().includes('obec') || item.title.toLowerCase().includes('měst') || !item.client.toLowerCase().includes('a.s.');
@@ -200,7 +185,6 @@ function initReferences() {
       refCount.textContent = `Zobrazeno ${filtered.length} z ${allReferences.length} referenčních staveb`;
     }
 
-    // Render Grid
     if (gridContainer) {
       if (filtered.length === 0) {
         gridContainer.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding: 3rem; color: var(--text-muted);">Žádné zakázky neodpovídají zadanému filtru.</div>`;
@@ -224,7 +208,6 @@ function initReferences() {
       }
     }
 
-    // Render Table
     if (tableBody) {
       if (filtered.length === 0) {
         tableBody.innerHTML = `<tr><td colspan="4" style="text-align:center; padding: 2rem;">Nenalezeny žádné záznamy.</td></tr>`;
@@ -241,7 +224,6 @@ function initReferences() {
     }
   }
 
-  // Event Listeners
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       activeQuery = e.target.value;
@@ -277,9 +259,7 @@ function initReferences() {
   render();
 }
 
-/* ==========================================================================
-   Photo Gallery & Lightbox
-   ========================================================================== */
+
 function initGallery() {
   const galleryGrid = document.getElementById('galleryGrid');
   const lightbox = document.getElementById('lightboxModal');
@@ -353,9 +333,7 @@ function initGallery() {
   });
 }
 
-/* ==========================================================================
-   Certificates Lightbox Modal
-   ========================================================================== */
+
 function initCertModal() {
   const certImg = document.getElementById('certPreviewImg');
   const lightbox = document.getElementById('lightboxModal');
@@ -372,9 +350,7 @@ function initCertModal() {
   }
 }
 
-/* ==========================================================================
-   Branch Switcher Tabs
-   ========================================================================== */
+
 function initBranchTabs() {
   const tabs = document.querySelectorAll('.branch-tab-btn');
   const panels = document.querySelectorAll('.branch-panel');
@@ -391,9 +367,7 @@ function initBranchTabs() {
   });
 }
 
-/* ==========================================================================
-   Copy to Clipboard Helper
-   ========================================================================== */
+
 function initCopyButtons() {
   document.querySelectorAll('.copy-btn').forEach(btn => {
     btn.addEventListener('click', async () => {
@@ -408,9 +382,7 @@ function initCopyButtons() {
   });
 }
 
-/* ==========================================================================
-   Contact / Inquiry Form
-   ========================================================================== */
+
 function initContactForm() {
   const form = document.getElementById('inquiryForm');
   if (!form) return;
@@ -431,9 +403,7 @@ function initContactForm() {
   });
 }
 
-/* ==========================================================================
-   Toast Notification Helper
-   ========================================================================== */
+
 function showToast(message) {
   let toast = document.getElementById('appToast');
   if (!toast) {

@@ -29,7 +29,6 @@ const server = http.createServer((req, res) => {
 
   let filePath = path.join(PUBLIC_DIR, reqUrl);
 
-  // Security check: ensure within PUBLIC_DIR
   if (!filePath.startsWith(PUBLIC_DIR)) {
     res.writeHead(403, { 'Content-Type': 'text/plain; charset=utf-8' });
     res.end('403 Forbidden');
@@ -38,7 +37,6 @@ const server = http.createServer((req, res) => {
 
   fs.stat(filePath, (err, stats) => {
     if (err || !stats.isFile()) {
-      // Fallback for html extension
       if (!path.extname(filePath)) {
         filePath += '.html';
       }

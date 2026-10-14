@@ -1,7 +1,4 @@
-/**
- * HAKOV, a.s. - Embedded Data Bundle
- * Embedded directly to allow 100% offline and file:/// protocol compatibility without CORS restrictions.
- */
+
 (function (global) {
   global.HAKOV_DATA = {
   "company": {
