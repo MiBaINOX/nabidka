@@ -1,5 +1,15 @@
-
 document.addEventListener('DOMContentLoaded', () => {
+    const navbar = document.getElementById('navbar');
+    if (navbar) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 40) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    }
+
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
     if (menuToggle && navLinks) {
@@ -7,88 +17,105 @@ document.addEventListener('DOMContentLoaded', () => {
             navLinks.classList.toggle('active');
         });
         navLinks.querySelectorAll('a').forEach(a => {
-            a.addEventListener('click', () => navLinks.classList.remove('active'));
+            a.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
         });
     }
 
-    const revealObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('active');
-            }
-        });
-    }, { threshold: 0.12 });
-    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
-
-    let countersStarted = false;
-    const statSection = document.getElementById('stats');
-    if (statSection) {
-        const counterObserver = new IntersectionObserver((entries) => {
+    const revealElements = document.querySelectorAll('.reveal');
+    if (revealElements.length > 0 && 'IntersectionObserver' in window) {
+        const obs = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting && !countersStarted) {
-                    countersStarted = true;
-                    runCounters();
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    obs.unobserve(entry.target);
                 }
             });
-        }, { threshold: 0.2 });
-        counterObserver.observe(statSection);
+        }, { threshold: 0.1 });
+        revealElements.forEach(el => obs.observe(el));
+    } else {
+        revealElements.forEach(el => el.classList.add('visible'));
     }
 
-    function runCounters() {
-        document.querySelectorAll('.stat-counter').forEach(counter => {
-            const target = parseInt(counter.getAttribute('data-target'), 10);
-            const duration = 1600;
-            const startTime = performance.now();
-
-            function update(now) {
-                const elapsed = now - startTime;
-                const progress = Math.min(elapsed / duration, 1);
-                const easeOut = 1 - Math.pow(1 - progress, 3);
-                const current = Math.floor(easeOut * target);
-                counter.textContent = current.toLocaleString('cs-CZ');
-                if (progress < 1) {
-                    requestAnimationFrame(update);
-                } else {
-                    counter.textContent = target.toLocaleString('cs-CZ');
-                }
+    const statSection = document.getElementById('stats');
+    let counted = false;
+    if (statSection) {
+        const countObserver = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting && !counted) {
+                counted = true;
+                document.querySelectorAll('.stat-counter').forEach(cnt => {
+                    const target = parseInt(cnt.getAttribute('data-target'), 10);
+                    let current = 0;
+                    const step = Math.max(1, Math.ceil(target / 40));
+                    const timer = setInterval(() => {
+                        current += step;
+                        if (current >= target) {
+                            cnt.textContent = target;
+                            clearInterval(timer);
+                        } else {
+                            cnt.textContent = current;
+                        }
+                    }, 35);
+                });
             }
-            requestAnimationFrame(update);
-        });
+        }, { threshold: 0.3 });
+        countObserver.observe(statSection);
     }
 
-    const filterBtns = document.querySelectorAll('.gal-filter-btn');
-    const galleryCards = Array.from(document.querySelectorAll('.gallery-card'));
-    filterBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            filterBtns.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            const cat = btn.getAttribute('data-filter');
-            galleryCards.forEach(card => {
-                if (cat === 'all' || card.getAttribute('data-category') === cat) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
+    let activeYear = 'all';
+    let activeWork = 'all';
+    const yearPills = document.querySelectorAll('#filterYearGroup .f-pill');
+    const workPills = document.querySelectorAll('#filterWorkGroup .f-pill');
+    const galCards = document.querySelectorAll('#galGrid .gal-card');
+    const galCounter = document.getElementById('galCounter');
+
+    function filterGallery() {
+        let visibleCount = 0;
+        galCards.forEach(card => {
+            const cardYear = card.getAttribute('data-year');
+            const cardWork = card.getAttribute('data-work');
+
+            let yearMatch = (activeYear === 'all');
+            if (!yearMatch) {
+                if (activeYear === '2022' && (cardYear === '2022' || cardYear === '2023')) yearMatch = true;
+                else if (activeYear === '2018' && (cardYear === '2018' || cardYear === '2019')) yearMatch = true;
+                else if (cardYear === activeYear) yearMatch = true;
+            }
+
+            let workMatch = (activeWork === 'all');
+            if (!workMatch) {
+                if (cardWork === activeWork) workMatch = true;
+            }
+
+            if (yearMatch && workMatch) {
+                card.classList.remove('hidden');
+                visibleCount++;
+            } else {
+                card.classList.add('hidden');
+            }
+        });
+
+        if (galCounter) {
+            galCounter.innerHTML = 'Zobrazeno <strong>' + visibleCount + '</strong> staveb dle vašeho výběru';
+        }
+    }
+
+    yearPills.forEach(pill => {
+        pill.addEventListener('click', () => {
+            yearPills.forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            activeYear = pill.getAttribute('data-year');
+            filterGallery();
         });
     });
 
-    document.querySelectorAll('.btn-select-service').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const serviceName = btn.getAttribute('data-service');
-            const selectEl = document.getElementById('formService');
-            if (selectEl) {
-                for (let i = 0; i < selectEl.options.length; i++) {
-                    if (selectEl.options[i].value === serviceName) {
-                        selectEl.selectedIndex = i;
-                        break;
-                    }
-                }
-            }
-            const contactSection = document.getElementById('kontakt');
-            if (contactSection) {
-                contactSection.scrollIntoView({ behavior: 'smooth' });
-            }
+    workPills.forEach(pill => {
+        pill.addEventListener('click', () => {
+            workPills.forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            activeWork = pill.getAttribute('data-work');
+            filterGallery();
         });
     });
 
@@ -97,83 +124,102 @@ document.addEventListener('DOMContentLoaded', () => {
     const lbClose = document.getElementById('lbClose');
     const lbPrev = document.getElementById('lbPrev');
     const lbNext = document.getElementById('lbNext');
-    const galleryItems = Array.from(document.querySelectorAll('[data-gallery-src]'));
-    let currentImgIdx = 0;
 
-    function openLb(idx) {
-        if (!galleryItems.length || !lightbox) return;
-        currentImgIdx = (idx + galleryItems.length) % galleryItems.length;
-        const src = galleryItems[currentImgIdx].getAttribute('data-gallery-src');
+    let currentZoomCards = [];
+    let currentZoomIdx = 0;
+
+    function openLightboxForCard(idx) {
+        if (!lightbox || !lbImg || currentZoomCards.length === 0) return;
+        currentZoomIdx = idx;
+        const card = currentZoomCards[currentZoomIdx];
+        const btn = card.querySelector('.btn-gal-zoom');
+        if (!btn) return;
+        const src = btn.getAttribute('data-img');
+        const title = btn.getAttribute('data-title');
         lbImg.src = src;
-        lightbox.classList.add('open');
+        lbImg.alt = title;
+        lightbox.classList.add('active');
     }
 
-    galleryItems.forEach((item, idx) => {
-        item.addEventListener('click', () => openLb(idx));
+    document.querySelectorAll('.btn-gal-zoom').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentZoomCards = Array.from(document.querySelectorAll('#galGrid .gal-card:not(.hidden)'));
+            const parentCard = btn.closest('.gal-card');
+            const idx = currentZoomCards.indexOf(parentCard);
+            openLightboxForCard(idx >= 0 ? idx : 0);
+        });
     });
 
-    if (lbClose) lbClose.addEventListener('click', () => lightbox.classList.remove('open'));
-    if (lbPrev) lbPrev.addEventListener('click', (e) => { e.stopPropagation(); openLb(currentImgIdx - 1); });
-    if (lbNext) lbNext.addEventListener('click', (e) => { e.stopPropagation(); openLb(currentImgIdx + 1); });
-    if (lightbox) {
-        lightbox.addEventListener('click', (e) => {
-            if (e.target === lightbox) lightbox.classList.remove('open');
+    if (lbClose) {
+        lbClose.addEventListener('click', () => {
+            lightbox.classList.remove('active');
         });
     }
-    document.addEventListener('keydown', (e) => {
-        if (!lightbox || !lightbox.classList.contains('open')) return;
-        if (e.key === 'Escape') lightbox.classList.remove('open');
-        if (e.key === 'ArrowLeft') openLb(currentImgIdx - 1);
-        if (e.key === 'ArrowRight') openLb(currentImgIdx + 1);
+    if (lightbox) {
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) lightbox.classList.remove('active');
+        });
+    }
+    if (lbPrev) {
+        lbPrev.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (currentZoomCards.length === 0) return;
+            currentZoomIdx = (currentZoomIdx - 1 + currentZoomCards.length) % currentZoomCards.length;
+            openLightboxForCard(currentZoomIdx);
+        });
+    }
+    if (lbNext) {
+        lbNext.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (currentZoomCards.length === 0) return;
+            currentZoomIdx = (currentZoomIdx + 1) % currentZoomCards.length;
+            openLightboxForCard(currentZoomIdx);
+        });
+    }
+
+    document.querySelectorAll('.btn-select-service').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const sVal = btn.getAttribute('data-service');
+            const selectEl = document.getElementById('formService');
+            if (selectEl) {
+                let found = false;
+                for (let i = 0; i < selectEl.options.length; i++) {
+                    if (selectEl.options[i].text.includes(sVal) || selectEl.options[i].value.includes(sVal)) {
+                        selectEl.selectedIndex = i;
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) selectEl.selectedIndex = 0;
+            }
+            const contactSec = document.getElementById('kontakt');
+            if (contactSec) {
+                contactSec.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
     });
 
-    const form = document.getElementById('inquiryForm');
-    const successBox = document.getElementById('formSuccess');
-    if (form && successBox) {
-        form.addEventListener('submit', async (e) => {
+    const inquiryForm = document.getElementById('inquiryForm');
+    const formSuccess = document.getElementById('formSuccess');
+    if (inquiryForm) {
+        inquiryForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            const recipient = form.getAttribute('data-recipient') || '';
-            const company = form.getAttribute('data-company') || '';
-            const name = (document.getElementById('formName')?.value || '').trim();
-            const phone = (document.getElementById('formPhone')?.value || '').trim();
-            const email = (document.getElementById('formEmail')?.value || '').trim();
-            const service = (document.getElementById('formService')?.value || '').trim();
-            const msg = (document.getElementById('formMsg')?.value || '').trim();
+            const name = document.getElementById('formName').value;
+            const phone = document.getElementById('formPhone').value;
+            const email = document.getElementById('formEmail').value;
+            const service = document.getElementById('formService').value;
+            const message = document.getElementById('formMsg').value;
 
-            const subject = encodeURIComponent(`Poptávka z webu (${service}) – ${name}`);
-            const body = encodeURIComponent(
-                `Dobrý den,\n\nzasílám poptávku z webu (${company}):\n\n• Jméno / Firma: ${name}\n• Telefon: ${phone}\n• E-mail: ${email}\n• Vybraná stavební oblast: ${service}\n\nZpráva / Popis:\n${msg}\n`
-            );
-            const mailtoUrl = `mailto:${recipient}?subject=${subject}&body=${body}`;
-
-            if (window.location.protocol.startsWith('http')) {
-                try {
-                    const formData = new FormData(form);
-                    const resp = await fetch('odeslat-poptavku.php', {
-                        method: 'POST',
-                        body: formData
-                    });
-                    if (resp.ok) {
-                        const resJson = await resp.json();
-                        if (resJson && resJson.success) {
-                            successBox.innerHTML = `✓ Děkujeme! Vaše poptávka byla úspěšně odeslána na <strong>${recipient}</strong>.`;
-                            successBox.style.display = 'block';
-                            form.reset();
-                            return;
-                        }
-                    }
-                } catch (_) {}
+            if (formSuccess) {
+                formSuccess.className = 'form-success show';
+                formSuccess.textContent = 'Děkujeme za poptávku. Stavbyvedoucí p. Plzák (+420 732 965 974) vás bude kontaktovat pro bezplatnou prohlídku a zaměření.';
             }
+            inquiryForm.reset();
 
-            successBox.innerHTML = `
-                <div style="margin-bottom:8px;">✓ <strong>Poptávka na ${service} je připravena k odeslání</strong>.</div>
-                <a href="${mailtoUrl}" style="display:inline-block; background:#166534; color:#FFF; padding:8px 14px; border-radius:6px; font-weight:700; font-size:0.85rem; text-decoration:none;">
-                    ✉️ Odeslat přes e-mail na ${recipient} →
-                </a>
-            `;
-            successBox.style.display = 'block';
-            window.location.href = mailtoUrl;
-            form.reset();
+            const mailSubject = encodeURIComponent('Poptávka stavebních prací – Štefan Škorvaga s.r.o. (' + service + ')');
+            const mailBody = encodeURIComponent('Jméno / Firma: ' + name + '\nTelefon: ' + phone + '\nE-mail: ' + email + '\nSlužba: ' + service + '\nPopis: ' + message);
+            window.location.href = 'mailto:info@skorvaga.cz?subject=' + mailSubject + '&body=' + mailBody;
         });
     }
 });

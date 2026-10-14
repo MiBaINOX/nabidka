@@ -155,7 +155,7 @@
                 <div class="rb-grid">
                     <div><b>Obchodní firma:</b> Štefan Škorvaga s.r.o.</div>
                     <div><b>IČO:</b> 293 93 698 | <b>DIČ:</b> CZ29393698</div>
-                    <div><b>Sídlo:</b> Výstavní 1928/9, 702 00 Ostrava - Moravská Ostrava</div>
+                    <div><b>Sídlo:</b> Orlovská 343/148, 713 00 Ostrava - Heřmanice</div>
                     <div><b>Kancelář:</b> Místecká 126/256, 720 00 Ostrava - Hrabová</div>
                     <div><b>Bankovní účet:</b> 249113908/0300 (ČSOB)</div>
                     <div><b>Datová schránka:</b> en98kng</div>
@@ -409,213 +409,490 @@
     <section class="section section-alt" id="galerie">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">Reálné stavby v regionu</span>
-                <h2 class="section-title">Fotogalerie našich realizací</h2>
-                <p style="color:var(--text-muted); font-size:1.05rem;">Prohlédněte si reálné snímky zateplených fasád, novostaveb rodinných domů a revitalizací v Ostravě a okolí. Kliknutím fotografii zvětšíte.</p>
+                <span class="section-tag">Přehledný archiv realizací</span>
+                <h2 class="section-title">Fotogalerie našich staveb a zateplení</h2>
+                <p style="color:var(--text-muted); font-size:1.05rem;">Filtrujte podle konkrétního roku nebo typu stavebních prací. Zobrazujeme reálné průběhy staveb od základů a montáže lešení až po finální omítky.</p>
             </div>
 
-            <div class="gallery-filters reveal">
-                <button type="button" class="gal-filter-btn active" data-filter="all">Všechny stavby (35)</button>
-                <button type="button" class="gal-filter-btn" data-filter="zatepleni">Zateplení fasád</button>
-                <button type="button" class="gal-filter-btn" data-filter="domy">Rodinné domy</button>
-                <button type="button" class="gal-filter-btn" data-filter="sanace">Sanace & Lešení</button>
-                <button type="button" class="gal-filter-btn" data-filter="cert">Sídlo & Certifikace</button>
+            <div class="gallery-dual-filter reveal">
+                <div class="filter-row">
+                    <span class="filter-title">Období / Rok:</span>
+                    <div class="filter-pills" id="filterYearGroup">
+                        <button type="button" class="f-pill active" data-year="all">Všechny roky (30)</button>
+                        <button type="button" class="f-pill" data-year="2022">2022 / 2023</button>
+                        <button type="button" class="f-pill" data-year="2021">2021</button>
+                        <button type="button" class="f-pill" data-year="2020">2020</button>
+                        <button type="button" class="f-pill" data-year="2018">2018 / 2019</button>
+                        <button type="button" class="f-pill" data-year="2017">2017</button>
+                    </div>
+                </div>
+
+                <div class="filter-row">
+                    <span class="filter-title">Typ práce:</span>
+                    <div class="filter-pills" id="filterWorkGroup">
+                        <button type="button" class="f-pill active" data-work="all">Všechny práce</button>
+                        <button type="button" class="f-pill" data-work="zatepleni">Zateplení & Fasády BD</button>
+                        <button type="button" class="f-pill" data-work="domy">Novostavby rodinných domů</button>
+                        <button type="button" class="f-pill" data-work="prubeh">Průběh stavby (Fáze)</button>
+                        <button type="button" class="f-pill" data-work="lodzie">Betonové lodžie & Balkony</button>
+                        <button type="button" class="f-pill" data-work="rekonstrukce">Rekonstrukce & Komerční</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="gallery-grid" id="galleryGrid">
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_1263_foto_big.jpg">
-                    <img src="images/hd_1263_foto_big.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+            <div class="gal-counter reveal" id="galCounter">Zobrazeno <strong>30</strong> ověřených staveb</div>
+
+            <div class="gal-grid" id="galGrid">
+                <div class="gal-card reveal" data-year="2022" data-work="zatepleni" data-id="sk_2022_01">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_reymontova_zatepleni.jpg" alt="BD Reymontova Ostrava – Zateplení fasády bytového domu" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2022 / 2023</span>
+                            <span class="badge-work">Zateplení & Fasády BD</span>
+                        </div>
+                        <span class="badge-phase">Finální zateplení ETICS</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">BD Reymontova Ostrava – Zateplení fasády bytového domu</h4>
+                        <p class="gal-desc">Komplexní zateplení obvodového pláště bytového domu na ulici Reymontova certifikovaným fasádním systémem Baumit včetně sanace spár a nových parapetů.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_reymontova_zatepleni.jpg" data-title="BD Reymontova Ostrava – Zateplení fasády bytového domu" data-meta="2022 / 2023 • Zateplení & Fasády BD • Finální zateplení ETICS" data-desc="Komplexní zateplení obvodového pláště bytového domu na ulici Reymontova certifikovaným fasádním systémem Baumit včetně sanace spár a nových parapetů.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_1356_foto_big.jpg">
-                    <img src="images/hd_1356_foto_big.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2022" data-work="domy" data-id="sk_2022_02">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_pazderna_rd.jpg" alt="RD Pazderna – Novostavba rodinného domu na klíč" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2022 / 2023</span>
+                            <span class="badge-work">Novostavby rodinných domů</span>
+                        </div>
+                        <span class="badge-phase">Hrubá stavba & střecha</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Pazderna – Novostavba rodinného domu na klíč</h4>
+                        <p class="gal-desc">Kompletní výstavba nízkoenergetického rodinného domu v obci Pazderna od základů po zastřešení a fasádní systém.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_pazderna_rd.jpg" data-title="RD Pazderna – Novostavba rodinného domu na klíč" data-meta="2022 / 2023 • Novostavby rodinných domů • Hrubá stavba & střecha" data-desc="Kompletní výstavba nízkoenergetického rodinného domu v obci Pazderna od základů po zastřešení a fasádní systém.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="cert" data-gallery-src="images/hd_14001.png">
-                    <img src="images/hd_14001.png" alt="Certifikát ISO" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Certifikát ISO</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2022" data-work="domy" data-id="sk_2022_03">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_kuncicky_rd.jpg" alt="RD Kunčičky u Bašky – Výstavba rodinného domu" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2022 / 2023</span>
+                            <span class="badge-work">Novostavby rodinných domů</span>
+                        </div>
+                        <span class="badge-phase">Zdění a konstrukce krovu</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Kunčičky u Bašky – Výstavba rodinného domu</h4>
+                        <p class="gal-desc">Výstavba rodinného domu v malebné lokalitě Kunčičky u Bašky s důrazem na přesné zdění z broušených cihel a tepelně-izolační vlastnosti.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_kuncicky_rd.jpg" data-title="RD Kunčičky u Bašky – Výstavba rodinného domu" data-meta="2022 / 2023 • Novostavby rodinných domů • Zdění a konstrukce krovu" data-desc="Výstavba rodinného domu v malebné lokalitě Kunčičky u Bašky s důrazem na přesné zdění z broušených cihel a tepelně-izolační vlastnosti.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="cert" data-gallery-src="images/hd_18001.png">
-                    <img src="images/hd_18001.png" alt="Certifikát ISO" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Certifikát ISO</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2022" data-work="zatepleni" data-id="sk_2022_04">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_slavickova_puda.jpg" alt="BD Slavíčkova Ostrava – Zateplení půdních prostor" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2022 / 2023</span>
+                            <span class="badge-work">Zateplení & Fasády BD</span>
+                        </div>
+                        <span class="badge-phase">Tepelná izolace krovu</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">BD Slavíčkova Ostrava – Zateplení půdních prostor</h4>
+                        <p class="gal-desc">Odborná foukaná a minerální izolace podkroví a půdy bytového domu pro snížení tepelných ztrát horních pater.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_slavickova_puda.jpg" data-title="BD Slavíčkova Ostrava – Zateplení půdních prostor" data-meta="2022 / 2023 • Zateplení & Fasády BD • Tepelná izolace krovu" data-desc="Odborná foukaná a minerální izolace podkroví a půdy bytového domu pro snížení tepelných ztrát horních pater.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_20170830_133720.jpg">
-                    <img src="images/hd_20170830_133720.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2021" data-work="prubeh" data-id="sk_2021_01">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_domazlicka_izolant.jpg" alt="RD Domažlická – Průběh lepení fasádního izolantu" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2021</span>
+                            <span class="badge-work">Průběh stavby</span>
+                        </div>
+                        <span class="badge-phase">Fáze: Lepení izolantu ETICS</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Domažlická – Průběh lepení fasádního izolantu</h4>
+                        <p class="gal-desc">Ukázka technologického postupu lepení fasádního šedého polystyrenu na obvodové zdivo s důrazem na vazbu desek bez tepelných mostů.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_domazlicka_izolant.jpg" data-title="RD Domažlická – Průběh lepení fasádního izolantu" data-meta="2021 • Průběh stavby • Fáze: Lepení izolantu ETICS" data-desc="Ukázka technologického postupu lepení fasádního šedého polystyrenu na obvodové zdivo s důrazem na vazbu desek bez tepelných mostů.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_20180312_132403.jpg">
-                    <img src="images/hd_20180312_132403.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2021" data-work="prubeh" data-id="sk_2021_02">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_hrabuvka_leseni.jpg" alt="Ostrava-Hrabůvka – Montáž certifikovaného lešení" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2021</span>
+                            <span class="badge-work">Průběh stavby</span>
+                        </div>
+                        <span class="badge-phase">Fáze: Montáž lešení & sítě</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Ostrava-Hrabůvka – Montáž certifikovaného lešení</h4>
+                        <p class="gal-desc">Bezpečná montáž vlastního rámového fasádního lešení s ochrannými sítěmi pro zahájení revitalizace bytového domu.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_hrabuvka_leseni.jpg" data-title="Ostrava-Hrabůvka – Montáž certifikovaného lešení" data-meta="2021 • Průběh stavby • Fáze: Montáž lešení & sítě" data-desc="Bezpečná montáž vlastního rámového fasádního lešení s ochrannými sítěmi pro zahájení revitalizace bytového domu.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_20180406_091837.jpg">
-                    <img src="images/hd_20180406_091837.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2021" data-work="domy" data-id="sk_2021_03">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_hodonovice_rd.jpg" alt="RD Hodoňovice – Dokončená novostavba rodinného domu" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2021</span>
+                            <span class="badge-work">Novostavby rodinných domů</span>
+                        </div>
+                        <span class="badge-phase">Dokončená stavba</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Hodoňovice – Dokončená novostavba rodinného domu</h4>
+                        <p class="gal-desc">Moderní přízemní rodinný dům v Hodoňovicích s elegantní dvoubarevnou fasádou a terénními úpravami.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_hodonovice_rd.jpg" data-title="RD Hodoňovice – Dokončená novostavba rodinného domu" data-meta="2021 • Novostavby rodinných domů • Dokončená stavba" data-desc="Moderní přízemní rodinný dům v Hodoňovicích s elegantní dvoubarevnou fasádou a terénními úpravami.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="cert" data-gallery-src="images/hd_9001.png">
-                    <img src="images/hd_9001.png" alt="Certifikát ISO" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Certifikát ISO</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2021" data-work="lodzie" data-id="sk_2021_04">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_gurjevova2_lodzie.jpg" alt="BD Gurjevova 2, Ostrava – Zavěšení nových betonových lodžií" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2021</span>
+                            <span class="badge-work">Betonové lodžie & Balkony</span>
+                        </div>
+                        <span class="badge-phase">Montáž lodžií & zábradlí</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">BD Gurjevova 2, Ostrava – Zavěšení nových betonových lodžií</h4>
+                        <p class="gal-desc">Statické kotvení a osazení nových prostorných betonových prefabrikovaných lodžií s moderním bezpečnostním zábradlím pro bytové družstvo.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_gurjevova2_lodzie.jpg" data-title="BD Gurjevova 2, Ostrava – Zavěšení nových betonových lodžií" data-meta="2021 • Betonové lodžie & Balkony • Montáž lodžií & zábradlí" data-desc="Statické kotvení a osazení nových prostorných betonových prefabrikovaných lodžií s moderním bezpečnostním zábradlím pro bytové družstvo.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="cert" data-gallery-src="images/hd_EN-ISO-14001-2016.png">
-                    <img src="images/hd_EN-ISO-14001-2016.png" alt="Certifikát ISO" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Certifikát ISO</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2021" data-work="prubeh" data-id="sk_2021_05">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_hnojnik_hala.jpg" alt="Hala Hnojník – Průběh betonáže základových pasů" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2021</span>
+                            <span class="badge-work">Průběh stavby</span>
+                        </div>
+                        <span class="badge-phase">Fáze: Betonáž základů</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Hala Hnojník – Průběh betonáže základových pasů</h4>
+                        <p class="gal-desc">Zemní práce a armování masivních betonových základů pro výstavbu komerční haly v obci Hnojník.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_hnojnik_hala.jpg" data-title="Hala Hnojník – Průběh betonáže základových pasů" data-meta="2021 • Průběh stavby • Fáze: Betonáž základů" data-desc="Zemní práce a armování masivních betonových základů pro výstavbu komerční haly v obci Hnojník.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_IMG_20180921_075327.jpg">
-                    <img src="images/hd_IMG_20180921_075327.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2021" data-work="rekonstrukce" data-id="sk_2021_06">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_admin_budova.jpg" alt="Ostrava – Zateplení a fasáda administrativní budovy" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2021</span>
+                            <span class="badge-work">Rekonstrukce & Komerční</span>
+                        </div>
+                        <span class="badge-phase">Finální silikonová omítka</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Ostrava – Zateplení a fasáda administrativní budovy</h4>
+                        <p class="gal-desc">Zateplení komerčního objektu s reprezentativním firemním nátěrem a paropropustnou úpravou.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_admin_budova.jpg" data-title="Ostrava – Zateplení a fasáda administrativní budovy" data-meta="2021 • Rekonstrukce & Komerční • Finální silikonová omítka" data-desc="Zateplení komerčního objektu s reprezentativním firemním nátěrem a paropropustnou úpravou.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_IMG_2588.jpg">
-                    <img src="images/hd_IMG_2588.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2021" data-work="rekonstrukce" data-id="sk_2021_07">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_dova_hala.jpg" alt="Dova a.s. Ostrava – Rekonstrukce vstupní haly" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2021</span>
+                            <span class="badge-work">Rekonstrukce & Komerční</span>
+                        </div>
+                        <span class="badge-phase">Vnitřní obklady & dlažby</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Dova a.s. Ostrava – Rekonstrukce vstupní haly</h4>
+                        <p class="gal-desc">Kompletní stavební úpravy, velkoformátové obklady a modernizace reprezentativních vstupních prostor společnosti Dova a.s.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_dova_hala.jpg" data-title="Dova a.s. Ostrava – Rekonstrukce vstupní haly" data-meta="2021 • Rekonstrukce & Komerční • Vnitřní obklady & dlažby" data-desc="Kompletní stavební úpravy, velkoformátové obklady a modernizace reprezentativních vstupních prostor společnosti Dova a.s.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="cert" data-gallery-src="images/hd_sidlo.png">
-                    <img src="images/hd_sidlo.png" alt="Sídlo společnosti Ostrava" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Sídlo společnosti Ostrava</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2021" data-work="prubeh" data-id="sk_2021_08">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_klimkovice_strop.jpg" alt="RD Klimkovice – Vylití monolitického stropu" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2021</span>
+                            <span class="badge-work">Průběh stavby</span>
+                        </div>
+                        <span class="badge-phase">Fáze: Monolitický strop</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Klimkovice – Vylití monolitického stropu</h4>
+                        <p class="gal-desc">Bednění, armování ocelovou výztuží a betonáž stropní desky při celkové rekonstrukci domu v Klimkovicích.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_klimkovice_strop.jpg" data-title="RD Klimkovice – Vylití monolitického stropu" data-meta="2021 • Průběh stavby • Fáze: Monolitický strop" data-desc="Bednění, armování ocelovou výztuží a betonáž stropní desky při celkové rekonstrukci domu v Klimkovicích.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="cert" data-gallery-src="images/hd_sidlo2.png">
-                    <img src="images/hd_sidlo2.png" alt="Sídlo společnosti Ostrava" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Sídlo společnosti Ostrava</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2021" data-work="rekonstrukce" data-id="sk_2021_09">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_klimkovice_rekonstrukce.jpg" alt="RD Klimkovice – Celková rekonstrukce a přístavba" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2021</span>
+                            <span class="badge-work">Rekonstrukce & Komerční</span>
+                        </div>
+                        <span class="badge-phase">Hrubá stavba přístavby</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Klimkovice – Celková rekonstrukce a přístavba</h4>
+                        <p class="gal-desc">Generální rekonstrukce rodinného domu včetně dispozičních změn, nových instalací a navazující přístavby.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_klimkovice_rekonstrukce.jpg" data-title="RD Klimkovice – Celková rekonstrukce a přístavba" data-meta="2021 • Rekonstrukce & Komerční • Hrubá stavba přístavby" data-desc="Generální rekonstrukce rodinného domu včetně dispozičních změn, nových instalací a navazující přístavby.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_slide2.jpg">
-                    <img src="images/hd_slide2.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="prubeh" data-id="sk_2020_01">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_horni_becva_deska.jpg" alt="RD Horní Bečva – Fáze 1: Betonáž základové desky" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Průběh stavby</span>
+                        </div>
+                        <span class="badge-phase">Fáze 1: Základová deska</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Horní Bečva – Fáze 1: Betonáž základové desky</h4>
+                        <p class="gal-desc">Zemní výkopy, štěrkový podsyp, položení ležaté kanalizace a vybetonování armované základové desky v horském terénu.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_horni_becva_deska.jpg" data-title="RD Horní Bečva – Fáze 1: Betonáž základové desky" data-meta="2020 • Průběh stavby • Fáze 1: Základová deska" data-desc="Zemní výkopy, štěrkový podsyp, položení ležaté kanalizace a vybetonování armované základové desky v horském terénu.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_slide3blur.png">
-                    <img src="images/hd_slide3blur.png" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="prubeh" data-id="sk_2020_02">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_horni_becva_hruba.jpg" alt="RD Horní Bečva – Fáze 2: Hrubá stavba zdiva" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Průběh stavby</span>
+                        </div>
+                        <span class="badge-phase">Fáze 2: Zdění stěn</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Horní Bečva – Fáze 2: Hrubá stavba zdiva</h4>
+                        <p class="gal-desc">Přesné zdění nosných stěn a příček nízkoenergetické novostavby na Horní Bečvě.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_horni_becva_hruba.jpg" data-title="RD Horní Bečva – Fáze 2: Hrubá stavba zdiva" data-meta="2020 • Průběh stavby • Fáze 2: Zdění stěn" data-desc="Přesné zdění nosných stěn a příček nízkoenergetické novostavby na Horní Bečvě.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_slider04.png">
-                    <img src="images/hd_slider04.png" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="domy" data-id="sk_2020_03">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_horni_becva_strecha.jpg" alt="RD Horní Bečva – Fáze 3: Zastřešení a krov" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Novostavby rodinných domů</span>
+                        </div>
+                        <span class="badge-phase">Fáze 3: Hrubá stavba se střechou</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Horní Bečva – Fáze 3: Zastřešení a krov</h4>
+                        <p class="gal-desc">Montáž masivního dřevěného krovu, laťování, difuzní fólie a položení pálené střešní krytiny.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_horni_becva_strecha.jpg" data-title="RD Horní Bečva – Fáze 3: Zastřešení a krov" data-meta="2020 • Novostavby rodinných domů • Fáze 3: Hrubá stavba se střechou" data-desc="Montáž masivního dřevěného krovu, laťování, difuzní fólie a položení pálené střešní krytiny.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_SSOD4834.jpg">
-                    <img src="images/hd_SSOD4834.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="zatepleni" data-id="sk_2020_04">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_bohumin_bd_1.jpg" alt="BD Bohumín, ul. Studentská – Komplexní zateplení" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Zateplení & Fasády BD</span>
+                        </div>
+                        <span class="badge-phase">Dokončená fasáda</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">BD Bohumín, ul. Studentská – Komplexní zateplení</h4>
+                        <p class="gal-desc">Komplexní revitalizace bytového domu v Bohumíně s novou barevnou fasádou a zateplením lodžií.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_bohumin_bd_1.jpg" data-title="BD Bohumín, ul. Studentská – Komplexní zateplení" data-meta="2020 • Zateplení & Fasády BD • Dokončená fasáda" data-desc="Komplexní revitalizace bytového domu v Bohumíně s novou barevnou fasádou a zateplením lodžií.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/hd_TYJS2636.jpg">
-                    <img src="images/hd_TYJS2636.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="zatepleni" data-id="sk_2020_05">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_bohumin_bd_2.jpg" alt="BD Bohumín – Boční průčelí a soklová část" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Zateplení & Fasády BD</span>
+                        </div>
+                        <span class="badge-phase">Sokl z marmolitu</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">BD Bohumín – Boční průčelí a soklová část</h4>
+                        <p class="gal-desc">Aplikace vysoce odolné mozaikové omítky (marmolit) na sokly a finální silikonové omítky odolné vůči smogu.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_bohumin_bd_2.jpg" data-title="BD Bohumín – Boční průčelí a soklová část" data-meta="2020 • Zateplení & Fasády BD • Sokl z marmolitu" data-desc="Aplikace vysoce odolné mozaikové omítky (marmolit) na sokly a finální silikonové omítky odolné vůči smogu.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/img_001.jpg">
-                    <img src="images/img_001.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="prubeh" data-id="sk_2020_06">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_olbramice_pred.jpg" alt="RD Olbramice – Fáze: Původní stav před zateplením" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Průběh stavby</span>
+                        </div>
+                        <span class="badge-phase">Před zateplením</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Olbramice – Fáze: Původní stav před zateplením</h4>
+                        <p class="gal-desc">Dokumentace původního neizolovaného stavu rodinného domu v Olbramicích před zahájením montáže ETICS.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_olbramice_pred.jpg" data-title="RD Olbramice – Fáze: Původní stav před zateplením" data-meta="2020 • Průběh stavby • Před zateplením" data-desc="Dokumentace původního neizolovaného stavu rodinného domu v Olbramicích před zahájením montáže ETICS.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/img_002.jpg">
-                    <img src="images/img_002.jpg" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="zatepleni" data-id="sk_2020_07">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_olbramice_po.jpg" alt="RD Olbramice – Fáze: Po dokončení zateplení" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Zateplení & Fasády BD</span>
+                        </div>
+                        <span class="badge-phase">Po zateplení</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Olbramice – Fáze: Po dokončení zateplení</h4>
+                        <p class="gal-desc">Stejný dům po dokončení zateplení: moderní čistá fasáda, nová okna, nulové tepelné mosty a snížení nákladů na vytápění o více než 45 %.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_olbramice_po.jpg" data-title="RD Olbramice – Fáze: Po dokončení zateplení" data-meta="2020 • Zateplení & Fasády BD • Po zateplení" data-desc="Stejný dům po dokončení zateplení: moderní čistá fasáda, nová okna, nulové tepelné mosty a snížení nákladů na vytápění o více než 45 %.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/img_003.png">
-                    <img src="images/img_003.png" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="prubeh" data-id="sk_2020_08">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_fulnek_pred.jpg" alt="RD Fulnek – Fáze: Stav před zahájením realizace" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Průběh stavby</span>
+                        </div>
+                        <span class="badge-phase">Před realizací</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Fulnek – Fáze: Stav před zahájením realizace</h4>
+                        <p class="gal-desc">Původní omítka před očistěním, penetrací a instalací zakládacích soklových profilů.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_fulnek_pred.jpg" data-title="RD Fulnek – Fáze: Stav před zahájením realizace" data-meta="2020 • Průběh stavby • Před realizací" data-desc="Původní omítka před očistěním, penetrací a instalací zakládacích soklových profilů.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/img_004.png">
-                    <img src="images/img_004.png" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="zatepleni" data-id="sk_2020_09">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_fulnek_po.jpg" alt="RD Fulnek – Fáze: Nový certifikovaný fasádní systém" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Zateplení & Fasády BD</span>
+                        </div>
+                        <span class="badge-phase">Nová fasáda</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Fulnek – Fáze: Nový certifikovaný fasádní systém</h4>
+                        <p class="gal-desc">Finální stav rodinného domu ve Fulneku s certifikovaným kontaktním zateplením Weber a silikonovou omítkou.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_fulnek_po.jpg" data-title="RD Fulnek – Fáze: Nový certifikovaný fasádní systém" data-meta="2020 • Zateplení & Fasády BD • Nová fasáda" data-desc="Finální stav rodinného domu ve Fulneku s certifikovaným kontaktním zateplením Weber a silikonovou omítkou.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/img_005.png">
-                    <img src="images/img_005.png" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="domy" data-id="sk_2020_10">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_frycovice_stavba.jpg" alt="RD Fryčovice – Demolice a nová výstavba" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Novostavby rodinných domů</span>
+                        </div>
+                        <span class="badge-phase">Hrubá stavba</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">RD Fryčovice – Demolice a nová výstavba</h4>
+                        <p class="gal-desc">Částečná demolice nevyhovujícího původního traktu a výstavba nového moderního obytného křídla.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_frycovice_stavba.jpg" data-title="RD Fryčovice – Demolice a nová výstavba" data-meta="2020 • Novostavby rodinných domů • Hrubá stavba" data-desc="Částečná demolice nevyhovujícího původního traktu a výstavba nového moderního obytného křídla.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
-                <div class="gallery-card reveal" data-category="zatepleni" data-gallery-src="images/img_006.png">
-                    <img src="images/img_006.png" alt="Zateplení fasády – realizace" loading="lazy">
-                    <div class="gallery-caption">
-                        <strong>Zateplení fasády – realizace</strong>
-                        <span>Ostrava a Moravskoslezský kraj</span>
+                <div class="gal-card reveal" data-year="2020" data-work="lodzie" data-id="sk_2020_11">
+                    <div class="gal-thumb">
+                        <img src="images/skorvaga_hrabova_lodzie.jpg" alt="Ostrava-Hrabová – Montáž betonové lodžie" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2020</span>
+                            <span class="badge-work">Betonové lodžie & Balkony</span>
+                        </div>
+                        <span class="badge-phase">Zavěšení lodžie</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Ostrava-Hrabová – Montáž betonové lodžie</h4>
+                        <p class="gal-desc">Montáž prefabrikované železobetonové lodžie včetně sanace nosných ocelových kotev a nového zábradlí.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/skorvaga_hrabova_lodzie.jpg" data-title="Ostrava-Hrabová – Montáž betonové lodžie" data-meta="2020 • Betonové lodžie & Balkony • Zavěšení lodžie" data-desc="Montáž prefabrikované železobetonové lodžie včetně sanace nosných ocelových kotev a nového zábradlí.">Zvětšit & Detail stavby ↗</button>
                     </div>
                 </div>
-                
+                <div class="gal-card reveal" data-year="2019" data-work="zatepleni" data-id="sk_2019_01">
+                    <div class="gal-thumb">
+                        <img src="images/hd_1263_foto_big.jpg" alt="Ostrava-Poruba – Zateplení bytového domu" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2018 / 2019</span>
+                            <span class="badge-work">Zateplení & Fasády BD</span>
+                        </div>
+                        <span class="badge-phase">Kompletní realizace</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Ostrava-Poruba – Zateplení bytového domu</h4>
+                        <p class="gal-desc">Velkoplošné zateplení panelového bytového domu v Ostravě-Porubě dotačním programem Nová zelená úsporám.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/hd_1263_foto_big.jpg" data-title="Ostrava-Poruba – Zateplení bytového domu" data-meta="2018 / 2019 • Zateplení & Fasády BD • Kompletní realizace" data-desc="Velkoplošné zateplení panelového bytového domu v Ostravě-Porubě dotačním programem Nová zelená úsporám.">Zvětšit & Detail stavby ↗</button>
+                    </div>
+                </div>
+                <div class="gal-card reveal" data-year="2019" data-work="lodzie" data-id="sk_2019_02">
+                    <div class="gal-thumb">
+                        <img src="images/hd_1356_foto_big.jpg" alt="Ostrava-Jih – Revitalizace fasády a lodžií" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2018 / 2019</span>
+                            <span class="badge-work">Betonové lodžie & Balkony</span>
+                        </div>
+                        <span class="badge-phase">Revitalizace lodžií</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Ostrava-Jih – Revitalizace fasády a lodžií</h4>
+                        <p class="gal-desc">Komplexní oprava lodžií, nové hydroizolační souvrství, protiskluzová dlažba a barevná fasáda.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/hd_1356_foto_big.jpg" data-title="Ostrava-Jih – Revitalizace fasády a lodžií" data-meta="2018 / 2019 • Betonové lodžie & Balkony • Revitalizace lodžií" data-desc="Komplexní oprava lodžií, nové hydroizolační souvrství, protiskluzová dlažba a barevná fasáda.">Zvětšit & Detail stavby ↗</button>
+                    </div>
+                </div>
+                <div class="gal-card reveal" data-year="2018" data-work="zatepleni" data-id="sk_2018_01">
+                    <div class="gal-thumb">
+                        <img src="images/hd_20180406_091837.jpg" alt="Vratimov – Zateplení rodinného domu" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2018 / 2019</span>
+                            <span class="badge-work">Zateplení & Fasády BD</span>
+                        </div>
+                        <span class="badge-phase">Zateplení fasády</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Vratimov – Zateplení rodinného domu</h4>
+                        <p class="gal-desc">Realizace kontaktního zateplení rodinného domu ve Vratimově s použitím minerální vaty pro zvýšenou požární a akustickou odolnost.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/hd_20180406_091837.jpg" data-title="Vratimov – Zateplení rodinného domu" data-meta="2018 / 2019 • Zateplení & Fasády BD • Zateplení fasády" data-desc="Realizace kontaktního zateplení rodinného domu ve Vratimově s použitím minerální vaty pro zvýšenou požární a akustickou odolnost.">Zvětšit & Detail stavby ↗</button>
+                    </div>
+                </div>
+                <div class="gal-card reveal" data-year="2018" data-work="domy" data-id="sk_2018_02">
+                    <div class="gal-thumb">
+                        <img src="images/hd_20180312_132403.jpg" alt="Šenov – Novostavba rodinného domu" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2018 / 2019</span>
+                            <span class="badge-work">Novostavby rodinných domů</span>
+                        </div>
+                        <span class="badge-phase">Dokončení na klíč</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Šenov – Novostavba rodinného domu</h4>
+                        <p class="gal-desc">Výstavba rodinného domu v Šenově s valbovou střechou a napojením na inženýrské sítě.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/hd_20180312_132403.jpg" data-title="Šenov – Novostavba rodinného domu" data-meta="2018 / 2019 • Novostavby rodinných domů • Dokončení na klíč" data-desc="Výstavba rodinného domu v Šenově s valbovou střechou a napojením na inženýrské sítě.">Zvětšit & Detail stavby ↗</button>
+                    </div>
+                </div>
+                <div class="gal-card reveal" data-year="2017" data-work="rekonstrukce" data-id="sk_2017_01">
+                    <div class="gal-thumb">
+                        <img src="images/hd_20170830_133720.jpg" alt="Havířov – Průmyslová a skladová hala" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2017</span>
+                            <span class="badge-work">Rekonstrukce & Komerční</span>
+                        </div>
+                        <span class="badge-phase">Opláštění haly</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Havířov – Průmyslová a skladová hala</h4>
+                        <p class="gal-desc">Sendvičové izolační panely, základové konstrukce a montáž ocelového skeletu průmyslového objektu.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/hd_20170830_133720.jpg" data-title="Havířov – Průmyslová a skladová hala" data-meta="2017 • Rekonstrukce & Komerční • Opláštění haly" data-desc="Sendvičové izolační panely, základové konstrukce a montáž ocelového skeletu průmyslového objektu.">Zvětšit & Detail stavby ↗</button>
+                    </div>
+                </div>
+                <div class="gal-card reveal" data-year="2017" data-work="domy" data-id="sk_2017_02">
+                    <div class="gal-thumb">
+                        <img src="images/hd_IMG_20180921_075327.jpg" alt="Bruzovice – Hrubá stavba venkovského sídla" loading="lazy">
+                        <div class="gal-badges">
+                            <span class="badge-year">2017</span>
+                            <span class="badge-work">Novostavby rodinných domů</span>
+                        </div>
+                        <span class="badge-phase">Hrubá stavba</span>
+                    </div>
+                    <div class="gal-body">
+                        <h4 class="gal-title">Bruzovice – Hrubá stavba venkovského sídla</h4>
+                        <p class="gal-desc">Prostorný rodinný dům z keramických tvárnic Heluz s trámovým stropem a garážovým stáním.</p>
+                        <button type="button" class="btn-gal-zoom" data-img="images/hd_IMG_20180921_075327.jpg" data-title="Bruzovice – Hrubá stavba venkovského sídla" data-meta="2017 • Novostavby rodinných domů • Hrubá stavba" data-desc="Prostorný rodinný dům z keramických tvárnic Heluz s trámovým stropem a garážovým stáním.">Zvětšit & Detail stavby ↗</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -702,23 +979,7 @@
                         <p style="color:#CBD5E1; margin-top:8px;">Vyplňte formulář nebo nám přímo zavolejte. Přijedeme na stavbu, vše zaměříme a vypracujeme nezávazný položkový rozpočet zdarma.</p>
                     </div>
 
-                    <div class="contact-item">
-                        <div class="contact-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div class="contact-item-text">
-                            <span>Kancelář v Ostravě (osobní návštěvy)</span>
-                            <p>Místecká 126/256, 720 00 Ostrava - Hrabová</p>
-                            <a href="https://mapy.cz/zakladni?q=M%C3%ADsteck%C3%A1%20126%2F256%2C%20720%2000%20Ostrava" target="_blank" rel="noopener" style="font-size:0.8rem; color:#93C5FD; text-decoration:underline;">Otevřít na Mapy.cz →</a>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                        <div class="contact-item-text">
-                            <span>Sídlo společnosti</span>
-                            <p>Výstavní 1928/9, 702 00 Ostrava - Moravská Ostrava</p>
-                            <a href="https://mapy.cz/zakladni?q=V%C3%BDstavn%C3%AD%201928/9%2C%20702%2000%20Ostrava%20-%20Moravsk%C3%A1%20Ostrava" target="_blank" rel="noopener" style="font-size:0.8rem; color:#93C5FD; text-decoration:underline; display:inline-flex; align-items:center; gap:4px; margin-top:4px;">Zobrazit sídlo na Mapy.cz →</a>
-                        </div>
-                    </div>
+                    
 
                     <div class="contact-item">
                         <div class="contact-item-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
