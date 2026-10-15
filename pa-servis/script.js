@@ -72,6 +72,52 @@ function startPaCounters(scope) {
     });
 }
 
+let activeCategory = "all";
+let activeMedium = "all";
+
+function setCategoryTab(cat, btn) {
+    activeCategory = cat;
+    document.querySelectorAll(".cat-tab-btn").forEach(b => b.classList.remove("active"));
+    if (btn) btn.classList.add("active");
+    filterCatalog();
+}
+
+function setMediumFilter(med, btn) {
+    activeMedium = med;
+    document.querySelectorAll(".med-btn").forEach(b => b.classList.remove("active"));
+    if (btn) btn.classList.add("active");
+    filterCatalog();
+}
+
+function filterCatalog() {
+    const query = document.getElementById("catSearch") ? document.getElementById("catSearch").value.toLowerCase().trim() : "";
+    const cards = document.querySelectorAll(".valve-card");
+
+    cards.forEach(card => {
+        const cardCat = card.dataset.cat || "";
+        const cardMed = card.dataset.medium || "";
+        const text = card.textContent.toLowerCase();
+
+        const matchCat = (activeCategory === "all") || (cardCat === activeCategory);
+        const matchMed = (activeMedium === "all") || (cardMed.indexOf(activeMedium) !== -1);
+        const matchQuery = !query || text.indexOf(query) !== -1;
+
+        if (matchCat && matchMed && matchQuery) {
+            card.style.display = "flex";
+        } else {
+            card.style.display = "none";
+        }
+    });
+}
+
+function switchDocTab(tabKey, btn) {
+    document.querySelectorAll(".doc-tab-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".doc-tab-pane").forEach(p => p.classList.remove("active"));
+    if (btn) btn.classList.add("active");
+    const pane = document.getElementById("pane-" + tabKey);
+    if (pane) pane.classList.add("active");
+}
+
 function updateValveRecommendation() {
     const medium = document.getElementById("selMedium") ? document.getElementById("selMedium").value : "";
     const pressure = document.getElementById("selPressure") ? document.getElementById("selPressure").value : "";
@@ -82,20 +128,26 @@ function updateValveRecommendation() {
     const mailtoBtn = document.getElementById("recMailto");
 
     let recTitle = "Přímočinný redukční ventil GEDIP";
-    let recDesc = "Vhodný pro páru, vzduch i vodu. Bez nutnosti pomocné energie reguluje výstupní tlak.";
+    let recDesc = "Vhodný pro páru, vzduch i vodu. Bez nutnosti pomocné energie reguluje výstupní tlak na nastavenou hodnotu.";
 
-    if (func.indexOf("pojistný") !== -1) {
+    if (func.indexOf("pojistn") !== -1) {
         recTitle = "Plnozdvižný pojistný ventil POLIX (pružinový)";
-        recDesc = "Zajišťuje spolehlivé odfouknutí při překročení otevíracího přetlaku v systému " + medium + " (" + pressure + "). Dodáváno s protokolem o nastavení a seřízení z naší zkušební stolice.";
+        recDesc = "Zajišťuje spolehlivé odfouknutí při překročení otevíracího přetlaku v systému " + medium + " (" + pressure + "). Dodáváno s protokolem o seřízení z naší zkušební stolice dle ČSN EN 12266-1.";
     } else if (func.indexOf("regulace") !== -1) {
         recTitle = "Regulační dvoucestný ventil VEDA se servopohonem";
         recDesc = "Umožňuje plynulé modulační řízení průtoku média " + medium + " dle signálu nadřazeného systému (0-10V / 4-20mA). Tlaková třída " + pressure + ".";
     } else if (func.indexOf("uzavření") !== -1) {
-        recTitle = "Průmyslový kulový kohout nebo šoupátko";
+        recTitle = "Průmyslový kulový kohout KPC nebo víkové šoupátko";
         recDesc = "Spolehlivý obousměrný uzávěr s plným průtokem bez tlakových ztrát pro " + medium + " v tlaku " + pressure + ".";
+    } else if (func.indexOf("zpětného") !== -1) {
+        recTitle = "Zpětný ventil SOCLA 812 (mezipřírubový nerezový)";
+        recDesc = "Zamezuje zpětnému toku média " + medium + " v soustavě " + pressure + ". Vyznačuje se velmi nízkým otevíracím přetlakem a vysokou těsností dosedacích ploch.";
+    } else if (func.indexOf("kondenzátu") !== -1) {
+        recTitle = "Plovákový odvaděč kondenzátu s odvzdušněním";
+        recDesc = "Zajišťuje plynulý odvod parního kondenzátu bez prodlev a bez ztrát ostré páry pro jmenovitý tlak " + pressure + ".";
     } else {
         recTitle = "Přímočinný redukční ventil GEDIP s membránovým ovládáním";
-        recDesc = "Samovládací regulátor tlaku pro " + medium + " v soustavě " + pressure + ". Vyznačuje se dlouhou životností, bezúdržbovým chodem a vysokou přesností regulace.";
+        recDesc = "Samovládací regulátor tlaku pro " + medium + " v soustavě " + pressure + ". Vyznačuje se dlouhou životností, bezúdržbovým chodem a vysokou přesností regulace bez pomocné energie.";
     }
 
     if (titleEl) titleEl.textContent = recTitle;
@@ -109,7 +161,7 @@ function updateValveRecommendation() {
             "• Médium: " + medium + "\n" +
             "• Jmenovitý tlak: " + pressure + "\n" +
             "• Účel: " + func + "\n\n" +
-            "Prosíme o zaslání technického listu a informaci o termínu dodání či seřízení.\n\nS pozdravem,"
+            "Prosíme o zaslání technického listu a cenové/termínové nabídky.\n\nS pozdravem,"
         );
         mailtoBtn.href = "mailto:paservis@paservis.cz?subject=" + subject + "&body=" + body;
     }
@@ -130,14 +182,16 @@ function handlePaSubmit(event) {
     const name = document.getElementById("paName").value;
     const email = document.getElementById("paEmail").value;
     const phone = document.getElementById("paPhone").value;
+    const cat = document.getElementById("paCategory") ? document.getElementById("paCategory").value : "";
     const msg = document.getElementById("paMessage").value;
 
-    const subject = encodeURIComponent("Zpráva z webu od: " + name);
+    const subject = encodeURIComponent("Zpráva z webu od: " + name + " (" + cat + ")");
     const body = encodeURIComponent(
-        "Dobrý den pane Dopito,\n\nzasílám poptávku na servis/dodávku armatur:\n\n" +
+        "Dobrý den pane Dopito,\n\nzasílám poptávku na servis a dodávku armatur:\n\n" +
         "Firma / Jméno: " + name + "\n" +
         "E-mail: " + email + "\n" +
-        "Telefon: " + phone + "\n\n" +
+        "Telefon: " + phone + "\n" +
+        "Sortiment: " + cat + "\n\n" +
         "Požadavek:\n" + msg + "\n"
     );
 

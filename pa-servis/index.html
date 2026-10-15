@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P.A. servis spol. s r.o. | Servis a prodej průmyslových armatur Olomouc</title>
-    <meta name="description" content="Autorizovaný servis, seřizování a prodej průmyslových armatur pro energetiku a teplárenství. Redukční, pojistné a regulační ventily, zkušební stolice, atesty těsnosti.">
+    <meta name="description" content="Autorizovaný servis, seřizování a dodávky průmyslových armatur pro energetiku, chemii a teplárenství. Zastoupení MAGWEN, SOCLA, POLIX, GEDIP. Vlastní zkušebna armatur.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -13,23 +13,31 @@
 <body>
     <header class="editorial-header">
         <div class="top-announcement">
-            <span>Specializované pracoviště a zkušebna průmyslových armatur • Olomouc - Hodolany</span>
-            <a href="tel:+420585311027" class="top-phone">+420 585 311 027</a>
+            <div class="top-announcement-inner">
+                <span class="top-address">📍 Hodolany 570 (Holická 31/20), 779 00 Olomouc • Zkušebna a sklad armatur</span>
+                <div class="top-phones">
+                    <a href="tel:+420585220566" class="top-phone">+420 585 220 566</a>
+                    <span class="top-sep">|</span>
+                    <a href="tel:+420585230771" class="top-phone">+420 585 230 771</a>
+                </div>
+            </div>
         </div>
         <div class="nav-container">
             <a href="#hero" class="brand">
-                <span class="brand-crest">P.A.</span>
+                <img src="assets/images/img_35_logo.gif" alt="P.A. servis logo" class="brand-logo-img">
                 <div class="brand-titles">
                     <span class="brand-main">P.A. servis</span>
                     <span class="brand-sub">SERVIS A PRODEJ ARMATUR</span>
                 </div>
             </a>
             <nav class="editorial-nav">
-                <a href="#pribeh">Příběh firmy</a>
-                <a href="#sortiment">Armatury & ventily</a>
-                <a href="#zkusebna">Zkušební stanice</a>
-                <a href="#rozcestnik">Výběr armatury</a>
-                <a href="#kontakt" class="nav-btn">Poptat servis</a>
+                <a href="#spolecnost">O společnosti</a>
+                <a href="#znacky">Zastoupení</a>
+                <a href="#katalog">Katalog armatur</a>
+                <a href="#zkusebna">Zkušebna & servis</a>
+                <a href="#pokyny">Pokyny pro montáž</a>
+                <a href="#dokumenty">Certifikáty & VOP</a>
+                <a href="#kontakt" class="nav-btn">Poptávka / Kontakt</a>
             </nav>
             <button class="nav-toggle" aria-label="Menu" onclick="toggleNav()">
                 <span></span>
@@ -42,24 +50,24 @@
     <section id="hero" class="hero-editorial">
         <div class="hero-container">
             <div class="hero-story-card reveal">
-                <div class="story-date">ZALOŽENO V ROCE 1999 • OLOMOUC</div>
+                <div class="story-date">ZALOŽENO V ROCE 1999 • KONTINUITA OD 1992 • OLOMOUC</div>
                 <h1 class="hero-headline">27 LET EXPERTNÍ PÉČE O PRŮMYSLOVÉ ARMATURY A PARNÍ SYSTÉMY</h1>
                 <p class="hero-lead">
-                    Dodáváme, seřizujeme a repasujeme redukční, pojistné i regulační ventily pro teplárny, energetické závody a zpracovatelský průmysl v celé České republice.
+                    Dodáváme, seřizujeme a repasujeme redukční, pojistné, uzavírací i regulační ventily pro teplárny, chemické provozy, energetiku a potravinářství v celé České republice.
                 </p>
                 <div class="hero-button-group">
-                    <a href="#sortiment" class="btn btn-terracotta">Katalog armatur</a>
+                    <a href="#katalog" class="btn btn-terracotta">Kompletní katalog armatur</a>
                     <a href="#rozcestnik" class="btn btn-outline-warm">Průvodce výběrem média</a>
                 </div>
             </div>
 
             <div class="hero-featured-photo reveal">
                 <div class="photo-frame">
-                    <img src="assets/images/img_23_145_4592.JPG" alt="Servis a seřizování průmyslových ventilů v P.A. servis" class="main-photo">
+                    <img src="assets/images/img_23_145_4592.JPG" alt="Servis a seřizování průmyslových ventilů v P.A. servis Olomouc" class="main-photo">
                     <div class="floating-stat-box">
                         <div class="f-stat-number counter" data-target="27">0</div>
                         <div class="f-stat-unit">let zkušeností</div>
-                        <div class="f-stat-text">Nepřetržité praxe ve zkoušení a servisu tlakových armatur</div>
+                        <div class="f-stat-text">Odborná praxe ve zkoušení, lapování sedel a servisu tlakových armatur</div>
                     </div>
                 </div>
             </div>
@@ -70,169 +78,740 @@
         <div class="ribbon-container">
             <div class="ribbon-item reveal">
                 <div class="r-number"><span class="counter" data-target="1200">0</span><span class="r-plus">+</span></div>
-                <div class="r-label">Otestovaných a seřízených ventilů ročně</div>
+                <div class="r-label">Otestovaných a seřízených armatur ročně</div>
             </div>
             <div class="ribbon-item reveal">
-                <div class="r-number"><span class="counter" data-target="350">0</span><span class="r-plus">+</span></div>
-                <div class="r-label">Stálých průmyslových partnerů v ČR</div>
+                <div class="r-number"><span class="counter" data-target="7">0</span><span class="r-unit">hlavních</span></div>
+                <div class="r-label">Sortimentních skupin armatur a příslušenství</div>
             </div>
             <div class="ribbon-item reveal">
                 <div class="r-number"><span class="counter" data-target="100">0</span><span class="r-plus">%</span></div>
-                <div class="r-label">Protokolů těsnosti z certifikované stolice</div>
+                <div class="r-label">Protokolů těsnosti z autorizované zkušebny</div>
             </div>
             <div class="ribbon-item reveal">
-                <div class="r-number"><span class="counter" data-target="24">0</span><span class="r-unit">h</span></div>
-                <div class="r-label">Rychlý zásah při havarijním úniku média</div>
+                <div class="r-number"><span class="counter" data-target="4">0</span><span class="r-unit">značky</span></div>
+                <div class="r-label">Výhradní či smluvní zastoupení MAGWEN, SOCLA, POLIX, GEDIP</div>
             </div>
         </div>
     </section>
 
-    <section id="pribeh" class="timeline-section">
+    <section id="znacky" class="brands-section">
+        <div class="brands-container">
+            <div class="section-title-wrap reveal">
+                <span class="section-subtitle">OFICIÁLNÍ PARTNERSTVÍ</span>
+                <h2 class="editorial-heading">VÝHRADNÍ A SMLUVNÍ ZASTOUPENÍ VÝROBCŮ</h2>
+                <p class="section-description">Poskytujeme autorizovaný prodej, záruční i pozáruční servis a technickou podporu pro přední evropské výrobce armatur.</p>
+            </div>
+            <div class="brands-grid">
+                <div class="brand-card reveal">
+                    <div class="brand-card-header">
+                        <span class="brand-tag">PŘÍMOČINNÉ REGULÁTORY</span>
+                        <h3>GEDIP</h3>
+                    </div>
+                    <p class="brand-card-desc">Samočinné regulátory výstupního tlaku pro páru, plyny a kapaliny pracující bez cizí energie. Řady 17-3, 17-5 a příslušenství.</p>
+                    <div class="brand-card-features">
+                        <span>Pára do 350 °C</span>
+                        <span>PN 16 – PN 40</span>
+                        <span>Membránové řízení</span>
+                    </div>
+                </div>
+                <div class="brand-card reveal">
+                    <div class="brand-card-header">
+                        <span class="brand-tag">ZPĚTNÉ ARMATURY & KLAPKY</span>
+                        <h3>SOCLA</h3>
+                    </div>
+                    <p class="brand-card-desc">Špičkové mezipřírubové zpětné ventily typ 812 a 802, uzavírací klapky a zavodňovací systémy s maximální spolehlivostí uzávěru.</p>
+                    <div class="brand-card-features">
+                        <span>Typ 812 nerez DN 15–200</span>
+                        <span>Typ 802 litina/mosaz</span>
+                        <span>Nízké tlakové ztráty</span>
+                    </div>
+                </div>
+                <div class="brand-card reveal">
+                    <div class="brand-card-header">
+                        <span class="brand-tag">POJISTNÉ VENTILY</span>
+                        <h3>POLIX</h3>
+                    </div>
+                    <p class="brand-card-desc">Pružinové plnozdvižné i proporcionální pojistné ventily pro bezpečné jištění tlakových nádob, kotlů a technologických potrubí.</p>
+                    <div class="brand-card-features">
+                        <span>Pojistné ventily S15</span>
+                        <span>Seřízení na stolici</span>
+                        <span>Oficiální atesty</span>
+                    </div>
+                </div>
+                <div class="brand-card reveal">
+                    <div class="brand-card-header">
+                        <span class="brand-tag">PRŮMYSLOVÉ ARMATURY</span>
+                        <h3>MAGWEN</h3>
+                    </div>
+                    <p class="brand-card-desc">Robustní průmyslové armatury pro vysokotlaké a vysokoteplotní aplikace v petrochemii, plynárenství a energetice.</p>
+                    <div class="brand-card-features">
+                        <span>Vysokotlaké provedení</span>
+                        <span>Agresivní média</span>
+                        <span>Certifikace EN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="spolecnost" class="timeline-section">
         <div class="timeline-container">
             <div class="section-title-wrap reveal">
-                <span class="section-subtitle">HISTORICKÝ PŘÍBĚH FIRMY</span>
-                <h2 class="editorial-heading">OD MÍSTNÍ DÍLNY PO RESPEKOVANÉ ZKUŠEBNÍ STŘEDISKO</h2>
-                <p class="section-description">Kvalita armatury rozhoduje o bezpečnosti celého provozu. Proto již od konce devadesátých let stavíme na nekompromisní přesnosti měření a seřízení.</p>
+                <span class="section-subtitle">HISTORICKÁ KONTINUITA</span>
+                <h2 class="editorial-heading">OD SDRUŽENÍ PA SERVIS K MODERNÍMU CENTRU ARMATUR</h2>
+                <p class="section-description">P.A. servis spol. s r.o. byla založena v roce 1999 jako nástupce sdružení fyzických osob PA servis, které působilo na trhu již od roku 1992.</p>
             </div>
 
             <div class="timeline-tree">
                 <div class="timeline-entry reveal">
+                    <div class="timeline-badge">1992</div>
+                    <div class="timeline-content">
+                        <h3>Vznik sdružení fyzických osob PA servis</h3>
+                        <p>Zahájení činnosti v oblasti oprav, seřizování a dodávek redukčních a pojistných ventilů pro průmyslové podniky v Olomouci a na střední Moravě.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-entry reveal">
                     <div class="timeline-badge">1999</div>
                     <div class="timeline-content">
-                        <h3>Vznik společnosti v Olomouci</h3>
-                        <p>Založení firmy P.A. servis spol. s r.o. se zaměřením na opravy a dodávky klasických průmyslových armatur pro potravinářství, chemii a teplárenství na střední Moravě.</p>
+                        <h3>Založení P.A. servis spol. s r.o.</h3>
+                        <p>Transformace na společnost s ručením omezeným pod vedením Radka Dopity. Rozšíření servisních kapacit a vybudování stálých skladových zásob armatur a náhradních dílů.</p>
                     </div>
                 </div>
 
                 <div class="timeline-entry reveal">
                     <div class="timeline-badge">2005</div>
                     <div class="timeline-content">
-                        <h3>Vybudování specializované zkušebny armatur</h3>
-                        <p>Instalace profesionální tlakové stolice pro zkoušky pevnosti a těsnosti těles ventilů vodou i vzduchem. Zahájení vystavování úředních atestů a protokolů o seřízení.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-entry reveal">
-                    <div class="timeline-badge">2012</div>
-                    <div class="timeline-content">
-                        <h3>Autorizované zastoupení značek Gedip a Polix</h3>
-                        <p>Rozšíření sortimentu o špičkové přímočinné regulátory výstupního tlaku Gedip a armatury Polix pro náročné parní rozvody a horkovodní systémy.</p>
+                        <h3>Vybudování autorizované zkušebny armatur</h3>
+                        <p>Instalace profesionální hydraulické a pneumatické zkušební stolice pro zkoušky pevnosti a těsnosti dle ČSN EN 12266-1. Vystavování certifikátů a protokolů o seřízení.</p>
                     </div>
                 </div>
 
                 <div class="timeline-entry reveal">
                     <div class="timeline-badge">Dnes</div>
                     <div class="timeline-content">
-                        <h3>Komplexní servisní a distribuční centrum</h3>
-                        <p>Areál v Olomouci-Hodolanech zajišťuje kompletní dodávky nových armatur i generální repase stávajících ventilů včetně lapování sedel, výměny těsnění a seřízení otevíracího tlaku.</p>
+                        <h3>Komplexní dodávky, projekční poradenství a servis</h3>
+                        <p>Areál v Olomouci-Hodolanech zajišťuje zpracování návrhů redukčních stanic, dodávky nových armatur, generální repase, lapování sedel i havarijní technickou podporu.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="sortiment" class="catalog-section">
+    <section id="katalog" class="catalog-section">
         <div class="catalog-container">
             <div class="section-title-wrap reveal">
-                <span class="section-subtitle">SPECIALIZOVANÝ SORTIMENT</span>
-                <h2 class="editorial-heading">ARMATURY PRO PÁRU, PLYNY A KAPALINY</h2>
-                <p class="section-description">Kompletní dodávky armatur předních evropských výrobců s plnou certifikací materiálu.</p>
+                <span class="section-subtitle">KOMPLETNÍ VÝROBNÍ A DODAVATELSKÝ PROGRAM</span>
+                <h2 class="editorial-heading">7 SORTIMENTNÍCH SKUPIN PRŮMYSLOVÝCH ARMATUR</h2>
+                <p class="section-description">Nabízíme ucelený sortiment armatur pro páru, plyny, vodu i agresivní média od renomovaných výrobců.</p>
             </div>
 
-            <div class="catalog-grid">
-                <div class="valve-card reveal">
+            <div class="catalog-toolbar reveal">
+                <div class="catalog-search-wrap">
+                    <input type="text" id="catSearch" placeholder="Hledat armaturu, normu, DN nebo médium..." oninput="filterCatalog()">
+                </div>
+                <div class="catalog-medium-filter">
+                    <span class="filter-lbl">Médium:</span>
+                    <button class="med-btn active" data-medium="all" onclick="setMediumFilter('all', this)">Všechna média</button>
+                    <button class="med-btn" data-medium="para" onclick="setMediumFilter('para', this)">Pára</button>
+                    <button class="med-btn" data-medium="voda" onclick="setMediumFilter('voda', this)">Voda & teplonosná</button>
+                    <button class="med-btn" data-medium="plyn" onclick="setMediumFilter('plyn', this)">Plyny</button>
+                    <button class="med-btn" data-medium="kondenzat" onclick="setMediumFilter('kondenzat', this)">Kondenzát</button>
+                </div>
+            </div>
+
+            <div class="catalog-tabs-nav reveal">
+                <button class="cat-tab-btn active" data-cat="all" onclick="setCategoryTab('all', this)">Všech 7 skupin (35+ typů)</button>
+                <button class="cat-tab-btn" data-cat="ventily" onclick="setCategoryTab('ventily', this)">1. Ventily (8 typů)</button>
+                <button class="cat-tab-btn" data-cat="soupatka" onclick="setCategoryTab('soupatka', this)">2. Šoupátka (3 typy)</button>
+                <button class="cat-tab-btn" data-cat="klapky" onclick="setCategoryTab('klapky', this)">3. Klapky (4 typy)</button>
+                <button class="cat-tab-btn" data-cat="kohouty" onclick="setCategoryTab('kohouty', this)">4. Kulové kohouty (2 typy)</button>
+                <button class="cat-tab-btn" data-cat="odvadece" onclick="setCategoryTab('odvadece', this)">5. Odvaděče kondenzátu (4 typy)</button>
+                <button class="cat-tab-btn" data-cat="manoprislusenstvi" onclick="setCategoryTab('manoprislusenstvi', this)">6. Manopříslušenství (5 typů)</button>
+                <button class="cat-tab-btn" data-cat="ostatni" onclick="setCategoryTab('ostatni', this)">7. Ostatní sortiment (9 typů)</button>
+            </div>
+
+            <div class="catalog-grid" id="catalogGrid">
+                
+                <div class="valve-card reveal" data-cat="ventily" data-medium="para plyn voda">
                     <div class="valve-image-box">
-                        <img src="assets/images/img_01_17-3.jpg" alt="Přímočinné redukční ventily Gedip" class="valve-thumb">
-                        <span class="valve-type-badge">PŘÍMOČINNÉ REGULÁTORY</span>
+                        <img src="assets/images/img_01_17-3.jpg" alt="Přímočinné redukční ventily GEDIP 17-3" class="valve-thumb">
+                        <span class="valve-type-badge">1. VENTILY</span>
                     </div>
                     <div class="valve-info">
-                        <h3>Redukční ventily GEDIP</h3>
-                        <p>Přímočinné regulátory výstupního tlaku pro páru, stlačený vzduch, nehořlavé plyny a vodu. Nevyžadují pomocnou energii, pracují přímo s tlakem média.</p>
+                        <span class="subcat-tag">Redukční ventily</span>
+                        <h3>Přímočinné redukční ventily GEDIP</h3>
+                        <p>Samočinné regulátory výstupního tlaku pro páru, vzduch, nehořlavé plyny i vodu. Pracují bez cizí energie, ovládání membránou.</p>
                         <div class="valve-specs">
                             <span>PN 16 – PN 40</span>
                             <span>DN 15 – DN 100</span>
-                            <span>Až 350 °C</span>
+                            <span>Teplota do 350 °C</span>
                         </div>
+                        <a href="#rozcestnik" class="valve-card-link">Doporučit parametry</a>
                     </div>
                 </div>
 
-                <div class="valve-card reveal">
+                <div class="valve-card reveal" data-cat="ventily" data-medium="para voda plyn">
                     <div class="valve-image-box">
-                        <img src="assets/images/img_12_S15polix.jpg" alt="Pojistné ventily pro průmysl" class="valve-thumb">
-                        <span class="valve-type-badge">OCHRANA SYSTÉMŮ</span>
+                        <img src="assets/images/img_03_18-3.jpg" alt="Přepouštěcí ventily GEDIP 18-3" class="valve-thumb">
+                        <span class="valve-type-badge">1. VENTILY</span>
                     </div>
                     <div class="valve-info">
-                        <h3>Pojistné ventily POLIX</h3>
-                        <p>Plnozdvižné a proporcionální pojistné ventily chránící tlakové nádoby, kotle a potrubí před nepřípustným nárůstem tlaku. Nastavení a zaplombování na zkušebně.</p>
+                        <span class="subcat-tag">Přepouštěcí ventily</span>
+                        <h3>Přepouštěcí ventily GEDIP</h3>
+                        <p>Udržují stálý vstupní tlak média před ventilem nebo slouží pro spolehlivý přepouštěcí obtok čerpadel a výměníkových stanic.</p>
+                        <div class="valve-specs">
+                            <span>PN 16 – PN 40</span>
+                            <span>DN 15 – DN 80</span>
+                            <span>Stabilní přepouštění</span>
+                        </div>
+                        <a href="#rozcestnik" class="valve-card-link">Doporučit parametry</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="ventily" data-medium="para voda plyn">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_12_S15polix.jpg" alt="Pojistné ventily POLIX S15" class="valve-thumb">
+                        <span class="valve-type-badge">1. VENTILY</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Pojistné ventily</span>
+                        <h3>Pojistné ventily POLIX S15</h3>
+                        <p>Plnozdvižné a proporcionální pružinové pojistné ventily k jištění kotlů, tlakových nádob a parních tras před přetlakem. Dodáváno s protokolem.</p>
                         <div class="valve-specs">
                             <span>PN 16 – PN 63</span>
-                            <span>Pružinové provedení</span>
-                            <span>Atest nastavení</span>
+                            <span>DN 15 – DN 200</span>
+                            <span>Atest seřízení na stolici</span>
                         </div>
+                        <a href="#zkusebna" class="valve-card-link">Zkoušky a atesty</a>
                     </div>
                 </div>
 
-                <div class="valve-card reveal">
+                <div class="valve-card reveal" data-cat="ventily" data-medium="para voda plyn">
                     <div class="valve-image-box">
                         <img src="assets/images/img_05_2VEDA.jpg" alt="Regulační ventily VEDA" class="valve-thumb">
-                        <span class="valve-type-badge">PŘEPRAVA A ŘÍZENÍ</span>
+                        <span class="valve-type-badge">1. VENTILY</span>
                     </div>
                     <div class="valve-info">
-                        <h3>Regulační a přepouštěcí ventily</h3>
-                        <p>Dvoucestné a třícestné regulační ventily s elektrickými nebo pneumatickými pohony pro přesnou regulaci průtoku v topných a technologických větvích.</p>
+                        <span class="subcat-tag">Regulační ventily</span>
+                        <h3>Regulační ventily VEDA & V30121</h3>
+                        <p>Dvoucestné a třícestné armatury s elektrickými nebo pneumatickými servopohony pro přesnou plynulou regulaci parametrů média.</p>
                         <div class="valve-specs">
-                            <span>Modulační řízení</span>
+                            <span>Lineární / EQ procentní</span>
                             <span>Pohony 230V / 24V</span>
-                            <span>Zkouška těsnosti</span>
+                            <span>Zkouška těsnosti ČSN EN</span>
                         </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat konfiguraci</a>
                     </div>
                 </div>
 
-                <div class="valve-card reveal">
+                <div class="valve-card reveal" data-cat="ventily" data-medium="para voda plyn">
                     <div class="valve-image-box">
-                        <img src="assets/images/img_09_JEHL.jpg" alt="Jehlové a uzavírací ventily" class="valve-thumb">
-                        <span class="valve-type-badge">UZAVÍRACÍ ARMATURY</span>
+                        <img src="assets/images/img_08_812.jpg" alt="Zpětné ventily SOCLA 812" class="valve-thumb">
+                        <span class="valve-type-badge">1. VENTILY</span>
                     </div>
                     <div class="valve-info">
-                        <h3>Jehlové ventily & manometrické kohouty</h3>
-                        <p>Uzavírací a škrticí armatury pro měřicí linky, odběry vzorků a přesné škrcení kapalin a plynů. Nerezové i uhlíkové provedení.</p>
+                        <span class="subcat-tag">Zpětné ventily</span>
+                        <h3>Zpětné ventily SOCLA 812 & 802</h3>
+                        <p>Mezipřírubové nerezové zpětné ventily SOCLA 812 a litinové/mosazné SOCLA 802. Zamezení zpětného toku s minimální tlakovou ztrátou.</p>
                         <div class="valve-specs">
-                            <span>Vysokotlaké provedení</span>
-                            <span>Přesný kužel</span>
-                            <span>Nerez / Uhlík</span>
+                            <span>SOCLA 812 DN 15–200</span>
+                            <span>Nerezové těleso & talíř</span>
+                            <span>Horizontální i vertikální</span>
                         </div>
+                        <a href="#kontakt" class="valve-card-link">Skladová dostupnost</a>
                     </div>
                 </div>
 
-                <div class="valve-card reveal">
+                <div class="valve-card reveal" data-cat="ventily" data-medium="para voda plyn">
                     <div class="valve-image-box">
-                        <img src="assets/images/img_10_KPC.jpg" alt="Kulové kohouty pro průmysl" class="valve-thumb">
-                        <span class="valve-type-badge">RYCHLÉ UZAVŘENÍ</span>
+                        <img src="assets/images/img_09_JEHL.jpg" alt="Jehlové ventily AC301 PN400" class="valve-thumb">
+                        <span class="valve-type-badge">1. VENTILY</span>
                     </div>
                     <div class="valve-info">
-                        <h3>Průmyslové kulové kohouty</h3>
-                        <p>Přírubové i závitové kulové kohouty s plným průtokem pro spolehlivé uzavírání potrubních tras bez tlakových ztrát.</p>
+                        <span class="subcat-tag">Jehlové ventily</span>
+                        <h3>Jehlové ventily AC301 PN400 nerez</h3>
+                        <p>Vysokotlaké nerezové jehlové ventily DN 7 (1/2") PN400 pro jemné škrcení, odběr vzorků a připojení měřicích přístrojů.</p>
                         <div class="valve-specs">
-                            <span>Plnoprůtokové</span>
-                            <span>Těsnění PTFE / Kov</span>
-                            <span>Přírubové i závit</span>
+                            <span>PN 400 vysokotlaké</span>
+                            <span>Nerez AISI 316</span>
+                            <span>Přesný regulační kužel</span>
                         </div>
+                        <a href="#kontakt" class="valve-card-link">Technický list</a>
                     </div>
                 </div>
 
-                <div class="valve-card reveal">
+                <div class="valve-card reveal" data-cat="ventily" data-medium="para voda">
                     <div class="valve-image-box">
-                        <img src="assets/images/img_13_V30121.jpg" alt="Zpětné ventily a klapky" class="valve-thumb">
-                        <span class="valve-type-badge">JEDNOSMĚRNÝ PRŮTOK</span>
+                        <img src="assets/images/img_24_145_4593.JPG" alt="Uzavírací ventily vlnovcové" class="valve-thumb">
+                        <span class="valve-type-badge">1. VENTILY</span>
                     </div>
                     <div class="valve-info">
-                        <h3>Zpětné ventily a klapky</h3>
-                        <p>Zamezení zpětného toku média v parních a kondenzátních systémech. Mezipřírubové provedení s nízkým otevíracím přetlakem.</p>
+                        <span class="subcat-tag">Uzavírací ventily</span>
+                        <h3>Vlnovcové a ucpávkové uzavírací ventily</h3>
+                        <p>Hermeticky utěsněné uzavírací ventily s nerezovým vlnovcem zaručující nulový únik páry a teplonosných médií do okolí.</p>
                         <div class="valve-specs">
-                            <span>Talířové / Kuželové</span>
-                            <span>Kompaktní mezipříruba</span>
-                            <span>Spolehlivé dosednutí</span>
+                            <span>PN 16 – PN 40</span>
+                            <span>DN 15 – DN 250</span>
+                            <span>Bezúdržbový vlnovec</span>
                         </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat armaturu</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="ventily" data-medium="voda plyn para">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_25_23102008905.jpg" alt="Elektromagnetické ventily" class="valve-thumb">
+                        <span class="valve-type-badge">1. VENTILY</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Elektromagnetické ventily</span>
+                        <h3>Solenoidové ventily pro kapaliny a plyny</h3>
+                        <p>Přímo i nepřímo řízené elektromagnetické ventily pro automatizované uzavírání a otevírání okruhů v průmyslových linkách.</p>
+                        <div class="valve-specs">
+                            <span>230V AC / 24V DC</span>
+                            <span>Mosaz / Nerez</span>
+                            <span>Rychlá odezva uzávěru</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat elektromagnetický</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="soupatka" data-medium="voda para plyn">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_26_IMG_5929.JPG" alt="Víková šoupátka" class="valve-thumb">
+                        <span class="valve-type-badge">2. ŠOUPÁTKA</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Víková šoupátka</span>
+                        <h3>Průmyslová víková šoupátka</h3>
+                        <p>Litinová a ocelová šoupátka s pružným nebo pevným klínem pro vodárenství, teplárenství a rozvody stlačeného vzduchu.</p>
+                        <div class="valve-specs">
+                            <span>PN 10 – PN 25</span>
+                            <span>DN 40 – DN 600</span>
+                            <span>Plný průtok bez víření</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Specifikace a DN</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="soupatka" data-medium="para voda">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_22_145_4588.JPG" alt="Třmenová šoupátka vysokotlaká" class="valve-thumb">
+                        <span class="valve-type-badge">2. ŠOUPÁTKA</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Třmenová šoupátka</span>
+                        <h3>Vysokotlaká třmenová šoupátka</h3>
+                        <p>Kovaná a litá ocelová šoupátka se stoupajícím vřetenem pro vysokotlakou páru, napájecí vodu a energetické bloky.</p>
+                        <div class="valve-specs">
+                            <span>PN 40 – PN 100</span>
+                            <span>DN 50 – DN 300</span>
+                            <span>Teplota až do 450 °C</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Konzultace pro páru</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="soupatka" data-medium="voda">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_23_145_4592.JPG" alt="Nožová šoupátka" class="valve-thumb">
+                        <span class="valve-type-badge">2. ŠOUPÁTKA</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Nožová šoupátka</span>
+                        <h3>Mezipřírubová nožová šoupátka</h3>
+                        <p>Speciální šoupátka s nerezovým nožem pro kaly, sypké směsi, odpadní vody a viskózní kapaliny v papírenství a čistírnách odpadních vod.</p>
+                        <div class="valve-specs">
+                            <span>PN 10</span>
+                            <span>Jednostranná / Oboustranná</span>
+                            <span>Pneumatické i ruční řízení</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat nožové šoupátko</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="klapky" data-medium="voda para plyn">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_06_802lit.jpg" alt="Uzavírací klapky SOCLA" class="valve-thumb">
+                        <span class="valve-type-badge">3. KLAPKY</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Uzavírací klapky SOCLA</span>
+                        <h3>Centrické uzavírací klapky SOCLA</h3>
+                        <p>Mezipřírubové klapky typu Wafer i Lug s manžetami EPDM, NBR nebo FKM pro spolehlivé uzavírání a regulaci průtoku kapalin a plynů.</p>
+                        <div class="valve-specs">
+                            <span>DN 32 – DN 600</span>
+                            <span>PN 6 / 10 / 16</span>
+                            <span>Páka / Šnek / Pneupohon</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat klapku SOCLA</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="klapky" data-medium="para voda">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_13_V30121.jpg" alt="Dvojexcentrické klapky" class="valve-thumb">
+                        <span class="valve-type-badge">3. KLAPKY</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Dvojexcentrické klapky</span>
+                        <h3>Vysokovýkonné dvojexcentrické klapky</h3>
+                        <p>Klapky s dvojitou excentricitou disku pro páru, horkou vodu a chemická média. Dlouhá životnost těsnicího sedla PTFE/kov.</p>
+                        <div class="valve-specs">
+                            <span>PN 16 – PN 40</span>
+                            <span>DN 50 – DN 500</span>
+                            <span>Těsnění PTFE nebo kov</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Technické parametry</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="klapky" data-medium="para plyn">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_05_2VEDA.jpg" alt="Regulační klapky trojexcentrické" class="valve-thumb">
+                        <span class="valve-type-badge">3. KLAPKY</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Trojexcentrické klapky</span>
+                        <h3>Trojexcentrické regulační klapky</h3>
+                        <p>Konstrukce kov na kov pro extrémní teplotní a tlakové podmínky v energetice a chemickém průmyslu bez tření při otevírání.</p>
+                        <div class="valve-specs">
+                            <span>PN 16 – PN 100</span>
+                            <span>Až 550 °C</span>
+                            <span>Těsnost třídy A dle EN</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat pro energetiku</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="klapky" data-medium="voda para">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_07_802mos.jpg" alt="Zpětné klapky mezipřírubové" class="valve-thumb">
+                        <span class="valve-type-badge">3. KLAPKY</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Zpětné klapky</span>
+                        <h3>Jednokřídlé a dvoukřídlé zpětné klapky</h3>
+                        <p>Kompaktní mezipřírubové armatury bránící zpětnému toku v čerpacích a chladicích soustavách. Minimální stavební délka.</p>
+                        <div class="valve-specs">
+                            <span>DN 40 – DN 400</span>
+                            <span>Pružinové dovření</span>
+                            <span>Nízký otevírací tlak</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Zadat rozměr DN</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="kohouty" data-medium="plyn para voda">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_11_KPG.jpg" alt="Kulové kohouty pro plyn KPC-G" class="valve-thumb">
+                        <span class="valve-type-badge">4. KULOVÉ KOHOUTY</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Přírubové kulové kohouty</span>
+                        <h3>Kulové kohouty KPC & KPC-G pro plyn</h3>
+                        <p>Přírubové plnoprůtokové kulové kohouty. Speciální provedení KPC-G certifikované pro hořlavé plyny s rozsahem teplot -20 °C až +60 °C.</p>
+                        <div class="valve-specs">
+                            <span>DN 15 – DN 200</span>
+                            <span>PN 16 – PN 40</span>
+                            <span>Certifikace pro plyn</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Objednat KPC-G</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="kohouty" data-medium="voda para plyn">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_10_KPC.jpg" alt="Závitové kulové kohouty" class="valve-thumb">
+                        <span class="valve-type-badge">4. KULOVÉ KOHOUTY</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Závitové kulové kohouty</span>
+                        <h3>Dvoudílné a třídílné závitové kohouty</h3>
+                        <p>Nerezové a mosazné závitové kulové kohouty pro rozvody stlačeného vzduchu, topné vody, kondenzátu i technických kapalin.</p>
+                        <div class="valve-specs">
+                            <span>Závit 1/4" – 4"</span>
+                            <span>PN 40 – PN 63</span>
+                            <span>Materiál AISI 316 / Mosaz</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat závitové</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="odvadece" data-medium="kondenzat para">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_02_17-5.jpg" alt="Plovákové odvaděče kondenzátu" class="valve-thumb">
+                        <span class="valve-type-badge">5. ODVADĚČE KONDENZÁTU</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Plovákové odvaděče</span>
+                        <h3>Plovákové odvaděče kondenzátu</h3>
+                        <p>Kontinuální odvod vznikajícího kondenzátu bez prodlevy a bez úniku ostré páry. Integrovaný termostatický odvzdušňovací element.</p>
+                        <div class="valve-specs">
+                            <span>PN 16 – PN 40</span>
+                            <span>DN 15 – DN 50</span>
+                            <span>Okamžitý odvod kondenzátu</span>
+                        </div>
+                        <a href="#rozcestnik" class="valve-card-link">Dimenzovat odvaděč</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="odvadece" data-medium="kondenzat para">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_04_18-5.jpg" alt="Termické odvaděče kondenzátu" class="valve-thumb">
+                        <span class="valve-type-badge">5. ODVADĚČE KONDENZÁTU</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Termické odvaděče</span>
+                        <h3>Termické kapslové odvaděče</h3>
+                        <p>Kompaktní odvaděče využívající tlakově řízenou kapsli. Vypouštějí podchlazený kondenzát a automaticky odvzdušňují systém.</p>
+                        <div class="valve-specs">
+                            <span>Kompaktní těleso</span>
+                            <span>Odvzdušnění soustavy</span>
+                            <span>Pro doprovodné vytápění</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat termický</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="odvadece" data-medium="kondenzat para">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_01_17-3.jpg" alt="Termodynamické odvaděče" class="valve-thumb">
+                        <span class="valve-type-badge">5. ODVADĚČE KONDENZÁTU</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Termodynamické odvaděče</span>
+                        <h3>Termodynamické diskové odvaděče</h3>
+                        <p>Vysoce odolné odvaděče s jedinou pohyblivou částí (nerezovým diskem). Odolné vůči vodním rázům a venkovnímu promrzání.</p>
+                        <div class="valve-specs">
+                            <span>PN 40 – PN 63</span>
+                            <span>Odolnost proti rázům</span>
+                            <span>Pro vysokotlaké parní trasy</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Specifikace pro páru</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="odvadece" data-medium="kondenzat para">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_03_18-3.jpg" alt="Bimetalové odvaděče kondenzátu" class="valve-thumb">
+                        <span class="valve-type-badge">5. ODVADĚČE KONDENZÁTU</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Bimetalové odvaděče</span>
+                        <h3>Bimetalové vysokotlaké odvaděče</h3>
+                        <p>Využívají bimetalové desky s proměnným prohnutím dle teploty. Vhodné pro přehřátou páru a odvodnění dálkových parovodů.</p>
+                        <div class="valve-specs">
+                            <span>Vysokotlaké aplikace</span>
+                            <span>Přehřátá pára</span>
+                            <span>Nastavitelný podchlad</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat bimetalový</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="manoprislusenstvi" data-medium="para voda plyn">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_09_JEHL.jpg" alt="Tlakoměrové ventily zkušební AN 137517" class="valve-thumb">
+                        <span class="valve-type-badge">6. MANOPŘÍSLUŠENSTVÍ</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Tlakoměrové ventily</span>
+                        <h3>Zkušební ventily AN 137517 druh B</h3>
+                        <p>Tlakoměrové zkušební ventily s kontrolním ramenem (1110416) umožňující připojení kontrolního manometru bez přerušení provozu.</p>
+                        <div class="valve-specs">
+                            <span>Druh B s kontrolou</span>
+                            <span>ČSN 13 7517</span>
+                            <span>Ocel / Nerez</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Skladová dostupnost</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="manoprislusenstvi" data-medium="voda plyn">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_10_KPC.jpg" alt="Tlakoměrové kohouty" class="valve-thumb">
+                        <span class="valve-type-badge">6. MANOPŘÍSLUŠENSTVÍ</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Tlakoměrové kohouty</span>
+                        <h3>Čepové tlakoměrové kohouty</h3>
+                        <p>Mosazné a nerezové dvoucestné i třícestné kohouty pro bezpečné odtlakování a výměnu manometrů v nízkotlakých soustavách.</p>
+                        <div class="valve-specs">
+                            <span>Závity G 1/2" / M20x1,5</span>
+                            <span>Třícestné s odvzdušněním</span>
+                            <span>Rychlé odtlakování</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat kohouty</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="manoprislusenstvi" data-medium="para voda plyn">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_08_812.jpg" alt="Kondenzační smyčky a tlumiče rázu" class="valve-thumb">
+                        <span class="valve-type-badge">6. MANOPŘÍSLUŠENSTVÍ</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Kondenzační smyčky & tlumiče</span>
+                        <h3>Kondenzační smyčky U/kruh a tlumiče rázu</h3>
+                        <p>Trubkové smyčky pro chlazení páry před vstupem do manometru a kapilární tlumiče tlakových pulsací chránící měřidlo před poškozením.</p>
+                        <div class="valve-specs">
+                            <span>Tvar U i kruhový</span>
+                            <span>Ochrana před pulzacemi</span>
+                            <span>Závitové i navařovací</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Objednat příslušenství</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="ostatni" data-medium="para voda plyn">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_26_IMG_5929.JPG" alt="Filtry průmyslové Y" class="valve-thumb">
+                        <span class="valve-type-badge">7. OSTATNÍ SORTIMENT</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Filtry</span>
+                        <h3>Šikmé a přímé filtry mechanických nečistot</h3>
+                        <p>Přírubové i závitové filtry typu Y s nerezovým sítem. Povinná ochrana před redukční a regulační ventily dle montážních pokynů.</p>
+                        <div class="valve-specs">
+                            <span>DN 15 – DN 300</span>
+                            <span>Jemnost síta dle požadavku</span>
+                            <span>Vypouštěcí zátka</span>
+                        </div>
+                        <a href="#pokyny" class="valve-card-link">Zásady filtrace</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="ostatni" data-medium="voda para">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_24_145_4593.JPG" alt="Stavoznaky a průhledítka" class="valve-thumb">
+                        <span class="valve-type-badge">7. OSTATNÍ SORTIMENT</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Stavoznaky & průhledítka</span>
+                        <h3>Reflexní stavoznaky a potrubní průhledítka</h3>
+                        <p>Ukazatele stavu hladiny v kotlích a tlakových nádržích s borosilikátovým reflexním sklem a průhledítka pro kontrolu toku média.</p>
+                        <div class="valve-specs">
+                            <span>Reflexní i průhledové</span>
+                            <span>Borosilikátové sklo</span>
+                            <span>Atest tlakové odolnosti</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Poptat stavoznak</a>
+                    </div>
+                </div>
+
+                <div class="valve-card reveal" data-cat="ostatni" data-medium="para voda">
+                    <div class="valve-image-box">
+                        <img src="assets/images/img_25_23102008905.jpg" alt="Kompenzátory a montážní vložky" class="valve-thumb">
+                        <span class="valve-type-badge">7. OSTATNÍ SORTIMENT</span>
+                    </div>
+                    <div class="valve-info">
+                        <span class="subcat-tag">Kompenzátory & příruby</span>
+                        <h3>Kompenzátory, montážní vložky, příruby a těsnění</h3>
+                        <p>Nerezové a pryžové kompenzátory dilatací, demontážní vložky, krkové i ploché příruby ČSN EN 1092-1 a bezazbestová těsnění.</p>
+                        <div class="valve-specs">
+                            <span>Kompenzace dilatací</span>
+                            <span>Příruby PN 6 – PN 100</span>
+                            <span>Těsnění na míru</span>
+                        </div>
+                        <a href="#kontakt" class="valve-card-link">Kompletní spojovací materiál</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="pokyny" class="guidelines-section">
+        <div class="guidelines-container">
+            <div class="section-title-wrap reveal">
+                <span class="section-subtitle">TECHNICKÉ INFORMACE ZE STARÉHO WEBU</span>
+                <h2 class="editorial-heading">POKYNY PRO MONTÁŽ A OBSLUHU REGULÁTORŮ VÝSTUPNÍHO TLAKU</h2>
+                <p class="section-description">Regulátory výstupního tlaku pracují samočinně bez pomocné energie. Pro zajištění spolehlivého chodu je nutné dodržet přesná pravidla montáže.</p>
+            </div>
+
+            <div class="guidelines-grid">
+                <div class="guide-card reveal">
+                    <div class="guide-badge">PRAVIDLO 1</div>
+                    <h3>Základní podmínky montáže a filtr</h3>
+                    <p>Regulátor se montuje do vodorovného potrubí ve svislé poloze membránou dolů a tak, aby směr průtoku souhlasil se šipkou na tělese.</p>
+                    <ul class="guide-bullets">
+                        <li>Před regulátor je <strong>nutno osadit uzavírací armaturu a filtr</strong> shodného DN.</li>
+                        <li>Dodržet uklidňující rovný úsek <strong>min. 5 × DN</strong> (minimálně 400 mm).</li>
+                        <li>Regulátor je jištěn pojistným ventilem na plný průtok – mezi nimi nesmí být uzávěr!</li>
+                    </ul>
+                </div>
+
+                <div class="guide-card reveal">
+                    <div class="guide-badge">PRAVIDLO 2</div>
+                    <h3>Rychlosti proudění v potrubí</h3>
+                    <p>Průměr vstupního potrubí volíme shodný se světlostí regulátoru a výstupní tak, aby rychlost nepřekročila povolené meze:</p>
+                    <div class="speed-table">
+                        <div class="speed-row">
+                            <span class="s-med">Sytá a přehřátá pára:</span>
+                            <span class="s-val">20 – 40 m/s</span>
+                        </div>
+                        <div class="speed-row">
+                            <span class="s-med">Stlačený vzduch a plyny:</span>
+                            <span class="s-val">20 m/s</span>
+                        </div>
+                        <div class="speed-row">
+                            <span class="s-med">Kapaliny a voda:</span>
+                            <span class="s-val">2 m/s</span>
+                        </div>
+                    </div>
+                    <p class="speed-note">Při průtocích páry nad 5 t/h doporučujeme provést kontrolu hlučnosti.</p>
+                </div>
+
+                <div class="guide-card reveal">
+                    <div class="guide-badge">PRAVIDLO 3</div>
+                    <h3>Impulsní potrubí a ochrana membrány</h3>
+                    <p>Impulsní potrubí napojuje uklidněnou oblast výstupního tlaku s prostorem nad membránou a doplňuje ochranný kondenzát.</p>
+                    <ul class="guide-bullets">
+                        <li>Minimální <strong>3% spád k ventilu</strong> bez tepelné izolace.</li>
+                        <li>Při teplotě páry nad 350 °C se zařazuje <strong>chladicí válcová nádoba</strong>.</li>
+                        <li>V polovině impulsního potrubí se osazuje uzavírací ventil DN 15.</li>
+                        <li>U plynů je vedeno svisle vzhůru se spádem zpět do potrubí (ochrana před kondenzátem).</li>
+                    </ul>
+                </div>
+
+                <div class="guide-card reveal">
+                    <div class="guide-badge">PRAVIDLO 4</div>
+                    <h3>Seřizování výstupního tlaku a dimenzování</h3>
+                    <p>Ventil při dodání není nastaven na provozní tlak odběratele. Seřízení se provádí za provozu otáčením stavěcího šroubu pružiny.</p>
+                    <ul class="guide-bullets">
+                        <li>Seřizovat při <strong>odběru 40 – 60 % maxima</strong> (utahování zvyšuje tlak).</li>
+                        <li>Před otevřením vstupu nejprve otevřít armatury ke spotřebičům.</li>
+                        <li>Regulátor vyhovuje, pokud nejmenší požadovaný odběr je větší než 5 % maxima.</li>
+                        <li>Životnost membrány při správné montáži činí minimálně 3–5 let.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tech-figures-wrap reveal">
+                <h3 class="figures-heading">Originální montážní schémata a výpočtová tabulka</h3>
+                <div class="figures-grid">
+                    <div class="figure-box">
+                        <img src="assets/images/img_16_obr1m.gif" alt="Obr. 1: Expanze páry na výstupu regulátoru" class="fig-img zoom-img">
+                        <div class="fig-caption">Obr. 1: Krátký přechod klenutým dnem pro expanzi páry</div>
+                    </div>
+                    <div class="figure-box">
+                        <img src="assets/images/img_17_obr2m.gif" alt="Obr. 2: Impulsní potrubí a chlazení membrány" class="fig-img zoom-img">
+                        <div class="fig-caption">Obr. 2: Ochrana membrány kondenzátem (spád min. 3 %)</div>
+                    </div>
+                    <div class="figure-box">
+                        <img src="assets/images/img_18_obr3m.gif" alt="Obr. 3: Uzavírací ventil DN 15 na impulsním potrubí" class="fig-img zoom-img">
+                        <div class="fig-caption">Obr. 3: Osazení ventilu DN 15 na impulsní větvi</div>
+                    </div>
+                    <div class="figure-box">
+                        <img src="assets/images/img_19_obr4m.gif" alt="Obr. 4: Impulsní potrubí pro plynná média" class="fig-img zoom-img">
+                        <div class="fig-caption">Obr. 4: Vedení impulsní trubičky u plynů</div>
+                    </div>
+                    <div class="figure-box figure-wide">
+                        <img src="assets/images/img_20_tabulka1.gif" alt="Tabulka výpočtu Kv a parametrů armatur" class="fig-img zoom-img">
+                        <div class="fig-caption">Výpočtové vztahy pro dimenzování Kv průtoku pro kapaliny, plyny a páru</div>
                     </div>
                 </div>
             </div>
@@ -246,13 +825,13 @@
                     <span class="section-subtitle">AUTORIZOVANÁ ZKUŠEBNA</span>
                     <h2 class="editorial-heading">TESTOVÁNÍ, LAPOVÁNÍ A CERTIFIKACE NA VLASTNÍ STOLICI</h2>
                     <p class="workshop-body">
-                        Každá opravená či nová armatura před expedicí prochází důkladnou zkouškou těsnosti uzávěru a pevnosti tělesa. Disponujeme hydraulickou a pneumatickou zkušební stolicí s kalibrovanými manometry.
+                        Každá opravená či nová armatura před expedicí prochází důkladnou zkouškou těsnosti uzávěru a pevnosti tělesa. V areálu v Olomouci-Hodolanech disponujeme hydraulickou i pneumatickou zkušební stolicí s kalibrovanými manometry.
                     </p>
                     <ul class="workshop-points">
                         <li><strong>Přesné seřízení otevíracího tlaku pojistných ventilů</strong> s vystavením úředního protokolu a zaplombováním.</li>
                         <li><strong>Strojní lapování sedel a kuželek</strong> pro dosažení nulového úniku média i při vysokých teplotách a tlacích.</li>
-                        <li><strong>Kompletní repase starších armatur:</strong> výměna vlnovců, ucpávek, těsnění a spojovacího materiálu.</li>
-                        <li><strong>Vystavování protokolů o tlakové zkoušce</strong> v souladu s normami ČSN EN 12266-1.</li>
+                        <li><strong>Kompletní repase armatur:</strong> výměna vlnovců, ucpávek, sedel, pružin a těsnění.</li>
+                        <li><strong>Tlakové zkoušky dle ČSN EN 12266-1:</strong> protokoly o těsnosti vodou i suchým vzduchem.</li>
                     </ul>
                 </div>
                 <div class="workshop-photos reveal">
@@ -280,28 +859,31 @@
                         <select id="selMedium" onchange="updateValveRecommendation()">
                             <option value="Sytá a přehřátá pára">Sytá a přehřátá pára</option>
                             <option value="Horká a teplá voda">Horká a teplá voda</option>
-                            <option value="Stlačený vzduch a nehořlavé plyny">Stlačený vzduch a technické plyny</option>
-                            <option value="Kondenzát">Kondenzát z parních okruhů</option>
+                            <option value="Stlačený vzduch">Stlačený vzduch</option>
+                            <option value="Topné a technické plyny">Topné a technické plyny</option>
+                            <option value="Kondenzát">Parní kondenzát</option>
                         </select>
                     </div>
 
                     <div class="sel-group">
                         <label for="selPressure">2. Jmenovitý tlak potrubí:</label>
                         <select id="selPressure" onchange="updateValveRecommendation()">
-                            <option value="PN 16 (do 1.6 MPa)">PN 16 (do 1.6 MPa)</option>
-                            <option value="PN 25 (do 2.5 MPa)">PN 25 (do 2.5 MPa)</option>
-                            <option value="PN 40 (do 4.0 MPa)">PN 40 (do 4.0 MPa)</option>
-                            <option value="PN 63 a vyšší">PN 63 a vyšší (vysokotlaké aplikace)</option>
+                            <option value="PN 16 (do 1,6 MPa)">PN 16 (do 1,6 MPa)</option>
+                            <option value="PN 25 (do 2,5 MPa)">PN 25 (do 2,5 MPa)</option>
+                            <option value="PN 40 (do 4,0 MPa)">PN 40 (do 4,0 MPa)</option>
+                            <option value="PN 63 a vyšší">PN 63 a vyšší</option>
                         </select>
                     </div>
 
                     <div class="sel-group">
                         <label for="selFunction">3. Požadovaná funkce v systému:</label>
                         <select id="selFunction" onchange="updateValveRecommendation()">
-                            <option value="Redukce a udržení výstupního tlaku">Redukce a udržení výstupního tlaku bez cizí energie</option>
-                            <option value="Havarijní ochrana proti překročení tlaku (pojistný ventil)">Havarijní ochrana proti překročení tlaku</option>
-                            <option value="Plynulá regulace průtoku servopohonem">Plynulá regulace průtoku servopohonem</option>
-                            <option value="Spolehlivé rychlé uzavření trasy">Spolehlivé rychlé uzavření trasy</option>
+                            <option value="Redukce výstupního tlaku">Redukce výstupního tlaku</option>
+                            <option value="Havarijní pojistná ochrana">Havarijní pojistná ochrana</option>
+                            <option value="Plynulá regulace průtoku">Plynulá regulace průtoku</option>
+                            <option value="Spolehlivé rychlé uzavření">Spolehlivé rychlé uzavření</option>
+                            <option value="Zamezení zpětného toku">Zamezení zpětného toku</option>
+                            <option value="Odvod kondenzátu ze soustavy">Odvod kondenzátu ze soustavy</option>
                         </select>
                     </div>
                 </div>
@@ -310,7 +892,7 @@
                     <div class="rec-header">DOPORUČENÉ ŘEŠENÍ:</div>
                     <div class="rec-title" id="recTitle">Přímočinný redukční ventil GEDIP s membránovým ovládáním</div>
                     <div class="rec-details" id="recDetails">
-                        Vhodný pro páru a plyny do 350 °C. Dosedací plochy z korozivzdorné oceli, možnost volby rozsahu regulovaného tlaku pomocí stavěcí pružiny. Zkoušeno na zkušební stolici dle ČSN EN 12266.
+                        Vhodný pro páru a plyny do 350 °C. Dosedací plochy z korozivzdorné oceli, možnost volby rozsahu regulovaného tlaku pomocí stavěcí pružiny. Zkoušeno na zkušební stolici dle ČSN EN 12266-1.
                     </div>
                     <div class="rec-action">
                         <a id="recMailto" href="#" class="btn btn-terracotta">Odeslat specifikaci jednateli (paservis@paservis.cz)</a>
@@ -320,13 +902,93 @@
         </div>
     </section>
 
+    <section id="dokumenty" class="docs-section">
+        <div class="docs-container">
+            <div class="section-title-wrap reveal">
+                <span class="section-subtitle">DŮVĚRYHODNOST & PODMÍNKY</span>
+                <h2 class="editorial-heading">CERTIFIKÁTY, OBCHODNÍ PODMÍNKY A SPONZORING</h2>
+                <p class="section-description">Veškeré dodávky a servisní práce realizujeme podle platných technických norem a závazných obchodních podmínek.</p>
+            </div>
+
+            <div class="docs-tabs-nav reveal">
+                <button class="doc-tab-btn active" onclick="switchDocTab('cert', this)">Certifikáty výrobků</button>
+                <button class="doc-tab-btn" onclick="switchDocTab('vop', this)">Obchodní podmínky (VOP)</button>
+                <button class="doc-tab-btn" onclick="switchDocTab('sponzor', this)">Sponzoring</button>
+            </div>
+
+            <div class="doc-tab-pane active" id="pane-cert">
+                <div class="cert-split">
+                    <div class="cert-info">
+                        <h3>Certifikát výrobku – Redukční ventil 23xx</h3>
+                        <p>Naše přímočinné redukční ventily splňují přísné požadavky na bezpečnost a tlakovou těsnost dle evropských a českých strojírenských směrnic.</p>
+                        <div class="cert-meta-list">
+                            <div><strong>Dokument:</strong> Certifikát výrobku redukčních ventilů</div>
+                            <div><strong>Předpis:</strong> Strojírenský zkušební ústav, s.p.</div>
+                            <div><strong>Normy:</strong> ČSN EN 12266-1, ČSN EN 19, ČSN EN 736</div>
+                            <div><strong>Tlakové zkoušky:</strong> Pevnost tělesa 1,5 × PN, těsnost uzávěru 1,1 × PN</div>
+                        </div>
+                    </div>
+                    <div class="cert-img-box">
+                        <img src="assets/images/img_36_pas.png" alt="Certifikát výrobku redukční ventil 23xx" class="cert-preview-img zoom-img">
+                        <span class="cert-caption">Oficiální certifikát výrobku P.A. servis</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="doc-tab-pane" id="pane-vop">
+                <div class="vop-box">
+                    <h3>Všeobecné obchodní podmínky (VOP) společnosti P.A. servis spol. s r.o.</h3>
+                    <p class="vop-lead">IČO 25834606, se sídlem Olomouc, Holická 31/20 (Hodolany 570), PSČ 779 00, zapsané v obchodním rejstříku Krajského soudu v Ostravě, oddíl C, vložka 20468.</p>
+                    <div class="vop-articles">
+                        <div class="vop-article">
+                            <h4>1. Obecná ustanovení a závaznost</h4>
+                            <p>Tyto Všeobecné obchodní podmínky (VOP) upravují vztahy mezi prodávajícím (P.A. servis spol. s r.o.) a kupujícím vznikající při dodávkách armatur a poskytování servisních prací. Jsou nedílnou součástí všech kupních smluv a objednávek.</p>
+                        </div>
+                        <div class="vop-article">
+                            <h4>2. Uzavření smlouvy a objednávky</h4>
+                            <p>K uzavření smlouvy je nutná písemná objednávka kupujícího zaslaná poštou, faxem nebo elektronickou formou na e-mailovou adresu paservis@paservis.cz. Objednávka musí obsahovat přesnou specifikaci armatury (typ, DN, PN, médium, provozní teplota a otevírací tlak).</p>
+                        </div>
+                        <div class="vop-article">
+                            <h4>3. Dodací podmínky a přechod nebezpečí škody</h4>
+                            <p>Zboží je dodáváno z centrálního skladu v Olomouci nebo odesíláno přepravní službou. Spolu se zbožím jsou předávány příslušné atesty o zkouškách těsnosti a pokyny pro montáž a údržbu.</p>
+                        </div>
+                        <div class="vop-article">
+                            <h4>4. Záruční doba a servis</h4>
+                            <p>Na dodané armatury a provedené opravy poskytujeme standardní záruku dle platných předpisů. Servisní zásahy a seřizování provádějí certifikovaní technici na kalibrovaných zařízeních.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="doc-tab-pane" id="pane-sponzor">
+                <div class="sponzor-box">
+                    <h3>Společenská odpovědnost a podpora regionu</h3>
+                    <p>Společnost P.A. servis spol. s r.o. se dlouhodobě podílí na podpoře mládežnického sportu, volnočasových aktivit dětí a komunitních projektů v Olomouckém kraji.</p>
+                    <div class="sponzor-features">
+                        <div class="s-feat">
+                            <span class="s-ico">⚽</span>
+                            <strong>Podpora mládežnických klubů</strong>
+                            <p>Pravidelný příspěvek na sportovní vybavení a činnost oddílů mládeže na střední Moravě.</p>
+                        </div>
+                        <div class="s-feat">
+                            <span class="s-ico">🤝</span>
+                            <strong>Místní partnerství</strong>
+                            <p>Spolupráce se středními technickými školami při odborné přípravě mladých mechaniků.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <section id="kontakt" class="contact-editorial">
         <div class="contact-container">
             <div class="contact-layout">
                 <div class="contact-details-box reveal">
                     <span class="section-subtitle">KONTAKTNÍ MÍSTO</span>
                     <h2 class="editorial-heading">P.A. SERVIS SPOL. S R.O.</h2>
-                    <p class="contact-note">Jsme Vám k dispozici pro odborné konzultace, dodávky náhradních dílů i havarijní servis armatur.</p>
+                    <p class="contact-note">Jsme Vám k dispozici pro odborné konzultace, návrhy redukčních stanic, dodávky armatur i havarijní servis.</p>
 
                     <div class="leader-badge">
                         <div class="leader-title">Statutární zástupce</div>
@@ -338,16 +1000,33 @@
                         <span class="c-icon">📍</span>
                         <div class="c-val">
                             <strong>Sídlo a servisní středisko:</strong><br>
-                            Hodolany 570, 779 00 Olomouc<br>
-                            <a href="https://mapy.cz/zakladni?q=Hodolany%20570%2C%20Olomouc" target="_blank" rel="noopener" style="display:inline-block; margin-top: 4px; font-size: 0.85rem;">📍 Otevřít na Mapy.cz</a>
+                            Hodolany 570 (Holická 31/20), 779 00 Olomouc<br>
+                            <a href="https://mapy.cz/zakladni?q=Holick%C3%A1%20570%2C%20Olomouc" target="_blank" rel="noopener" class="map-link">📍 Otevřít na Mapy.cz</a>
                         </div>
                     </div>
 
                     <div class="c-row">
                         <span class="c-icon">📞</span>
                         <div class="c-val">
-                            <strong>Telefonní kontakty:</strong><br>
-                            <a href="tel:+420585311027">+420 585 311 027</a> • <a href="tel:+420602721736">+420 602 721 736</a>
+                            <strong>Pevná linka & kancelář:</strong><br>
+                            <a href="tel:+420585220566" class="phone-link">+420 585 220 566</a><br>
+                            <a href="tel:+420585230771" class="phone-link">+420 585 230 771</a>
+                        </div>
+                    </div>
+
+                    <div class="c-row">
+                        <span class="c-icon">📱</span>
+                        <div class="c-val">
+                            <strong>Mobilní telefon:</strong><br>
+                            <a href="tel:+420602538642" class="phone-link">+420 602 538 642</a>
+                        </div>
+                    </div>
+
+                    <div class="c-row">
+                        <span class="c-icon">📠</span>
+                        <div class="c-val">
+                            <strong>Fax:</strong><br>
+                            <span>+420 585 242 624</span>
                         </div>
                     </div>
 
@@ -376,7 +1055,7 @@
 
                 <div class="contact-form-box reveal">
                     <h3 class="form-heading">Poptávkový formulář pro servis a dodávky</h3>
-                    <p class="form-sub">Máte požadavek na seřízení ventilu nebo potřebujete novou armaturu? Vyplňte formulář:</p>
+                    <p class="form-sub">Vyplňte Vaše provozní parametry pro rychlé zpracování nabídky:</p>
                     <form onsubmit="handlePaSubmit(event)">
                         <div class="form-field">
                             <label for="paName">Firma / Kontaktní osoba *</label>
@@ -391,10 +1070,24 @@
                             <input type="tel" id="paPhone" placeholder="+420 600 000 000">
                         </div>
                         <div class="form-field">
-                            <label for="paMessage">Požadavek (typ armatury, DN, médium, požadovaný termín) *</label>
+                            <label for="paCategory">Požadovaný sortiment</label>
+                            <select id="paCategory">
+                                <option value="Redukční ventily GEDIP">Redukční ventily GEDIP</option>
+                                <option value="Pojistné ventily POLIX">Pojistné ventily POLIX</option>
+                                <option value="Zpětné ventily a klapky SOCLA">Zpětné ventily SOCLA</option>
+                                <option value="Regulační ventily se servopohony">Regulační ventily</option>
+                                <option value="Kulové kohouty KPC-G">Kulové kohouty KPC-G</option>
+                                <option value="Šoupátka víková a třmenová">Šoupátka průmyslová</option>
+                                <option value="Odvaděče kondenzátu">Odvaděče kondenzátu</option>
+                                <option value="Manopříslušenství AN 137517">Manopříslušenství</option>
+                                <option value="Seřízení a zkouška těsnosti">Seřízení a zkouška</option>
+                            </select>
+                        </div>
+                        <div class="form-field">
+                            <label for="paMessage">Specifikace požadavku (DN, PN, médium, termín) *</label>
                             <textarea id="paMessage" rows="4" required placeholder="Dobrý den, poptáváme seřízení 4 ks pojistných ventilů DN 50 PN 40 s vystavením zkušebního protokolu..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-terracotta btn-full">Odeslat zprávu panu Dopitovi</button>
+                        <button type="submit" class="btn btn-terracotta btn-full">Odeslat poptávku panu Dopitovi</button>
                     </form>
                 </div>
             </div>
@@ -404,10 +1097,10 @@
     <footer class="editorial-footer">
         <div class="footer-wrap">
             <div class="footer-text">
-                <strong>P.A. servis spol. s r.o.</strong> • Dodavatel spolehlivých průmyslových armatur pro energetiku od roku 1999 • <a href="https://mapy.cz/zakladni?q=Hodolany%20570%2C%20Olomouc" target="_blank" rel="noopener" style="color: #cbd5e1; text-decoration: underline;">📍 Mapy.cz</a>
+                <strong>P.A. servis spol. s r.o.</strong> • Dodavatel spolehlivých průmyslových armatur pro energetiku od roku 1999 • <a href="https://mapy.cz/zakladni?q=Holick%C3%A1%20570%2C%20Olomouc" target="_blank" rel="noopener" style="color: #cbd5e1; text-decoration: underline;">📍 Mapy.cz</a>
             </div>
             <div class="footer-copy">
-                &copy; P.A. servis spol. s r.o. | IČO: 25834606 | Zapsáno v OR Krajského soudu v Ostravě, oddíl C, vložka 20387
+                &copy; P.A. servis spol. s r.o. | IČO: 25834606 | Zapsáno v OR Krajského soudu v Ostravě, oddíl C, vložka 20468
             </div>
         </div>
     </footer>

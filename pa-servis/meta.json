@@ -9,10 +9,11 @@
   "archetyp": "Editorial & Story",
   "stary_web": "http://paservis.cz/",
   "email": "paservis@paservis.cz",
+  "jednatel": "Radek Dopita",
   "prodejni_body": [
     "✓ 27 let specializace na parní armatury",
     "✓ Vlastní zkušebna s kalibrovanou stolicí",
-    "✓ Zastoupení značek GEDIP, POLIX a VEDA"
+    "✓ Zastoupení značek MAGWEN, SOCLA, POLIX a GEDIP"
   ],
   "vady_stareho_webu": [
     "Zastaralý tabulkový layout z počátku 2000. let bez responzivity pro mobily",
@@ -21,11 +22,11 @@
     "Absence zabezpečeného HTTPS protokolu a zastaralá struktura katalogu"
   ],
   "vylepseni_noveho_webu": [
-    "Reprezentativní design Editorial & Story zdůrazňující 27letou tradici",
-    "Interaktivní rozcestník a kalkulátor pro doporučení vhodné armatury",
-    "Přehledný katalog redukčních, pojistných i regulačních ventilů",
-    "Prezentace vlastní autorizované zkušebny armatur a tlakových zkoušek",
-    "Plynulé animace, plná mobilní optimalizace a zoom-on-hover náhledy"
+    "Reprezentativní design Editorial & Story zdůrazňující tradici od roku 1992",
+    "Kompletní 100% katalog všech 7 skupin armatur a příslušenství",
+    "Komplexní pokyny pro montáž regulátorů tlaku s diagramy a rychlostmi médií",
+    "Sekce certifikátů, obchodních podmínek (VOP) a sponzoringu",
+    "Interaktivní kalkulátor doporučené armatury s optimalizovaným mobilním rozhraním"
   ],
   "fakta": {
     "rok_zalozeni": 1999,
@@ -34,6 +35,6 @@
       "ČSN EN 12266-1",
       "Autorizovaná zkušebna armatur"
     ],
-    "ventily_rocne": 1200
+    "armatury_rocne": 1200
   }
 }

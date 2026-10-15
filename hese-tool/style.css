@@ -573,6 +573,10 @@ body {
     grid-template-columns: 1.1fr 0.9fr;
     gap: 3rem;
     align-items: start;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
 }
 
 .config-inputs {
@@ -580,7 +584,9 @@ body {
     flex-direction: column;
     gap: 1.5rem;
     min-width: 0;
+    max-width: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .input-box {
@@ -588,7 +594,9 @@ body {
     flex-direction: column;
     gap: 0.5rem;
     min-width: 0;
+    max-width: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .input-box label {
@@ -601,6 +609,7 @@ body {
 .input-box select {
     width: 100%;
     max-width: 100%;
+    min-width: 0;
     box-sizing: border-box;
     background: var(--bg-main);
     border: 1px solid var(--border-color);
@@ -609,6 +618,9 @@ body {
     font-size: 0.95rem;
     border-radius: 4px;
     outline: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     transition: border-color 0.2s;
 }
 
@@ -623,6 +635,12 @@ body {
     border-radius: 8px;
     border: 1px solid var(--border-dark);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    word-break: break-word;
 }
 
 .res-tag {
@@ -655,12 +673,21 @@ body {
     flex-direction: column;
     gap: 0.65rem;
     margin-bottom: 2rem;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .res-spec-row {
     display: flex;
     justify-content: space-between;
     font-size: 0.85rem;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .res-spec-row span {
@@ -1101,6 +1128,21 @@ body {
     }
 
     .config-panel {
+        padding: 1.5rem 1rem;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .config-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .config-result-box {
         padding: 1.5rem 1rem;
         width: 100%;
         max-width: 100%;

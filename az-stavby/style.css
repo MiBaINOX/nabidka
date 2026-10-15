@@ -719,6 +719,7 @@ body {
 .calc-col input {
     width: 100%;
     max-width: 100%;
+    min-width: 0;
     box-sizing: border-box;
     background: var(--bg-panel);
     border: 1px solid var(--border-color);
@@ -728,6 +729,9 @@ body {
     font-size: 0.95rem;
     border-radius: 2px;
     outline: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     transition: border-color 0.2s;
 }
 
@@ -889,6 +893,10 @@ body {
     background: var(--bg-panel);
     border: 1px solid var(--border-color);
     padding: 2.5rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
 }
 
 .form-title {
@@ -911,6 +919,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .form-group label {
@@ -921,6 +933,10 @@ body {
 
 .form-group input,
 .form-group textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     color: #fff;
@@ -930,6 +946,12 @@ body {
     border-radius: 2px;
     outline: none;
     transition: border-color 0.2s;
+}
+
+.form-group input {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .form-group input:focus,
@@ -1060,6 +1082,10 @@ body {
     }
 
     .calc-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .form-wrapper {
         padding: 1.5rem 1rem;
     }
 
