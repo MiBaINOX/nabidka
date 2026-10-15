@@ -1,39 +1,51 @@
 {
   "slug": "forelv",
-  "firma": "FORELV s.r.o.",
+  "firma": "FOR ELV s.r.o.",
   "ico": "05228042",
   "obec": "Prostějov",
   "okres": "Prostějov",
   "kraj": "Olomoucký kraj",
-  "obor_plny": "Výroba osvětlovacích a trakčních stožárů a 3D tvarové laserové dělení",
+  "obor_plny": "Výroba osvětlovacích a výškových stožárů do 40 m, 3D laserové dělení trubek a zpracování plechů",
   "archetyp": "Swiss Bento Grid",
   "stary_web": "https://forelv.cz/",
   "email": "info@forelv.cz",
-  "telefon": "+420 582 335 880",
-  "jednatel": "Václav Lošťák",
-  "osloveni": "Vážený pane Lošťáku,",
   "prodejni_body": [
-    "Tradiční český výrobce stožárů veřejného osvětlení a trakčních sloupů",
-    "3D tvarové dělení trubek a profilů laserem ve třech osách",
-    "Kompletní zpracování plechu a CNC ohraňování na strojích TRUMPF"
+    "Výškové stožáry do 40 m pro fotbalové stadiony s atestem",
+    "3D laserové tvarové dělení trubek do Ø 414 mm ve 3 osách",
+    "Laser TRUMPF (ocel 20 mm) a CNC ohraňovací lis HAP 120 t"
   ],
   "vady_stareho_webu": [
-    "Zastaralý systém WordPress 6.0.1 s bezpečnostními riziky",
-    "Pomalé načítání fotografií v galeriích a nepřehledná struktura",
-    "Zastaralý katalog bez možnosti dynamického filtrování parametrů",
-    "Nízký kontrast a chybějící moderní technická prezentace strojů Trumpf"
+    "Chybějící mobilní responzivita a zastaralý layout s horizontálním posunem",
+    "Neoptimalizované objemné fotografie bez rychlého filtrování a náhledu",
+    "Složitě dohledatelné technické parametry 3D dělení trubek a ohraňování",
+    "Kontaktní formulář bez přímé návaznosti na konkrétní vedoucí divizí",
+    "Absence vícejazyčné prezentace pro zahraniční exportéry a investory"
   ],
   "vylepseni_noveho_webu": [
-    "Architektonický Swiss Bento Grid design s čistým světlým pozadím a asymetrickou mřížkou",
-    "Interaktivní Bento katalog výrobků a technologií s okamžitým přepínáním specifikací",
-    "Prezentace 3D tvarového dělení trubek pro mosty a střechy a laserů Trumpf",
-    "Kompletní mobilní optimalizace s nulovým přetékáním, rychlým voláním a Mapy.cz",
-    "Plynulé scroll-reveal animace a živé animované čítače výrobních parametrů",
-    "B2B poptávkový formulář přizpůsobený pro zadání výkresové dokumentace"
+    "Moderní Swiss Bento Grid architektura s dokonalým zobrazením na mobilu i PC",
+    "Přehledné členění stožárů do 20 m a 20–40 m pro fotbalové stadiony",
+    "Přímé odkazy na stažení oficiálních PDF katalogů osvětlovacích a speciálních stožárů",
+    "Kompletní technická tabulka 3D dělení trubek do Ø 414 mm ve třech prostorových osách",
+    "Přesné specifikace CNC ohraňovacího lisu HAP 30120 (120 t, 3050 mm, 4 osy)",
+    "Filtrovatelná fotogalerie s 18 autentickými realizacemi a vestavěným Lightboxem",
+    "Interaktivní poptávkový konfigurátor s přímým kontaktem na V. Kadlčíka a V. Lošťáka",
+    "Architektura plně připravená na spuštění cizojazyčných mutací (EN/DE/PL)"
   ],
   "fakta": {
-    "technologie": "TRUMPF TruLaser, 3D laser pro trubky, CNC ohraňovací lisy",
-    "specializace": "Osvětlovací a trakční stožáry, Fe-Cr, Cu, Al svařování",
-    "sidlo": "Prostějov"
+    "rok_zalozeni": 2016,
+    "zamestnanci": "10–19",
+    "certifikace": [
+      "ČSN EN ISO 1461",
+      "Statické výpočty a zatěžovací atesty"
+    ],
+    "stroje_pocet": 5,
+    "specialiste": {
+      "stozary": "Václav Kadlčík (+420 608 773 007)",
+      "laser_plechy": "Václav Lošťák (+420 777 263 564)"
+    },
+    "katalogy_pdf": [
+      "https://forelv.cz/wp-content/uploads/2024/05/Katalog_1_Forelv.pdf",
+      "https://forelv.cz/wp-content/uploads/2024/05/Katalog_2_Forelv.pdf"
+    ]
   }
 }
