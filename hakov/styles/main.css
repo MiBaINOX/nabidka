@@ -1559,3 +1559,6 @@ button, input, textarea, select {
   .footer-grid { grid-template-columns: 1fr; }
   .lightbox-nav { display: none; }
 }
+
+.logo-sub, .logo-loc { display: none !important; }
+.nav-menu a, .navbar a, .nav a, .btn, button, .button { white-space: nowrap; }

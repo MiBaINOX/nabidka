@@ -156,7 +156,7 @@ function initReferences() {
 
   let activeFilter = 'all';
   let activeQuery = '';
-  let viewMode = 'grid'; // 'grid' or 'table'
+  let viewMode = 'grid';
 
   function render() {
     const filtered = allReferences.filter(item => {

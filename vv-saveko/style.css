@@ -1145,3 +1145,11 @@ input:focus, select:focus, textarea:focus {
     border: none !important;
 }
 
+.logo-sub, .logo-loc { display: none !important; }
+.nav-links a, .nav-menu a, .navbar a, .nav a, .btn, button, .button { white-space: nowrap; }
+@media (max-width: 768px) {
+    .logo-title, .logo-text { font-size: 0.95rem; line-height: 1.2; }
+}
+@media (max-width: 480px) {
+    .logo-title, .logo-text { font-size: 0.85rem; line-height: 1.15; }
+}
