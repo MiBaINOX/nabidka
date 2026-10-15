@@ -1,0 +1,39 @@
+{
+  "slug": "pa-servis",
+  "firma": "P.A. servis spol. s r.o.",
+  "ico": "25834606",
+  "obec": "Olomouc",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Servis, opravy, seřizování a prodej průmyslových armatur",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://paservis.cz/",
+  "email": "paservis@paservis.cz",
+  "prodejni_body": [
+    "✓ 27 let specializace na parní armatury",
+    "✓ Vlastní zkušebna s kalibrovanou stolicí",
+    "✓ Zastoupení značek GEDIP, POLIX a VEDA"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralý tabulkový layout z počátku 2000. let bez responzivity pro mobily",
+    "Agresivní cookie lišta překrývající třetinu obsahu na všech zařízeních",
+    "Drobné nečitelné technické mikro-obrázky armatur bez možnosti zvětšení",
+    "Absence zabezpečeného HTTPS protokolu a zastaralá struktura katalogu"
+  ],
+  "vylepseni_noveho_webu": [
+    "Reprezentativní design Editorial & Story zdůrazňující 27letou tradici",
+    "Interaktivní rozcestník a kalkulátor pro doporučení vhodné armatury",
+    "Přehledný katalog redukčních, pojistných i regulačních ventilů",
+    "Prezentace vlastní autorizované zkušebny armatur a tlakových zkoušek",
+    "Plynulé animace, plná mobilní optimalizace a zoom-on-hover náhledy"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1999,
+    "zamestnanci": "6–9",
+    "certifikace": [
+      "ČSN EN 12266-1",
+      "Autorizovaná zkušebna armatur"
+    ],
+    "ventily_rocne": 1200
+  }
+}

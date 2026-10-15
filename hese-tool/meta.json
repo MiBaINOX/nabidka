@@ -1,0 +1,40 @@
+{
+  "slug": "hese-tool",
+  "firma": "HESE tool s.r.o.",
+  "ico": "27859908",
+  "obec": "Olomouc",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Manipulace s hutním materiálem, břemenové magnety a servis jeřábů",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://hese-tool.cz/",
+  "email": "info@hese-tool.cz",
+  "prodejni_body": [
+    "✓ Nosnost traverz a magnetů až do 50 tun",
+    "✓ Elektropermanentní magnety (břemeno nespadne)",
+    "✓ Pohotovostní servis a revize jeřábů 24/7"
+  ],
+  "vady_stareho_webu": [
+    "Extrémně strohý a neúplný web bez moderní prezentace výrobků a technologií",
+    "Prázdné šedé plochy a chybějící strukturovaný katalog zvedacích zařízení",
+    "Absence zabezpečeného HTTPS protokolu a neoptimalizované zobrazení pro mobilní telefony",
+    "Nejasná prezentace klíčové služby elektronické servisní knihy jeřábu"
+  ],
+  "vylepseni_noveho_webu": [
+    "Špičkový technický vzhled Tech & Precision s interaktivními přepínacími taby",
+    "Interaktivní konfigurátor manipulačních zařízení dle břemene a nosnosti",
+    "Zvýrazněná pohotovostní linka pro okamžité hlášení havárií jeřábů",
+    "Detailní prezentace elektronické servisní knihy a revizního portálu",
+    "Plynulé animace, plná mobilní odezva a zoom-on-hover efekty na reálných fotkách"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2008,
+    "zamestnanci": "6–9",
+    "certifikace": [
+      "ČSN EN 13155",
+      "ČSN ISO 9927-1",
+      "Oprávnění TIČR na revize zdvihacích zařízení"
+    ],
+    "max_nosnost_tun": 50
+  }
+}

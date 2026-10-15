@@ -1,0 +1,38 @@
+{
+  "slug": "az-stavby",
+  "firma": "A-Z STAVBY s.r.o.",
+  "ico": "26839580",
+  "obec": "Dolany",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Pozemní a průmyslové stavitelství, truhlářství a autoservis",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://azstavby.cz/",
+  "email": "zdenek@azstavby.cz",
+  "prodejni_body": [
+    "✓ 30 let tradice realizací na Hané",
+    "✓ Certifikace jakosti ISO 9001:2000",
+    "✓ Vlastní divize staveb, truhlárny i servisu"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralý systém Drupal s pomalou odezvou a rizikem neaktualizovaného jádra",
+    "Rozbitý úvodní slider s prázdnou bílou plochou při načítání bez JS",
+    "Nepřehledné rozdělení výrobních divizí a neaktuální kontaktní formulář",
+    "Zastaralá fotogalerie bez detailních popisků technologií a materiálů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Průmyslový split-screen design Heavy Industrial s vysokou čitelností",
+    "Interaktivní poptávkový průvodce stavby s přímou kalkulací specifikace",
+    "Živý filtr stavebních referencí (občanské stavby, průmysl, truhlářství)",
+    "Přehledná tabulka technického vybavení a strojního parku mechanizace",
+    "Plynulé animace načítání a zoom-on-hover efekty na reálných fotografiích"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1994,
+    "zamestnanci": "10–19",
+    "certifikace": [
+      "ČSN EN ISO 9001:2000"
+    ],
+    "dokoncene_stavby": 180
+  }
+}

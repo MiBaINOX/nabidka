@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HESE tool s.r.o. | Manipulace s hutním materiálem a jeřábová technika</title>
+    <meta name="description" content="Výroba a servis manipulační techniky pro hutní materiál, břemenové magnety, jeřábové traverzy, kleště na svitky a revize jeřábů. Olomouc - Holice.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="tech-header">
+        <div class="tech-topbar">
+            <div class="topbar-container">
+                <span class="status-indicator"><span class="pulse-dot"></span> POHOTOVOSTNÍ SERVISNÍ LINKA PRO PORUCHY JEŘÁBŮ</span>
+                <a href="tel:+420731445611" class="topbar-phone">+420 731 445 611</a>
+            </div>
+        </div>
+        <div class="tech-nav-bar">
+            <div class="nav-container">
+                <a href="#hero" class="tech-brand">
+                    <img src="assets/images/img_01_HESE-logo5-1.png" alt="HESE tool s.r.o. logo" class="brand-logo" onerror="this.style.display='none'">
+                    <span class="brand-text-backup">HESE <strong>tool</strong></span>
+                </a>
+                <nav class="tech-nav">
+                    <a href="#produkty">Zařízení & magnety</a>
+                    <a href="#konfigurator">Konfigurátor nosnosti</a>
+                    <a href="#servis">Servisní oddělení</a>
+                    <a href="#kniha">Elektronická kniha</a>
+                    <a href="#kontakt" class="nav-cta-btn">Technická poptávka</a>
+                </nav>
+                <button class="nav-toggle" aria-label="Menu" onclick="toggleTechNav()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-tech">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-container">
+            <div class="hero-content reveal">
+                <div class="tech-pill">
+                    <span class="pill-code">EN ISO 9001</span> MANIPULAČNÍ TECHNIKA PRO HUTNÍ PRŮMYSL
+                </div>
+                <h1 class="hero-title">PŘESNÁ A BEZPEČNÁ MANIPULACE S BŘEMENY AŽ DO 50 TUN</h1>
+                <p class="hero-lead">
+                    Projektujeme, vyrábíme a servisujeme břemenové magnety, jeřábové traverzy, kleště na svitky i speciální uchopovací prostředky. Zajišťujeme odborné revize zdvihacích zařízení po celé ČR.
+                </p>
+                <div class="hero-btn-row">
+                    <a href="#konfigurator" class="btn btn-cyan">Spustit konfigurátor zařízení</a>
+                    <a href="#servis" class="btn btn-glass">Havarijní servis jeřábů</a>
+                </div>
+                <div class="tech-stats-grid">
+                    <div class="tech-stat-cell">
+                        <span class="cell-val counter" data-target="50">0</span><span class="cell-unit">t</span>
+                        <span class="cell-desc">Maximální nosnost zakázkových traverz</span>
+                    </div>
+                    <div class="tech-stat-cell">
+                        <span class="cell-val counter" data-target="18">0</span><span class="cell-unit">let</span>
+                        <span class="cell-desc">Vývoje zařízení pro hutní materiál</span>
+                    </div>
+                    <div class="tech-stat-cell">
+                        <span class="cell-val counter" data-target="320">0</span><span class="cell-unit">+</span>
+                        <span class="cell-desc">Spravovaných jeřábů a vázacích prostředků</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-graphic reveal">
+                <div class="glass-frame">
+                    <img src="assets/images/img_02_HUT-1.jpg" alt="Manipulace s hutním materiálem HESE tool" class="hero-showcase-img">
+                    <div class="glass-card-overlay">
+                        <div class="overlay-tag">PROVOZNÍ BEZPEČNOST</div>
+                        <div class="overlay-title">Elektropermanentní břemenové magnety</div>
+                        <p class="overlay-text">Nulové riziko pádu břemene při náhlém výpadku elektrického proudu v síti.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produkty" class="products-section">
+        <div class="section-container">
+            <div class="section-heading-center reveal">
+                <span class="tech-kicker">VÝROBNÍ PROGRAM</span>
+                <h2 class="tech-heading">UCHYCOVACÍ ZAŘÍZENÍ A MANIPULAČNÍ PROSTŘEDKY</h2>
+                <p class="heading-lead">Kompletní technická řešení pro ocelárny, sklady hutního materiálu, servisní centra a strojírenské výrobní haly.</p>
+            </div>
+
+            <div class="tabs-nav reveal">
+                <button class="tab-btn active" onclick="switchTechTab('magnety', this)">Břemenové magnety</button>
+                <button class="tab-btn" onclick="switchTechTab('traverzy', this)">Jeřábové traverzy</button>
+                <button class="tab-btn" onclick="switchTechTab('kleste', this)">Kleště & C-háky</button>
+                <button class="tab-btn" onclick="switchTechTab('vazaci', this)">Vázací technika</button>
+            </div>
+
+            <div class="tab-pane active" id="tab-magnety">
+                <div class="product-cards-grid">
+                    <div class="tech-card reveal">
+                        <div class="card-img-wrap">
+                            <img src="assets/images/img_02_HUT-1.jpg" alt="Břemenové magnety pro manipulaci" class="tech-thumb">
+                            <span class="spec-badge">BEZPEČNOSTNÍ KOEFICIENT 3:1</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Břemenové elektropermanentní magnety</h3>
+                            <p>Magnety využívají permanentní neodymové magnety, elektrický impuls slouží pouze pro přepnutí stavu (aktivace/deaktivace). V případě výpadku proudu břemeno nespadne.</p>
+                            <ul class="spec-list">
+                                <li>Manipulace s jednotlivými plechy i svazky</li>
+                                <li>Dálkové rádiové ovládání z kabiny jeřábu</li>
+                                <li>Minimální spotřeba elektrické energie</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tech-card reveal">
+                        <div class="card-img-wrap">
+                            <img src="assets/images/img_06_sluzby.jpg" alt="Bateriové a permanentní magnety" class="tech-thumb">
+                            <span class="spec-badge">NEZÁVISLÉ NAPÁJENÍ</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Kompaktní permanentní a bateriové magnety</h3>
+                            <p>Ručně i bateriově spínané magnety vhodné pro zakládání výpalků do CNC laserů, manipulaci s bloky, kulatinou a plochým materiálem ve výrobních buňkách.</p>
+                            <ul class="spec-list">
+                                <li>Nosnosti od 150 kg do 5 000 kg</li>
+                                <li>Prizmatická pólová drážka pro kruhovou ocel</li>
+                                <li>Certifikovaná zkouška odtrhové síly</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane" id="tab-traverzy" style="display: none;">
+                <div class="product-cards-grid">
+                    <div class="tech-card">
+                        <div class="card-img-wrap">
+                            <img src="assets/images/img_06_sluzby.jpg" alt="Jeřábové traverzy" class="tech-thumb">
+                            <span class="spec-badge">NOSNOST AŽ 50 TUN</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Lineární a prostorové jeřábové traverzy</h3>
+                            <p>Zakázková výroba pevných, stavitelných a otočných traverz pro bezpečné zvedání dlouhých profilů, trubek, ocelových konstrukcí a technologických celků.</p>
+                            <ul class="spec-list">
+                                <li>Nastavitelný rozteč závěsných háků</li>
+                                <li>Stavba z vysokopevnostní konstrukční oceli</li>
+                                <li>Kompletní pevnostní výpočet a certifikát CE</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tech-card">
+                        <div class="card-img-wrap">
+                            <img src="assets/images/img_07_spoluprace.jpg" alt="H-traverzy a křížové závěsy" class="tech-thumb">
+                            <span class="spec-badge">4-BODOVÉ ZAVĚŠENÍ</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Rámové a křížové H-traverzy</h3>
+                            <p>Speciální traverzy pro čtyřbodové uchycení rozměrných nádob, kontejnerů, velkoformátových desek a prefabrikátů s rovnoměrným rozložením sil.</p>
+                            <ul class="spec-list">
+                                <li>Výroba na míru dle roztečí bodů břemene</li>
+                                <li>Otočné háky s bezpečnostními pojistkami</li>
+                                <li>Ochranné nátěry pro agresivní prostředí</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane" id="tab-kleste" style="display: none;">
+                <div class="product-cards-grid">
+                    <div class="tech-card">
+                        <div class="card-img-wrap">
+                            <img src="assets/images/img_02_HUT-1.jpg" alt="Kleště na svitky plechu" class="tech-thumb">
+                            <span class="spec-badge">AUTOMATICKÝ ZÁMEK</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Motorické a samosvorné kleště na svitky</h3>
+                            <p>Kleště pro horizontální i vertikální manipulaci se svitky ocelových i nerezových plechů. Šetrné čelisti zabraňují poškození vnějších závitů svitku.</p>
+                            <ul class="spec-list">
+                                <li>Integrované optické senzory dosednutí</li>
+                                <li>Kapacita pro svitky do průměru 2 200 mm</li>
+                                <li>Krokový mechanismus zajištění polohy</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tech-card">
+                        <div class="card-img-wrap">
+                            <img src="assets/images/img_03_KONTAKT.jpg" alt="C-háky pro svitky plechů" class="tech-thumb">
+                            <span class="spec-badge">VYVÁŽENÝ PROTIZÁVAŽÍM</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Jeřábové C-háky s protiváhou</h3>
+                            <p>Osvědčený prostředek pro manipulaci se svitky plechů a drátů. Speciální konstrukce udržuje rameno ve vodorovné poloze i bez zavěšeného břemene.</p>
+                            <ul class="spec-list">
+                                <li>Ochranná polyuretanová vrstva na rameni</li>
+                                <li>Kompaktní stavba pro úzké uličky skladů</li>
+                                <li>Bezúdržbové provedení s vysokou životností</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane" id="tab-vazaci" style="display: none;">
+                <div class="product-cards-grid">
+                    <div class="tech-card">
+                        <div class="card-img-wrap">
+                            <img src="assets/images/img_06_sluzby.jpg" alt="Vázací řetězy a lana" class="tech-thumb">
+                            <span class="spec-badge">TŘÍDA PEVNOSTI G80 / G100</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Vysokopevnostní vázací řetězy a lana</h3>
+                            <p>Kompletní sortiment vázacích řetězů, ocelových lan a textilních pásů. Pravidelné revizní kontroly a defektoskopie vázacích prostředků.</p>
+                            <ul class="spec-list">
+                                <li>Jedno- až čtyřpramenné řetězové vazáky</li>
+                                <li>Zkracovací spojky a bezpečnostní háky</li>
+                                <li>Označení identifikačním štítkem a zkouškou</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="konfigurator" class="configurator-section">
+        <div class="section-container">
+            <div class="config-panel reveal">
+                <div class="panel-header">
+                    <span class="tech-kicker">INTERAKTIVNÍ NÁSTROJ</span>
+                    <h2 class="tech-heading">TECHNICKÝ KONFIGURÁTOR MANIPULAČNÍHO ZAŘÍZENÍ</h2>
+                    <p class="heading-lead">Vyberte charakter manipulovaného materiálu a požadovanou nosnost. Systém doporučí optimální typ zařízení a bezpečnostní prvky.</p>
+                </div>
+
+                <div class="config-grid">
+                    <div class="config-inputs">
+                        <div class="input-box">
+                            <label for="cfgMaterial">1. Charakter hutního materiálu:</label>
+                            <select id="cfgMaterial" onchange="runTechConfigurator()">
+                                <option value="Jednotlivé ocelové plechy a výpalky">Jednotlivé ocelové plechy a výpalky</option>
+                                <option value="Svazky ocelových profilů a trubek (dlouhé břemeno)">Svazky profilů, tyčí a trubek (dlouhé břemeno)</option>
+                                <option value="Svitky ocelových plechů (Coils)">Svitky plechů (Coils - horizontální osa)</option>
+                                <option value="Masivní ocelové bloky a odlitky">Masivní ocelové bloky a odlitky</option>
+                                <option value="Kompletní technologické celky a konstrukce">Kompletní technologické celky a rámy</option>
+                            </select>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="cfgWeight">2. Maximální hmotnost břemene (nosnost):</label>
+                            <select id="cfgWeight" onchange="runTechConfigurator()">
+                                <option value="do 2.5 tuny">do 2.5 tuny</option>
+                                <option value="2.5 až 10 tun">2.5 až 10 tun</option>
+                                <option value="10 až 25 tun">10 až 25 tun</option>
+                                <option value="25 až 50 tun (těžká manipulace)">25 až 50 tun (těžká manipulace)</option>
+                            </select>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="cfgCrane">3. Typ jeřábu na provozovně:</label>
+                            <select id="cfgCrane" onchange="runTechConfigurator()">
+                                <option value="Mostový dvounosníkový jeřáb">Mostový dvounosníkový jeřáb</option>
+                                <option value="Mostový jednonosníkový jeřáb">Mostový jednonosníkový jeřáb</option>
+                                <option value="Otočný sloupový nebo nástěnný jeřáb">Otočný sloupový jeřáb v buňce</option>
+                                <option value="Portálový venkovní jeřáb">Portálový venkovní jeřáb na skládce</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="config-result-box">
+                        <div class="res-tag">DOPORUČENÁ TECHNICKÁ SPECIFIKACE</div>
+                        <div class="res-title" id="resTitle">Elektropermanentní magnetický zvedací systém</div>
+                        <div class="res-desc" id="resDesc">
+                            Modulární sestava elektropermanentních magnetů pro manipulaci s plechy. Zajišťuje bezpečné uchopení bez rizika odpadnutí při výpadku napájení.
+                        </div>
+                        <div class="res-specs-table">
+                            <div class="res-spec-row">
+                                <span>Bezpečnostní faktor:</span>
+                                <strong>Min. 3 : 1</strong>
+                            </div>
+                            <div class="res-spec-row">
+                                <span>Způsob ovládání:</span>
+                                <strong>Rádiové dálkové / na tělese</strong>
+                            </div>
+                            <div class="res-spec-row">
+                                <span>Soulad s normami:</span>
+                                <strong>ČSN EN 13155 + A2 (Zdvihací zařízení)</strong>
+                            </div>
+                        </div>
+                        <a id="cfgMailtoBtn" href="#" class="btn btn-cyan btn-full">Poptat technické řešení u pana Kešeláka</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servis" class="service-section">
+        <div class="section-container">
+            <div class="service-split">
+                <div class="service-text reveal">
+                    <span class="tech-kicker">SERVISNÍ ODDĚLENÍ</span>
+                    <h2 class="tech-heading">KOMPLETNÍ PÉČE O ZDVIHACÍ ZAŘÍZENÍ A JEŘÁBY</h2>
+                    <p class="service-lead">
+                        Zajišťujeme pravidelné revize, technické kontroly, periodické zkoušky i odstraňování náhlých poruch jeřábové techniky v nepřetržitém provozu.
+                    </p>
+                    <div class="service-checklist">
+                        <div class="check-item">
+                            <div class="check-icon">⚡</div>
+                            <div class="check-content">
+                                <h4>Odborné revize dle ČSN ISO 9927-1</h4>
+                                <p>Komplexní revize mostových, portálových i sloupových jeřábů, revize elektrické části a zkoušky přetížení.</p>
+                            </div>
+                        </div>
+                        <div class="check-item">
+                            <div class="check-icon">🛠️</div>
+                            <div class="check-content">
+                                <h4>Opravy pojezdů, lan a pohonů</h4>
+                                <p>Výměny opotřebovaných lan, kladek, kol pojezdů, seřízení brzd a modernizace řídicích systémů frekvenčními měniči.</p>
+                            </div>
+                        </div>
+                        <div class="check-item">
+                            <div class="check-icon">📋</div>
+                            <div class="check-content">
+                                <h4>Inspekce a defektoskopie vázacích prostředků</h4>
+                                <p>Přezkoušení břemenových magnetů na odtrhovém zařízení, kontrola řetězů a traverz magnetickou práškovou metodou.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card-side reveal">
+                    <div class="emergency-box">
+                        <div class="emerg-header">
+                            <span class="alarm-dot"></span>
+                            <h3>HAVARIJNÍ SERVIS PŘI PORUŠE JEŘÁBU</h3>
+                        </div>
+                        <p>Zaseklý jeřáb na výrobní lince znamená okamžité ztráty. Náš servisní tým vyjíždí k nahlášeným závadám s plně vybaveným servisním vozem.</p>
+                        <div class="hotline-box">
+                            <span class="hotline-label">Horká linka pro nahlášení poruchy:</span>
+                            <a href="tel:+420731445611" class="hotline-num">+420 731 445 611</a>
+                            <span class="hotline-sub">Olomouc, Prostějov, Přerov, Šumperk a celá ČR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kniha" class="kniha-section">
+        <div class="section-container">
+            <div class="kniha-grid reveal">
+                <div class="kniha-img-side">
+                    <img src="assets/images/img_04_kniha-1.jpg" alt="Elektronická servisní kniha jeřábu" class="kniha-img">
+                </div>
+                <div class="kniha-info-side">
+                    <span class="tech-kicker">DIGITÁLNÍ EVIDENČNÍ SYSTÉM</span>
+                    <h2 class="tech-heading">ELEKTRONICKÁ SERVISNÍ KNIHA JEŘÁBU</h2>
+                    <p class="kniha-desc">
+                        Konec ztraceným papírovým deníkům a zmeškaným lhůtám revizí. Našim smluvním zákazníkům poskytujeme moderní digitální portál s kompletní historií každého jeřábu.
+                    </p>
+                    <ul class="kniha-benefits">
+                        <li><strong>Automatické hlídání lhůt:</strong> Systém včas upozorní na blížící se termín revizní zkoušky.</li>
+                        <li><strong>Okamžitý přístup k revizním zprávám:</strong> Zprávy, protokoly a atesty ke stažení online ve formátu PDF.</li>
+                        <li><strong>Evidence servisních zásahů:</strong> Přesný záznam všech výměn dílů, seřízení a pravidelných kontrol.</li>
+                    </ul>
+                    <a href="#kontakt" class="btn btn-cyan">Zajistit elektronickou knihu pro naše jeřáby</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="contact-tech">
+        <div class="section-container">
+            <div class="contact-grid">
+                <div class="contact-info-panel reveal">
+                    <span class="tech-kicker">SÍDLO A KONTAKT</span>
+                    <h2 class="tech-heading">HESE TOOL S.R.O.</h2>
+                    <p class="panel-intro">Navštivte nás v technologickém areálu v Olomouci-Holici nebo nás kontaktujte elektronicky:</p>
+
+                    <div class="executive-box">
+                        <div class="exec-label">Statutární zástupce</div>
+                        <div class="exec-name">Ivo Kešelák</div>
+                        <div class="exec-role">Jednatel společnosti</div>
+                    </div>
+
+                    <div class="info-row">
+                        <span class="i-icon">📍</span>
+                        <div class="i-text">
+                            <strong>Technologická základna & sídlo:</strong><br>
+                            Technologická 925/17, Holice, 779 00 Olomouc
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <span class="i-icon">📞</span>
+                        <div class="i-text">
+                            <strong>Telefonní spojení:</strong><br>
+                            <a href="tel:+420731445611">+420 731 445 611</a> • <a href="tel:+420585311966">+420 585 311 966</a>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <span class="i-icon">✉️</span>
+                        <div class="i-text">
+                            <strong>E-mail:</strong><br>
+                            <a href="mailto:info@hese-tool.cz">info@hese-tool.cz</a> / <a href="mailto:keselak@hese-tool.cz">keselak@hese-tool.cz</a>
+                        </div>
+                    </div>
+
+                    <div class="id-badge-bar">
+                        <span>IČO: <strong>27859908</strong></span>
+                        <span>DIČ: <strong>CZ27859908</strong></span>
+                        <button class="copy-tech-btn" onclick="copyTechIco('27859908', this)">Kopírovat IČO</button>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel reveal">
+                    <h3 class="form-title">Poptávka manipulační techniky nebo revize</h3>
+                    <p class="form-sub">Specifikujte Vaše břemeno nebo jeřábové zařízení. Jednatel Ivo Kešelák Vám odpoví s technickým návrhem.</p>
+                    <form onsubmit="handleTechSubmit(event)">
+                        <div class="input-field">
+                            <label for="techName">Jméno a příjmení / Společnost *</label>
+                            <input type="text" id="techName" required placeholder="Hutní materiály s.r.o. / Ing. Marek Dvořák">
+                        </div>
+                        <div class="input-field">
+                            <label for="techEmail">Kontaktní e-mail *</label>
+                            <input type="email" id="techEmail" required placeholder="dvorak@hutnimaterial.cz">
+                        </div>
+                        <div class="input-field">
+                            <label for="techPhone">Telefonní kontakt</label>
+                            <input type="tel" id="techPhone" placeholder="+420 777 111 222">
+                        </div>
+                        <div class="input-field">
+                            <label for="techMessage">Popis požadavku (břemeno, nosnost, rozměry nebo typ jeřábu) *</label>
+                            <textarea id="techMessage" rows="4" required placeholder="Dobrý den, poptáváme břemenový elektropermanentní magnet na manipulaci s plechy tl. 10-60 mm, nosnost 5 tun..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-cyan btn-full">Odeslat poptávku jednateli</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="tech-footer">
+        <div class="footer-inner">
+            <div class="footer-brand-line">
+                <strong>HESE tool s.r.o.</strong> • Specialista na manipulační techniku a servis jeřábů Olomouc
+            </div>
+            <div class="footer-sub-line">
+                &copy; HESE tool s.r.o. | IČO: 27859908 | Zapsáno v OR Krajského soudu v Ostravě
+            </div>
+        </div>
+    </footer>
+
+    <script src="../ping-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
