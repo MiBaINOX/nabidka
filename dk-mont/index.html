@@ -19,19 +19,25 @@
                 <span class="brand-badge">PROFIFIX® SYSTEM</span>
             </a>
             <nav class="nav">
-                <a href="#o-firme" class="nav-link">O společnosti</a>
-                <a href="#prednosti" class="nav-link">Přednosti výroby</a>
-                <a href="#katalog" class="nav-link">Katalog PROFIFIX®</a>
-                <a href="#certifikace" class="nav-link">Certifikace</a>
-                <a href="#kariera" class="nav-link">Kariéra</a>
-                <a href="#kontakt" class="nav-link">Kontakt</a>
+                <a href="#o-firme" class="nav-link" data-i18n="nav_about">O společnosti</a>
+                <a href="#prednosti" class="nav-link" data-i18n="nav_production">Přednosti výroby</a>
+                <a href="#katalog" class="nav-link" data-i18n="nav_catalog">Katalog PROFIFIX®</a>
+                <a href="#certifikace" class="nav-link" data-i18n="nav_cert">Certifikace</a>
+                <a href="#kariera" class="nav-link" data-i18n="nav_career">Kariéra</a>
+                <a href="#kontakt" class="nav-link" data-i18n="nav_contact">Kontakt</a>
             </nav>
             <div class="header-actions">
+                <div class="lang-switcher" id="langSwitcher">
+                    <button type="button" class="lang-btn active" data-lang="cs" onclick="setLanguage('cs')">CZ</button>
+                    <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+                    <button type="button" class="lang-btn" data-lang="de" onclick="setLanguage('de')">DE</button>
+                    <button type="button" class="lang-btn" data-lang="pl" onclick="setLanguage('pl')">PL</button>
+                </div>
                 <a href="tel:+420725585358" class="contact-pill">
                     <span class="pill-dot"></span>
                     <span class="pill-label">Expedice: +420 725 585 358</span>
                 </a>
-                <a href="#kontakt" class="btn-primary">Poptat výrobu</a>
+                <a href="#kontakt" class="btn-primary" data-i18n="nav_cta">Poptat výrobu</a>
                 <button class="menu-toggle" id="menuToggle" aria-label="Otevřít menu">
                     <span></span>
                     <span></span>
@@ -43,13 +49,22 @@
 
     <div class="mobile-drawer" id="mobileDrawer">
         <nav class="drawer-nav">
-            <a href="#o-firme" class="drawer-link">O společnosti</a>
-            <a href="#prednosti" class="drawer-link">Přednosti výroby</a>
-            <a href="#katalog" class="drawer-link">Katalog PROFIFIX®</a>
-            <a href="#certifikace" class="drawer-link">Certifikace</a>
-            <a href="#kariera" class="drawer-link">Kariéra</a>
-            <a href="#kontakt" class="drawer-link">Kontakt</a>
+            <a href="#o-firme" class="drawer-link" data-i18n="nav_about">O společnosti</a>
+            <a href="#prednosti" class="drawer-link" data-i18n="nav_production">Přednosti výroby</a>
+            <a href="#katalog" class="drawer-link" data-i18n="nav_catalog">Katalog PROFIFIX®</a>
+            <a href="#certifikace" class="drawer-link" data-i18n="nav_cert">Certifikace</a>
+            <a href="#kariera" class="drawer-link" data-i18n="nav_career">Kariéra</a>
+            <a href="#kontakt" class="drawer-link" data-i18n="nav_contact">Kontakt</a>
         </nav>
+        <div class="drawer-lang-box">
+            <span class="drawer-lang-title">Jazyk / Language:</span>
+            <div class="lang-switcher">
+                <button type="button" class="lang-btn active" data-lang="cs" onclick="setLanguage('cs')">CZ</button>
+                <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+                <button type="button" class="lang-btn" data-lang="de" onclick="setLanguage('de')">DE</button>
+                <button type="button" class="lang-btn" data-lang="pl" onclick="setLanguage('pl')">PL</button>
+            </div>
+        </div>
         <div class="drawer-contacts">
             <p><strong>DK mont a.s.</strong></p>
             <p>Nádražní 531/18, 789 85 Mohelnice</p>
@@ -66,26 +81,26 @@
                     <div class="bento-card bento-hero-main reveal">
                         <div class="bento-badge-row">
                             <span class="tag-accent">MOHELNICE • CZECH REPUBLIC</span>
-                            <span class="tag-neutral">TRADICE OD ROKU 1994</span>
+                            <span class="tag-neutral" data-i18n="hero_tradition">TRADICE OD ROKU 1994</span>
                         </div>
-                        <h1 class="hero-title">Přední výrobce kovových dílců pro sádrokartonové systémy</h1>
-                        <p class="hero-desc">Společnost DK mont a.s. je největším výrobcem kovového montážního příslušenství k sádrokartonovým konstrukcím v České republice i ve Střední Evropě. Náš certifikovaný systém PROFIFIX® je synonymem špičkové přesnosti, stability a férového partnerství ve více než 15 zemích Evropy.</p>
+                        <h1 class="hero-title" data-i18n="hero_title">Přední výrobce kovových dílců pro sádrokartonové systémy</h1>
+                        <p class="hero-desc" data-i18n="hero_desc">Společnost DK mont a.s. je největším výrobcem kovového montážního příslušenství k sádrokartonovým konstrukcím v České republice i ve Střední Evropě. Náš certifikovaný systém PROFIFIX® je synonymem špičkové přesnosti, stability a férového partnerství ve více než 15 zemích Evropy.</p>
                         <div class="hero-cta-group">
-                            <a href="#katalog" class="btn-primary btn-large">Prozkoumat katalog produktů</a>
-                            <a href="#kontakt" class="btn-outline btn-large">Kontaktovat obchodní tým</a>
+                            <a href="#katalog" class="btn-primary btn-large" data-i18n="hero_btn_catalog">Prozkoumat katalog produktů</a>
+                            <a href="#kontakt" class="btn-outline btn-large" data-i18n="hero_btn_contact">Kontaktovat obchodní tým</a>
                         </div>
                         <div class="hero-features-strip">
                             <div class="strip-item">
                                 <span class="strip-icon">⚙️</span>
-                                <span>Vlastní nástrojárna a vysokorychlostní lisy</span>
+                                <span data-i18n="hero_feat1">Vlastní nástrojárna a vysokorychlostní lisy</span>
                             </div>
                             <div class="strip-item">
                                 <span class="strip-icon">📐</span>
-                                <span>Certifikovaná ocel DX51D s garantovaným zinkováním</span>
+                                <span data-i18n="hero_feat2">Certifikovaná ocel DX51D s garantovaným zinkováním</span>
                             </div>
                             <div class="strip-item">
                                 <span class="strip-icon">🚚</span>
-                                <span>Expediční sklad s garancí dodávek pro velkoobchody</span>
+                                <span data-i18n="hero_feat3">Expediční sklad s garancí dodávek pro velkoobchody</span>
                             </div>
                         </div>
                     </div>
@@ -98,7 +113,7 @@
                         <div class="metric-number">
                             <span class="counter" data-target="35">0</span><span class="unit">%</span>
                         </div>
-                        <div class="metric-headline">TOP 35% hodnocení EcoVadis</div>
+                        <div class="metric-headline" data-i18n="metric1_title">TOP 35% hodnocení EcoVadis</div>
                         <p class="metric-text">Mezinárodní bronzová medaile za odpovědný přístup k životnímu prostředí, lidským právům, etice a udržitelnému nákupu surovin.</p>
                     </div>
 
@@ -107,7 +122,7 @@
                         <div class="metric-number">
                             <span class="counter" data-target="30">0</span><span class="unit">+</span>
                         </div>
-                        <div class="metric-headline">Let zkušeností v oboru</div>
+                        <div class="metric-headline" data-i18n="metric2_title">Let zkušeností v oboru</div>
                         <p class="metric-text">Nepřetržitý vývoj, rozšiřování výrobních hal v Mohelnici a stabilní pozice spolehlivého dodavatele pro stavební distributory.</p>
                     </div>
 
@@ -116,7 +131,7 @@
                         <div class="metric-number">
                             <span class="counter" data-target="250">0</span><span class="unit">+</span>
                         </div>
-                        <div class="metric-headline">Kvalifikovaných zaměstnanců</div>
+                        <div class="metric-headline" data-i18n="metric3_title">Kvalifikovaných zaměstnanců</div>
                         <p class="metric-text">Tým zkušených nástrojařů, seřizovačů lisů, techniků kvality a logistických specialistů dbajících na každý detail.</p>
                     </div>
 
@@ -125,7 +140,7 @@
                         <div class="metric-number">
                             <span class="counter" data-target="3">0</span><span class="unit">×</span>
                         </div>
-                        <div class="metric-headline">Certifikace ISO</div>
+                        <div class="metric-headline" data-i18n="metric4_title">Certifikace ISO</div>
                         <p class="metric-text">ISO 9001 (Kvalita), ISO 14001 (Environmentální management) a ISO/IEC 27001 (Informační bezpečnost dat).</p>
                     </div>
                 </div>
@@ -135,8 +150,8 @@
         <section class="section-bento" id="o-firme">
             <div class="container">
                 <div class="section-head reveal">
-                    <span class="section-subtitle">VÝROBNÍ EXCELENCE</span>
-                    <h2 class="section-title">Technologické zázemí a filozofie systému PROFIFIX®</h2>
+                    <span class="section-subtitle" data-i18n="sec_excellence_sub">VÝROBNÍ EXCELENCE</span>
+                    <h2 class="section-title" data-i18n="sec_excellence_title">Technologické zázemí a filozofie systému PROFIFIX®</h2>
                     <p class="section-lead">Každý dílec z naší mohelnické výroby prochází přísnou rozměrovou a pevnostní kontrolou. Usnadňujeme práci montážním firmám po celé Evropě.</p>
                 </div>
 
@@ -213,7 +228,7 @@
         <section class="section-bento bg-slate" id="katalog">
             <div class="container">
                 <div class="section-head reveal">
-                    <span class="section-subtitle">KOMPLETNÍ SORTIMENT</span>
+                    <span class="section-subtitle" data-i18n="sec_catalog_sub">KOMPLETNÍ SORTIMENT</span>
                     <h2 class="section-title">Interaktivní katalog kovového příslušenství PROFIFIX®</h2>
                     <p class="section-lead">Vyberte kategorii nebo vyhledejte požadovaný dílec. Všechny komponenty vyrábíme z certifikované oceli dle příslušných evropských norem ČSN EN 13964.</p>
                 </div>
@@ -539,7 +554,7 @@
         <section class="section-bento" id="kontakt">
             <div class="container">
                 <div class="section-head reveal">
-                    <span class="section-subtitle">SPOJTE SE S NÁMI</span>
+                    <span class="section-subtitle" data-i18n="sec_contact_sub">SPOJTE SE S NÁMI</span>
                     <h2 class="section-title">Kontaktní a expediční centrum DK mont a.s.</h2>
                     <p class="section-lead">Náš obchodní tým je připraven zpracovat vaši poptávku, připravit vzorkovou sadu nebo domluvit individuální velkoobchodní podmínky.</p>
                 </div>

@@ -41,16 +41,20 @@
             </a>
 
             <nav class="portal-nav">
-                <a href="#o-nas" class="nav-item">O společnosti</a>
-                <a href="#oblasti" class="nav-item">Oblasti zkoušek</a>
-                <a href="#katalog" class="nav-item">Katalog přístrojů</a>
-                <a href="#partnerstvi" class="nav-item">FORM+TEST</a>
-                <a href="#reference" class="nav-item">Reference</a>
-                <a href="#kontakt" class="nav-item">Kontakt</a>
+                <a href="#o-nas" class="nav-item" data-i18n="nav_about">O společnosti</a>
+                <a href="#oblasti" class="nav-item" data-i18n="nav_fields">Oblasti zkoušek</a>
+                <a href="#katalog" class="nav-item" data-i18n="nav_catalog">Katalog přístrojů</a>
+                <a href="#partnerstvi" class="nav-item" data-i18n="nav_partner">FORM+TEST</a>
+                <a href="#reference" class="nav-item" data-i18n="nav_ref">Reference</a>
+                <a href="#kontakt" class="nav-item" data-i18n="nav_contact">Kontakt</a>
             </nav>
 
             <div class="header-cta-wrap">
-                <a href="#kontakt" class="btn-corporate">Poptat přístroj</a>
+                <div class="lang-switcher" id="langSwitcher">
+                    <button type="button" class="lang-btn active" data-lang="cs" onclick="setLanguage('cs')">CZ</button>
+                    <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+                </div>
+                <a href="#kontakt" class="btn-corporate" data-i18n="nav_cta">Poptat přístroj</a>
                 <button class="nav-burger" id="navBurger" aria-label="Otevřít nabídku">
                     <span></span>
                     <span></span>
@@ -62,13 +66,20 @@
 
     <div class="portal-drawer" id="portalDrawer">
         <nav class="drawer-menu">
-            <a href="#o-nas" class="drawer-item">O společnosti</a>
-            <a href="#oblasti" class="drawer-item">Oblasti zkoušek</a>
-            <a href="#katalog" class="drawer-item">Katalog přístrojů</a>
-            <a href="#partnerstvi" class="drawer-item">FORM+TEST zastoupení</a>
-            <a href="#reference" class="drawer-item">Reference</a>
-            <a href="#kontakt" class="drawer-item">Kontakt</a>
+            <a href="#o-nas" class="drawer-item" data-i18n="nav_about">O společnosti</a>
+            <a href="#oblasti" class="drawer-item" data-i18n="nav_fields">Oblasti zkoušek</a>
+            <a href="#katalog" class="drawer-item" data-i18n="nav_catalog">Katalog přístrojů</a>
+            <a href="#partnerstvi" class="drawer-item" data-i18n="nav_partner">FORM+TEST zastoupení</a>
+            <a href="#reference" class="drawer-item" data-i18n="nav_ref">Reference</a>
+            <a href="#kontakt" class="drawer-item" data-i18n="nav_contact">Kontakt</a>
         </nav>
+        <div class="drawer-lang-box">
+            <span class="drawer-lang-title">Jazyk / Language:</span>
+            <div class="lang-switcher">
+                <button type="button" class="lang-btn active" data-lang="cs" onclick="setLanguage('cs')">CZ</button>
+                <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+            </div>
+        </div>
         <div class="drawer-info">
             <p><strong>BRIO HRANICE s.r.o.</strong></p>
             <p>Teplická 232, 753 01 Hranice</p>
@@ -84,27 +95,27 @@
                 <div class="hero-content reveal">
                     <div class="hero-badge-strip">
                         <span class="badge-portal">HRANICE NA MORAVĚ</span>
-                        <span class="badge-portal-gold">TRADICE OD ROKU 1992</span>
-                        <span class="badge-portal-light">EXPORT DO 20+ ZEMÍ</span>
+                        <span class="badge-portal-gold" data-i18n="hero_badge_trad">TRADICE OD ROKU 1992</span>
+                        <span class="badge-portal-light" data-i18n="hero_badge_exp">EXPORT DO 20+ ZEMÍ</span>
                     </div>
-                    <h1 class="hero-heading">Špičková laboratorní technika a zkušební stroje pro stavebnictví a průmysl</h1>
-                    <p class="hero-paragraph">Již více než 30 let vyvíjíme a vyrábíme certifikovaná zkušební zařízení pro stavební, silniční a hutní zkušební laboratoře. Jsme autorizovaným výhradním zástupcem německé společnosti FORM + TEST Seidner & Co. GmbH pro Českou republiku a Slovensko.</p>
+                    <h1 class="hero-heading" data-i18n="hero_heading">Špičková laboratorní technika a zkušební stroje pro stavebnictví a průmysl</h1>
+                    <p class="hero-paragraph" data-i18n="hero_paragraph">Již více než 30 let vyvíjíme a vyrábíme certifikovaná zkušební zařízení pro stavební, silniční a hutní zkušební laboratoře. Jsme autorizovaným výhradním zástupcem německé společnosti FORM + TEST Seidner & Co. GmbH pro Českou republiku a Slovensko.</p>
                     <div class="hero-buttons">
-                        <a href="#katalog" class="btn-corporate btn-hero">Prohlédnout katalog zařízení</a>
-                        <a href="#kontakt" class="btn-secondary btn-hero">Technická konzultace</a>
+                        <a href="#katalog" class="btn-corporate btn-hero" data-i18n="hero_btn_catalog">Prohlédnout katalog zařízení</a>
+                        <a href="#kontakt" class="btn-secondary btn-hero" data-i18n="hero_btn_consult">Technická konzultace</a>
                     </div>
                     <div class="hero-features-list">
                         <div class="hero-feat">
                             <span class="feat-bullet">🛡️</span>
-                            <span>Konstrukce v souladu s evropskými normami ČSN EN</span>
+                            <span data-i18n="hero_feat1">Konstrukce v souladu s evropskými normami ČSN EN</span>
                         </div>
                         <div class="hero-feat">
                             <span class="feat-bullet">⚙️</span>
-                            <span>Vlastní vývoj a výroba jednoúčelových zkušebních strojů</span>
+                            <span data-i18n="hero_feat2">Vlastní vývoj a výroba jednoúčelových zkušebních strojů</span>
                         </div>
                         <div class="hero-feat">
                             <span class="feat-bullet">🔧</span>
-                            <span>Kompletní záruční, pozáruční servis a kalibrace</span>
+                            <span data-i18n="hero_feat3">Kompletní záruční, pozáruční servis a kalibrace</span>
                         </div>
                     </div>
                 </div>

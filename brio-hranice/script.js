@@ -440,3 +440,94 @@ document.addEventListener('DOMContentLoaded', () => {
         pin.bindPopup('<strong>BRIO HRANICE s.r.o.</strong><br>Teplická 232, 753 01 Hranice<br>Výroba zkušebních zařízení').openPopup();
     }
 });
+
+
+const translations = {
+    cs: {
+        nav_about: "O společnosti",
+        nav_fields: "Oblasti zkoušek",
+        nav_catalog: "Katalog přístrojů",
+        nav_partner: "FORM+TEST",
+        nav_ref: "Reference",
+        nav_contact: "Kontakt",
+        nav_cta: "Poptat přístroj",
+        hero_badge_trad: "TRADICE OD ROKU 1992",
+        hero_badge_exp: "EXPORT DO 20+ ZEMÍ",
+        hero_heading: "Špičková laboratorní technika a zkušební stroje pro stavebnictví a průmysl",
+        hero_paragraph: "Již více než 30 let vyvíjíme a vyrábíme certifikovaná zkušební zařízení pro stavební, silniční a hutní zkušební laboratoře. Jsme autorizovaným výhradním zástupcem německé společnosti FORM + TEST Seidner & Co. GmbH pro Českou republiku a Slovensko.",
+        hero_btn_catalog: "Prohlédnout katalog zařízení",
+        hero_btn_consult: "Technická konzultace",
+        hero_feat1: "Konstrukce v souladu s evropskými normami ČSN EN",
+        hero_feat2: "Vlastní vývoj a výroba jednoúčelových zkušebních strojů",
+        hero_feat3: "Kompletní záruční, pozáruční servis a kalibrace",
+        sec_about_sub: "O SPOLEČNOSTI",
+        sec_about_title: "Tradice, přesnost a inovace ve zkušební technice od roku 1992",
+        sec_fields_sub: "PORTFOLIO METODIK",
+        sec_fields_title: "Komplexní zkušební zařízení dle evropských norem ČSN EN",
+        sec_cat_sub: "ONLINE KATALOG",
+        sec_cat_title: "Přístroje a zkušební zařízení BRIO & FORM+TEST",
+        sec_partner_sub: "STRATEGICKÉ PARTNERSTVÍ",
+        sec_partner_title: "Výhradní zastoupení FORM+TEST Seidner GmbH pro ČR a SR",
+        sec_contact_sub: "SPOJTE SE S NÁMI",
+        sec_contact_title: "Kontaktní místo a poptávka zkušebních zařízení",
+        form_title: "Poptávkový formulář zkušební techniky",
+        form_submit: "Odeslat nezávaznou poptávku"
+    },
+    en: {
+        nav_about: "About Us",
+        nav_fields: "Testing Fields",
+        nav_catalog: "Equipment Catalog",
+        nav_partner: "FORM+TEST",
+        nav_ref: "References",
+        nav_contact: "Contact",
+        nav_cta: "Inquire Equipment",
+        hero_badge_trad: "TRADITION SINCE 1992",
+        hero_badge_exp: "EXPORT TO 20+ COUNTRIES",
+        hero_heading: "High-End Laboratory Equipment and Testing Machines for Civil Engineering & Industry",
+        hero_paragraph: "For over 30 years, we have engineered and manufactured certified testing equipment for civil engineering, road building and metallurgical laboratories. We are the authorized exclusive distributor of German FORM + TEST Seidner & Co. GmbH for the Czech Republic and Slovakia.",
+        hero_btn_catalog: "Browse Equipment Catalog",
+        hero_btn_consult: "Technical Consultation",
+        hero_feat1: "Engineering in full compliance with European EN standards",
+        hero_feat2: "Custom in-house R&D and specialized testing machine manufacturing",
+        hero_feat3: "Comprehensive warranty, post-warranty maintenance and calibration",
+        sec_about_sub: "ABOUT COMPANY",
+        sec_about_title: "Tradition, Precision and Innovation in Testing Technology since 1992",
+        sec_fields_sub: "TESTING PORTFOLIO",
+        sec_fields_title: "Comprehensive Testing Systems Compliant with European Standards",
+        sec_cat_sub: "ONLINE CATALOG",
+        sec_cat_title: "Equipment and Testing Systems BRIO & FORM+TEST",
+        sec_partner_sub: "STRATEGIC PARTNERSHIP",
+        sec_partner_title: "Exclusive Representative of FORM+TEST Seidner GmbH for CZ & SK",
+        sec_contact_sub: "GET IN TOUCH",
+        sec_contact_title: "Contact Point & Testing Equipment Inquiry",
+        form_title: "Testing Equipment Inquiry Form",
+        form_submit: "Send Non-Binding Inquiry"
+    }
+};
+
+function setLanguage(lang) {
+    if (!translations[lang]) return;
+    try {
+        localStorage.setItem("selected_lang_brio", lang);
+    } catch (e) {}
+
+    document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.lang === lang);
+    });
+
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        if (translations[lang][key]) {
+            el.textContent = translations[lang][key];
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    try {
+        const saved = localStorage.getItem("selected_lang_brio");
+        if (saved && translations[saved]) {
+            setLanguage(saved);
+        }
+    } catch (e) {}
+});

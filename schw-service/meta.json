@@ -32,5 +32,10 @@
     "zamestnanci": "100–199 zaměstnanců",
     "jednatel": "Pavel Schwarzer",
     "stroje_pocet": 8
-  }
+  },
+  "jazyky": [
+    "CZ",
+    "EN",
+    "DE"
+  ]
 }

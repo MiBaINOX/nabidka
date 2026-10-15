@@ -47,18 +47,23 @@
 
             <nav class="nav" id="nav">
                 <ul class="nav-list">
-                    <li><a href="#uvod" class="nav-link active">Úvod</a></li>
-                    <li><a href="#o-nas" class="nav-link">Příběh & Historie</a></li>
-                    <li><a href="#stroje" class="nav-link">Strojní park</a></li>
-                    <li><a href="#produkty" class="nav-link">Výrobní možnosti</a></li>
-                    <li><a href="#reference" class="nav-link">Odvětví</a></li>
-                    <li><a href="#galerie" class="nav-link">Díly & Výroba</a></li>
-                    <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+                    <li><a href="#uvod" class="nav-link active" data-i18n="nav_home">Úvod</a></li>
+                    <li><a href="#o-nas" class="nav-link" data-i18n="nav_story">Příběh & Historie</a></li>
+                    <li><a href="#stroje" class="nav-link" data-i18n="nav_machines">Strojní park</a></li>
+                    <li><a href="#produkty" class="nav-link" data-i18n="nav_products">Výrobní možnosti</a></li>
+                    <li><a href="#reference" class="nav-link" data-i18n="nav_industries">Odvětví</a></li>
+                    <li><a href="#galerie" class="nav-link" data-i18n="nav_gallery">Díly & Výroba</a></li>
+                    <li><a href="#kontakt" class="nav-link" data-i18n="nav_contact">Kontakt</a></li>
                 </ul>
             </nav>
 
             <div class="header-actions">
-                <a href="#kontakt" class="btn btn-primary">Zadat poptávku</a>
+                <div class="lang-switcher" id="langSwitcher">
+                    <button type="button" class="lang-btn active" data-lang="cs" onclick="setLanguage('cs')">CZ</button>
+                    <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
+                    <button type="button" class="lang-btn" data-lang="de" onclick="setLanguage('de')">DE</button>
+                </div>
+                <a href="#kontakt" class="btn btn-primary" data-i18n="nav_cta">Zadat poptávku</a>
                 <button class="menu-toggle" id="menuToggle" aria-label="Menu">
                     <span></span>
                     <span></span>
@@ -73,33 +78,29 @@
             <div class="hero-left">
                 <div class="hero-tag">
                     <span class="tag-dot"></span>
-                    <span>ŠPIČKOVÉ OBRÁBĚNÍ NEREZOVÉ A ZUŠLECHTĚNÉ OCELI</span>
+                    <span data-i18n="hero_tag">ŠPIČKOVÉ OBRÁBĚNÍ NEREZOVÉ A ZUŠLECHTĚNÉ OCELI</span>
                 </div>
-                <h1 class="hero-title">
-                    PŘESNÉ CNC OBRÁBĚNÍ S TECHNOLOGIÍ <span>MORI SEIKI & HYUNDAI</span>
-                </h1>
-                <p class="hero-desc">
-                    Od závodního autokrosu v roce 1994 k modernímu strojírenskému provozu s víceosými soustruhy a frézovacími centry. Vyrábíme náročné nerezové díly, příruby, hřídele a pouzdra s garantovaným přenosem tavby materiálu a kalibrovanou kontrolou jakosti.
-                </p>
+                <h1 class="hero-title" data-i18n="hero_title">PŘESNÉ CNC OBRÁBĚNÍ S TECHNOLOGIÍ <span>MORI SEIKI & HYUNDAI</span></h1>
+                <p class="hero-desc" data-i18n="hero_desc">Od závodního autokrosu v roce 1994 k modernímu strojírenskému provozu s víceosými soustruhy a frézovacími centry. Vyrábíme náročné nerezové díly, příruby, hřídele a pouzdra s garantovaným přenosem tavby materiálu a kalibrovanou kontrolou jakosti.</p>
                 <div class="hero-points">
                     <div class="point-item">
                         <span class="point-icon">⬢</span>
                         <div class="point-text">
-                            <strong>Přenos tavby materiálu</strong>
-                            <span>Identifikace a laserové značení každého obrobku</span>
+                            <strong data-i18n="hero_point1_title">Přenos tavby materiálu</strong>
+                            <span data-i18n="hero_point1_desc">Identifikace a laserové značení každého obrobku</span>
                         </div>
                     </div>
                     <div class="point-item">
                         <span class="point-icon">⬢</span>
                         <div class="point-text">
-                            <strong>5-osé komplexní operace</strong>
-                            <span>Soustružení, vrtání, závitování i frézování v jednom upnutí</span>
+                            <strong data-i18n="hero_point2_title">5-osé komplexní operace</strong>
+                            <span data-i18n="hero_point2_desc">Soustružení, vrtání, závitování i frézování v jednom upnutí</span>
                         </div>
                     </div>
                 </div>
                 <div class="hero-cta">
-                    <a href="#stroje" class="btn btn-primary">Parametry strojního parku</a>
-                    <a href="#produkty" class="btn btn-outline">Katalog dílů</a>
+                    <a href="#stroje" class="btn btn-primary" data-i18n="hero_btn_mach">Parametry strojního parku</a>
+                    <a href="#produkty" class="btn btn-outline" data-i18n="hero_btn_parts">Katalog dílů</a>
                 </div>
             </div>
             <div class="hero-right">

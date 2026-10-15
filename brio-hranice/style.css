@@ -1689,3 +1689,52 @@ img {
 a[href^="tel:"] {
     white-space: nowrap !important;
 }
+
+.lang-switcher {
+    display: inline-flex;
+    align-items: center;
+    background: #F1F5F9;
+    border: 1px solid var(--c-border);
+    border-radius: var(--radius-sm);
+    padding: 2px;
+    gap: 2px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: none;
+    color: var(--c-text-muted);
+    font-family: inherit;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    line-height: 1;
+}
+
+.lang-btn:hover {
+    color: var(--c-navy);
+    background: #E2E8F0;
+}
+
+.lang-btn.active {
+    background: var(--c-blue);
+    color: #FFFFFF;
+}
+
+.drawer-lang-box {
+    padding: 1rem 1.25rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.drawer-lang-title {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--c-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}

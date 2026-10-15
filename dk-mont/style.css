@@ -1487,3 +1487,52 @@ img {
 a[href^="tel:"] {
     white-space: nowrap !important;
 }
+
+.lang-switcher {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 4px;
+    padding: 2px;
+    gap: 2px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: none;
+    color: #94A3B8;
+    font-family: inherit;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    line-height: 1;
+}
+
+.lang-btn:hover {
+    color: #F8FAFC;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.lang-btn.active {
+    background: #38BDF8;
+    color: #0F172A;
+}
+
+.drawer-lang-box {
+    padding: 1rem 1.25rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.drawer-lang-title {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #94A3B8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}

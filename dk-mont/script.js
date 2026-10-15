@@ -302,3 +302,158 @@ document.addEventListener('DOMContentLoaded', () => {
         customMarker.bindPopup('<strong>DK mont a.s.</strong><br>Nádražní 531/18, 789 85 Mohelnice<br>Výrobní a logistický areál').openPopup();
     }
 });
+
+
+const translations = {
+    cs: {
+        nav_about: "O společnosti",
+        nav_production: "Přednosti výroby",
+        nav_catalog: "Katalog PROFIFIX®",
+        nav_cert: "Certifikace",
+        nav_career: "Kariéra",
+        nav_contact: "Kontakt",
+        nav_cta: "Poptat výrobu",
+        hero_tradition: "TRADICE OD ROKU 1994",
+        hero_title: "Přední výrobce kovových dílců pro sádrokartonové systémy",
+        hero_desc: "Společnost DK mont a.s. je největším výrobcem kovového montážního příslušenství k sádrokartonovým konstrukcím v České republice i ve Střední Evropě. Náš certifikovaný systém PROFIFIX® je synonymem špičkové přesnosti, stability a férového partnerství ve více než 15 zemích Evropy.",
+        hero_btn_catalog: "Prozkoumat katalog produktů",
+        hero_btn_contact: "Kontaktovat obchodní tým",
+        hero_feat1: "Vlastní nástrojárna a vysokorychlostní lisy",
+        hero_feat2: "Certifikovaná ocel DX51D s garantovaným zinkováním",
+        hero_feat3: "Expediční sklad s garancí dodávek pro velkoobchody",
+        metric1_title: "TOP 35% hodnocení EcoVadis",
+        metric2_title: "Let zkušeností v oboru",
+        metric3_title: "Kvalifikovaných zaměstnanců",
+        metric4_title: "Certifikace ISO",
+        sec_excellence_sub: "VÝROBNÍ EXCELENCE",
+        sec_excellence_title: "Technologické zázemí a filozofie systému PROFIFIX®",
+        sec_catalog_sub: "KOMPLETNÍ SORTIMENT",
+        sec_catalog_title: "Certifikovaný systém PROFIFIX® pro suchou výstavbu",
+        sec_certs_sub: "DŮVĚRYHODNOST & NORMY",
+        sec_certs_title: "Certifikace kvality a technické protokoly",
+        sec_contact_sub: "SPOJTE SE S NÁMI",
+        sec_contact_title: "Obchodní oddělení a technická podpora",
+        form_title: "Poptávka velkoobchodních dodávek a výroby",
+        form_submit: "Odeslat nezávaznou poptávku"
+    },
+    en: {
+        nav_about: "About Us",
+        nav_production: "Manufacturing",
+        nav_catalog: "PROFIFIX® Catalog",
+        nav_cert: "Certifications",
+        nav_career: "Careers",
+        nav_contact: "Contact",
+        nav_cta: "Inquire Production",
+        hero_tradition: "TRADITION SINCE 1994",
+        hero_title: "Leading European Manufacturer of Drywall System Accessories",
+        hero_desc: "DK mont a.s. is the largest manufacturer of metal assembly accessories for drywall systems in Central Europe. Our certified PROFIFIX® system is synonymous with top precision, structural stability and reliable partnership in over 15 European countries.",
+        hero_btn_catalog: "Explore Product Catalog",
+        hero_btn_contact: "Contact Sales Team",
+        hero_feat1: "In-house toolshop and high-speed stamping presses",
+        hero_feat2: "Certified DX51D steel with guaranteed zinc coating",
+        hero_feat3: "Central distribution warehouse with guaranteed wholesale delivery",
+        metric1_title: "TOP 35% EcoVadis Rating",
+        metric2_title: "Years of Industry Experience",
+        metric3_title: "Skilled Specialists",
+        metric4_title: "ISO Certifications",
+        sec_excellence_sub: "MANUFACTURING EXCELLENCE",
+        sec_excellence_title: "Technological Infrastructure and PROFIFIX® Philosophy",
+        sec_catalog_sub: "COMPLETE PORTFOLIO",
+        sec_catalog_title: "Certified PROFIFIX® Drywall Construction System",
+        sec_certs_sub: "TRUST & STANDARDS",
+        sec_certs_title: "Quality Certifications and Technical Test Reports",
+        sec_contact_sub: "GET IN TOUCH",
+        sec_contact_title: "Sales Department and Technical Support",
+        form_title: "Wholesale Delivery and Production Inquiry",
+        form_submit: "Send Non-Binding Inquiry"
+    },
+    de: {
+        nav_about: "Über uns",
+        nav_production: "Fertigung",
+        nav_catalog: "PROFIFIX® Katalog",
+        nav_cert: "Zertifikate",
+        nav_career: "Karriere",
+        nav_contact: "Kontakt",
+        nav_cta: "Anfrage senden",
+        hero_tradition: "TRADITION SEIT 1994",
+        hero_title: "Führender Hersteller von Metallzubehör für Trockenbausysteme",
+        hero_desc: "DK mont a.s. ist der führende Hersteller von Metallzubehör für Trockenbaukonstruktionen in Mitteleuropa. Unser zertifiziertes PROFIFIX®-System steht für höchste Präzision, Stabilität und verlässliche Partnerschaften in über 15 europäischen Ländern.",
+        hero_btn_catalog: "Produktkatalog erkunden",
+        hero_btn_contact: "Vertriebsteam kontaktieren",
+        hero_feat1: "Eigener Werkzeugbau und Hochgeschwindigkeitsstanzanlagen",
+        hero_feat2: "Zertifizierter DX51D-Stahl mit garantierter Verzinkung",
+        hero_feat3: "Auslieferungslager mit garantierter Belieferung für den Großhandel",
+        metric1_title: "TOP 35% EcoVadis-Bewertung",
+        metric2_title: "Jahre Branchenerfahrung",
+        metric3_title: "Qualifizierte Mitarbeiter",
+        metric4_title: "ISO-Zertifizierungen",
+        sec_excellence_sub: "FERTIGUNGSEXZELLENZ",
+        sec_excellence_title: "Technologische Basis und PROFIFIX®-Philosophie",
+        sec_catalog_sub: "KOMPLETTES SORTIMENT",
+        sec_catalog_title: "Zertifiziertes PROFIFIX®-System für den Trockenbau",
+        sec_certs_sub: "VERTRAUEN & NORMEN",
+        sec_certs_title: "Qualitätszertifikate und Prüfberichte",
+        sec_contact_sub: "KONTAKTIEREN SIE UNS",
+        sec_contact_title: "Vertrieb und technische Beratung",
+        form_title: "Anfrage für Großhandel und Serienfertigung",
+        form_submit: "Unverbindliche Anfrage senden"
+    },
+    pl: {
+        nav_about: "O firmie",
+        nav_production: "Zalety produkcji",
+        nav_catalog: "Katalog PROFIFIX®",
+        nav_cert: "Certyfikaty",
+        nav_career: "Kariera",
+        nav_contact: "Kontakt",
+        nav_cta: "Zapytanie ofertowe",
+        hero_tradition: "TRADYCJA OD 1994 ROKU",
+        hero_title: "Wiodący producent elementów metalowych do systemów gipsowo-kartonowych",
+        hero_desc: "DK mont a.s. to największy producent metalowych akcesoriów montażowych do konstrukcji gipsowo-kartonowych w Europie Środkowej. Nasz certyfikowany system PROFIFIX® jest synonimem precyzji, trwałości i stabilnego partnerstwa w ponad 15 krajach Europy.",
+        hero_btn_catalog: "Przeglądaj katalog produktów",
+        hero_btn_contact: "Skontaktuj się z działem handlowym",
+        hero_feat1: "Własna narzędziownia i szybkobieżne linie wykrawające",
+        hero_feat2: "Certyfikowana stal DX51D z gwarantowaną powłoką cynkową",
+        hero_feat3: "Magazyn centralny z gwarancją terminowych dostaw hurtowych",
+        metric1_title: "TOP 35% oceny EcoVadis",
+        metric2_title: "Lat doświadczenia w branży",
+        metric3_title: "Wykwalifikowanych pracowników",
+        metric4_title: "Certyfikaty ISO",
+        sec_excellence_sub: "DOSKONAŁOŚĆ PRODUKCYJNA",
+        sec_excellence_title: "Zaplecze technologiczne i filozofia systemu PROFIFIX®",
+        sec_catalog_sub: "KOMPLETNY ASORTYMENT",
+        sec_catalog_title: "Certyfikowany system PROFIFIX® do suchej zabudowy",
+        sec_certs_sub: "ZAUFANIE I NORMY",
+        sec_certs_title: "Certyfikaty jakości i raporty techniczne",
+        sec_contact_sub: "SKONTAKTUJ SIĘ Z NAMI",
+        sec_contact_title: "Dział handlowy i wsparcie techniczne",
+        form_title: "Zapytanie o dostawy hurtowe i produkcję",
+        form_submit: "Wyślij bezpłatne zapytanie"
+    }
+};
+
+function setLanguage(lang) {
+    if (!translations[lang]) return;
+    try {
+        localStorage.setItem("selected_lang_dkmont", lang);
+    } catch (e) {}
+
+    document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.lang === lang);
+    });
+
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        if (translations[lang][key]) {
+            el.textContent = translations[lang][key];
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    try {
+        const saved = localStorage.getItem("selected_lang_dkmont");
+        if (saved && translations[saved]) {
+            setLanguage(saved);
+        }
+    } catch (e) {}
+});
