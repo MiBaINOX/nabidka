@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PEKR METAX s.r.o. | Antikorozní ochrana kovů a renovace vodních elektráren</title>
+<meta name="description" content="Profesionální tryskání Sa 2,5 / Sa 3, žárová metalizace (šopování), průmyslová lakovna Blansko a specializované renovace turbín vodních elektráren.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="editorial-header" id="header">
+  <div class="top-story-bar">
+    <div class="story-bar-container">
+      <div class="story-tagline">
+        <span class="heritage-dot"></span>
+        <span>RODINNÁ TRADICE KRATOCHVÍL · EXPERTI NA EXTRÉMNÍ ANTIKOROZNÍ OCHRANU</span>
+      </div>
+      <div class="top-hotline">
+        <a href="tel:+420608362983" class="story-tel">+420 608 362 983</a>
+        <a href="mailto:info@pekrmetax.cz" class="story-mail">info@pekrmetax.cz</a>
+      </div>
+    </div>
+  </div>
+  <div class="nav-bar-main">
+    <div class="nav-bar-container">
+      <a href="#hero" class="brand-link">
+        <img src="assets/logo.png" alt="PEKR METAX logo" class="brand-logo">
+      </a>
+      <nav class="story-nav" id="storyNav">
+        <a href="#pribeh" class="story-nav-item">Příběh firmy</a>
+        <a href="#technologie" class="story-nav-item">Technologie</a>
+        <a href="#kronika" class="story-nav-item">Projekty & Elektrárny</a>
+        <a href="#lakovna" class="story-nav-item">Lakovna Blansko</a>
+        <a href="#kontakt" class="story-nav-cta">Poptat renovaci</a>
+      </nav>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="editorial-hero" id="hero">
+  <div class="hero-container">
+    <div class="hero-content reveal">
+      <div class="hero-kicker">RENOMOVANÁ ANTIKOROZNÍ OCHRANA & HYDROTECHNIKA</div>
+      <h1 class="hero-heading">Návrat oceli k plné síle: Renovace turbín, tryskání a metalizace</h1>
+      <p class="hero-narrative">
+        Kde tekoucí voda a čas obrušují i ty nejtvrdší ocelové slitiny, tam nastupují technologie PEKR METAX. Specializujeme se na hloubkovou obnovu vodních elektráren, žárové nanášení kovů a certifikované nátěrové systémy, které odolají desítkám let v agresivním prostředí.
+      </p>
+      <div class="hero-story-badges">
+        <div class="badge-item">
+          <span class="b-num">Sa 3</span>
+          <span class="b-lbl">Mobilní tryskání na čistý kov</span>
+        </div>
+        <div class="badge-item">
+          <span class="b-num">100%</span>
+          <span class="b-lbl">Žárová metalizace Zn / Al</span>
+        </div>
+        <div class="badge-item">
+          <span class="b-num">ČEZ</span>
+          <span class="b-lbl">Reference na velkých vodních dílech</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="#kronika" class="btn btn-editorial">Kronika významných zakázek</a>
+        <a href="#kontakt" class="btn btn-subtle">Konzultovat projekt</a>
+      </div>
+    </div>
+    <div class="hero-feature-frame reveal">
+      <div class="photo-wrapper zoom-frame">
+        <img src="assets/turbina_blansko.jpg" alt="Renovace součásti vodní turbíny - Zkušebna vodních turbín Blansko" class="hero-photo">
+      </div>
+      <div class="floating-story-card">
+        <div class="fsc-kicker">VÝZNAMNÁ REFERENCE</div>
+        <div class="fsc-title">Zkušebna vodních turbín Blansko</div>
+        <p class="fsc-text">Kompletní sanace povrchu lopatek a rozváděcího ústrojí před hydraulickými zkouškami.</p>
+        <div class="fsc-meta">Norma ČSN EN ISO 12944 · Antikorozní třída C5-M / Im1</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="editorial-stats">
+  <div class="stats-container">
+    <div class="story-stat-card reveal">
+      <div class="stat-big-val"><span class="counter" data-target="30">0</span><span class="stat-unit">+</span></div>
+      <div class="stat-big-lbl">Významných hydro děl</div>
+      <p class="stat-big-desc">Renovace předrozvaděčů, oběžných kol a hradidel pro PVE Dalešice, Čierny Váh, Poděbrady a další.</p>
+    </div>
+    <div class="story-stat-card reveal">
+      <div class="stat-big-val"><span class="counter" data-target="2">0</span><span class="stat-unit">provozy</span></div>
+      <div class="stat-big-lbl">Rozstání & Blansko</div>
+      <p class="stat-big-desc">Mobilní tryskací a metalizační jednotky pro výjezdy po celé ČR i stabilní lakovna v Blansku.</p>
+    </div>
+    <div class="story-stat-card reveal">
+      <div class="stat-big-val">Sa 3</div>
+      <div class="stat-big-lbl">Špičková čistota povrchu</div>
+      <p class="stat-big-desc">Předúprava oceli křemičitým pískem, korundem a ocelovou drtí před aplikací žárového zinku a nátěrů.</p>
+    </div>
+    <div class="story-stat-card reveal">
+      <div class="stat-big-val">BVP</div>
+      <div class="stat-big-lbl">Speciální renovace techniky</div>
+      <p class="stat-big-desc">Kompletní pískování a antikorozní nátěry vojenských bojových vozidel pěchoty a těžké techniky.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section history-timeline-section" id="pribeh">
+  <div class="story-site-container">
+    <div class="section-title-wrap reveal">
+      <span class="story-eyebrow">ŘEMESLO, ZKUŠENOSTI & ODKAZ</span>
+      <h2 class="editorial-title">Příběh firmy PEKR METAX</h2>
+      <p class="editorial-lead">
+        Založeno na pevných základech rodinné tradice. Petr Kratochvíl starší a mladší spojili celoživotní zkušenosti v hydrotechnice, metalizaci a průmyslových nátěrech.
+      </p>
+    </div>
+
+    <div class="timeline-story-track">
+      
+      <div class="timeline-chapter reveal">
+        <div class="chapter-marker">01</div>
+        <div class="chapter-body">
+          <div class="chapter-date">POČÁTKY SPECIALIZACE</div>
+          <h3 class="chapter-heading">Zrození specialistů na extrémní namáhání</h3>
+          <p class="chapter-narrative">
+            Vznik společnosti byl reakcí na potřebu vysoce odborných antikorozních zásahů přímo v terénu vodních staveb. Běžné nátěry pod náporem dravé vody v turbínách selhávaly. Petr Kratochvíl proto zavedl technologii žárového nástřiku kovů – šopování zinkem a hliníkem, které s ocelovým podkladem tvoří neprostupnou metalurgickou bariéru.
+          </p>
+          <div class="chapter-highlight">
+            Působnost od počátku po celém území České republiky i na Slovensku s vlastní mobilní tryskací technikou.
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-chapter reveal">
+        <div class="chapter-marker">02</div>
+        <div class="chapter-body">
+          <div class="chapter-date">VÝZNAMNÉ MILNÍKY</div>
+          <h3 class="chapter-heading">Vstup do srdce českých a slovenských elektráren</h3>
+          <p class="chapter-narrative">
+            Následovala řada prestižních zakázek pro přehradní díla a přečerpávací elektrárny. Na PVE Dalešice, Čierném Váhu, v Poděbradech i Lesu Království tým PEKR METAX realizoval sanace předrozvaděčů, přivaděčů, oběžných kol i těžkých plovoucích hradidel.
+          </p>
+          <div class="chapter-grid-photos">
+            <div class="cg-item zoom-frame">
+              <img src="assets/dalesice.jpg" alt="Přečerpávací vodní elektrárna Dalešice" class="cg-img">
+              <span class="cg-cap">PVE Dalešice – renovace rozvaděče</span>
+            </div>
+            <div class="cg-item zoom-frame">
+              <img src="assets/obezne_kolo.jpg" alt="Oběžné kolo MVE Poděbrady" class="cg-img">
+              <span class="cg-cap">MVE Poděbrady – ochrana oběžného kola</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-chapter reveal">
+        <div class="chapter-marker">03</div>
+        <div class="chapter-body">
+          <div class="chapter-date">MODERNÍ ETAPA</div>
+          <h3 class="chapter-heading">Otevření lakovny Blansko & armádní zakázky BVP</h3>
+          <p class="chapter-narrative">
+            Pro zajištění celoročního provozu byla vybudována specializovaná lakovna v Blansku na Svitavské ulici. Zde pod vedením Petra Kratochvíla mladšího probíhá aplikace prémiových nátěrových systémů Hempel a dvousložkových epoxidů. Vrcholem preciznosti se stala kompletní renovace pancéřovaných bojových vozidel pěchoty (BVP).
+          </p>
+          <div class="chapter-highlight">
+            Kombinace dílenského lakování v Blansku a terénních mobilních výjezdů na přehrady a vodní toky.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section tech-pillars-section" id="technologie">
+  <div class="story-site-container">
+    <div class="section-title-wrap reveal">
+      <span class="story-eyebrow">KOMPLEXNÍ TECHNOLOGICKÝ POSTUP</span>
+      <h2 class="editorial-title">Čtveřice pilířů antikorozní ochrany</h2>
+      <p class="editorial-lead">Každý krok má svůj přísný technologický předpis a měřenou tloušťku vrstvy v mikrometrech.</p>
+    </div>
+
+    <div class="pillars-grid">
+      <article class="pillar-card reveal">
+        <div class="pillar-num">PILÍŘ I</div>
+        <h3 class="pillar-title">Tryskání & Pískování Sa 2,5 – Sa 3</h3>
+        <p class="pillar-text">
+          Předúprava povrchu mobilní tryskací jednotkou pomocí křemičitého písku, ocelové drti nebo strusky. Odstraňujeme staré degradované vrstvy, okuje a hloubkovou korozi na kotevní profil nutný pro dokonalou adhezi.
+        </p>
+        <ul class="pillar-features">
+          <li>Stupeň čistoty Sa 2,5 (velmi důkladné) a Sa 3 (opticky čistý kov)</li>
+          <li>Mobilní zásahy na staveništích i tryskání v hale</li>
+          <li>Vhodné pro staré nátěry, odlitky i novou kovovýrobu</li>
+        </ul>
+      </article>
+
+      <article class="pillar-card reveal">
+        <div class="pillar-num">PILÍŘ II</div>
+        <h3 class="pillar-title">Žárová metalizace (Šopování)</h3>
+        <p class="pillar-text">
+          Termický nástřik roztaveného zinku, hliníku nebo slitin Zinacor na otryskaný povrch. Roztavený kov vytvoří souvislou ochrannou vrstvu, která poskytuje aktivní katodickou ochranu s životností přesahující 30 let.
+        </p>
+        <ul class="pillar-features">
+          <li>Nástřik Zn, Al a nerezových materiálů dle ČSN EN ISO 2063</li>
+          <li>Nedochází k tepelnému pnutí ani kroucení dílů</li>
+          <li>Ideální pro vodní stavby, mosty a nádrže</li>
+        </ul>
+      </article>
+
+      <article class="pillar-card reveal">
+        <div class="pillar-num">PILÍŘ III</div>
+        <h3 class="pillar-title">Průmyslové lakování & Nátěry</h3>
+        <p class="pillar-text">
+          Aplikace špičkových vícesložkových epoxidových a polyuretanových systémů (Hempel a další) ve vlastní lakovně v Blansku. Odolnost vůči trvalému ponoru ve vodě i chemickým vlivům.
+        </p>
+        <ul class="pillar-features">
+          <li>Systémy pro korozní agresivitu C3, C4, C5-M i ponor Im1/Im2</li>
+          <li>Pravidelné měření tloušťky vrstvy digitálními tloušťkoměry</li>
+          <li>Přesná odstínová paleta RAL podle specifikace investora</li>
+        </ul>
+      </article>
+
+      <article class="pillar-card reveal">
+        <div class="pillar-num">PILÍŘ IV</div>
+        <h3 class="pillar-title">Renovace hydrotechnických uzlů</h3>
+        <p class="pillar-text">
+          Komplexní záchrana masivních ocelových komponent vodních elektráren. Provádíme opravy oběžných kol, renovace přivaděčů, spirál, hradicích tabulí a hřídelí generátorů.
+        </p>
+        <ul class="pillar-features">
+          <li>Sanace kavitací a erozí poškozených hydro-součástí</li>
+          <li>Aplikace těsnicích a otěruvzdorných polymerních vrstev</li>
+          <li>Práce za plné odstávky s důrazem na přesné dodržení termínu</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section chronicle-section" id="kronika">
+  <div class="story-site-container">
+    <div class="section-title-wrap reveal">
+      <span class="story-eyebrow">VÝBĚR Z KRONIKY REALIZACÍ</span>
+      <h2 class="editorial-title">Referenční zakázky PEKR METAX</h2>
+      <p class="editorial-lead">Filtrujte projekty podle odvětví a prohlédněte si skutečné realizace v terénu.</p>
+    </div>
+
+    <div class="chronicle-filter-bar reveal">
+      <button class="chronicle-filter-btn active" data-filter="all">Všechny zakázky</button>
+      <button class="chronicle-filter-btn" data-filter="hydro">Vodní elektrárny & Přehrady</button>
+      <button class="chronicle-filter-btn" data-filter="metalizace">Metalizace & Žárové nástřiky</button>
+      <button class="chronicle-filter-btn" data-filter="armada">Vojenská & Těžká technika</button>
+      <button class="chronicle-filter-btn" data-filter="lakovna">Lakovna Blansko</button>
+    </div>
+
+    <div class="chronicle-grid" id="chronicleGrid">
+      
+      <div class="chronicle-item reveal" data-category="hydro">
+        <div class="ci-photo zoom-frame">
+          <img src="assets/dalesice.jpg" alt="PVE Dalešice" class="ci-img">
+          <span class="ci-badge">PŘEČERPÁVACÍ ELEKTRÁRNA</span>
+        </div>
+        <div class="ci-body">
+          <h3 class="ci-title">PVE Dalešice – Práce na RZK</h3>
+          <p class="ci-desc">Hloubková obnova a aplikace ochranného systému na rychlozávěrných klapkách a přivaděčích jedné z největších přečerpávacích elektráren v ČR.</p>
+          <div class="ci-specs">Technologie: Otryskání Sa 3 + žárový nástřik + epoxidový nátěr</div>
+        </div>
+      </div>
+
+      <div class="chronicle-item reveal" data-category="hydro">
+        <div class="ci-photo zoom-frame">
+          <img src="assets/obezne_kolo.jpg" alt="MVE Poděbrady" class="ci-img">
+          <span class="ci-badge">MALÁ VODNÍ ELEKTRÁRNA</span>
+        </div>
+        <div class="ci-body">
+          <h3 class="ci-title">MVE Poděbrady – Oprava oběžného kola</h3>
+          <p class="ci-desc">Kompletní sanace povrchu lopatek oběžného kola namáhaného vysokou rychlostí proudu Labe. Ochrana proti kavitačnímu poškození.</p>
+          <div class="ci-specs">Technologie: Tryskání ocelovou drtí + vícesložkový nátěrový systém</div>
+        </div>
+      </div>
+
+      <div class="chronicle-item reveal" data-category="hydro">
+        <div class="ci-photo zoom-frame">
+          <img src="assets/hradidlo.jpg" alt="Plovoucí hradidla" class="ci-img">
+          <span class="ci-badge">VODOHOSPODÁŘSKÉ STAVBY</span>
+        </div>
+        <div class="ci-body">
+          <h3 class="ci-title">Plovoucí hradicí tabule – Les Království & Markersbach</h3>
+          <p class="ci-desc">Renovace masivních ocelových hradidel zajišťujících uzavření nátoku přehradní nádrže. Certifikace pro dlouhodobý styk s vodou.</p>
+          <div class="ci-specs">Technologie: Metalizace šopováním + vrchní polyuretanový plášť</div>
+        </div>
+      </div>
+
+      <div class="chronicle-item reveal" data-category="armada">
+        <div class="ci-photo zoom-frame">
+          <img src="assets/bvp_renovace.jpg" alt="Renovace BVP" class="ci-img">
+          <span class="ci-badge">VOJENSKÁ TECHNIKA</span>
+        </div>
+        <div class="ci-body">
+          <h3 class="ci-title">Bojové vozidlo pěchoty (BVP)</h3>
+          <p class="ci-desc">Kompletní odstrojení, pískování korby, pojezdových částí a věže obrněného transportéru BVP s následnou aplikací maskovacího nátěru.</p>
+          <div class="ci-specs">Technologie: Tryskání křemičitým pískem + armádní nátěrové systémy</div>
+        </div>
+      </div>
+
+      <div class="chronicle-item reveal" data-category="hydro">
+        <div class="ci-photo zoom-frame">
+          <img src="assets/turbina_blansko.jpg" alt="Zkušebna Blansko" class="ci-img">
+          <span class="ci-badge">VÝZKUM & TESTOVÁNÍ</span>
+        </div>
+        <div class="ci-body">
+          <h3 class="ci-title">Zkušebna vodních turbín Blansko</h3>
+          <p class="ci-desc">Antikorozní úprava testovacích těles a prototypů turbín před náročnými zkouškami v hydraulické laboratoři.</p>
+          <div class="ci-specs">Technologie: Jemné tryskání + vysokopevnostní nátěr ČSN EN ISO</div>
+        </div>
+      </div>
+
+      <div class="chronicle-item reveal" data-category="lakovna">
+        <div class="ci-photo zoom-frame">
+          <img src="assets/lopatkovy_kruh.jpg" alt="Lopatkový kruh Hempel" class="ci-img">
+          <span class="ci-badge">LAKOVNA BLANSKO</span>
+        </div>
+        <div class="ci-body">
+          <h3 class="ci-title">Dolní lopatkový kruh – Nátěrový systém Hempel</h3>
+          <p class="ci-desc">Aplikace certifikovaného systému Hempel na rozváděcí lopaty a kruhy v lakovacím boxu provozovny Blansko pro zahraničního odběratele.</p>
+          <div class="ci-specs">Technologie: Průmyslový nástřik airless + vytvrzení v boxu</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section blansko-section" id="lakovna">
+  <div class="story-site-container">
+    <div class="blansko-split">
+      <div class="blansko-content reveal">
+        <span class="story-eyebrow">ZÁZEMÍ PRO PRŮMYSLOVÉ NÁTĚRY</span>
+        <h2 class="editorial-title">Provozovna a lakovna Blansko</h2>
+        <p class="editorial-lead">
+          Na adrese Svitavská 500/7 v Blansku provozujeme stabilní pracoviště pro tryskání dílců a lakování rozměrných ocelových svařenců.
+        </p>
+        <div class="blansko-points">
+          <div class="bp-item">
+            <strong>Kapacitní mokrý lakovací box</strong>
+            <span>Vybavený odsáváním, řízenou cirkulací vzduchu a sušicí fází pro rychlé a rovnoměrné vytvrzení nátěrů.</span>
+          </div>
+          <div class="bp-item">
+            <strong>Mobilní výjezdové týmy</strong>
+            <span>Pro práce na přehradách, jezech a mostních konstrukcích vyjíždíme s vlastní kompresorovou a tryskací technikou.</span>
+          </div>
+          <div class="bp-item">
+            <strong>Měření jakosti a protokoly</strong>
+            <span>Z každé zakázky vystavujeme protokol o měření tloušťky suché vrstvy nátěru (DFT) a odtrhové zkoušce adheze.</span>
+          </div>
+        </div>
+      </div>
+      <div class="blansko-visual reveal">
+        <div class="bv-frame zoom-frame">
+          <img src="assets/lakovna_work.jpg" alt="Lakovna Blansko v provozu" class="bv-img">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section editorial-contact-section" id="kontakt">
+  <div class="story-site-container">
+    <div class="section-title-wrap reveal">
+      <span class="story-eyebrow">PŘÍMÉ SPOJENÍ NA VEDENÍ SPOLEČNOSTI</span>
+      <h2 class="editorial-title">Poptávka povrchových úprav a renovací</h2>
+      <p class="editorial-lead">
+        Ať už plánujete sanaci turbíny za plné odstávky nebo potřebujete nalakovat sérii strojírenských výrobků, spojte se přímo s námi.
+      </p>
+    </div>
+
+    <div class="contact-editorial-layout">
+      
+      <div class="editorial-contact-cards reveal">
+        
+        <div class="director-card">
+          <div class="dc-role">JEDNATEL · VODNÍ DÍLA & METALIZACE</div>
+          <h3 class="dc-name">Petr Kratochvíl starší</h3>
+          <p class="dc-desc">Renovace součástí vodních elektráren, žárové nástřiky kovů, terénní realizace po celé ČR a SR.</p>
+          <div class="dc-links">
+            <a href="tel:+420608362983" class="dc-tel">+420 608 362 983</a>
+            <a href="mailto:info@pekrmetax.cz" class="dc-mail">info@pekrmetax.cz</a>
+          </div>
+        </div>
+
+        <div class="director-card">
+          <div class="dc-role">VEDENÍ PROVOZU · LAKOVNA BLANSKO</div>
+          <h3 class="dc-name">Petr Kratochvíl mladší</h3>
+          <p class="dc-desc">Lakovna Blansko, tryskání dílců, aplikace nátěrových systémů ČSN/ISO, kalkulace.</p>
+          <div class="dc-links">
+            <a href="tel:+420776256658" class="dc-tel">+420 776 256 658</a>
+            <a href="mailto:info@pekrmetax.cz" class="dc-mail">info@pekrmetax.cz</a>
+          </div>
+        </div>
+
+        <div class="premises-box">
+          <div class="premises-item">
+            <span class="pi-title">Sídlo společnosti:</span>
+            <span class="pi-val">Pekr Metax s.r.o., Rozstání 158, 798 62 (okres Prostějov)</span>
+          </div>
+          <div class="premises-item">
+            <span class="pi-title">Provozovna & Lakovna:</span>
+            <span class="pi-val">Svitavská 500/7, 678 01 Blansko</span>
+          </div>
+          <div class="premises-item">
+            <span class="pi-title">Pevná linka / fax:</span>
+            <span class="pi-val"><a href="tel:+420582395318">+420 582 395 318</a></span>
+          </div>
+          <div class="premises-item">
+            <span class="pi-title">IČO / DIČ:</span>
+            <span class="pi-val">08279187 / CZ08279187</span>
+          </div>
+        </div>
+
+        <div class="map-link-btn-wrap">
+          <a href="https://mapy.cz/zakladni?q=Svitavsk%C3%A1+500%2F7+Blansko" target="_blank" rel="noopener noreferrer" class="btn btn-mapy-story">
+            📍 Otevřít lakovnu Blansko na Mapy.cz
+          </a>
+        </div>
+
+      </div>
+
+      <div class="editorial-form-wrap reveal">
+        <form class="story-form" action="mailto:info@pekrmetax.cz" method="post" enctype="text/plain">
+          <div class="sf-title">Zadání poptávky nebo technického dotazu</div>
+          <div class="sf-field">
+            <label for="sfName">Jméno a příjmení / Firma *</label>
+            <input type="text" id="sfName" name="Jmeno_Firma" required placeholder="např. Ing. Martin Dvořák, Povodí Moravy s.p.">
+          </div>
+          <div class="sf-grid-2">
+            <div class="sf-field">
+              <label for="sfEmail">E-mail *</label>
+              <input type="email" id="sfEmail" name="Email" required placeholder="dvorak@povodimoravy.cz">
+            </div>
+            <div class="sf-field">
+              <label for="sfPhone">Telefon</label>
+              <input type="tel" id="sfPhone" name="Telefon" placeholder="+420 ...">
+            </div>
+          </div>
+          <div class="sf-field">
+            <label for="sfTech">Požadovaná technologie</label>
+            <select id="sfTech" name="Pozadovana_Technologie">
+              <option value="renovace-hydro">Renovace součástí vodní elektrárny (turbína, hradidlo)</option>
+              <option value="tryskani-mobilni">Mobilní tryskání / pískování v terénu (Sa 2,5 - Sa 3)</option>
+              <option value="metalizace-sopovani">Žárová metalizace / šopování zinkem a hliníkem</option>
+              <option value="lakovna-blansko">Průmyslové lakování v lakovně Blansko</option>
+              <option value="renovace-techniky">Renovace těžké nebo armádní techniky</option>
+              <option value="jine">Jiné / komplexní antikorozní ochrana</option>
+            </select>
+          </div>
+          <div class="sf-field">
+            <label for="sfMsg">Popis zařízení, rozsah poškození a lokalita *</label>
+            <textarea id="sfMsg" name="Zprava" rows="4" required placeholder="Uveďte typ zařízení, stav stávajícího povrchu, přibližné rozměry a předpokládaný termín realizace..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-editorial btn-full">Odeslat nezávaznou poptávku</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="map-container-story reveal">
+      <div id="map" class="story-map-canvas"></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="editorial-footer">
+  <div class="editorial-footer-container">
+    <div class="ef-col-brand">
+      <img src="assets/logo.png" alt="PEKR METAX" class="ef-logo">
+      <p class="ef-desc">
+        Pekr Metax s.r.o. · Rozstání 158, 798 62 · Lakovna: Svitavská 500/7, 678 01 Blansko · IČ: 08279187 · DIČ: CZ08279187. Profesionální antikorozní ochrana kovů a renovace vodních děl.
+      </p>
+    </div>
+    <div class="ef-col-nav">
+      <div class="ef-title">Obsah</div>
+      <ul class="ef-links">
+        <li><a href="#hero">Úvodní slovo</a></li>
+        <li><a href="#pribeh">Příběh firmy</a></li>
+        <li><a href="#technologie">Technologie Sa 2,5/3</a></li>
+        <li><a href="#kronika">Kronika referencí</a></li>
+        <li><a href="#lakovna">Lakovna Blansko</a></li>
+        <li><a href="#kontakt">Spojení</a></li>
+      </ul>
+    </div>
+    <div class="ef-col-contacts">
+      <div class="ef-title">Přímé linky</div>
+      <div class="ef-item">
+        <span class="ef-sub">Petr Kratochvíl st. (Hydro):</span>
+        <a href="tel:+420608362983" class="ef-tel">+420 608 362 983</a>
+      </div>
+      <div class="ef-item">
+        <span class="ef-sub">Petr Kratochvíl ml. (Lakovna):</span>
+        <a href="tel:+420776256658" class="ef-tel">+420 776 256 658</a>
+      </div>
+      <div class="ef-item">
+        <span class="ef-sub">E-mailová adresa:</span>
+        <a href="mailto:info@pekrmetax.cz">info@pekrmetax.cz</a>
+      </div>
+      <div class="ef-item">
+        <span class="ef-sub">Mapy.cz:</span>
+        <a href="https://mapy.cz/zakladni?q=Svitavsk%C3%A1+500%2F7+Blansko" target="_blank" rel="noopener noreferrer">Zobrazit provozovnu Blansko</a>
+      </div>
+    </div>
+  </div>
+  <div class="editorial-footer-bottom">
+    <div class="ef-bottom-container">
+      <div>© 2005–2026 Pekr Metax s.r.o. Všechna práva vyhrazena.</div>
+      <div>Certifikované technologie povrchové úpravy dle ČSN EN ISO</div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="../ping-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

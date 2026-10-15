@@ -662,6 +662,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    min-width: 0;
+    width: 100%;
 }
 
 .sel-group label {
@@ -671,6 +673,9 @@ body {
 }
 
 .sel-group select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     background: var(--bg-warm);
     border: 1px solid var(--border-color);
     padding: 0.75rem 0.85rem;
@@ -975,6 +980,9 @@ body {
     .floating-stat-box {
         position: static;
         margin-top: 1.5rem;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
     .catalog-grid,
@@ -991,7 +999,18 @@ body {
         gap: 1rem;
     }
 
-    .selector-box {
-        padding: 1.5rem;
+    .selector-container {
+        padding: 0 1rem;
     }
+
+    .selector-box {
+        padding: 1.5rem 1rem;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+a[href^="tel:"] {
+    white-space: nowrap !important;
 }

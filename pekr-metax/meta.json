@@ -1,0 +1,39 @@
+{
+  "slug": "pekr-metax",
+  "firma": "Pekr Metax s.r.o.",
+  "ico": "08279187",
+  "obec": "Rozstání",
+  "okres": "Prostějov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Antikorozní povrchové úpravy kovů, tryskání, metalizace a renovace vodních elektráren",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://pekrmetax.cz/",
+  "email": "info@pekrmetax.cz",
+  "telefon": "+420 608 362 983",
+  "jednatel": "Petr Kratochvíl",
+  "osloveni": "Vážený pane Kratochvíle,",
+  "prodejni_body": [
+    "Specialisté na renovace součástí vodních elektráren a turbín (Dalešice, Poděbrady, Blansko)",
+    "Pískování a tryskání mobilní jednotkou na stupeň čistoty Sa 2,5 a Sa 3 dle ČSN/ISO",
+    "Žárová metalizace (šopování zinkem a hliníkem) a vlastní průmyslová lakovna v Blansku"
+  ],
+  "vady_stareho_webu": [
+    "Zcela chybí mobilní responzivita – web z roku 2005 nemá meta viewport a na mobilu je nečitelný",
+    "Nezabezpečený provoz na protokolu HTTP bez funkčního SSL certifikátu",
+    "Zastaralá tabulková struktura a nečitelné galerie referencí",
+    "Chybějící moderní představení referencí pro velké energetické zakázky a ČEZ"
+  ],
+  "vylepseni_noveho_webu": [
+    "Výpravný Editorial & Story design s vertikální časovou osou historie rodinné firmy",
+    "Působivé velkoformátové fotografie renovací turbín Dalešice, Poděbrady i obrněné techniky BVP",
+    "Interaktivní filtr referenčních projektů podle technologie a norem ČSN/ISO",
+    "Plovoucí statistické karty s reálnými milníky a parametry povrchové ochrany",
+    "Kompletní responzivita pro chytré telefony s přímým voláním jednatelům a Mapy.cz",
+    "Poptávkový B2B formulář pro energetiku, strojírenství a vodohospodářské stavby"
+  ],
+  "fakta": {
+    "technologie": "Tryskání Sa 2,5/3, metalizace šopováním, nátěrové systémy Hempel a ČSN EN ISO 12944",
+    "provozovny": ["Rozstání (okr. Prostějov)", "Průmyslová lakovna Blansko (Svitavská 500/7)"],
+    "klicove_projekty": ["PVE Dalešice", "MVE Poděbrady", "Zkušebna vodních turbín Blansko", "BVP obrněná technika"]
+  }
+}

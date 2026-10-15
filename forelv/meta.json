@@ -1,0 +1,39 @@
+{
+  "slug": "forelv",
+  "firma": "FORELV s.r.o.",
+  "ico": "05228042",
+  "obec": "Prostějov",
+  "okres": "Prostějov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Výroba osvětlovacích a trakčních stožárů a 3D tvarové laserové dělení",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "https://forelv.cz/",
+  "email": "info@forelv.cz",
+  "telefon": "+420 582 335 880",
+  "jednatel": "Václav Lošťák",
+  "osloveni": "Vážený pane Lošťáku,",
+  "prodejni_body": [
+    "Tradiční český výrobce stožárů veřejného osvětlení a trakčních sloupů",
+    "3D tvarové dělení trubek a profilů laserem ve třech osách",
+    "Kompletní zpracování plechu a CNC ohraňování na strojích TRUMPF"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralý systém WordPress 6.0.1 s bezpečnostními riziky",
+    "Pomalé načítání fotografií v galeriích a nepřehledná struktura",
+    "Zastaralý katalog bez možnosti dynamického filtrování parametrů",
+    "Nízký kontrast a chybějící moderní technická prezentace strojů Trumpf"
+  ],
+  "vylepseni_noveho_webu": [
+    "Architektonický Swiss Bento Grid design s čistým světlým pozadím a asymetrickou mřížkou",
+    "Interaktivní Bento katalog výrobků a technologií s okamžitým přepínáním specifikací",
+    "Prezentace 3D tvarového dělení trubek pro mosty a střechy a laserů Trumpf",
+    "Kompletní mobilní optimalizace s nulovým přetékáním, rychlým voláním a Mapy.cz",
+    "Plynulé scroll-reveal animace a živé animované čítače výrobních parametrů",
+    "B2B poptávkový formulář přizpůsobený pro zadání výkresové dokumentace"
+  ],
+  "fakta": {
+    "technologie": "TRUMPF TruLaser, 3D laser pro trubky, CNC ohraňovací lisy",
+    "specializace": "Osvětlovací a trakční stožáry, Fe-Cr, Cu, Al svařování",
+    "sidlo": "Prostějov"
+  }
+}

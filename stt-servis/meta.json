@@ -1,0 +1,40 @@
+{
+  "slug": "stt-servis",
+  "firma": "STT SERVIS, a.s.",
+  "ico": "19723351",
+  "obec": "Dlouhá Loučka",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "CNC obrábění kovů a zakázková strojírenská výroba",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "https://www.sttservis.cz/",
+  "email": "obchod@sttservis.cz",
+  "telefon": "+420 771 523 666",
+  "jednatel": "Ing. Milan Kozel, MBA",
+  "osloveni": "Vážený pane inženýre Kozle,",
+  "prodejni_body": [
+    "Obráběcí centra UNISIGN UNIPORTAL 6000 s pojezdy až 8 metrů",
+    "Komplexní výroba od svařenců po 3D měření ramenem FARO",
+    "2 moderní výrobní haly a certifikace EN ISO 9001, EN 1090 a ISO 3834"
+  ],
+  "vady_stareho_webu": [
+    "Absence mobilní optimalizace – chybí meta viewport a web se na telefonech nezalamuje",
+    "Zastaralý systém a neintuitivní struktura bez možnosti rychlého filtrování strojů",
+    "Chybějící moderní technická prezentace parametrů a detailů strojního parku",
+    "Nízký kontrast a nepřehledná formulářová sekce pro B2B poptávky"
+  ],
+  "vylepseni_noveho_webu": [
+    "Průmyslový Heavy Industrial design s 50/50 split-screen hero sekcí a ostrými linkami",
+    "Interaktivní filtr a vyhledávač strojního parku s detailními technickými parametry pojezdů",
+    "Katalog výrobních kapacit: portálové frézování, soustružení, svařování a 3D měření",
+    "Kompletní mobilní optimalizace bez vodorovného posunu s okamžitým voláním a Mapy.cz",
+    "Plynulé scroll-reveal animace a živé animované čítače vycházející z reálné historie od r. 2001",
+    "B2B poptávkový formulář napojený přímo na technické oddělení"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2001,
+    "vyrobni_haly": 2,
+    "max_delka_obrabeni_mm": 8000,
+    "certifikace": ["EN 1090-1:2009+A1:2011", "EN ISO 9001:2009", "EN ISO 3834-2:2006"]
+  }
+}

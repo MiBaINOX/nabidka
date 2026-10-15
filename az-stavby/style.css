@@ -618,10 +618,16 @@ body {
 }
 
 .table-responsive {
+    display: block;
+    width: 100%;
+    max-width: 100%;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
 }
 
 .industrial-table {
+    min-width: 580px;
     width: 100%;
     border-collapse: collapse;
     font-size: 0.95rem;
@@ -689,12 +695,15 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
+    width: 100%;
 }
 
 .calc-col {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    min-width: 0;
+    width: 100%;
 }
 
 .calc-col label {
@@ -708,6 +717,9 @@ body {
 
 .calc-col select,
 .calc-col input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     background: var(--bg-panel);
     border: 1px solid var(--border-color);
     color: #fff;
@@ -1048,6 +1060,21 @@ body {
     }
 
     .calc-card {
-        padding: 1.5rem;
+        padding: 1.5rem 1rem;
     }
+
+    .calc-row {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .section-container {
+        padding: 3rem 1rem;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+a[href^="tel:"] {
+    white-space: nowrap !important;
 }

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FOR ELV s.r.o. | Výrobce stožárů a 3D laserové dělení trubek</title>
+<meta name="description" content="Tradiční český výrobce stožárů veřejného osvětlení, trakčních sloupů, laserového dělení plechů TRUMPF a 3D tvarového řezání trubek v Prostějově.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="header">
+  <div class="top-nav-bar">
+    <div class="top-nav-container">
+      <div class="bento-status-tag">
+        <span class="status-indicator"></span>
+        <span>TRADIČNÍ ČESKÝ VÝROBCE STOŽÁRŮ · PROSTĚJOV</span>
+      </div>
+      <div class="top-nav-actions">
+        <a href="tel:+420582335880" class="top-phone">+420 582 335 880</a>
+        <a href="mailto:info@forelv.cz" class="top-email">info@forelv.cz</a>
+      </div>
+    </div>
+  </div>
+  <div class="header-main">
+    <div class="header-container">
+      <a href="#hero" class="brand-wrap">
+        <img src="assets/logo_color.png" alt="FOR ELV s.r.o." class="brand-logo">
+      </a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#program" class="nav-item">Výrobní program</a>
+        <a href="#bento-tech" class="nav-item">Technologie</a>
+        <a href="#katalog" class="nav-item">Interaktivní katalog</a>
+        <a href="#kontakt" class="nav-btn">Nezávazná poptávka</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Přepnout navigaci">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero-bento" id="hero">
+  <div class="bento-container">
+    
+    <div class="bento-card hero-lead-card reveal">
+      <div class="bento-badge">ČESKÉ STROJÍRENSTVÍ & INOVACE</div>
+      <h1 class="hero-title">Vývoj, výroba a prodej stožárů s 3D&nbsp;laserovým dělením</h1>
+      <p class="hero-desc">
+        Jsme tradičním českým výrobcem stožárů veřejného osvětlení a trakčních sloupů. Disponujeme moderními laserovými centry TRUMPF, tříosým 3D dělením trubek pro mosty a příhradové konstrukce a špičkovým CNC ohraňováním.
+      </p>
+      <div class="hero-bento-actions">
+        <a href="#katalog" class="btn btn-dark">Katalog výrobků</a>
+        <a href="#kontakt" class="btn btn-outline">Zadat poptávku</a>
+      </div>
+    </div>
+
+    <div class="bento-card hero-media-card zoom-frame reveal">
+      <img src="assets/hero_slide.jpg" alt="Výroba a expedice stožárů FOR ELV" class="bento-img">
+      <div class="media-overlay-badge">
+        <span class="m-label">VÝROBNÍ PROGRAM</span>
+        <span class="m-val">Stožáry VO & Trakční sloupy</span>
+      </div>
+    </div>
+
+    <div class="bento-card stat-tile stat-tile-1 reveal">
+      <div class="tile-icon">01</div>
+      <div class="tile-number"><span class="counter" data-target="100">0</span>%</div>
+      <div class="tile-heading">Česká výroba</div>
+      <p class="tile-text">Vlastní vývoj, projekce a precizní zpracování v areálu Prostějov.</p>
+    </div>
+
+    <div class="bento-card stat-tile stat-tile-2 reveal">
+      <div class="tile-icon">02</div>
+      <div class="tile-number"><span class="counter" data-target="3">0</span>D</div>
+      <div class="tile-heading">Tvarové dělení trubek</div>
+      <p class="tile-text">Laserové řezání profilů ve třech osách pro příhradové nosníky a střechy.</p>
+    </div>
+
+    <div class="bento-card stat-tile stat-tile-3 reveal">
+      <div class="tile-icon">03</div>
+      <div class="tile-number">TRUMPF</div>
+      <div class="tile-heading">Strojní technologie</div>
+      <p class="tile-text">Pálení plechů a CNC ohraňování na prémiových zařízeních TruLaser a TruBend.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section tech-section" id="bento-tech">
+  <div class="site-container">
+    <div class="section-header reveal">
+      <span class="sub-label">TECHNOLOGICKÉ PORTFOLIO</span>
+      <h2 class="main-heading">Komplexní zpracování oceli a nerezových materiálů</h2>
+      <p class="lead-text">
+        Od prvotního dělení materiálu až po finální svařování a povrchovou úpravu. Každá zakázka vzniká pod přísnou kontrolou rozměrové přesnosti.
+      </p>
+    </div>
+
+    <div class="tech-bento-grid">
+      
+      <div class="tech-tile wide-tile reveal">
+        <div class="tech-tile-content">
+          <span class="tech-pill">ŠPIČKOVÁ TECHNOLOGIE</span>
+          <h3 class="tech-title">3D tvarové dělení trubek a profilů</h3>
+          <p class="tech-desc">
+            Laserové dělení ve třech osách určené především pro mostní stavby, střechy a prostorové konstrukce. Zajišťujeme přesné prostorové průniky trubek pro příhradové nosníky s garancí dokonalého spasování bez nutnosti ručního dobrušování.
+          </p>
+          <ul class="tech-points">
+            <li>Tříosé prostorové řezání trubek a uzavřených profilů</li>
+            <li>Komplexní průnikové řešení pro mostní konstrukce a stadiony</li>
+            <li>Eliminace rozměrových odchylek při následném svařování</li>
+          </ul>
+        </div>
+        <div class="tech-tile-photo zoom-frame">
+          <img src="assets/laser_tube.jpg" alt="3D tvarové dělení trubek laserem" class="tech-img">
+        </div>
+      </div>
+
+      <div class="tech-tile normal-tile reveal">
+        <div class="tech-tile-content">
+          <span class="tech-pill">PRODUKTIVITA</span>
+          <h3 class="tech-title">Laserové řezání plechů TRUMPF</h3>
+          <p class="tech-desc">
+            Dělení, řezání a pálení kovových desek moderním laserem TRUMPF garantuje maximální čistotu řezu, nulové tepelné deformace a vysokou rychlost zpracování.
+          </p>
+          <div class="tech-params-mini">
+            <div class="p-item"><span>Materiál:</span> Konstrukční i nerezová ocel</div>
+            <div class="p-item"><span>Kvalita:</span> Řezné hrany bez otřepů a strusky</div>
+          </div>
+        </div>
+        <div class="tech-tile-photo zoom-frame">
+          <img src="assets/laser_trumpf.jpg" alt="Laser TRUMPF v provozu" class="tech-img">
+        </div>
+      </div>
+
+      <div class="tech-tile normal-tile reveal">
+        <div class="tech-tile-content">
+          <span class="tech-pill">PLASTICKÉ TVÁŘENÍ</span>
+          <h3 class="tech-title">CNC ohraňování a tváření plechů</h3>
+          <p class="tech-desc">
+            Přesné ohýbání dílců na CNC ohraňovacích lisech. Zajišťujeme výrobu profilovaných skořepin stožárů, polygonálních tvarů i atypických ohýbaných komponent.
+          </p>
+          <div class="tech-params-mini">
+            <div class="p-item"><span>Opakovatelnost:</span> Vysoká přesnost úhlů ohybu</div>
+            <div class="p-item"><span>Rozsah:</span> Od tenkých plechů po silnostěnné profily</div>
+          </div>
+        </div>
+        <div class="tech-tile-photo zoom-frame">
+          <img src="assets/stozary_1.jpg" alt="Zpracování stožárových profilů" class="tech-img">
+        </div>
+      </div>
+
+      <div class="tech-tile wide-tile reverse reveal">
+        <div class="tech-tile-photo zoom-frame">
+          <img src="assets/stozary_2.jpg" alt="Svařování a kompletace stožárů" class="tech-img">
+        </div>
+        <div class="tech-tile-content">
+          <span class="tech-pill">CERTIFIKOVANÉ SVAŘOVÁNÍ</span>
+          <h3 class="tech-title">Svařování Fe-Cr, Cu, Al a nerez materiálů</h3>
+          <p class="tech-desc">
+            Vysoká pevnost a dlouhá životnost stožárů je zajištěna certifikovanými svářečskými postupy. Svařujeme konstrukční oceli, chromové nerezavějící materiály, měď i hliníkové slitiny.
+          </p>
+          <ul class="tech-points">
+            <li>Svařování ocelí, mědi, hliníku i nerez materiálů</li>
+            <li>Podélné i obvodové svary stožárových těl a přírub</li>
+            <li>Příprava pro žárové zinkování a komaxitové nátěry</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section catalog-section" id="katalog">
+  <div class="site-container">
+    <div class="section-header reveal">
+      <span class="sub-label">INTERAKTIVNÍ VÝROBNÍ PŘEHLED</span>
+      <h2 class="main-heading">Bento katalog výrobních řad</h2>
+      <p class="lead-text">Klikněte na kategorii a prozkoumejte technické parametry a možnosti zakázkového provedení.</p>
+    </div>
+
+    <div class="catalog-tabs-bar reveal">
+      <button class="bento-tab-btn active" data-cat="stozary-vo">Stožáry veřejného osvětlení</button>
+      <button class="bento-tab-btn" data-cat="stozary-trakce">Trakční & dálniční stožáry</button>
+      <button class="bento-tab-btn" data-cat="laser-3d">3D řezání trubek laserem</button>
+      <button class="bento-tab-btn" data-cat="trumpf-sheet">Laserové pálení TRUMPF</button>
+    </div>
+
+    <div class="catalog-display-box reveal" id="catalogDisplay">
+      
+      <div class="catalog-panel active" id="panel-stozary-vo">
+        <div class="panel-grid">
+          <div class="panel-info">
+            <span class="panel-tag">HLAVNÍ SORTIMENT</span>
+            <h3 class="panel-title">Stožáry veřejného osvětlení (VO)</h3>
+            <p class="panel-text">
+              Vyrábíme ucelený sortiment osvětlovacích stožárů pro města, obce, průmyslové zóny a komunikace. Nabízíme kuželové, stupňovité i polygonální provedení s přírubovým či vetknutým ukotvením.
+            </p>
+            <div class="panel-specs">
+              <div class="spec-line"><strong>Typy:</strong> Stupňovité, kuželové, sadové a dekorativní stožáry</div>
+              <div class="spec-line"><strong>Výškový rozsah:</strong> 3 m až 16 m (atypické rozměry na zakázku)</div>
+              <div class="spec-line"><strong>Povrchová úprava:</strong> Žárové zinkování dle ČSN EN ISO 1461, nátěry RAL</div>
+              <div class="spec-line"><strong>Vybavení:</strong> Stožárová dvířka, svorkovnice, výložníky dle přání</div>
+            </div>
+            <a href="#kontakt" class="btn btn-dark">Poptat osvětlovací stožáry</a>
+          </div>
+          <div class="panel-image zoom-frame">
+            <img src="assets/stozary_1.jpg" alt="Stožáry veřejného osvětlení FOR ELV" class="panel-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-panel" id="panel-stozary-trakce">
+        <div class="panel-grid">
+          <div class="panel-info">
+            <span class="panel-tag">TĚŽKÉ KONSTRUKCE</span>
+            <h3 class="panel-title">Trakční, železniční a dálniční sloupy</h3>
+            <p class="panel-text">
+              Robustní ocelové stožáry dimenzované na vysoké dynamické zatížení trolejového vedení, dálničního nasvětlení a telekomunikačních zařízení.
+            </p>
+            <div class="panel-specs">
+              <div class="spec-line"><strong>Použití:</strong> Tramvajové a železniční tratě, dálniční křižovatky, sportoviště</div>
+              <div class="spec-line"><strong>Provedení:</strong> Silnostěnné trubkové a příhradové svařence vysoké tuhosti</div>
+              <div class="spec-line"><strong>Kotvení:</strong> Masivní základové patky s kotevními šrouby</div>
+              <div class="spec-line"><strong>Záruka:</strong> Dlouhodobá antikorozní ochrana v agresivním prostředí</div>
+            </div>
+            <a href="#kontakt" class="btn btn-dark">Poptat trakční stožáry</a>
+          </div>
+          <div class="panel-image zoom-frame">
+            <img src="assets/stozary_2.jpg" alt="Trakční stožáry" class="panel-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-panel" id="panel-laser-3d">
+        <div class="panel-grid">
+          <div class="panel-info">
+            <span class="panel-tag">3D CNC TECHNOLOGIE</span>
+            <h3 class="panel-title">Prostorové tvarové řezání trubek laserem</h3>
+            <p class="panel-text">
+              Revoluční metoda přípravy trubkových dílců pro mosty, zastřešení stadionů a architektonické konstrukce. Laser řeže prostorové křivky průniků ve třech osách s absolutní opakovatelností.
+            </p>
+            <div class="panel-specs">
+              <div class="spec-line"><strong>Řízení:</strong> 3D prostorové laserové navádění s CAD/CAM podporou</div>
+              <div class="spec-line"><strong>Výhoda:</strong> Okamžité sestavení konstrukce bez ručního dopasovávání</div>
+              <div class="spec-line"><strong>Použití:</strong> Příhradové vazníky, prostorové rámy, mostní oblouky</div>
+              <div class="spec-line"><strong>Materiály:</strong> Konstrukční ocel, nerezové trubky i profily</div>
+            </div>
+            <a href="#kontakt" class="btn btn-dark">Poptat 3D řezání trubek</a>
+          </div>
+          <div class="panel-image zoom-frame">
+            <img src="assets/laser_tube.jpg" alt="3D řezání trubek" class="panel-img">
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-panel" id="panel-trumpf-sheet">
+        <div class="panel-grid">
+          <div class="panel-info">
+            <span class="panel-tag">PŘESNÉ DĚLENÍ PLECHŮ</span>
+            <h3 class="panel-title">Laserové pálení TRUMPF TruLaser</h3>
+            <p class="panel-text">
+              Průmyslové pálení plechů na prémiových zařízeních německé značky TRUMPF. Poskytujeme komplexní zakázkovou výrobu výpalků od kusových prototypů po sériové zakázky.
+            </p>
+            <div class="panel-specs">
+              <div class="spec-line"><strong>Strojní vybavení:</strong> Laserová centra TRUMPF</div>
+              <div class="spec-line"><strong>Přesnost:</strong> Desetinové tolerance s čistým řezem</div>
+              <div class="spec-line"><strong>Návaznost:</strong> Možnost okamžitého ohraňování na lisech TruBend</div>
+              <div class="spec-line"><strong>Formáty:</strong> Příjem dat v DWG, DXF, STEP i výkresové PDF</div>
+            </div>
+            <a href="#kontakt" class="btn btn-dark">Poptat laserové pálení</a>
+          </div>
+          <div class="panel-image zoom-frame">
+            <img src="assets/laser_trumpf.jpg" alt="Pálení TRUMPF" class="panel-img">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="kontakt">
+  <div class="site-container">
+    <div class="section-header reveal">
+      <span class="sub-label">KONZULTACE & POPTÁVKY</span>
+      <h2 class="main-heading">Spojte se s výrobním týmem FOR ELV</h2>
+      <p class="lead-text">Rádi zodpovíme vaše technické dotazy a zpracujeme cenovou a termínovou kalkulaci na základě vašeho zadání.</p>
+    </div>
+
+    <div class="contact-bento-split">
+      
+      <div class="contact-card-box reveal">
+        <div class="c-lead-title">FOR ELV s.r.o.</div>
+        <p class="c-lead-desc">Tradiční český výrobce stožárů a zakázková kovovýroba</p>
+        
+        <div class="c-data-list">
+          <div class="c-data-item">
+            <span class="cd-label">Sídlo & Výrobní provoz:</span>
+            <span class="cd-val">Českobratrská č.p. 4279, 796 01 Prostějov</span>
+          </div>
+          <div class="c-data-item">
+            <span class="cd-label">Telefon:</span>
+            <span class="cd-val"><a href="tel:+420582335880" class="c-phone-link">+420 582 335 880</a></span>
+          </div>
+          <div class="c-data-item">
+            <span class="cd-label">Fax:</span>
+            <span class="cd-val">+420 582 335 881</span>
+          </div>
+          <div class="c-data-item">
+            <span class="cd-label">E-mail:</span>
+            <span class="cd-val"><a href="mailto:info@forelv.cz">info@forelv.cz</a></span>
+          </div>
+          <div class="c-data-item">
+            <span class="cd-label">IČO / DIČ:</span>
+            <span class="cd-val">05228042 / CZ05228042</span>
+          </div>
+          <div class="c-data-item">
+            <span class="cd-label">Obchodní rejstřík:</span>
+            <span class="cd-val">Krajský soud v Brně, oddíl C, vložka 94204</span>
+          </div>
+        </div>
+
+        <div class="c-map-action">
+          <a href="https://mapy.cz/zakladni?q=Českobratrská+4279+Prostějov" target="_blank" rel="noopener noreferrer" class="btn btn-mapy">
+            📍 Otevřít na Mapy.cz
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-box reveal">
+        <form class="bento-form" action="mailto:info@forelv.cz" method="post" enctype="text/plain">
+          <div class="form-title">Poptávka výroby a technických služeb</div>
+          <div class="form-field">
+            <label for="cName">Jméno a příjmení / Společnost *</label>
+            <input type="text" id="cName" name="Jmeno_Firma" required placeholder="např. Ing. Petr Svoboda, ElektroMont s.r.o.">
+          </div>
+          <div class="form-grid-2">
+            <div class="form-field">
+              <label for="cEmail">E-mail *</label>
+              <input type="email" id="cEmail" name="Email" required placeholder="vas@email.cz">
+            </div>
+            <div class="form-field">
+              <label for="cTel">Telefon</label>
+              <input type="tel" id="cTel" name="Telefon" placeholder="+420 ...">
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="cCat">Poptávaný obor</label>
+            <select id="cCat" name="Poptavany_Obor">
+              <option value="stozary-vo">Stožáry veřejného osvětlení (VO)</option>
+              <option value="stozary-trakce">Trakční nebo dálniční stožáry</option>
+              <option value="laser-3d">3D tvarové dělení trubek a profilů</option>
+              <option value="laser-trumpf">Laserové pálení plechů TRUMPF</option>
+              <option value="ohranovani-svarovani">CNC ohraňování a svařování oceli/nerezu</option>
+              <option value="jine">Jiná zakázková výroba</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="cMsg">Specifikace poptávky, výkresy a množství *</label>
+            <textarea id="cMsg" name="Specifikace" rows="4" required placeholder="Uveďte typ stožárů, výšku, požadované povrchové úpravy nebo parametry výpalků..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark btn-full">Odeslat nezávaznou poptávku</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="map-wrapper reveal">
+      <div id="map" class="map-inner"></div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="f-col-brand">
+      <img src="assets/logo_color.png" alt="FOR ELV s.r.o." class="footer-logo">
+      <p class="f-brand-text">
+        FOR ELV s.r.o. · Českobratrská č.p. 4279, 796 01 Prostějov · IČ: 05228042 · DIČ: CZ05228042. Tradiční český výrobce stožárů veřejného osvětlení a průmyslové kovovýroby.
+      </p>
+    </div>
+    <div class="f-col-links">
+      <div class="f-col-title">Navigace</div>
+      <ul class="f-link-list">
+        <li><a href="#hero">Úvodní přehled</a></li>
+        <li><a href="#bento-tech">Technologie TRUMPF</a></li>
+        <li><a href="#katalog">Katalog výrobků</a></li>
+        <li><a href="#kontakt">Kontaktní údaje</a></li>
+      </ul>
+    </div>
+    <div class="f-col-contacts">
+      <div class="f-col-title">Kontaktní spojení</div>
+      <div class="fc-item">
+        <span class="fc-sub">Dispečink & Obchod:</span>
+        <a href="tel:+420582335880" class="fc-tel">+420 582 335 880</a>
+      </div>
+      <div class="fc-item">
+        <span class="fc-sub">Elektronická pošta:</span>
+        <a href="mailto:info@forelv.cz">info@forelv.cz</a>
+      </div>
+      <div class="fc-item">
+        <span class="fc-sub">Navigace:</span>
+        <a href="https://mapy.cz/zakladni?q=Českobratrská+4279+Prostějov" target="_blank" rel="noopener noreferrer">Zobrazit na Mapy.cz</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="f-bottom-container">
+      <div>© 2018–2026 FOR ELV s.r.o. Všechna práva vyhrazena.</div>
+      <div>Certifikovaná výroba a zpracování oceli · Prostějov</div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="../ping-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
