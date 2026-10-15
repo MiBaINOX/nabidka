@@ -1,0 +1,43 @@
+{
+  "slug": "dk-mont",
+  "firma": "DK mont a.s.",
+  "ico": "26867133",
+  "obec": "Mohelnice",
+  "okres": "Šumperk",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Výroba kovového příslušenství pro sádrokartonové systémy",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "https://www.dkmont.cz/cz/",
+  "email": "obchod@dkmont.cz",
+  "prodejni_body": [
+    "Největší výrobce příslušenství pro SDK ve Střední Evropě",
+    "Vlastní lisovna a nástrojárna v Mohelnici od roku 1994",
+    "Systém PROFIFIX® s certifikacemi ISO 9001, 14001, 27001"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralý systém Joomla s rigidní strukturou a pomalým načítáním na mobilních zařízeních",
+    "Katalog výrobků je řešen pouze jako statická obrázková galerie bez vyhledávání a technických parametrů",
+    "Chybí moderní interaktivní filtrování sortimentu a přímé generování poptávek pro velkoobchody",
+    "Prestižní ocenění (EcoVadis TOP 35%, Bisnode Top 100) jsou utopena v nepřehledném textu"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní Swiss Bento Grid architektura s asymetrickým rozvržením a vysokou přehledností",
+    "Interaktivní katalog výrobků PROFIFIX® s live vyhledáváním a filtrováním dle kategorií",
+    "Detailní technické karty dílců s rozměry, nosností v kN a balením",
+    "Výrazná prezentace certifikací ČSN EN ISO 9001, 14001 a nejnovější ISO 27001",
+    "Integrovaná interaktivní mapa areálu v Mohelnici a přímý poptávkový systém pro obchodní oddělení",
+    "Animované statistické ukazatele (30+ let tradice, 250+ pracovníků, TOP 35% EcoVadis)"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1994,
+    "zamestnanci": "250–499",
+    "certifikace": [
+      "ISO 9001:2016",
+      "ISO 14001:2016",
+      "ISO/IEC 27001:2023",
+      "EcoVadis Bronze TOP 35%",
+      "Bisnode Czech Top 100"
+    ],
+    "znacka": "PROFIFIX®"
+  }
+}

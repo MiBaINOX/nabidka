@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRIO HRANICE s.r.o. | Výrobce zkušebních zařízení a laboratorní techniky | Zastoupení FORM+TEST</title>
+    <meta name="description" content="Vývoj, výroba a servis zkušebních strojů, zařízení pro zkoušky betonu, cementu, malt a kameniva. Výhradní zastoupení FORM+TEST pro ČR a SR. Tradice od roku 1992.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cabinet+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <div class="top-standards">
+                <span class="norm-badge">ČSN EN</span>
+                <span class="norm-badge">ISO</span>
+                <span class="norm-badge">ASTM</span>
+                <span class="norm-badge">DIN</span>
+                <span class="top-sep">|</span>
+                <span class="top-rep">Výhradní zastoupení FORM+TEST Seidner GmbH pro ČR a SR</span>
+            </div>
+            <div class="top-contacts">
+                <a href="tel:+420724080133" class="top-link">📞 +420 724 080 133</a>
+                <a href="mailto:sprencl@briohranice.cz" class="top-link">✉️ sprencl@briohranice.cz</a>
+                <span class="top-loc">📍 Teplická 232, Hranice</span>
+            </div>
+        </div>
+    </div>
+
+    <header class="portal-header">
+        <div class="header-inner">
+            <a href="#" class="brand-portal">
+                <img src="assets/images/brio_40_logo.svg" alt="BRIO HRANICE s.r.o." class="portal-logo">
+                <div class="brand-titles">
+                    <span class="brand-company">BRIO HRANICE s.r.o.</span>
+                    <span class="brand-sub">Zkušební stroje & laboratorní technika</span>
+                </div>
+            </a>
+
+            <nav class="portal-nav">
+                <a href="#o-nas" class="nav-item">O společnosti</a>
+                <a href="#oblasti" class="nav-item">Oblasti zkoušek</a>
+                <a href="#katalog" class="nav-item">Katalog přístrojů</a>
+                <a href="#partnerstvi" class="nav-item">FORM+TEST</a>
+                <a href="#reference" class="nav-item">Reference</a>
+                <a href="#kontakt" class="nav-item">Kontakt</a>
+            </nav>
+
+            <div class="header-cta-wrap">
+                <a href="#kontakt" class="btn-corporate">Poptat přístroj</a>
+                <button class="nav-burger" id="navBurger" aria-label="Otevřít nabídku">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="portal-drawer" id="portalDrawer">
+        <nav class="drawer-menu">
+            <a href="#o-nas" class="drawer-item">O společnosti</a>
+            <a href="#oblasti" class="drawer-item">Oblasti zkoušek</a>
+            <a href="#katalog" class="drawer-item">Katalog přístrojů</a>
+            <a href="#partnerstvi" class="drawer-item">FORM+TEST zastoupení</a>
+            <a href="#reference" class="drawer-item">Reference</a>
+            <a href="#kontakt" class="drawer-item">Kontakt</a>
+        </nav>
+        <div class="drawer-info">
+            <p><strong>BRIO HRANICE s.r.o.</strong></p>
+            <p>Teplická 232, 753 01 Hranice</p>
+            <p>Tel: +420 724 080 133</p>
+            <p>E-mail: sprencl@briohranice.cz</p>
+            <a href="#kontakt" class="btn-corporate drawer-action">Poptat zkušební zařízení</a>
+        </div>
+    </div>
+
+    <main>
+        <section class="portal-hero">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <div class="hero-badge-strip">
+                        <span class="badge-portal">HRANICE NA MORAVĚ</span>
+                        <span class="badge-portal-gold">TRADICE OD ROKU 1992</span>
+                        <span class="badge-portal-light">EXPORT DO 20+ ZEMÍ</span>
+                    </div>
+                    <h1 class="hero-heading">Špičková laboratorní technika a zkušební stroje pro stavebnictví a průmysl</h1>
+                    <p class="hero-paragraph">Již více než 30 let vyvíjíme a vyrábíme certifikovaná zkušební zařízení pro stavební, silniční a hutní zkušební laboratoře. Jsme autorizovaným výhradním zástupcem německé společnosti FORM + TEST Seidner & Co. GmbH pro Českou republiku a Slovensko.</p>
+                    <div class="hero-buttons">
+                        <a href="#katalog" class="btn-corporate btn-hero">Prohlédnout katalog zařízení</a>
+                        <a href="#kontakt" class="btn-secondary btn-hero">Technická konzultace</a>
+                    </div>
+                    <div class="hero-features-list">
+                        <div class="hero-feat">
+                            <span class="feat-bullet">🛡️</span>
+                            <span>Konstrukce v souladu s evropskými normami ČSN EN</span>
+                        </div>
+                        <div class="hero-feat">
+                            <span class="feat-bullet">⚙️</span>
+                            <span>Vlastní vývoj a výroba jednoúčelových zkušebních strojů</span>
+                        </div>
+                        <div class="hero-feat">
+                            <span class="feat-bullet">🔧</span>
+                            <span>Kompletní záruční, pozáruční servis a kalibrace</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="portal-showcase-card">
+                        <div class="showcase-img-wrap">
+                            <img src="assets/images/brio_59_AVH_-_PLC_12-150_vodopropustnost.webp" alt="Stolice vodopropustnosti betonu AVH" class="showcase-img zoomable">
+                            <span class="showcase-badge">Vlajkový produkt</span>
+                        </div>
+                        <div class="showcase-body">
+                            <span class="showcase-meta">Kód: AVH-PLC 12/150</span>
+                            <h3 class="showcase-title">Automatizovaná stolice vodopropustnosti betonu</h3>
+                            <p class="showcase-desc">Plně automatický systém řízený průmyslovým PLC automatem s dotykovým panelem. Splňuje normu ČSN EN 12390-8 pro zkoušení hloubky průsaku vody pod tlakem.</p>
+                            <div class="showcase-tags">
+                                <span>Až 12 zkušebních těles</span>
+                                <span>Tlak až 1.5 MPa</span>
+                                <span>ČSN EN 12390-8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portal-counters-strip">
+                <div class="container counters-grid">
+                    <div class="counter-box reveal">
+                        <div class="c-num"><span class="counter" data-target="1992">0</span></div>
+                        <div class="c-title">Rok založení společnosti</div>
+                        <div class="c-desc">Více než 32 let kontinuálního vývoje zkušebních zařízení v Hranicích na Moravě.</div>
+                    </div>
+                    <div class="counter-box reveal">
+                        <div class="c-num"><span class="counter" data-target="20">0</span><span class="c-unit">+</span></div>
+                        <div class="c-title">Exportních zemí světa</div>
+                        <div class="c-desc">Dodávky pro prestižní materiálové laboratoře v ČR, na Slovensku, v Polsku, Německu i zámoří.</div>
+                    </div>
+                    <div class="counter-box reveal">
+                        <div class="c-num"><span class="counter" data-target="2004">0</span></div>
+                        <div class="c-title">Partnerství FORM+TEST</div>
+                        <div class="c-desc">Dvacet let výhradního obchodního a servisního zastoupení německého lídra v lisovací technice.</div>
+                    </div>
+                    <div class="counter-box reveal">
+                        <div class="c-num"><span class="counter" data-target="100">0</span><span class="c-unit">+</span></div>
+                        <div class="c-title">Typů přístrojů a forem</div>
+                        <div class="c-desc">Kompletní technologické vybavení pro zkoušky betonu, cementů, malt, kameniva a zemin.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portal-section" id="o-nas">
+            <div class="container">
+                <div class="section-title-wrap reveal">
+                    <span class="sec-label">PROFIL SPOLEČNOSTI</span>
+                    <h2 class="sec-title">Tradice přesného materiálového zkušebnictví</h2>
+                    <p class="sec-subtitle">Od roku 1992 vyvíjíme spolehlivá zařízení pro zkušebny stavebních hmot, betonárny, cementárny a technické univerzity.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text-card reveal">
+                        <h3>Inženýrský přístup, vlastní vývoj a mezinárodní know-how</h3>
+                        <p>Společnost <strong>BRIO HRANICE s.r.o.</strong> vznikla v roce 1992. Od samého počátku jsme se specializovali na vývoj a zakázkovou výrobu jednoúčelových strojů. Na základě úzké spolupráce se stavebními a silničními laboratořemi jsme postupně vybudovali ucelený výrobní program zaměřený na zařízení pro kontrolu kvality stavebních materiálů.</p>
+                        <p>Významná část naší produkce směřuje k zahraničním partnerům. Vybudovali jsme silnou tržní pozici v České republice, na Slovensku a v Polsku. Naše zkušební zařízení a speciální zakázky dodáváme do více než 20 zemí světa. Mezi naše stálé zákazníky patří přední stavební korporace i technické vysoké a střední školy (ČVUT v Praze, VUT v Brně, VŠB-TU Ostrava).</p>
+                        <div class="about-pillars">
+                            <div class="pillar">
+                                <span class="pillar-icon">🎯</span>
+                                <div>
+                                    <strong>Přesnost a opakovatelnost měření</strong>
+                                    <p>Všechny naše přístroje splňují nejpřísnější toleranční požadavky norem ČSN, EN, ISO a DIN.</p>
+                                </div>
+                            </div>
+                            <div class="pillar">
+                                <span class="pillar-icon">🛠️</span>
+                                <div>
+                                    <strong>Zakázková výroba na míru</strong>
+                                    <p>Vedle katalogových modelů navrhujeme jednoúčelové testovací aparatury přesně dle specifikace klienta.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-image-card reveal">
+                        <img src="assets/images/brio_46_stavebnictvi-29313859.webp" alt="Stavební materiálové zkušebnictví" class="about-main-img zoomable">
+                        <div class="about-float-badge">
+                            <strong>Autorizovaný servis zkušebních lisů</strong>
+                            <span>Kalibrace sil a dráhy ve spolupráci s akreditovanými laboratořemi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portal-section bg-light" id="oblasti">
+            <div class="container">
+                <div class="section-title-wrap reveal">
+                    <span class="sec-label">SPECIALIZACE ZAŘÍZENÍ</span>
+                    <h2 class="sec-title">Oblasti zkoušek materiálů</h2>
+                    <p class="sec-subtitle">Dodáváme ucelené laboratorní sestavy pro jednotlivá odvětví zkušebnictví stavebních hmot a geotechniky.</p>
+                </div>
+
+                <div class="fields-grid">
+                    <div class="field-card reveal">
+                        <div class="field-media">
+                            <img src="assets/images/brio_06_betony2.webp" alt="Zkoušky betonu" class="field-img zoomable">
+                            <span class="field-badge">ČSN EN 12390</span>
+                        </div>
+                        <div class="field-body">
+                            <h3>Zkoušky kvality betonu</h3>
+                            <p>Kompletní zařízení pro zkoušení čerstvého i ztvrdlého betonu: formy na zkušební kostky a trámce, Abramsovy kužele, laboratorní míchačky, vibrační stoly, stolice vodopropustnosti AVH a zařízení pro zkoušky obrusnosti Böhme.</p>
+                            <a href="#katalog" class="field-link" data-filter="beton">Zobrazit přístroje pro beton →</a>
+                        </div>
+                    </div>
+
+                    <div class="field-card reveal">
+                        <div class="field-media">
+                            <img src="assets/images/brio_07_cementu.webp" alt="Zkoušky cementu a malt" class="field-img zoomable">
+                            <span class="field-badge">ČSN EN 196</span>
+                        </div>
+                        <div class="field-body">
+                            <h3>Cementy a malty</h3>
+                            <p>Přesné formy na cementomaltové trámečky 40×40×160 mm, normové laboratorní míchačky dle ČSN EN 196-1, zhutňovací stolky, měření smrštění trámečků a automatické Vicatovy přístroje pro zkoušky doby tuhnutí.</p>
+                            <a href="#katalog" class="field-link" data-filter="cement">Zobrazit přístroje pro cement →</a>
+                        </div>
+                    </div>
+
+                    <div class="field-card reveal">
+                        <div class="field-media">
+                            <img src="assets/images/brio_08_kameniva.webp" alt="Zkoušky kameniva" class="field-img zoomable">
+                            <span class="field-badge">ČSN EN 1097</span>
+                        </div>
+                        <div class="field-body">
+                            <h3>Kamenivo a sypké materiály</h3>
+                            <p>Otlukové bubny Los Angeles a Deval, elektromechanické a vibrační prosévačky, laboratorní síta s certifikátem shody, sušárny MEMMERT, analytické a přesné laboratorní váhy KERN, tyčová síta a děliče vzorků.</p>
+                            <a href="#katalog" class="field-link" data-filter="kamenivo">Zobrazit přístroje pro kamenivo →</a>
+                        </div>
+                    </div>
+
+                    <div class="field-card reveal">
+                        <div class="field-media">
+                            <img src="assets/images/brio_09_lisy-form-test.webp" alt="Zkušební lisy FORM+TEST" class="field-img zoomable">
+                            <span class="field-badge">Třída 1 dle EN ISO 7500-1</span>
+                        </div>
+                        <div class="field-body">
+                            <h3>Zkušební lisy a stroje</h3>
+                            <p>Hydraulické a elektromechanické zkušební lisy FORM+TEST na tlak, tah a ohyb v rozsahu 100 až 5000 kN. Digitální řízení DIONpro s automatickým vyhodnocením pevnostních charakteristik.</p>
+                            <a href="#katalog" class="field-link" data-filter="lisy">Zobrazit zkušební lisy →</a>
+                        </div>
+                    </div>
+
+                    <div class="field-card reveal">
+                        <div class="field-media">
+                            <img src="assets/images/brio_11_mlyny.webp" alt="Drtiče a mlýny" class="field-img zoomable">
+                            <span class="field-badge">Příprava vzorků</span>
+                        </div>
+                        <div class="field-body">
+                            <h3>Drtiče, mlýny a homogenizace</h3>
+                            <p>Laboratorní čelisťové drtiče BCD pro hrubé drcení nerostů, vibrační diskové mlýny BVM pro jemné mletí analytických vzorků, omílací bubny a laboratorní tabletovací lisy BSML 250 a 400 kN.</p>
+                            <a href="#katalog" class="field-link" data-filter="mlyny">Zobrazit drtiče a mlýny →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portal-section" id="katalog">
+            <div class="container">
+                <div class="section-title-wrap reveal">
+                    <span class="sec-label">PRODUKTOVÝ KATALOG</span>
+                    <h2 class="sec-title">Laboratorní přístroje a zkušební zařízení BRIO</h2>
+                    <p class="sec-subtitle">Vyberte kategorii nebo vyhledejte přístroj dle názvu, metody či normy ČSN EN / ISO. Možnost přepnutí mezi kartami a technickou tabulkou parametrů.</p>
+                </div>
+
+                <div class="catalog-portal-controls reveal">
+                    <div class="portal-tabs" id="categoryTabs">
+                        <button class="p-tab-btn active" data-cat="all">Všechna zařízení</button>
+                        <button class="p-tab-btn" data-cat="beton">Zkoušky betonu</button>
+                        <button class="p-tab-btn" data-cat="cement">Cementy a malty</button>
+                        <button class="p-tab-btn" data-cat="kamenivo">Kamenivo</button>
+                        <button class="p-tab-btn" data-cat="lisy">Zkušební lisy</button>
+                        <button class="p-tab-btn" data-cat="mlyny">Drtiče a mlýny</button>
+                    </div>
+
+                    <div class="portal-filter-bar">
+                        <div class="search-input-box">
+                            <span class="search-ico">🔍</span>
+                            <input type="text" id="devSearch" placeholder="Hledat přístroj, normu (např. 12390-8, 196-1, Los Angeles, Vicat)...">
+                        </div>
+                        <div class="view-switchers">
+                            <button class="view-btn active" id="viewGridBtn" title="Zobrazení v kartách">⊞ Karty</button>
+                            <button class="view-btn" id="viewTableBtn" title="Zobrazení v tabulce">☰ Tabulka parametrů</button>
+                            <span class="counter-pill" id="counterPill">12 přístrojů</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-cards-container" id="cardsView">
+                    <div class="dev-card reveal" data-cat="beton" data-name="stolice vodopropustnosti betonu avh plc" data-norm="čsn en 12390-8">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_59_AVH_-_PLC_12-150_vodopropustnost.webp" alt="Stolice vodopropustnosti betonu" class="dev-img zoomable">
+                            <span class="dev-tag">Vlastní výroba BRIO</span>
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 12390-8 • DIN 1048</div>
+                            <h4 class="dev-title">Stolice vodopropustnosti betonu AVH-PLC</h4>
+                            <p class="dev-desc">Špičkové zařízení pro stanovení hloubky průsaku vody pod zkušebním přetlakem 0.5 MPa. Plně automatizovaný cyklus s dotykovým ovládáním PLC.</p>
+                            <div class="dev-specs">
+                                <span>Počet zkušebních míst: 6 / 12 těles</span>
+                                <span>Max. tlak: 1.5 MPa (15 bar)</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="0">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="beton" data-name="laboratorní míchačka na beton hmz 60 f" data-norm="čsn en 12390-2">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_60_HMZ_60_f_m_cha_ka.webp" alt="Míchačka na beton HMZ 60" class="dev-img zoomable">
+                            <span class="dev-tag">Vysoká účinnost</span>
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 12390-2 • TP 170</div>
+                            <h4 class="dev-title">Nucená laboratorní míchačka HMZ 60 F</h4>
+                            <p class="dev-desc">Planetová míchačka s nuceným oběhem pro dokonale homogenní míchání betonových směsí, žáruvzdorných betonů a suchých maltových směsí.</p>
+                            <div class="dev-specs">
+                                <span>Užitečný objem bubnu: 60 litrů</span>
+                                <span>Pohon: Převodový elektromotor 2.2 kW</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="1">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="beton" data-name="vibrační stůl pro zhutňování vfs" data-norm="čsn en 12390-2">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_61_vibra_n__st__VFS.webp" alt="Vibrační stůl VFS" class="dev-img zoomable">
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 12390-2 • ISO 1920-3</div>
+                            <h4 class="dev-title">Laboratorní vibrační stůl VFS</h4>
+                            <p class="dev-desc">Určen pro zhutňování betonových vzorků ve zkušebních formách. Nastavitelná amplituda kmitů a rychloupínací elektromagnetické lišty.</p>
+                            <div class="dev-specs">
+                                <span>Rozměr desky: 1000 × 600 mm</span>
+                                <span>Frekvence vibrací: 50 Hz (3000 ot/min)</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="2">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="beton" data-name="bruska betonových zkušebních těles psm 3 340" data-norm="čsn en 12390-3">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_54_PSM-3-340.webp" alt="Bruska betonových těles PSM" class="dev-img zoomable">
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 12390-3 • ČSN EN 12504-1</div>
+                            <h4 class="dev-title">Bruska betonových těles PSM-3-340</h4>
+                            <p class="dev-desc">Precizní lícní bruska pro dosažení dokonalé rovinnosti a kolmosti tlačných ploch betonových krychlí a vývrtů před pevnostní zkouškou.</p>
+                            <div class="dev-specs">
+                                <span>Upínací průměr: Ø 50 až 160 mm</span>
+                                <span>Rovinnost plochy: do 0.05 mm</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="3">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="beton" data-name="nerezové vodní uložení betonových vzorků" data-norm="čsn en 12390-2">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_53_Nerezov__vodn__ulo_en__bez_regulace_2_-_kopie.webp" alt="Nerezové vodní uložení" class="dev-img zoomable">
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 12390-2 • ASTM C192</div>
+                            <h4 class="dev-title">Nerezová lázeň pro vodní uložení těles</h4>
+                            <p class="dev-desc">Izolované celonerezové nádrže s automatickou temperací vodní lázně na 20.0 °C ± 2 °C a nucenou cirkulací pro standardní zrání betonu.</p>
+                            <div class="dev-specs">
+                                <span>Materiál: Nerezová ocel AISI 304</span>
+                                <span>Regulace teploty: Digitální PID mikroprocesor</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="4">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="cement" data-name="automatický vicatův přístroj doby tuhnutí" data-norm="čsn en 196-3">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_62_Automat_Vicat.webp" alt="Automatický Vicatův přístroj" class="dev-img zoomable">
+                            <span class="dev-tag">Automatické měření</span>
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 196-3 • ASTM C191</div>
+                            <h4 class="dev-title">Automatický Vicatův přístroj</h4>
+                            <p class="dev-desc">Plně elektronický přístroj pro automatické stanovení počátku a konce tuhnutí cementových kaší a malt s automatickým záznamem křivky penetrace.</p>
+                            <div class="dev-specs">
+                                <span>Čisticí cyklus: Automatické čištění jehly</span>
+                                <span>Výstup: USB / PC software pro protokolaci</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="5">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="cement" data-name="přesná forma na cementomaltové trámečky 40x40x160" data-norm="čsn en 196-1">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_65_P_esn__forma_na_tr_me_ky_40x40x160.webp" alt="Forma na trámečky 40x40x160" class="dev-img zoomable">
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 196-1 • ISO 679</div>
+                            <h4 class="dev-title">Trojdílná forma na trámečky 40×40×160 mm</h4>
+                            <p class="dev-desc">Přesná ocelová kalená forma pro výrobu normových zkušebních těles z cementové malty. Vynikající geometrická přesnost a dlouhá životnost.</p>
+                            <div class="dev-specs">
+                                <span>Materiál: Zušlechtěná nástrojová ocel</span>
+                                <span>Tvrdost funkčních ploch: min. 55 HRC</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="6">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="cement" data-name="automatický haegermannův poklepový stolek" data-norm="čsn en 1015-3">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_63_Hagermann_automat.webp" alt="Haegermannův stolek" class="dev-img zoomable">
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 1015-3 • DIN 18555</div>
+                            <h4 class="dev-title">Automatický Haegermannův poklepový stolek</h4>
+                            <p class="dev-desc">Zařízení pro stanovení konzistence čerstvé malty měřením rozlití na poklepovém stolku s motorickým pohonem a předvolbou počtu rázů.</p>
+                            <div class="dev-specs">
+                                <span>Zdvih poklepu: 10.0 mm ± 0.1 mm</span>
+                                <span>Počet úderů: 15 rázů při frekvenci 1 Hz</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="7">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="kamenivo" data-name="otlukový buben kameniva los angeles" data-norm="čsn en 1097-2">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_71_Otlukov__buben_na_kamenivo.webp" alt="Otlukový buben Los Angeles" class="dev-img zoomable">
+                            <span class="dev-tag">Akreditované zkoušky</span>
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 1097-2 • ASTM C131</div>
+                            <h4 class="dev-title">Otlukový buben kameniva Los Angeles</h4>
+                            <p class="dev-desc">Zařízení pro stanovení odolnosti hrubého kameniva proti drcení a otluku. Vybaveno bezpečnostním protihlukovým krytem a automatickým čítačem otáček.</p>
+                            <div class="dev-specs">
+                                <span>Vnitřní průměr bubnu: 711 mm ± 5 mm</span>
+                                <span>Otáčky bubnu: 31 až 33 ot/min</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="8">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="kamenivo" data-name="elektromechanická laboratorní prosévačka" data-norm="čsn en 933-1">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_69_Mechanick__vibra_n__pros_va_ka_kameniva.webp" alt="Prosévačka kameniva" class="dev-img zoomable">
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 933-1 • ISO 3310-1</div>
+                            <h4 class="dev-title">Laboratorní prosévačka kameniva a sypkých hmot</h4>
+                            <p class="dev-desc">Trojrozměrný prosévací pohyb zaručuje dokonalé rozdělení frakcí zkoušeného kameniva bez ucpávání ok kontrolních zkušebních sít.</p>
+                            <div class="dev-specs">
+                                <span>Průměr sít: Ø 200 mm a Ø 300 mm</span>
+                                <span>Kapacita: Sloupec až 8 sít + dno a víko</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="9">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="lisy" data-name="zkušební tlakový lis form test alpha 2000 kn" data-norm="čsn en 12390-4">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_04_BSML-40-tun_web.webp" alt="Zkušební lis FORM+TEST" class="dev-img zoomable">
+                            <span class="dev-tag">FORM+TEST Partner</span>
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">ČSN EN 12390-4 • DIN 51220</div>
+                            <h4 class="dev-title">Zkušební hydraulický lis FORM+TEST 2000–3000 kN</h4>
+                            <p class="dev-desc">Prvotřídní zkušební stroj pro pevnostní zkoušky betonových kostek, válců a vývrtů. Digitální servořízení rychlosti nárůstu zatížení dle třídy 1.</p>
+                            <div class="dev-specs">
+                                <span>Měřicí rozsah: 20 až 2000 / 3000 kN</span>
+                                <span>Třída přesnosti: Třída 1 dle EN ISO 7500-1</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="10">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+
+                    <div class="dev-card reveal" data-cat="mlyny" data-name="laboratorní vibrační diskový mlýn bvm" data-norm="příprava vzorků rfa">
+                        <div class="dev-media">
+                            <img src="assets/images/brio_11_mlyny.webp" alt="Vibrační mlýn BVM" class="dev-img zoomable">
+                        </div>
+                        <div class="dev-body">
+                            <div class="dev-norm">Příprava vzorků • RFA / XRF</div>
+                            <h4 class="dev-title">Laboratorní vibrační diskový mlýn BVM</h4>
+                            <p class="dev-desc">Pro rychlé a reprodukovatelné mletí minerálů, slínků, cementů a žárovzdorných materiálů na analytickou jemnost pod 40 mikrometrů.</p>
+                            <div class="dev-specs">
+                                <span>Mlecí soupravy: Kalená ocel, karbid wolframu, achát</span>
+                                <span>Výstupní jemnost: d90 < 40 µm</span>
+                            </div>
+                            <button class="btn-dev-modal" data-id="11">Technické parametry & poptávka</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="catalog-table-container" id="tableView" style="display: none;">
+                    <div class="table-responsive">
+                        <table class="portal-spec-table">
+                            <thead>
+                                <tr>
+                                    <th>Kód & Název zařízení</th>
+                                    <th>Kategorie</th>
+                                    <th>Normy & Standardy</th>
+                                    <th>Klíčové technické parametry</th>
+                                    <th>Výrobce / Původ</th>
+                                    <th>Poptávka</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portal-section bg-navy" id="partnerstvi">
+            <div class="container">
+                <div class="partner-box reveal">
+                    <div class="partner-head">
+                        <span class="gold-badge">OFICIÁLNÍ ZASTOUPENÍ V ČESKÉ A SLOVENSKÉ REPUBLICE</span>
+                        <h2>FORM + TEST Seidner & Co. GmbH</h2>
+                        <p class="partner-lead">Od roku 2004 zastupujeme v plném rozsahu německého technologického lídra v oboru zkušebních strojů a systémů materiálového testování.</p>
+                    </div>
+
+                    <div class="partner-grid">
+                        <div class="partner-col">
+                            <h4>Rozsah zastoupení FORM+TEST:</h4>
+                            <ul class="p-list">
+                                <li><strong>Dodávka nových zkušebních lisů:</strong> Tlakové, ohybové a univerzální elektromechanické trhačky od 5 kN do 5000 kN.</li>
+                                <li><strong>Modernizace starších zkušebních strojů:</strong> Přestavby hydrauliky a osazení moderní digitální řídicí elektronikou DIONpro.</li>
+                                <li><strong>Autorizovaný záruční a pozáruční servis:</strong> Rychlý zásah servisních techniků z Hranic na Moravě po celé ČR a SR.</li>
+                                <li><strong>Originální náhradní díly:</strong> Přímé dodávky těsnění, čerpadel, servoventilů a zkušebních přípravků.</li>
+                            </ul>
+                        </div>
+                        <div class="partner-col">
+                            <h4>Další zastupované světové značky:</h4>
+                            <div class="brands-mini-list">
+                                <div class="brand-chip"><strong>TESTING GmbH</strong> (Laboratorní technika pro cement a maltu)</div>
+                                <div class="brand-chip"><strong>MEMMERT GmbH</strong> (Přesné laboratorní sušárny a inkubátory)</div>
+                                <div class="brand-chip"><strong>PROCEQ SA</strong> (Originální Schmidtova tvrdoměrná kladívka)</div>
+                                <div class="brand-chip"><strong>KERN & Sohn</strong> (Certifikované laboratorní a analytické váhy)</div>
+                                <div class="brand-chip"><strong>COMEC</strong> (Strojní brusky betonových zkušebních těles)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portal-section" id="reference">
+            <div class="container">
+                <div class="section-title-wrap reveal">
+                    <span class="sec-label">OVĚŘENO V PRAXI</span>
+                    <h2 class="sec-title">Důvěra předních stavebních společností a laboratoří</h2>
+                    <p class="sec-subtitle">Naše zařízení a servis pomáhají kontrolovat kvalitu na nejvýznamnějších infrastrukturních a pozemních stavbách v Česku i zahraničí.</p>
+                </div>
+
+                <div class="clients-strip reveal">
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_36_rsd.webp" alt="Ředitelství silnic a dálnic ČR" class="client-img">
+                        <span>Ředitelství silnic a dálnic ČR</span>
+                    </div>
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_37_skanska.webp" alt="Skanska a.s." class="client-img">
+                        <span>SKANSKA a.s.</span>
+                    </div>
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_35_metrostav.webp" alt="Metrostav a.s." class="client-img">
+                        <span>METROSTAV a.s.</span>
+                    </div>
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_32_eurovia.webp" alt="Eurovia CS" class="client-img">
+                        <span>EUROVIA CS, a.s.</span>
+                    </div>
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_31_doprastav.webp" alt="Doprastav a.s." class="client-img">
+                        <span>DOPRASTAV a.s.</span>
+                    </div>
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_33_holcim.webp" alt="Holcim Česko" class="client-img">
+                        <span>HOLCIM Česko</span>
+                    </div>
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_34_lafarge.webp" alt="Lafarge Cement" class="client-img">
+                        <span>LAFARGE Cement, a.s.</span>
+                    </div>
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_38_sqz.webp" alt="SQZ akreditovaná laboratoř" class="client-img">
+                        <span>SQZ akreditovaná laboratoř</span>
+                    </div>
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_39_zapa.webp" alt="ZAPA beton" class="client-img">
+                        <span>ZAPA beton a.s.</span>
+                    </div>
+                    <div class="client-logo-card">
+                        <img src="assets/images/brio_30_betochem.webp" alt="Betochem" class="client-img">
+                        <span>BETOCHEM, s.r.o.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portal-section bg-light" id="kontakt">
+            <div class="container">
+                <div class="section-title-wrap reveal">
+                    <span class="sec-label">KONTAKTNÍ CENTRUM</span>
+                    <h2 class="sec-title">Obchodní a technická podpora BRIO HRANICE</h2>
+                    <p class="sec-subtitle">Náš inženýrský tým vám ochotně poradí s výběrem přístroje, sestavením laboratorního celku i kalibračním servisem.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card-info reveal">
+                        <div class="contact-brand-row">
+                            <img src="assets/images/brio_40_logo.svg" alt="BRIO HRANICE s.r.o." class="c-brand-logo">
+                            <div class="c-ico-block">
+                                <span>IČ: <strong>47669365</strong></span>
+                                <button class="btn-copy-ico" id="brioCopyIco" title="Kopírovat IČ">Kopírovat IČ</button>
+                            </div>
+                        </div>
+
+                        <div class="c-blocks">
+                            <div class="c-block">
+                                <span class="cb-icon">📍</span>
+                                <div>
+                                    <strong>Sídlo a provozovna:</strong>
+                                    <p>Teplická 232, 753 01 Hranice, Česká republika</p>
+                                    <span class="loc-hint">(bývalý areál Sigma Hranice / Teplická ulice)</span>
+                                </div>
+                            </div>
+
+                            <div class="c-block">
+                                <span class="cb-icon">👤</span>
+                                <div>
+                                    <strong>Ing. Petr Šprencl – jednatel</strong>
+                                    <p>Obchodní a technické záležitosti, konstrukce</p>
+                                    <p>Tel: <a href="tel:+420724080133">+420 724 080 133</a></p>
+                                    <p>E-mail: <a href="mailto:sprencl@briohranice.cz">sprencl@briohranice.cz</a></p>
+                                </div>
+                            </div>
+
+                            <div class="c-block">
+                                <span class="cb-icon">👤</span>
+                                <div>
+                                    <strong>Hana Šprenclová – jednatelka</strong>
+                                    <p>Ekonomické oddělení, fakturace a logistika</p>
+                                    <p>Tel: <a href="tel:+420607714953">+420 607 714 953</a></p>
+                                    <p>E-mail: <a href="mailto:sprenclova@briohranice.cz">sprenclova@briohranice.cz</a></p>
+                                </div>
+                            </div>
+
+                            <div class="c-block">
+                                <span class="cb-icon">✉️</span>
+                                <div>
+                                    <strong>Centrální e-mailová schránka:</strong>
+                                    <p><a href="mailto:info@briohranice.cz">info@briohranice.cz</a></p>
+                                    <p>DIČ: CZ47669365 (Plátce DPH)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-portal reveal">
+                        <h3>Poptávka laboratorního vybavení a servisu</h3>
+                        <p class="form-lead">Vyplňte formulář níže. Zpráva se automaticky připraví ve vašem e-mailu pro okamžité odeslání vedení společnosti.</p>
+                        
+                        <form id="brioForm" class="brio-form">
+                            <div class="form-split">
+                                <div class="f-group">
+                                    <label for="bName">Jméno a příjmení *</label>
+                                    <input type="text" id="bName" required placeholder="Ing. Martin Dvořák">
+                                </div>
+                                <div class="f-group">
+                                    <label for="bCompany">Společnost / Laboratoř *</label>
+                                    <input type="text" id="bCompany" required placeholder="Stavební zkušebna s.r.o.">
+                                </div>
+                            </div>
+
+                            <div class="form-split">
+                                <div class="f-group">
+                                    <label for="bPhone">Telefonní kontakt *</label>
+                                    <input type="tel" id="bPhone" required placeholder="+420 777 123 456">
+                                </div>
+                                <div class="f-group">
+                                    <label for="bEmail">E-mailová adresa *</label>
+                                    <input type="email" id="bEmail" required placeholder="dvorak@zkusebna.cz">
+                                </div>
+                            </div>
+
+                            <div class="f-group">
+                                <label for="bCategory">Požadovaná oblast zkoušek</label>
+                                <select id="bCategory">
+                                    <option value="Zkoušky betonu (AVH, míchačky, formy)">Zkoušky betonu (AVH, míchačky, formy)</option>
+                                    <option value="Cementy a malty (ČSN EN 196, Vicat)">Cementy a malty (ČSN EN 196, Vicat)</option>
+                                    <option value="Kamenivo (Los Angeles, síta, prosévačky)">Kamenivo (Los Angeles, síta, prosévačky)</option>
+                                    <option value="Zkušební lisy FORM+TEST (tlak, ohyb)">Zkušební lisy FORM+TEST (tlak, ohyb)</option>
+                                    <option value="Drtiče a mlýny pro přípravu vzorků">Drtiče a mlýny pro přípravu vzorků</option>
+                                    <option value="Servis nebo kalibrace stávajícího lisu">Servis nebo kalibrace stávajícího lisu</option>
+                                    <option value="Jiné specifické jednoúčelové zařízení">Jiné specifické jednoúčelové zařízení</option>
+                                </select>
+                            </div>
+
+                            <div class="f-group">
+                                <label for="bMessage">Specifikace požadavku / dotaz</label>
+                                <textarea id="bMessage" rows="4" placeholder="Uveďte konkrétní typ zařízení, normu, požadovaný rozsah měření nebo dotaz..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-corporate btn-submit">Odeslat poptávku na sprencl@briohranice.cz</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-map-card reveal">
+                        <div class="map-label-row">
+                            <strong>Poloha areálu BRIO HRANICE v Hranicích na Moravě</strong>
+                            <span>GPS: 49.5488 N, 17.7471 E</span>
+                        </div>
+                        <div id="brioMap" class="brio-map-box"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="portal-footer">
+        <div class="container footer-content">
+            <div class="foot-left">
+                <img src="assets/images/brio_40_logo.svg" alt="BRIO HRANICE" class="foot-logo">
+                <p>© 2026 BRIO HRANICE s.r.o. Všechna práva vyhrazena. Výrobce zkušebních zařízení a výhradní zástupce FORM+TEST Seidner & Co. GmbH pro ČR a SR.</p>
+            </div>
+            <div class="foot-right">
+                <a href="#o-nas">O společnosti</a>
+                <a href="#katalog">Katalog zařízení</a>
+                <a href="#partnerstvi">FORM+TEST</a>
+                <a href="#reference">Reference</a>
+                <a href="#kontakt">Kontakty</a>
+                <a href="https://www.briohranice.cz/" target="_blank" rel="noopener">Původní web</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-backdrop" id="devModal">
+        <div class="modal-window">
+            <button class="m-close" id="modalCloseBtn">&times;</button>
+            <div class="m-layout">
+                <div class="m-thumb">
+                    <img src="" alt="" id="mImg" class="m-thumb-img">
+                </div>
+                <div class="m-details">
+                    <span class="m-norm-tag" id="mNorm">Norma</span>
+                    <h3 id="mTitle">Název zařízení</h3>
+                    <p id="mDesc">Podrobný popis technických možností zkušebního zařízení a jeho využití v materiálové laboratoři.</p>
+                    <div class="m-spec-list" id="mSpecs"></div>
+                    <div class="m-action">
+                        <a href="#kontakt" class="btn-corporate" id="mInquireBtn">Vyžádat cenovou nabídku a technický list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portal-toast" id="pToast">IČO 47669365 bylo zkopírováno do schránky</div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="../ping-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

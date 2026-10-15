@@ -1,0 +1,42 @@
+{
+  "slug": "brio-hranice",
+  "firma": "BRIO HRANICE s.r.o.",
+  "ico": "47669365",
+  "obec": "Hranice",
+  "okres": "Přerov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Vývoj, výroba a servis zkušebních strojů a laboratorní techniky",
+  "archetyp": "Corporate Portal",
+  "stary_web": "https://www.briohranice.cz/",
+  "email": "sprencl@briohranice.cz",
+  "prodejni_body": [
+    "Vývoj a výroba zkušebních zařízení v Hranicích od roku 1992",
+    "Výhradní zastoupení FORM+TEST Seidner GmbH pro ČR a SR od 2004",
+    "Kompletní vybavení pro zkoušky betonu, cementu a kameniva"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralý systém Joomla s chybami 404 na podstránkách a nekonzistentní navigací",
+    "Katalog přístrojů postrádá moderní fulltextové vyhledávání, filtry a porovnání parametrů",
+    "Prestižní zastoupení německého lídra FORM+TEST a reference (ŘSD, Skanska, Metrostav) jsou graficky nevýrazné",
+    "Absence interaktivního poptávkového formuláře navázaného na technické normy (ČSN EN, ISO, ASTM)"
+  ],
+  "vylepseni_noveho_webu": [
+    "Reprezentativní architektura Corporate Portal ve stylu technického lídra s vlastní barevnou identitou",
+    "Interaktivní katalog s live vyhledáváním a přepínačem mezi kartami a technickou tabulkou parametrů",
+    "Podrobné technické karty přístrojů s uvedením příslušných zkušebních norem ČSN EN a ISO",
+    "Výrazná prezentace 20letého výhradního partnerství FORM+TEST a log referenčních stavebních korporací",
+    "Integrovaná mapa areálu v Hranicích a poptávkový systém generující přesné oborové poptávky pro jednatele",
+    "Statistické animované ukazatele (rok 1992, 20+ exportních zemí, 100+ zkušebních zařízení)"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1992,
+    "zamestnanci": "6–9",
+    "certifikace": [
+      "ČSN EN 12390",
+      "ČSN EN 196",
+      "ČSN EN 1097",
+      "EN ISO 7500-1 Třída 1"
+    ],
+    "partnerstvi": "FORM+TEST Seidner & Co. GmbH (výhradní zastoupení pro ČR a SR)"
+  }
+}

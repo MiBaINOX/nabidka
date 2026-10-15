@@ -1,0 +1,36 @@
+{
+  "slug": "schw-service",
+  "firma": "S.CH.W. SERVICE, s.r.o.",
+  "ico": "27766641",
+  "obec": "Hanušovice",
+  "okres": "Šumperk",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Kovoobrábění a zakázková strojírenská výroba",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://www.schwservice.cz/",
+  "email": "info@schwservice.cz",
+  "prodejni_body": [
+    "CNC soustružení Mori Seiki s osou Y do točné délky 1250 mm",
+    "5-osé frézovací centrum DMG DMU 50 s řízením Siemens 840D",
+    "Přenos tavby materiálu a 100% kontrola jakosti nerezových dílů"
+  ],
+  "vady_stareho_webu": [
+    "Web nepodporuje bezpečné HTTPS spojení (pouze nešifrované HTTP s rizikem varování prohlížeče)",
+    "Není responzivní pro mobilní zařízení (zcela chybí meta viewport a web je na telefonech neovladatelný)",
+    "Statické a nepřehledné tabulky strojního parku bez možnosti filtrace a interaktivního srovnání",
+    "Zastaralé grafické rozhraní a neaktuální struktura podstránek ze začátku tisíciletí"
+  ],
+  "vylepseni_noveho_webu": [
+    "Originální industriální design (Heavy Industrial) v černo-antracitovém ladění s kontrastní oranžovou",
+    "Split-screen Hero prezentace s vlajkovým soustruhem Mori Seiki NL3000Y a online parametry",
+    "Interaktivní katalog strojního parku s přepínačem kategorií (Mori Seiki, 5-osá centra, Hyundai a pece)",
+    "Kompletní fotogalerie reálných nerezových obrobků s celoobrazovkovým Lightboxem",
+    "100% responzivní mobilní navigace, rychlé kopírování IČO a interaktivní poptávkový formulář"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1994,
+    "zamestnanci": "100–199 zaměstnanců",
+    "jednatel": "Pavel Schwarzer",
+    "stroje_pocet": 8
+  }
+}
