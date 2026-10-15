@@ -3,322 +3,573 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STS Kravaře – Strojírenská kovovýroba & Služby</title>
-    <meta name="description" content="Zajišťujeme kusovou i sériovou kovovýrobu, soustružení, frézování, svařování a servis zemědělské a dopravní techniky. Výrobce certifikovaných točnic pro přívěsy a návěsy.">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>STS - služby Kravaře spol. s r.o. | Kuličkové točnice a přesné strojírenské obrábění</title>
+    <meta name="description" content="Výrobce certifikovaných kuličkových točnic pro řízení přívěsů a návěsů, soustružení na karuselech, frézování a zámečnická výroba v areálu 2,5 ha v Kravařích. Tradice od privatizace STS Opava.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="top-bar">
         <div class="container top-bar-inner">
-            <div class="top-info">
-                <span>Přesné strojní obrábění, zámečnická výroba, kuličkové točnice a servis</span>
+            <div class="top-contacts">
+                <span class="top-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Kostelní 3315/2a, 747 21 Kravaře (průmyslový areál 2,5 ha)
+                </span>
+                <a href="tel:+420553671112" class="top-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    +420 553 671 112
+                </a>
+                <a href="tel:+420603257303" class="top-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    +420 603 257 303
+                </a>
             </div>
-            <div class="top-contact">
-                <a href="tel:+420553671211" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <span>+420 553 671 211</span></a>
-                <a href="mailto:info@stssluzby.cz" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> <span>info@stssluzby.cz</span></a>
-                <span class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> <span>Kravaře</span></span>
+            <div class="top-badges">
+                <span class="badge-ind">Kontinuita STS Opava od r. 1992</span>
+                <span class="badge-ind">Výroba kuličkových točnic</span>
             </div>
         </div>
     </div>
 
-    <header class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="brand-logo">
-                <img src="images/logo.svg" alt="STS - služby Kravaře spol. s r.o. logo">
+    <header class="navbar" id="navbar">
+        <div class="container nav-wrapper">
+            <a href="#uvod" class="brand-logo">
+                <div class="logo-gear">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                </div>
                 <div class="logo-text-wrap">
-                    <span class="logo-text">STS - služby Kravaře spol. s r.o.</span>
+                    <span class="logo-title">STS Kravaře</span>
                 </div>
             </a>
-            <ul class="nav-links">
-                <li><a href="#sluzby">Služby</a></li>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#uvod">Úvod</a></li>
+                <li><a href="#tocnice">Kuličkové točnice</a></li>
+                <li><a href="#strojepark">Strojní park</a></li>
+                <li><a href="#odberatele">Odběratelé</a></li>
                 <li><a href="#o-nas">O&nbsp;společnosti</a></li>
-                <li><a href="#reference">Galerie & Reference</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-                <li><a href="#kontakt" class="btn btn-primary nav-cta">Kontaktovat</a></li>
+                <li><a href="#identifikace">Identifikace</a></li>
+                <li><a href="#kontakt" class="btn btn-primary btn-nav">Poptat výrobu</a></li>
             </ul>
-            <button class="menu-toggle" aria-label="Menu">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Otevřít navigaci">
+                <span></span><span></span><span></span>
             </button>
         </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container hero-grid">
-                <div>
-                    <div class="badge-tag">Tradice strojírenské výroby a přesného obrábění v Kravařích</div>
-                    <h1 class="hero-title">Přesné strojní obrábění kovů, výroba kuličkových točnic a ocelových konstrukcí</h1>
-                    <p class="hero-desc">Zajišťujeme kusovou i sériovou kovovýrobu, soustružení, frézování, svařování a servis zemědělské a dopravní techniky. Výrobce certifikovaných točnic pro přívěsy a návěsy.</p>
-                    <div class="hero-actions">
-                        <a href="#kontakt" class="btn btn-primary">Nezávazná poptávka</a>
-                        <a href="#sluzby" class="btn btn-secondary">Přehled služeb</a>
+        <section class="hero-bento-section" id="uvod">
+            <div class="container hero-bento-grid">
+                <div class="bento-main-hero">
+                    <div class="ind-tag">
+                        <span class="ind-dot"></span>
+                        Strojírenská výroba a kuličkové točnice
+                    </div>
+                    <h1 class="hero-bento-title">
+                        Přesné obrábění kovů a <span>výroba točnic pro přívěsy</span>
+                    </h1>
+                    <p class="hero-bento-desc">
+                        STS - služby Kravaře spol. s r.o. navazuje na tradici střediska STS Opava. Vlastní výrobní areál 2,5 ha, soustružení na karuselech, výroba certifikovaných kuličkových točnic a dodávky pro PANAV, Karosu a Bonatrans.
+                    </p>
+                    <div class="bento-actions">
+                        <a href="#tocnice" class="btn btn-primary">
+                            <span>Katalog točnic & parametry</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#strojepark" class="btn btn-outline">Prohlédnout strojní park</a>
                     </div>
                 </div>
-                <div>
-                    <div class="hero-card">
-                        <img src="images/img_001.jpg" alt="STS - služby Kravaře spol. s r.o.">
-                        <div class="hero-card-badge">
-                            <div>
-                                <strong style="display:block; font-size:0.95rem;">STS - služby Kravaře spol. s r.o.</strong>
-                                <span style="font-size:0.8rem; color:#94A3B8;">Ověřená kvalita a tradice</span>
+
+                <div class="bento-side-card">
+                    <div class="side-card-head">
+                        <span class="side-badge">Klíčový výrobní program</span>
+                        <h3 class="side-title">Kuličkové točnice KTK</h3>
+                    </div>
+                    <div class="tocnice-hero-visual">
+                        <img src="images/sts-tocnice-sedepozadi.jpg" alt="Kuličková točnice STS Kravaře" class="hero-tocnice-img">
+                    </div>
+                    <div class="tocnice-quick-specs">
+                        <div class="q-spec">
+                            <span class="q-val">až 300 kN</span>
+                            <span class="q-lbl">Axiální nosnost (až 30 t)</span>
+                        </div>
+                        <div class="q-spec">
+                            <span class="q-val">Ø 400–1200 mm</span>
+                            <span class="q-lbl">Rozsah průměrů točnic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-stat-mini">
+                    <div class="mini-val">25 000 m²</div>
+                    <div class="mini-lbl">Rozloha výrobního areálu v Kravařích na Opavsku</div>
+                </div>
+
+                <div class="bento-stat-mini">
+                    <div class="mini-val">1992</div>
+                    <div class="mini-lbl">Rok založení a kontinuita původní STS Opava</div>
+                </div>
+
+                <div class="bento-stat-mini">
+                    <div class="mini-val">Ø 1250 mm</div>
+                    <div class="mini-lbl">Maximální průměr obrábění na karuselových soustruzích</div>
+                </div>
+
+                <div class="bento-stat-mini">
+                    <div class="mini-val">3–5 t</div>
+                    <div class="mini-lbl">Traktorové návěsy NTS-3T a zemědělské nástavby</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark" id="tocnice">
+            <div class="container">
+                <div class="section-head text-center">
+                    <span class="sub-badge">Vlastní certifikovaná výroba</span>
+                    <h2 class="sec-title">Kuličkové točnice pro <span>řízení přívěsů a návěsů</span></h2>
+                    <p class="sec-desc">
+                        Vyrábíme ucelenou řadu jednořadých a dvouřadých kuličkových točnic pro zemědělskou a silniční dopravní techniku. Prověřená kvalita u předních výrobců návěsů ve střední Evropě.
+                    </p>
+                </div>
+
+                <div class="tocnice-filter-bar">
+                    <div class="filter-btn-group" id="tocniceFilterGroup">
+                        <button class="t-filter-btn active" data-filter="all">Všechny točnice</button>
+                        <button class="t-filter-btn" data-filter="agri">Zemědělské vleky (do 6,5 t)</button>
+                        <button class="t-filter-btn" data-filter="road">Nákladní přívěsy (do 14 t)</button>
+                        <button class="t-filter-btn" data-filter="heavy">Těžké návěsy (do 30 t)</button>
+                    </div>
+
+                    <div class="tocnice-search">
+                        <input type="text" id="tocniceSearchInput" placeholder="Hledat podle označení (např. KTK-10, 850 mm)...">
+                    </div>
+                </div>
+
+                <div class="table-responsive-box">
+                    <table class="tocnice-table">
+                        <thead>
+                            <tr>
+                                <th>Typové označení</th>
+                                <th>Vnější průměr</th>
+                                <th>Rozteč otvorů</th>
+                                <th>Axiální zatížení</th>
+                                <th>Hmotnost</th>
+                                <th>Využití / Aplikace</th>
+                                <th>Akce</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tocniceTableBody">
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tocnice-tech-note">
+                    <strong>Technická poznámka k zakázkové výrobě:</strong>
+                    Všechny točnice jsou dodávány s vrtanými i nevrtanými přírubami dle požadavku zákazníka. Provádíme také generální opravy, výměny kuliček a repase opotřebovaných točnic.
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="strojepark">
+            <div class="container">
+                <div class="section-head text-center">
+                    <span class="sub-badge">Technologické zázemí</span>
+                    <h2 class="sec-title">Strojní vybavení a <span>obráběcí kapacity</span></h2>
+                    <p class="sec-desc">
+                        Disponujeme rozsáhlou výrobní halou se širokým parkem klasických i numericky řízených strojů pro kusovou i sériovou výrobu.
+                    </p>
+                </div>
+
+                <div class="machinery-tabs-nav" id="machineryTabsNav">
+                    <button class="mach-tab-btn active" data-tab="karusely">Soustružení na karuselech</button>
+                    <button class="mach-tab-btn" data-tab="hrotove">Hrotové & CNC soustruhy</button>
+                    <button class="mach-tab-btn" data-tab="frezy">Frézování & Vyvrtávání</button>
+                    <button class="mach-tab-btn" data-tab="zamenictvi">Zámečnictví, lisy & skružování</button>
+                    <button class="mach-tab-btn" data-tab="navesy">Traktorové návěsy NTS</button>
+                </div>
+
+                <div class="mach-tab-panel active" id="pane-karusely">
+                    <div class="mach-showcase">
+                        <div class="mach-text">
+                            <span class="mach-tag">Obrábění velkých rotačních dílů</span>
+                            <h3>Svislé karuselové soustruhy</h3>
+                            <p>
+                                Specializujeme se na obrábění velkorozměrových přírub, věnců točnic, bubnů a skříňových těles. Svislá konstrukce karuselů umožňuje snadné ustavení těžkých svařenců a odlitků.
+                            </p>
+                            <div class="mach-specs-list">
+                                <div class="m-spec">
+                                    <strong>Maximální průměr obrábění:</strong>
+                                    <span>až 1 250 mm</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Maximální výška obrobku:</strong>
+                                    <span>850 mm</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Hmotnost obrobku na stole:</strong>
+                                    <span>až 2 500 kg</span>
+                                </div>
                             </div>
-                            <span style="font-size:1.4rem;">✓</span>
+                        </div>
+                        <div class="mach-media">
+                            <img src="images/stskravare-tocnice3.jpg" alt="Karuselové soustružení točnic Kravaře">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mach-tab-panel" id="pane-hrotove" style="display: none;">
+                    <div class="mach-showcase">
+                        <div class="mach-text">
+                            <span class="mach-tag">Přesné rotační součásti</span>
+                            <h3>Hrotové a CNC soustruhy</h3>
+                            <p>
+                                Kusová i sériová výroba hřídelí, čepů, pouzder a závitových spojení. Vysoká přesnost rozměrů a jakost obrobeného povrchu v tolerancích IT7.
+                            </p>
+                            <div class="mach-specs-list">
+                                <div class="m-spec">
+                                    <strong>Točný průměr nad ložem:</strong>
+                                    <span>do 500 mm</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Točná délka mezi hroty:</strong>
+                                    <span>až 2 000 mm</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Obráběné materiály:</strong>
+                                    <span>Konstrukční i ušlechtilé oceli, litina, barevné kovy, polyamidy</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mach-media">
+                            <img src="images/sts-kravare-slid.jpg" alt="Strojní park STS Kravaře">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mach-tab-panel" id="pane-frezy" style="display: none;">
+                    <div class="mach-showcase">
+                        <div class="mach-text">
+                            <span class="mach-tag">Třískové obrábění ploch a otvorů</span>
+                            <h3>Horizontální vyvrtávačky a frézky</h3>
+                            <p>
+                                Přesné frézování rovinných a tvarových ploch, drážkování hřídelí a vyvrtávání rozměrných svařovaných skříní a rámů dopravní techniky.
+                            </p>
+                            <div class="mach-specs-list">
+                                <div class="m-spec">
+                                    <strong>Upínací plocha stolu:</strong>
+                                    <span>až 1 200 × 1 600 mm</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Průměr vřetena:</strong>
+                                    <span>90 mm a 100 mm</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Vrtání točnic:</strong>
+                                    <span>Vícevřetenové vrtací hlavy pro rychlé a přesné vrtání děr točnic</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mach-media">
+                            <img src="images/vrtani_tocnice.png" alt="Vrtání kuličkových točnic">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mach-tab-panel" id="pane-zamenictvi" style="display: none;">
+                    <div class="mach-showcase">
+                        <div class="mach-text">
+                            <span class="mach-tag">Tváření a svařování oceli</span>
+                            <h3>Zámečnické práce, lisy a skružování</h3>
+                            <p>
+                                Komplexní zámečnická příprava: řezání na pásových pilách, ohraňování na hydraulických lisech, skružování plechů a certifikované svařování metodami MIG/MAG a TIG.
+                            </p>
+                            <div class="mach-specs-list">
+                                <div class="m-spec">
+                                    <strong>Dělení materiálu:</strong>
+                                    <span>Automatické pásové pily do průměru 320 mm</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Lisování & rovnání:</strong>
+                                    <span>Hydraulické lisy o síle až 160 t</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Svařování:</strong>
+                                    <span>Svařování ocelových konstrukcí, rámů a kalištních rypadel</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mach-media">
+                            <img src="images/lunch.jpg" alt="Výrobní hala STS Kravaře">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mach-tab-panel" id="pane-navesy" style="display: none;">
+                    <div class="mach-showcase">
+                        <div class="mach-text">
+                            <span class="mach-tag">Vlastní dopravní technika</span>
+                            <h3>Traktorové návěsy NTS – 3 T a 5 T</h3>
+                            <p>
+                                Výroba a servis třístranně sklápěcích traktorových návěsů určených pro odvoz zemědělských plodin, sypkých materiálů a komunální údržbu.
+                            </p>
+                            <div class="mach-specs-list">
+                                <div class="m-spec">
+                                    <strong>Užitečná nosnost:</strong>
+                                    <span>3 000 kg a 5 000 kg</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Sklápění:</strong>
+                                    <span>Hydraulické třístranné s automatickým otvíráním bočnic</span>
+                                </div>
+                                <div class="m-spec">
+                                    <strong>Servisní služby:</strong>
+                                    <span>Kompletní opravy brzdových soustav, náprav a výměny korb</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mach-media">
+                            <img src="images/sts-kravare-naves1.jpg" alt="Návěs traktorový NTS Kravaře">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="stats-section">
-            <div class="container stats-grid">
-                
-            <div class="stat-item">
-                <h3>1992</h3>
-                <p>Rok založení strojírenství</p>
-            </div>
-            <div class="stat-item">
-                <h3>30+</h3>
-                <p>Let tradice výroby v Kravařích</p>
-            </div>
-            <div class="stat-item">
-                <h3>25 strojů</h3>
-                <p>Strojový park soustruhů a frézek</p>
-            </div>
-            <div class="stat-item">
-                <h3>100%</h3>
-                <p>Česká zakázková výroba</p>
-            </div>
-            </div>
-        </section>
-
-        <section id="sluzby" class="section section-bg">
+        <section class="section section-dark" id="odberatele">
             <div class="container">
-                <div class="section-head">
-                    <span class="section-tag">Komplexní portfolio služeb</span>
-                    <h2 class="section-title">Odborné služby na nejvyšší technologické úrovni</h2>
-                    <p class="section-subtitle">Přizpůsobujeme řešení individuálním požadavkům každého zákazníka s důrazem na kvalitu a dlouhou životnost.</p>
+                <div class="section-head text-center">
+                    <span class="sub-badge">Prověřené reference</span>
+                    <h2 class="sec-title">Naši nejvýznamnější <span>odběratelé a partneři</span></h2>
+                    <p class="sec-desc">
+                        Dlouhodobě dodáváme komponenty a kuličkové točnice lídrům dopravního, železničního a armaturního průmyslu.
+                    </p>
                 </div>
-                <div class="services-grid">
-                    
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
-                <h3>Kuličkové točnice pro přívěsy</h3>
-                <p>Výroba a prodej vysoce odolných jednořadých a dvouřadých kuličkových točnic pro nákladní automobily, traktory a zemědělské vozy.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Třískové obrábění kovů</h3>
-                <p>Přesné soustružení na hrotových i CNC soustruzích, frézování, vyvrtávání a broušení rotačních i skříňových součástí.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
-                <h3>Zámečnické a svářečské práce</h3>
-                <p>Svařování metodami MIG/MAG a TIG, výroba ocelových konstrukcí, rámů přívěsů, zásobníků a průmyslových komponentů.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Servis a opravy zemědělské techniky</h3>
-                <p>Generální opravy náprav, hydraulických systémů, brzdových soustav a podvozků zemědělských a komunálních vozidel.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
-                <h3>Výroba návěsů a přepravníků</h3>
-                <p>Zakázková výroba specializovaných přívěsných vozidel, kontejnerových nosičů a korb s vysokou nosností.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Dělení materiálu a tvarové pálení</h3>
-                <p>Přesné řezání profilové oceli na pásových pilách a pálení plechů s návazným srážením hran a tryskáním.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
+
+                <div class="partners-logo-grid">
+                    <div class="partner-card">
+                        <img src="images/logow-panav.png" alt="PANAV Senice na Hané">
+                        <h4>PANAV a.s.</h4>
+                        <span>Přední český výrobce návěsů a přívěsů</span>
+                    </div>
+                    <div class="partner-card">
+                        <img src="images/logow-bonatrans.png" alt="Bonatrans a.s. Bohumín">
+                        <h4>Bonatrans a.s.</h4>
+                        <span>Přední evropský výrobce železničních dvojkolí</span>
+                    </div>
+                    <div class="partner-card">
+                        <img src="images/logow-armatury.png" alt="ARMATURY Group a.s.">
+                        <h4>ARMATURY Group a.s.</h4>
+                        <span>Významný výrobce průmyslových armatur</span>
+                    </div>
+                    <div class="partner-card">
+                        <img src="images/logow-ferram.png" alt="Ferram a.s. Opava">
+                        <h4>Ferram a.s.</h4>
+                        <span>Strojírenská výroba a hutní materiál Opava</span>
+                    </div>
+                    <div class="partner-card">
+                        <img src="images/logow-stsz.png" alt="STSZ Trnava">
+                        <h4>STSZ Trnava</h4>
+                        <span>Zemědělská a dopravní mechanizace</span>
+                    </div>
+                    <div class="partner-card">
+                        <img src="images/logow-fimas.png" alt="FIMAS Nové Veselí">
+                        <h4>FIMAS s.r.o.</h4>
+                        <span>Dopravní a lesnická technika</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="o-nas" class="section">
+        <section class="section" id="o-nas">
             <div class="container about-grid">
-                <div>
-                    <span class="section-tag">Zázemí & Zkušenosti</span>
-                    <h2 class="section-title">Tradice, moderní technologie a poctivé řemeslo</h2>
-                    <p class="about-text">STS - služby Kravaře spol. s r.o. je stabilní strojírenský podnik navazující na tradici strojní výroby a opravárenství na Opavsku. Disponujeme rozsáhlou výrobní halou se širokým strojním parkem klasických i numericky řízených obráběcích strojů. Naše kuličkové točnice jsou prověřeny desítkami let náročného provozu po celé střední Evropě.</p>
-                    <ul class="about-features">
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Individuální technické poradenství a cenová kalkulace</li>
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Vlastní kapacity, zkušení řemeslníci a špičkové vybavení</li>
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Striktní dodržování norem ČSN a technologických předpisů</li>
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Záruční i pozáruční servis a rychlá reakční doba</li>
-                    </ul>
-                    <a href="#kontakt" class="btn btn-primary">Kontaktovat specialisty</a>
+                <div class="about-text-col">
+                    <span class="sub-badge">Tradice od roku 1992</span>
+                    <h2 class="sec-title">Historie strojírenského <span>závodu v Kravařích</span></h2>
+                    <p class="about-p">
+                        Společnost STS - služby Kravaře spol. s r.o. vznikla v roce 1992. V roce 1996 jsme v privatizaci odkoupili středisko Kravaře – původní součást státního podniku STS Opava.
+                    </p>
+                    <p class="about-p">
+                        Původní opravárenská základna byla postupně transformována v moderní strojírenský podnik specializovaný na přesné obrábění velkých dílců, kuličkové točnice a výrobu ocelových svařenců.
+                    </p>
+                    <div class="about-stats-row">
+                        <div class="a-stat">
+                            <strong>2,5 ha</strong>
+                            <span>Plocha vlastního areálu v průmyslové zóně</span>
+                        </div>
+                        <div class="a-stat">
+                            <strong>25–30</strong>
+                            <span>Kvalifikovaných zaměstnanců podniku</span>
+                        </div>
+                        <div class="a-stat">
+                            <strong>30+ let</strong>
+                            <span>Strojírenské kontinuity na Opavsku</span>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <div class="hero-card">
-                        <img src="images/img_001.jpg" alt="STS - služby Kravaře spol. s r.o.">
+
+                <div class="about-visual-col">
+                    <div class="plant-card">
+                        <img src="images/lunch.jpg" alt="Výrobní areál Kravaře" class="plant-img">
+                        <div class="plant-overlay">
+                            <strong>Výrobní závod Kravaře</strong>
+                            <span>Strategická poloha na trase Ostrava – Opava</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="reference" class="section section-bg">
+        <section class="section section-dark" id="identifikace">
             <div class="container">
-                <div class="section-head">
-                    <span class="section-tag">Fotogalerie prací</span>
-                    <h2 class="section-title">Ukázky našich realizací a technického zázemí</h2>
-                    <p class="section-subtitle">Kliknutím na fotografii otevřete náhled ve vysokém rozlišení.</p>
+                <div class="section-head text-center">
+                    <span class="sub-badge">Oficiální informace</span>
+                    <h2 class="sec-title">Identifikační a <span>fakturační údaje</span></h2>
                 </div>
-                <div class="gallery-grid">
-                    
-            <div class="gallery-item">
-                <img src="images/img_001.jpg" alt="STS - služby Kravaře spol. s r.o. reference 1">
-                <div class="gallery-overlay"><span>Ověřená realizace STS - služby Kravaře spol. s r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_002.jpg" alt="STS - služby Kravaře spol. s r.o. reference 2">
-                <div class="gallery-overlay"><span>Ověřená realizace STS - služby Kravaře spol. s r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_003.jpg" alt="STS - služby Kravaře spol. s r.o. reference 3">
-                <div class="gallery-overlay"><span>Ověřená realizace STS - služby Kravaře spol. s r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_004.jpg" alt="STS - služby Kravaře spol. s r.o. reference 4">
-                <div class="gallery-overlay"><span>Ověřená realizace STS - služby Kravaře spol. s r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_005.jpg" alt="STS - služby Kravaře spol. s r.o. reference 5">
-                <div class="gallery-overlay"><span>Ověřená realizace STS - služby Kravaře spol. s r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_006.jpg" alt="STS - služby Kravaře spol. s r.o. reference 6">
-                <div class="gallery-overlay"><span>Ověřená realizace STS - služby Kravaře spol. s r.o.</span></div>
-            </div>
+
+                <div class="info-card-panel">
+                    <div class="data-grid">
+                        <div class="data-item">
+                            <span class="data-lbl">Obchodní název:</span>
+                            <span class="data-val">STS - služby Kravaře spol. s r.o.</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Sídlo společnosti:</span>
+                            <span class="data-val">Opavská 833/7, 747 21 Kravaře</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Výrobní areál & Korespondence:</span>
+                            <span class="data-val">Kostelní 3315/2a, 747 21 Kravaře</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">IČO:</span>
+                            <span class="data-val">
+                                47682175
+                                <button class="copy-btn" data-copy="47682175" title="Kopírovat IČO">Kopírovat</button>
+                            </span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">DIČ:</span>
+                            <span class="data-val">
+                                CZ47682175
+                                <button class="copy-btn" data-copy="CZ47682175" title="Kopírovat DIČ">Kopírovat</button>
+                            </span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Zápis v rejstříku:</span>
+                            <span class="data-val">Krajský soud v Ostravě, oddíl C, vložka 5236</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="kontakt" class="section">
-            <div class="container">
-                <div class="contact-box">
-                    <div class="contact-info">
+        <section class="section" id="kontakt">
+            <div class="container contact-grid">
+                <div class="contact-info-card">
+                    <span class="sub-badge">Přímý kontakt</span>
+                    <h2 class="sec-title">Poptávka <span>výroby a točnic</span></h2>
+                    <p class="contact-desc">
+                        Zašlete nám výkresovou dokumentaci nebo specifikaci požadované točnice. Obratem pro vás zpracujeme technické posouzení a cenovou kalkulaci.
+                    </p>
+
+                    <div class="c-item-row">
+                        <div class="c-ico">🏭</div>
                         <div>
-                            <h3>Kontaktní informace</h3>
-                            <p>Jsme vám k dispozici pro technické konzultace i zpracování nezávazné nabídky.</p>
-                            <div class="contact-rows">
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Sídlo společnosti</div>
-                                        <div class="contact-value">Opavská 833/7, 747 21 Kravaře</div>
-                                    </div>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Telefonní spojení</div>
-                                        <div class="contact-value"><a href="tel:+420553671211" style="color:#FFFFFF;">+420 553 671 211</a></div>
-                                    </div>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Elektronická pošta</div>
-                                        <div class="contact-value"><a href="mailto:info@stssluzby.cz" style="color:#FFFFFF;">info@stssluzby.cz</a></div>
-                                    </div>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Identifikační údaje</div>
-                                        <div class="contact-value">IČO: 47682175 • DIČ: CZ47682175</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <a href="https://mapy.cz/zakladni?q=Opavsk%C3%A1+833%2F7%2C+747+21+Krava%C5%99e" target="_blank" rel="noopener" class="map-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Zobrazit na Mapy.cz →</a>
+                            <strong>Výrobní závod a korespondence:</strong><br>
+                            Kostelní 3315/2a, 747 21 Kravaře
                         </div>
                     </div>
-                    <div class="contact-form-wrap">
-                        <h3>Napište nám zprávu</h3>
-                        <p>Vyplňte krátký formulář a naši odborníci vás budou neprodleně kontaktovat.</p>
-                        <form id="contactForm" data-email="info@stssluzby.cz">
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="formName">Jméno a příjmení / Firma *</label>
-                                    <input type="text" id="formName" class="form-control" required placeholder="Jan Novák">
-                                </div>
-                                <div class="form-group">
-                                    <label for="formPhone">Telefonní číslo *</label>
-                                    <input type="tel" id="formPhone" class="form-control" required placeholder="+420 ...">
-                                </div>
-                                <div class="form-group full">
-                                    <label for="formEmail">E-mailová adresa *</label>
-                                    <input type="email" id="formEmail" class="form-control" required placeholder="vas@email.cz">
-                                </div>
-                                <div class="form-group full">
-                                    <label for="formMessage">Popis vaší poptávky nebo dotazu *</label>
-                                    <textarea id="formMessage" class="form-control" required placeholder="Uveďte podrobnosti zakázky..."></textarea>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary" style="width:100%;">Odeslat nezávaznou poptávku</button>
-                        </form>
+                    <div class="c-item-row">
+                        <div class="c-ico">📞</div>
+                        <div>
+                            <strong>Kancelář podniku:</strong><br>
+                            <a href="tel:+420553671112">+420 553 671 112</a> / +420 553 671 103
+                        </div>
+                    </div>
+                    <div class="c-item-row">
+                        <div class="c-ico">📱</div>
+                        <div>
+                            <strong>Obchodní a technické vedení:</strong><br>
+                            <a href="tel:+420603257303">+420 603 257 303</a> / +420 603 574 242
+                        </div>
+                    </div>
+                    <div class="c-item-row">
+                        <div class="c-ico">✉️</div>
+                        <div>
+                            <strong>Elektronická pošta:</strong><br>
+                            <a href="mailto:info@stssluzby.cz">info@stssluzby.cz</a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="contact-form-wrap">
+                    <h3 class="form-card-title">Technický poptávkový formulář</h3>
+                    <form id="stsForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="sName">Jméno a příjmení / Společnost *</label>
+                                <input type="text" id="sName" required placeholder="Jan Novák / Strojírenství a.s.">
+                            </div>
+                            <div class="form-group">
+                                <label for="sPhone">Telefonní kontakt *</label>
+                                <input type="tel" id="sPhone" required placeholder="+420 777 000 000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="sEmail">E-mailová adresa *</label>
+                            <input type="email" id="sEmail" required placeholder="novak@strojirna.cz">
+                        </div>
+                        <div class="form-group">
+                            <label for="sMessage">Specifikace dílce / Požadovaná točnice *</label>
+                            <textarea id="sMessage" required rows="5" placeholder="Uveďte typ točnice (např. KTK-10), požadovaný počet kusů, materiál nebo zda zašlete výkresovou dokumentaci e-mailem..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Odeslat technickou poptávku</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                        <div class="form-success" id="stsSuccess">
+                            Děkujeme za poptávku. Technické podklady jsme v pořádku přijali a naši technologové vás budou kontaktovat.
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="container map-container-wrap">
+                <div class="map-head">
+                    <span class="map-title">Výrobní areál podniku: Kostelní 3315/2a, Kravaře</span>
+                    <a href="https://mapy.cz/zakladni?q=Kosteln%C3%AD+3315%2F2a%2C+Krava%C5%99e" target="_blank" rel="noopener" class="map-link">Otevřít na Mapy.cz ↗</a>
+                </div>
+                <div id="map" class="interactive-map"></div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <h4>STS - služby Kravaře spol. s r.o.</h4>
-                    <p>Přesné strojní obrábění, zámečnická výroba, kuličkové točnice a servis. Profesionální zázemí v Moravskoslezském kraji.</p>
-                    <p style="font-size:0.82rem; color:#64748B;">IČO: 47682175 | DIČ: CZ47682175</p>
-                </div>
-                <div class="footer-col">
-                    <h5>Rychlá navigace</h5>
-                    <ul class="footer-links">
-                        <li><a href="#sluzby">Služby</a></li>
-                        <li><a href="#o-nas">O&nbsp;společnosti</a></li>
-                        <li><a href="#reference">Galerie prací</a></li>
-                        <li><a href="#kontakt">Kontakt</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h5>Kontakt</h5>
-                    <ul class="footer-links">
-                        <li>Opavská 833/7, 747 21 Kravaře</li>
-                        <li><a href="tel:+420553671211">+420 553 671 211</a></li>
-                        <li><a href="mailto:info@stssluzby.cz">info@stssluzby.cz</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h5>Ověření & Lokace</h5>
-                    <ul class="footer-links">
-                        <li><a href="https://mapy.cz/zakladni?q=Opavsk%C3%A1+833%2F7%2C+747+21+Krava%C5%99e" target="_blank" rel="noopener">Kde nás najdete (Mapy.cz)</a></li>
-                        <li><a href="http://stssluzby.cz" target="_blank" rel="noopener">Archiv původního webu</a></li>
-                    </ul>
-                </div>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo-title">STS - služby Kravaře spol. s r.o.</div>
+                <p>Výrobce kuličkových točnic pro řízení přívěsů, karuselové soustružení a přesné obrábění kovů.</p>
             </div>
-            <div class="footer-bottom">
-                <div>© 2026 STS - služby Kravaře spol. s r.o.. Všechna práva vyhrazena.</div>
-                <div>Moderní technologická prezentace připravená k nasazení.</div>
+            <div class="footer-links">
+                <a href="#uvod">Úvod</a>
+                <a href="#tocnice">Katalog točnic</a>
+                <a href="#strojepark">Strojní park</a>
+                <a href="#odberatele">Odběratelé</a>
+                <a href="#o-nas">O&nbsp;společnosti</a>
+                <a href="#kontakt">Kontakt</a>
             </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 STS - služby Kravaře spol. s r.o. Areál: Kostelní 3315/2a, 747 21 Kravaře. Všechna práva vyhrazena.</p>
         </div>
     </footer>
 
-    <div id="lightboxModal" class="lightbox-modal">
-        <button id="lightboxClose" class="lightbox-close" aria-label="Zavřít">×</button>
-        <img id="lightboxImg" class="lightbox-content" src="" alt="Detail">
-    </div>
-
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="script.js"></script>
 </body>
 </html>

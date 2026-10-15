@@ -3,306 +3,545 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOROS – Stavební společnost Ostrava</title>
-    <meta name="description" content="Zajišťujeme komplexní dodávky občanských i průmyslových staveb, vodoinstalací, plynofikace, ústředního vytápění a tesařských prací. Vlastní kapacity, zkušení řemeslníci a certifikovaný management jakosti.">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>JOROS s.r.o. | Generální dodavatel inženýrských sítí a staveb Ostrava</title>
+    <meta name="description" content="Stavební společnost JOROS s.r.o. Ostrava. Výstavba inženýrských sítí, plynové kotelny, rekonstrukce budov a sanace bytového fondu od roku 1993. Certifikace ISO 9001 a TIČR.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="top-bar">
         <div class="container top-bar-inner">
             <div class="top-info">
-                <span>Generální dodávky staveb, inženýrské sítě a rekonstrukce</span>
+                <span class="top-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Přibylova 713/15, 719 00 Ostrava - Kunčice
+                </span>
+                <a href="tel:+420596237535" class="top-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    +420 596 237 535
+                </a>
+                <a href="mailto:joros@joros.cz" class="top-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    joros@joros.cz
+                </a>
             </div>
-            <div class="top-contact">
-                <a href="tel:+420596237535" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <span>+420 596 237 535</span></a>
-                <a href="mailto:joros@joros.cz" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> <span>joros@joros.cz</span></a>
-                <span class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> <span>Ostrava - Kunčice</span></span>
+            <div class="top-badges">
+                <span class="badge-cert">ČSN EN ISO 9001:2015</span>
+                <span class="badge-cert">Oprávnění TIČR Plyn</span>
+                <span class="badge-cert">Program Zelená úsporám</span>
             </div>
         </div>
     </div>
 
-    <header class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="brand-logo">
-                <img src="images/logo.svg" alt="JOROS s.r.o. logo">
+    <header class="navbar" id="navbar">
+        <div class="container nav-wrapper">
+            <a href="#uvod" class="brand-logo">
+                <div class="logo-emblem">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 21h18M5 21V7l8-4v18M13 21V3l6 4v14"></path><path d="M8 11h2M8 15h2M16 11h2M16 15h2"></path></svg>
+                </div>
                 <div class="logo-text-wrap">
-                    <span class="logo-text">JOROS s.r.o.</span>
+                    <span class="logo-title">JOROS s.r.o.</span>
                 </div>
             </a>
-            <ul class="nav-links">
-                <li><a href="#sluzby">Služby</a></li>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#uvod">Úvod</a></li>
                 <li><a href="#o-nas">O&nbsp;společnosti</a></li>
-                <li><a href="#reference">Galerie & Reference</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-                <li><a href="#kontakt" class="btn btn-primary nav-cta">Kontaktovat</a></li>
+                <li><a href="#reference">Reference staveb</a></li>
+                <li><a href="#obory">Specializace</a></li>
+                <li><a href="#kalkulator">Poptávkový průvodce</a></li>
+                <li><a href="#identifikace">Identifikace</a></li>
+                <li><a href="#kontakt" class="btn btn-primary btn-nav">Kontakt & Poptávka</a></li>
             </ul>
-            <button class="menu-toggle" aria-label="Menu">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Otevřít navigaci">
+                <span></span><span></span><span></span>
             </button>
         </div>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="uvod">
             <div class="container hero-grid">
-                <div>
-                    <div class="badge-tag">Profesionální stavební firma Ostrava od roku 1993</div>
-                    <h1 class="hero-title">Spolehlivý partner pro inženýrské sítě, kotelny a rekonstrukce staveb</h1>
-                    <p class="hero-desc">Zajišťujeme komplexní dodávky občanských i průmyslových staveb, vodoinstalací, plynofikace, ústředního vytápění a tesařských prací. Vlastní kapacity, zkušení řemeslníci a certifikovaný management jakosti.</p>
+                <div class="hero-content">
+                    <div class="hero-tag">
+                        <span class="pulse-dot"></span>
+                        Stavební tradice v Ostravě již od roku 1993
+                    </div>
+                    <h1 class="hero-title">
+                        Generální dodávky <span>inženýrských sítí</span>, kotelen a rekonstrukcí staveb
+                    </h1>
+                    <p class="hero-desc">
+                        Stavební firma JOROS s.r.o. zajišťuje komplexní realizaci veřejných, komerčních i bytových projektů. Vlastní kapacity, zkušení stavbyvedoucí, bezprašné technologie a certifikovaný systém managementu jakosti dle ISO 9001.
+                    </p>
                     <div class="hero-actions">
-                        <a href="#kontakt" class="btn btn-primary">Nezávazná poptávka</a>
-                        <a href="#sluzby" class="btn btn-secondary">Přehled služeb</a>
+                        <a href="#reference" class="btn btn-primary">
+                            <span>Prohlédnout 15+ referencí</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#kalkulator" class="btn btn-outline">
+                            <span>Poptávkový konfigurátor</span>
+                        </a>
                     </div>
                 </div>
-                <div>
-                    <div class="hero-card">
-                        <img src="images/img_003.jpg" alt="JOROS s.r.o.">
-                        <div class="hero-card-badge">
-                            <div>
-                                <strong style="display:block; font-size:0.95rem;">JOROS s.r.o.</strong>
-                                <span style="font-size:0.8rem; color:#94A3B8;">Ověřená kvalita a tradice</span>
+
+                <div class="hero-card-col">
+                    <div class="hero-stats-panel">
+                        <div class="hero-stats-header">
+                            <span class="panel-subtitle">Klíčové ukazatele podniku</span>
+                            <h3 class="panel-title">Prověřené stavební zázemí</h3>
+                        </div>
+                        <div class="stats-matrix">
+                            <div class="stat-box">
+                                <div class="stat-num">30+</div>
+                                <div class="stat-label">Let zkušeností od r. 1993</div>
                             </div>
-                            <span style="font-size:1.4rem;">✓</span>
+                            <div class="stat-box">
+                                <div class="stat-num">450+</div>
+                                <div class="stat-label">Dokončených staveb a děl</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-num">15+</div>
+                                <div class="stat-label">Institucionálních partnerů</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-num">100%</div>
+                                <div class="stat-label">Vlastních řemeslných kapacit</div>
+                            </div>
+                        </div>
+
+                        <div class="hero-trust-bar">
+                            <div class="trust-badge">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                <span>TIČR osvědčení pro plynová zařízení</span>
+                            </div>
+                            <div class="trust-badge">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                <span>Certifikace jakosti ISO 9001:2015</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="stats-section">
-            <div class="container stats-grid">
-                
-            <div class="stat-item">
-                <h3>1993</h3>
-                <p>Tradice od v.o.s.</p>
-            </div>
-            <div class="stat-item">
-                <h3>30+</h3>
-                <p>Let zkušeností na trhu</p>
-            </div>
-            <div class="stat-item">
-                <h3>450+</h3>
-                <p>Realizovaných staveb</p>
-            </div>
-            <div class="stat-item">
-                <h3>100%</h3>
-                <p>Systém jakosti ISO 9001</p>
-            </div>
-            </div>
-        </section>
-
-        <section id="sluzby" class="section section-bg">
+        <section class="section section-dark" id="reference">
             <div class="container">
-                <div class="section-head">
-                    <span class="section-tag">Komplexní portfolio služeb</span>
-                    <h2 class="section-title">Odborné služby na nejvyšší technologické úrovni</h2>
-                    <p class="section-subtitle">Přizpůsobujeme řešení individuálním požadavkům každého zákazníka s důrazem na kvalitu a dlouhou životnost.</p>
+                <div class="section-head text-center">
+                    <span class="sub-badge">Prověřené realizace</span>
+                    <h2 class="sec-title">Portfolio <span>dokončených stavebních děl</span></h2>
+                    <p class="sec-desc">
+                        Přehled významných zakázek realizovaných pro univerzity, statutární města, městské obvody, Českou poštu a průmyslové investory.
+                    </p>
                 </div>
-                <div class="services-grid">
-                    
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
-                <h3>Výstavba inženýrských sítí</h3>
-                <p>Kompletní realizace kanalizačních přípojek, vodovodních řadů, plynovodů a kabelových tras včetně výkopů a terénních úprav.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Rekonstrukce a modernizace budov</h3>
-                <p>Generální opravy bytového fondu, sanace zdiva, zateplování fasád, montáž sádrokartonů a dispoziční přestavby interiérů.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
-                <h3>Kotelny, topení & plynofikace</h3>
-                <p>Montáže moderních úsporných kotelen, tepelných čerpadel, podlahového vytápění, revize plynu a rozvodů teplé vody.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Vodoinstalace & sanitární technika</h3>
-                <p>Kompletní rozvody vody a odpadů pro bytové domy, průmyslové areály a komerční objekty včetně dodávky zařizovacích předmětů.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
-                <h3>Tesařské a elektroinstalační práce</h3>
-                <p>Kvalitní tesařské konstrukce krovů, hydroizolace střech a silnoproudé i slaboproudé rozvody s revizní zprávou.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Inženýrská činnost & projekce</h3>
-                <p>Zpracování projektové dokumentace, inženýring pro stavební povolení, autorský a technický dozor investora.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
+
+                <div class="ref-control-bar">
+                    <div class="search-wrap">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <input type="text" id="refSearchInput" placeholder="Filtrovat podle investora, obce, typu stavby...">
+                    </div>
+
+                    <div class="filter-pills" id="refFilterPills">
+                        <button class="pill-btn active" data-category="all">Všechny stavby</button>
+                        <button class="pill-btn" data-category="public">Veřejná správa & Školství</button>
+                        <button class="pill-btn" data-category="infrastructure">Inženýrské sítě & Plyn</button>
+                        <button class="pill-btn" data-category="residential">Bytový fond & BD</button>
+                        <button class="pill-btn" data-category="industry">Průmysl & Komerce</button>
+                    </div>
+
+                    <div class="view-switchers">
+                        <button class="view-btn active" id="viewGridBtn" title="Karty s fotografiemi">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                        </button>
+                        <button class="view-btn" id="viewTableBtn" title="Strukturovaná tabulka">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="results-counter" id="refCounter">
+                    Zobrazeno 15 referenčních projektů
+                </div>
+
+                <div class="ref-cards-grid" id="refCardsContainer">
+                </div>
+
+                <div class="ref-table-wrap" id="refTableContainer" style="display: none;">
+                    <table class="ref-data-table">
+                        <thead>
+                            <tr>
+                                <th>Název zakázky a popis díla</th>
+                                <th>Objednatel / Investor</th>
+                                <th>Kategorie</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="refTableBody">
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
 
-        <section id="o-nas" class="section">
+        <section class="section" id="obory">
+            <div class="container">
+                <div class="section-head text-center">
+                    <span class="sub-badge">Komplexní řemeslné zázemí</span>
+                    <h2 class="sec-title">Specializované <span>stavební činnosti</span></h2>
+                    <p class="sec-desc">
+                        Disponujeme vlastními technickými kapacitami pro zajištění dílčích i generálních dodávek v nejvyšší kvalitě.
+                    </p>
+                </div>
+
+                <div class="bento-grid">
+                    <div class="bento-card bento-wide">
+                        <div class="bento-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h20M12 2v20M7 7l10 10M17 7L7 17"></path></svg>
+                        </div>
+                        <h3 class="bento-title">Inženýrské sítě & Přípojky</h3>
+                        <p class="bento-text">
+                            Výstavba dešťové a splaškové kanalizace včetně kamerových revizních zkoušek, vodovodní řady, nízkotlaké a středotlaké plynovody, zpevněné plochy, komunikace a parkoviště.
+                        </p>
+                        <div class="bento-tags">
+                            <span>Splašková & dešťová kanalizace</span>
+                            <span>Kamerové zkoušky</span>
+                            <span>Vodovody & plynovody STL/NTL</span>
+                            <span>Zpevněné asfaltové i dlážděné plochy</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card">
+                        <div class="bento-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        <h3 class="bento-title">Kotelny, topení & plyn</h3>
+                        <p class="bento-text">
+                            Montáže moderních úsporných kotelen, tepelných čerpadel, ústředního vytápění, revize plynových zařízení TIČR, stavby a vložkování nových komínů.
+                        </p>
+                        <div class="bento-tags">
+                            <span>Plynofikace objektů</span>
+                            <span>Měření a regulace (MaR)</span>
+                            <span>Vložkování komínů</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card">
+                        <div class="bento-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                        </div>
+                        <h3 class="bento-title">Rekonstrukce a sanace budov</h3>
+                        <p class="bento-text">
+                            Kompletní modernizace bytového fondu, sanace předsazených balkónů, zateplování obvodových plášťů, výměny oken a registrace v programu Zelená úsporám.
+                        </p>
+                        <div class="bento-tags">
+                            <span>Sanace balkónů</span>
+                            <span>Zateplení plášťů</span>
+                            <span>Půdní vestavby</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card">
+                        <div class="bento-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                        </div>
+                        <h3 class="bento-title">Bezprašné elektroinstalace</h3>
+                        <p class="bento-text">
+                            Montáže silnoproudých i slaboproudých rozvodů moderním bezprašným frézováním s průmyslovým odsáváním, revize a odstraňování porevizních závad.
+                        </p>
+                        <div class="bento-tags">
+                            <span>Bezprašné drážkování</span>
+                            <span>Revizní zprávy</span>
+                            <span>Bytové i průmyslové sítě</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card bento-wide">
+                        <div class="bento-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                        </div>
+                        <h3 class="bento-title">Projekční & inženýrská činnost</h3>
+                        <p class="bento-text">
+                            Zpracování kompletní projektové dokumentace pro stavební povolení, inženýring, koordinace se správci inženýrských sítí, autorský i technický dozor investora pro hladký průběh realizace.
+                        </p>
+                        <div class="bento-tags">
+                            <span>Projekty inženýrských sítí</span>
+                            <span>Stavební povolení</span>
+                            <span>Autorský a technický dozor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark" id="kalkulator">
+            <div class="container">
+                <div class="section-head text-center">
+                    <span class="sub-badge">Interaktivní poptávka</span>
+                    <h2 class="sec-title">Poptávkový <span>stavební průvodce</span></h2>
+                    <p class="sec-desc">
+                        Zvolte parametry plánovaného projektu. Náš systém připraví rekapitulaci a předvyplní formulář pro rychlou kalkulaci.
+                    </p>
+                </div>
+
+                <div class="wizard-box">
+                    <div class="wizard-steps">
+                        <div class="wizard-col">
+                            <label class="wizard-lbl">1. Typ plánované stavby:</label>
+                            <div class="radio-pill-group" id="wizScopeGroup">
+                                <button class="wiz-pill active" data-val="Inženýrské sítě a přípojky">Inženýrské sítě</button>
+                                <button class="wiz-pill" data-val="Kotelna, plynofikace a ÚT">Kotelna a plyn</button>
+                                <button class="wiz-pill" data-val="Generální rekonstrukce budovy">Rekonstrukce objektu</button>
+                                <button class="wiz-pill" data-val="Sanace balkónů a zateplení">Sanace & Zateplení</button>
+                                <button class="wiz-pill" data-val="Výměna rozvodů ZTI a vody">Rozvody vody a ZTI</button>
+                            </div>
+                        </div>
+
+                        <div class="wizard-col">
+                            <label class="wizard-lbl">2. Typ a charakter objektu:</label>
+                            <div class="radio-pill-group" id="wizBuildingGroup">
+                                <button class="wiz-pill active" data-val="Bytový dům / SVJ">Bytový dům / SVJ</button>
+                                <button class="wiz-pill" data-val="Veřejná instituce / Škola / Úřad">Veřejná instituce</button>
+                                <button class="wiz-pill" data-val="Průmyslový areál / Hala">Průmyslový areál</button>
+                                <button class="wiz-pill" data-val="Komerční objekt / Prodejna">Komerční objekt</button>
+                            </div>
+                        </div>
+
+                        <div class="wizard-col">
+                            <label class="wizard-lbl">3. Lokalita realizace v MSK:</label>
+                            <div class="radio-pill-group" id="wizLocGroup">
+                                <button class="wiz-pill active" data-val="Ostrava a okolí">Ostrava a okolí</button>
+                                <button class="wiz-pill" data-val="Karviná a Orlová">Karvinsko</button>
+                                <button class="wiz-pill" data-val="Opavsko a Hlučínsko">Opavsko</button>
+                                <button class="wiz-pill" data-val="Frýdecko-Místecko">Frýdecko-Místecko</button>
+                                <button class="wiz-pill" data-val="Celý Moravskoslezský kraj">Celý MSK</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wizard-summary-panel">
+                        <div class="summary-details">
+                            <span class="sum-tag">Shrnutí specifikace poptávky</span>
+                            <div class="sum-result" id="wizResultText">
+                                Poptávka: Inženýrské sítě a přípojky • Bytový dům / SVJ • Ostrava a okolí
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" id="wizApplyBtn">
+                            <span>Převést do kontaktního formuláře</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="o-nas">
             <div class="container about-grid">
-                <div>
-                    <span class="section-tag">Zázemí & Zkušenosti</span>
-                    <h2 class="section-title">Tradice, moderní technologie a poctivé řemeslo</h2>
-                    <p class="about-text">Stavební firma JOROS s.r.o. byla založena v roce 2006 přímým navázáním na činnost firmy DEMO v.o.s. působící na trhu od roku 1993. Disponujeme vlastním zázemím, moderní stavební mechanizací a týmem zkušených stavbyvedoucích a řemeslníků. Zakládáme si na dodržování technologických postupů, platných norem a solidním jednání s investory i obyvateli dotčených budov.</p>
-                    <ul class="about-features">
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Individuální technické poradenství a cenová kalkulace</li>
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Vlastní kapacity, zkušení řemeslníci a špičkové vybavení</li>
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Striktní dodržování norem ČSN a technologických předpisů</li>
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Záruční i pozáruční servis a rychlá reakční doba</li>
-                    </ul>
-                    <a href="#kontakt" class="btn btn-primary">Kontaktovat specialisty</a>
+                <div class="about-text-col">
+                    <span class="sub-badge">Historie a filozofie</span>
+                    <h2 class="sec-title">Tradice a zodpovědnost <span>od roku 1993</span></h2>
+                    <p class="about-p">
+                        Stavební firma JOROS s.r.o. byla založena v roce 2006 přímým navázáním na úspěšnou činnost stavební společnosti DEMO v.o.s., která na českém stavebním trhu působila již od roku 1993.
+                    </p>
+                    <p class="about-p">
+                        Zajišťujeme realizaci staveb vlastními kapacitami a kvalifikovaným personálem. Zakládáme si na dodržování platných technologických předpisů, bezpečnosti práce a solidním vystupování vůči investorům i nájemníkům dotčených objektů.
+                    </p>
+                    <div class="about-feature-list">
+                        <div class="feature-item">
+                            <div class="f-icon">✓</div>
+                            <div>
+                                <strong>Vlastní technické zázemí</strong>
+                                <span>Moderní stavební mechanizace, bezprašné technologie a vlastní sklady.</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="f-icon">✓</div>
+                            <div>
+                                <strong>Certifikace ISO 9001:2015</strong>
+                                <span>Pravidelně auditovaný a certifikovaný systém řízení jakosti prováděných prací.</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="f-icon">✓</div>
+                            <div>
+                                <strong>Registrace Zelená úsporám</strong>
+                                <span>Oprávnění k provádění certifikovaných zateplovacích a úsporných opatření budov.</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <div class="hero-card">
-                        <img src="images/img_003.jpg" alt="JOROS s.r.o.">
+
+                <div class="about-img-col">
+                    <div class="about-visual-card">
+                        <img src="images/ref_13.jpg" alt="Stavební mechanizace a realizace JOROS" class="about-hero-img">
+                        <div class="about-floating-badge">
+                            <span class="fl-num">2006</span>
+                            <span class="fl-txt">Vznik s.r.o. (kontinuita od 1993)</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="reference" class="section section-bg">
+        <section class="section section-dark" id="identifikace">
             <div class="container">
-                <div class="section-head">
-                    <span class="section-tag">Fotogalerie prací</span>
-                    <h2 class="section-title">Ukázky našich realizací a technického zázemí</h2>
-                    <p class="section-subtitle">Kliknutím na fotografii otevřete náhled ve vysokém rozlišení.</p>
+                <div class="section-head text-center">
+                    <span class="sub-badge">Oficiální informace</span>
+                    <h2 class="sec-title">Identifikační a <span>fakturační údaje</span></h2>
                 </div>
-                <div class="gallery-grid">
-                    
-            <div class="gallery-item">
-                <img src="images/img_003.jpg" alt="JOROS s.r.o. reference 1">
-                <div class="gallery-overlay"><span>Ověřená realizace JOROS s.r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_004.png" alt="JOROS s.r.o. reference 2">
-                <div class="gallery-overlay"><span>Ověřená realizace JOROS s.r.o.</span></div>
-            </div>
+
+                <div class="info-card-panel">
+                    <div class="data-grid">
+                        <div class="data-item">
+                            <span class="data-lbl">Obchodní název:</span>
+                            <span class="data-val">JOROS s.r.o.</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Právní forma:</span>
+                            <span class="data-val">Společnost s ručením omezeným</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Sídlo společnosti:</span>
+                            <span class="data-val">Přibylova 713/15, 719 00 Ostrava - Kunčice</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">IČO:</span>
+                            <span class="data-val">
+                                27775402
+                                <button class="copy-btn" data-copy="27775402" title="Kopírovat IČO">Kopírovat</button>
+                            </span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">DIČ:</span>
+                            <span class="data-val">
+                                CZ27775402
+                                <button class="copy-btn" data-copy="CZ27775402" title="Kopírovat DIČ">Kopírovat</button>
+                            </span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Zápis v rejstříku:</span>
+                            <span class="data-val">Krajský soud v Ostravě, oddíl C, vložka 29339</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Jednatel společnosti:</span>
+                            <span class="data-val">Ing. Roman Žalmánek</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Certifikace jakosti:</span>
+                            <span class="data-val">ČSN EN ISO 9001:2015</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="kontakt" class="section">
-            <div class="container">
-                <div class="contact-box">
-                    <div class="contact-info">
-                        <div>
-                            <h3>Kontaktní informace</h3>
-                            <p>Jsme vám k dispozici pro technické konzultace i zpracování nezávazné nabídky.</p>
-                            <div class="contact-rows">
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Sídlo společnosti</div>
-                                        <div class="contact-value">Přibylova 713/15, 719 00 Ostrava - Kunčice</div>
-                                    </div>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Telefonní spojení</div>
-                                        <div class="contact-value"><a href="tel:+420596237535" style="color:#FFFFFF;">+420 596 237 535</a></div>
-                                    </div>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Elektronická pošta</div>
-                                        <div class="contact-value"><a href="mailto:joros@joros.cz" style="color:#FFFFFF;">joros@joros.cz</a></div>
-                                    </div>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Identifikační údaje</div>
-                                        <div class="contact-value">IČO: 27775402 • DIČ: CZ27775402</div>
-                                    </div>
-                                </div>
+        <section class="section" id="kontakt">
+            <div class="container contact-grid">
+                <div class="contact-card">
+                    <span class="sub-badge">Spojte se s námi</span>
+                    <h2 class="sec-title">Poptávka <span>realizace stavby</span></h2>
+                    <p class="contact-desc">
+                        Kontaktujte naše stavbyvedoucí pro konzultaci vašeho projektu, nacenění výkazu výměr nebo osobní prohlídku stavby.
+                    </p>
+
+                    <div class="contact-items-list">
+                        <div class="c-item">
+                            <div class="c-icon">📍</div>
+                            <div>
+                                <strong>Adresa sídla:</strong><br>
+                                Přibylova 713/15, 719 00 Ostrava - Kunčice
                             </div>
                         </div>
-                        <div>
-                            <a href="https://mapy.cz/zakladni?q=P%C5%99ibylova+713%2F15%2C+719+00+Ostrava+-+Kun%C4%8Dice" target="_blank" rel="noopener" class="map-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Zobrazit na Mapy.cz →</a>
-                        </div>
-                    </div>
-                    <div class="contact-form-wrap">
-                        <h3>Napište nám zprávu</h3>
-                        <p>Vyplňte krátký formulář a naši odborníci vás budou neprodleně kontaktovat.</p>
-                        <form id="contactForm" data-email="joros@joros.cz">
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="formName">Jméno a příjmení / Firma *</label>
-                                    <input type="text" id="formName" class="form-control" required placeholder="Jan Novák">
-                                </div>
-                                <div class="form-group">
-                                    <label for="formPhone">Telefonní číslo *</label>
-                                    <input type="tel" id="formPhone" class="form-control" required placeholder="+420 ...">
-                                </div>
-                                <div class="form-group full">
-                                    <label for="formEmail">E-mailová adresa *</label>
-                                    <input type="email" id="formEmail" class="form-control" required placeholder="vas@email.cz">
-                                </div>
-                                <div class="form-group full">
-                                    <label for="formMessage">Popis vaší poptávky nebo dotazu *</label>
-                                    <textarea id="formMessage" class="form-control" required placeholder="Uveďte podrobnosti zakázky..."></textarea>
-                                </div>
+                        <div class="c-item">
+                            <div class="c-icon">📞</div>
+                            <div>
+                                <strong>Kancelář & Pevná linka:</strong><br>
+                                <a href="tel:+420596237535">+420 596 237 535</a> / +420 596 247 538
                             </div>
-                            <button type="submit" class="btn btn-primary" style="width:100%;">Odeslat nezávaznou poptávku</button>
-                        </form>
+                        </div>
+                        <div class="c-item">
+                            <div class="c-icon">📱</div>
+                            <div>
+                                <strong>Vedení & Stavby (Ing. Roman Žalmánek):</strong><br>
+                                <a href="tel:+420603446171">+420 603 446 171</a>
+                            </div>
+                        </div>
+                        <div class="c-item">
+                            <div class="c-icon">✉️</div>
+                            <div>
+                                <strong>Elektronická pošta:</strong><br>
+                                <a href="mailto:joros@joros.cz">joros@joros.cz</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <div class="contact-form-card">
+                    <h3 class="form-title">Poptávkový formulář</h3>
+                    <form id="jorosForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="formName">Jméno a příjmení / Společnost *</label>
+                                <input type="text" id="formName" required placeholder="Ing. Jan Novák / SVJ Ostrava">
+                            </div>
+                            <div class="form-group">
+                                <label for="formPhone">Telefonní kontakt *</label>
+                                <input type="tel" id="formPhone" required placeholder="+420 777 000 000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="formEmail">E-mailová adresa *</label>
+                            <input type="email" id="formEmail" required placeholder="novak@email.cz">
+                        </div>
+                        <div class="form-group">
+                            <label for="formMessage">Specifikace stavby a požadavky *</label>
+                            <textarea id="formMessage" required rows="5" placeholder="Uveďte předpokládaný rozsah prací, lokalitu stavby, případně zda máte projektovou dokumentaci..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Odeslat nezávaznou poptávku</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                        <div class="form-success" id="formSuccess">
+                            Děkujeme za vaši zprávu. Vaši poptávku jsme přijali a budeme vás kontaktovat do 24 hodin.
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="container map-container-wrap">
+                <div class="map-head">
+                    <span class="map-title">Lokalizace areálu společnosti v Ostravě - Kunčicích</span>
+                    <a href="https://mapy.cz/zakladni?q=P%C5%99ibylova+713%2F15%2C+Ostrava" target="_blank" rel="noopener" class="map-link">Otevřít na Mapy.cz ↗</a>
+                </div>
+                <div id="map" class="interactive-map"></div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <h4>JOROS s.r.o.</h4>
-                    <p>Generální dodávky staveb, inženýrské sítě a rekonstrukce. Profesionální zázemí v Moravskoslezském kraji.</p>
-                    <p style="font-size:0.82rem; color:#64748B;">IČO: 27775402 | DIČ: CZ27775402</p>
-                </div>
-                <div class="footer-col">
-                    <h5>Rychlá navigace</h5>
-                    <ul class="footer-links">
-                        <li><a href="#sluzby">Služby</a></li>
-                        <li><a href="#o-nas">O&nbsp;společnosti</a></li>
-                        <li><a href="#reference">Galerie prací</a></li>
-                        <li><a href="#kontakt">Kontakt</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h5>Kontakt</h5>
-                    <ul class="footer-links">
-                        <li>Přibylova 713/15, 719 00 Ostrava - Kunčice</li>
-                        <li><a href="tel:+420596237535">+420 596 237 535</a></li>
-                        <li><a href="mailto:joros@joros.cz">joros@joros.cz</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h5>Ověření & Lokace</h5>
-                    <ul class="footer-links">
-                        <li><a href="https://mapy.cz/zakladni?q=P%C5%99ibylova+713%2F15%2C+719+00+Ostrava+-+Kun%C4%8Dice" target="_blank" rel="noopener">Kde nás najdete (Mapy.cz)</a></li>
-                        <li><a href="http://joros.cz" target="_blank" rel="noopener">Archiv původního webu</a></li>
-                    </ul>
-                </div>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo-title">JOROS s.r.o.</div>
+                <p>Generální dodavatel inženýrských sítí, kotelen a rekonstrukcí staveb s certifikací ISO 9001:2015.</p>
             </div>
-            <div class="footer-bottom">
-                <div>© 2026 JOROS s.r.o.. Všechna práva vyhrazena.</div>
-                <div>Moderní technologická prezentace připravená k nasazení.</div>
+            <div class="footer-links">
+                <a href="#uvod">Úvod</a>
+                <a href="#o-nas">O&nbsp;společnosti</a>
+                <a href="#reference">Reference</a>
+                <a href="#obory">Specializace</a>
+                <a href="#identifikace">Identifikace</a>
+                <a href="#kontakt">Kontakt</a>
             </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 JOROS s.r.o. Všechna práva vyhrazena. Sídlo: Přibylova 713/15, 719 00 Ostrava - Kunčice.</p>
         </div>
     </footer>
 
-    <div id="lightboxModal" class="lightbox-modal">
-        <button id="lightboxClose" class="lightbox-close" aria-label="Zavřít">×</button>
-        <img id="lightboxImg" class="lightbox-content" src="" alt="Detail">
-    </div>
-
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="scripts/data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

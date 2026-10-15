@@ -3,322 +3,655 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arktis Servis – Klimatizace & Chladicí technika</title>
-    <meta name="description" content="Dodáváme špičkové klimatizace, tepelná čerpadla vzduch-voda a komerční chladicí technologii. Od přesného návrhu přes odbornou instalaci až po záruční a pozáruční servis.">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>Arktis Servis, s.r.o. | Klimatizace, tepelná čerpadla a průmyslové chlazení Ostrava</title>
+    <meta name="description" content="Autorizovaný prodej, montáž a certifikovaný servis klimatizací Daikin, Toshiba, LG a průmyslového chlazení v Moravskoslezském kraji. Havarijní servis 24/7.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="top-bar">
         <div class="container top-bar-inner">
-            <div class="top-info">
-                <span>Prodej, montáž a certifikovaný servis chladicí a klimatizační techniky</span>
+            <div class="top-contacts">
+                <span class="top-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Horní 1634/46, 700 30 Ostrava - Hrabůvka
+                </span>
+                <a href="tel:+420596788888" class="top-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    +420 596 788 888
+                </a>
+                <a href="tel:+420602725379" class="top-item emergency-hotline">
+                    <span class="hotline-badge">24/7 Servis</span>
+                    +420 602 725 379
+                </a>
             </div>
-            <div class="top-contact">
-                <a href="tel:+420596784416" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <span>+420 596 784 416</span></a>
-                <a href="mailto:arktis@arktis-servis.cz" class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> <span>arktis@arktis-servis.cz</span></a>
-                <span class="top-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> <span>Ostrava - Hrabůvka</span></span>
+            <div class="top-auth">
+                <span class="auth-pill">Certifikace F-plyny MŽP</span>
+                <span class="auth-pill">Autorizovaný partner Daikin & Toshiba</span>
             </div>
         </div>
     </div>
 
-    <header class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="brand-logo">
-                <img src="images/logo.svg" alt="Arktis Servis, s.r.o. logo">
+    <header class="navbar" id="navbar">
+        <div class="container nav-wrapper">
+            <a href="#uvod" class="brand-logo">
+                <div class="logo-frost">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07"></path></svg>
+                </div>
                 <div class="logo-text-wrap">
-                    <span class="logo-text">Arktis Servis, s.r.o.</span>
+                    <span class="logo-title">Arktis Servis</span>
                 </div>
             </a>
-            <ul class="nav-links">
-                <li><a href="#sluzby">Služby</a></li>
-                <li><a href="#o-nas">O&nbsp;společnosti</a></li>
-                <li><a href="#reference">Galerie & Reference</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-                <li><a href="#kontakt" class="btn btn-primary nav-cta">Kontaktovat</a></li>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#uvod">Úvod</a></li>
+                <li><a href="#kalkulator">Výkonová kalkulačka</a></li>
+                <li><a href="#technologie">Značky & Modely</a></li>
+                <li><a href="#reseni">Sféry využití</a></li>
+                <li><a href="#servis">Servis & F-plyny</a></li>
+                <li><a href="#galerie">Fotogalerie</a></li>
+                <li><a href="#identifikace">Identifikace</a></li>
+                <li><a href="#kontakt" class="btn btn-primary btn-nav">Poptat chlazení</a></li>
             </ul>
-            <button class="menu-toggle" aria-label="Menu">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Otevřít navigaci">
+                <span></span><span></span><span></span>
             </button>
         </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container hero-grid">
-                <div>
-                    <div class="badge-tag">Autorizovaný prodej a servis klimatizací v Moravskoslezském kraji</div>
-                    <h1 class="hero-title">Perfektní klima pro váš domov, kancelář i průmyslový provoz</h1>
-                    <p class="hero-desc">Dodáváme špičkové klimatizace, tepelná čerpadla vzduch-voda a komerční chladicí technologii. Od přesného návrhu přes odbornou instalaci až po záruční a pozáruční servis.</p>
-                    <div class="hero-actions">
-                        <a href="#kontakt" class="btn btn-primary">Nezávazná poptávka</a>
-                        <a href="#sluzby" class="btn btn-secondary">Přehled služeb</a>
+        <section class="hero-climate" id="uvod">
+            <div class="container hero-center">
+                <div class="hero-dual-switch" id="heroDualSwitch">
+                    <button class="dual-btn active" data-mode="residential">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                        Klimatizace pro Byty & Rodinné domy
+                    </button>
+                    <button class="dual-btn" data-mode="commercial">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                        VRF & Průmyslové chlazení
+                    </button>
+                </div>
+
+                <div class="hero-text-wrap">
+                    <div class="hero-badge-live">
+                        <span class="live-dot"></span>
+                        <span id="heroBadgeText">Autorizovaný prodejce a certifikovaný servis v celém MSK</span>
+                    </div>
+                    <h1 class="hero-title" id="heroTitle">
+                        Špičková klimatizace a tepelná čerpadla <span>s tichým chodem A+++</span>
+                    </h1>
+                    <p class="hero-desc" id="heroDesc">
+                        Dodáváme prémiové klimatizace Daikin, Toshiba a LG pro byty, rodinné domy i komerční sféru. Od přesného výpočtu chladicího výkonu přes čistou montáž bez prachu až po záruční a pozáruční revize.
+                    </p>
+                    <div class="hero-cta-row">
+                        <a href="#kalkulator" class="btn btn-primary">
+                            <span>Spočítat výkon klimatizace</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#technologie" class="btn btn-outline">Prohlédnout modely & značky</a>
                     </div>
                 </div>
-                <div>
-                    <div class="hero-card">
-                        <img src="images/img_001.png" alt="Arktis Servis, s.r.o.">
-                        <div class="hero-card-badge">
-                            <div>
-                                <strong style="display:block; font-size:0.95rem;">Arktis Servis, s.r.o.</strong>
-                                <span style="font-size:0.8rem; color:#94A3B8;">Ověřená kvalita a tradice</span>
+
+                <div class="hero-specs-strip">
+                    <div class="spec-pill-item">
+                        <span class="spec-val">A+++</span>
+                        <span class="spec-lbl">Nejvyšší energetická třída</span>
+                    </div>
+                    <div class="spec-pill-item">
+                        <span class="spec-val">19 dB</span>
+                        <span class="spec-lbl">Extrémně tichý noční režim</span>
+                    </div>
+                    <div class="spec-pill-item">
+                        <span class="spec-val">±0,5 °C</span>
+                        <span class="spec-lbl">Přesná regulace teploty</span>
+                    </div>
+                    <div class="spec-pill-item">
+                        <span class="spec-val">24/7</span>
+                        <span class="spec-lbl">Havarijní výjezdový servis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-calc" id="kalkulator">
+            <div class="container">
+                <div class="section-head text-center">
+                    <span class="sub-badge">Interaktivní inženýrský nástroj</span>
+                    <h2 class="sec-title">Kalkulačka <span>chladicího a topného výkonu</span></h2>
+                    <p class="sec-desc">
+                        Nastavte parametry vaší místnosti. Algoritmus vypočte potřebný chladicí výkon v kW i BTU/h a doporučí nejvhodnější model jednotky.
+                    </p>
+                </div>
+
+                <div class="calc-panel">
+                    <div class="calc-inputs">
+                        <div class="calc-group">
+                            <label class="calc-lbl">1. Typ místnosti / Účel prostoru:</label>
+                            <div class="calc-chips" id="calcRoomChips">
+                                <button class="chip-btn active" data-type="room" data-coef="0.10">Ložnice / Byt</button>
+                                <button class="chip-btn" data-type="office" data-coef="0.12">Kancelář</button>
+                                <button class="chip-btn" data-type="clinic" data-coef="0.13">Ordinace / Čekárna</button>
+                                <button class="chip-btn" data-type="server" data-coef="0.22">Serverovna / IT</button>
+                                <button class="chip-btn" data-type="storage" data-coef="0.16">Chladicí box</button>
                             </div>
-                            <span style="font-size:1.4rem;">✓</span>
+                        </div>
+
+                        <div class="calc-group">
+                            <div class="slider-header">
+                                <label class="calc-lbl">2. Podlahová plocha místnosti:</label>
+                                <span class="slider-display" id="areaDisplay">25 m² (cca 65 m³)</span>
+                            </div>
+                            <input type="range" id="areaSlider" min="10" max="150" value="25" step="5" class="custom-range">
+                        </div>
+
+                        <div class="calc-group">
+                            <label class="calc-lbl">3. Faktory tepelné zátěže (vyberte platné):</label>
+                            <div class="checkbox-row">
+                                <label class="chk-item">
+                                    <input type="checkbox" id="chkSun" checked>
+                                    <span>Jižní / Západní orientace s velkým osluněním (+15%)</span>
+                                </label>
+                                <label class="chk-item">
+                                    <input type="checkbox" id="chkAttic">
+                                    <span>Podkrovní místnost pod střechou (+20%)</span>
+                                </label>
+                                <label class="chk-item">
+                                    <input type="checkbox" id="chkElectronics">
+                                    <span>Vysoká zátěž IT technikou / spotřebiči (+25%)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calc-results-card">
+                        <span class="calc-res-sub">Doporučený výkon jednotky</span>
+                        <div class="power-metric">
+                            <span class="metric-kw" id="outKw">2.9 kW</span>
+                            <span class="metric-btu" id="outBtu">(cca 9 900 BTU/h)</span>
+                        </div>
+                        <div class="calc-recommendation">
+                            <strong>Doporučené certifikované řešení:</strong>
+                            <p id="outModelName">Daikin Perfera / Stylish 3,5 kW nebo Toshiba Daiseikai 9</p>
+                            <div class="rec-tags">
+                                <span>Třída A+++</span>
+                                <span>Flash Streamer filtrace</span>
+                                <span>Tichý chod od 19 dB</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-calc-apply" id="applyCalcBtn">
+                            <span>Poptat tuto konfiguraci</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="technologie">
+            <div class="container">
+                <div class="section-head text-center">
+                    <span class="sub-badge">Autorizované portfolio</span>
+                    <h2 class="sec-title">Prémiové <span>značky a technologické řady</span></h2>
+                    <p class="sec-desc">
+                        Instalujeme výhradně prověřené klimatizační jednotky s garantovanou dostupností originálních náhradních dílů a vysokou spolehlivostí.
+                    </p>
+                </div>
+
+                <div class="tech-tabs-nav" id="techTabsNav">
+                    <button class="tech-tab-btn active" data-tab="daikin">Daikin (Japonsko)</button>
+                    <button class="tech-tab-btn" data-tab="toshiba">Toshiba (Japonsko)</button>
+                    <button class="tech-tab-btn" data-tab="lg">LG Air Purification</button>
+                    <button class="tech-tab-btn" data-tab="industrial">Průmysl & Copeland Scroll</button>
+                </div>
+
+                <div class="tech-tab-content active" id="tab-daikin">
+                    <div class="tech-showcase-grid">
+                        <div class="showcase-img-box">
+                            <img src="images/daikin_stylish.png" alt="Daikin Stylish klimatizace">
+                        </div>
+                        <div class="showcase-info">
+                            <span class="brand-pill">Oficiální autorizace Daikin</span>
+                            <h3 class="tech-model-title">Daikin Ururu Sarara, Stylish & Perfera</h3>
+                            <p class="tech-model-desc">
+                                Špička světového trhu. Technologie Flash Streamer prokazatelně deaktivuje více než 99 % virů a bakterií. Unikátní model Ururu Sarara navíc zvlhčuje a větrá vzduch bez nutnosti doplňovat vodu.
+                            </p>
+                            <div class="spec-bullet-list">
+                                <div class="s-bullet">
+                                    <strong>Čištění apatitem titanu a stříbrem:</strong>
+                                    <span>Odstraňuje pyly, prach a alergeny v reálném čase.</span>
+                                </div>
+                                <div class="s-bullet">
+                                    <strong>Inteligentní termo-snímač:</strong>
+                                    <span>Snímá teplotu podlahy a osob pro rovnoměrnou distribuci chladu/tepla.</span>
+                                </div>
+                                <div class="s-bullet">
+                                    <strong>Výkony od 2,0 do 5,0 kW:</strong>
+                                    <span>Ideální pro prémiové byty, ložnice a moderní novostavby.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-tab-content" id="tab-toshiba" style="display: none;">
+                    <div class="tech-showcase-grid">
+                        <div class="showcase-img-box">
+                            <img src="images/toshiba-haori.jpg" alt="Toshiba Haori a Daiseikai klimatizace">
+                        </div>
+                        <div class="showcase-info">
+                            <span class="brand-pill">Prémiová japonská technologie</span>
+                            <h3 class="tech-model-title">Toshiba Daiseikai 9 & Haori</h3>
+                            <p class="tech-model-desc">
+                                Neuvěřitelně tichý provoz a plazmový elektrostatický filtr, který zachytí i ty nejmenší nečistoty z ovzduší. Model Haori disponuje unikátním textilním vyměnitelným krytem pro dokonalé sladění s interiérem.
+                            </p>
+                            <div class="spec-bullet-list">
+                                <div class="s-bullet">
+                                    <strong>Plazmový ionizátor a filtr:</strong>
+                                    <span>Absorbuje kouř, pachy a mikroskopické částice.</span>
+                                </div>
+                                <div class="s-bullet">
+                                    <strong>3D směrování vzduchu:</strong>
+                                    <span>Nezávisle ovládané lamely pro proudění bez nepříjemného průvanu.</span>
+                                </div>
+                                <div class="s-bullet">
+                                    <strong>Výkonové řady 2,5 kW až 4,5 kW:</strong>
+                                    <span>Nejvyšší energetická třída chlazení i topení A+++.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-tab-content" id="tab-lg" style="display: none;">
+                    <div class="tech-showcase-grid">
+                        <div class="showcase-img-box">
+                            <img src="images/LG-Artcool-Gallery-special.jpeg" alt="LG Artcool Gallery klimatizace">
+                        </div>
+                        <div class="showcase-info">
+                            <span class="brand-pill">Design & Čištění vzduchu</span>
+                            <h3 class="tech-model-title">LG Air Purification & Artcool Gallery</h3>
+                            <p class="tech-model-desc">
+                                Kombinace účinné klimatizace s vestavěnou plnohodnotnou čističkou vzduchu. Model Artcool Gallery funguje jako obrazový rám, do kterého vložíte vlastní fotografii či grafiku.
+                            </p>
+                            <div class="spec-bullet-list">
+                                <div class="s-bullet">
+                                    <strong>Duální invertorový kompresor:</strong>
+                                    <span>Rychlé dosažení požadované teploty a 10 let záruky na kompresor.</span>
+                                </div>
+                                <div class="s-bullet">
+                                    <strong>PM 1.0 senzor prachu:</strong>
+                                    <span>Barevná LED indikace kvality vzduchu v místnosti.</span>
+                                </div>
+                                <div class="s-bullet">
+                                    <strong>Iontový difuzér:</strong>
+                                    <span>Generuje 5 milionů iontů pro sterilizaci ovzduší.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-tab-content" id="tab-industrial" style="display: none;">
+                    <div class="tech-showcase-grid">
+                        <div class="showcase-img-box">
+                            <img src="images/Chlazeni_technologickych_kontejneru-e1742753491277.jpg" alt="Průmyslové chlazení a technologické kontejnery">
+                        </div>
+                        <div class="showcase-info">
+                            <span class="brand-pill">Průmyslové chladicí celky</span>
+                            <h3 class="tech-model-title">Copeland Digital Scroll & Chillery</h3>
+                            <p class="tech-model-desc">
+                                Plynulá regulace chladicího výkonu v rozmezí 10 % až 100 %. Výstavba mrazicích a chladicích boxů pro masný průmysl, velkosklady, farmacii a přesné chlazení kapalin.
+                            </p>
+                            <div class="spec-bullet-list">
+                                <div class="s-bullet">
+                                    <strong>Digital Scroll technologie:</strong>
+                                    <span>Až 30% úspora elektrické energie oproti klasickým kompresorům.</span>
+                                </div>
+                                <div class="s-bullet">
+                                    <strong>Chlazení kapalin & serveroven:</strong>
+                                    <span>Tolerance teploty ±0,5 °C s mikroprocesorovým řízením.</span>
+                                </div>
+                                <div class="s-bullet">
+                                    <strong>Ekologická chladiva R32 a R454C:</strong>
+                                    <span>Plný soulad s evropskou směrnicí o F-plynech.</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="stats-section">
-            <div class="container stats-grid">
-                
-            <div class="stat-item">
-                <h3>20+</h3>
-                <p>Let praxe v oboru chlazení</p>
-            </div>
-            <div class="stat-item">
-                <h3>1200+</h3>
-                <p>Namontovaných klimatizací</p>
-            </div>
-            <div class="stat-item">
-                <h3>24/7</h3>
-                <p>Havarijní servisní podpora</p>
-            </div>
-            <div class="stat-item">
-                <h3>100%</h3>
-                <p>Certifikace chladivových plynů</p>
-            </div>
-            </div>
-        </section>
-
-        <section id="sluzby" class="section section-bg">
+        <section class="section section-dark" id="reseni">
             <div class="container">
-                <div class="section-head">
-                    <span class="section-tag">Komplexní portfolio služeb</span>
-                    <h2 class="section-title">Odborné služby na nejvyšší technologické úrovni</h2>
-                    <p class="section-subtitle">Přizpůsobujeme řešení individuálním požadavkům každého zákazníka s důrazem na kvalitu a dlouhou životnost.</p>
+                <div class="section-head text-center">
+                    <span class="sub-badge">Oborová řešení</span>
+                    <h2 class="sec-title">Kde naše <span>chladicí systémy pracují</span></h2>
                 </div>
-                <div class="services-grid">
-                    
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
-                <h3>Klimatizace pro byty a rodinné domy</h3>
-                <p>Tiché nástěnné a multi-split jednotky prémiových značek s vysokou energetickou třídou A+++ a filtrací alergenů.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Komerční klimatizace a VRF systémy</h3>
-                <p>Komplexní řešení chlazení a topení pro kancelářské budovy, hotely, serverovny a nákupní centra s centrálním řízením.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
-                <h3>Tepelná čerpadla vzduch-voda</h3>
-                <p>Ekologické a úsporné vytápění a ohřev užitkové vody pro novostavby i rekonstrukce s možností dotace Nová zelená úsporám.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Průmyslové chlazení & chladicí boxy</h3>
-                <p>Výstavba chladicích a mrazicích místností pro gastronomii, řeznictví, sklady potravin a farmaceutické provozy.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
-                <h3>Pravidelný servis & desinfekce</h3>
-                <p>Autorizované tlakové zkoušky těsnosti chladivového okruhu, antibakteriální čištění výparníků a diagnostika kompresorů.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                <h3>Havarijní servis 24/7</h3>
-                <p>Rychlý výjezd servisních techniků při výpadku chlazení v restauracích, potravinách či serverovnách s dostupností náhradních dílů.</p>
-                <a href="#kontakt" class="top-link" style="color:var(--accent); font-weight:700; font-size:0.88rem;">Nezávazně poptat →</a>
-            </div>
-                </div>
-            </div>
-        </section>
 
-        <section id="o-nas" class="section">
-            <div class="container about-grid">
-                <div>
-                    <span class="section-tag">Zázemí & Zkušenosti</span>
-                    <h2 class="section-title">Tradice, moderní technologie a poctivé řemeslo</h2>
-                    <p class="about-text">Společnost Arktis Servis, s.r.o. zajišťuje komplexní dodávky a servis chladicí a klimatizační techniky na celém území Moravskoslezského kraje. Všichni naši technici jsou držiteli certifikátu Ministerstva životního prostředí pro nakládání s fluorovanými skleníkovými plyny. Zaručujeme bezchybnou montáž, precizní začištění a dlouhou životnost zařízení.</p>
-                    <ul class="about-features">
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Individuální technické poradenství a cenová kalkulace</li>
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Vlastní kapacity, zkušení řemeslníci a špičkové vybavení</li>
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Striktní dodržování norem ČSN a technologických předpisů</li>
-                        <li class="about-feature"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Záruční i pozáruční servis a rychlá reakční doba</li>
-                    </ul>
-                    <a href="#kontakt" class="btn btn-primary">Kontaktovat specialisty</a>
-                </div>
-                <div>
-                    <div class="hero-card">
-                        <img src="images/img_001.png" alt="Arktis Servis, s.r.o.">
+                <div class="app-cards-grid">
+                    <div class="app-card">
+                        <div class="app-icon">🏡</div>
+                        <h3 class="app-title">Byty & Rodinné domy</h3>
+                        <p class="app-text">Tiché nástěnné a multi-split jednotky, které v létě chladí a v přechodném období úsporně vytápějí s nízkou spotřebou.</p>
+                        <ul class="app-features">
+                            <li>Režim tichého spánku 19 dB</li>
+                            <li>Ovládání přes Wi-Fi a mobil</li>
+                            <li>Tepelná čerpadla vzduch-voda</li>
+                        </ul>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-icon">🏢</div>
+                        <h3 class="app-title">Kanceláře & VRF systémy</h3>
+                        <p class="app-text">Centrální klimatizační soustavy s proměnným průtokem chladiva pro administrativní budovy, banky a coworkingy.</p>
+                        <ul class="app-features">
+                            <li>Nezávislá regulace každé místnosti</li>
+                            <li>Rekuperace odpadního tepla</li>
+                            <li>Integrace do MaR / BMS budov</li>
+                        </ul>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-icon">🩺</div>
+                        <h3 class="app-title">Ordinace & Kliniky</h3>
+                        <p class="app-text">Speciální filtrace pro lékaře, zubaře a veterinární kliniky. Odstraňování aerosolů a dezinfekce ovzduší v ordinacích i čekárnách.</p>
+                        <ul class="app-features">
+                            <li>Flash Streamer a plazmový filtr</li>
+                            <li>Plynulé proudění bez průvanu</li>
+                            <li>Splňuje hygienické standardy</li>
+                        </ul>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-icon">🖥️</div>
+                        <h3 class="app-title">Serverovny & Datacentra</h3>
+                        <p class="app-text">Přesná klimatizace s nepřetržitým celoročním provozem 24/7/365, redundantním jištěním a řízením vlhkosti.</p>
+                        <ul class="app-features">
+                            <li>Teplotní diference ±0,5 °C</li>
+                            <li>Dálkový monitoring a alarmy</li>
+                            <li>Záložní N+1 systémy</li>
+                        </ul>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-icon">🥩</div>
+                        <h3 class="app-title">Chladírny & Mrazírny</h3>
+                        <p class="app-text">Stavba chladicích boxů z izolačních PUR panelů, dveře pro gastronomii, řeznictví, sklady potravin a květinářství.</p>
+                        <ul class="app-features">
+                            <li>Teploty od +10 °C do -25 °C</li>
+                            <li>Hygienické nerezové povrchy</li>
+                            <li>Digitální záznam teplot HACCP</li>
+                        </ul>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-icon">🚨</div>
+                        <h3 class="app-title">Havarijní servis 24/7</h3>
+                        <p class="app-text">Nepřetržitá pohotovostní služba pro smluvní partnery. Rychlý dojezd k poruchám chlazení potravin či technologických serverů.</p>
+                        <ul class="app-features">
+                            <li>Pohotovostní linka 602 725 379</li>
+                            <li>Skladem kompresory a chladiva</li>
+                            <li>Zajištění náhradního chlazení</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="reference" class="section section-bg">
-            <div class="container">
-                <div class="section-head">
-                    <span class="section-tag">Fotogalerie prací</span>
-                    <h2 class="section-title">Ukázky našich realizací a technického zázemí</h2>
-                    <p class="section-subtitle">Kliknutím na fotografii otevřete náhled ve vysokém rozlišení.</p>
+        <section class="section" id="servis">
+            <div class="container f-gas-grid">
+                <div class="f-gas-text">
+                    <span class="sub-badge">Zákonná legislativa & Bezpečnost</span>
+                    <h2 class="sec-title">Certifikované revize <span>F-plynů a úniků chladiv</span></h2>
+                    <p class="about-p">
+                        Provozovatelé chladicích zařízení s obsahem fluorovaných skleníkových plynů mají ze zákona č. 73/2012 Sb. a nařízení EP č. 517/2014 povinnost vést evidenční knihu a provádět pravidelné kontroly těsnosti.
+                    </p>
+                    <p class="about-p">
+                        Všichni naši technici jsou držiteli certifikátu Ministerstva životního prostředí pro nakládání s F-plyny I. kategorie bez omezení. Zajišťujeme kompletní legislativní servis pro firmy i instituce.
+                    </p>
+                    <div class="f-gas-checks">
+                        <div class="chk-box">
+                            <strong>✓ Tlakové zkoušky dusíkem</strong>
+                            <span>Ověření pevnosti a těsnosti potrubních tras po montáži i opravách.</span>
+                        </div>
+                        <div class="chk-box">
+                            <strong>✓ Vedení evidenčních knih</strong>
+                            <span>Kompletní elektronická i papírová evidence náplní chladiva pro inspekci ČIŽP.</span>
+                        </div>
+                        <div class="chk-box">
+                            <strong>✓ Antibakteriální dezinfekce</strong>
+                            <span>Čištění lamel výparníků a dezinfekce van kondenzátu proti plísním a legionelle.</span>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="f-gas-card">
+                    <div class="mzp-badge-card">
+                        <div class="cert-shield">🛡️</div>
+                        <h3>Certifikovaný servis MŽP</h3>
+                        <p>Osvědčení pro revize chladicích okruhů a tepelných čerpadel v plném rozsahu.</p>
+                        <div class="cert-specs">
+                            <div class="c-spec-row">
+                                <span>Evidenční oprávnění:</span>
+                                <strong>Kategorie I (bez limitu kg)</strong>
+                            </div>
+                            <div class="c-spec-row">
+                                <span>Platnost pro chladiva:</span>
+                                <strong>R32, R410A, R134a, R404A, R454C</strong>
+                            </div>
+                            <div class="c-spec-row">
+                                <span>Působnost:</span>
+                                <strong>Ostrava, Opava, Karviná a celý MSK</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark" id="galerie">
+            <div class="container">
+                <div class="section-head text-center">
+                    <span class="sub-badge">Fotodokumentace</span>
+                    <h2 class="sec-title">Ukázky <span>instalací a chladicí techniky</span></h2>
+                    <p class="sec-desc">
+                        Reálné snímky rezidenčních i komerčních montáží klimatizací, VRF systémů a chladicích jednotek.
+                    </p>
+                </div>
+
                 <div class="gallery-grid">
-                    
-            <div class="gallery-item">
-                <img src="images/img_001.png" alt="Arktis Servis, s.r.o. reference 1">
-                <div class="gallery-overlay"><span>Ověřená realizace Arktis Servis, s.r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_002.jpg" alt="Arktis Servis, s.r.o. reference 2">
-                <div class="gallery-overlay"><span>Ověřená realizace Arktis Servis, s.r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_003.png" alt="Arktis Servis, s.r.o. reference 3">
-                <div class="gallery-overlay"><span>Ověřená realizace Arktis Servis, s.r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_004.png" alt="Arktis Servis, s.r.o. reference 4">
-                <div class="gallery-overlay"><span>Ověřená realizace Arktis Servis, s.r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_005.png" alt="Arktis Servis, s.r.o. reference 5">
-                <div class="gallery-overlay"><span>Ověřená realizace Arktis Servis, s.r.o.</span></div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/img_006.png" alt="Arktis Servis, s.r.o. reference 6">
-                <div class="gallery-overlay"><span>Ověřená realizace Arktis Servis, s.r.o.</span></div>
-            </div>
+                    <div class="gal-item">
+                        <img src="images/daikin_stylish.png" alt="Instalace Daikin Stylish" loading="lazy">
+                        <div class="gal-overlay">
+                            <span>Daikin Stylish – Bytová instalace</span>
+                        </div>
+                    </div>
+                    <div class="gal-item">
+                        <img src="images/wrf-systemy.png" alt="VRF klimatizační systém budovy" loading="lazy">
+                        <div class="gal-overlay">
+                            <span>VRF centrální chlazení administrativní budovy</span>
+                        </div>
+                    </div>
+                    <div class="gal-item">
+                        <img src="images/Tichy-kondenzator-400x250.jpg" alt="Tichá venkovní kondenzační jednotka" loading="lazy">
+                        <div class="gal-overlay">
+                            <span>Tichá venkovní jednotka s antivibračním uložením</span>
+                        </div>
+                    </div>
+                    <div class="gal-item">
+                        <img src="images/abvet-bohumin-dynamic-awx16-4-400x250.webp" alt="Tepelné čerpadlo instalace" loading="lazy">
+                        <div class="gal-overlay">
+                            <span>Tepelné čerpadlo – Komerční objekt Bohumín</span>
+                        </div>
+                    </div>
+                    <div class="gal-item">
+                        <img src="images/Chlazeni_technologickych_kontejneru-e1742753491277.jpg" alt="Chlazení technologických kontejnerů" loading="lazy">
+                        <div class="gal-overlay">
+                            <span>Chlazení technologického IT kontejneru</span>
+                        </div>
+                    </div>
+                    <div class="gal-item">
+                        <img src="images/klimatizace_s_tepelnym_cerpadlem_Ostrava-300x169.jpg" alt="Klimatizace s tepelným čerpadlem Ostrava" loading="lazy">
+                        <div class="gal-overlay">
+                            <span>Klimatizace s funkcí tepelného čerpadla</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="kontakt" class="section">
+        <section class="section" id="identifikace">
             <div class="container">
-                <div class="contact-box">
-                    <div class="contact-info">
-                        <div>
-                            <h3>Kontaktní informace</h3>
-                            <p>Jsme vám k dispozici pro technické konzultace i zpracování nezávazné nabídky.</p>
-                            <div class="contact-rows">
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Sídlo společnosti</div>
-                                        <div class="contact-value">Kpt. Vajdy 3047/20, 700 30 Ostrava - Zábřeh</div>
-                                    </div>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Telefonní spojení</div>
-                                        <div class="contact-value"><a href="tel:+420596784416" style="color:#FFFFFF;">+420 596 784 416</a></div>
-                                    </div>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Elektronická pošta</div>
-                                        <div class="contact-value"><a href="mailto:arktis@arktis-servis.cz" style="color:#FFFFFF;">arktis@arktis-servis.cz</a></div>
-                                    </div>
-                                </div>
-                                <div class="contact-row">
-                                    <div class="contact-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                                    <div>
-                                        <div class="contact-label">Identifikační údaje</div>
-                                        <div class="contact-value">IČO: 06576443 • DIČ: CZ06576443</div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="section-head text-center">
+                    <span class="sub-badge">Oficiální informace</span>
+                    <h2 class="sec-title">Fakturační a <span>firemní údaje</span></h2>
+                </div>
+
+                <div class="info-card-panel">
+                    <div class="data-grid">
+                        <div class="data-item">
+                            <span class="data-lbl">Obchodní jméno:</span>
+                            <span class="data-val">Arktis Servis, s.r.o.</span>
                         </div>
-                        <div>
-                            <a href="https://mapy.cz/zakladni?q=Kpt.+Vajdy+3047%2F20%2C+700+30+Ostrava+-+Z%C3%A1b%C5%99eh" target="_blank" rel="noopener" class="map-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Zobrazit na Mapy.cz →</a>
+                        <div class="data-item">
+                            <span class="data-lbl">Sídlo společnosti:</span>
+                            <span class="data-val">Horní 1634/46, 700 30 Ostrava - Hrabůvka</span>
                         </div>
-                    </div>
-                    <div class="contact-form-wrap">
-                        <h3>Napište nám zprávu</h3>
-                        <p>Vyplňte krátký formulář a naši odborníci vás budou neprodleně kontaktovat.</p>
-                        <form id="contactForm" data-email="arktis@arktis-servis.cz">
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="formName">Jméno a příjmení / Firma *</label>
-                                    <input type="text" id="formName" class="form-control" required placeholder="Jan Novák">
-                                </div>
-                                <div class="form-group">
-                                    <label for="formPhone">Telefonní číslo *</label>
-                                    <input type="tel" id="formPhone" class="form-control" required placeholder="+420 ...">
-                                </div>
-                                <div class="form-group full">
-                                    <label for="formEmail">E-mailová adresa *</label>
-                                    <input type="email" id="formEmail" class="form-control" required placeholder="vas@email.cz">
-                                </div>
-                                <div class="form-group full">
-                                    <label for="formMessage">Popis vaší poptávky nebo dotazu *</label>
-                                    <textarea id="formMessage" class="form-control" required placeholder="Uveďte podrobnosti zakázky..."></textarea>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary" style="width:100%;">Odeslat nezávaznou poptávku</button>
-                        </form>
+                        <div class="data-item">
+                            <span class="data-lbl">IČO:</span>
+                            <span class="data-val">
+                                25895788
+                                <button class="copy-btn" data-copy="25895788" title="Kopírovat IČO">Kopírovat</button>
+                            </span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">DIČ:</span>
+                            <span class="data-val">
+                                CZ25895788
+                                <button class="copy-btn" data-copy="CZ25895788" title="Kopírovat DIČ">Kopírovat</button>
+                            </span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Zápis v obchodním rejstříku:</span>
+                            <span class="data-val">Krajský soud v Ostravě, oddíl C</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-lbl">Havarijní dispečink:</span>
+                            <span class="data-val">+420 602 725 379</span>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="section section-dark" id="kontakt">
+            <div class="container contact-grid">
+                <div class="contact-info-card">
+                    <span class="sub-badge">Přímý kontakt</span>
+                    <h2 class="sec-title">Nezávazná poptávka <span>klimatizace či servisu</span></h2>
+                    <p class="contact-desc">
+                        Napište nám nebo zavolejte. Rádi přijedeme na nezávaznou prohlídku vašeho bytu, kanceláře nebo provozu a navrhneme optimální výkon.
+                    </p>
+
+                    <div class="c-item-row">
+                        <div class="c-ico">📍</div>
+                        <div>
+                            <strong>Adresa provozovny a skladu:</strong><br>
+                            Horní 1634/46, 700 30 Ostrava - Hrabůvka
+                        </div>
+                    </div>
+                    <div class="c-item-row">
+                        <div class="c-ico">📞</div>
+                        <div>
+                            <strong>Kancelář & Obchod:</strong><br>
+                            <a href="tel:+420596788888">+420 596 788 888</a>
+                        </div>
+                    </div>
+                    <div class="c-item-row">
+                        <div class="c-ico">🚨</div>
+                        <div>
+                            <strong>Havarijní servis 24/7:</strong><br>
+                            <a href="tel:+420602725379" style="color: #38BDF8; font-weight: 700;">+420 602 725 379</a>
+                        </div>
+                    </div>
+                    <div class="c-item-row">
+                        <div class="c-ico">✉️</div>
+                        <div>
+                            <strong>E-mail pro poptávky:</strong><br>
+                            <a href="mailto:info@arktis-servis.cz">info@arktis-servis.cz</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap">
+                    <h3 class="form-card-title">Poptávkový formulář chlazení</h3>
+                    <form id="arktisForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="aName">Jméno a příjmení / Firma *</label>
+                                <input type="text" id="aName" required placeholder="Jan Novák / Společnost s.r.o.">
+                            </div>
+                            <div class="form-group">
+                                <label for="aPhone">Telefonní kontakt *</label>
+                                <input type="tel" id="aPhone" required placeholder="+420 777 000 000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="aEmail">Váš e-mail *</label>
+                            <input type="email" id="aEmail" required placeholder="novak@firma.cz">
+                        </div>
+                        <div class="form-group">
+                            <label for="aMessage">Požadavky a specifikace *</label>
+                            <textarea id="aMessage" required rows="5" placeholder="Uveďte typ prostoru, počet místností, přibližnou plochu nebo požadovaný termín montáže..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Odeslat poptávku technikům</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                        <div class="form-success" id="arktisSuccess">
+                            Děkujeme za poptávku. Zprávu jsme přijali a naši certifikovaní technici vás budou kontaktovat.
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="container map-container-wrap">
+                <div class="map-head">
+                    <span class="map-title">Sídlo a servisní středisko: Horní 1634/46, Ostrava - Hrabůvka</span>
+                    <a href="https://mapy.cz/zakladni?q=Horn%C3%AD+1634%2F46%2C+Ostrava" target="_blank" rel="noopener" class="map-link">Otevřít na Mapy.cz ↗</a>
+                </div>
+                <div id="map" class="interactive-map"></div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <h4>Arktis Servis, s.r.o.</h4>
-                    <p>Prodej, montáž a certifikovaný servis chladicí a klimatizační techniky. Profesionální zázemí v Moravskoslezském kraji.</p>
-                    <p style="font-size:0.82rem; color:#64748B;">IČO: 06576443 | DIČ: CZ06576443</p>
-                </div>
-                <div class="footer-col">
-                    <h5>Rychlá navigace</h5>
-                    <ul class="footer-links">
-                        <li><a href="#sluzby">Služby</a></li>
-                        <li><a href="#o-nas">O&nbsp;společnosti</a></li>
-                        <li><a href="#reference">Galerie prací</a></li>
-                        <li><a href="#kontakt">Kontakt</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h5>Kontakt</h5>
-                    <ul class="footer-links">
-                        <li>Kpt. Vajdy 3047/20, 700 30 Ostrava - Zábřeh</li>
-                        <li><a href="tel:+420596784416">+420 596 784 416</a></li>
-                        <li><a href="mailto:arktis@arktis-servis.cz">arktis@arktis-servis.cz</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h5>Ověření & Lokace</h5>
-                    <ul class="footer-links">
-                        <li><a href="https://mapy.cz/zakladni?q=Kpt.+Vajdy+3047%2F20%2C+700+30+Ostrava+-+Z%C3%A1b%C5%99eh" target="_blank" rel="noopener">Kde nás najdete (Mapy.cz)</a></li>
-                        <li><a href="http://arktis-servis.cz" target="_blank" rel="noopener">Archiv původního webu</a></li>
-                    </ul>
-                </div>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo-title">Arktis Servis, s.r.o.</div>
+                <p>Autorizovaný dodavatel a certifikovaný servis klimatizací Daikin, Toshiba, LG a průmyslového chlazení.</p>
             </div>
-            <div class="footer-bottom">
-                <div>© 2026 Arktis Servis, s.r.o.. Všechna práva vyhrazena.</div>
-                <div>Moderní technologická prezentace připravená k nasazení.</div>
+            <div class="footer-links">
+                <a href="#uvod">Úvod</a>
+                <a href="#kalkulator">Kalkulačka výkonu</a>
+                <a href="#technologie">Značky</a>
+                <a href="#reseni">Sféry</a>
+                <a href="#servis">F-plyny</a>
+                <a href="#kontakt">Kontakt</a>
             </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Arktis Servis, s.r.o. Sídlo: Horní 1634/46, 700 30 Ostrava - Hrabůvka. Všechna práva vyhrazena.</p>
         </div>
     </footer>
 
-    <div id="lightboxModal" class="lightbox-modal">
-        <button id="lightboxClose" class="lightbox-close" aria-label="Zavřít">×</button>
-        <img id="lightboxImg" class="lightbox-content" src="" alt="Detail">
-    </div>
-
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="script.js"></script>
 </body>
 </html>
