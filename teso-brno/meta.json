@@ -1,0 +1,39 @@
+{
+  "slug": "teso-brno",
+  "firma": "TESO - technický servis obchodu, spol. s r.o.",
+  "ico": "00212717",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Autorizované měření emisí, pachových látek a rozptylové studie ovzduší",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://tesobrno.cz",
+  "email": "teso@tesobrno.cz",
+  "prodejni_body": [
+    "Akreditovaná zkušební laboratoř a autorizace MŽP ČR pro měření emisí",
+    "Vlastní olfaktometrická laboratoř pro přesné měření pachových látek",
+    "Zpracování rozptylových studií a odborných posudků k povolení staveb"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes protokol HTTP bez šifrování",
+    "Chybějící mobilní optimalizace (absence meta viewport, rozpad na telefonu)",
+    "Zastaralá kostra XHTML 1.0 Strict s archaickým pevným layoutem",
+    "Statický přehled služeb bez interaktivního technického katalogu parametrů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Interaktivní technický katalog měřicích metod s detailními modály a tabulkami",
+    "Kalkulátor orientačního rozsahu autorizovaného měření a rozptylových studií",
+    "Předvyplněný poptávkový formulář pro okamžitou specifikaci emisních zdrojů",
+    "Ověřený Mapy.cz špendlík na sídlo na Cacovické ulici v Brně-Husovicích",
+    "Plná mobilní responzivita a moderní typografie s nulovým přetečením"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1991,
+    "zamestnanci": "6-9",
+    "sidlo": "Cacovická 659/44, Husovice, 614 00 Brno",
+    "polozky_katalogu": 4
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

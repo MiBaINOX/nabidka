@@ -1,0 +1,39 @@
+{
+  "slug": "kolmek",
+  "firma": "KOLMEK SPOL. S R.O.",
+  "ico": "00558036",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba a montáž obchodního zařízení, regálové systémy, chladicí nábytek a kovovýroba",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://kolmek.cz",
+  "email": "kolmek@kolmek.cz",
+  "prodejni_body": [
+    "Vlastní strojírenská výroba a montáž obchodních regálů a kovodílů",
+    "Komplexní vybavení prodejen od nákupních vozíků po pokladní zóny",
+    "Certifikovaný chladicí a mrazicí nábytek pro moderní supermarkety"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes protokol HTTP bez šifrování",
+    "Chybějící mobilní optimalizace (absence meta viewport, rozpad na telefonu)",
+    "Zastaralé kódování znaků windows-1250 a archaický tabulkový layout z roku 2000",
+    "Statická prezentace bez interaktivního konfigurátoru prodejního vybavení"
+  ],
+  "vylepseni_noveho_webu": [
+    "Interaktivní modulární katalog obchodního vybavení s detailními technickými listy",
+    "Kalkulátor orientačního počtu regálových modulů a pokladních zón dle plochy prodejny",
+    "Předvyplněný poptávkový formulář pro okamžitou kalkulaci vybavení provozovny",
+    "Ověřený Mapy.cz špendlík na sídlo na Hasičské ulici v Brně-Tuřanech",
+    "Plně responzivní industriální design přizpůsobený pro mobilní zařízení"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1991,
+    "zamestnanci": "10-19",
+    "sidlo": "Hasičská 811/14, Tuřany, 620 00 Brno",
+    "polozky_katalogu": 4
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

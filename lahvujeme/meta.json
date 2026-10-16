@@ -1,0 +1,39 @@
+{
+  "slug": "lahvujeme",
+  "firma": "Lahvujeme, s.r.o.",
+  "ico": "01383639",
+  "obec": "Dolní Dunajovice",
+  "okres": "Břeclav",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Mobilní lahvování vína, mikrofiltrace, etiketování a enologické služby",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://lahvujeme.cz",
+  "email": "info@lahvujeme.cz",
+  "prodejni_body": [
+    "Pojízdná lahvovací linka přímo u vašeho vinařství s výkonem 2 500 lahví/h",
+    "Třífázová sterilní mikrofiltrace a inertizace dusíkem před i po plnění",
+    "Aplikace korků i BVS šroubových uzávěrů s přesným nanesením etiket"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes protokol HTTP bez šifrování",
+    "Chybějící mobilní optimalizace (absence meta viewport, nutné horizontální rolování)",
+    "Zastaralá kostra XHTML 1.0 s neaktuální grafikou z roku 2013",
+    "Statické texty bez interaktivního plánovače kapacity lahvování pro vinaře"
+  ],
+  "vylepseni_noveho_webu": [
+    "Interaktivní technologický katalog linky s podrobnými specifikacemi a modály",
+    "Kalkulátor orientační délky lahvování a doporučeného počtu pracovníků",
+    "Předvyplněný poptávkový formulář pro okamžitou rezervaci termínu linky",
+    "Ověřený Mapy.cz špendlík na sídlo na Hlavní ulici v Dolních Dunajovicích",
+    "Moderní technologický design Tech & Precision se 100% mobilní odezvou"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "zamestnanci": "1-5",
+    "sidlo": "Hlavní 139, 691 85 Dolní Dunajovice",
+    "polozky_katalogu": 4
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

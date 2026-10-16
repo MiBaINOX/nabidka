@@ -1,0 +1,262 @@
+[
+  {
+    "id": "regaly-obchodni",
+    "cat": "regaly",
+    "cat_name": "Obchodní regálové systémy",
+    "title": "Kovové přístěnné, oboustranné a gondolové regály",
+    "perex": "Modulární ocelové regálové sestavy pro supermarkety, prodejny potravin, drogerie i velkoobchody s vysokou nosností polic.",
+    "img": "assets/img_02.jpg",
+    "badge": "Modulární řada KOLMEK",
+    "specs_preview": "Moduly 665, 1000 a 1250 mm • Nosnost polic až 220 kg",
+    "full_desc": "KOLMEK SPOL. S R.O. je tradičním výrobcem a dodavatelem certifikovaného kovového zařízení pro maloobchodní a velkoobchodní sítě. Naše regály se vyznačují robustním sloupkem z válcované oceli, perforovanými i plnými zadními panely a variabilním sklonem polic s cenovkovými lištami.",
+    "models": [
+      {
+        "name": "Přístěnné regály",
+        "desc": "Jednostranné regály pro obvodové zdi prodejen s výškami 1400 až 2600 mm"
+      },
+      {
+        "name": "Gondolové oboustranné regály",
+        "desc": "Středové regálové sestavy pro vytvoření uliček s koncovými zaoblenými čely"
+      },
+      {
+        "name": "Zátěžové regály pro nápoje",
+        "desc": "Zesílené konzoly s nosností až 220 kg na polici pro přepravky a balené vody"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Modul šířky [mm]",
+        "Hloubka police [mm]",
+        "Max. nosnost police",
+        "Typ zadního panelu"
+      ],
+      "rows": [
+        [
+          "665 mm",
+          "300, 400, 500, 600",
+          "160 kg",
+          "Plný ocelový plech / děrovaný"
+        ],
+        [
+          "1 000 mm",
+          "300, 400, 500, 600, 700",
+          "200 kg",
+          "Plný, drátěný, lamelový"
+        ],
+        [
+          "1 250 mm",
+          "400, 500, 600, 700",
+          "220 kg",
+          "Zesílená ocelová záda"
+        ],
+        [
+          "1 330 mm (speciál)",
+          "500, 600, 700",
+          "250 kg",
+          "Zátěžová průmyslová záda"
+        ]
+      ]
+    },
+    "features": [
+      "Vysoce odolná povrchová úprava práškovým komaxitem dle vzorníku RAL",
+      "Snadné přestavení polic bez nutnosti použití montážního nářadí",
+      "Kompletní příslušenství: dělítka zboží, přední zarážky, háky a cenovky",
+      "Zaměření interiéru prodejny a 3D dispoziční návrh rozmístění zdarma"
+    ]
+  },
+  {
+    "id": "pokladni-boxy",
+    "cat": "boxy",
+    "cat_name": "Pokladní zóny a boxy",
+    "title": "Ergonomické pokladní boxy s pásovým dopravníkem",
+    "perex": "Moderní pokladní stoly pro samoobslužné prodejny i diskontní řetězce s integrovaným pásem, fotobuňkou a přípravou pro váhoskenery.",
+    "img": "assets/img_04.jpg",
+    "badge": "Ergonomie & Rychlost",
+    "specs_preview": "Délky pásu 1200 až 2800 mm • Optické fotobuňky • Nerezové vany",
+    "full_desc": "Vyrábíme pokladní boxy splňující nejpřísnější ergonomické požadavky pro obsluhu i zákazníky. Konstrukce z nerezové oceli a odolných plastových kompozitů zaručuje mnohaletou životnost i v nejvytíženějších supermarketech. Vany na zboží jsou opatřeny nerezovými skluzy s možností elektrické výhybky.",
+    "models": [
+      {
+        "name": "Kompaktní box bez pásu",
+        "desc": "Pro menší prodejny potravin, čerpací stanice a specializované obchody"
+      },
+      {
+        "name": "Standardní box s dopravníkem",
+        "desc": "Pro supermarkety s délkou pásu 1500–2200 mm a nožním spínačem posunu"
+      },
+      {
+        "name": "Tandemový dvojbox",
+        "desc": "Dva integrované pokladní prostory šetřící plochu prodejny"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Typ boxu",
+        "Celková délka [mm]",
+        "Délka pásu [mm]",
+        "Pohon pásu"
+      ],
+      "rows": [
+        [
+          "Kompaktní MINI",
+          "1 600 mm",
+          "Bez pásu / pevná vana",
+          "Statický nerezový stůl"
+        ],
+        [
+          "Standard MIDI",
+          "2 400 mm",
+          "1 500 mm",
+          "Válečkový motor 230V s plynulým rozběhem"
+        ],
+        [
+          "Velkokapacitní MAXI",
+          "3 200 mm",
+          "2 200 mm",
+          "Dvourychlostní válec s fotosenzorem"
+        ],
+        [
+          "Tandem DUO",
+          "2 800 mm",
+          "1 800 mm (2x)",
+          "Nezávislé motory pro každou pokladnu"
+        ]
+      ]
+    },
+    "features": [
+      "Integrovaná ochrana plexisklem proti nárazům nákupních vozíků",
+      "Příprava pro instalaci fiskálních tiskáren, platebních terminálů a skenerů",
+      "Odkládací schránky na tašky, výsuvná zásuvka na hotovost a uzamykatelné skříňky",
+      "Rychlá instalace a napojení elektroinstalace našimi techniky"
+    ]
+  },
+  {
+    "id": "chladici-vitriny",
+    "cat": "chlazeni",
+    "cat_name": "Chladicí a mrazicí vitríny",
+    "title": "Přístěnné chladicí vitríny a obslužné pulty pro potraviny",
+    "perex": "Kompletní sortiment prodeje chlazených mléčných výrobků, uzenin, masa a lahůdek s vestavěným i externím agregátem.",
+    "img": "assets/img_06.jpg",
+    "badge": "Třída energetické účinnosti",
+    "specs_preview": "Prosklené dveře • Teploty -1 až +7 °C • LED osvětlení polic",
+    "full_desc": "Dodáváme a montujeme prodejní chladicí nábytek pro moderní potravinářské prodejny. Naše přístěnné vitríny s izolačními dvojskly snižují spotřebu elektrické energie až o 45 % oproti otevřeným systémům. Každá police disponuje rovnoměrným LED nasvícením zdůrazňujícím čerstvost vystaveného zboží.",
+    "models": [
+      {
+        "name": "Obslužné chladicí pulty",
+        "desc": "Pulty s oblým či rovným zvedacím sklem pro prodej krájeného masa a sýrů"
+      },
+      {
+        "name": "Přístěnné vertikální vitríny",
+        "desc": "Vysoké skříně s křídlovými nebo posuvnými skleněnými dveřmi pro mléčné výrobky"
+      },
+      {
+        "name": "Ostrovní mrazicí vany",
+        "desc": "Panoramatické mrazicí gondoly s posuvnými oblými víky pro mražené potraviny"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Model vitríny",
+        "Teplotní rozsah",
+        "Délkové moduly",
+        "Systém chlazení"
+      ],
+      "rows": [
+        [
+          "Pult ONDA",
+          "+1 až +5 °C",
+          "1.25, 1.88, 2.50, 3.75 m",
+          "Dynamické s nerezovou vanou"
+        ],
+        [
+          "Vitrína PARIS",
+          "-1 až +7 °C",
+          "1.25, 1.88, 2.50, 3.75 m",
+          "Cirkulační s odtáváním"
+        ],
+        [
+          "Mrazicí gondola B01",
+          "-18 až -24 °C",
+          "1.85, 2.10, 2.50 m",
+          "Statické s vyhříváním rámu"
+        ],
+        [
+          "Přístěnná SKLO",
+          "+2 až +4 °C",
+          "1.25, 2.50, 3.75 m",
+          "Dvojité izolační zasklení"
+        ]
+      ]
+    },
+    "features": [
+      "Ekologická chladiva R290 (Propan) a R449A s minimálním dopadem na klima",
+      "Elektronické regulátory s možností napojení na centrální monitoring teplot",
+      "Výklopná čelní skla pro snadné čištění a hygienickou údržbu",
+      "Záruční i pozáruční servis a dodávky náhradních těsnění a ventilátorů"
+    ]
+  },
+  {
+    "id": "kovovyroba-drateny",
+    "cat": "kovo",
+    "cat_name": "Zakázková kovovýroba & Drátěný program",
+    "title": "Nákupní košíky, vozíky, stojany a drátěné doplňky",
+    "perex": "Vlastní strojírenská výroba nákupních vozíků, akčních prodejních košů, reklamních stojanů a ochranných nerezových zábradlí.",
+    "img": "assets/img_08.jpg",
+    "badge": "Vlastní výroba Brno-Tuřany",
+    "specs_preview": "Nákupní vozíky 60 až 210 l • Galvanické zinkování • Akční koše",
+    "full_desc": "Ve vlastním výrobním závodě v Brně-Tuřanech disponujeme technologiemi pro přesné dělení trubek, ohýbání drátu na CNC automatech, odporové bodové svařování a povrchové úpravy galvanickým zinkováním s vytvrzovacím lakem. Vyrábíme akční drátěné stoly s polohovatelným dnem, vstupní turnikety a zábrany.",
+    "models": [
+      {
+        "name": "Nákupní vozíky série KL",
+        "desc": "Zinkované vozíky od 60 do 210 litrů s dětskou sedačkou a mincovním zámkem"
+      },
+      {
+        "name": "Akční drátěné koše a stoly",
+        "desc": "Skládací výprodejové koše s nastavitelnou výškou dna pro rychloobrátkové zboží"
+      },
+      {
+        "name": "Vstupní branky a turnikety",
+        "desc": "Mechanické i radarové jednosměrné branky a nerezová vodicí zábradlí"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Výrobek",
+        "Materiál / Povrch",
+        "Objem / Nosnost",
+        "Kolečka / Příslušenství"
+      ],
+      "rows": [
+        [
+          "Nákupní vozík KL 90",
+          "Zinkovaný drát + lak",
+          "90 litrů / 90 kg",
+          "Průměr 100 mm, mincovní zámek"
+        ],
+        [
+          "Nákupní vozík KL 150",
+          "Zinkovaný drát + lak",
+          "150 litrů / 150 kg",
+          "Průměr 125 mm, dětská sedačka"
+        ],
+        [
+          "Akční koš skládací",
+          "Ocelový drát / komaxit",
+          "120 kg nosnost",
+          "Nastavitelné dno ve 4 polohách"
+        ],
+        [
+          "Vstupní branka chrom",
+          "Ocelová chromovaná trubka",
+          "Úhel otevření 90°",
+          "Piktogram se zákazem vstupu"
+        ]
+      ]
+    },
+    "features": [
+      "Vysoká mechanická odolnost zinkového povlaku proti korozi a poškrábání",
+      "Kvalitní ložisková kolečka s pryžovým běhounem pro tichý chod vozíků",
+      "Zakázková výroba specifických rozměrů a tvarů dle požadavků klienta",
+      "Repase a servis koleček, madel a mincovníků pro stávající vozíkové parky"
+    ]
+  }
+]

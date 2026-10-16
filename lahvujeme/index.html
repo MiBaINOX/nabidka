@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lahvujeme.cz | Mobilní lahvování vína, mikrofiltrace a adjustáž lahví</title>
+    <meta name="description" content="Pojízdná lahvovací linka GAI s výkonem až 2 500 lahví za hodinu přímo u vašeho vinařství. Sterilní mikrofiltrace, inertizace dusíkem a kompletní adjustáž.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tech-precision-theme">
+    <header class="precision-header">
+        <div class="precision-topbar">
+            <div class="container topbar-content">
+                <div class="topbar-left">
+                    <span class="precision-badge">Mobilní enologická technologie</span>
+                    <span class="topbar-sep">•</span>
+                    <span class="topbar-claim">Pojízdná lahvovací linka GAI přímo u vašeho sklepa</span>
+                </div>
+                <div class="topbar-right">
+                    <span class="phone-label">Rezervace termínu:</span>
+                    <a href="tel:+420602332377" class="topbar-phone">+420 602 332 377</a>
+                </div>
+            </div>
+        </div>
+        <nav class="precision-nav container">
+            <a href="#" class="brand-link">
+                <img src="assets/logo.png" alt="Lahvujeme.cz" class="brand-logo" width="180" height="42">
+            </a>
+            <div class="nav-links">
+                <a href="#technologie">Technologie linky</a>
+                <a href="#katalog">Parametry a moduly</a>
+                <a href="#kalkulator">Kalkulátor kapacity</a>
+                <a href="#pozadavky">Příprava provozu</a>
+                <a href="#kontakt" class="btn-nav">Rezervovat linku</a>
+            </div>
+            <button class="menu-toggle" aria-label="Otevřít menu" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#technologie">Technologie linky</a>
+            <a href="#katalog">Parametry a moduly</a>
+            <a href="#kalkulator">Kalkulátor kapacity</a>
+            <a href="#pozadavky">Příprava provozu</a>
+            <a href="#kontakt">Rezervovat linku</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="precision-hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-tech-pill">Špičkový italský monoblok GAI • Jižní Morava</div>
+                    <h1 class="hero-title">Mobilní lahvování vína špičkovou technologií přímo u vašeho vinařství</h1>
+                    <p class="hero-perex">Přijedeme s kompletně vybavenou pojízdnou linkou přímo k vašemu sklepu. Zajistíme šetrné odčerpání, třístupňovou sterilní mikrofiltraci, vystříknutí lahví dusíkem, plnění, uzavření i nalepení etiket.</p>
+                    <div class="hero-actions">
+                        <a href="#katalog" class="btn-primary">Technologické moduly</a>
+                        <a href="#kalkulator" class="btn-glass">Kalkulátor kapacity</a>
+                    </div>
+                    <div class="hero-metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-value"><span data-target="2500">0</span><span class="unit"> lahví/h</span></div>
+                            <div class="metric-label">maximální výkon linky</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value"><span data-target="3">0</span><span class="unit"> stupně</span></div>
+                            <div class="metric-label">sterilní membránové filtrace</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value"><span data-target="100">0</span><span class="unit">%</span></div>
+                            <div class="metric-label">inertizace dusíkem N₂</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-frame">
+                        <img src="assets/img_01.jpg" alt="Pojízdná lahvovací linka Lahvujeme.cz" class="hero-img" width="600" height="420">
+                        <div class="glass-caption">
+                            <span class="caption-tag">Enologická čistota</span>
+                            <div class="caption-title">Monoblok GAI s elektro-pneumatickým plněním</div>
+                            <p class="caption-desc">Minimální oxidace, přesná hladina v hrdle a nulový kontakt vína s okolním vzduchem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technologie" class="precision-section section-tabs-tech">
+            <div class="container">
+                <div class="section-header-center">
+                    <span class="sec-tag">Proces plnění vína</span>
+                    <h2>Čtyři fáze profesionálního nalahvování</h2>
+                    <p>Technologický proces garantuje absolutní stabilitu a mikrobiologickou čistotu vašeho vína.</p>
+                </div>
+
+                <div class="tech-tab-strip">
+                    <button class="tech-tab-btn active" data-step="1">1. Sterilní filtrace</button>
+                    <button class="tech-tab-btn" data-step="2">2. Inertní výstřik</button>
+                    <button class="tech-tab-btn" data-step="3">3. Šetrné plnění</button>
+                    <button class="tech-tab-btn" data-step="4">4. Uzavření & Etiketa</button>
+                </div>
+
+                <div class="tech-step-display" id="stepDisplay">
+                    <div class="step-card active" id="step1">
+                        <div class="step-grid">
+                            <div class="step-text">
+                                <span class="step-num">Krok 01</span>
+                                <h3>Třístupňová membránová mikrofiltrace</h3>
+                                <p>Před vstupem do lahvovacího monobloku prochází víno třemi svíčkovými filtry (předfiltrace, jemná filtrace a koncový membránový filtr 0,45 μm). Tím je zaručena mikrobiologická stabilita bez ztráty aromatického profilu.</p>
+                                <ul class="step-bullets">
+                                    <li>Koncová sterilní membrána 0,45 μm</li>
+                                    <li>Šetrné membránové čerpadlo s plynulou regulací</li>
+                                    <li>Integritní tlakový test filtrů před spuštěním</li>
+                                </ul>
+                            </div>
+                            <div class="step-media">
+                                <img src="assets/img_02.jpg" alt="Mikrofiltrace vína" class="step-img" width="500" height="320" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card" id="step2" style="display:none;">
+                        <div class="step-grid">
+                            <div class="step-text">
+                                <span class="step-num">Krok 02</span>
+                                <h3>Vystřikování lahví a ochrana inertním plynem</h3>
+                                <p>Každá lahev je v karuselu vystříknuta sterilní vodou nebo profouknuta sterilním vzduchem a následně inertizována potravinářským dusíkem, aby se vytěsnil atmosférický kyslík.</p>
+                                <ul class="step-bullets">
+                                    <li>Dvoustupňový vystřikovací karusel GAI</li>
+                                    <li>Kompletní vytěsnění kyslíku před natečením vína</li>
+                                    <li>Prevence oxidace aromatických a barvicích látek</li>
+                                </ul>
+                            </div>
+                            <div class="step-media">
+                                <img src="assets/img_03.jpg" alt="Vystřikování lahví" class="step-img" width="500" height="320" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card" id="step3" style="display:none;">
+                        <div class="step-grid">
+                            <div class="step-text">
+                                <span class="step-num">Krok 03</span>
+                                <h3>Izobarické a gravitační plnění na hladinu</h3>
+                                <p>Elektropneumatické ventily zajišťují absolutně přesnou hladinu vína v hrdle každé lahve. Možnost plnění tichých vín i jemně perlivých vín s přetlakem CO₂.</p>
+                                <ul class="step-bullets">
+                                    <li>Rovnoměrná výška hladiny s mikrometrickým nastavením</li>
+                                    <li>Možnost plnění suchých i zbytkových bílých, růžových i červených vín</li>
+                                    <li>Žádné zbytečné zpěnění vína během toku</li>
+                                </ul>
+                            </div>
+                            <div class="step-media">
+                                <img src="assets/img_04.jpg" alt="Plnění vína monoblokem" class="step-img" width="500" height="320" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card" id="step4" style="display:none;">
+                        <div class="step-grid">
+                            <div class="step-text">
+                                <span class="step-num">Krok 04</span>
+                                <h3>Uzavírání hrdla, smrštění kapslí a etiketování</h3>
+                                <p>Aplikace přírodních korků ve vakuu, šroubových uzávěrů BVS 30x60 nebo skleněných zátek Vinolok. Následné precizní nanášení přední a zadní samolepicí etikety.</p>
+                                <ul class="step-bullets">
+                                    <li>Vakuové zátkování korkem – nulový tlak v lahvi</li>
+                                    <li>Čtyřkladková šroubovací hlava na uzávěry Stelvin BVS</li>
+                                    <li>Automatické zažehlení termokapsle nebo cínové záklopky</li>
+                                </ul>
+                            </div>
+                            <div class="step-media">
+                                <img src="assets/img_05.jpg" alt="Uzavírání a etiketování lahví" class="step-img" width="500" height="320" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="katalog" class="precision-section section-catalog">
+            <div class="container">
+                <div class="section-lead-flex">
+                    <div>
+                        <span class="sec-tag">Sortiment a služby</span>
+                        <h2>Technologické moduly mobilní linky</h2>
+                    </div>
+                    <p class="sec-lead-text">Detailní technické listy jednotlivých částí mobilní technologie Lahvujeme.cz pro vaše vinařství.</p>
+                </div>
+
+                <div class="catalog-grid">
+                    <article class="precision-card catalog-item" data-id="mobilni-lahvovani">
+                        <div class="card-thumb">
+                            <img src="assets/img_01.jpg" alt="Mobilní lahvovací linka" class="item-img" width="380" height="240" loading="lazy">
+                            <span class="tech-tag">Monoblok GAI</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="item-cat">Hlavní plnicí technologie</span>
+                            <h3 class="item-title">Pojízdná lahvovací linka přímo u vašeho vinařství</h3>
+                            <p class="item-desc">Kompletní technologický kamion s monoblokem GAI přistavený přímo k vašemu vinařskému provozu či vinnému sklepu.</p>
+                            <div class="item-specs">Výkon až 2 500 lahví/h • Inertizace N₂ • Tichá i perlivá vína</div>
+                            <button class="btn-tech-detail" data-open-tech="mobilni-lahvovani">Zobrazit parametry linky</button>
+                        </div>
+                    </article>
+
+                    <article class="precision-card catalog-item" data-id="mikrofiltrace-vina">
+                        <div class="card-thumb">
+                            <img src="assets/img_02.jpg" alt="Mikrofiltrace vína" class="item-img" width="380" height="240" loading="lazy">
+                            <span class="tech-tag">Membránová stanice</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="item-cat">Filtrační proces</span>
+                            <h3 class="item-title">Třífázová sterilní mikrofiltrace a inertizace dusíkem</h3>
+                            <p class="item-desc">Membránová filtrace garantující mikrobiální čistotu a stabilitu vína před naplněním s ochranou před oxidací.</p>
+                            <div class="item-specs">Filtry 0,65 μm a 0,45 μm • Šetrné čerpadlo • Sanitace párou</div>
+                            <button class="btn-tech-detail" data-open-tech="mikrofiltrace-vina">Zobrazit parametry filtrace</button>
+                        </div>
+                    </article>
+
+                    <article class="precision-card catalog-item" data-id="etiketovani-kapsle">
+                        <div class="card-thumb">
+                            <img src="assets/img_03.jpg" alt="Etiketování a kapslování" class="item-img" width="380" height="240" loading="lazy">
+                            <span class="tech-tag">Finální adjustáž</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="item-cat">Adjustáž & Balení</span>
+                            <h3 class="item-title">Aplikace korků i BVS šroubových uzávěrů s etiketami</h3>
+                            <p class="item-desc">Komplexní adjustáž lahví: vakuové zátkování, BVS šroubové uzávěry, zažehlení záklopky a přesné nalepení etiket.</p>
+                            <div class="item-specs">Korek, BVS 30x60, Vinolok • 2 etikety najednou • Termokapsle</div>
+                            <button class="btn-tech-detail" data-open-tech="etiketovani-kapsle">Zobrazit parametry adjustáže</button>
+                        </div>
+                    </article>
+
+                    <article class="precision-card catalog-item" data-id="pozadavky-sluzby">
+                        <div class="card-thumb">
+                            <img src="assets/img_04.jpg" alt="Příprava před lahvováním" class="item-img" width="380" height="240" loading="lazy">
+                            <span class="tech-tag">Příprava sklepa</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="item-cat">Provozní podmínky</span>
+                            <h3 class="item-title">Technické požadavky na přistavení a hygienu linky</h3>
+                            <p class="item-desc">Přehled technických nároků pro bezproblémové napojení linky u vašeho sklepa: elektro, voda, tlak vzduchu a logistika.</p>
+                            <div class="item-specs">Přípojka 400V 32A • Pitná voda min 3 bary • Zázemí pro personál</div>
+                            <button class="btn-tech-detail" data-open-tech="pozadavky-sluzby">Zobrazit technické požadavky</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="kalkulator" class="precision-section section-calc">
+            <div class="container">
+                <div class="calc-glass-box" id="bottlingCalculator">
+                    <div class="calc-header">
+                        <span class="sec-tag">Plánování šarže</span>
+                        <h2>Kalkulátor kapacity lahvování</h2>
+                        <p>Zvolte objem vašeho vína k nalahvování a typ uzávěru. Spočítáme orientační počet lahví, dobu čistého plnění a doporučený počet pomocníků.</p>
+                    </div>
+
+                    <div class="calc-grid">
+                        <div class="calc-inputs">
+                            <div class="ctrl-group">
+                                <label for="volumeSlider">Objem vína k lahvování: <span id="volumeValue">3 000</span> litrů</label>
+                                <input type="range" id="volumeSlider" min="500" max="15000" step="250" value="3000">
+                                <div class="slider-marks">
+                                    <span>500 l</span>
+                                    <span>5 000 l</span>
+                                    <span>10 000 l</span>
+                                    <span>15 000 l</span>
+                                </div>
+                            </div>
+
+                            <div class="ctrl-group">
+                                <label for="closureType">Typ uzávěru</label>
+                                <select id="closureType">
+                                    <option value="korek">Přírodní korek / Mikrogranulát</option>
+                                    <option value="bvs">Šroubový BVS uzávěr (Stelvin 30x60)</option>
+                                    <option value="vinolok">Skleněný uzávěr Vinolok</option>
+                                </select>
+                            </div>
+
+                            <div class="ctrl-group">
+                                <label for="labelingType">Požadovaná adjustáž</label>
+                                <select id="labelingType">
+                                    <option value="full">Přední + zadní etiketa + záklopka</option>
+                                    <option value="front_only">Pouze přední etiketa + záklopka</option>
+                                    <option value="no_labels">Bez adjustáže (plnění na ležáky)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="calc-outputs">
+                            <div class="out-card">
+                                <div class="out-title">Odhadovaný počet lahví (0,75 l)</div>
+                                <div class="out-val" id="calcBottles">4 000 lahví</div>
+                                <div class="out-sub">cca 667 kartonů po 6 kusech</div>
+                            </div>
+                            <div class="out-card">
+                                <div class="out-title">Čistý čas chodu linky</div>
+                                <div class="out-val" id="calcTime">cca 2,0 hodiny</div>
+                                <div class="out-sub">při průměrné rychlosti 2 000 lahví/h</div>
+                            </div>
+                            <div class="out-card">
+                                <div class="out-title">Doporučený personál vinařství</div>
+                                <div class="out-val" id="calcStaff">3–4 osoby</div>
+                                <div class="out-sub">pro vkládání prázdných a balení plných lahví</div>
+                            </div>
+                            <a href="#kontakt" class="btn-calc-action" id="btnApplyWine">Přenést parametry do rezervace termínu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pozadavky" class="precision-section section-reqs">
+            <div class="container">
+                <div class="section-lead-flex">
+                    <div>
+                        <span class="sec-tag">Provozní příprava</span>
+                        <h2>Co je potřeba připravit před příjezdem linky</h2>
+                    </div>
+                    <p class="sec-lead-text">Pro hladký průběh lahvovacího dne prosíme o zajištění následujících přípojek a logistických podmínek.</p>
+                </div>
+
+                <div class="reqs-grid">
+                    <div class="req-box">
+                        <div class="req-icon">⚡</div>
+                        <h3>Elektrická energie</h3>
+                        <p>Zásuvka 400 V, 32 A pětikolík s jištěním 25 A nebo 32 A charakteristiky C. Délka přívodního kabelu k lince max. 30 metrů.</p>
+                    </div>
+                    <div class="req-box">
+                        <div class="req-icon">💧</div>
+                        <h3>Přípojka vody</h3>
+                        <p>Běžný vodovodní kohout 1/2" nebo 3/4" s pitnou vodou o tlaku 2,5 až 4 bary pro sanitaci a vystřikování.</p>
+                    </div>
+                    <div class="req-box">
+                        <div class="req-icon">🚚</div>
+                        <h3>Příjezdová cesta</h3>
+                        <p>Zpevněná plocha a průjezdná výška minimálně 3,8 metru pro nákladní soupravu. Rovná plocha pro ustavení linky.</p>
+                    </div>
+                    <div class="req-box">
+                        <div class="req-icon">👥</div>
+                        <h3>Pomocný personál</h3>
+                        <p>3 až 4 zruční pracovníci vinařství na vykládku prázdného skla, kontrolu a odebírání hotových nalahvovaných kartonů.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="precision-section section-contact">
+            <div class="container">
+                <div class="contact-layout">
+                    <div class="contact-info">
+                        <span class="sec-tag">Rezervace a dotazy</span>
+                        <h2>Domluvte si termín mobilního lahvování</h2>
+                        <p>Máte dotaz k volným kapacitám linky, potřebujete konzultovat technické napojení vašeho sklepa nebo poptat volný termín pro vaši sklizeň? Jsme vám plně k dispozici.</p>
+
+                        <div class="exec-card">
+                            <div class="exec-badge">Jednatel a vedoucí provozu</div>
+                            <div class="exec-name">František Bařina</div>
+                            <div class="exec-field">
+                                <span>Mobilní telefon:</span>
+                                <a href="tel:+420602332377" class="exec-val">+420 602 332 377</a>
+                            </div>
+                            <div class="exec-field">
+                                <span>E-mail:</span>
+                                <a href="mailto:info@lahvujeme.cz" class="exec-val">info@lahvujeme.cz</a>
+                            </div>
+                        </div>
+
+                        <div class="company-card">
+                            <div class="comp-row">
+                                <span class="comp-lbl">Provozovatel:</span>
+                                <span class="comp-val">Lahvujeme, s.r.o.</span>
+                            </div>
+                            <div class="comp-row">
+                                <span class="comp-lbl">Sídlo:</span>
+                                <span class="comp-val">Hlavní 139, 691 85 Dolní Dunajovice</span>
+                            </div>
+                            <div class="comp-row">
+                                <span class="comp-lbl">IČO:</span>
+                                <span class="comp-val">01383639</span>
+                            </div>
+                            <div class="comp-row">
+                                <span class="comp-lbl">Působnost:</span>
+                                <span class="comp-val">Celá Morava a vinařské oblasti ČR</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrap">
+                        <form class="precision-form" id="wineInquiryForm">
+                            <h3>Rezervační poptávka linky</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="cName">Jméno a příjmení / Vinařství *</label>
+                                    <input type="text" id="cName" required placeholder="Vinařství Novák">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cCity">Obec / Umístění sklepa *</label>
+                                    <input type="text" id="cCity" required placeholder="Dolní Dunajovice">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="cPhone">Telefonní číslo *</label>
+                                    <input type="tel" id="cPhone" required placeholder="+420 600 000 000">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cEmail">E-mailová adresa *</label>
+                                    <input type="email" id="cEmail" required placeholder="vinar@sklep.cz">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cType">Poptávaný rozsah lahvování</label>
+                                <select id="cType">
+                                    <option value="komplet">Kompletní lahvování s adjustáží</option>
+                                    <option value="bez_etiket">Lahvování na ležáky (pouze korek)</option>
+                                    <option value="bvs">Lahvování se šroubovým uzávěrem BVS</option>
+                                    <option value="filtrace">Pouze sterilní mikrofiltrace vína</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="cNotes">Předpokládaný objem a preferovaný měsíc</label>
+                                <textarea id="cNotes" rows="4" placeholder="Uveďte objem šarží, typ lahví, preferovaný termín přistavení linky..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">Odeslat poptávku termínu</button>
+                            <div class="form-success" id="cSuccess">Děkujeme za poptávku. František Bařina vás bude kontaktovat s návrhem termínu přistavení linky.</div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <div class="map-bar">
+                        <h4>Sídlo společnosti v Dolních Dunajovicích (Pálava)</h4>
+                        <a href="https://mapy.cz/zakladni?x=16.58286&amp;y=48.85738&amp;z=17&amp;source=coor&amp;id=16.58286%2C48.85738" target="_blank" rel="noopener noreferrer" class="map-out-link">Otevřít sídlo na Mapy.cz</a>
+                    </div>
+                    <iframe class="map-frame" src="https://frame.mapy.cz/zakladni?x=16.58286&y=48.85738&z=16&source=coor&id=16.58286%2C48.85738" width="100%" height="380" frameborder="0" loading="lazy" title="Mapa sídla Lahvujeme.cz"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="precision-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Lahvujeme, s.r.o." class="footer-logo" width="160" height="38">
+                <p>Lahvujeme, s.r.o. – Mobilní lahvování tichých a perlivých vín špičkovým monoblokem GAI s dojezdem po celých vinařských regionech Moravy a Čech.</p>
+            </div>
+            <div class="footer-links">
+                <div class="f-title">Technologie</div>
+                <a href="#technologie">Mikrofiltrace vína</a>
+                <a href="#technologie">Inertizace dusíkem N₂</a>
+                <a href="#technologie">Šroubové uzávěry BVS</a>
+                <a href="#pozadavky">Příprava sklepa</a>
+            </div>
+            <div class="footer-links">
+                <div class="f-title">Kontakt linky</div>
+                <span class="f-info">Hlavní 139, 691 85 Dolní Dunajovice</span>
+                <span class="f-info nowrap-val">Mobil: +420 602 332 377</span>
+                <span class="f-info">E-mail: info@lahvujeme.cz</span>
+                <span class="f-info">IČO: 01383639</span>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>&copy; 2013–2026 Lahvujeme, s.r.o. Všechna práva vyhrazena.</span>
+            <span>Profesionální mobilní enologické služby.</span>
+        </div>
+    </footer>
+
+    <div class="tech-modal-backdrop" id="techModalBackdrop" aria-hidden="true" style="display: none;">
+        <div class="tech-modal-window">
+            <button class="modal-close-btn" id="techModalClose" aria-label="Zavřít technické okno">&times;</button>
+            <div class="tech-modal-content" id="techModalBody"></div>
+        </div>
+    </div>
+
+    <script src="../ping-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

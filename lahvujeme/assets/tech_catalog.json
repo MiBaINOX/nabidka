@@ -1,0 +1,252 @@
+[
+  {
+    "id": "mobilni-lahvovani",
+    "cat": "linka",
+    "cat_name": "Pojízdná lahvovací linka",
+    "title": "Mobilní lahvování tichých vín a nápojů přímo ve vinařství",
+    "perex": "Kompletní technologická linka instalovaná ve speciálním návěsu přistaveném přímo k vašemu sklepu s výkonem až 2 500 lahví za hodinu.",
+    "img": "assets/img_01.jpg",
+    "badge": "Výkon až 2 500 lahví/h",
+    "specs_preview": "Vystřikování • Plnění pod dusíkem • Korkování / Šroubový uzávěr",
+    "full_desc": "Lahvujeme, s.r.o. provozuje špičkovou mobilní lahvovací linku vybavenou italskými a německými technologiemi GAI a Alfatek. Linka přijede přímo do vašeho vinařství a zajistí sterilní vystříknutí lahví vodou či plynem, odsátí vzduchu, plnění vína s mikronovou filtrací, aplikaci inertního plynu (dusík / argon) a hermetické uzavření.",
+    "models": [
+      {
+        "name": "Komplexní linka PLL GAI",
+        "desc": "Monoblok vystřikovačky, plniče a uzavírače s automatickou regulací hladiny"
+      },
+      {
+        "name": "Plnění pod inertní atmosférou",
+        "desc": "Vstřik dusíku do lahve před plněním i pod uzávěr pro zamezení oxidace vína"
+      },
+      {
+        "name": "Kombinované uzavírání",
+        "desc": "Možnost volby přírodního korku, mikrogranulátu i šroubového uzávěru BVS 30x60"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Technologický parametr",
+        "Hodnota na lince",
+        "Výhoda pro vinaře"
+      ],
+      "rows": [
+        [
+          "Hodinový výkon",
+          "1 500 – 2 500 lahví / hod.",
+          "Nalahvování celé šarže vína během jediného dne"
+        ],
+        [
+          "Typy uzávěrů",
+          "Přírodní korek, BVS 30x60, Vinolok",
+          "Flexibilita dle trhu a exportních požadavků"
+        ],
+        [
+          "Inertizace dusíkem",
+          "Před plněním i před zátkováním",
+          "Maximální ochrana aromatických látek a svěžesti"
+        ],
+        [
+          "Objemy lahví",
+          "0,187 l až 1,5 l Magnum",
+          "Plnění standardních lahví, bordó, burgund i pistolí"
+        ]
+      ]
+    },
+    "features": [
+      "Nulové investiční náklady do vlastní drahé stacionární technologie lahvování",
+      "Garantovaná mikrobiologická čistota s možností teplé sanitace parou",
+      "Odborná obsluha vyškolenými techniky po celou dobu plnění",
+      "Minimální technologické ztráty vína v potrubním traktu"
+    ]
+  },
+  {
+    "id": "mikrofiltrace-vina",
+    "cat": "filtrace",
+    "cat_name": "Svíčková mikrofiltrace",
+    "title": "Sterilní koncová mikrofiltrace a příprava vína",
+    "perex": "Integrovaná vícestupňová filtrace vína pomocí skládaných membránových a hloubkových svíček Donaldson a Pall těsně před lahvováním.",
+    "img": "assets/img_02.jpg",
+    "badge": "Filtrační garance 0,45 µm",
+    "specs_preview": "Hrubá předfiltrace 1 µm • Membrána 0,45 µm • Tlakové zkoušky",
+    "full_desc": "Pro dokonalou stabilitu vína v lahvi disponuje naše linka nerezovými filtračními tělesy s třístupňovou filtrací. Odstraňujeme kvasinky, bakterie mléčného kvašení a mikroskopické kaly bez narušení senzorického profilu a plnosti vína.",
+    "models": [
+      {
+        "name": "Membránová mikrofiltrace 0,45 µm",
+        "desc": "Absolutní záchyt kvasinek a mikroorganismů pro biologickou stabilitu"
+      },
+      {
+        "name": "Předfiltrace polypropylen 1,0 µm",
+        "desc": "Ochrana koncových membrán před předčasným zanesením koloidy"
+      },
+      {
+        "name": "Test integrity filtrů",
+        "desc": "Měření bodu probublání (bubble point) před a po ukončení lahvování"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Stupeň filtrace",
+        "Typ média",
+        "Porozita",
+        "Účel filtrace"
+      ],
+      "rows": [
+        [
+          "1. stupeň (předfiltr)",
+          "Skládaný polypropylen",
+          "3,0 – 5,0 µm",
+          "Záchyt hrubých částic a zákalů"
+        ],
+        [
+          "2. stupeň (jemný)",
+          "Hloubková svíčka",
+          "1,0 – 1,2 µm",
+          "Odstranění jemných kvasinek"
+        ],
+        [
+          "3. stupeň (koncový)",
+          "PES membrána sterilní",
+          "0,45 – 0,65 µm",
+          "Absolutní mikrobiální sterilita vína"
+        ],
+        [
+          "Sanitace",
+          "Horká voda / pára 85 °C",
+          "30 minut cyklus",
+          "100% dezinfekce celé filtrační trasy"
+        ]
+      ]
+    },
+    "features": [
+      "Šetrné membrány certifikované pro potravinářství a enologii",
+      "Kontinuální měření diferenčního tlaku pro prevenci přepětí membrány",
+      "Možnost plnění jak nefiltrovaných přírodních vín, tak přísně sterilních šarží",
+      "Podpora plnění vín se zbytkovým cukrem bez rizika druhotného rozkvašení"
+    ]
+  },
+  {
+    "id": "etiketovani-kapsle",
+    "cat": "etikety",
+    "cat_name": "Etiketování & Záklopkování",
+    "title": "Samolepicí etiketování, aplikace záklopky a datumování",
+    "perex": "Precizní nanesení přední i zadní etikety z role, smrštění termokapsle nebo zaválení cínové záklopky a tisk šarže.",
+    "img": "assets/img_03.jpg",
+    "badge": "Až 3 etikety na láhev",
+    "specs_preview": "Přední + zadní + medaile • Termosmršťování • Inkjet značení šarže",
+    "full_desc": "Součástí mobilní linky je poloautomatický a automatický etiketovací agregát. Přesné optické a mechanické senzory zajistí dokonale vodorovné a souměrné nanesení etiket i na kónické láhve. Současně aplikujeme smršťovací PVC záklopky nebo zažehlovací polylaminátové kapsle.",
+    "models": [
+      {
+        "name": "Etiketovací hlava pro přední a zadní etiketu",
+        "desc": "Aplikace ze společného pásu i ze dvou samostatných rolí"
+      },
+      {
+        "name": "Aplikátor medailí a pruhů",
+        "desc": "Doplňková hlava pro zlaté ocenění z výstav a ročníkové pásky"
+      },
+      {
+        "name": "Termosmršťovací a válečkovací hlava",
+        "desc": "Horkovzdušná hlava pro PVC a rotační hlavice pro polylaminát"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Operace",
+        "Typ záklopky / etikety",
+        "Doporučené parametry",
+        "Výstupní kontrola"
+      ],
+      "rows": [
+        [
+          "Přední + zadní etiketa",
+          "Samolepicí v roli, vinutí vně",
+          "Mezera 3–4 mm mezi etiketami",
+          "Optická kontrola přilnutí"
+        ],
+        [
+          "PVC záklopka",
+          "Termosmršťovací",
+          "Teplota horkovzduchu 180–220 °C",
+          "Hladký povrch bez vrásek"
+        ],
+        [
+          "Polylaminát / Cín",
+          "Zaválecí kapsle",
+          "Otáčky válečkovací hlavy 1400 ot/min",
+          "Dokonale přilehlý lem"
+        ],
+        [
+          "Značení šarže / L",
+          "Inkjet průmyslový tisk",
+          "Rychleschnoucí černý inkoust",
+          "Čitelný kód na skle či etiketě"
+        ]
+      ]
+    },
+    "features": [
+      "Možnost orientace etikety podle výlisku na láhvi nebo švu skla",
+      "Vysoká přesnost výšky lepení s tolerancí do 0,5 mm",
+      "Výrazná úspora ruční práce při finálním balení vína",
+      "Okamžité balení hotových suchých lahví do kartonů na výstupu"
+    ]
+  },
+  {
+    "id": "pozadavky-sluzby",
+    "cat": "servis",
+    "cat_name": "Technické podmínky & Sanitace",
+    "title": "Příprava sklepa, sanitace a požadavky na přistavení linky",
+    "perex": "Podrobný přehled technických požadavků na elektropřípojku, tlak vody a manipulační prostor pro bezproblémové nalahvování.",
+    "img": "assets/img_04.jpg",
+    "badge": "Technická připravenost",
+    "specs_preview": "Přípojka 400V / 32A • Pitná voda min 2 bar • Suché stání návěsu",
+    "full_desc": "Aby lahvování proběhlo plynule a bez časových prostojů, poskytujeme vinařům přesný kontrolní seznam. Naše obsluha provádí před začátkem i po skončení lahvování kompletní chemickou a parní sanitaci všech cest, čímž ručíme za mikrobiologickou bezpečnost vašeho vína.",
+    "models": [
+      {
+        "name": "Předlahvovací příprava vína",
+        "desc": "Kontrola obsahu volného SO₂, stability bílkovin a teploty vína (min. 15 °C)"
+      },
+      {
+        "name": "Sanitační protokol linky",
+        "desc": "Proplach horkou vodou, cirkulace sanitačních roztoků a parní sterilizace"
+      },
+      {
+        "name": "Balicí asistence",
+        "desc": "Poradenství ohledně rozměrů kartonů, paletizace a skladování nalahvovaného vína"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Požadavek",
+        "Potřebná hodnota",
+        "Poznámka / Doporučení"
+      ],
+      "rows": [
+        [
+          "Elektrická energie",
+          "400 V / 32 A pětikolík",
+          "Jištění minimálně 25 A (ideálně 32 A C)"
+        ],
+        [
+          "Přívod vody",
+          "Pitná voda, tlak min. 2,5 bar",
+          "Běžná hadice 1/2\" nebo 3/4\" pro mytí a parní vyvíječ"
+        ],
+        [
+          "Teplota vína",
+          "Doporučeno 15 – 18 °C",
+          "Zamezuje rosení lahví před etiketováním"
+        ],
+        [
+          "Prostor pro návěs",
+          "Délka cca 10 m, výška 3,8 m",
+          "Zpevněná vodorovná plocha u sklepa či haly"
+        ]
+      ]
+    },
+    "features": [
+      "Dlouholeté zkušenosti s lahvováním u desítek předních moravských vinařů",
+      "Vlastní výkonný kompresor a vyvíječ sterilního dusíku v návěsu",
+      "Flexibilní plánování termínů dle zralosti a harmonogramu sklepmistra",
+      "Férové transparentní podmínky kalkulované za skutečně nalahvovanou láhev"
+    ]
+  }
+]
