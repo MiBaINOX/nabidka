@@ -1,0 +1,122 @@
+[
+  {
+    "id": "nsf-konstrukce",
+    "title": "Stavební ocelové konstrukce a haly",
+    "category": "Ocelové konstrukce",
+    "badge": "ČSN EN 1090-2",
+    "short_desc": "Výroba a montáž nosných ocelových konstrukcí budov, průmyslových hal, skladových přístřešků, ocelových lávek, schodišť a technologických plošin.",
+    "specs": [
+      {
+        "label": "Typy konstrukcí",
+        "value": "Skelety hal, vazníky, sloupy, nosné rámy, plošiny"
+      },
+      {
+        "label": "Materiály",
+        "value": "Konstrukční oceli třídy S235, S355 dle EN 10025"
+      },
+      {
+        "label": "Svářečské postupy",
+        "value": "Certifikované metody svařování MIG/MAG dle ISO 3834"
+      },
+      {
+        "label": "Povrchová úprava",
+        "value": "Žárové zinkování dle ČSN EN ISO 1461, nátěrové systémy C3–C5"
+      }
+    ],
+    "features": [
+      "Kompletní statický výpočet a dílenská výrobní dokumentace",
+      "Montáž vlastním týmem montérů s jeřábovou technikou",
+      "Více než 30 let zkušeností s nosnými ocelovými konstrukcemi"
+    ]
+  },
+  {
+    "id": "nsf-vrata-ploty",
+    "title": "Ocelová vrata, ploty, branky a zábradlí",
+    "category": "Zakázkové zámečnictví",
+    "badge": "Autorizovaný partner Hörmann",
+    "short_desc": "Zakázková výroba posuvných samonosných bran, vjezdových vrat, bezpečnostních mříží a zábradlí pro občanskou i průmyslovou výstavbu.",
+    "specs": [
+      {
+        "label": "Sortiment",
+        "value": "Samonosné brány, křídlová vrata, průmyslové branky, mříže, schodiště"
+      },
+      {
+        "label": "Rozměrové řady",
+        "value": "Průjezdy od 3 m do 10 m s přípravou na automatické pohony"
+      },
+      {
+        "label": "Partnerství Hörmann",
+        "value": "Autorizovaná dodávka sekčních, rolovacích a výklopných vrat"
+      },
+      {
+        "label": "Antikorozní ochrana",
+        "value": "Žárový zinek + práškový vypalovaný lak (Komaxit RAL)"
+      }
+    ],
+    "features": [
+      "Bezúdržbový tichý chod pojezdových kladek v C-profilu",
+      "Kompletní dodávka včetně stavební připravenosti a motorizace",
+      "Estetické sjednocení plotových dílců, branky i vrat"
+    ]
+  },
+  {
+    "id": "nsf-vodo-topo-plyn",
+    "title": "Průmyslové montáže vodo-topo-plyn a kotelny",
+    "category": "Technická zařízení budov",
+    "badge": "Oprávnění TIČR pro plyn",
+    "short_desc": "Kompletní realizace kotelen, rozvodů plynu, vytápění, solárních kolektorů a zdravotechniky pro bytové domy, obce i průmyslové objekty.",
+    "specs": [
+      {
+        "label": "Plynová zařízení",
+        "value": "Vyhrazená plynová zařízení bez omezení výkonu, STL a NTL plynovody"
+      },
+      {
+        "label": "Topenářské systémy",
+        "value": "Kotelny na plyn, pelety, tepelná čerpadla, sálavé panely"
+      },
+      {
+        "label": "Solární systémy",
+        "value": "Certifikovaná montáž termických solárních panelů"
+      },
+      {
+        "label": "Potrubní rozvody",
+        "value": "Svařovaná ocel, lisovaná měď, nerez, plastohliník"
+      }
+    ],
+    "features": [
+      "Kompletní autorizovaný servis a pravidelné revizní zprávy",
+      "Energetické optimalizace otopných soustav s úsporou nákladů",
+      "Kombinace silného zámečnického a instalatérského zázemí"
+    ]
+  },
+  {
+    "id": "nsf-zelezarstvi",
+    "title": "Specializované železářství a hutní materiál Beroun",
+    "category": "Maloobchod & Velkoobchod",
+    "badge": "Kamenná prodejna Beroun",
+    "short_desc": "Zásobování řemeslníků, stavebních firem i kutilů spojovacím a hutním materiálem, nářadím, kotevní technikou, těsněním a kamnářským zbožím.",
+    "specs": [
+      {
+        "label": "Hutní materiál",
+        "value": "Trubky, jekly, úhelníky, pásovina, plechy, profilová ocel"
+      },
+      {
+        "label": "Spojovací materiál",
+        "value": "Šrouby, matice, podložky, chemické kotvy, nýty v pevnostech 8.8 / A2"
+      },
+      {
+        "label": "Instalatérské zboží",
+        "value": "Tvarovky, ventily, čerpadla, těsnění, fitinky"
+      },
+      {
+        "label": "Doplňkové služby",
+        "value": "Dělení materiálu na míru, doprava na stavbu dodávkou"
+      }
+    ],
+    "features": [
+      "Široký skladový sortiment přímo v berounské prodejně",
+      "Odborné poradenství vyškolených techniků s praxí v oboru",
+      "Individuální velkoobchodní podmínky pro pravidelné odběratele"
+    ]
+  }
+]

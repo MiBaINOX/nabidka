@@ -1,0 +1,122 @@
+[
+  {
+    "id": "da-jsl-20a",
+    "title": "Dlouhotočný CNC automat Jinn Fa JSL-20A / 20AS",
+    "category": "Dlouhotočné automaty",
+    "badge": "Swiss Type Lathe",
+    "short_desc": "Přesný CNC dlouhotočný soustružnický automat švýcarského typu pro sériovou výrobu přesných rotačních dílců do průměru 20 mm. 3 až 4 lineární osy + C-osa.",
+    "specs": [
+      {
+        "label": "Max. průměr obrábění",
+        "value": "20 mm (průchozí vřeteno)"
+      },
+      {
+        "label": "Max. délka soustružení",
+        "value": "200 mm na jedno upnutí s vodicím pouzdrem"
+      },
+      {
+        "label": "Otáčky hlavního vřetena",
+        "value": "200 až 10 000 ot/min (motor 3,7 kW)"
+      },
+      {
+        "label": "Řídicí systém",
+        "value": "Mitsubishi M70 / Fanuc 0i-TF Plus"
+      }
+    ],
+    "features": [
+      "Vysoká tuhost litinového lože Meehanite s lineárním vedením",
+      "Poháněné nástroje pro radiální a axiální vrtání a frézování",
+      "Ideální pro přesnou jemnou mechaniku, medicínu a automotive"
+    ]
+  },
+  {
+    "id": "da-jsl-20ab",
+    "title": "Vysoce produktivní CNC automat JSL-20AB / 20RB",
+    "category": "Dlouhotočné automaty",
+    "badge": "5+2 osy / Protivřeteno",
+    "short_desc": "Pětiosý švýcarský automat s plnohodnotným protivřetenem a synchronizovanou C-osou umožňující kompletní obrobení dílce z obou stran bez přepínání.",
+    "specs": [
+      {
+        "label": "Lineární osy",
+        "value": "5 lineárních os (X1, Y1, Z1, X2, Z2) + 2 C-osy"
+      },
+      {
+        "label": "Protivřeteno",
+        "value": "Max. průměr 20 mm, otáčky až 8 000 ot/min (2,2 kW)"
+      },
+      {
+        "label": "Počet nástrojových pozic",
+        "value": "Až 24 nástrojů (pevné nože, poháněné radiální i axiální)"
+      },
+      {
+        "label": "Rychloposuv",
+        "value": "30 m/min ve všech osách pro minimální vedlejší časy"
+      }
+    ],
+    "features": [
+      "Souběžné obrábění na hlavním vřetenu i protivřetenu",
+      "Vysokotlaké chlazení středem nástrojů až 70 bar",
+      "Automatický podavač tyčí v konfiguraci na klíč"
+    ]
+  },
+  {
+    "id": "da-jsl-32ab",
+    "title": "Výkonové CNC automaty JSL-26AB / 32AB / 42AB",
+    "category": "Těžké dlouhotočné automaty",
+    "badge": "Průměr tyče až 42 mm",
+    "short_desc": "Robustní CNC dlouhotočné soustruhy pro obrábění tyčí do průměru 32 a 42 mm. Určeno pro náročné třískové obrábění nerezových ocelí, titanu a slitin.",
+    "specs": [
+      {
+        "label": "Průměrový rozsah",
+        "value": "Průměr tyče 26 mm, 32 mm nebo 42 mm"
+      },
+      {
+        "label": "Výkon vřetena",
+        "value": "5,5 kW až 7,5 kW s vysokým krouticím momentem"
+      },
+      {
+        "label": "Nástrojový systém",
+        "value": "Hřebenový saně + zadní nástrojová deska s pohonem"
+      },
+      {
+        "label": "Hmotnost stroje",
+        "value": "3 400 kg pro dokonalé tlumení vibrací"
+      }
+    ],
+    "features": [
+      "Masivní konstrukce pro hluboké záběry a těžce obrobitelné materiály",
+      "Kompatibilní s provozem bez vodicího pouzdra (Non-Guide Bush mode)",
+      "Nízké materiálové ztráty zbytkových konců tyčí"
+    ]
+  },
+  {
+    "id": "da-jsl-42aby",
+    "title": "Víceosé obráběcí centrum Jinn Fa JSL-42ABY s Y2 osou",
+    "category": "Špičková CNC centra",
+    "badge": "Y2 osa / Plná synchronizace",
+    "short_desc": "Vrcholná řada švýcarských automatů s plně interpolovanou osou Y2 na protivřetenu pro nejsložitější komplexní frézovací operace mimo osu dílce.",
+    "specs": [
+      {
+        "label": "Konfigurace os",
+        "value": "7 lineárních os + 2 rotační C-osy (osa Y2 na protivřetenu)"
+      },
+      {
+        "label": "Poháněné nástroje",
+        "value": "Až 14 poháněných pozic s otáčkami 6 000 ot/min"
+      },
+      {
+        "label": "Řízení",
+        "value": "Fanuc 31i-B5 s funkcí nano-interpolace a 3D simulace"
+      },
+      {
+        "label": "Přesnost polohování",
+        "value": "Opakovatelná přesnost ±0,002 mm"
+      }
+    ],
+    "features": [
+      "Hotové kompletní dílce padající do vynašeče bez nutnosti dalšího dofrézování",
+      "Oficiální autorizovaný záruční i pozáruční servis v ČR přímo ze Zlína a Prahy",
+      "Technologické odladění výrobních programů a zaškolení obsluhy"
+    ]
+  }
+]

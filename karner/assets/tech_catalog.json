@@ -1,0 +1,122 @@
+[
+  {
+    "id": "karner-skrine",
+    "title": "Zakázková výroba a úpravy rozváděčových skříní",
+    "category": "Rozváděčové systémy",
+    "badge": "ČSN EN 61439-1/2",
+    "short_desc": "Dodávky a přesné mechanické úpravy oceloplechových i nerezových rozváděčových skříní na míru technologiím zákazníka včetně výřezů, kabelových průchodek a montážních desek.",
+    "specs": [
+      {
+        "label": "Konstrukční provedení",
+        "value": "Oceloplechové samostatně stojící skříně i řadové stavebnice"
+      },
+      {
+        "label": "Krytí skříní",
+        "value": "IP43, IP54 až IP65 pro náročná průmyslová prostředí"
+      },
+      {
+        "label": "Povrchová úprava",
+        "value": "Práškový vypalovaný lak RAL 7035 / nerez AISI 304"
+      },
+      {
+        "label": "Mechanické úpravy",
+        "value": "CNC vysekávání, laserové výřezy otvorů pro ovládací prvky"
+      }
+    ],
+    "features": [
+      "Individuální úprava skříní přesně podle projektové dokumentace",
+      "Vysoká mechanická tuhost skeletu a bezpečnost obsluhy",
+      "Dodávka včetně zemnicích sad, soklů a transportních ok"
+    ]
+  },
+  {
+    "id": "karner-rozvadece",
+    "title": "Dodávky a rekonstrukce rozváděčů nízkého napětí",
+    "category": "Elektrotechnika",
+    "badge": "Norma ČSN EN",
+    "short_desc": "Kompletní osazení rozváděčů NN komponenty renomovaných výrobců (ABB, Schneider Electric, Siemens, Eaton) pro průmyslové haly, trafostanice i administrativní objekty.",
+    "specs": [
+      {
+        "label": "Jmenovité napětí",
+        "value": "3× 400 / 230 V, 50 Hz, síť TN-S, TN-C-S"
+      },
+      {
+        "label": "Jmenovitý proud",
+        "value": "Do 2 500 A s dimenzovanou zkratovou odolností"
+      },
+      {
+        "label": "Komponentová báze",
+        "value": "ABB, Schneider Electric, Siemens, OEZ, Eaton"
+      },
+      {
+        "label": "Revizní zprávy",
+        "value": "Výchozí revize dle ČSN 33 2000-6 a kusové ověření"
+      }
+    ],
+    "features": [
+      "Rekonstrukce a modernizace stávajících rozvoden bez nutnosti dlouhých odstávek",
+      "Přehledné vnitřní uspořádání a značení vodičů usnadňující údržbu",
+      "Garance plné provozní bezpečnosti a protokol o kusové zkoušce"
+    ]
+  },
+  {
+    "id": "karner-servis",
+    "title": "Servis a ekologická likvidace elektro zařízení",
+    "category": "Elektro servis",
+    "badge": "ISO 14001 / Zákon o odpadech",
+    "short_desc": "Odborná demontáž dosloužilých rozvodných celků, trafozařízení a kabelových tras s garantovanou ekologickou likvidací a recyklací materiálů dle legislativy ČR.",
+    "specs": [
+      {
+        "label": "Rozsah služeb",
+        "value": "Demontáže, bezpečné odpojení, odvoz a recyklace"
+      },
+      {
+        "label": "Odpadové hospodářství",
+        "value": "Třídění mědi, hliníku, oceli, izolantů a nebezpečných látek"
+      },
+      {
+        "label": "Osvědčení o likvidaci",
+        "value": "Vystavení oficiálního protokolu pro orgány ŽP"
+      },
+      {
+        "label": "Disponibilita",
+        "value": "Celá ČR s prioritním pokrytím Prahy a Středních Čech"
+      }
+    ],
+    "features": [
+      "Kompletní administrativní a legislativní servis likvidace odpadů",
+      "Zkušený tým certifikovaných elektrotechniků s vyhláškou 50 / NV 194/2022 Sb.",
+      "Uvolnění prostor zákazníka pro instalaci moderních technologií"
+    ]
+  },
+  {
+    "id": "karner-zamecnictvi",
+    "title": "Zámečnická a kovoobráběcí výroba pro elektro",
+    "category": "Kovovýroba",
+    "badge": "Vlastní zámečnická dílna",
+    "short_desc": "Zakázková výroba nosných ocelových rámů, kabelových lávek, přístrojových roštů, krycích plechů a atypických zámečnických prvků pro elektrotechniku.",
+    "specs": [
+      {
+        "label": "Strojní možnosti",
+        "value": "Stříhání, ohýbání plechů na ohraňovacích lisech, svařování"
+      },
+      {
+        "label": "Zpracovávané materiály",
+        "value": "Ocelový plech 1–5 mm, nerez, pozinkovaný plech, měděné pasoviny"
+      },
+      {
+        "label": "Metody spojování",
+        "value": "Svařování MIG/MAG, TIG, bodové navařování svorníků"
+      },
+      {
+        "label": "Doplňkové úpravy",
+        "value": "Galvanické a žárové zinkování, komaxitování RAL"
+      }
+    ],
+    "features": [
+      "Přesná výroba atypických komponentů s minimálními tolerancemi",
+      "Rychlé vzorkování a operativní řešení montážních problémů",
+      "Dlouholetá tradice na trhu od roku 1992"
+    ]
+  }
+]

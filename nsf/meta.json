@@ -1,0 +1,40 @@
+{
+  "slug": "nsf",
+  "firma": "NSF - spol. s r.o.",
+  "ico": "00474096",
+  "obec": "Beroun",
+  "okres": "Beroun",
+  "kraj": "Středočeský kraj",
+  "obor_plny": "Zakázková kovovýroba, stavební ocelové konstrukce, vodo-topo-plyn a železářství",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://nsf.cz",
+  "email": "nsf@nsf.cz",
+  "telefon": "+420 608 11 50 50",
+  "adresa_plna": "Plzeňská 349/121, Beroun-Město, 266 01 Beroun",
+  "jednatel": "Ing. Zdeněk Macourek",
+  "vedeni": "Ing. Zdeněk Macourek, jednatel",
+  "osloveni": "Vážený pane inženýre Macourku,",
+  "prodejni_body": [
+    "Poctivé zámečnické a instalatérské řemeslo v Berouně od roku 1990",
+    "Ocelové konstrukce hal, brány Hörmann a průmyslové kotelny na klíč",
+    "Vlastní prodejna železářství a hutního materiálu s dělením na míru"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralé kódování znaků windows-1250 způsobující rozpad diakritiky v prohlížeči",
+    "Chybí meta viewport – web se na mobilních zařízeních nezalamuje",
+    "Zastaralý tabulkový layout z roku 2005 s pevnou šířkou 1024px",
+    "Chybí přehledný technický katalog výrobků s parametry a normami"
+  ],
+  "vylepseni_noveho_webu": [
+    "Nový moderní archetyp Editorial & Story s fotogalerií a historií firmy",
+    "Plná mobilní responzivita auditovaná pro iPhone i Android",
+    "Interaktivní technický katalog konstrukcí a TZB s modálním oknem",
+    "Mapy.cz widget s RÚIAN katastrálním špendlíkem areálu v Berouně",
+    "Poptávkový formulář pro zámečnické i instalatérské práce"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "katalog_pocet": 4,
+    "partner": "Hörmann"
+  }
+}

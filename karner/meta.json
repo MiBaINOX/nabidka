@@ -1,0 +1,45 @@
+{
+  "slug": "karner",
+  "firma": "KARNER s.r.o.",
+  "ico": "01998382",
+  "obec": "Praha 8",
+  "okres": "Praha",
+  "kraj": "Hlavní město Praha",
+  "obor_plny": "Výroba rozváděčových skříní, rozváděče nízkého napětí, servis elektro a zámečnická výroba",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://karner.cz",
+  "email": "info@karner.cz",
+  "telefon": "+420 602 743 757",
+  "mobil": "+420 603 349 300",
+  "adresa_plna": "Bojasova 1249/15, Kobylisy, 182 00 Praha 8",
+  "jednatel": "Karel Neruda",
+  "vedeni": "Karel Neruda, jednatel",
+  "osloveni": "Vážený pane Nerudo,",
+  "prodejni_body": [
+    "Tradiční dodavatel rozváděčových skříní a rozváděčů od roku 1992",
+    "Zakázkové mechanické úpravy skříní, zámečnictví a servis elektro",
+    "Ekologická likvidace starých zařízení dle platné legislativy"
+  ],
+  "vady_stareho_webu": [
+    "Web běží na nezabezpečeném protokolu HTTP bez SSL/TLS certifikátu",
+    "Chybí meta viewport – web se nezalamuje pro moderní smartphony",
+    "Zastaralý systém s layoutem z roku 2010 a pevnou šířkou 960px",
+    "Chybí interaktivní technické parametry rozváděčových skříní a komponent"
+  ],
+  "vylepseni_noveho_webu": [
+    "Nový moderní archetyp Swiss Bento Grid s čistou mřížkou a typografií",
+    "100% mobilní responzivita auditovaná pro iPhone i Android",
+    "Interaktivní technický katalog s modálními detaily norem ČSN EN 61439",
+    "Mapy.cz widget s RÚIAN katastrálním špendlíkem pro sídlo v Praze 8",
+    "Poptávkový formulář pro rozváděče a zámečnické práce s okamžitou odezvou"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1992,
+    "katalog_pocet": 4,
+    "normy": [
+      "ČSN EN 61439-1",
+      "ČSN EN 61439-2",
+      "ČSN 33 2000-6"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "da-swiss",
+  "firma": "DA-swiss s.r.o.",
+  "ico": "03139719",
+  "obec": "Praha - Vinoř",
+  "okres": "Praha",
+  "kraj": "Hlavní město Praha",
+  "obor_plny": "Dlouhotočné automaty švýcarského typu, CNC soustruhy Jinn Fa, technologický servis a podavače tyčí",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://da-swiss.cz",
+  "email": "info@da-swiss.cz",
+  "telefon": "+420 731 644 759",
+  "adresa_plna": "Mladoboleslavská 679, 190 17 Praha - Vinoř",
+  "kancelar": "Zálešná I / 1108, 760 01 Zlín",
+  "jednatel": "Jindřich Kolář",
+  "vedeni": "Jindřich Kolář, jednatel",
+  "osloveni": "Vážený pane Koláři,",
+  "prodejni_body": [
+    "Výhradní zastoupení a servis špičkových dlouhotočných automatů Jinn Fa",
+    "Přesné CNC stroje švýcarského typu pro tyče od 1 mm do 42 mm",
+    "Kompletní technologická podpora, odladění programů a servis v ČR"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes protokol HTTP bez šifrování",
+    "Zastaralé kódování znaků windows-1250 s chybami v zobrazení textů",
+    "Chybí meta viewport – nutnost složitého zoomování na mobilu",
+    "Zastaralý redakční systém a statické rozvržení s archaickým fontem"
+  ],
+  "vylepseni_noveho_webu": [
+    "Nový moderní archetyp Tech & Precision s přepínacími záložkami modelových řad",
+    "Plná mobilní responzivita auditovaná pro moderní smartphony i tablety",
+    "Interaktivní technický katalog CNC strojů s detailním modálním oknem parametrů",
+    "Mapy.cz widget s katastrálním RÚIAN špendlíkem sídla v Praze-Vinoři",
+    "Poptávkový formulář pro konfiguraci CNC stroje s okamžitou odezvou"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2014,
+    "katalog_pocet": 4,
+    "znacka": "Jinn Fa"
+  }
+}
