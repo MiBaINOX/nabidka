@@ -1,0 +1,48 @@
+{
+  "slug": "gastroform",
+  "firma": "GASTROFORM, s.r.o.",
+  "ico": "01637801",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Profesionální gastronomické vybavení, zakázková nerezová výroba a projekce gastro provozů",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://gastroform.cz",
+  "email": "info@gastroform.cz",
+  "telefon": "+420 546 223 099",
+  "mobil": "+420 603 821 268",
+  "adresa_plna": "Ondrova 159/9, Kníničky, 635 00 Brno",
+  "jednatel": "Pavel Prostřední",
+  "vedeni": "Pavel Prostřední, jednatel",
+  "osloveni": "Vážený pane Prostřední,",
+  "prodejni_body": [
+    "Váš spolehlivý partner pro profesionální gastronomii od roku 1998",
+    "Zakázková nerezová výroba, varné ostrovy a špičková chladicí technika",
+    "Komplexní realizace na klíč: projekce, montáž, zaškolení i servis 24/7"
+  ],
+  "vady_stareho_webu": [
+    "Chybí meta viewport – web se na mobilních zařízeních zobrazuje miniaturně",
+    "Zastaralý kód s tabulkovým layoutem bez sémantických HTML5 prvků",
+    "Nezabezpečené připojení pouze přes nešifrovaný protokol HTTP",
+    "Rozpadlé a neplatné navigační odkazy (např. sekce myček a dalších kategorií)"
+  ],
+  "vylepseni_noveho_webu": [
+    "Nový moderní Heavy Industrial archetyp v čistém antracitovém provedení",
+    "100% mobilní responzivita auditovaná pro iPhone i Android zařízení",
+    "Interaktivní technický katalog produktů s detailním modálním oknem",
+    "Mapy.cz widget s katastrálním RÚIAN špendlíkem sídla v Brně-Kníničkách",
+    "Poptávkový formulář gastro technologií s okamžitou odezvou"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1998,
+    "katalog_pocet": 4,
+    "znacky": [
+      "Retigo",
+      "Liebherr",
+      "Simag",
+      "Sincold",
+      "Infrico",
+      "Robot Coupe"
+    ]
+  }
+}

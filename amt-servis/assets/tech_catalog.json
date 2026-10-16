@@ -1,0 +1,122 @@
+[
+  {
+    "id": "amt-kontejnery",
+    "title": "Výroba velkoobjemových a vanových kontejnerů",
+    "category": "Kontejnerová technika",
+    "badge": "DIN 30722 & DIN 30720",
+    "short_desc": "Zakázková výroba kontejnerů všech rozměrů a provedení – abroll kontejnery pro těžká nákladní vozidla, vanové kontejnery Mulde, suťové kontejnery se sklopnými bočnicemi.",
+    "specs": [
+      {
+        "label": "Rozměrové varianty",
+        "value": "Kontejnery Avia (3,80 × 2,05 × 0,50 m) až abroll 7,0 m"
+      },
+      {
+        "label": "Typy kontejnerů",
+        "value": "Suťové, velkoobjemové, vanové, se síťovou nástavbou"
+      },
+      {
+        "label": "Konstrukční materiály",
+        "value": "Vysokopevnostní ocel S235 / S355, otěruvzdorné plechy"
+      },
+      {
+        "label": "Povrchová úprava",
+        "value": "Základní antikorozní nátěr + 2k polyuretanový vrchní lak RAL"
+      }
+    ],
+    "features": [
+      "Výroba přesně na míru dle specifických požadavků zákazníka",
+      "Zesílená žebrování dna a bočnic pro těžké kamenivo a stavební suť",
+      "Dodávka v libovolném barevném odstínu dle vzorníku RAL"
+    ]
+  },
+  {
+    "id": "amt-nosice",
+    "title": "Kontejnerové teleskopické a hákové nosiče do 12 t",
+    "category": "Nástavby nákladních vozů",
+    "badge": "Autorizovaný výrobce",
+    "short_desc": "Autorizovaná výroba, montáž a servis jednoramenných a teleskopických kontejnerových nosičů pro nákladní automobily do celkové nosnosti 12 tun.",
+    "specs": [
+      {
+        "label": "Nosnost nástaveb",
+        "value": "Kontejnerové teleskopické nosiče do 8 t / hákové do 5 t"
+      },
+      {
+        "label": "Délky kontejnerů",
+        "value": "Pro kontejnery v délkách od 3 300 mm do 5 000 mm"
+      },
+      {
+        "label": "Ovládání nástavby",
+        "value": "Pneumatické z kabiny řidiče + nouzové mechanické na rámu"
+      },
+      {
+        "label": "Typy vozidel",
+        "value": "Avia, Mercedes-Benz Atego, MAN, DAF, Iveco"
+      }
+    ],
+    "features": [
+      "Kompletní homologace a zápis do technického průkazu vozidla",
+      "Vysoká rychlost natahování a sklápění s bezpečným jištěním kontejneru",
+      "Záruční i pozáruční revize a servis hydraulických okruhů"
+    ]
+  },
+  {
+    "id": "amt-servis-vozu",
+    "title": "Servis stavebních strojů a nákladních automobilů",
+    "category": "Servis a opravy techniky",
+    "badge": "Diagnostika & Opravy",
+    "short_desc": "Kompletní mechanické, hydraulické a elektrikářské opravy stavebních strojů, rypadel, nakladačů i nákladních vozidel všech tuzemských i světových značek.",
+    "specs": [
+      {
+        "label": "Servisované značky",
+        "value": "LIAZ, Tatra, Multicar, Praga, Locust, UNC, Bobcat, CAT, Avia"
+      },
+      {
+        "label": "Rozsah prací",
+        "value": "Opravy motorů, převodovek, hydraulických čerpadel a pístnic"
+      },
+      {
+        "label": "Dílenské zázemí",
+        "value": "Moderně vybavená dílna Rantířov u Jihlavy + výjezdní servis"
+      },
+      {
+        "label": "Náhradní díly",
+        "value": "Nové i repasované originální díly skladem s rychlou montáží"
+      }
+    ],
+    "features": [
+      "Dlouholeté zkušenosti s těžkou stavební a komunální technikou",
+      "Minimalizace prostojů vozového parku zákazníků",
+      "Kompletní repase hydraulických komponent a výměny náplní"
+    ]
+  },
+  {
+    "id": "amt-pneuservis",
+    "title": "Nákladní pneuservis a příprava na STK a emise",
+    "category": "Pneuservis & Inspekce",
+    "badge": "Pneuservis & STK/ME",
+    "short_desc": "Profesionální přezouvání a opravy nákladních a stavebních pneumatik, diagnostika emisí a kompletní příprava vozidel včetně zajištění STK a ME.",
+    "specs": [
+      {
+        "label": "Rozsah pneuservisu",
+        "value": "Nákladní automobily, stavební stroje, traktory a přívěsy"
+      },
+      {
+        "label": "Průměry ráfků",
+        "value": "Přezouvání těžkých kol od 17,5\" do 26\" a EM plášťů"
+      },
+      {
+        "label": "Služby STK / ME",
+        "value": "Předprohlídka na zkušebně brzd, seřízení světel, měření emisí"
+      },
+      {
+        "label": "Lokalita",
+        "value": "Areál Vílanec na tahu Jihlava - Vídeň a dílny Rantířov"
+      }
+    ],
+    "features": [
+      "Převzetí vozidla a předání s platnou technickou kontrolou bez starostí",
+      "Certifikované opravy průrazů pneumatik teplou i studenou vulkanizací",
+      "Příznivé ceny a expresní termíny pro stálé firemní zákazníky"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "slug": "amt-servis",
+  "firma": "AMT SERVIS s.r.o.",
+  "ico": "00532959",
+  "obec": "Vílanec",
+  "okres": "Jihlava",
+  "kraj": "Kraj Vysočina",
+  "obor_plny": "Výroba kontejnerů, kontejnerové nosiče, servis stavebních strojů a nákladní pneuservis",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://amtservis.cz",
+  "email": "amtservis@centrum.cz",
+  "telefon": "+420 777 704 136",
+  "mobil": "+420 734 744 941",
+  "adresa_plna": "č.p. 54, 588 35 Vílanec (okres Jihlava)",
+  "kancelar": "Rantířov 20, 588 41 Vyskytná nad Jihlavou",
+  "jednatel": "František Zelený",
+  "vedeni": "František Zelený, jednatel",
+  "osloveni": "Vážený pane Zelený,",
+  "prodejni_body": [
+    "Autorizovaný výrobce kontejnerových nosičů a kontejnerů na míru",
+    "Komplexní servis stavebních strojů, nákladních aut a pneuservis",
+    "Strategická poloha areálu ve Vílanci na tahu Praha - Jihlava - Wien"
+  ],
+  "vady_stareho_webu": [
+    "Web běží na nezabezpečeném protokolu HTTP bez SSL zabezpečení",
+    "Zcela chybí meta viewport – web se nezalamuje pro moderní smartphony",
+    "Zastaralý redakční systém webdnes s XHTML 1.0 kódem z roku 2010",
+    "Chybí interaktivní filtrování typů kontejnerů a technických nosičů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Nový moderní archetyp Tech & Precision s přepínacími taby služeb",
+    "100% mobilní responzivita vyladěná pro displeje telefonů i tabletů",
+    "Interaktivní technický katalog s modálními okny a přesnými specifikacemi",
+    "Mapy.cz widget s RÚIAN katastrálním špendlíkem pro prodejní areál Vílanec",
+    "Jednoduchý poptávkový formulář pro kontejnery, servis i nosiče"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "katalog_pocet": 4,
+    "arealy": [
+      "Vílanec 54",
+      "Rantířov 20"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "aldo-schody",
+    "title": "Zakázková schodiště a točité schody",
+    "category": "Schodišťové systémy",
+    "badge": "ČSN EN 1090-2",
+    "short_desc": "Interiérová a exteriérová ocelová schodiště všech konstrukčních typů – točitá, vřetenová, přímá i lomená s variabilními nášlapy ze dřeva, skla či pororoštů.",
+    "specs": [
+      {
+        "label": "Typy konstrukcí",
+        "value": "Točitá, přímá, lomená, vřetenová"
+      },
+      {
+        "label": "Materiálová báze",
+        "value": "Konstrukční ocel S235 / nerezová ocel AISI 304"
+      },
+      {
+        "label": "Nášlapné plochy",
+        "value": "Masivní dřevo, bezpečnostní sklo ESG/VSG, ocelový pororošt"
+      },
+      {
+        "label": "Povrchová úprava",
+        "value": "Práškové lakování (Komaxit RAL), žárové zinkování"
+      }
+    ],
+    "features": [
+      "Statický návrh a 3D vizualizace před výrobou",
+      "Certifikovaná výroba nosných prvků dle ČSN EN 1090",
+      "Přesná montáž zkušenými zámečníky po celé ČR"
+    ]
+  },
+  {
+    "id": "aldo-zabradli",
+    "title": "Designová zábradlí a skleněné výplně",
+    "category": "Zábradlí a zábrany",
+    "badge": "ČSN 74 3305",
+    "short_desc": "Bezpečnostní a estetická zábradlí pro schodiště, balkony, terasy a francouzská okna v lakovaném, celonerezovém i proskleném provedení.",
+    "specs": [
+      {
+        "label": "Varianty provedení",
+        "value": "Lakované, nerezové broušené, žárově pozinkované, skleněné"
+      },
+      {
+        "label": "Skleněné výplně",
+        "value": "Lepené bezpečnostní sklo VSG 44.2 až 88.4 čiré / mléčné"
+      },
+      {
+        "label": "Ukotvení",
+        "value": "Do podlahy (shora) nebo boční kotvení na terče / do profilu"
+      },
+      {
+        "label": "Zatížení",
+        "value": "Dle ČSN 74 3305 pro bytové i veřejné budovy"
+      }
+    ],
+    "features": [
+      "Variabilní výplně: prutové, lankové, perforovaný plech, sklo",
+      "Vysoká odolnost vůči povětrnostním vlivům a korozi",
+      "Zakázkové řešení madel z nerezu nebo mořeného dřeva"
+    ]
+  },
+  {
+    "id": "aldo-brany",
+    "title": "Samonosné vjezdové brány a plotové dílce",
+    "category": "Vrata, brány a oplocení",
+    "badge": "Automatizace CAME / SOMFY",
+    "short_desc": "Kompletní výroba pojezdových samonosných, křídlových bran a plotových polí na míru s přípravou pro elektropohony a přístupové systémy.",
+    "specs": [
+      {
+        "label": "Typy bran",
+        "value": "Samonosné posuvné, jednokřídlé, dvoukřídlé"
+      },
+      {
+        "label": "Průjezdná šířka",
+        "value": "Od 3 000 mm do 8 500 mm (i průmyslové varianty)"
+      },
+      {
+        "label": "Povrchová ochrana",
+        "value": "Žárový zinek + práškový vypalovaný lak (duplexní systém)"
+      },
+      {
+        "label": "Ovládání",
+        "value": "Automatické pohony, dálkové ovladače, kódové klávesnice"
+      }
+    ],
+    "features": [
+      "Tichý chod pojezdu na bezúdržbových valivých ložiscích",
+      "Sjednocený design plotu, vchodové branky a vjezdové brány",
+      "Dodávka na klíč včetně základů, montáže a zapojení pohonu"
+    ]
+  },
+  {
+    "id": "aldo-konstrukce",
+    "title": "Ocelové nosné konstrukce a atypické krby",
+    "category": "Zakázkové zámečnictví",
+    "badge": "Zakázková výroba",
+    "short_desc": "Zámečnické a ocelové konstrukce pro bytové domy, průmyslové objekty i privátní klientelu – přístřešky, pergoly, mříže, lávky a designová krbová tělesa.",
+    "specs": [
+      {
+        "label": "Konstrukční sortiment",
+        "value": "Ocelové přístřešky, rampy, lávky, nosné rámy, krbová tělesa"
+      },
+      {
+        "label": "Metody svařování",
+        "value": "MIG/MAG (135), TIG (141) dle EN ISO 9606-1"
+      },
+      {
+        "label": "Doplňkové materiály",
+        "value": "Tahokov, polykarbonát, bezpečnostní sklo, žáruvzdorná ocel"
+      },
+      {
+        "label": "Projektové reference",
+        "value": "BD Kociánka Brno, Radnice Letovice, MŠ Blansko, Pyrotek"
+      }
+    ],
+    "features": [
+      "Kompletní zámečnická výroba od technické dokumentace po montáž",
+      "Spolehlivý dodavatel pro generální dodavatele staveb i investory",
+      "Dlouholetá tradice a výrobní areál v průmyslové zóně Vojánky v Blansku"
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "gastro-konvektomaty",
+    "title": "Kombinované konvektomaty a varné ostrovy",
+    "category": "Varná technologie",
+    "badge": "Retigo & Zakázková výroba",
+    "short_desc": "Špičkové multifunkční parní konvektomaty, varné kotle, sklokeramické a indukční sporáky, modulární i monoblokové varné ostrovy pro profesionální provozy.",
+    "specs": [
+      {
+        "label": "Kapacita zařízení",
+        "value": "6× GN 1/1, 10× GN 1/1, 20× GN 2/1 i stolní provedení"
+      },
+      {
+        "label": "Zdroj energie",
+        "value": "Elektrické (400 V) / Plynové provedení s rekuperací"
+      },
+      {
+        "label": "Ovládací rozhraní",
+        "value": "Dotykový barevný displej s programovatelnými recepty"
+      },
+      {
+        "label": "Hygienické krytí",
+        "value": "Celonerezové provedení AISI 304 (1.4301), IPX5"
+      }
+    ],
+    "features": [
+      "Automatické mycí systémy s minimální spotřebou vody a chemie",
+      "Výrazná úspora elektrické energie a surovin při nízkoteplotním pečení",
+      "Odborné zaškolení obsluhy kuchařským technologem v ceně dodávky"
+    ]
+  },
+  {
+    "id": "gastro-nerez",
+    "title": "Zakázková nerezová výroba a mycí linky",
+    "category": "Nerezový nábytek a hygiena",
+    "badge": "HACCP certifikace",
+    "short_desc": "Zakázková výroba nerezového gastro nábytku na míru prostoru – pracovní stoly, dřezy, mycí linky, barové pulty, digestoře a odsávací zákryty s osvětlením.",
+    "specs": [
+      {
+        "label": "Použitá nerezová ocel",
+        "value": "Potravinářská chromniklová ocel AISI 304 (ČSN 17 240)"
+      },
+      {
+        "label": "Tloušťka plechů",
+        "value": "1,0 mm až 1,5 mm s výztuhami z tlumicích desek"
+      },
+      {
+        "label": "Provedení hran",
+        "value": "Hygienické zaoblení R10 / R15 pro snadnou dezinfekci"
+      },
+      {
+        "label": "Sortiment",
+        "value": "Stoly, dřezy, regály, digestoře s lapači tuku, barové moduly"
+      }
+    ],
+    "features": [
+      "Přesná výroba na míru stavebním dispozicím zákazníka v Brně",
+      "Dodržení všech hygienických norem a certifikací pro styk s potravinami",
+      "Možnost integrovaných zásuvek, odpadkových košů a prořezů na kabely"
+    ]
+  },
+  {
+    "id": "gastro-chlazeni",
+    "title": "Průmyslové chlazení, šokery a výrobníky ledu",
+    "category": "Chladicí technika",
+    "badge": "Liebherr, Simag, Sincold",
+    "short_desc": "Kompletní chladicí a mrazicí technika pro gastronomii – chladničky Liebherr, výrobníky ledu Simag a Hoshizaki, šokové zchlazovače a zmrazovače Sincold, cukrářské vitríny Infrico.",
+    "specs": [
+      {
+        "label": "Teplotní rozsahy",
+        "value": "Chladicí (-2 °C až +10 °C) / Mrazicí (-15 °C až -25 °C)"
+      },
+      {
+        "label": "Šokové zchlazení",
+        "value": "Z +90 °C na +3 °C za 90 min / na -18 °C za 240 min"
+      },
+      {
+        "label": "Chladiva",
+        "value": "Ekologická chladiva R290 a R600a s nulovým ODP"
+      },
+      {
+        "label": "Kapacita výrobníků ledu",
+        "value": "Od 20 kg do 300 kg šupinkového i kuželového ledu / 24h"
+      }
+    ],
+    "features": [
+      "Prémiová energetická účinnost v tropických podmínkách kuchyně (klima třída 5)",
+      "Šokery eliminující množení bakterií a zachovávající čerstvost a chuť pokrmů",
+      "Záruční i pozáruční servis originálními náhradními díly"
+    ]
+  },
+  {
+    "id": "gastro-projekty",
+    "title": "Projekce gastro provozů, výdej stravy a servis",
+    "category": "Komplexní služby na klíč",
+    "badge": "Projektace & Servis 24/7",
+    "short_desc": "Kompletní technologické projekty gastro provozů dle norem HACCP, dodávka výdejních systémů, přepravy stravy (termoporty) a nepřetržitý servis 24/7.",
+    "specs": [
+      {
+        "label": "Rozsah projekce",
+        "value": "Dispoziční řešení, návaznost technologií, napojovací body ZTI/EL"
+      },
+      {
+        "label": "Typy provozů",
+        "value": "Restaurace, školní jídelny, nemocnice, závodní stravování, hotely"
+      },
+      {
+        "label": "Přeprava stravy",
+        "value": "Izotermické termoporty, termo jídlonosiče, výdejní ohřevné vany"
+      },
+      {
+        "label": "Dostupnost servisu",
+        "value": "Hotline servisních techniků 24/7 pro smluvní partnery"
+      }
+    ],
+    "features": [
+      "Optimalizace personálních a energetických nákladů kuchyně",
+      "Financování, montáž, revize plynu i elektro a zaškolení personálu",
+      "Více než 25 let praxe a stovky úspěšně realizovaných velkokuchyní"
+    ]
+  }
+]

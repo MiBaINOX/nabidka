@@ -1,0 +1,45 @@
+{
+  "slug": "aldo-metal",
+  "firma": "ALDO metal, s.r.o.",
+  "ico": "01427237",
+  "obec": "Blansko",
+  "okres": "Blansko",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Zakázková kovovýroba, ocelová schodiště, zábradlí a vjezdové brány",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://aldometal.cz",
+  "email": "info@aldo-metal.cz",
+  "telefon": "+420 516 414 091",
+  "mobil": "+420 604 550 828",
+  "adresa_plna": "Ericha Roučky 2455/9, 678 01 Blansko",
+  "jednatel": "Oldřich Pokladník",
+  "vedeni": "Oldřich Pokladník, jednatel",
+  "osloveni": "Vážený pane Pokladníku,",
+  "prodejni_body": [
+    "Zakázková zámečnická výroba v Blansku s tradicí a 3D návrhem",
+    "Kompletní realizace: schodiště, zábradlí, brány a konstrukce",
+    "Referenční stavby pro BD Kociánka, Radnici Letovice či Pyrotek"
+  ],
+  "vady_stareho_webu": [
+    "Web běží na nezabezpečeném protokolu HTTP bez šifrování SSL/TLS",
+    "Chybí mobilní responzivita (viewport) – nutné složité přibližování na telefonu",
+    "Zastaralý systém z roku 2013 s nepřehledným rozvržením fotografií zakázek",
+    "Absence interaktivního technického katalogu s parametry konstrukcí"
+  ],
+  "vylepseni_noveho_webu": [
+    "Nový moderní archetyp Editorial & Story s fotogalerií a časovou osou",
+    "Plná mobilní responzivita testovaná na 360px a 375px bez přetékání",
+    "Interaktivní technický katalog s modálními detaily materiálů a norem",
+    "Mapy.cz widget s přesným RÚIAN špendlíkem pro areál v Blansku",
+    "Poptávkový konfigurátor zámečnických prací s bleskovou odezvou"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "katalog_pocet": 4,
+    "normy": [
+      "ČSN EN 1090-2",
+      "ČSN 74 3305",
+      "ČSN EN ISO 9606-1"
+    ]
+  }
+}
