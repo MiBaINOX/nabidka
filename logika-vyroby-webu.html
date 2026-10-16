@@ -902,7 +902,7 @@
                             <ul>
                                 <li>Přidání karty firmy s přepínačem náhledu <em>Nový web / Původní web</em>.</li>
                                 <li>Oslovení konkrétního jednatele / ředitele ve správném 5. pádě (vokativu).</li>
-                                <li>Tlačítka pro otevření živého webu, PDF nabídky a předvyplněného e-mailu (<code>mailto:</code> + kopírování do schránky).</li>
+                                <li>Tlačítka pro otevření živého webu, PDF nabídky, náhledu e-mailu přímo na kartě a chytré odeslání přes Gmail Web (automatické zkopírování plného těla zprávy do schránky <code>Ctrl+C</code> + otevření Gmailu + přepnutí CRM stavu na <em>Poslán e-mail</em>).</li>
                             </ul>
                         </div>
                         <div class="stage-subbox">
@@ -1019,8 +1019,8 @@
                         <p>Kdykoliv má původní web ke stažení technické katalogy, certifikáty ISO/TÜV nebo Všeobecné obchodní podmínky, nový prototyp na ně povinně přebírá odkazy a zpřístupňuje je klientům.</p>
                     </div>
                     <div class="think-item">
-                        <h4>4. Schránkový helper pro e-maily (Anti-Truncate)</h4>
-                        <p>V CRM rozcestníku tlačítko <code>✉️ Otevřít v poště</code> volá funkci <code>openMailAndCopy()</code>, která celý 1 400znakový text nabídky zkopíruje do schránky a současně otevře <code>mailto:</code>, čímž eliminuje riziko oříznutí podpisu Windows klienty.</p>
+                        <h4>4. Gmail Web + Schránkový helper (Anti-Truncate Workflow)</h4>
+                        <p>Místo nespolehlivých desktopových <code>.eml</code> souborů a desktopových klientů je systém plně optimalizován pro <strong>Gmail v prohlížeči</strong>: tlačítko <code>✉️ Odeslat přes Gmail</code> automaticky zkopíruje kompletní neuseknutý text nabídky do schránky (včetně oslovení v 5. pádě, bodů auditu a podpisu Michala Bartoše), otevře nové okno Gmailu s předvyplněným adresátem i předmětem a automaticky nastaví CRM stav karty na <code>📧 Poslán e-mail</code>. V Gmailu stačí jen stisknout <code>Ctrl+V</code> a přiložit PDF.</p>
                     </div>
                 </div>
             </div>
