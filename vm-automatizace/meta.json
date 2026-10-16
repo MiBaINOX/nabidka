@@ -1,0 +1,43 @@
+{
+  "slug": "vm-automatizace",
+  "firma": "VMAutomatizace s.r.o.",
+  "ico": "04437781",
+  "dic": "CZ04437781",
+  "adresa": "Škrobárenská 507/12, Trnitá, 617 00 Brno",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Automatizace výroby na míru, robotická pracoviště, jednoúčelové stroje a výrobní linky",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://vmautomatizace.cz",
+  "email": "info@vmautomatizace.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Robotická pracoviště na klíč osazená manipulátory Epson a SCARA s přesným polohováním do zásobníků Tray",
+    "In-line kamerové navádění pozice dílů (Machine Vision) s okamžitou 100% kontrolou jakosti pro automotive",
+    "Jednoúčelové montážní linky a poloautomaty se zalisováním a tahovým zátěžovým testováním v reálném čase",
+    "Vlastní zázemí přesného CNC obrábění na centrech HAAS VF-2 a Doosan DNM 6700 pro zakázkovou výrobu"
+  ],
+  "vady_stareho_webu": [
+    "Absence šifrovaného HTTPS protokolu – prohlížeče Chrome a Edge zobrazují varování 'Nezabezpečeno'",
+    "Chybějící meta viewport – web se na mobilních telefonech nezalamuje a vyžaduje horizontální scrollování a přibližování",
+    "Chybějící interaktivní prezentace technických specifikací a parametrů robotických linek",
+    "Zbytkový cizojazyčný výplňový text z neupravené šablony na podstránce obrábění ('Gamus at magna non nunc...')"
+  ],
+  "vylepseni_noveho_webu": [
+    "Průmyslový Heavy Industrial design s tmavým technickým motivem a 50/50 split-screen Hero sekcí",
+    "Interaktivní katalog automatizačních technologií s živým fulltextovým vyhledáváním a filtrem kategorií",
+    "Detailní technická modální okna (#techModalBackdrop) s kompletními tabulkami parametrů manipulátorů a CNC",
+    "Garantovaná 100% responzivita a bleskové načítání na všech typech mobilních i desktopových zařízení",
+    "Oficiální ověřený Mapy.cz špendlík se souřadnicemi areálu CTBox v Brně na Škrobárenské"
+  ],
+  "fakta": [
+    "Rok založení: 2015 (IČO 04437781, Krajský soud v Brně, oddíl C, vložka 89931)",
+    "Jednatelé a zakladatelé: Ing. Martin Vyšín, Ph.D. a Ing. Jaroslav Mrnka",
+    "Sídlo a areál: Škrobárenská 507/12, CTBox 6/2, 617 00 Brno",
+    "Strojní park: HAAS VF2 (pojezdy 762 × 406 × 508 mm, 8 100 ot/min), Doosan 6700 (1 020 × 510 × 625 mm, 8 000 ot/min)",
+    "CAD/CAM konstrukce: 3D SolidEdge, simulace cyklových časů a automatizačních periférií"
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "linka-lamely",
+    "cat": "robotika",
+    "cat_name": "Robotická pracoviště",
+    "title": "Linka pro skládání lamel a klapek",
+    "badge": "Robot Epson & Tray",
+    "perex": "Plně automatizované robotické pracoviště s manipulátorem Epson pro přesné zakládání lamel do Tray palet a klapek na proložky.",
+    "img": "assets/KI1_.jpg",
+    "specs_preview": "Manipulátor Epson • Zásobníky Tray • Automotive standard",
+    "full_desc": "Robotické pracoviště pro přesné skládání lamel a klapek vyvinuté pro náročný automobilový průmysl. Centrální manipulátor Epson zajišťuje vysokou opakovatelnou přesnost polohování a cyklové časy v sekundách. Systém obsahuje automatickou výměnu zásobníků Tray a proložek.",
+    "specs_table": {
+      "Manipulátor": "Průmyslový robot Epson",
+      "Manipulované díly": "Lamely a klapky do proložek",
+      "Podávací systém": "Automatický zakladač do Tray palet",
+      "Řídicí systém": "Průmyslové PLC s dotykovým rozhraním HMI",
+      "Bezpečnost": "Optické bezpečnostní závory dle ČSN EN ISO 13849",
+      "Provozní režim": "Nepřetržitý 3-směnný provoz automotive"
+    }
+  },
+  {
+    "id": "montaz-ventilu",
+    "cat": "robotika",
+    "cat_name": "Robotická pracoviště",
+    "title": "Robotická montáž kulových ventilů",
+    "badge": "Machine Vision / Kamery",
+    "perex": "Automatické robotické pracoviště pro montáž kulových ventilů s integrovaným kamerovým naváděním odebírací a montážní pozice.",
+    "img": "assets/KV0_.jpg",
+    "specs_preview": "Kamerové navádění • 100% optická kontrola • Automatická montáž",
+    "full_desc": "Komplexní montážní buňka pro montáž a kontrolu kulových ventilů. Součástí stanice je průmyslový kamerový systém, který v reálném čase navádí chapadlo robota na přesnou odebírací polohu polotovarů a provádí finální kontrolu správného usazení těsnění a koule ventilu.",
+    "specs_table": {
+      "Kamerový systém": "Průmyslové navádění Machine Vision",
+      "Typ sestavy": "Kulové ventily a těsnicí prvky",
+      "Montážní operace": "Robotické zakládání, lisování těsnění a kompletace",
+      "Kontrola jakosti": "100% optická verifikace přítomnosti dílů",
+      "Takt linky": "Vysokorychlostní synchronizovaný cyklus",
+      "Řízení": "PLC automatizace s autodiagnostikou chyb"
+    }
+  },
+  {
+    "id": "baleni-tramu",
+    "cat": "linky",
+    "cat_name": "Výrobní a balicí linky",
+    "title": "Průmyslová linka pro balení trámů",
+    "badge": "Těžká logistika & Vývoz",
+    "perex": "Automatizovaná těžká průmyslová linka pro kontinuální balení dřevěných trámů a jejich automatický odsun a vyvezení mimo výrobní halu.",
+    "img": "assets/tr3_.jpg",
+    "specs_preview": "Dřevoobrábění • Automatický odsun • Vysoká nosnost",
+    "full_desc": "Robustní průmyslová linka navržená pro manipulaci a balení těžkých dřevěných trámů. Zařízení automaticky fixuje řezivo, provede ochranné balení fólií a pá páskování a po dokončení cyklu zajistí motorický odsun hotových balíků venkovním dopravníkem mimo prostor výrobní haly.",
+    "specs_table": {
+      "Zpracovávaný materiál": "Dřevěné konstrukční trámy a řezivo",
+      "Funkce linky": "Pevné svazkování, balení do ochranné fólie",
+      "Manipulační systém": "Motorický vyvážecí dopravník mimo halu",
+      "Konstrukce rámu": "Těžká ocelová svařovaná konstrukce",
+      "Pohony": "Průmyslové elektropřevodovky s frekvenčním měničem",
+      "Bezpečnostní zóna": "Oplocení s bezpečnostními zámky vstupů"
+    }
+  },
+  {
+    "id": "lisovani-hacku",
+    "cat": "jednoucelove",
+    "cat_name": "Jednoúčelové stroje",
+    "title": "Poloautomatické lisování háčků a test bowdenů",
+    "badge": "Zátěžový test 100%",
+    "perex": "Poloautomatický jednoúčelový stroj pro kompletaci lanovodů a bowdenů se zalisováním háčku a integrovaným testem zátěžnou silou.",
+    "img": "assets/HKS1_.jpg",
+    "specs_preview": "Kompletace bowdenů • Lisovací jednotka • Tahový zátěžový test",
+    "full_desc": "Speciální jednoúčelový poloautomat určený pro výrobce ovládacích lanovodů a bowdenů v automobilovém průmyslu. Obsluha založí komponenty, stroj provede přesné hydraulické/pneumatické zalisování háčku a bezprostředně poté provede řízený tahový test kalibrovanou silou s archivací výsledků.",
+    "specs_table": {
+      "Určení stroje": "Montáž bowdenů a lanovodů",
+      "Pracovní operace": "Přesné zalisování kovového háčku",
+      "In-line testování": "Měření zátěžnou silou s vyhodnocením OK / NOK",
+      "Ovládání": "Bezpečné dvouruční spouštění dle norem BOZP",
+      "Konstrukce": "Kompaktní ergonomický stůl s AL profily",
+      "Sledovatelnost": "Optická signalizace a blokování vadných kusů"
+    }
+  },
+  {
+    "id": "montazni-linka",
+    "cat": "linky",
+    "cat_name": "Výrobní a balicí linky",
+    "title": "Automatická montážní linka plastových dílů",
+    "badge": "Plastové montážní díly",
+    "perex": "Plně automatizovaná modulární linka pro montáž plastových výlisků s automatickými podavači, šroubováním a kontrolními stanicemi.",
+    "img": "assets/L0_.jpg",
+    "specs_preview": "Modulární buňky • Periferie k lisům • Automatické šroubování",
+    "full_desc": "Vysokokapacitní výrobní linka pro montáž komplexních sestav z plastových dílů. Zařízení integruje vibrační podavače drobných součástek, servomotorické šroubovací jednotky a pneumatické manipulátory. Linka je plně připravena pro přímé propojení se vstřikovacími lisy.",
+    "specs_table": {
+      "Materiál komponent": "Technické plasty a kovové zálisky",
+      "Technologie montáže": "Automatické zakládání, šroubování a lepení",
+      "Zásobníky dílů": "Vibrační kruhové a lineární podavače",
+      "Kontrola montáže": "Laserové a indukční snímače přítomnosti",
+      "Koncepce": "Karuselový / modulární dopravníkový systém",
+      "HMI rozhraní": "Přehledná vizualizace stavu a taktu výroby"
+    }
+  },
+  {
+    "id": "cnc-haas-vf2",
+    "cat": "cnc",
+    "cat_name": "CNC obrábění a strojírenství",
+    "title": "Vertikální CNC obráběcí centrum HAAS VF-2",
+    "badge": "CNC centrum 8 100 ot/min",
+    "perex": "Vysoce přesné 3-osé vertikální obráběcí centrum pro zakázkovou výrobu přesných dílů jednoúčelových strojů, přípravků a forem.",
+    "img": "assets/haas_vf.jpg",
+    "specs_preview": "Pojezdy 762 × 406 × 508 mm • 8 100 ot/min • Kusová i sériová výroba",
+    "full_desc": "Moderní vertikální frézovací centrum Haas VF-2 určené pro vysoce přesné třískové obrábění. Slouží jak pro výrobu dílců našich vlastních jednoúčelových strojů a automatizačních linek, tak pro nabídku volných kapacit pro externí strojírenské odběratele.",
+    "specs_table": {
+      "Posuv v ose X": "762 mm",
+      "Posuv v ose Y": "406 mm",
+      "Posuv v ose Z": "508 mm",
+      "Maximální otáčky vřetene": "8 100 ot/min",
+      "Kužel vřetene": "ISO 40",
+      "Obráběné materiály": "Ocel, nerez, dural, hliník, technické plasty",
+      "Využití": "Výroba přípravků, dílů strojů a forem"
+    }
+  },
+  {
+    "id": "cnc-doosan-6700",
+    "cat": "cnc",
+    "cat_name": "CNC obrábění a strojírenství",
+    "title": "Vertikální CNC obráběcí centrum Doosan DNM 6700",
+    "badge": "CNC centrum 8 000 ot/min",
+    "perex": "Těžké vertikální obráběcí centrum s velkým pracovním prostorem a pojezdem v ose X přes 1 000 mm pro kusovou i sériovou výrobu.",
+    "img": "assets/dosan2.jpg",
+    "specs_preview": "Pojezdy 1 020 × 510 × 625 mm • 8 000 ot/min • Velké svařence a desky",
+    "full_desc": "Výkonné obráběcí centrum Doosan DNM 6700 s vysokou tuhostí stojanu a velkým rozsahem pojezdů. Umožňuje přesné frézování a vrtání velkých základových desek jednoúčelových strojů, forem a složitých tvarových svařenců s maximální tuhostí záběru.",
+    "specs_table": {
+      "Posuv v ose X": "1 020 mm",
+      "Posuv v ose Y": "510 mm",
+      "Posuv v ose Z": "625 mm",
+      "Maximální otáčky vřetene": "8 000 ot/min",
+      "Kužel vřetene": "ISO 40 / BT 40",
+      "Kapacita stolu": "Uchycení rozměrných desek a svařenců",
+      "Využití": "Těžké frézování, kusová i sériová strojírenská výroba"
+    }
+  }
+]

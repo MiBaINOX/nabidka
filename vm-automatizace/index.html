@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VMAutomatizace s.r.o. | Průmyslová automatizace, robotika a CNC obrábění</title>
+  <meta name="description" content="Automatizace výrobních procesů na míru, jednoúčelové stroje, robotická pracoviště Epson a volné kapacity CNC obrábění HAAS a Doosan v Brně.">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="badge-tag">BRNO • ŠKROBÁRENSKÁ</span>
+        <span class="top-bar-item">Průmyslová automatizace & CNC obrábění</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+420702118355" class="top-bar-link tel-link">+420 702 118 355</a>
+        <a href="mailto:info@vmautomatizace.cz" class="top-bar-link">info@vmautomatizace.cz</a>
+        <span class="top-bar-status"><span class="pulse-dot"></span> PŘIJÍMÁME ZAKÁZKY</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" aria-label="VMAutomatizace úvod">
+        <img src="assets/logo_transparent.png" alt="VMAutomatizace s.r.o." class="logo-img" width="220" height="24">
+        <span class="logo-subtext">AUTOMATICKÁ A EFEKTIVNÍ VÝROBA</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Přepnout menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#automatizace" class="nav-link">Automatizace</a></li>
+          <li><a href="#strojirenska-vyroba" class="nav-link">Strojírenská výroba</a></li>
+          <li><a href="#kariera" class="nav-link">Kariéra</a></li>
+          <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+        <a href="#kontakt-form" class="btn btn-primary header-cta">Poptat řešení</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="industrial-pill">
+            <span class="pill-icon">⚙</span> TIER 1 AUTOMOTIVE & STROJÍRENSTVÍ
+          </div>
+          <h1 class="hero-title">
+            Automatizace výroby na míru & robotická pracoviště
+          </h1>
+          <p class="hero-lead">
+            Konstrukce jednoúčelových strojů, robotická integrace Epson, kamerová kontrola Machine Vision a přesné CNC obrábění pro efektivní výrobu bez kompromisů.
+          </p>
+          <div class="hero-features">
+            <div class="feature-item">
+              <span class="feature-bullet">■</span>
+              <span>Robotizace montážních a výrobních celků</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-bullet">■</span>
+              <span>Automatizace ke vstřikovacím lisům a periferie</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-bullet">■</span>
+              <span>Vlastní CNC zázemí HAAS VF-2 & Doosan DNM 6700</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a href="#automatizace" class="btn btn-primary">Zobrazit realizovaná řešení</a>
+            <a href="#kontakt-form" class="btn btn-secondary">Konzultovat technické zadání</a>
+          </div>
+          <div class="hero-specs-strip">
+            <div class="strip-item">
+              <span class="strip-label">NÁVRH 3D CAD</span>
+              <span class="strip-val">SolidEdge</span>
+            </div>
+            <div class="strip-item">
+              <span class="strip-label">ROBOTIKA</span>
+              <span class="strip-val">Epson SCARA</span>
+            </div>
+            <div class="strip-item">
+              <span class="strip-label">IN-LINE KONTROLA</span>
+              <span class="strip-val">Machine Vision</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="telemetry-card">
+            <div class="telemetry-header">
+              <div class="telemetry-tag">VÝROBNÍ STATUS: AKTIVNÍ</div>
+              <div class="telemetry-coord">GPS: 49.18313N, 16.62447E</div>
+            </div>
+            <div class="telemetry-image-wrap">
+              <img src="assets/index_img_par.jpg" alt="VMAutomatizace - automatizovaná výrobní linka" class="telemetry-img">
+              <div class="overlay-badge">
+                <span class="badge-title">ROBOTICKÉ PRACOVIŠTĚ</span>
+                <span class="badge-desc">Cyklové časy v sekundách • 100% spolehlivost</span>
+              </div>
+            </div>
+            <div class="telemetry-grid">
+              <div class="telemetry-stat">
+                <span class="t-stat-label">MAX. POJEZD X</span>
+                <span class="t-stat-num">1 020 mm</span>
+              </div>
+              <div class="telemetry-stat">
+                <span class="t-stat-label">OTÁČKY VŘETENE</span>
+                <span class="t-stat-num">8 100 ot/min</span>
+              </div>
+              <div class="telemetry-stat">
+                <span class="t-stat-label">NORMY BOZP</span>
+                <span class="t-stat-num">ČSN EN ISO 13849</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-bar">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <div class="stat-num">9+</div>
+          <div class="stat-title">Let zkušeností v oboru</div>
+          <div class="stat-desc">Založeno v roce 2015 dvěma autorizovanými inženýry</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">7</div>
+          <div class="stat-title">Klíčových technologií</div>
+          <div class="stat-desc">Robotické buňky, balicí linky i těžká CNC centra</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">1020 mm</div>
+          <div class="stat-title">Maximální pojezd CNC</div>
+          <div class="stat-desc">Těžké frézovací centrum Doosan DNM 6700</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">100%</div>
+          <div class="stat-title">Sledování jakosti</div>
+          <div class="stat-desc">In-line kamerové vidění a tahové zátěžové testy</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="automatizace">
+      <div class="container">
+        <div class="section-header">
+          <div class="industrial-pill">TECHNOLOGICKÝ KATALOG</div>
+          <h2 class="section-title">Automatizace & realizované projekty</h2>
+          <p class="section-lead">
+            Kompletní přehled vyvinutých robotických buněk, jednoúčelových strojů a výrobních linek navržených přesně dle požadavků sériové i zakázkové výroby.
+          </p>
+        </div>
+
+        <div class="catalog-controls">
+          <div class="search-box-wrap">
+            <input type="text" id="techSearch" class="search-input" placeholder="Hledat stroj, robotické rameno nebo technologii...">
+            <span class="search-icon">🔍</span>
+          </div>
+
+          <div class="filter-pills" id="filterPills">
+            <button class="filter-btn active" data-cat="all">Všechna řešení</button>
+            <button class="filter-btn" data-cat="robotika">Robotická pracoviště</button>
+            <button class="filter-btn" data-cat="linky">Výrobní a balicí linky</button>
+            <button class="filter-btn" data-cat="jednoucelove">Jednoúčelové stroje</button>
+            <button class="filter-btn" data-cat="cnc">CNC obrábění</button>
+          </div>
+
+          <div class="catalog-counter-bar">
+            <span>Zobrazeno celkem:</span>
+            <strong id="searchCounter">7</strong>
+            <span id="itemCount" style="display:none">7</span>
+            <span>technologických řešení</span>
+          </div>
+        </div>
+
+        <div class="catalog-grid" id="catalogGrid">
+
+          <article class="catalog-item cat-card" data-id="linka-lamely" data-open-tech="linka-lamely" data-cat="robotika">
+            <div class="card-badge">Robot Epson & Tray</div>
+            <div class="card-image-wrap">
+              <img src="assets/KI1_.jpg" alt="Linka pro skládání lamel a klapek" class="card-img" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-category">Robotická pracoviště</div>
+              <h3 class="card-title">Linka pro skládání lamel a klapek</h3>
+              <p class="card-desc">
+                Plně automatizované robotické pracoviště s manipulátorem Epson pro přesné zakládání lamel do Tray palet a klapek na proložky.
+              </p>
+              <div class="card-specs-preview">
+                <span>Manipulátor Epson</span> • <span>Zásobníky Tray</span> • <span>Automotive standard</span>
+              </div>
+              <button type="button" class="btn btn-outline card-btn">Technická specifikace</button>
+            </div>
+          </article>
+
+          <article class="catalog-item cat-card" data-id="montaz-ventilu" data-open-tech="montaz-ventilu" data-cat="robotika">
+            <div class="card-badge">Machine Vision / Kamery</div>
+            <div class="card-image-wrap">
+              <img src="assets/KV0_.jpg" alt="Robotická montáž kulových ventilů" class="card-img" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-category">Robotická pracoviště</div>
+              <h3 class="card-title">Robotická montáž kulových ventilů</h3>
+              <p class="card-desc">
+                Automatické robotické pracoviště pro montáž kulových ventilů s integrovaným kamerovým naváděním odebírací a montážní pozice.
+              </p>
+              <div class="card-specs-preview">
+                <span>Kamerové navádění</span> • <span>100% optická kontrola</span> • <span>Automatická montáž</span>
+              </div>
+              <button type="button" class="btn btn-outline card-btn">Technická specifikace</button>
+            </div>
+          </article>
+
+          <article class="catalog-item cat-card" data-id="baleni-tramu" data-open-tech="baleni-tramu" data-cat="linky">
+            <div class="card-badge">Těžká logistika & Vývoz</div>
+            <div class="card-image-wrap">
+              <img src="assets/tr3_.jpg" alt="Průmyslová linka pro balení trámů" class="card-img" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-category">Výrobní a balicí linky</div>
+              <h3 class="card-title">Průmyslová linka pro balení trámů</h3>
+              <p class="card-desc">
+                Automatizovaná těžká průmyslová linka pro kontinuální balení dřevěných trámů a jejich automatický odsun a vyvezení mimo výrobní halu.
+              </p>
+              <div class="card-specs-preview">
+                <span>Dřevoobrábění</span> • <span>Automatický odsun</span> • <span>Vysoká nosnost</span>
+              </div>
+              <button type="button" class="btn btn-outline card-btn">Technická specifikace</button>
+            </div>
+          </article>
+
+          <article class="catalog-item cat-card" data-id="lisovani-hacku" data-open-tech="lisovani-hacku" data-cat="jednoucelove">
+            <div class="card-badge">Zátěžový test 100%</div>
+            <div class="card-image-wrap">
+              <img src="assets/HKS1_.jpg" alt="Poloautomatické lisování háčků a test bowdenů" class="card-img" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-category">Jednoúčelové stroje</div>
+              <h3 class="card-title">Poloautomatické lisování háčků a test bowdenů</h3>
+              <p class="card-desc">
+                Poloautomatický jednoúčelový stroj pro kompletaci lanovodů a bowdenů se zalisováním háčku a integrovaným testem zátěžnou silou.
+              </p>
+              <div class="card-specs-preview">
+                <span>Kompletace bowdenů</span> • <span>Lisovací jednotka</span> • <span>Tahový zátěžový test</span>
+              </div>
+              <button type="button" class="btn btn-outline card-btn">Technická specifikace</button>
+            </div>
+          </article>
+
+          <article class="catalog-item cat-card" data-id="montazni-linka" data-open-tech="montazni-linka" data-cat="linky">
+            <div class="card-badge">Plastové montážní díly</div>
+            <div class="card-image-wrap">
+              <img src="assets/L0_.jpg" alt="Automatická montážní linka plastových dílů" class="card-img" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-category">Výrobní a balicí linky</div>
+              <h3 class="card-title">Automatická montážní linka plastových dílů</h3>
+              <p class="card-desc">
+                Plně automatizovaná modulární linka pro montáž plastových výlisků s automatickými podavači, šroubováním a kontrolními stanicemi.
+              </p>
+              <div class="card-specs-preview">
+                <span>Modulární buňky</span> • <span>Periferie k lisům</span> • <span>Automatické šroubování</span>
+              </div>
+              <button type="button" class="btn btn-outline card-btn">Technická specifikace</button>
+            </div>
+          </article>
+
+          <article class="catalog-item cat-card" data-id="cnc-haas-vf2" data-open-tech="cnc-haas-vf2" data-cat="cnc">
+            <div class="card-badge">CNC centrum 8 100 ot/min</div>
+            <div class="card-image-wrap">
+              <img src="assets/haas_vf.jpg" alt="Vertikální CNC obráběcí centrum HAAS VF-2" class="card-img" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-category">CNC obrábění a strojírenství</div>
+              <h3 class="card-title">Vertikální CNC obráběcí centrum HAAS VF-2</h3>
+              <p class="card-desc">
+                Vysoce přesné 3-osé vertikální obráběcí centrum pro zakázkovou výrobu přesných dílů jednoúčelových strojů, přípravků a forem.
+              </p>
+              <div class="card-specs-preview">
+                <span>Pojezdy 762 × 406 × 508 mm</span> • <span>8 100 ot/min</span> • <span>Kusová i sériová výroba</span>
+              </div>
+              <button type="button" class="btn btn-outline card-btn">Technická specifikace</button>
+            </div>
+          </article>
+
+          <article class="catalog-item cat-card" data-id="cnc-doosan-6700" data-open-tech="cnc-doosan-6700" data-cat="cnc">
+            <div class="card-badge">CNC centrum 8 000 ot/min</div>
+            <div class="card-image-wrap">
+              <img src="assets/dosan2.jpg" alt="Vertikální CNC obráběcí centrum Doosan DNM 6700" class="card-img" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-category">CNC obrábění a strojírenství</div>
+              <h3 class="card-title">Vertikální CNC obráběcí centrum Doosan DNM 6700</h3>
+              <p class="card-desc">
+                Těžké vertikální obráběcí centrum s velkým pracovním prostorem a pojezdem v ose X přes 1 000 mm pro kusovou i sériovou výrobu.
+              </p>
+              <div class="card-specs-preview">
+                <span>Pojezdy 1 020 × 510 × 625 mm</span> • <span>8 000 ot/min</span> • <span>Velké svařence a desky</span>
+              </div>
+              <button type="button" class="btn btn-outline card-btn">Technická specifikace</button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="machining-section" id="strojirenska-vyroba">
+      <div class="container">
+        <div class="section-header">
+          <div class="industrial-pill">STROJNÍ PARK & VOLNÉ KAPACITY</div>
+          <h2 class="section-title">Strojírenská výroba a přesné CNC obrábění</h2>
+          <p class="section-lead">
+            Vedle vývoje automatizačních celků nabízíme volné kapacity našeho moderního strojního vybavení v Brně. Zajišťujeme zakázkovou kusovou i sériovou výrobu dílů, forem a montážních přípravků.
+          </p>
+        </div>
+
+        <div class="machine-grid">
+          <div class="machine-card">
+            <div class="machine-header">
+              <span class="machine-type">VERTIKÁLNÍ FRÉZOVACÍ CENTRUM</span>
+              <h3 class="machine-title">HAAS VF-2</h3>
+            </div>
+            <div class="machine-img-wrap">
+              <img src="assets/vf2_lc.jpg" alt="Obráběcí centrum HAAS VF-2" class="machine-img" loading="lazy">
+            </div>
+            <div class="table-responsive modal-specs-wrap">
+              <table class="specs-table">
+                <tbody>
+                  <tr>
+                    <th>Posuv v ose X</th>
+                    <td>762 mm</td>
+                  </tr>
+                  <tr>
+                    <th>Posuv v ose Y</th>
+                    <td>406 mm</td>
+                  </tr>
+                  <tr>
+                    <th>Posuv v ose Z</th>
+                    <td>508 mm</td>
+                  </tr>
+                  <tr>
+                    <th>Maximální otáčky</th>
+                    <td>8 100 ot/min</td>
+                  </tr>
+                  <tr>
+                    <th>Upínací kužel</th>
+                    <td>ISO 40</td>
+                  </tr>
+                  <tr>
+                    <th>Vhodné pro</th>
+                    <td>Díly strojů, přípravky, formy</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="machine-card">
+            <div class="machine-header">
+              <span class="machine-type">TĚŽKÉ OBRÁBĚCÍ CENTRUM</span>
+              <h3 class="machine-title">Doosan DNM 6700</h3>
+            </div>
+            <div class="machine-img-wrap">
+              <img src="assets/dosan2.jpg" alt="Obráběcí centrum Doosan DNM 6700" class="machine-img" loading="lazy">
+            </div>
+            <div class="table-responsive modal-specs-wrap">
+              <table class="specs-table">
+                <tbody>
+                  <tr>
+                    <th>Posuv v ose X</th>
+                    <td>1 020 mm</td>
+                  </tr>
+                  <tr>
+                    <th>Posuv v ose Y</th>
+                    <td>510 mm</td>
+                  </tr>
+                  <tr>
+                    <th>Posuv v ose Z</th>
+                    <td>625 mm</td>
+                  </tr>
+                  <tr>
+                    <th>Maximální otáčky</th>
+                    <td>8 000 ot/min</td>
+                  </tr>
+                  <tr>
+                    <th>Upínací kužel</th>
+                    <td>ISO 40 / BT 40</td>
+                  </tr>
+                  <tr>
+                    <th>Vhodné pro</th>
+                    <td>Velké desky, těžké svařence</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="machining-footer-info">
+          <div class="info-box">
+            <div class="info-icon">🛠</div>
+            <div class="info-text">
+              <h4>Kompletní zámečnické a měřicí zázemí</h4>
+              <p>Samozřejmostí je další běžné dílenské vybavení nutné pro kusovou výrobu, přesnou přípravu polotovarů, dělení materiálu, montáž a inženýrskou kontrolu rozměrů.</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <div class="info-icon">⚡</div>
+            <div class="info-text">
+              <h4>Rychlé nacenění z 3D CAD dat</h4>
+              <p>Zašlete nám výkresy nebo CAD modely ve formátech STEP, IGES či DXF pro bleskové posouzení technologičnosti a volných výrobních kapacit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="career-section" id="kariera">
+      <div class="container">
+        <div class="career-card">
+          <div class="career-left">
+            <div class="industrial-pill">KARIÉRA • VMUTOMATIZACE</div>
+            <h2 class="career-title">Hledáme konstruktéra jednoúčelových strojů</h2>
+            <p class="career-perex">
+              Máš zkušenosti s vývojem průmyslové automatizace a robotizace? Chceš se podílet na realizaci zajímavých projektů převážně pro automobilový průmysl? Přidej se k našemu inženýrskému týmu v Brně.
+            </p>
+            <div class="career-grid">
+              <div class="career-col">
+                <h4 class="col-title">Pracovní náplň</h4>
+                <ul class="col-list">
+                  <li>Návrh jednoúčelových strojů a robotizací v 3D SolidEdge</li>
+                  <li>Dohled a účast při výrobě, montáži a oživování</li>
+                  <li>Účast při instalaci a předání technologie u zákazníka</li>
+                </ul>
+              </div>
+              <div class="career-col">
+                <h4 class="col-title">Požadavky & Benefity</h4>
+                <ul class="col-list">
+                  <li>Znalost automatizačních prvků, senzorů a pneumatiky</li>
+                  <li>Motivující mzda s bonusy a odměnou z profitu firmy</li>
+                  <li>Menší kolektiv, 5 týdnů dovolené a rychlá realizace nápadů</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="career-right">
+            <div class="apply-box">
+              <h3 class="apply-title">Zaujala tě tato pozice?</h3>
+              <p class="apply-desc">Pošli svůj profesní životopis nebo ukázku realizovaných konstrukcí přímo našim jednatelům.</p>
+              <a href="mailto:konstrukce@vmautomatizace.cz?subject=Kariera%20Konstrukter" class="btn btn-primary btn-block">Odeslat životopis e-mailem</a>
+              <span class="apply-note">Nebo volej na tel. <a href="tel:+420702118355" class="tel-link">+420 702 118 355</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="kontakt">
+      <div class="container">
+        <div class="section-header">
+          <div class="industrial-pill">PŘÍMÉ KONTAKTY</div>
+          <h2 class="section-title">Spojte se přímo s vedením a konstrukcí</h2>
+          <p class="section-lead">
+            Žádná anonymní call centra. O vaše technologické zadání se od prvního okamžiku osobně starají naši zakládající inženýři.
+          </p>
+        </div>
+
+        <div class="people-grid">
+          <div class="person-card">
+            <div class="person-avatar">MV</div>
+            <div class="person-details">
+              <span class="person-role">JEDNATEL SPOLEČNOSTI</span>
+              <h3 class="person-name">Ing. Martin Vyšín, Ph.D.</h3>
+              <div class="person-contact-row">
+                <span class="c-label">Telefon:</span>
+                <a href="tel:+420727886095" class="c-val tel-link">+420 727 886 095</a>
+              </div>
+              <div class="person-contact-row">
+                <span class="c-label">E-mail:</span>
+                <a href="mailto:martin.vysin@vmautomatizace.cz" class="c-val">martin.vysin@vmautomatizace.cz</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="person-card">
+            <div class="person-avatar">JM</div>
+            <div class="person-details">
+              <span class="person-role">JEDNATEL SPOLEČNOSTI</span>
+              <h3 class="person-name">Ing. Jaroslav Mrnka</h3>
+              <div class="person-contact-row">
+                <span class="c-label">Telefon:</span>
+                <a href="tel:+420702118355" class="c-val tel-link">+420 702 118 355</a>
+              </div>
+              <div class="person-contact-row">
+                <span class="c-label">E-mail:</span>
+                <a href="mailto:jaroslav.mrnka@vmautomatizace.cz" class="c-val">jaroslav.mrnka@vmautomatizace.cz</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="departments-strip">
+          <div class="dept-box">
+            <span class="dept-title">Kancelář & obecné dotazy</span>
+            <a href="mailto:info@vmautomatizace.cz" class="dept-email">info@vmautomatizace.cz</a>
+            <a href="tel:+420702118355" class="dept-tel tel-link">+420 702 118 355</a>
+          </div>
+          <div class="dept-box">
+            <span class="dept-title">Konstrukce & technologie</span>
+            <a href="mailto:konstrukce@vmautomatizace.cz" class="dept-email">konstrukce@vmautomatizace.cz</a>
+            <a href="tel:+420702118355" class="dept-tel tel-link">+420 702 118 355</a>
+          </div>
+          <div class="dept-box">
+            <span class="dept-title">Fakturace & administrativa</span>
+            <a href="mailto:fakturace@vmautomatizace.cz" class="dept-email">fakturace@vmautomatizace.cz</a>
+            <a href="tel:+420702118355" class="dept-tel tel-link">+420 702 118 355</a>
+          </div>
+        </div>
+
+        <div class="contact-layout" id="kontakt-form">
+          <div class="form-wrapper">
+            <div class="form-card">
+              <h3 class="form-title">Poptávkový formulář zadání</h3>
+              <p class="form-subtitle">Zadejte specifikaci vaší výroby nebo požadavky na kapacity CNC obrábění.</p>
+              
+              <form class="tech-form" id="inquiryForm" onsubmit="event.preventDefault(); alert('Děkujeme za poptávku. Naši inženýři se vám ozvou do 24 hodin.');">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="formTyp">Oblast poptávky</label>
+                    <select id="formTyp" name="typ">
+                      <option value="robotika">Robotické pracoviště na míru</option>
+                      <option value="linka">Výrobní či balicí linka</option>
+                      <option value="stroj">Jednoúčelový stroj a montáž</option>
+                      <option value="cnc">Kapacita CNC obrábění</option>
+                      <option value="jine">Inženýrská konzultace 3D CAD</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="formJmeno">Kontaktní osoba</label>
+                    <input type="text" id="formJmeno" name="jmeno" placeholder="Ing. Jan Novák" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="formFirma">Název společnosti</label>
+                    <input type="text" id="formFirma" name="firma" placeholder="Název firmy s.r.o.">
+                  </div>
+                </div>
+
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="formEmail">E-mailová adresa</label>
+                    <input type="email" id="formEmail" name="email" placeholder="novak@firma.cz" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="formTel">Telefonní číslo</label>
+                    <input type="tel" id="formTel" name="telefon" placeholder="+420 777 000 000">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="formZprava">Technická specifikace a cyklové požadavky</label>
+                    <textarea id="formZprava" name="zprava" rows="4" placeholder="Popište operaci, rozměry dílů, takt linky nebo požadovaný termín..."></textarea>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Odeslat technickou poptávku</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="map-wrapper">
+            <div class="map-card">
+              <div class="map-header">
+                <div class="map-title-row">
+                  <span class="m-badge">SÍDLO & PROVOZOVNA</span>
+                  <h4 class="m-firm">VMAutomatizace s.r.o.</h4>
+                </div>
+                <p class="m-addr">Škrobárenská 507/12, CTBox 6/2, Trnitá, 617 00 Brno</p>
+                <p class="m-id">IČO: 04437781 • DIČ: CZ04437781 • OR Krajský soud v Brně, oddíl C, vložka 89931</p>
+                <div class="m-link-wrap">
+                  <a href="https://mapy.cz/zakladni?x=16.62447&y=49.18313&z=16&source=coor&id=16.62447%2C49.18313" target="_blank" rel="noopener" class="mapy-btn">
+                    🗺 Otevřít trasu na Mapy.cz
+                  </a>
+                </div>
+              </div>
+              <div class="map-frame-container">
+                <iframe src="https://frame.mapy.cz/zakladni?x=16.62447&y=49.18313&z=16&source=coor&id=16.62447%2C49.18313" width="100%" height="320" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" title="Mapa areálu VMAutomatizace s.r.o."></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col brand-col">
+        <div class="footer-logo-box">
+          <img src="assets/logo_transparent.png" alt="VMAutomatizace s.r.o." class="footer-logo" width="220" height="24">
+        </div>
+        <p class="footer-desc">
+          Specialista na automatizaci výrobních procesů, robotizaci pracovišť, jednoúčelové stroje a přesné CNC obrábění v Brně.
+        </p>
+        <div class="footer-legal">
+          <span>IČO: 04437781 • DIČ: CZ04437781</span>
+          <span>Škrobárenská 507/12, Trnitá, 617 00 Brno</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigace</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#automatizace">Automatizace</a></li>
+          <li><a href="#strojirenska-vyroba">Strojírenská výroba</a></li>
+          <li><a href="#kariera">Kariéra</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Strojní park</h4>
+        <ul class="footer-links">
+          <li><a href="#strojirenska-vyroba">HAAS VF-2 (8 100 ot/min)</a></li>
+          <li><a href="#strojirenska-vyroba">Doosan DNM 6700 (1 020 mm)</a></li>
+          <li><a href="#automatizace">Manipulátory Epson SCARA</a></li>
+          <li><a href="#automatizace">Kamerové systémy Machine Vision</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Přímý kontakt</h4>
+        <div class="footer-contact">
+          <p><a href="tel:+420702118355" class="tel-link">+420 702 118 355</a></p>
+          <p><a href="mailto:info@vmautomatizace.cz">info@vmautomatizace.cz</a></p>
+          <p>CTBox 6/2, 617 00 Brno</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 VMAutomatizace s.r.o. Všechna práva vyhrazena.</p>
+        <p class="footer-ref">Návrh a modernizace průmyslové online prezentace.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="techModalBackdrop" class="tech-modal-backdrop" aria-hidden="true">
+    <div class="tech-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button id="techModalClose" class="tech-modal-close" aria-label="Zavřít modal">&times;</button>
+      
+      <div class="modal-header">
+        <span id="modalBadge" class="modal-badge"></span>
+        <h3 id="modalTitle" class="modal-title"></h3>
+        <span id="modalCat" class="modal-cat"></span>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-image-wrap">
+          <img id="modalImg" src="" alt="" class="modal-img">
+        </div>
+        
+        <div class="modal-content-text">
+          <h4>Popis technologického řešení</h4>
+          <p id="modalDesc" class="modal-desc"></p>
+          
+          <h4>Technické parametry & specifikace</h4>
+          <div class="table-responsive modal-specs-wrap">
+            <table class="specs-table" id="modalTable">
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#kontakt-form" id="modalCtaBtn" class="btn btn-primary">Poptat obdobné řešení</a>
+        <button id="modalCloseBtn" class="btn btn-secondary">Zavřít okno</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../ping-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

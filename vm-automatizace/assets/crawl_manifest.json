@@ -1,0 +1,57 @@
+{
+  "source_url": "http://vmautomatizace.cz",
+  "menu_categories": [
+    "Home",
+    "Automatizace",
+    "Strojírenská výroba",
+    "Kariéra",
+    "Kontakt"
+  ],
+  "pages_crawled": [
+    {
+      "url": "http://vmautomatizace.cz/index.html",
+      "title": "VMAutomatizace | automatizace výroby na míru"
+    },
+    {
+      "url": "http://vmautomatizace.cz/automatizace.html",
+      "title": "VMAutomatizace | realizované projekty v automatizaci výroby"
+    },
+    {
+      "url": "http://vmautomatizace.cz/strojirenska-vyroba-obrabeni.html",
+      "title": "Obrábění - volné kapacity"
+    },
+    {
+      "url": "http://vmautomatizace.cz/kariera.html",
+      "title": "Kariéra - VMAutomatizace"
+    },
+    {
+      "url": "http://vmautomatizace.cz/kontakt.html",
+      "title": "Kontakt - VMAutomatizace"
+    }
+  ],
+  "photos_downloaded": [
+    "KI0_.jpg",
+    "KI1_.jpg",
+    "KI2_.jpg",
+    "KI3_.jpg",
+    "KI4_.jpg",
+    "KV0_.jpg",
+    "KV1_.jpg",
+    "tr0_.jpg",
+    "tr1_.jpg",
+    "tr2_.jpg",
+    "tr3_.jpg",
+    "HKS0_.jpg",
+    "HKS1_.jpg",
+    "HKS2_.jpg",
+    "HKS4_.jpg",
+    "L0_.jpg",
+    "L5_.jpg",
+    "haas_vf.jpg",
+    "vf2_lc.jpg",
+    "dosan2.jpg",
+    "index_img_par.jpg",
+    "logo_transparent.png",
+    "logo_cropped.png"
+  ]
+}

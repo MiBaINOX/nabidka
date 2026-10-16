@@ -1,0 +1,458 @@
+[
+  {
+    "id": "renocar-showroom",
+    "name": "Showroom MINI Renocar Brno – Slatina",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/renocar_1.jpg",
+    "short_desc": "Ocelová prostorová konstrukce prestižního showroomu MINI včetně prosklené fasády a nosného ocelového skeletu.",
+    "location": "Brno - Slatina",
+    "client": "Renocar a.s.",
+    "stage": "Prováděcí projekt (DPS) a dílenská dokumentace (DD)",
+    "standards": "ČSN EN 1993 (Eurokód 3: Navrhování ocelových konstrukcí)",
+    "specs": {
+      "Konstrukční systém": "Prostorový ocelový skelet s tuhými rámovými rohy",
+      "Profilace": "Válcované profily IPE a HEA, tenkostěnné vaznice",
+      "Spoje a styčníky": "Šroubované předpínané styky kategorie C a koutové svary",
+      "Stupeň dokumentace": "DPS, dílenská dokumentace oceli (DD)",
+      "Výpočetní software": "SCIA Engineer, IDEA StatiCa (posouzení styčníků)"
+    }
+  },
+  {
+    "id": "destne-apartmany",
+    "name": "Horské apartmány Deštné v Orlických horách",
+    "category": "Železobeton a základy",
+    "category_slug": "beton",
+    "image": "assets/destne_1.jpg",
+    "short_desc": "Kompletní prováděcí projekt nosné monolitické a zděné konstrukce v náročných horských klimatických podmínkách.",
+    "location": "Deštné v Orlických horách",
+    "client": "Investiční skupina Deštné",
+    "stage": "Prováděcí projekt stavby (DPS)",
+    "standards": "ČSN EN 1992 (Eurokód 2: Navrhování betonových konstrukcí), ČSN EN 1991-1-3 (Zatížení sněhem)",
+    "specs": {
+      "Konstrukční systém": "Kombinovaný monolitický železobetonový skelet a nosné zdivo",
+      "Založení": "Železobetonová základová deska s pilotovými patkami",
+      "Klimatická oblast": "Sněhová oblast V (charakteristická hodnota sk = 2.5–3.0 kPa)",
+      "Stupeň dokumentace": "DPS včetně výkresů tvaru a armokošů",
+      "Výpočetní software": "SCIA Engineer, FINE GEO5"
+    }
+  },
+  {
+    "id": "marefy-silo",
+    "name": "Zemědělské silo a haly Bučovice – Marefy",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/marefy_1.jpg",
+    "short_desc": "Průmyslový ocelový skelet velkokapacitních skladovacích hal a podpůrná konstrukce vertikálního sila.",
+    "location": "Bučovice – Marefy",
+    "client": "Zemědělské a obchodní družstvo",
+    "stage": "Prováděcí projekt (DPS) a dílenská dokumentace (DD)",
+    "standards": "ČSN EN 1993-1-1, ČSN EN 1993-4-1 (Sila a nádrže)",
+    "specs": {
+      "Konstrukční systém": "Ocelové sedlové vazníky s prostorickým ztužením a věžové silo",
+      "Materiálové třídy": "Konstrukční ocel S235JR a S355J2",
+      "Zatížení": "Dynamické zatížení sypkými hmotami, větrem a sněhem",
+      "Stupeň dokumentace": "Prováděcí projekt, výrobní výkresy a kusovníky oceli",
+      "Výpočetní software": "SCIA Engineer (3D prostorový prutový model)"
+    }
+  },
+  {
+    "id": "hills-hustopece",
+    "name": "Výrobní haly Hills Pet Nutrition Hustopeče",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/hills_1.jpg",
+    "short_desc": "Ocelové výrobní a expediční haly pro mezinárodního výrobce krmiv s přísnými hygienickými a statickými požadavky.",
+    "location": "Hustopeče u Brna",
+    "client": "Hills Pet Nutrition Manufacturing s.r.o.",
+    "stage": "Dílenská a výrobní dokumentace ocelových hal",
+    "standards": "ČSN EN 1993 (Ocelové konstrukce), ČSN EN 1090-2 (Provádění ocelových konstrukcí EXC2)",
+    "specs": {
+      "Rozpony rámů": "Dvojlodní hala s rozponem modulů 24 m a 18 m",
+      "Podvěsné technologie": "Příprava pro potrubní mosty a technologické rozvody",
+      "Antikorozní ochrana": "Třída korozní agresivity C3 s nátěrovým systémem",
+      "Stupeň dokumentace": "Dílenská dokumentace (DD), montážní schémata",
+      "Výpočetní software": "SCIA Engineer, IDEA StatiCa Connection"
+    }
+  },
+  {
+    "id": "vodafone-stozary",
+    "name": "Stožáry mobilních operátorů 3G / 4G (Holandsko & ČR)",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/vodafone_1.jpg",
+    "short_desc": "Ocelové příhradové a trubkové stožáry pro anténní technologie operátorů Vodafone, T-Mobile a O2.",
+    "location": "Mezinárodní projekty (Holandsko a ČR)",
+    "client": "Vodafone, T-Mobile, O2",
+    "stage": "Statický výpočet, posouzení rezonance a dílenská dokumentace",
+    "standards": "ČSN EN 1993-3-1 (Stožáry a komíny), ČSN EN 1991-1-4 (Zatížení větrem)",
+    "specs": {
+      "Konstrukční typ": "Tříboké a čtyřboké příhradové věže a střešní nástavby",
+      "Dynamické posouzení": "Vlastní frekvence kmitání, mezní průhyby anténních os",
+      "Kotvení": "Lepené chemické kotvy a předpínané kotevní šrouby M30",
+      "Stupeň dokumentace": "Statický posudek, výrobní a montážní výkresy",
+      "Výpočetní software": "SCIA Engineer (dynamická modální analýza)"
+    }
+  },
+  {
+    "id": "atrium-otrokovice",
+    "name": "Hotel Atrium Otrokovice – skelet a nástavba",
+    "category": "Železobeton a základy",
+    "category_slug": "beton",
+    "image": "assets/atrium_1.jpg",
+    "short_desc": "Spolupráce na prováděcím projektu nosných konstrukcí hotelového komplexu s podzemním parkováním.",
+    "location": "Otrokovice",
+    "client": "Generální projektant hotelu",
+    "stage": "Prováděcí projekt stavby (DPS)",
+    "standards": "ČSN EN 1992-1-1 (Navrhování betonových konstrukcí)",
+    "specs": {
+      "Typ konstrukce": "Monolitický železobetonový sloupový systém s bezprůvlakovými deskami",
+      "Podzemní podlaží": "Bílá vana se zvýšenými požadavky na vodotěsnost",
+      "Akustické uložení": "Elastomerová ložiska pod schodišťovými rameny",
+      "Stupeň dokumentace": "Prováděcí dokumentace železobetonu (výkresy výztuže)",
+      "Výpočetní software": "SCIA Engineer (desko-stěnový FEM model)"
+    }
+  },
+  {
+    "id": "knihovna-ostrava",
+    "name": "Moravskoslezská vědecká knihovna v Ostravě",
+    "category": "Statické posudky",
+    "category_slug": "posudky",
+    "image": "assets/knihovna-ostrava_1.jpg",
+    "short_desc": "Statická spolupráce na prováděcím projektu významné veřejné budovy se specifickými požadavky na zatížení knižními depozitáři.",
+    "location": "Ostrava",
+    "client": "Krajský úřad Moravskoslezského kraje / Architektonický ateliér",
+    "stage": "Spolupráce na prováděcím projektu stavby (DPS)",
+    "standards": "ČSN EN 1990, ČSN EN 1991-1-1 (Užitná zatížení depozitářů 7.5–10 kN/m²)",
+    "specs": {
+      "Zatížení stropů": "Kompaktní posuvné knižní regály s užitným zatížením qk = 10.0 kN/m²",
+      "Konstrukční systém": "Prostorový monolitický skelet s předsazenými ocelovými konzolami",
+      "Mezní stav použitelnosti": "Striktní limity průhybů L/500 pro ochranu skleněných fasád",
+      "Stupeň dokumentace": "Statické posouzení a prováděcí výkresy",
+      "Výpočetní software": "SCIA Engineer, RFEM Dlubal"
+    }
+  },
+  {
+    "id": "schody-bratislava",
+    "name": "Designové prostorové schodiště z černé oceli, Bratislava",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/schody_1.jpg",
+    "short_desc": "Unikátní architektonické samonosné točité schodiště z černé oceli s precizním dimenzováním dynamické odezvy.",
+    "location": "Bratislava",
+    "client": "Michal Triebušník / Rezidence",
+    "stage": "Statická studie, prováděcí a dílenská dokumentace",
+    "standards": "ČSN EN 1993-1-1, ISO 10137 (Posuzování vibrací pochozích konstrukcí)",
+    "specs": {
+      "Konstrukce": "Letecká prostorová schodnice z plechu tl. 12 mm bez středové podpory",
+      "Dynamika": "Ověření první vlastní frekvence nad 5 Hz (ochrana proti rezonanci při chůzi)",
+      "Povrchová úprava": "Přírodní černá ocel s matným transparentním lakem",
+      "Stupeň dokumentace": "Výrobní výkresy pro CNC pálení a montáž",
+      "Výpočetní software": "SCIA Engineer, Autodesk Inventor"
+    }
+  },
+  {
+    "id": "kavarna-hriste",
+    "name": "Kavárna u hřiště – prostorová dřevěná konstrukce",
+    "category": "Dřevostavby a krovy",
+    "category_slug": "drevo",
+    "image": "assets/kavarna_1.jpg",
+    "short_desc": "Statický posudek a návrh nosné dřevěné prostorové konstrukce pavilonu s lepenými lamelovými nosníky.",
+    "location": "Jihomoravský kraj",
+    "client": "Město a provozovatel sportovního areálu",
+    "stage": "Statický posudek a dokumentace pro stavební povolení (DSP)",
+    "standards": "ČSN EN 1995-1-1 (Eurokód 5: Navrhování dřevěných konstrukcí)",
+    "specs": {
+      "Materiálová báze": "Lepené lamelové dřevo GL24h a rostlé konstrukční dřevo C24",
+      "Spojovací prostředky": "Vkládané ocelové plechy s přesnými kolíkovými spoji",
+      "Expozice dřeva": "Třída provozu 2 (venkovní kryté zastřešení)",
+      "Stupeň dokumentace": "DSP a statický výpočet nosných dílců",
+      "Výpočetní software": "SCIA Engineer, Dlubal Timber Pro"
+    }
+  },
+  {
+    "id": "zebetin-hotel",
+    "name": "Hotel Žebětínský dvůr Brno – rozšíření areálu",
+    "category": "Statické posudky",
+    "category_slug": "posudky",
+    "image": "assets/zebetin_1.jpg",
+    "short_desc": "Projekt pro stavební povolení nosných konstrukcí přístavby a rekonstrukce historických traktů hotelu.",
+    "location": "Brno – Žebětín",
+    "client": "Hotel Žebětínský dvůr s.r.o.",
+    "stage": "Dokumentace pro stavební povolení (DSP)",
+    "standards": "ČSN EN 1992, ČSN EN 1996 (Navrhování zděných konstrukcí)",
+    "specs": {
+      "Konstrukční systém": "Podchycení stávajících kleneb a nová železobetonová vestavba",
+      "Zakládání": "Trysková injektáž a mikropiloty pod novými sloupy",
+      "Diagnostika": "Nedestruktivní průzkum pevnosti stávajícího zdiva a základů",
+      "Stupeň dokumentace": "DSP, statická zpráva a výkresy nosných systémů",
+      "Výpočetní software": "SCIA Engineer, GEO5"
+    }
+  },
+  {
+    "id": "kment-vila",
+    "name": "Rodinná vila Kment – konzolové železobetonové stropy",
+    "category": "Železobeton a základy",
+    "category_slug": "beton",
+    "image": "assets/kment_1.jpg",
+    "short_desc": "Statický projekt moderní rezidenční vily s vyloženými terasami a velkorozponovým prosklením obývací části.",
+    "location": "Brno a okolí",
+    "client": "Soukromý investor",
+    "stage": "Dokumentace pro stavební povolení (DSP) a prováděcí projekt (DPS)",
+    "standards": "ČSN EN 1992-1-1 (Betonové konstrukce)",
+    "specs": {
+      "Vyložení konzol": "Předpínané a klasicky vyztužené konzolové desky vyložené až 3.8 m",
+      "Tepelné mosty": "Nosné termoizolační prvky (Schöck Isokorb)",
+      "Průhyby": "Dlouhodobé průhyby s vlivem dotvarování a smršťování betonu",
+      "Stupeň dokumentace": "DSP, DPS, podrobné armovací výkresy",
+      "Výpočetní software": "SCIA Engineer (nelineární výpočet trhlin)"
+    }
+  },
+  {
+    "id": "sasek-dum",
+    "name": "Rodinný dům Šášek – statika a základové poměry",
+    "category": "Železobeton a základy",
+    "category_slug": "beton",
+    "image": "assets/sasek_1.jpg",
+    "short_desc": "Kompletní statické řešení nízkoenergetického rodinného domu ve svažitém terénu s opěrnými stěnami.",
+    "location": "Jihomoravský kraj",
+    "client": "Soukromý investor",
+    "stage": "Dokumentace pro stavební povolení (DSP)",
+    "standards": "ČSN EN 1997-1 (Geotechnický návrh), ČSN EN 1992-1-1",
+    "specs": {
+      "Svažitý terén": "Soustava úhlových železobetonových opěrných zdí výšky až 3.2 m",
+      "Založení": "Stupňovité základové pasy na poloskalním podloží",
+      "Stropní konstrukce": "Monolitická křížem armovaná deska tl. 200 mm",
+      "Stupeň dokumentace": "DSP, statický posudek a specifikace výztuže",
+      "Výpočetní software": "GEO5 (Stabilita svahu, Úhlová zeď), SCIA Engineer"
+    }
+  },
+  {
+    "id": "karpisek-penzion",
+    "name": "Horský penzión Karpíšek – Strážné v Krkonoších",
+    "category": "Dřevostavby a krovy",
+    "category_slug": "drevo",
+    "image": "assets/karpisek_1.jpg",
+    "short_desc": "Projekt nosných konstrukcí horského ubytovacího zařízení s masivní dřevěnou krovovou soustavou.",
+    "location": "Strážné v Krkonoších",
+    "client": "Penzión Karpíšek",
+    "stage": "Dokumentace pro stavební povolení (DSP)",
+    "standards": "ČSN EN 1995-1-1, ČSN EN 1991-1-3 (Extrémní horské zatížení sněhem)",
+    "specs": {
+      "Krovový systém": "Vlašská krokevní soustava s ocelovými táhly a kleštinami",
+      "Sněhové pásmo": "Sněhová oblast VII (sk = 4.0 kPa)",
+      "Ochrana dřeva": "Hloubková vakuotlaková impregnace proti dřevokaznému hmyzu a houbám",
+      "Stupeň dokumentace": "DSP, statický výpočet a výkresy dřevěných detailů",
+      "Výpočetní software": "SCIA Engineer, Dlubal Timber"
+    }
+  },
+  {
+    "id": "uhrineves-viladomy",
+    "name": "Viladomy Uhříněves – Praha (ulice Vyderská, Bystřičná)",
+    "category": "Železobeton a základy",
+    "category_slug": "beton",
+    "image": "assets/uhrineves_1.jpg",
+    "short_desc": "Statické řešení souboru čtyřpodlažních bytových viladomů s podzemními garážemi a terasami.",
+    "location": "Praha – Uhříněves",
+    "client": "Developerská společnost rezidenční výstavby",
+    "stage": "Prováděcí projekt nosných konstrukcí (DPS)",
+    "standards": "ČSN EN 1992, ČSN EN 1996, ČSN EN 1997",
+    "specs": {
+      "Konstrukční schéma": "Monolitické podzemní podlaží, vrchní stavba kombinovaná",
+      "Založení": "Velkoprůměrové vrtané piloty vetknuté do břidlicového podloží",
+      "Průvlaky a stěny": "Železobetonové stěnové nosníky překlenující vjezdy do garáží",
+      "Stupeň dokumentace": "DPS, tvarové a výztužné výkresy",
+      "Výpočetní software": "SCIA Engineer, GEO5 Pilota"
+    }
+  },
+  {
+    "id": "terranova-brno",
+    "name": "Obchodní dům Terranova Brno – Františkánská ulice",
+    "category": "Statické posudky",
+    "category_slug": "posudky",
+    "image": "assets/terranova_1.jpg",
+    "short_desc": "Obnova a stavební rozšíření retailové prodejny v památkově chráněném centru Brna s vybouráním nosných stěn.",
+    "location": "Brno – centrum (Františkánská 1, 3, 5)",
+    "client": "Terranova / Teddy S.p.A.",
+    "stage": "Statický posudek a prováděcí projekt sanace (DPS)",
+    "standards": "ČSN EN 1993 (Ocelové podchycovací rámy), ČSN EN 1996",
+    "specs": {
+      "Zásah do nosných stěn": "Statické podchycení cihlových stěn ocelovými nosníky HEB 300",
+      "Postup prací": "Fázovaná montáž s hydraulickým předepnutím ocelových stojek",
+      "Monitoring": "Optické sledování poklesů a trhlin na přilehlých sousedních objektech",
+      "Stupeň dokumentace": "Statický posudek, technologický postup provádění a DPS",
+      "Výpočetní software": "SCIA Engineer"
+    }
+  },
+  {
+    "id": "baseball-trebic",
+    "name": "Sportovní stadion Třebíč Nuclears – ocelová tribuna",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/baseball_1.jpg",
+    "short_desc": "Zastřešená tribuna pro baseballový a softballový stadion s velkorozponovou konzolou střechy.",
+    "location": "Třebíč (Hartmannova ul.)",
+    "client": "Třebíč Nuclears baseball & softball club",
+    "stage": "Prováděcí projekt a dílenská dokumentace ocelové tribuny",
+    "standards": "ČSN EN 1993-1-1, ČSN EN 1991-1-4 (Větrné víry na tribunách)",
+    "specs": {
+      "Konzola střechy": "Příhradové ocelové vazníky s vyložením bez podpěr 8.5 m",
+      "Pochozí stupně": "Pozinkované profilované rošty a ohýbané ocelové plechy",
+      "Ochrana povrchu": "Žárové zinkování dle ČSN EN ISO 1461",
+      "Stupeň dokumentace": "Prováděcí projekt stavby (DPS) a dílenské výkresy (DD)",
+      "Výpočetní software": "SCIA Engineer, IDEA StatiCa"
+    }
+  },
+  {
+    "id": "chvalovice-dojirna",
+    "name": "Velkokapacitní dojírna Klucké Chvalovice",
+    "category": "Železobeton a základy",
+    "category_slug": "beton",
+    "image": "assets/chvalovice_1.jpg",
+    "short_desc": "Statické řešení technologického zemědělského objektu s chemicky odolnými podlahami a jímkami na kejdu.",
+    "location": "Klucké Chvalovice",
+    "client": "Zemědělské družstvo Vysočina",
+    "stage": "Dokumentace pro stavební povolení (DSP) a prováděcí projekt",
+    "standards": "ČSN EN 1992-3 (Nádrže na kapaliny a sypké hmoty), ČSN EN 206",
+    "specs": {
+      "Technologické jímky": "Vodotěsné monolitické nádrže s ochranou proti agresivním splaškům XA3",
+      "Nosný skelet": "Prefabrikované železobetonové kalichové patky a sloupy",
+      "Rozpony haly": "Předpínané vazníky na rozpon 21 m",
+      "Stupeň dokumentace": "DSP, DPS a výkresy spárořezu chemicky odolných betonů",
+      "Výpočetní software": "SCIA Engineer, GEO5"
+    }
+  },
+  {
+    "id": "stipa-staj",
+    "name": "Zemědělský areál chovu skotu Štípa",
+    "category": "Dřevostavby a krovy",
+    "category_slug": "drevo",
+    "image": "assets/stipa_1.jpg",
+    "short_desc": "Velkorozponová dřevěná hala stájového komplexu s optimalizovaným přirozeným větráním a mikroklimatem.",
+    "location": "Štípa u Zlína",
+    "client": "Agro podnik Štípa",
+    "stage": "Prováděcí projekt stavby (DPS)",
+    "standards": "ČSN EN 1995-1-1, ČSN EN 1991 (Klimatická zatížení)",
+    "specs": {
+      "Konstrukční systém": "Tříkloubové lepené lamelové obloukové rámy na rozpon 26 m",
+      "Agresivita prostředí": "Vysoká vlhkost a obsah čpavku – speciální nerezové spojovací prvky A4",
+      "Založení": "Monolitické železobetonové patky spojené táhly v podlaze",
+      "Stupeň dokumentace": "DPS, výrobní detaily a statický posudek",
+      "Výpočetní software": "SCIA Engineer (geometricky nelineární posouzení oblouků)"
+    }
+  },
+  {
+    "id": "cez-stozary",
+    "name": "ČEZ Distribuce a.s. – Stožáry velmi vysokého napětí",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/vodafone_3.jpg",
+    "short_desc": "Statické posudky, ověřovací přepočty nosnosti a projekty zpevnění příhradových ocelových stožárů VN a VVN.",
+    "location": "Distribuční území ČEZ",
+    "client": "ČEZ Distribuce, a. s.",
+    "stage": "Statická diagnostika, posudek a prováděcí projekt sanace",
+    "standards": "ČSN EN 50341 (Elektrická venkovní vedení nad AC 1 kV), ČSN EN 1993-3-1",
+    "specs": {
+      "Typ stožárů": "Příhradové ocelové stožáry typu Soudek, Portál a Kočka výšky 25–45 m",
+      "Zatěžovací stavy": "Extrémní námraza, tahy vodičů při přetržení fáze, dynamický vítr",
+      "Zpevnění": "Návrh příložek a výměny diagonálních úhelníků za provozu",
+      "Stupeň dokumentace": "Statický posudek nosnosti, výkresy výztužných prvků",
+      "Výpočetní software": "SCIA Engineer (prostorový nelineární prutový model)"
+    }
+  },
+  {
+    "id": "tesla-fve",
+    "name": "TESLA Holding a.s. – Nosné konstrukce fotovoltaických elektráren",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/marefy_2.jpg",
+    "short_desc": "Návrh a statické posouzení pozemních i střešních nosných konstrukcí fotovoltaických elektráren.",
+    "location": "Česká republika (Brno, Bojkovice, Kojetín, Tasov, Pravčice)",
+    "client": "TESLA Holding a.s.",
+    "stage": "Dokumentace pro územní řízení (DUR), DSP a statický výpočet",
+    "standards": "ČSN EN 1993, ČSN EN 1999 (Navrhování hliníkových konstrukcí)",
+    "specs": {
+      "Kotvení do terénu": "Zavrtávané zemní vruty a beraněné ocelové C-profily",
+      "Střešní FVE": "Posouzení přitížení stávajících střech hal (vazníky, trapézové plechy)",
+      "Větrná aerodynamika": "Posouzení vztlaku větru dle Eurokódu 1",
+      "Stupeň dokumentace": "Statické posudky nosnosti střešních plášťů, výrobní výkresy stolů",
+      "Výpočetní software": "SCIA Engineer, FINE GEO5"
+    }
+  },
+  {
+    "id": "letiste-turany",
+    "name": "Mezinárodní Letiště Brno Tuřany – konstrukční zabezpečení",
+    "category": "Statické posudky",
+    "category_slug": "posudky",
+    "image": "assets/renocar_2.jpg",
+    "short_desc": "Komplexní zabezpečení letištních konstrukcí, statické studie a posouzení nosných prvků terminálu.",
+    "location": "Brno – Tuřany",
+    "client": "Letiště Brno a.s.",
+    "stage": "Statická studie a posouzení nosných systémů",
+    "standards": "ČSN EN 1990, ČSN EN 1991, předpisy ICAO",
+    "specs": {
+      "Konstrukční prvky": "Ocelové prostorové příhradové vazníky a prosklené bezpečnostní stěny",
+      "Bezpečnostní třída": "Budova s vysokým shromažďovacím prostorem (třída následků CC3)",
+      "Dynamické vlivy": "Tlakové a sací rázy od leteckých proudových motorů",
+      "Stupeň dokumentace": "Statická studie, technický posudek spolehlivosti",
+      "Výpočetní software": "SCIA Engineer"
+    }
+  },
+  {
+    "id": "draha-uzel",
+    "name": "Železniční uzel Brno – komerční zastřešení",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/knihovna-ostrava_2.jpg",
+    "short_desc": "Statická studie velkorozponového komerčního zastřešení nástupišť a přestupního terminálu.",
+    "location": "Brno",
+    "client": "Správa železnic / Investiční konsorcium",
+    "stage": "Statická studie proveditelnosti",
+    "standards": "ČSN EN 1993-2 (Ocelové mosty a lávky), ČSN EN 1990",
+    "specs": {
+      "Konstrukce": "Ocelová trubková skořepina s membránovým a skleněným zastřešením",
+      "Rozpony polí": "Příhradové oblouky s rozponem 42 m bez mezilehlých sloupů",
+      "Dilatační celky": "Návrh kalotových ložisek a kompenzátorů teplotních posunů",
+      "Stupeň dokumentace": "Statická studie variant, optimalizace hmotnosti oceli",
+      "Výpočetní software": "SCIA Engineer (3D prostorový nelineární model)"
+    }
+  },
+  {
+    "id": "tesco-marianske-lazne",
+    "name": "Obchodní centrum TESCO Mariánské Lázně",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/hills_2.jpg",
+    "short_desc": "Projekt a statické výpočty nosné ocelové konstrukce jednopodlažního nákupního centra.",
+    "location": "Mariánské Lázně",
+    "client": "TESCO Stores ČR a.s.",
+    "stage": "Prováděcí projekt (DPS) a dílenská dokumentace",
+    "standards": "ČSN EN 1993-1-1, ČSN EN 1090-2",
+    "specs": {
+      "Modulová síť": "Příhradové rámy v modulu 18 x 12 m s trapézovými nosnými plechy",
+      "Požární odolnost": "Intumescentní protipožární nátěry na odolnost R30",
+      "Zavěšení VZT": "Statické dimenzování pomocných ocelových roštů pro chladicí a VZT jednotky",
+      "Stupeň dokumentace": "DPS, výrobní dokumentace oceli (výkresy dílců a položek)",
+      "Výpočetní software": "SCIA Engineer"
+    }
+  },
+  {
+    "id": "zlin-aircraft",
+    "name": "Zlín Aircraft Otrokovice – hangárové zastřešení",
+    "category": "Ocelové konstrukce",
+    "category_slug": "ocel",
+    "image": "assets/destne_2.jpg",
+    "short_desc": "Statický projekt nového zastřešení a hangárových vratových portálů pro leteckou výrobu.",
+    "location": "Otrokovice – letiště",
+    "client": "ZLIN AIRCRAFT a.s.",
+    "stage": "Dokumentace pro stavební povolení (DSP) a prováděcí projekt",
+    "standards": "ČSN EN 1993, ČSN EN 1991-1-4 (Zatížení větrem při otevřených vratech)",
+    "specs": {
+      "Vratový průvlak": "Krabicový svařovaný nosník překlenující bez podpory světlost 36 m",
+      "Tuhost portálu": "Mezní průhyb L/800 nutný pro bezproblémový posuv těžkých vrat",
+      "Kombinované zatížení": "Vnitřní aerodynamický přetlak při nárazovém větru",
+      "Stupeň dokumentace": "DSP, DPS, podrobné statické výpočty kritických spojů",
+      "Výpočetní software": "SCIA Engineer, IDEA StatiCa"
+    }
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "company": "LUMIPLAST s.r.o.",
+  "ico": "26903385",
+  "menu_categories": [
+    "Domů",
+    "Strojní park",
+    "O firmě",
+    "Kontakty"
+  ],
+  "pages_crawled_count": 16,
+  "pages": [
+    "http://lumiplast.cz/",
+    "http://lumiplast.cz/?site=Home&lang=cs",
+    "http://lumiplast.cz/?site=Company&lang=cs",
+    "http://lumiplast.cz/?site=Equipment&lang=cs",
+    "http://lumiplast.cz/?site=Contact&lang=cs",
+    "http://lumiplast.cz/?site=Home&lang=en",
+    "http://lumiplast.cz/?site=Company&lang=en",
+    "http://lumiplast.cz/?site=Equipment&lang=en",
+    "http://lumiplast.cz/?site=Contact&lang=en",
+    "http://lumiplast.cz/?site=Home&lang=de",
+    "http://lumiplast.cz/?site=Company&lang=de",
+    "http://lumiplast.cz/?site=Equipment&lang=de",
+    "http://lumiplast.cz/?site=Contact&lang=de",
+    "http://lumiplast.cz/?site=Equipment",
+    "http://lumiplast.cz/?site=Company",
+    "http://lumiplast.cz/?site=Contact"
+  ],
+  "images_count": 7,
+  "downloaded_images": [
+    {
+      "url": "http://lumiplast.cz/IMG/TEMPLATE/FLAGS/Czech.gif",
+      "file": "Czech.gif",
+      "size_bytes": 2410
+    },
+    {
+      "url": "http://lumiplast.cz/IMG/TEMPLATE/FLAGS/English.gif",
+      "file": "English.gif",
+      "size_bytes": 2573
+    },
+    {
+      "url": "http://lumiplast.cz/IMG/TEMPLATE/FLAGS/German.gif",
+      "file": "German.gif",
+      "size_bytes": 2341
+    },
+    {
+      "url": "http://lumiplast.cz/IMG/TEMPLATE/LOGO.png",
+      "file": "LOGO.png",
+      "size_bytes": 21926
+    },
+    {
+      "url": "http://lumiplast.cz/IMG/allrounder-320-c.jpg",
+      "file": "allrounder-320-c.jpg",
+      "size_bytes": 82473
+    },
+    {
+      "url": "http://lumiplast.cz/IMG/allrounder-470-c.jpg",
+      "file": "allrounder-470-c.jpg",
+      "size_bytes": 44385
+    },
+    {
+      "url": "http://lumiplast.cz/IMG/image-1.jpg",
+      "file": "image-1.jpg",
+      "size_bytes": 194110
+    }
+  ]
+}

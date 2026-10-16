@@ -1,0 +1,65 @@
+{
+  "slug": "statika-brno",
+  "firma": "Statika konstrukcí s.r.o.",
+  "ico": "02404338",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Statika stavebních konstrukcí, projektová činnost ve výstavbě a statické posudky",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://statikabrno.cz",
+  "email": "olejnik@statikabrno.cz",
+  "telefon": "+420 608 326 207",
+  "adresa": "Blatnická 4174/16, Židenice, 628 00 Brno",
+  "dorucovaci_adresa": "Brněnská 495/6a, 664 02 Ochoz u Brna",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Autorizované statické výpočty a projektová činnost ve výstavbě dle platných Eurokódů ČSN EN",
+    "Komplexní stupně dokumentace: ohlášení (DOS), územní řízení (DUR), stavební povolení (DSP), prováděcí projekt (DPS) a dílenská dokumentace oceli (DD)",
+    "Specializace na ocelové prostorové haly a stožáry VN/3G, monolitický železobeton, hlubinné zakládání na pilotách i velkorozponové dřevostavby",
+    "Odborné statické posudky, posuzování vybourání nosných stěn a diagnostika poruch konstrukcí"
+  ],
+  "vady_stareho_webu": [
+    "Web běží na nezabezpečeném protokolu HTTP bez SSL/TLS certifikátu – prohlížeče hlásí varování Nezabezpečeno",
+    "Úplná absence meta tagu viewport a mobilní responzivity – na telefonech je nutné horizontální rolování a zoomování",
+    "Zastaralý fixní tabulkový layout z roku 2012 s nízkým rozlišením a špatnou čitelností",
+    "96 autentických fotografií realizací skryto ve starém neefektivním lightbox skriptu bez technických parametrů a vyhledávání"
+  ],
+  "vylepseni_noveho_webu": [
+    "High-tech designový archetyp Tech & Precision s CAD mřížkou a přepínacími taby specializací v záhlaví",
+    "Interaktivní inženýrský katalog s 24 referencemi, fulltextovým vyhledáváním a filtrem typů konstrukcí",
+    "Detailní technická modální okna (#techModalBackdrop) s normovými specifikacemi a responsivními tabulkami",
+    "100% mobilní responzivita s nulovým přetečením (0px overflow) na kompaktních displejích 360px a 375px",
+    "Ověřená adresa sídla a přesný Mapy.cz špendlík dle RÚIAN databáze ČÚZK",
+    "Animované čítače praxe, referencí a norem navázané na reálné milníky firmy"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2012,
+    "jednatel": "Ing. Marián Olejník",
+    "pocet_let_praxe": 14,
+    "normy": [
+      "ČSN EN 1990",
+      "ČSN EN 1991",
+      "ČSN EN 1992",
+      "ČSN EN 1993",
+      "ČSN EN 1995",
+      "ČSN EN 1997"
+    ],
+    "software": [
+      "SCIA Engineer",
+      "IDEA StatiCa",
+      "FINE GEO5",
+      "Autodesk AutoCAD"
+    ],
+    "klicove_reference": [
+      "ČEZ Distribuce a.s. – stožáry vysokého napětí",
+      "TESLA Holding a.s. – fotovoltaické elektrárny",
+      "Vodafone, T-Mobile, O2 – ocelové konstrukce stožárů 3G Holandsko",
+      "Showroom MINI Renocar Brno – Slatina",
+      "Mezinárodní Letiště Brno Tuřany",
+      "Hills Pet Nutrition Hustopeče – ocelové výrobní haly"
+    ]
+  }
+}

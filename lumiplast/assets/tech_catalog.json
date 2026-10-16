@@ -1,0 +1,140 @@
+[
+  {
+    "id": "arburg-470c",
+    "name": "ARBURG ALLROUNDER 470 C 1500 - 675",
+    "category": "Vstřikolisy",
+    "category_en": "Injection Presses",
+    "category_de": "Spritzgießmaschinen",
+    "image": "assets/allrounder-470-c.jpg",
+    "short_desc": "Vysoce výkonný vstřikovací lis s uzavírací silou 150 tun (1500 kN) pro přesné technické výlisky do 600 g.",
+    "short_desc_en": "High performance injection moulding machine with 150 t clamping force for technical parts up to 600 g.",
+    "short_desc_de": "Hochleistungs-Spritzgießmaschine mit 150 t Schließkraft für technische Präzisionsteile bis 600 g.",
+    "specs": {
+      "Uzavírací síla": "150 t (1500 kN)",
+      "Vstřikovací jednotka": "675",
+      "Počet strojů v provozu": "1x",
+      "Max. hmotnost výlisku": "600 g",
+      "Výrobce": "ARBURG GmbH (Německo)"
+    }
+  },
+  {
+    "id": "arburg-320c",
+    "name": "ARBURG ALLROUNDER 320 C 600 - 250",
+    "category": "Vstřikolisy",
+    "category_en": "Injection Presses",
+    "category_de": "Spritzgießmaschinen",
+    "image": "assets/allrounder-320-c.jpg",
+    "short_desc": "Kompaktní přesné vstřikovací lisy s uzavírací silou 60 tun (600 kN) instalované ve 3 výrobních jednotkách.",
+    "short_desc_en": "Compact precision injection moulding machines with 60 t clamping force installed across 3 units.",
+    "short_desc_de": "Kompakte Präzisions-Spritzgießmaschinen mit 60 t Schließkraft in 3 Produktionseinheiten.",
+    "specs": {
+      "Uzavírací síla": "60 t (600 kN)",
+      "Vstřikovací jednotka": "250",
+      "Počet strojů v provozu": "3x",
+      "Celkový počet strojů": "7 výrobních jednotek",
+      "Výrobce": "ARBURG GmbH (Německo)"
+    }
+  },
+  {
+    "id": "vylisky-energetika",
+    "name": "Výlisky pro energetiku a elektroinstalace",
+    "category": "Výrobky",
+    "category_en": "Products",
+    "category_de": "Produkte",
+    "image": "assets/image-1.jpg",
+    "short_desc": "Technické kabelové průchodky, elektroinstalační rozvaděče, komponenty osvětlovacích těles a dielektrické díly.",
+    "short_desc_en": "Technical cable glands, electrical switchboard components, lighting fixture parts and dielectric mouldings.",
+    "short_desc_de": "Technische Kabeldurchführungen, Schaltkastenkomponenten, Leuchtenteile und dielektrische Formteile.",
+    "specs": {
+      "Aplikace": "Kabelové průchodky, rozvaděče, osvětlovací tělesa",
+      "Materiály": "PA6, PA66, PC, ABS, PBT",
+      "Vlastnosti": "Dielektrická pevnost, UV stabilita, teplotní stálost",
+      "Kontrola": "100% vizuální a rozměrová kontrola"
+    }
+  },
+  {
+    "id": "komponenty-automotive-nabytek",
+    "name": "Komponenty pro automotive a nábytkářství",
+    "category": "Výrobky",
+    "category_en": "Products",
+    "category_de": "Produkte",
+    "image": "assets/image-1.jpg",
+    "short_desc": "Přesné interiérové i funkční technické díly pro automobilový průmysl a spojovací prvky pro nábytkářství.",
+    "short_desc_en": "Precision interior and functional automotive components and connectors for furniture industry.",
+    "short_desc_de": "Präzise Interieur- und Funktionskomponenten für Automobilbau und Beschläge für die Möbelindustrie.",
+    "specs": {
+      "Aplikace": "Tlumiče, krytky, spojovací prvky, dorazy",
+      "Materiály": "PP, ABS, POM, měkčené PVC, EVA",
+      "Sériovost": "Střední i velkosériová výroba",
+      "Norma": "ČSN EN ISO 9001:2009"
+    }
+  },
+  {
+    "id": "strojirenstvi-kola",
+    "name": "Průmyslové násady, krytky a komponenty kol",
+    "category": "Výrobky",
+    "category_en": "Products",
+    "category_de": "Produkte",
+    "image": "assets/image-1.jpg",
+    "short_desc": "Ergonomické násady nástrojů, ochranné krytky, různé druhy technických uzávěrů a díly pro jízdní kola.",
+    "short_desc_en": "Ergonomic tool handles, protective caps, technical closures and components for bicycles.",
+    "short_desc_de": "Ergonomische Werkzeuggriffe, Schutzkappen, technische Verschlüsse und Fahrradkomponenten.",
+    "specs": {
+      "Sortiment": "Násady, krytky, uzávěry, doplňky pro kola",
+      "Materiály": "PE, PP, měkčené PVC, EVA",
+      "Hmotnost výlisku": "Od 1 g do 600 g",
+      "Barevnost": "Dle vzorníku RAL na přání zákazníka"
+    }
+  },
+  {
+    "id": "materialove-spektrum",
+    "name": "Zpracovávané technické plasty a polymery",
+    "category": "Materiály",
+    "category_en": "Materials",
+    "category_de": "Werkstoffe",
+    "image": "assets/allrounder-470-c.jpg",
+    "short_desc": "Zpracování široké škály termoplastů včetně PC, PE, PP, PA6, PA66, ABS, PS, PVC měkčeného, PBT a EVA.",
+    "short_desc_en": "Processing a broad spectrum of thermoplastics including PC, PE, PP, PA6, PA66, ABS, PS, soft PVC, PBT, EVA.",
+    "short_desc_de": "Verarbeitung vielfältiger Thermoplaste: PC, PE, PP, PA6, PA66, ABS, PS, Weich-PVC, PBT und EVA.",
+    "specs": {
+      "Konstrukční polymery": "PC, PA6, PA66, PBT, ABS",
+      "Komoditní plasty": "PE, PP, PS, měkčené PVC, EVA",
+      "Plniva a aditiva": "Skleněná vlákna, UV stabilizátory, retardéry hoření",
+      "Hmotnostní rozsah": "Do 600 g na jeden vstřik"
+    }
+  },
+  {
+    "id": "vyrobni-zazemi",
+    "name": "Výrobní hala Lomnice a skladové kapacity",
+    "category": "Zázemí",
+    "category_en": "Facilities",
+    "category_de": "Infrastruktur",
+    "image": "assets/image-1.jpg",
+    "short_desc": "Vlastní výrobní areál v Lomnici u Tišnova: výrobní hala 900 m², kryté sklady 360 m² a VZV do 3 t.",
+    "short_desc_en": "Owned facility in Lomnice u Tišnova: 900 m² production hall, 360 m² warehouses, 3t forklift.",
+    "short_desc_de": "Eigenes Betriebsgelände in Lomnice u Tišnova: 900 m² Produktionshalle, 360 m² Lager, 3t Gabelstapler.",
+    "specs": {
+      "Výrobní plocha": "900 m²",
+      "Skladovací plocha": "360 m²",
+      "Manipulace": "Vysokozdvižný vozík do 3 tun",
+      "Lokalita": "Družstevní 396, 679 23 Lomnice u Tišnova"
+    }
+  },
+  {
+    "id": "rizeni-jakosti",
+    "name": "Certifikovaný systém řízení jakosti ISO 9001",
+    "category": "Kvalita",
+    "category_en": "Quality",
+    "category_de": "Qualität",
+    "image": "assets/allrounder-320-c.jpg",
+    "short_desc": "Zavedený a auditovaný systém managementu jakosti dle ISO 9001:2009 certifikovaný společností BVQI.",
+    "short_desc_en": "Established and audited quality management system certified to ISO 9001:2009 by BVQI.",
+    "short_desc_de": "Zertifiziertes Qualitätsmanagementsystem nach ISO 9001:2009, auditiert von BVQI.",
+    "specs": {
+      "Certifikace": "ČSN EN ISO 9001:2009",
+      "Certifikační orgán": "BVQI Czech Republic, s.r.o.",
+      "Historie certifikace": "Od srpna 2004 s pravidelnými audity",
+      "Poslední dozorový audit": "Úspěšně proveden v srpnu 2015"
+    }
+  }
+]

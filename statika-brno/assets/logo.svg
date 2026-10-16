@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 68" width="340" height="68">
+  <defs>
+    <linearGradient id="gradTruss" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#dc3900"/>
+    </linearGradient>
+    <linearGradient id="gradSteel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8, 8)">
+    <polygon points="26,2 50,48 2,48" fill="none" stroke="url(#gradTruss)" stroke-width="3.5" stroke-linejoin="round"/>
+    <line x1="26" y1="2" x2="26" y2="48" stroke="url(#gradSteel)" stroke-width="2" stroke-dasharray="3,3"/>
+    <line x1="14" y1="25" x2="38" y2="25" stroke="url(#gradSteel)" stroke-width="2.5"/>
+    <circle cx="26" cy="2" r="4" fill="#dc3900"/>
+    <circle cx="2" cy="48" r="4" fill="#dc3900"/>
+    <circle cx="50" cy="48" r="4" fill="#dc3900"/>
+    <circle cx="14" cy="25" r="3" fill="#f1f5f9"/>
+    <circle cx="38" cy="25" r="3" fill="#f1f5f9"/>
+    <circle cx="26" cy="48" r="3" fill="#f1f5f9"/>
+  </g>
+  <text x="72" y="34" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="24" font-weight="900" letter-spacing="1.5" fill="#dc3900">STATIKA</text>
+  <text x="194" y="34" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="24" font-weight="700" letter-spacing="1" fill="#f1f5f9">BRNO</text>
+  <text x="276" y="34" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="600" letter-spacing="0.5" fill="#94a3b8">s.r.o.</text>
+  <text x="73" y="51" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="9.5" font-weight="700" letter-spacing="2.8" fill="#38bdf8">PROJEKCE STATIKA POSUDKY</text>
+</svg>

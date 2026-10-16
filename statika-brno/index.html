@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STATIKA BRNO s.r.o. | Projekční kancelář &amp; statické posudky</title>
+  <meta name="description" content="Projektová činnost ve výstavbě, statické posudky a ekonomické dimenzování nosných ocelových, betonových a dřevěných konstrukcí dle Eurokódů ČSN EN.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-wrapper">
+    <header class="site-header">
+      <div class="header-container">
+        <a href="#hero" class="brand-link">
+          <img src="assets/logo.svg" alt="STATIKA BRNO s.r.o. - logo" class="brand-logo" width="280" height="56">
+        </a>
+        <nav class="nav-desktop">
+          <a href="#o-spolecnosti" class="nav-item">O společnosti</a>
+          <a href="#specializace" class="nav-item">Specializace</a>
+          <a href="#reference" class="nav-item">Reference</a>
+          <a href="#fotogalerie" class="nav-item">Fotogalerie</a>
+          <a href="#poptavka" class="nav-item">Poptávka</a>
+          <a href="#kontakt" class="nav-item">Kontakt</a>
+        </nav>
+        <div class="header-actions">
+          <a href="tel:+420608326207" class="btn-header-call">
+            <span class="call-icon">✆</span>
+            <span class="call-number">+420 608 326 207</span>
+          </a>
+          <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Otevřít navigaci">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-nav" id="mobileNav">
+        <a href="#o-spolecnosti" class="mobile-link">O společnosti</a>
+        <a href="#specializace" class="mobile-link">Specializace</a>
+        <a href="#reference" class="mobile-link">Reference</a>
+        <a href="#fotogalerie" class="mobile-link">Fotogalerie</a>
+        <a href="#poptavka" class="mobile-link">Poptávka</a>
+        <a href="#kontakt" class="mobile-link">Kontakt</a>
+        <a href="tel:+420608326207" class="mobile-call-link">Zavolat: +420 608 326 207</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-container">
+          <div class="hero-badge reveal">
+            <span class="badge-dot"></span>
+            <span class="badge-text">AUTORIZOVANÉ INŽENÝRSKÉ PROJEKTOVÁNÍ &bull; ČSN EN EUROKÓDY</span>
+          </div>
+          <h1 class="hero-title reveal">
+            Statika stavebních konstrukcí, <span class="highlight-orange">precizní projekce</span> a posudky
+          </h1>
+          <p class="hero-subtitle reveal">
+            Navrhujeme ekonomické nosné konstrukce od prvopočátku studie až po kolaudaci. Ocel, monolitický železobeton, dřevostavby i hlubinné zakládání bez předimenzování.
+          </p>
+
+          <div class="tech-tabs-panel reveal" id="techTabsPanel">
+            <div class="tech-tab-nav" role="tablist">
+              <button type="button" class="tab-btn active" data-tab="tab-ocel" role="tab">Ocelové konstrukce</button>
+              <button type="button" class="tab-btn" data-tab="tab-beton" role="tab">Železobeton a základy</button>
+              <button type="button" class="tab-btn" data-tab="tab-drevo" role="tab">Dřevostavby a krovy</button>
+              <button type="button" class="tab-btn" data-tab="tab-posudky" role="tab">Statické posudky</button>
+            </div>
+            <div class="tab-content active" id="tab-ocel" role="tabpanel">
+              <div class="tab-grid">
+                <div class="tab-info">
+                  <div class="tab-kicker">PRŮMYSLOVÉ &bull; OBCHODNÍ &bull; ENERGETICKÉ STAVBY</div>
+                  <h3 class="tab-title">Ocelové haly, stožáry a technologické konstrukce</h3>
+                  <p class="tab-desc">Statické výpočty prostorových rámů, příhradových vazníků, technologických plošin a stožárů mobilních operátorů dle ČSN EN 1993 a ČSN EN 1090.</p>
+                  <ul class="tab-bullets">
+                    <li>Dvojlodní a trojlodní výrobní haly na rozpony 18–36 m</li>
+                    <li>Příhradové telekomunikační stožáry a stožáry vysokého napětí</li>
+                    <li>Dílenská dokumentace oceli (DD) a prostorové posuzování styčníků</li>
+                  </ul>
+                </div>
+                <div class="tab-specs-box">
+                  <div class="spec-row"><span class="lbl">Normový rámec:</span><span class="val">ČSN EN 1993-1-1 až 1993-4-1</span></div>
+                  <div class="spec-row"><span class="lbl">Třídy provedení:</span><span class="val">EXC1 až EXC3 dle EN 1090</span></div>
+                  <div class="spec-row"><span class="lbl">Výpočetní software:</span><span class="val">SCIA Engineer, IDEA StatiCa</span></div>
+                  <div class="spec-row"><span class="lbl">Stupně dokumentace:</span><span class="val">DUR, DSP, DPS, DD</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="tab-beton" role="tabpanel">
+              <div class="tab-grid">
+                <div class="tab-info">
+                  <div class="tab-kicker">MONOLITY &bull; PREFA &bull; ZÁKLADOVÉ PILOTY</div>
+                  <h3 class="tab-title">Monolitický železobeton, bílé vany a hlubinné piloty</h3>
+                  <p class="tab-desc">Komplexní dimenzování monolitických stropů, sloupových skeletů, opěrných stěn a základových pilot s optimalizací kubatury betonu i tunáže oceli.</p>
+                  <ul class="tab-bullets">
+                    <li>Bezprůvlakové monolitické desky s mezním stavem trhlin a průhybů</li>
+                    <li>Základové poměry, vrtané piloty a opěrné zdi v náročném terénu</li>
+                    <li>Suterény systémem bílé vany odolné proti tlakové podzemní vodě</li>
+                  </ul>
+                </div>
+                <div class="tab-specs-box">
+                  <div class="spec-row"><span class="lbl">Normový rámec:</span><span class="val">ČSN EN 1992-1-1, ČSN EN 1997-1</span></div>
+                  <div class="spec-row"><span class="lbl">Třídy betonu:</span><span class="val">C20/25 až C50/60, B500B</span></div>
+                  <div class="spec-row"><span class="lbl">Výpočetní software:</span><span class="val">SCIA Engineer, GEO5 Pilota</span></div>
+                  <div class="spec-row"><span class="lbl">Podklady:</span><span class="val">IGP průzkumy, hydrogeologie</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="tab-drevo" role="tabpanel">
+              <div class="tab-grid">
+                <div class="tab-info">
+                  <div class="tab-kicker">LAMELOVÉ DŘEVO &bull; VAZNÍKY &bull; HORSKÉ KROVY</div>
+                  <h3 class="tab-title">Dřevostavby, vazníkové soustavy a lepené lamelové oblouky</h3>
+                  <p class="tab-desc">Návrh a statické posouzení velkorozponových dřevěných oblouků, zemědělských stájí, horských apartmánů i rekonstrukcí historických krovů.</p>
+                  <ul class="tab-bullets">
+                    <li>Lepené lamelové oblouky GL24h–GL32h na rozpony přes 25 m</li>
+                    <li>Dimenzování pro extrémní sněhová zatížení (oblasti V–VII)</li>
+                    <li>Přesné ocelové vkládané kolíkové a svorníkové styčníky</li>
+                  </ul>
+                </div>
+                <div class="tab-specs-box">
+                  <div class="spec-row"><span class="lbl">Normový rámec:</span><span class="val">ČSN EN 1995-1-1 (Eurokód 5)</span></div>
+                  <div class="spec-row"><span class="lbl">Materiálové báze:</span><span class="val">C24, GL24h, BSH, KVH hranoly</span></div>
+                  <div class="spec-row"><span class="lbl">Sněhové zatížení:</span><span class="val">ČSN EN 1991-1-3 (až sk = 4.0 kPa)</span></div>
+                  <div class="spec-row"><span class="lbl">Výpočetní software:</span><span class="val">SCIA Engineer, Dlubal Timber</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="tab-posudky" role="tabpanel">
+              <div class="tab-grid">
+                <div class="tab-info">
+                  <div class="tab-kicker">DIAGNOSTIKA &bull; PODCHYCOVÁNÍ &bull; REKONSTRUKCE</div>
+                  <h3 class="tab-title">Odborné statické posudky a diagnostika objektů</h3>
+                  <p class="tab-desc">Rychlé a autorizované statické posouzení nosných prvků, vybourání nosných stěn, střešních nástaveb, poruch základů a sanace trhlin budov.</p>
+                  <ul class="tab-bullets">
+                    <li>Posudky nosných stěn pro dispoziční změny a ocelové podchycovací rámy</li>
+                    <li>Posouzení rezervy nosnosti střech před instalací FVE a VZT jednotek</li>
+                    <li>Diagnostika trhlin, sedání základů a stability svahů</li>
+                  </ul>
+                </div>
+                <div class="tab-specs-box">
+                  <div class="spec-row"><span class="lbl">Rychlost zpracování:</span><span class="val">Konzultace na místě a expresní zpráva</span></div>
+                  <div class="spec-row"><span class="lbl">Autorizace:</span><span class="val">ČKAIT statika a dynamika staveb</span></div>
+                  <div class="spec-row"><span class="lbl">Metodika:</span><span class="val">Nedestruktivní i sondážní průzkum</span></div>
+                  <div class="spec-row"><span class="lbl">Výstup:</span><span class="val">Závazné stanovisko pro stavební úřad</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-actions reveal">
+            <a href="#reference" class="btn-primary">Katalog projektů &amp; referencí</a>
+            <a href="#poptavka" class="btn-secondary">Poptat statický posudek</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-section">
+        <div class="stats-container">
+          <div class="stat-card reveal">
+            <div class="stat-number" data-target="14">0</div>
+            <div class="stat-unit">+ let na trhu</div>
+            <div class="stat-caption">Založeno 2012, stabilní inženýrská kancelář</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-number" data-target="500">0</div>
+            <div class="stat-unit">+ projektů</div>
+            <div class="stat-caption">Zpracované statické posudky a realizační projekty</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-number" data-target="24">0</div>
+            <div class="stat-unit">hlavních referencí</div>
+            <div class="stat-caption">ČEZ, TESLA, Letiště Tuřany, Renocar, Hills a další</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-number" data-target="100">0</div>
+            <div class="stat-unit">% Eurokódy</div>
+            <div class="stat-caption">Plný soulad s platnými normami ČSN EN</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="company-section" id="o-spolecnosti">
+        <div class="section-container">
+          <div class="section-header reveal">
+            <span class="section-badge">PROFIL SPOLEČNOSTI</span>
+            <h2 class="section-title">O společnosti STATIKA BRNO s.r.o.</h2>
+            <p class="section-intro">
+              Společnost byla založena za účelem navrhování ekonomických staveb od prvopočátku až po vydání jejich kolaudačního rozhodnutí. U každého projektu dbáme na optimální dimenzování nosných prvků bez zbytečného předražování.
+            </p>
+          </div>
+
+          <div class="stages-grid reveal">
+            <div class="stage-card">
+              <div class="stage-code">DOS</div>
+              <h3 class="stage-title">Dokumentace pro ohlášení stavby</h3>
+              <p class="stage-desc">Základní statické posouzení a koncepce nosného systému pro jednodušší stavební záměry.</p>
+            </div>
+            <div class="stage-card">
+              <div class="stage-code">DUR</div>
+              <h3 class="stage-title">Dokumentace pro územní řízení</h3>
+              <p class="stage-desc">Statická studie prostorového uspořádání a koordinace nosných konstrukcí s územním plánem.</p>
+            </div>
+            <div class="stage-card">
+              <div class="stage-code">DSP</div>
+              <h3 class="stage-title">Dokumentace pro stavební povolení</h3>
+              <p class="stage-desc">Kompletní statický výpočet, technická zpráva a výkresy tvaru nosných konstrukcí pro úřady.</p>
+            </div>
+            <div class="stage-card">
+              <div class="stage-code">DPS</div>
+              <h3 class="stage-title">Dokumentace pro provedení stavby</h3>
+              <p class="stage-desc">Detailní prováděcí projekt, armovací výkresy, výkazy oceli a kotevní detaily pro staveniště.</p>
+            </div>
+            <div class="stage-card highlight">
+              <div class="stage-code">DD</div>
+              <h3 class="stage-title">Dílenská dokumentace oceli</h3>
+              <p class="stage-desc">Výrobní výkresy ocelových prvků, montážní sestavy, položkové listy a NC data pro dílny.</p>
+            </div>
+          </div>
+
+          <div class="workflow-box reveal">
+            <div class="workflow-col">
+              <h3 class="col-title">Konzultační a koordinační činnost</h3>
+              <ul class="check-list">
+                <li>Rady, posudky a postřehy v průběhu projektování od konceptu po realizaci</li>
+                <li>Koordinace profesí s investorem, architekty, TZB a dotčenými orgány státní správy</li>
+                <li>Názorná ukázka fungování konstrukce srozumitelná pro laika i investora</li>
+                <li>Autorský a technický dozor projektanta přímo na staveništi během montáže a betonáže</li>
+              </ul>
+            </div>
+            <div class="workflow-col">
+              <h3 class="col-title">Specializované inženýrské zázemí</h3>
+              <div class="tools-pills">
+                <span class="tool-pill">SCIA Engineer 3D FEM</span>
+                <span class="tool-pill">IDEA StatiCa Connection</span>
+                <span class="tool-pill">FINE GEO5 Pilota &amp; Pažení</span>
+                <span class="tool-pill">Autodesk AutoCAD</span>
+                <span class="tool-pill">Dlubal RFEM / Timber</span>
+                <span class="tool-pill">Eurokódy ČSN EN 1990–1999</span>
+              </div>
+              <p class="tools-note">
+                Investor má vždy transparentní přehled o statickém řešení a může rozhodovat o postupu prací i variantách nákladů.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="specialization-section" id="specializace">
+        <div class="section-container">
+          <div class="section-header reveal">
+            <span class="section-badge">INŽENÝRSKÉ OBLASTI</span>
+            <h2 class="section-title">Specializované služby naší kanceláře</h2>
+            <p class="section-intro">Komplexní portfolio statických výpočtů pro pozemní, inženýrské, průmyslové i energetické stavby.</p>
+          </div>
+
+          <div class="spec-cards-grid reveal">
+            <div class="spec-card">
+              <div class="spec-icon-box">🏗️</div>
+              <h3 class="spec-card-title">Projektová činnost ve výstavbě</h3>
+              <p class="spec-card-text">Kompletní projekce nosných systémů novostaveb, halových areálů, administrativních i bytových budov od základů po střechu ve všech stupních dokumentace.</p>
+            </div>
+            <div class="spec-card">
+              <div class="spec-icon-box">📋</div>
+              <h3 class="spec-card-title">Odborné statické posudky</h3>
+              <p class="spec-card-text">Diagnostika a autorizované statické posouzení stavu stávajících budov, trhlin, krovů, základových konstrukcí i plánovaných dispozičních zásahů.</p>
+            </div>
+            <div class="spec-card">
+              <div class="spec-icon-box">🔩</div>
+              <h3 class="spec-card-title">Hlubinné piloty a zakládání</h3>
+              <p class="spec-card-text">Návrh a statické posouzení vrtaných velkoprůměrových pilot, mikropilot, základových pasů a plošných železobetonových desek v náročných zeminách.</p>
+            </div>
+            <div class="spec-card">
+              <div class="spec-icon-box">⚡</div>
+              <h3 class="spec-card-title">Energetika a stožáry VN / FVE</h3>
+              <p class="spec-card-text">Specializované posudky ocelových stožárů velmi vysokého napětí (ČEZ), telekomunikačních věží i nosných konstrukcí solárních elektráren.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="reference">
+        <div class="section-container">
+          <div class="section-header reveal">
+            <span class="section-badge">KATALOG REFERENCÍ</span>
+            <h2 class="section-title">Vybrané inženýrské projekty a realizace</h2>
+            <p class="section-intro">Prozkoumejte interaktivní portfolio našich projektů. Každá karta obsahuje normové specifikace a fotodokumentaci.</p>
+          </div>
+
+          <div class="catalog-controls reveal">
+            <div class="search-box">
+              <input type="text" id="catalogSearch" class="search-input" placeholder="Hledat projekt, normu, materiál nebo lokalitu...">
+              <span class="search-indicator">🔍</span>
+            </div>
+            <div class="filter-pills" id="catalogFilters">
+              <button type="button" class="filter-btn active" data-filter="all">Všechny projekty</button>
+              <button type="button" class="filter-btn" data-filter="ocel">Ocelové konstrukce</button>
+              <button type="button" class="filter-btn" data-filter="beton">Železobeton a základy</button>
+              <button type="button" class="filter-btn" data-filter="drevo">Dřevostavby a krovy</button>
+              <button type="button" class="filter-btn" data-filter="posudky">Statické posudky</button>
+            </div>
+            <div class="counter-bar">
+              <span class="counter-text">Zobrazeno položek:</span>
+              <strong id="searchCounter" class="counter-val">24</strong>
+            </div>
+          </div>
+
+          <div class="catalog-grid" id="catalogGrid">
+            <article class="cat-card" data-id="renocar-showroom" data-open-tech="renocar-showroom" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/renocar_1.jpg" alt="Showroom MINI Renocar Brno – Slatina" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">Showroom MINI Renocar Brno – Slatina</h3>
+                <p class="item-desc">Ocelová prostorová konstrukce prestižního autosalonu MINI včetně prosklené fasády a nosného ocelového skeletu.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Brno - Slatina</span>
+                  <span class="meta-tag">DPS + Dílenská dokumentace</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="destne-apartmany" data-open-tech="destne-apartmany" data-category="beton">
+              <div class="item-img-wrap">
+                <img src="assets/destne_1.jpg" alt="Horské apartmány Deštné v Orlických horách" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Železobeton a základy</span>
+                <h3 class="item-title">Horské apartmány Deštné v Orlických horách</h3>
+                <p class="item-desc">Kompletní prováděcí projekt nosné monolitické a zděné konstrukce v náročných horských klimatických podmínkách.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Deštné v Orlických horách</span>
+                  <span class="meta-tag">ČSN EN 1992 + ČSN EN 1991</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="marefy-silo" data-open-tech="marefy-silo" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/marefy_1.jpg" alt="Zemědělské silo a haly Bučovice – Marefy" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">Zemědělské silo a haly Bučovice – Marefy</h3>
+                <p class="item-desc">Průmyslový ocelový skelet velkokapacitních skladovacích hal a podpůrná konstrukce vertikálního sila.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Bučovice – Marefy</span>
+                  <span class="meta-tag">ČSN EN 1993-4-1 (Sila)</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="hills-hustopece" data-open-tech="hills-hustopece" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/hills_1.jpg" alt="Výrobní haly Hills Pet Nutrition Hustopeče" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">Výrobní haly Hills Pet Nutrition Hustopeče</h3>
+                <p class="item-desc">Ocelové výrobní a expediční haly pro mezinárodního výrobce krmiv s přísnými hygienickými a statickými požadavky.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Hustopeče u Brna</span>
+                  <span class="meta-tag">Dílenská dokumentace oceli</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="vodafone-stozary" data-open-tech="vodafone-stozary" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/vodafone_1.jpg" alt="Stožáry mobilních operátorů 3G / 4G" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">Stožáry mobilních operátorů 3G / 4G (Holandsko &amp; ČR)</h3>
+                <p class="item-desc">Ocelové příhradové a trubkové stožáry pro anténní technologie operátorů Vodafone, T-Mobile a O2.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Holandsko &amp; ČR</span>
+                  <span class="meta-tag">ČSN EN 1993-3-1 (Stožáry)</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="atrium-otrokovice" data-open-tech="atrium-otrokovice" data-category="beton">
+              <div class="item-img-wrap">
+                <img src="assets/atrium_1.jpg" alt="Hotel Atrium Otrokovice – skelet a nástavba" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Železobeton a základy</span>
+                <h3 class="item-title">Hotel Atrium Otrokovice – skelet a nástavba</h3>
+                <p class="item-desc">Spolupráce na prováděcím projektu nosných konstrukcí hotelového komplexu s podzemním parkováním.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Otrokovice</span>
+                  <span class="meta-tag">Prováděcí projekt (DPS)</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="knihovna-ostrava" data-open-tech="knihovna-ostrava" data-category="posudky">
+              <div class="item-img-wrap">
+                <img src="assets/knihovna-ostrava_1.jpg" alt="Moravskoslezská vědecká knihovna v Ostravě" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Statické posudky</span>
+                <h3 class="item-title">Moravskoslezská vědecká knihovna v Ostravě</h3>
+                <p class="item-desc">Statická spolupráce na prováděcím projektu významné veřejné budovy se specifickými požadavky na zatížení depozitáři.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Ostrava</span>
+                  <span class="meta-tag">Užitné zatížení 10 kN/m²</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="schody-bratislava" data-open-tech="schody-bratislava" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/schody_1.jpg" alt="Designové prostorové schodiště z černé oceli" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">Designové prostorové schodiště z černé oceli, Bratislava</h3>
+                <p class="item-desc">Unikátní architektonické samonosné točité schodiště z černé oceli s precizním dimenzováním dynamické odezvy.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Bratislava</span>
+                  <span class="meta-tag">Modální dynamická analýza</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="kavarna-hriste" data-open-tech="kavarna-hriste" data-category="drevo">
+              <div class="item-img-wrap">
+                <img src="assets/kavarna_1.jpg" alt="Kavárna u hřiště – prostorová dřevěná konstrukce" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Dřevostavby a krovy</span>
+                <h3 class="item-title">Kavárna u hřiště – prostorová dřevěná konstrukce</h3>
+                <p class="item-desc">Statický posudek a návrh nosné dřevěné prostorové konstrukce pavilonu s lepenými lamelovými nosníky.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Jihomoravský kraj</span>
+                  <span class="meta-tag">ČSN EN 1995-1-1 (Eurokód 5)</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="zebetin-hotel" data-open-tech="zebetin-hotel" data-category="posudky">
+              <div class="item-img-wrap">
+                <img src="assets/zebetin_1.jpg" alt="Hotel Žebětínský dvůr Brno – rozšíření areálu" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Statické posudky</span>
+                <h3 class="item-title">Hotel Žebětínský dvůr Brno – rozšíření areálu</h3>
+                <p class="item-desc">Projekt pro stavební povolení nosných konstrukcí přístavby a rekonstrukce historických traktů hotelu.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Brno – Žebětín</span>
+                  <span class="meta-tag">Podchycení kleneb a mikropiloty</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="kment-vila" data-open-tech="kment-vila" data-category="beton">
+              <div class="item-img-wrap">
+                <img src="assets/kment_1.jpg" alt="Rodinná vila Kment – konzolové železobetonové stropy" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Železobeton a základy</span>
+                <h3 class="item-title">Rodinná vila Kment – konzolové železobetonové stropy</h3>
+                <p class="item-desc">Statický projekt moderní rezidenční vily s vyloženými terasami a velkorozponovým prosklením obývací části.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Brno a okolí</span>
+                  <span class="meta-tag">Konzoly 3.8 m + Isokorb</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="sasek-dum" data-open-tech="sasek-dum" data-category="beton">
+              <div class="item-img-wrap">
+                <img src="assets/sasek_1.jpg" alt="Rodinný dům Šášek – statika a základové poměry" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Železobeton a základy</span>
+                <h3 class="item-title">Rodinný dům Šášek – statika a základové poměry</h3>
+                <p class="item-desc">Kompletní statické řešení nízkoenergetického rodinného domu ve svažitém terénu s opěrnými stěnami.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Jihomoravský kraj</span>
+                  <span class="meta-tag">Opěrné železobetonové zdi 3.2 m</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="karpisek-penzion" data-open-tech="karpisek-penzion" data-category="drevo">
+              <div class="item-img-wrap">
+                <img src="assets/karpisek_1.jpg" alt="Horský penzión Karpíšek – Strážné v Krkonoších" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Dřevostavby a krovy</span>
+                <h3 class="item-title">Horský penzión Karpíšek – Strážné v Krkonoších</h3>
+                <p class="item-desc">Projekt nosných konstrukcí horského ubytovacího zařízení s masivní dřevěnou krovovou soustavou.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Strážné v Krkonoších</span>
+                  <span class="meta-tag">Sněhová oblast VII</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="uhrineves-viladomy" data-open-tech="uhrineves-viladomy" data-category="beton">
+              <div class="item-img-wrap">
+                <img src="assets/uhrineves_1.jpg" alt="Viladomy Uhříněves – Praha" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Železobeton a základy</span>
+                <h3 class="item-title">Viladomy Uhříněves – Praha (ulice Vyderská, Bystřičná)</h3>
+                <p class="item-desc">Statické řešení souboru čtyřpodlažních bytových viladomů s podzemními garážemi a terasami.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Praha – Uhříněves</span>
+                  <span class="meta-tag">Vrtané piloty a stěnové nosníky</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="terranova-brno" data-open-tech="terranova-brno" data-category="posudky">
+              <div class="item-img-wrap">
+                <img src="assets/terranova_1.jpg" alt="Obchodní dům Terranova Brno – Františkánská ulice" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Statické posudky</span>
+                <h3 class="item-title">Obchodní dům Terranova Brno – Františkánská ulice</h3>
+                <p class="item-desc">Obnova a stavební rozšíření retailové prodejny v památkově chráněném centru Brna s vybouráním nosných stěn.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Brno – Františkánská</span>
+                  <span class="meta-tag">Podchycení ocelovými rámy HEB 300</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="baseball-trebic" data-open-tech="baseball-trebic" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/baseball_1.jpg" alt="Sportovní stadion Třebíč Nuclears – ocelová tribuna" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">Sportovní stadion Třebíč Nuclears – ocelová tribuna</h3>
+                <p class="item-desc">Zastřešená tribuna pro baseballový a softballový stadion s velkorozponovou konzolou střechy.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Třebíč</span>
+                  <span class="meta-tag">Konzola střechy 8.5 m bez podpěr</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="chvalovice-dojirna" data-open-tech="chvalovice-dojirna" data-category="beton">
+              <div class="item-img-wrap">
+                <img src="assets/chvalovice_1.jpg" alt="Velkokapacitní dojírna Klucké Chvalovice" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Železobeton a základy</span>
+                <h3 class="item-title">Velkokapacitní dojírna Klucké Chvalovice</h3>
+                <p class="item-desc">Statické řešení technologického zemědělského objektu s chemicky odolnými podlahami a jímkami na kejdu.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Klucké Chvalovice</span>
+                  <span class="meta-tag">Odolnost XA3 + předpínané vazníky</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="stipa-staj" data-open-tech="stipa-staj" data-category="drevo">
+              <div class="item-img-wrap">
+                <img src="assets/stipa_1.jpg" alt="Zemědělský areál chovu skotu Štípa" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Dřevostavby a krovy</span>
+                <h3 class="item-title">Zemědělský areál chovu skotu Štípa</h3>
+                <p class="item-desc">Velkorozponová dřevěná hala stájového komplexu s optimalizovaným přirozeným větráním a mikroklimatem.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Štípa u Zlína</span>
+                  <span class="meta-tag">Lepené oblouky na rozpon 26 m</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="cez-stozary" data-open-tech="cez-stozary" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/vodafone_3.jpg" alt="ČEZ Distribuce a.s. – Stožáry velmi vysokého napětí" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">ČEZ Distribuce a.s. – Stožáry velmi vysokého napětí</h3>
+                <p class="item-desc">Statické posudky, ověřovací přepočty nosnosti a projekty zpevnění příhradových ocelových stožárů VN a VVN.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Zadavatel: ČEZ Distribuce</span>
+                  <span class="meta-tag">ČSN EN 50341 + ČSN EN 1993</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="tesla-fve" data-open-tech="tesla-fve" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/marefy_2.jpg" alt="TESLA Holding a.s. – Nosné konstrukce FVE" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">TESLA Holding a.s. – Nosné konstrukce fotovoltaických elektráren</h3>
+                <p class="item-desc">Návrh a statické posouzení pozemních i střešních nosných konstrukcí fotovoltaických elektráren.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Zadavatel: TESLA Holding</span>
+                  <span class="meta-tag">Zemní vruty + posouzení střech</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="letiste-turany" data-open-tech="letiste-turany" data-category="posudky">
+              <div class="item-img-wrap">
+                <img src="assets/renocar_2.jpg" alt="Mezinárodní Letiště Brno Tuřany" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Statické posudky</span>
+                <h3 class="item-title">Mezinárodní Letiště Brno Tuřany – konstrukční zabezpečení</h3>
+                <p class="item-desc">Komplexní zabezpečení letištních konstrukcí, statické studie a posouzení nosných prvků terminálu.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Letiště Tuřany</span>
+                  <span class="meta-tag">Třída následků CC3</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="draha-uzel" data-open-tech="draha-uzel" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/knihovna-ostrava_2.jpg" alt="Železniční uzel Brno – komerční zastřešení" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">Železniční uzel Brno – komerční zastřešení</h3>
+                <p class="item-desc">Statická studie velkorozponového komerčního zastřešení nástupišť a přestupního terminálu.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Lokalita: Brno</span>
+                  <span class="meta-tag">Rozpony oblouků 42 m</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="tesco-marianske-lazne" data-open-tech="tesco-marianske-lazne" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/hills_2.jpg" alt="Obchodní centrum TESCO Mariánské Lázně" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">Obchodní centrum TESCO Mariánské Lázně</h3>
+                <p class="item-desc">Projekt a statické výpočty nosné ocelové konstrukce jednopodlažního nákupního centra.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Zadavatel: TESCO Stores</span>
+                  <span class="meta-tag">DPS + Dílenská dokumentace</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+
+            <article class="cat-card" data-id="zlin-aircraft" data-open-tech="zlin-aircraft" data-category="ocel">
+              <div class="item-img-wrap">
+                <img src="assets/destne_2.jpg" alt="Zlín Aircraft Otrokovice – hangárové zastřešení" class="item-img" loading="lazy">
+              </div>
+              <div class="item-content">
+                <span class="item-cat-badge">Ocelové konstrukce</span>
+                <h3 class="item-title">Zlín Aircraft Otrokovice – hangárové zastřešení</h3>
+                <p class="item-desc">Statický projekt nového zastřešení a hangárových vratových portálů pro leteckou výrobu.</p>
+                <div class="item-meta">
+                  <span class="meta-tag">Zadavatel: ZLIN AIRCRAFT</span>
+                  <span class="meta-tag">Světlost vrat 36 m bez podpěr</span>
+                </div>
+                <button type="button" class="btn-detail">Technické parametry &amp; normy</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="fotogalerie">
+        <div class="section-container">
+          <div class="section-header reveal">
+            <span class="section-badge">FOTODOKUMENTACE</span>
+            <h2 class="section-title">Fotogalerie ze staveb a realizací</h2>
+            <p class="section-intro">Autentické fotografie nosných konstrukcí přímo z průběhu výstavby, výroby v dílnách a dokončených děl.</p>
+          </div>
+
+          <div class="photo-grid reveal">
+            <div class="photo-item">
+              <img src="assets/renocar_3.jpg" alt="MINI Renocar showroom montáž" class="gallery-img" loading="lazy">
+              <span class="photo-caption">Renocar Brno – montáž nosného skeletu</span>
+            </div>
+            <div class="photo-item">
+              <img src="assets/destne_3.jpg" alt="Deštné v Orlických horách výstavba" class="gallery-img" loading="lazy">
+              <span class="photo-caption">Horské apartmány Deštné v Orlických horách</span>
+            </div>
+            <div class="photo-item">
+              <img src="assets/marefy_3.jpg" alt="Marefy silo ocelové konstrukce" class="gallery-img" loading="lazy">
+              <span class="photo-caption">Zemědělské silo Bučovice – Marefy</span>
+            </div>
+            <div class="photo-item">
+              <img src="assets/hills_3.jpg" alt="Hills Pet Nutrition montáž hal" class="gallery-img" loading="lazy">
+              <span class="photo-caption">Výrobní areál Hills Pet Nutrition Hustopeče</span>
+            </div>
+            <div class="photo-item">
+              <img src="assets/vodafone_4.jpg" alt="Stožáry Vodafone Holandsko" class="gallery-img" loading="lazy">
+              <span class="photo-caption">Příhradové stožáry Vodafone &amp; O2</span>
+            </div>
+            <div class="photo-item">
+              <img src="assets/atrium_3.jpg" alt="Hotel Atrium Otrokovice skelet" class="gallery-img" loading="lazy">
+              <span class="photo-caption">Hotel Atrium Otrokovice – monolit</span>
+            </div>
+            <div class="photo-item">
+              <img src="assets/terranova_2.jpg" alt="Terranova Brno podchycení stěn" class="gallery-img" loading="lazy">
+              <span class="photo-caption">Terranova Brno – ocelové podchycovací rámy</span>
+            </div>
+            <div class="photo-item">
+              <img src="assets/baseball_2.jpg" alt="Třebíč stadion tribuna" class="gallery-img" loading="lazy">
+              <span class="photo-caption">Třebíč Nuclears – tribuna s konzolou střechy</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section" id="poptavka">
+        <div class="section-container">
+          <div class="quote-wrapper reveal">
+            <div class="quote-info">
+              <span class="section-badge">POPTÁVKOVÝ FORMULÁŘ</span>
+              <h2 class="quote-title">Poptat projekt nebo statický posudek</h2>
+              <p class="quote-text">
+                Popište váš stavební záměr. Připravíme pro vás optimální statický návrh v souladu s platnými normami ČSN EN s důrazem na ekonomii stavby.
+              </p>
+              <div class="direct-contact-box">
+                <div class="dc-title">Přímý kontakt na jednatele:</div>
+                <div class="dc-name">Ing. Marián Olejník</div>
+                <div class="dc-row">Telefon: <a href="tel:+420608326207" class="tel-link">+420 608 326 207</a></div>
+                <div class="dc-row">E-mail: <a href="mailto:olejnik@statikabrno.cz">olejnik@statikabrno.cz</a></div>
+              </div>
+            </div>
+
+            <form class="quote-form" id="quoteForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="formTyp">Typ požadované služby</label>
+                  <select id="formTyp" name="typ" class="form-control" required>
+                    <option value="kompletni-projekt">Kompletní projekt statiky</option>
+                    <option value="posudek-nosne-steny">Statický posudek stavby</option>
+                    <option value="ocelove-haly">Ocelové konstrukce a haly</option>
+                    <option value="zelezobeton">Železobetonové konstrukce</option>
+                    <option value="drevostavby">Dřevostavby a krovy</option>
+                    <option value="piloty-zakladani">Založení stavby a piloty</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="formStupen">Požadovaný stupeň dokumentace</label>
+                  <select id="formStupen" name="stupen" class="form-control" required>
+                    <option value="dsp">DSP – Stavební povolení</option>
+                    <option value="dps">DPS – Prováděcí projekt</option>
+                    <option value="dd">DD – Dílenská dokumentace</option>
+                    <option value="dur">DUR – Územní řízení</option>
+                    <option value="dos">DOS – Ohlášení stavby</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="formJmeno">Jméno a příjmení / Firma</label>
+                  <input type="text" id="formJmeno" name="jmeno" class="form-control" placeholder="Např. Ing. Jan Novák" required>
+                </div>
+                <div class="form-group">
+                  <label for="formTelefon">Telefonní číslo</label>
+                  <input type="tel" id="formTelefon" name="telefon" class="form-control" placeholder="+420 777 000 000" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="formEmail">E-mailová adresa</label>
+                <input type="email" id="formEmail" name="email" class="form-control" placeholder="novak@firma.cz" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formZprava">Stručný popis stavby a lokality</label>
+                <textarea id="formZprava" name="zprava" rows="4" class="form-control" placeholder="Uveďte typ objektu, rozměry, lokalitu nebo stav stávajících konstrukcí..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit" id="btnSubmit">Odeslat nezávaznou poptávku</button>
+              <div class="form-status" id="formStatus"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="kontakt">
+        <div class="section-container">
+          <div class="section-header reveal">
+            <span class="section-badge">KONTAKTNÍ ÚDAJE</span>
+            <h2 class="section-title">Kde nás najdete</h2>
+            <p class="section-intro">Kancelář působí v Brně a po celé České republice i na mezinárodních projektech.</p>
+          </div>
+
+          <div class="contact-grid reveal">
+            <div class="contact-card">
+              <h3 class="contact-heading">Sídlo společnosti</h3>
+              <div class="contact-item">
+                <strong class="company-name">Statika konstrukcí s.r.o.</strong>
+                <span class="company-brand">(značka STATIKABRNO s.r.o.)</span>
+              </div>
+              <div class="contact-item">
+                <span class="item-label">Oficiální sídlo:</span>
+                <span class="item-value">Blatnická 4174/16, Židenice, 628 00 Brno</span>
+              </div>
+              <div class="contact-item">
+                <span class="item-label">Doručovací adresa &amp; atelier:</span>
+                <span class="item-value">Brněnská 495/6a, 664 02 Ochoz u Brna</span>
+              </div>
+              <div class="contact-item">
+                <span class="item-label">IČO:</span>
+                <span class="item-value">02404338</span>
+              </div>
+              <div class="contact-item">
+                <span class="item-label">DIČ:</span>
+                <span class="item-value">CZ02404338</span>
+              </div>
+              <div class="contact-item">
+                <span class="item-label">Jednatel:</span>
+                <span class="item-value">Ing. Marián Olejník</span>
+              </div>
+              <div class="contact-item">
+                <span class="item-label">Telefon:</span>
+                <a href="tel:+420608326207" class="tel-link item-value">+420 608 326 207</a>
+              </div>
+              <div class="contact-item">
+                <span class="item-label">E-mail:</span>
+                <a href="mailto:olejnik@statikabrno.cz" class="item-value">olejnik@statikabrno.cz</a>
+              </div>
+              <div class="map-link-wrap">
+                <a href="https://mapy.cz/zakladni?x=16.65981&amp;y=49.20916&amp;z=16&amp;source=coor&amp;id=16.65981%2C49.20916" target="_blank" rel="noopener" class="btn-map-external">Otevřít na Mapy.cz s červeným špendlíkem</a>
+              </div>
+            </div>
+
+            <div class="map-wrapper">
+              <iframe src="https://frame.mapy.cz/zakladni?x=16.65981&amp;y=49.20916&amp;z=16&amp;source=coor&amp;id=16.65981%2C49.20916" width="100%" height="380" style="border:0;" loading="lazy" title="Mapa sídla Statika konstrukcí s.r.o. Brno"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <a href="#hero" class="footer-brand">
+            <img src="assets/logo.svg" alt="STATIKA BRNO s.r.o. - logo v zápatí" class="brand-logo" width="260" height="52">
+          </a>
+          <p class="footer-tagline">
+            Projektová činnost ve výstavbě, autorizované statické posudky a ekonomické dimenzování nosných konstrukcí staveb.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Rychlá navigace</h4>
+          <ul class="footer-links">
+            <li><a href="#o-spolecnosti">O společnosti</a></li>
+            <li><a href="#specializace">Specializace</a></li>
+            <li><a href="#reference">Reference a projekty</a></li>
+            <li><a href="#fotogalerie">Fotogalerie</a></li>
+            <li><a href="#poptavka">Nezávazná poptávka</a></li>
+            <li><a href="#kontakt">Kontaktní spojení</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Statické normy &amp; software</h4>
+          <ul class="footer-links">
+            <li><span>ČSN EN 1990 Zásady navrhování</span></li>
+            <li><span>ČSN EN 1991 Zatížení konstrukcí</span></li>
+            <li><span>ČSN EN 1992 Betonové konstrukce</span></li>
+            <li><span>ČSN EN 1993 Ocelové konstrukce</span></li>
+            <li><span>ČSN EN 1995 Dřevěné konstrukce</span></li>
+            <li><span>ČSN EN 1997 Geotechnický návrh</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Přímý kontakt</h4>
+          <div class="footer-contact">
+            <div class="fc-line">Ing. Marián Olejník – jednatel</div>
+            <div class="fc-line"><a href="tel:+420608326207" class="tel-link">+420 608 326 207</a></div>
+            <div class="fc-line"><a href="mailto:olejnik@statikabrno.cz">olejnik@statikabrno.cz</a></div>
+            <div class="fc-line">Blatnická 4174/16, Židenice, 628 00 Brno</div>
+            <div class="fc-line">IČO: 02404338, DIČ: CZ02404338</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <p class="copyright">&copy; 2026 Statika konstrukcí s.r.o. / STATIKABRNO s.r.o. Všechna práva vyhrazena.</p>
+          <p class="tech-note">Moderní technická prezentace inženýrské kanceláře</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="tech-modal-backdrop" id="techModalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="tech-modal-content">
+      <div class="tech-modal-header">
+        <div>
+          <span class="modal-badge" id="modalCategory">Kategorie</span>
+          <h3 class="modal-title" id="modalTitle">Název projektu</h3>
+        </div>
+        <button type="button" class="tech-modal-close" id="techModalClose" aria-label="Zavřít detail projektu">&times;</button>
+      </div>
+      <div class="tech-modal-body">
+        <div class="modal-img-wrap">
+          <img src="assets/renocar_1.jpg" alt="Detail projektu" id="modalImg" class="modal-img">
+        </div>
+        <div class="modal-info-block">
+          <p class="modal-desc" id="modalDesc">Podrobný popis projektu a statického návrhu.</p>
+          <div class="modal-meta-grid">
+            <div class="mm-item">
+              <span class="mm-lbl">Lokalita:</span>
+              <strong class="mm-val" id="modalLocation">-</strong>
+            </div>
+            <div class="mm-item">
+              <span class="mm-lbl">Objednatel:</span>
+              <strong class="mm-val" id="modalClient">-</strong>
+            </div>
+            <div class="mm-item">
+              <span class="mm-lbl">Stupeň dokumentace:</span>
+              <strong class="mm-val" id="modalStage">-</strong>
+            </div>
+            <div class="mm-item">
+              <span class="mm-lbl">Normový rámec:</span>
+              <strong class="mm-val" id="modalStandards">-</strong>
+            </div>
+          </div>
+        </div>
+        <div class="modal-specs-section">
+          <h4 class="specs-heading">Technické specifikace nosného systému</h4>
+          <div class="table-responsive">
+            <table class="tech-specs-table">
+              <thead>
+                <tr>
+                  <th scope="col">Konstrukční parametr</th>
+                  <th scope="col">Inženýrská specifikace</th>
+                </tr>
+              </thead>
+              <tbody id="modalSpecsBody">
+                <tr>
+                  <td>Statický systém</td>
+                  <td>Prostorový rámový skelet</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="tech-modal-footer">
+        <a href="#poptavka" class="btn-modal-cta" id="btnModalCta">Poptat obdobný statický návrh</a>
+        <button type="button" class="btn-modal-secondary" id="btnModalCloseSecondary">Zavřít specifikaci</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../ping-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

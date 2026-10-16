@@ -1,0 +1,64 @@
+{
+  "slug": "lumiplast",
+  "firma": "LUMIPLAST s.r.o.",
+  "ico": "26903385",
+  "obec": "Lomnice",
+  "okres": "Brno-venkov",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba plastů a pryže / lisování plastů, vstřikování plastických hmot, nástroje a formy",
+  "archetyp": "Corporate Portal (styl Hakov)",
+  "stary_web": "http://lumiplast.cz",
+  "email": "cernik@lumiplast.cz",
+  "jazyky": ["CZ", "EN", "DE"],
+  "prodejni_body": [
+    "Moderní vstřikovací lisy ARBURG ALLROUNDER (470 C s uzavírací silou 150 t a 320 C se 60 t) pro technické výlisky do 600 g",
+    "Zavedený a auditovaný systém řízení jakosti dle ČSN EN ISO 9001:2009 certifikovaný společností BVQI Czech Republic",
+    "Široké portfolio konstrukčních i komoditních polymerů: PC, PE, PP, PA6, PA66, ABS, PS, měkčené PVC, PBT a EVA",
+    "Vlastní výrobní areál v Lomnici u Tišnova: výrobní hala 900 m², sklady 360 m², manipulační technika a tradice od roku 1993",
+    "Plně funkční vícejazyčná prezentace (CZ, EN, DE) s okamžitým přepínačem a technickým modálním oknem pro zahraniční B2B odběratele"
+  ],
+  "vady_stareho_webu": [
+    "Absence mobilní responzivity – web zcela postrádá meta viewport a na mobilních zařízeních vyžaduje nepohodlné zoomování a posun",
+    "Nezabezpečené spojení HTTP bez platného SSL/TLS certifikátu – webové prohlížeče varují firemní zákazníky před nezabezpečeným webem",
+    "Zastaralý design z počátku 2000. let s fixním centrováním a statickou strukturou bez možnosti vyhledávání v technických parametrech",
+    "Chybějící interaktivní katalog produktů – klíčové parametry vstřikolisů a sortimentu jsou prezentovány formou strohého textu bez filtrování"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Corporate Portal s bohatou horní lištou, certifikacemi, normami a přímými kontakty na vedení",
+    "Interaktivní katalog vstřikovacích technologií a výrobků s okamžitým fulltextovým vyhledáváním, kategoriemi a technickým modálem (#techModalBackdrop)",
+    "Plná vícejazyčnost s okamžitým přepínačem jazyků (CZ | EN | DE) pokrývajícím navigaci, produktové karty i technické specifikace",
+    "100% responzivní rozvržení s nulovým horizontálním přetečením (0px overflow na 360px i 375px) a optimálním zobrazením na všech typech zařízení",
+    "Ověřený Mapy.cz špendlík na sídlo společnosti v Lomnici dle katastru RÚIAN a jasná prezentace výrobního areálu s GPS",
+    "Přehledný profil majitele společnosti (Ing. Miloš Černík) a interaktivní poptávkový formulář pro okamžité získání poptávek"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1993,
+    "rok_transformace": 2003,
+    "zkusenosti_let": "30+",
+    "certifikace": "ČSN EN ISO 9001:2009 (BVQI Czech Republic, s.r.o.)",
+    "pocet_stroju": 7,
+    "strojni_park": [
+      "ARBURG ALLROUNDER 470 C 1500 - 675 (uzavírací síla 150 t, vstřikovací jednotka 675)",
+      "ARBURG ALLROUNDER 320 C 600 - 250 (uzavírací síla 60 t, 3x v provozu)"
+    ],
+    "max_hmotnost_vylisku": "600 g",
+    "zpracovavane_materialy": ["PC", "PE", "PP", "PA6", "PA66", "ABS", "PS", "PVC měkčené", "PBT", "EVA"],
+    "vyrobni_plocha": "900 m²",
+    "skladovaci_plocha": "360 m²",
+    "manipulacni_technika": "Vysokozdvižný vozík do 3 t",
+    "cilova_odvetvi": [
+      "Energetika a elektrotechnika (kabelové průchodky, rozvaděče, osvětlovací tělesa)",
+      "Automobilový průmysl (technické interiérové i funkční komponenty)",
+      "Nábytkářský průmysl (spojovací a ochranné prvky)",
+      "Strojírenství (odolné násady, krytky, uzávěry)",
+      "Sport a jízdní kola (komponenty a doplňky)"
+    ],
+    "vedeni_spolecnosti": {
+      "jmeno": "Ing. Miloš Černík",
+      "funkce": "Majitel a jednatel",
+      "telefon": "+420 736 538 208",
+      "email": "cernik@lumiplast.cz"
+    },
+    "adresa_sidla_a_provozovny": "Družstevní 396, 679 23 Lomnice (okres Brno-venkov)"
+  }
+}

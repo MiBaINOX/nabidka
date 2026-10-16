@@ -1,0 +1,22 @@
+{
+  "company": "Statika konstrukcí s.r.o.",
+  "ico": "02404338",
+  "web": "http://statikabrno.cz",
+  "menu_categories": [
+    "O společnosti",
+    "Reference",
+    "Fotogalerie",
+    "Kontakt"
+  ],
+  "pages_crawled_count": 7,
+  "pages": [
+    "http://statikabrno.cz/",
+    "http://statikabrno.cz/?page=home",
+    "http://statikabrno.cz/?page=spolecnost",
+    "http://statikabrno.cz/?page=reference",
+    "http://statikabrno.cz/?page=fotogalerie",
+    "http://statikabrno.cz/?page=cenik",
+    "http://statikabrno.cz/?page=kontakt"
+  ],
+  "images_count": 96
+}
