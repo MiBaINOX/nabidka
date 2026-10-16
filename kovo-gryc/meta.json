@@ -1,0 +1,73 @@
+{
+  "slug": "kovo-gryc",
+  "firma": "KOVO GRYC, s.r.o.",
+  "ico": "26960427",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Kovoobrábění a kovovýroba / přesné CNC frézování, soustružení a zakázková výroba dílců",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://kovogryc.cz",
+  "email": "kovogryc@volny.cz",
+  "prodejni_body": [
+    "Výkonný CNC park HAAS včetně velkoformátového 4-osého centra VF-7/40 s délkou stolu 2 134 mm",
+    "Komplexní zakázková výroba od výkresové dokumentace přes nákup materiálu až po finální povrchové úpravy",
+    "Dlouholeté zkušenosti v přesném kovoobrábění již od roku 1991 a stabilní s.r.o. od roku 2005"
+  ],
+  "vady_stareho_webu": [
+    "Absence mobilní responzivity – web zcela postrádá meta viewport a na mobilních telefonech vyžaduje složité zoomování a horizontální posouvání",
+    "Zastaralý redakční systém inPage s archaickým tabulkovým rozvržením z roku 2013",
+    "Nezabezpečené spojení HTTP bez šifrování – prohlížeče varují zákazníky před nezabezpečeným webem",
+    "Fotogalerie strojního parku a výrobků je roztříštěná v miniaturních náhledech bez interaktivních technických specifikací"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Editorial & Story s velkými fotografiemi strojního parku, výrobků a časovou osou historie firmy",
+    "Interaktivní katalog strojního parku a výrobních kapacit s živým vyhledáváním, kategoriemi a technickým modálním oknem",
+    "100% responzivní mobilní rozvržení ověřené na nulové přetečení (0px overflow na 360px i 375px)",
+    "Plovoucí informační karty, plynulé scroll-reveal animace a interaktivní počítadla reálných firemních parametrů",
+    "Ověřený Mapy.cz špendlík na sídlo společnosti v Brně dle RÚIAN katastru a jasná prezentace výrobního areálu MATE",
+    "Předpřipravená architektura pro budoucí vícejazyčné rozšíření (EN/DE) pro zahraniční B2B partnery bez nutnosti předělávat web"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2005,
+    "zkusenosti_od": 1991,
+    "stroje": [
+      "HAAS VF-7/40 (X: 2134 mm, Y: 813 mm, Z: 762 mm, 4 osy)",
+      "HAAS VF-5/40 XT (X: 1524 mm, Y: 660 mm, Z: 635 mm)",
+      "HAAS VF-3SS Super-Speed (X: 1016 mm, Y: 508 mm, Z: 635 mm, 12000 ot/min, 4 osy)",
+      "Konzolové frézy FGV32, FV32, FA3V",
+      "Pásové pily na kov s chlazením",
+      "Sloupové vrtačky a zámečnická výbava"
+    ],
+    "max_delka_stolu_x": "2 134 mm",
+    "max_hmotnost_obrobku": "1 814 kg",
+    "max_otacky_vretene": "12 000 ot./min",
+    "odvetvi": [
+      "Automobilový průmysl",
+      "Výroba rozvaděčů",
+      "Elektrické motory a pohony"
+    ],
+    "povrchove_upravy": [
+      "Galvanické zinkování",
+      "Niklování",
+      "Tryskání",
+      "Práškové lakování (komaxit)",
+      "Eloxování",
+      "Karbonitridace"
+    ],
+    "kontaktni_osoby": [
+      {
+        "jmeno": "Miloslav Gryc",
+        "funkce": "Jednatel společnosti / Výroba",
+        "telefon": "+420 603 849 412"
+      },
+      {
+        "jmeno": "Alena Grycová",
+        "funkce": "Kontaktní osoba / Obchod a administrativa",
+        "telefon": "+420 604 808 088"
+      }
+    ],
+    "sidlo": "Zapletalova 87/83, Dvorska, 620 00 Brno",
+    "provozovna": "Havránkova 30/11, areál MATE, budova E8, 619 00 Brno"
+  }
+}

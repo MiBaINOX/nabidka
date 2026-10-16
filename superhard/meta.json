@@ -1,0 +1,48 @@
+{
+  "slug": "superhard",
+  "firma": "Superhard s.r.o.",
+  "ico": "02993961",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba a dodávka PKD a CBN destiček, karbidových nástrojů a slinutých polotovarů",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://superhard.cz/",
+  "email": "info@superhard.cz",
+  "jazyky": [
+    "CZ",
+    "EN"
+  ],
+  "prodejni_body": [
+    "Specialista na supertvrdé řezné materiály: PKD (polykrystalický diamant) a CBN (kubický nitrid boru)",
+    "Standardizované ISO geometrie i zakázková výroba speciálních profilových destiček dle výkresu",
+    "Bezplatné testování nástrojů přímo ve vašem provozu – platíte až při prokazatelné spokojenosti",
+    "Vlastní výzkumné CVD centrum pro syntézu diamantových vrstev (projekt EU CZ.01.1.02/0.0/0.0/21_375/0027025)"
+  ],
+  "vady_stareho_webu": [
+    "Absence mobilní responzivity – na telefonech fixní šířka bez meta viewportu vyžadující zoomování",
+    "Nezabezpečené HTTP spojení bez moderního SSL/TLS šifrování",
+    "Zastaralý design z roku 2014 bez interaktivního vyhledávání a technických listů",
+    "Chybějící parametrické filtry pro rychlý výběr řezných destiček a slinutých karbidů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Úderný archetyp Heavy Industrial s technickým antracitovým designem a split-screen Hero 50/50",
+    "Interaktivní technický katalog s live vyhledáváním, filtry materiálů a modálními listy specifikací",
+    "Okamžitý přepínač jazykových mutací CZ / EN s kompletním překladem celého rozhraní",
+    "Přesná geolokační mapa Mapy.cz s červeným špendlíkem dle katastrálního záznamu RÚIAN",
+    "Přímé kontakty na statutární zástupce (Jiří Beránek) a technický poptávkový formulář"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2014,
+    "sidlo": "Konopná 344/14, Komárov, 617 00 Brno",
+    "materialy": [
+      "PKD (PCD)",
+      "CBN (PCBN)",
+      "Slinutý karbid (WC-Co)",
+      "CVD diamant"
+    ],
+    "teplota_slinovani": "1700 °C",
+    "tvrdost_cbn": "4500 HV",
+    "presnost_profilu": "± 0,002 mm"
+  }
+}

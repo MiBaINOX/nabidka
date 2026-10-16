@@ -1,0 +1,170 @@
+[
+  {
+    "id": "pkd-standard-iso",
+    "title": "PKD standardizované ISO destičky",
+    "perex": "Vysoce přesné břitové destičky s polykrystalickým diamantem vpájeným do karbidového tělesa pro obrábění neželezných kovů a kompozitů.",
+    "category": "pkd",
+    "image": "assets/pkd.jpg",
+    "specs": {
+      "Typ nástroje": "Vyměnitelná břitová destička dle ISO norem",
+      "Řezný materiál": "Syntetický polykrystalický diamant (slinovaný při 1700 °C)",
+      "Geometrie ISO": "CCGW, DCGW, VCGW, TCGW, SCGW, RCGW",
+      "Zrnitost": "Jemnozrnná (vysoká kvalita povrchu) / Hrubozrnná (životnost)",
+      "Obrobitelné materiály": "Slitiny hliníku (Al-Si), měď, mosaz, bronz, plasty, CFRP/GFRP",
+      "Technologie výroby": "Dělení drátovým řezáním EDM, vakuové pájení"
+    },
+    "features": [
+      "Mnohonásobně delší životnost ostří ve srovnání s tvrdokovem",
+      "Zkrácení výrobních časů díky vysokým řezným rychlostem",
+      "Vynikající odvod tepla a minimalizace nárůstků na břitu",
+      "Snížení výrobních nákladů díky segmentovému pájení do karbidu"
+    ]
+  },
+  {
+    "id": "pkd-specialni-tvary",
+    "title": "Speciální tvarové PKD nástroje na zakázku",
+    "perex": "Zakázková výroba speciálních tvarů PKD břitů a profilových destiček dle individuální výkresové dokumentace zákazníka.",
+    "category": "pkd",
+    "image": "assets/1.jpg",
+    "specs": {
+      "Provedení": "Speciální tvary a rotační nástroje dle výkresu",
+      "Řezný břit": "PKD segmenty pájené vysokofrekvenčně ve vakuu",
+      "Tolerance břitu": "± 0,002 mm (ultra-přesný profil)",
+      "Úprava ostří": "Broušený břit, laserové opracování, mikrorádius",
+      "Použití": "Automobilový, letecký a optický průmysl, výroba forem",
+      "Testování": "Možnost bezplatného otestování přímo ve vašem provozu"
+    },
+    "features": [
+      "Řešení komplexních operací jediným sdruženým nástrojem",
+      "Zkrácené dodací termíny pro speciální geometrie",
+      "Konsignační sklad pro sériovou výrobu",
+      "Individuální technické poradenství a optimalizace řezných parametrů"
+    ]
+  },
+  {
+    "id": "cbn-solid",
+    "title": "Masivní Solid CBN destičky pro těžké hrubování",
+    "perex": "Celistvé břitové destičky z plného kubického nitridu boru bez karbidového nosiče pro maximální hloubku řezu a oboustranné použití.",
+    "category": "cbn",
+    "image": "assets/cbn.jpg",
+    "specs": {
+      "Konstrukce": "Solid CBN (celistvý masivní materiál)",
+      "Využití břitů": "Oboustranné destičky (dvojnásobný počet břitů)",
+      "Tvrdost CBN": "cca 4500 HV (druhý nejtvrdší materiál po diamantu)",
+      "Obrobitelné materiály": "Kalené oceli 45-68 HRC, rychlořezné oceli HSS, tvrdá litina",
+      "Úprava ostří": "Ochranná fazetka T-land chránící břit před vyštípnutím",
+      "Řezné podmínky": "Vhodné pro velký úběr materiálu a přerušovaný řez"
+    },
+    "features": [
+      "Vynikající chemická stabilita při vysokých teplotách až do 1200 °C",
+      "Schopnost obrábět kalené oceli za sucha bez chlazení",
+      "Masivní konstrukce odolná proti dynamickým rázům a vibracím",
+      "Úspora nákladů díky využití obou stran destičky"
+    ]
+  },
+  {
+    "id": "cbn-karbid-nosic",
+    "title": "CBN destičky na nosné karbidové vrstvě",
+    "perex": "Vysoce hospodárné CBN břitové destičky s jemným CBN hrotem slinovaným nebo vpájeným na tvrdokovovém substrátu pro dokončovací operace.",
+    "category": "cbn",
+    "image": "assets/2.jpg",
+    "specs": {
+      "Konstrukce": "CBN segment slinovaný/vpájený na karbidovém těle",
+      "ISO tvary": "CNGA, WNGA, DNGA, TNGA, VNGA, SNGA",
+      "Hloubka řezu ap": "0,05 až 0,5 mm (přesné dokončování a jemný řez)",
+      "Dosažitelná drsnost": "Ra 0,2 až 0,4 µm (nahrazuje broušení)",
+      "Podíl CBN": "50 % až 90 % dle typu matrice a pojiva",
+      "Aplikace": "Dokončovací soustružení ložiskových kroužků, hřídelí a ozubení"
+    },
+    "features": [
+      "Výměna operace broušení za produktivní tvrdé soustružení",
+      "Extrémní rozměrová stálost během dlouhých sérií",
+      "Menší hloubka řezu s minimálním řezným odporem",
+      "Výrazné snížení jednotkových nákladů na obrobek"
+    ]
+  },
+  {
+    "id": "karbidove-vbd",
+    "title": "Karbidové vyměnitelné břitové destičky (VBD)",
+    "perex": "Slinuté karbidové destičky vyráběné technologií práškové metalurgie pro univerzální soustružení a frézování kovových materiálů.",
+    "category": "karbid",
+    "image": "assets/3.jpg",
+    "specs": {
+      "Materiál substrátu": "WC-Co (slinutý karbid wolframu s kobaltem)",
+      "Slinovací teplota": "cca 1600 °C s řízeným smrštěním",
+      "Tvary dle ISO": "Standardní geometrie pro soustružení a frézování",
+      "Povlakování": "PVD / CVD vícesložkové povlaky (TiAlN, AlCrN, TiCN)",
+      "Zrnitost substrátu": "Submikronní a mikronové zrno pro optimální houževnatost",
+      "Rozsah obrábění": "Oceli P, nerez M, litiny K, neželezné kovy N, superslitiny S"
+    },
+    "features": [
+      "Široké spektrum tříd tvrdokovu od houževnatých po otěruvzdorné",
+      "Přesně broušené geometrie a efektivní utvařeče třísky",
+      "Zvýšená tepelná odolnost a odolnost proti oxidaci břitu",
+      "Možnost vyzkoušení testovací sady přímo ve výrobním provozu"
+    ]
+  },
+  {
+    "id": "karbidove-valce",
+    "title": "Karbidové válce pro válcování za studena i za tepla",
+    "perex": "Vysoce namáhané válce a průvlaky ze slinutého karbidu dodávané jako polotovary i finální výrobky včetně kalibrování a drážkování.",
+    "category": "polotovary",
+    "image": "assets/4.jpg",
+    "specs": {
+      "Typ produktu": "Válce pro válcovací tratě drátů, profilů a plechů",
+      "Zpracování": "Válcování za tepla i za studena",
+      "Dodávaný stav": "Lisovaný + sintrovaný polotovar nebo hotový díl dle výkresu",
+      "Úpravy": "Přesné broušení, drážkování, popis a značení",
+      "Hlavní odvětví": "Hutnictví, drátovny, tažírny oceli a neželezných kovů",
+      "Servis": "Repase a přebrušování opotřebených karbidových válců"
+    },
+    "features": [
+      "Mimořádná odolnost proti tlakovému otěru a únavovému vyštipování",
+      "Desetinásobná životnost oproti nástrojovým kaleným ocelím",
+      "Zajištění vysoké povrchové jakosti a rozměrové tolerance válcovaného drátu",
+      "Kompletní dodávky na klíč včetně hutních atestů"
+    ]
+  },
+  {
+    "id": "karbidove-polotovary",
+    "title": "Karbidová vodítka, těsnicí kroužky, razníky a opěrné čepy",
+    "perex": "Přesné strojní součásti a polotovary z tvrdokovů pro náročné průmyslové aplikace, lisovny a výrobu střižných nástrojů.",
+    "category": "polotovary",
+    "image": "assets/5.jpg",
+    "specs": {
+      "Sortiment": "Těsnicí kroužky, střižníky, razníky, vodítka, opěrné čepy",
+      "Metalurgie": "Jemnozrnné slinuté karbidy s volitelným obsahem kobaltu",
+      "Oblasti použití": "Stavebnictví, obalový průmysl (hliníkové obaly), nástrojárny",
+      "Zpracování": "Broušení na přesné rozměry dle výkresové dokumentace",
+      "Polotovary": "Tyče a předlisky pro výrobu monolitních fréz a vrtáků",
+      "Poradenství": "Výběr optimálního typu karbidu pro konkrétní provozní namáhání"
+    },
+    "features": [
+      "Extrémní tvrdost a odolnost vůči abrazi, kavitaci a chemické korozi",
+      "Přesná tolerance lícování a leštěné funkční plochy",
+      "Možnost dodávky polotovarů i finálně obrobených komponent",
+      "Dlouhá provozní spolehlivost v nepřetržitých výrobních linkách"
+    ]
+  },
+  {
+    "id": "cvd-vyzkum-vyvoj",
+    "title": "CVD technologie – Výzkum a vývoj syntetického diamantu",
+    "perex": "Pokročilé výzkumné centrum v rámci projektu CZ.01.1.02/0.0/0.0/21_375/0027025 zaměřené na syntézu diamantových vrstev chemickou depozicí.",
+    "category": "vyzkum",
+    "image": "assets/10.jpg",
+    "specs": {
+      "Technologický proces": "CVD (Chemical Vapor Deposition)",
+      "Výzkumné zaměření": "Růst monokrystalického a polykrystalického diamantu",
+      "Projekt EU": "CZ.01.1.02/0.0/0.0/21_375/0027025",
+      "Aplikace": "Špičkové řezné nástroje, polovodiče, optická okna, tepelné rozvaděče",
+      "Spolupráce": "Vývoj nových nanokrystalických a diamantových povrchů",
+      "Zázemí": "Špičkové laboratorní a vakuové technologické vybavení"
+    },
+    "features": [
+      "Vývoj diamantových vrstev nové generace s nulovou porozitou",
+      "Přímá depozice diamantových nanovrstev na komplexní tvary nástrojů",
+      "Průlomová tepelná vodivost a minimální koeficient tření",
+      "Podpora v rámci Operačního programu OP PIK"
+    ]
+  }
+]

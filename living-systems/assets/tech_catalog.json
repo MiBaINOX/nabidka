@@ -1,0 +1,185 @@
+[
+  {
+    "id": "oresyt-vyvolavaci-system",
+    "title": "Vyvolávací a pořadový systém Oresyt",
+    "category": "odbavovaci-systemy",
+    "category_name": "Vyvolávací systémy",
+    "image": "assets/oresyt-kiosk.jpg",
+    "description": "Komplexní vyvolávací systém pro efektivní řízení toku klientů, řazení do front dle požadovaných činností, statistické vyhodnocení návštěvnosti a sledování výkonnosti přepážek.",
+    "specs": {
+      "Typ instalace": "Ordinace, polikliniky, úřady, klientská centra, banky",
+      "Hardwarové prvky": "Dotykový kiosek, hlavní přehledový displej, přepážkové LCD",
+      "Správa front": "Aplikace operátora s přesměrováním a poznámkami",
+      "Tisk lístků": "Termotiskárna s integrovanou detekcí konce papíru",
+      "Rezervace": "Volitelný integrovaný online objednávkový modul",
+      "Reporting": "Statistické centrum s přehledy odbavovacích časů"
+    },
+    "advantages": [
+      "Přehledné řízení čekáren a eliminace front před přepážkami",
+      "Možnost promítání audiovizuálních zpráv a oznámení na hlavním displeji",
+      "Plně konfigurovatelné potisky lístků a struktura činností v aplikaci správce"
+    ],
+    "components": [
+      "Samoobslužný dotykový kiosek v antivandal provedení",
+      "Centrální hlavní displej se zvukovým a vizuálním avízem",
+      "Přepážkový displej s označením obsluhy a čísla klienta",
+      "Webová a desktopová aplikace operátora i manažera"
+    ]
+  },
+  {
+    "id": "ovesyt-obchuzkovy-system",
+    "title": "Obchůzkový a kontrolní systém Ovesyt",
+    "category": "bezpecnost-ostraha",
+    "category_name": "Bezpečnost a ostraha",
+    "image": "assets/ovesyt-patrol.jpg",
+    "description": "Profesionální systém pro kontrolu obchůzkové činnosti fyzické ostrahy a strážných v průmyslových, komerčních i administrativních areálech.",
+    "specs": {
+      "Provozní režimy": "Ovesyt Standard (offline sběr) / Ovesyt Profi (online přenos)",
+      "Centrální cloud": "Serverová aplikace OvesytOnline dostupná 24/7",
+      "Identifikace bodů": "Bezkontaktní kontrolní body a mobilní terminály",
+      "Časová synchronizace": "Přesné časové značky průchodu strážných",
+      "Doplňkové funkce": "Hlasové a obrazové služby v režimu Profi",
+      "Výstupy": "Automatické sestavení protokolů pro měsíční vyúčtování"
+    },
+    "advantages": [
+      "Prokazatelná kontrola fyzické přítomnosti strážných na kontrolních bodech",
+      "Zákaznický náhled v reálném čase pro ověření výkonu ostrahy majetku",
+      "Minimální technické nároky na mobilní zařízení v terénu"
+    ],
+    "components": [
+      "Mobilní aplikace Ovesyt Standard / Profi",
+      "Odolné kontrolní identifikační body pro montáž na objekty",
+      "Serverové statistické a konfigurační centrum OvesytOnline"
+    ]
+  },
+  {
+    "id": "atesyt-dochazkovy-system",
+    "title": "Docházkový a přístupový systém Atesyt",
+    "category": "pristup-dochazka",
+    "category_name": "Přístup a docházka",
+    "image": "assets/atesyt-terminal.jpg",
+    "description": "Integrovaný systém pro evidenci docházky zaměstnanců, kontrolu přístupů a řízení elektronických dveřních zámků v menších i velkých podnicích.",
+    "specs": {
+      "Hardwarový terminál": "7\" dotykový panel (verze Standard)",
+      "Identifikační média": "RFID bezkontaktní karty, čipy, PIN kódy",
+      "Řízení vstupů": "Ovládání dveřních zámků a turniketů dle pravidel",
+      "Mzdové podklady": "Přehledné exporty odpracované doby a přestávek",
+      "Reporting": "Okamžitý přehled aktuální přítomnosti osob na pracovišti",
+      "Kapacita": "Škálovatelné pro malé provozovny i vícesměnné provozy"
+    },
+    "advantages": [
+      "Rychlá a spolehlivá evidence odchodů, příchodů a přerušení pracovní doby",
+      "Možnost realizace zákaznických pohledů a reportů dle potřeb společnosti",
+      "Vysoká bezpečnost zamezující neoprávněnému vstupu do vyhrazených zón"
+    ],
+    "components": [
+      "Dotykový 7\" docházkový panel Atesyt Standard",
+      "RFID čtečky a řídicí jednotky zámků Atesyt Plus / Profi",
+      "Administrační software pro správu úvazků a exporty do mezd"
+    ]
+  },
+  {
+    "id": "kadesyt-kamerovy-system",
+    "title": "Kamerový dohledový systém Kadesyt",
+    "category": "kamerove-systemy",
+    "category_name": "Kamerové systémy",
+    "image": "assets/kadesyt-cctv.jpg",
+    "description": "Inteligentní dohledový systém řízený událostmi se selektivním a synchronizovaným záznamem z více kamer současně při výskytu definovaných akcí.",
+    "specs": {
+      "Spouštěcí události": "Tankování na ČS, otevření dveří, signál čidla, sepnutí kontaktu",
+      "Záznam": "Paralelní synchronizovaný záznam z více kamer najednou",
+      "Komprese a formát": "Automatický ořez nepotřebných dat, komprese AVI / H.264",
+      "Zálohování": "Automatický přenos na FTP server, externí úložiště či lokální disk",
+      "Správa": "Intuitivní webové rozhraní přístupné v rámci firemní LAN",
+      "Kompatibilita": "Podpora většiny IP i starších bezpečnostních kamer na trhu"
+    },
+    "advantages": [
+      "Úspora diskového prostoru díky cílenému nahrávání pouze při událostech",
+      "Rychlé dohledání incidentu z různých úhlů díky časové synchronizaci",
+      "Vysoká bezpečnost dat a nezávislost na veřejných cloudových službách"
+    ],
+    "components": [
+      "Záznamový řídicí server s událostním procesorem",
+      "Rozhraní pro senzory, čerpací stojany a zabezpečovací ústředny",
+      "Webová administrační konzole pro vyhledávání a přehrávání záznamů"
+    ]
+  },
+  {
+    "id": "inteligentni-elektroinstalace",
+    "title": "Inteligentní elektroinstalace a automatizace budov",
+    "category": "automatizace-budov",
+    "category_name": "Automatizace a MaR",
+    "image": "assets/smart-building.jpg",
+    "description": "Komplexní řešení inteligentních budov na platformách LOXONE a KNX – automatizace osvětlení, zónového vytápění, stínění, vzduchotechniky a energetiky.",
+    "specs": {
+      "Podporované standardy": "LOXONE, KNX, Modbus, DALI, BACnet",
+      "Řízené okruhy": "Osvětlení, vytápění, chlazení, rekuperace, žaluzie",
+      "Energetický management": "Optimalizace vlastní spotřeby, FVE střídače, baterie",
+      "Uživatelské rozhraní": "Mobilní aplikace pro iOS/Android, dotykové nástěnné panely",
+      "Provedení": "Certifikované silnoproudé a slaboproudé rozvaděče",
+      "Projektování": "Kompletní projektová dokumentace, oživení a revize"
+    },
+    "advantages": [
+      "Snížení provozních nákladů na energie až o 30 % díky automatické regulaci",
+      "Centralizované ovládání všech technologií z jednoho přehledného rozhraní",
+      "Maximální komfort, bezpečnostní scénáře při odchodu z objektu a alarmy"
+    ],
+    "components": [
+      "Centrální procesorová jednotka (Miniserver / KNX Router)",
+      "Rozšiřující I/O moduly, stmívače a reléové karty",
+      "Meteostanice, prostorové snímače teploty, vlhkosti a přítomnosti"
+    ]
+  },
+  {
+    "id": "elektrovyroba-kiosky",
+    "title": "Zakázková elektrovýroba, rozvaděče a kiosky",
+    "category": "vyroba-hardware",
+    "category_name": "Elektrovýroba a hardware",
+    "image": "assets/smart-switchboard.jpg",
+    "description": "Vlastní elektrovýroba a kovovýroba specializovaných zařízení – výrobní rozvaděče, napájecí zdroje, samostatně stojící informační kiosky a osazování elektroniky.",
+    "specs": {
+      "Sortiment výroby": "Samostatně stojící kiosky, silnoproudé rozvaděče, napájecí zdroje",
+      "Konstrukční provedení": "Oceloplechové antivandal šasi s práškovým lakováním",
+      "Normy a certifikace": "ČSN EN 61439 (rozvaděče nn), CE prohlášení o shodě",
+      "Kompletace": "Osazení dotykových monitorů, průmyslových PC, periférií",
+      "Dodávky dílů": "Prodej elektronických dílů, konektorů a pasivních prvků",
+      "Zkušebnictví": "Kusové ověření, izolační zkoušky a výstupní revizní zprávy"
+    },
+    "advantages": [
+      "Výroba přesně na míru specifickým prostorovým a funkčním požadavkům",
+      "Vysoká mechanická odolnost a dlouhá životnost v nepřetržitém provozu",
+      "Kompletní dodávka od mechanické konstrukce až po zapojení elektroniky"
+    ],
+    "components": [
+      "Mechanické antivandal skříně a stojany",
+      "Vestavná průmyslová elektronika a galvanicky oddělené zdroje",
+      "Kabelové svazky a certifikovaná přístrojová náplň"
+    ]
+  },
+  {
+    "id": "zakazkovy-vyvoj-softwaru",
+    "title": "Zakázkový vývoj softwaru a systémová integrace",
+    "category": "software-integrace",
+    "category_name": "Software a integrace",
+    "image": "assets/custom-software.jpg",
+    "description": "Vývoj zakázkového softwaru na platformě Microsoft .NET, webové a desktopové aplikace, systémová integrace s podnikovými systémy a databázová řešení.",
+    "specs": {
+      "Technologický stack": "Microsoft .NET, C#, ASP.NET Core, WPF, REST API, SQL Server",
+      "Platformy": "Webové aplikace, Windows desktop, mobilní rozhraní",
+      "Integrace": "Propojení s ERP/CRM systémy, docházkou, hardwarem a IoT",
+      "Konzultace": "Analýza podnikových procesů, architektonický návrh řešení",
+      "Projektový dohled": "Supervize při komunikaci s externími IT dodavateli",
+      "Metodika": "Agilní vývoj, testování, záruční i pozáruční podpora"
+    },
+    "advantages": [
+      "Software dokonale přizpůsobený interním procesům firmy bez kompromisů",
+      "Pochopení podnikových potřeb a jasné technické vedení bez prázdného žargonu",
+      "Dlouhodobá udržitelnost a snadná škálovatelnost na moderních .NET technologiích"
+    ],
+    "components": [
+      "Zákaznický backend a RESTful webové služby",
+      "Moderní frontendové administrační dashboardy",
+      "Komunikační drivery pro hardware a periférie"
+    ]
+  }
+]

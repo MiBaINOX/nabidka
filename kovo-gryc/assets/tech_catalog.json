@@ -1,0 +1,160 @@
+[
+  {
+    "id": "haas-vf-7-40",
+    "title": "Vertikální CNC centrum HAAS VF-7/40 (4-osé)",
+    "category": "cnc",
+    "category_name": "CNC obrábění",
+    "image": "assets/cnc_haas_vf7_40.jpg",
+    "description": "Robustní velkoformátové 4-osé vertikální obráběcí centrum pro přesné opracování rozměrných a těžkých dílců, svařenců a forem až do hmotnosti 1 814 kg.",
+    "specs": {
+      "Dráhy pojezdu (X × Y × Z)": "2 134 × 813 × 762 mm",
+      "Upínací plocha stolu": "2 134 × 711 mm",
+      "Maximální zatížení stolu": "1 814 kg",
+      "Otáčky vřetene": "7 500 ot./min",
+      "Osy obrábění": "4 osy (instalovaná rotační dělička)",
+      "Kužel vřetene": "ISO 40"
+    },
+    "advantages": [
+      "Velký pojezd v ose X (2 134 mm) umožňuje obrábění dlouhých profilů a rozměrných desek",
+      "Možnost 4-osého kontinuálního frézování a přesného polohování rotačních ploch",
+      "Vysoká tuhost konstrukce pro silové hrubování i mikronové dokončování"
+    ]
+  },
+  {
+    "id": "haas-vf-5-40xt",
+    "title": "Vertikální CNC centrum HAAS VF-5/40 XT",
+    "category": "cnc",
+    "category_name": "CNC obrábění",
+    "image": "assets/cnc_haas_vf5_40xt.jpg",
+    "description": "Výkonné vertikální centrum s prodlouženým pojezdem XT vhodné pro středně velké a rozměrné dílce i vícekusové upínání sérií dílů.",
+    "specs": {
+      "Dráhy pojezdu (X × Y × Z)": "1 524 × 660 × 635 mm",
+      "Upínací plocha stolu": "1 575 × 584 mm",
+      "Maximální zatížení stolu": "1 814 kg",
+      "Otáčky vřetene": "8 100 ot./min",
+      "Kužel vřetene": "ISO 40",
+      "Počet nástrojů v zásobníku": "24+1 nástrojových pozic"
+    },
+    "advantages": [
+      "Prodloužené pojezdy XT pro rozměrné díly nebo upnutí více svěráků vedle sebe",
+      "Rychlá výměna nástrojů zkracující vedlejší časy obrábění",
+      "Přímé odměřování a vysoká opakovatelná přesnost polohování"
+    ]
+  },
+  {
+    "id": "haas-vf-3ss",
+    "title": "Vysokorychlostní CNC centrum HAAS VF-3SS (Super-Speed)",
+    "category": "cnc",
+    "category_name": "CNC obrábění",
+    "image": "assets/cnc_haas_vf3ss.jpg",
+    "description": "Super-Speed vertikální 4-osé obráběcí centrum s vysokootáčkovým vřetenem (12 000 ot./min) určené pro vysoce produktivní a přesné frézování.",
+    "specs": {
+      "Dráhy pojezdu (X × Y × Z)": "1 016 × 508 × 635 mm",
+      "Upínací plocha stolu": "1 219 × 457 mm",
+      "Maximální zatížení stolu": "794 kg",
+      "Otáčky vřetene": "12 000 ot./min",
+      "Osy obrábění": "4 osy (instalovaná dělička)",
+      "Rychloposuvy os": "až 35,6 m/min"
+    },
+    "advantages": [
+      "Vysokorychlostní vřeteno Super-Speed zaručuje vynikající kvalitu povrchu u hliníku i oceli",
+      "Dělička umožňuje komplexní tvarové opracování na 4 řízených osách",
+      "Vynikající dynamika pro malosériovou i středně sériovou zakázkovou výrobu"
+    ]
+  },
+  {
+    "id": "konvencni-frezovani",
+    "title": "Konvenční frézování FGV32, FV32 & FA3V",
+    "category": "konvencni",
+    "category_name": "Konvenční výroba",
+    "image": "assets/dilna_vyroba_0492.jpg",
+    "description": "Obrábění na osvědčených vertikálních a konzolových frézách pro kusovou zakázkovou výrobu, přípravné operace, drážkování a úpravy dílců.",
+    "specs": {
+      "Strojní park": "Frézy FGV32, FV32, FA3V",
+      "Typ operací": "Rovinné a tvarové frézování, srážení hran, drážky",
+      "Upínání": "Strojní svěráky, otočné stoly, magnetické desky",
+      "Využití": "Kusová výroba, prototypy, přípravky, opravy a úpravy"
+    },
+    "advantages": [
+      "Okamžitá flexibilita bez nutnosti programování CNC pro rychlé kusové zakázky",
+      "Doplňková příprava polotovarů a hrubování před finálním CNC opracováním",
+      "Dlouholeté zkušenosti v oboru kovoobrábění již od roku 1991"
+    ]
+  },
+  {
+    "id": "deleni-materialu",
+    "title": "Dělení materiálu a řezání pásovou pilou",
+    "category": "konvencni",
+    "category_name": "Konvenční výroba",
+    "image": "assets/produkt_dil_0494.jpg",
+    "description": "Přesné dělení tyčového, deskového i profilového materiálu na pásových pilách na kov s chlazením pro přesnou přípravu polotovarů.",
+    "specs": {
+      "Strojní vybavení": "Průmyslové pásové pily na kov s chlazením",
+      "Zpracovávané materiály": "Konstrukční a nástrojové oceli, nerez, slitiny hliníku, mosaz, bronz, plasty",
+      "Přesnost řezu": "Kolmé i úhlové řezy dle výkresové specifikace",
+      "Kapacita": "Dělení jednotlivých kusů i sériové svazkové řezání"
+    },
+    "advantages": [
+      "Přesné a čisté řezy bez tepelného ovlivnění struktury materiálu",
+      "Plynulé zásobování CNC obráběcích center připravenými polotovary",
+      "Nákup a skladování hutního materiálu od certifikovaných dodavatelů"
+    ]
+  },
+  {
+    "id": "automotive-komponenty",
+    "title": "Přesné součásti pro automobilový průmysl",
+    "category": "aplikace",
+    "category_name": "Odvětví a produkty",
+    "image": "assets/produkt_dil_0498.jpg",
+    "description": "Sériová a malosériová výroba vysoce přesných kovových součástí, čepů, přírub a těles pro automobilový průmysl s důrazem na toleranci a opakovatelnost.",
+    "specs": {
+      "Odvětví": "Automobilový průmysl (Automotive Tier 1 / Tier 2 dodávky)",
+      "Druh dílců": "Hřídele, pouzdra, příruby, úchyty, konzoly a mechanismy",
+      "Tolerance": "Úzké výrobní tolerance dle výkresové dokumentace",
+      "Kontrola jakosti": "Mezioperační a výstupní rozměrová kontrola kalibrovanými měřidly"
+    },
+    "advantages": [
+      "100% shoda s dodanou výkresovou dokumentací a technickými podmínkami",
+      "Vysoká spolehlivost dodávek v dohodnutých termínech pro plynulou montáž",
+      "Zpracování široké škály konstrukčních ocelí i lehkých slitin"
+    ]
+  },
+  {
+    "id": "rozvadece-elektromotory",
+    "title": "Díly pro rozvaděče a elektrické motory",
+    "category": "aplikace",
+    "category_name": "Odvětví a produkty",
+    "image": "assets/produkt_dil_0500.jpg",
+    "description": "Výroba frézovaných nosných prvků, montážních desek rozvaděčů, ložiskových štítů, vík a skříní pro elektrické motory a průmyslové pohony.",
+    "specs": {
+      "Odvětví": "Elektrotechnika, výroba rozvaděčů, elektromotory a pohony",
+      "Druh dílců": "Příruby motorů, ložiskové domky, chladicí desky, nosníky rozvaděčů",
+      "Tolerance uložení": "Přesná uložení pro valivá ložiska a souosost hřídelí",
+      "Povrch": "Možnost galvanického pokovení nebo práškového lakování"
+    },
+    "advantages": [
+      "Dlouholetá specializace a stabilní dodávky pro výrobce elektrotechniky",
+      "Možnost zhotovení prototypů i opakovaných výrobních sérií",
+      "Předvrtání montážních otvorů a řezání závitů na hotových dílech"
+    ]
+  },
+  {
+    "id": "povrchove-upravy",
+    "title": "Komplexní povrchové úpravy & zušlechtění",
+    "category": "sluzby",
+    "category_name": "Kompletní servis",
+    "image": "assets/produkt_dil_0501.jpg",
+    "description": "Zajištění kompletní dodávky dílu včetně všech požadovaných finálních povrchových úprav od zinkování a niklování přes eloxování až po karbonitridaci.",
+    "specs": {
+      "Galvanické úpravy": "Galvanické zinkování (modrý, žlutý, černý chromát), niklování",
+      "Eloxování": "Přírodní elox, tvrdý elox pro otěruvzdornost hliníkových součástí",
+      "Tepelné a chemické úpravy": "Karbonitridace, kalení, zušlechťování ocelí",
+      "Mechanické a lakýrnické": "Tryskání balotinou a pískem, práškové lakování (komaxit)"
+    },
+    "advantages": [
+      "Zákazník obdrží 100% hotový, povrchově upravený díl připravený přímo k montáži",
+      "Garance rovnoměrné tloušťky vrstvy a vysoké korozní odolnosti",
+      "Úspora logistických nákladů a času – realizace od výkresu po hotový dílec"
+    ]
+  }
+]

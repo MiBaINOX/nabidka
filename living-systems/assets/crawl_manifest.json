@@ -1,0 +1,62 @@
+{
+  "slug": "living-systems",
+  "target_url": "http://livingsystems.cz",
+  "crawled_at": "2026-10-16",
+  "page_count": 6,
+  "image_count": 9,
+  "menu_categories": [
+    "O společnosti",
+    "Řešení",
+    "Vývoj a konzultace",
+    "Kontakty"
+  ],
+  "pages": [
+    {
+      "page": "Default.aspx",
+      "url": "http://livingsystems.cz/Default.aspx",
+      "status": 200,
+      "char_count": 478
+    },
+    {
+      "page": "o-spolecnosti",
+      "url": "http://livingsystems.cz/o-spolecnosti",
+      "status": 200,
+      "char_count": 1732
+    },
+    {
+      "page": "reseni",
+      "url": "http://livingsystems.cz/reseni",
+      "status": 200,
+      "char_count": 8971
+    },
+    {
+      "page": "vyvoj-a-konzultace",
+      "url": "http://livingsystems.cz/vyvoj-a-konzultace",
+      "status": 200,
+      "char_count": 1770
+    },
+    {
+      "page": "kontakty",
+      "url": "http://livingsystems.cz/kontakty",
+      "status": 200,
+      "char_count": 650
+    },
+    {
+      "page": "ochrana-osobnich-udaju",
+      "url": "http://livingsystems.cz/ochrana-osobnich-udaju",
+      "status": 200,
+      "char_count": 5762
+    }
+  ],
+  "images": [
+    "logo.png",
+    "smart-building.jpg",
+    "smart-switchboard.jpg",
+    "oresyt-kiosk.jpg",
+    "atesyt-terminal.jpg",
+    "kadesyt-cctv.jpg",
+    "custom-software.jpg",
+    "electro-production.jpg",
+    "ovesyt-patrol.jpg"
+  ]
+}

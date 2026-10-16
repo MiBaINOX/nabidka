@@ -1,0 +1,112 @@
+{
+  "slug": "kovo-gryc",
+  "company_name": "KOVO GRYC, s.r.o.",
+  "ico": "26960427",
+  "base_url": "http://kovogryc.cz",
+  "crawled_urls": [
+    "http://kovogryc.cz/",
+    "http://kovogryc.cz/inpage/profil-spolecnosti/",
+    "http://kovogryc.cz/inpage/produkty/",
+    "http://kovogryc.cz/inpage/strojni-vybaveni-811/",
+    "http://kovogryc.cz/fotogalerie/",
+    "http://kovogryc.cz/fotogalerie/produkty/",
+    "http://kovogryc.cz/fotogalerie/vybava/",
+    "http://kovogryc.cz/inpage/kontakt-465/",
+    "http://kovogryc.cz/kontaktovat/"
+  ],
+  "menu_categories": [
+    "Profil společnosti",
+    "Produkty",
+    "Strojní vybavení",
+    "Fotogalerie",
+    "Kontakt"
+  ],
+  "downloaded_images_count": 17,
+  "downloaded_images": [
+    {
+      "original_url": "http://kovogryc.cz/captcha/35081",
+      "local_file": "35081",
+      "size_bytes": 3080
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0492-jpg/",
+      "local_file": "img_1.jpg",
+      "size_bytes": 4135
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0494-jpg/",
+      "local_file": "img_2.jpg",
+      "size_bytes": 2228
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0495-jpg/",
+      "local_file": "img_3.jpg",
+      "size_bytes": 2996
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0496-jpg/",
+      "local_file": "img_4.jpg",
+      "size_bytes": 2496
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0497-jpg/",
+      "local_file": "img_5.jpg",
+      "size_bytes": 2388
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0498-jpg/",
+      "local_file": "img_6.jpg",
+      "size_bytes": 2771
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0499-jpg/",
+      "local_file": "img_7.jpg",
+      "size_bytes": 2285
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0500-jpg/",
+      "local_file": "img_8.jpg",
+      "size_bytes": 2434
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0501-jpg/",
+      "local_file": "img_9.jpg",
+      "size_bytes": 2710
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0504-jpg/",
+      "local_file": "img_10.jpg",
+      "size_bytes": 2597
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/img-0506-jpg/",
+      "local_file": "img_11.jpg",
+      "size_bytes": 1006
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/vf-3ssa-jpg-742/",
+      "local_file": "img_12.jpg",
+      "size_bytes": 2260
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/1/vf-7-40-jpg/",
+      "local_file": "img_13.jpg",
+      "size_bytes": 2732
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/2/vf-3ssa-jpg-742/",
+      "local_file": "img_14.jpg",
+      "size_bytes": 49341
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/2/vf-5-40xt-jpg/",
+      "local_file": "img_15.jpg",
+      "size_bytes": 50586
+    },
+    {
+      "original_url": "http://kovogryc.cz/obrazek/2/vf-7-40-jpg/",
+      "local_file": "img_16.jpg",
+      "size_bytes": 56972
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "living-systems",
+  "firma": "Living Systems s.r.o.",
+  "ico": "02843102",
+  "obec": "Brno - Horní Heršpice",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Inteligentní elektroinstalace, automatizace budov, slaboproudé a silnoproudé systémy, zakázkový vývoj softwaru",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://livingsystems.cz",
+  "email": "info@livingsystems.cz",
+  "prodejni_body": [
+    "Více než 12 let zkušeností v systémové integraci, elektrovýrobě a zakázkovém vývoji od roku 2014",
+    "Ucelené proprietární systémové řady: Oresyt (vyvolávací), Ovesyt (obchůzkový), Atesyt (docházkový) a Kadesyt (kamerový dohled)",
+    "Vlastní certifikovaná elektrovýroba rozvaděčů nn dle ČSN EN 61439 a výroba antivandal kiosků",
+    "Komplexní automatizace budov na platformách LOXONE a KNX se snížením provozních energií",
+    "Zakázkový vývoj software na platformě Microsoft .NET s přímou integrací na hardware a podnikové ERP/CRM"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez SSL certifikátu – prohlížeče zobrazují varování 'Nezabezpečeno'",
+    "Chybějící meta viewport – web není responzivní a na chytrých telefonech vyžaduje horizontální scrollování a zoomování",
+    "Archaický redakční systém inPage z roku 2014 s fixním centrovaným tabulkovým layoutem",
+    "Absence interaktivního katalogu parametrů a nemožnost vyhledávání v technologiích",
+    "Zastaralý kontaktní formulář a neúplné vizitky technické podpory na mobilních zařízeních"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Swiss Bento Grid s čistou typografií a asymetrickým rozvržením technologických dlaždic",
+    "Interaktivní katalog systémů s okamžitým fulltextovým vyhledáváním a filtrem kategorií",
+    "Detailní technická modální okna (#techModalBackdrop) s kompletními tabulkami parametrů, komponent a předností bez redukce obsahu",
+    "100% responzivní mobilní zobrazení s nulovým přetečením (0px overflow na 360px i 375px) včetně otevřeného modálu",
+    "Oficiální Mapy.cz widget s červeným špendlíkem ověřeným přes katastrální data RÚIAN v areálu Moravská ústředna Brno",
+    "Přehledné kontaktní vizitky pro servis, elektrovýrobu i zakázkový software s přímým voláním na jedno kliknutí"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2014,
+    "zkusenosti_let": 12,
+    "statutarni_organ": "Ing. Roman Leitner, jednatel",
+    "sidlo": "Bohunická 576/52, Horní Heršpice, 619 00 Brno (Moravská ústředna)",
+    "systemy_pocet": 7,
+    "klicove_systemy": [
+      "Oresyt (vyvolávací systém)",
+      "Ovesyt (obchůzkový systém fyzické ostrahy)",
+      "Atesyt (docházkový a přístupový systém)",
+      "Kadesyt (událostní kamerový dohled)",
+      "Automatizace budov LOXONE & KNX",
+      "Zakázková elektrovýroba a kiosky",
+      "Vývoj softwaru Microsoft .NET"
+    ]
+  }
+}
