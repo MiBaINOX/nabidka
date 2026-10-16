@@ -9,28 +9,38 @@
   "archetyp": "Heavy Industrial",
   "stary_web": "http://www.betonika.cz/",
   "email": "lobodice@betonika.cz",
-  "jazyky": ["CZ"],
+  "jazyky": [
+    "CZ"
+  ],
   "prodejni_body": [
     "Patentovaná monolitická šachtová dna SOLID bez spár",
-    "Kompletní sortiment dle norem ČSN EN 1917 a ČSN EN 1916",
+    "Kompletní sortiment dle norem ČSN EN 1917, 1433 a 124",
     "Schválený dodavatel odvodňovacích prvků pro České dráhy"
   ],
   "vady_stareho_webu": [
     "Web nemá responzivní zobrazení pro chytré telefony (chybí meta viewport)",
-    "Nezabezpečené spojení HTTP vystavuje návštěvníky bezpečnostnímu varování prohlížeče",
+    "Nezabezpečené spojení HTTP vystavuje návštěvníky bezpečnostnímu varování",
     "Zastaralý tabulkový layout z roku 2005 s nepřehlednou strukturou podstránek",
     "Chybějící interaktivní konfigurátor prefabrikovaných sestav pro projektanty"
   ],
   "vylepseni_noveho_webu": [
     "Moderní Heavy Industrial design s perfektní mobilní ergonomií na všech zařízeních",
-    "Interaktivní technický konfigurátor šachtové sestavy dle DN a požadované hloubky",
-    "Filtrovatelný katalog výrobků s technickými parametry a certifikacemi",
-    "Přehledné vizitky 6 klíčových osob obchodního a výrobního úseku s přímými kontakty",
-    "Interaktivní mapa Mapy.cz s přesným špendlíkem výrobního areálu v Lobodicích"
+    "Interaktivní konfigurátor šachet, štěrbinových žlabů a uličních vpustí",
+    "Kompletní 24položkový katalog prefabrikátů s technickými normami a reálnými fotkami",
+    "Sekce volných pracovních míst pro závody Lobodice a Rašovice",
+    "Ověřená interaktivní mapa areálu Lobodice s přesným špendlíkem Mapy.cz"
   ],
   "fakta": {
     "rok_zalozeni": 1990,
     "zamestnanci": "200–249",
-    "certifikace": ["ISO 9001:2015", "ISO 14001:2015", "ČSN EN 1917", "ČSN EN 1916", "ČD V 95/5"]
+    "certifikace": [
+      "ISO 9001:2015",
+      "ISO 14001:2015",
+      "ČSN EN 1917",
+      "ČSN EN 1433",
+      "ČSN EN 124",
+      "ČD V 95/5",
+      "EKO-KOM"
+    ]
   }
 }
