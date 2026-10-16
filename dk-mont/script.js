@@ -25,6 +25,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const reveals = document.querySelectorAll('.reveal');
+    function checkInitialReveals() {
+        reveals.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight + 100) {
+                el.classList.add('active');
+            }
+        });
+    }
+    checkInitialReveals();
+
     const revealObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -287,6 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const mohelniceCoords = [49.7744, 16.9201];
         const map = L.map('map', { scrollWheelZoom: false }).setView(mohelniceCoords, 15);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
             attribution: '© OpenStreetMap přispěvatelé'
         }).addTo(map);
 
@@ -299,16 +310,23 @@ document.addEventListener('DOMContentLoaded', () => {
             fillOpacity: 1
         }).addTo(map);
 
-        customMarker.bindPopup('<strong>DK mont a.s.</strong><br>Nádražní 531/18, 789 85 Mohelnice<br>Výrobní a logistický areál').openPopup();
+        customMarker.bindPopup('<strong>DK mont a.s.</strong><br>Nádražní 531/18, 789 85 Mohelnice<br>Výrobní a logistický areál PROFIFIX®').openPopup();
+
+        setTimeout(() => {
+            map.invalidateSize();
+        }, 300);
+        window.addEventListener('resize', () => {
+            map.invalidateSize();
+        });
     }
 });
 
 
 const translations = {
     cs: {
-        nav_about: "O společnosti",
-        nav_production: "Přednosti výroby",
-        nav_catalog: "Katalog PROFIFIX®",
+        nav_about: "O firmě",
+        nav_production: "Výroba",
+        nav_catalog: "Katalog",
         nav_cert: "Certifikace",
         nav_career: "Kariéra",
         nav_contact: "Kontakt",
@@ -337,9 +355,9 @@ const translations = {
         form_submit: "Odeslat nezávaznou poptávku"
     },
     en: {
-        nav_about: "About Us",
+        nav_about: "About",
         nav_production: "Manufacturing",
-        nav_catalog: "PROFIFIX® Catalog",
+        nav_catalog: "Catalog",
         nav_cert: "Certifications",
         nav_career: "Careers",
         nav_contact: "Contact",
@@ -370,7 +388,7 @@ const translations = {
     de: {
         nav_about: "Über uns",
         nav_production: "Fertigung",
-        nav_catalog: "PROFIFIX® Katalog",
+        nav_catalog: "Katalog",
         nav_cert: "Zertifikate",
         nav_career: "Karriere",
         nav_contact: "Kontakt",
@@ -400,8 +418,8 @@ const translations = {
     },
     pl: {
         nav_about: "O firmie",
-        nav_production: "Zalety produkcji",
-        nav_catalog: "Katalog PROFIFIX®",
+        nav_production: "Produkcja",
+        nav_catalog: "Katalog",
         nav_cert: "Certyfikaty",
         nav_career: "Kariera",
         nav_contact: "Kontakt",
