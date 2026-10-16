@@ -152,3 +152,21 @@ function handleDirectMessage(event) {
 
     window.location.href = "mailto:zdenek@azstavby.cz?subject=" + subject + "&body=" + body;
 }
+
+function openCertModal(src, title) {
+    const modal = document.getElementById("certModal");
+    const img = document.getElementById("certModalImg");
+    const caption = document.getElementById("certModalTitle");
+    if (modal && img && caption) {
+        img.src = src;
+        caption.textContent = title;
+        modal.classList.add("active");
+    }
+}
+
+function closeCertModal() {
+    const modal = document.getElementById("certModal");
+    if (modal) {
+        modal.classList.remove("active");
+    }
+}

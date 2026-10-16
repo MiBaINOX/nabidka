@@ -5,34 +5,45 @@
   "obec": "Dolany",
   "okres": "Olomouc",
   "kraj": "Olomoucký kraj",
-  "obor_plny": "Pozemní a průmyslové stavitelství, truhlářství a autoservis",
+  "obor_plny": "Pozemní a průmyslové stavitelství, zakázkové truhlářství a autoservis",
   "archetyp": "Heavy Industrial",
   "stary_web": "http://azstavby.cz/",
   "email": "zdenek@azstavby.cz",
   "prodejni_body": [
-    "✓ 30 let tradice realizací na Hané",
-    "✓ Certifikace jakosti ISO 9001:2000",
-    "✓ Vlastní divize staveb, truhlárny i servisu"
+    "✓ 30+ let tradice realizací na Hané (od roku 1991/1994)",
+    "✓ Certifikace jakosti ISO 9001 a Cechu suché výstavby",
+    "✓ Komplexní zázemí: stavby, truhlářská dílna Dolany i autoservis"
   ],
   "vady_stareho_webu": [
     "Zastaralý systém Drupal s pomalou odezvou a rizikem neaktualizovaného jádra",
     "Rozbitý úvodní slider s prázdnou bílou plochou při načítání bez JS",
-    "Nepřehledné rozdělení výrobních divizí a neaktuální kontaktní formulář",
-    "Zastaralá fotogalerie bez detailních popisků technologií a materiálů"
+    "Původní logo mělo oříznutý spodek textu s nízkým rozlišením",
+    "Zastaralá fotogalerie a chybějící responzivní zobrazení na moderních smartphonech"
   ],
   "vylepseni_noveho_webu": [
     "Průmyslový split-screen design Heavy Industrial s vysokou čitelností",
+    "Kompletní galerie a přehled 8 oficiálních certifikací a licencí (ISO 9001, Knauf, Weber, Hilti, ČSP)",
+    "Plný adresář vedení a stavbyvedoucích s přímými kontakty a přesnou adresou Dolany 611",
     "Interaktivní poptávkový průvodce stavby s přímou kalkulací specifikace",
     "Živý filtr stavebních referencí (občanské stavby, průmysl, truhlářství)",
     "Přehledná tabulka technického vybavení a strojního parku mechanizace",
     "Plynulé animace načítání a zoom-on-hover efekty na reálných fotografiích"
   ],
   "fakta": {
-    "rok_zalozeni": 1994,
+    "rok_zalozeni": 1991,
     "zamestnanci": "10–19",
     "certifikace": [
-      "ČSN EN ISO 9001:2000"
+      "ČSN EN ISO 9001:2008 / ISO 9001:2000",
+      "Cech suché výstavby ČR",
+      "Saint-Gobain Weber (ETICS)",
+      "Knauf Praha s.r.o.",
+      "Hilti ČR (Požární ucpávky)",
+      "AMF Knauf Deckensysteme",
+      "URSA CZ s.r.o.",
+      "Styrotrade a.s."
     ],
-    "dokoncene_stavby": 180
+    "dokoncene_stavby": 180,
+    "provozovna": "Dolany 611, 783 16 Dolany",
+    "sidlo": "Za pekárnou 656, 783 14 Bohuňovice"
   }
 }

@@ -1,0 +1,10 @@
+<svg width="280" height="70" viewBox="0 0 280 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(8, 9)">
+    <rect width="52" height="52" rx="10" fill="#0F172A"/>
+    <path d="M12 42L26 14L40 42H30L26 29L22 42H12Z" fill="#F59E0B"/>
+    <path d="M21 34H31" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M9 16C22 9 38 11 48 22" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <text x="74" y="38" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="24" fill="#0F172A" letter-spacing="0.5">A-Z <tspan fill="#F59E0B">STAVBY</tspan></text>
+  <text x="76" y="53" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="700" font-size="9" fill="#16A34A" letter-spacing="1.8">STAVBY • TRUHLÁŘSTVÍ • SERVIS</text>
+</svg>
