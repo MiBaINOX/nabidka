@@ -291,34 +291,6 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = mailtoUrl;
         });
     }
-
-    const mapEl = document.getElementById('map');
-    if (mapEl && typeof L !== 'undefined') {
-        const mohelniceCoords = [49.7744, 16.9201];
-        const map = L.map('map', { scrollWheelZoom: false }).setView(mohelniceCoords, 15);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '© OpenStreetMap přispěvatelé'
-        }).addTo(map);
-
-        const customMarker = L.circleMarker(mohelniceCoords, {
-            radius: 9,
-            fillColor: '#0F4C81',
-            color: '#FFFFFF',
-            weight: 3,
-            opacity: 1,
-            fillOpacity: 1
-        }).addTo(map);
-
-        customMarker.bindPopup('<strong>DK mont a.s.</strong><br>Nádražní 531/18, 789 85 Mohelnice<br>Výrobní a logistický areál PROFIFIX®').openPopup();
-
-        setTimeout(() => {
-            map.invalidateSize();
-        }, 300);
-        window.addEventListener('resize', () => {
-            map.invalidateSize();
-        });
-    }
 });
 
 

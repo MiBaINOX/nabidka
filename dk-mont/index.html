@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -559,46 +558,173 @@
                 </div>
 
                 <div class="contact-bento-grid">
-                    <div class="bento-card contact-info-card reveal">
-                        <div class="contact-header">
-                            <img src="assets/images/img_58_logo_DK_retina.png" alt="DK mont a.s." class="contact-logo">
+                    <div class="bento-card bento-span-12 contact-team-card reveal">
+                        <div class="team-card-header">
+                            <div class="team-header-main">
+                                <div class="contact-logo-box">
+                                    <img src="assets/images/img_58_logo_DK_retina.png" alt="DK mont a.s." class="contact-logo">
+                                </div>
+                                <div>
+                                    <span class="tag-accent">PŘÍMÉ SPOJENÍ</span>
+                                    <h3 class="team-card-title">Obchodní a technický tým DK mont a.s.</h3>
+                                    <p class="team-card-desc">Naši specialisté pro příjem objednávek, kalkulace i regionální obchodní zastoupení v ČR a na Slovensku.</p>
+                                </div>
+                            </div>
                             <div class="ico-box">
                                 <span>IČ: <strong>26867133</strong></span>
                                 <button class="copy-ico-btn" id="copyIcoBtn" title="Kopírovat IČO">Kopírovat IČ</button>
                             </div>
                         </div>
+
+                        <div class="team-group-label">Centrála Mohelnice – Objednávky & Asistent obchodu</div>
+                        <div class="team-grid-row">
+                            <div class="team-person-card span-6">
+                                <div class="person-header">
+                                    <div class="person-avatar">LK</div>
+                                    <div class="person-title-wrap">
+                                        <span class="person-badge badge-order">OBJEDNÁVKY</span>
+                                        <h4 class="person-name">Luděk Košťoval</h4>
+                                        <span class="person-role-title">Příjem objednávek a expedice</span>
+                                    </div>
+                                </div>
+                                <p class="person-desc">Vyřizování velkoobchodních zakázek, koordinace nakládky a expedice z centrálního skladu Mohelnice.</p>
+                                <div class="person-contacts">
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">📞</span>
+                                        <a href="tel:+420725585358">+420 725 585 358</a>
+                                    </div>
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">✉️</span>
+                                        <a href="mailto:obchod@dkmont.cz">obchod@dkmont.cz</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="team-person-card span-6">
+                                <div class="person-header">
+                                    <div class="person-avatar">RR</div>
+                                    <div class="person-title-wrap">
+                                        <span class="person-badge badge-order">ASISTENT OBCHODU</span>
+                                        <h4 class="person-name">Radka Rýznarová</h4>
+                                        <span class="person-role-title">Zákaznická podpora a obchod</span>
+                                    </div>
+                                </div>
+                                <p class="person-desc">Fakturace, technická dokumentace k produktům, zasílání vzorků a administrativní podpora odběratelů.</p>
+                                <div class="person-contacts">
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">📞</span>
+                                        <a href="tel:+420704607542">+420 704 607 542</a>
+                                    </div>
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">✉️</span>
+                                        <a href="mailto:podpora@dkmont.cz">podpora@dkmont.cz</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="team-group-label" style="margin-top: 1.75rem;">Produktoví manažeři – Obchodní zastoupení v regionu</div>
+                        <div class="team-grid-row">
+                            <div class="team-person-card span-4">
+                                <div class="person-header">
+                                    <div class="person-avatar avatar-mgr">PM</div>
+                                    <div class="person-title-wrap">
+                                        <span class="person-badge badge-mgr">PRODUKTOVÝ MANAGER</span>
+                                        <h4 class="person-name">Petr Matoušek</h4>
+                                        <span class="person-role-title">Region: Česká republika & Slovensko</span>
+                                    </div>
+                                </div>
+                                <p class="person-desc">Technické konzultace montážních systémů PROFIFIX®, zaškolení realizačních firem a mezinárodní distribuce.</p>
+                                <div class="person-contacts">
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">📞</span>
+                                        <a href="tel:+420737970232">+420 737 970 232</a>
+                                    </div>
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">✉️</span>
+                                        <a href="mailto:matousek@dkmont.cz">matousek@dkmont.cz</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="team-person-card span-4">
+                                <div class="person-header">
+                                    <div class="person-avatar avatar-mgr">DF</div>
+                                    <div class="person-title-wrap">
+                                        <span class="person-badge badge-mgr">PRODUKTOVÝ MANAGER</span>
+                                        <h4 class="person-name">Dušan Fűgner</h4>
+                                        <span class="person-role-title">Region: Česká republika</span>
+                                    </div>
+                                </div>
+                                <p class="person-desc">Obchodní zastoupení pro stavebniny a specializované prodejny suché výstavby, poradenství na stavbách.</p>
+                                <div class="person-contacts">
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">📞</span>
+                                        <a href="tel:+420776131680">+420 776 131 680</a>
+                                    </div>
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">✉️</span>
+                                        <a href="mailto:prodej@dkmont.cz">prodej@dkmont.cz</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="team-person-card span-4">
+                                <div class="person-header">
+                                    <div class="person-avatar avatar-mgr">PP</div>
+                                    <div class="person-title-wrap">
+                                        <span class="person-badge badge-mgr">PRODUKTOVÝ MANAGER</span>
+                                        <h4 class="person-name">Petr Prokop</h4>
+                                        <span class="person-role-title">Region: Česká republika</span>
+                                    </div>
+                                </div>
+                                <p class="person-desc">Klíčoví zákazníci, velkoobchodní sítě, rámcové smlouvy a zakázková výroba na lisovacích automatech.</p>
+                                <div class="person-contacts">
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">📞</span>
+                                        <a href="tel:+420604801836">+420 604 801 836</a>
+                                    </div>
+                                    <div class="person-contact-item">
+                                        <span class="c-icon">✉️</span>
+                                        <a href="mailto:prokop@dkmont.cz">prokop@dkmont.cz</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bento-card contact-info-card reveal">
+                        <h3 style="font-family: var(--font-heading); font-size: 1.25rem; margin-bottom: 1.5rem; color: var(--text-primary);">Sídlo a výrobní závod Mohelnice</h3>
                         <div class="contact-rows">
                             <div class="c-row">
                                 <span class="c-icon">📍</span>
                                 <div>
-                                    <strong>Sídlo a výrobní závod:</strong>
+                                    <strong>Adresa areálu:</strong>
                                     <p>Nádražní 531/18, 789 85 Mohelnice, Česká republika</p>
                                 </div>
                             </div>
                             <div class="c-row">
-                                <span class="c-icon">📞</span>
+                                <span class="c-icon">🕒</span>
                                 <div>
-                                    <strong>Expedice a objednávky:</strong>
-                                    <p><a href="tel:+420725585358">+420 725 585 358</a> (Luděk Koštoval)</p>
-                                    <p><a href="tel:+420704607542">+420 704 607 542</a> (Radka Rýznarová)</p>
-                                    <p>Hotline: <a href="tel:+420602484401">+420 602 484 401</a></p>
-                                </div>
-                            </div>
-                            <div class="c-row">
-                                <span class="c-icon">✉️</span>
-                                <div>
-                                    <strong>E-mailová komunikace:</strong>
-                                    <p><a href="mailto:obchod@dkmont.cz">obchod@dkmont.cz</a></p>
-                                    <p><a href="mailto:podpora@dkmont.cz">podpora@dkmont.cz</a></p>
-                                    <p><a href="mailto:info@dkmont.cz">info@dkmont.cz</a></p>
+                                    <strong>Provozní doba expedice:</strong>
+                                    <p>Pondělí – Pátek: 06:00 – 14:30</p>
                                 </div>
                             </div>
                             <div class="c-row">
                                 <span class="c-icon">🏢</span>
                                 <div>
-                                    <strong>Vedení společnosti:</strong>
-                                    <p><a href="mailto:prokop@dkmont.cz">prokop@dkmont.cz</a> | +420 604 801 836</p>
-                                    <p>DIČ: CZ26867133 (Plátce DPH)</p>
+                                    <strong>Fakturační a rejstříkové údaje:</strong>
+                                    <p>DK mont akciová společnost</p>
+                                    <p>IČO: 26867133 | DIČ: CZ26867133 (Plátce DPH)</p>
+                                    <p style="font-size: 0.82rem; color: var(--text-muted);">Zapsána u Krajského soudu v Ostravě, oddíl B, vložka 2897</p>
+                                </div>
+                            </div>
+                            <div class="c-row">
+                                <span class="c-icon">✉️</span>
+                                <div>
+                                    <strong>Centrální spojení:</strong>
+                                    <p><a href="mailto:info@dkmont.cz">info@dkmont.cz</a></p>
+                                    <p>Telefon recepce: <a href="tel:+420602484401">+420 602 484 401</a></p>
                                 </div>
                             </div>
                         </div>
@@ -645,10 +771,16 @@
 
                     <div class="bento-card bento-span-12 map-card reveal">
                         <div class="map-head">
-                            <strong>Mapa výrobního a expedičního areálu v Mohelnici</strong>
-                            <a href="https://mapy.cz/zakladni?q=N%C3%A1dra%C5%BEn%C3%AD%20531%2F18%2C%20Mohelnice" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.35rem; color: #0284c7; text-decoration: none; font-size: 0.85rem; font-weight: 600;">📍 Otevřít na Mapy.cz</a>
+                            <div class="map-head-title">
+                                <span class="c-icon">📍</span>
+                                <div>
+                                    <strong>Výrobní, skladový a expediční areál Mohelnice</strong>
+                                    <p>Nádražní 531/18, 789 85 Mohelnice • Česká republika</p>
+                                </div>
+                            </div>
+                            <a href="https://mapy.cz/zakladni?q=N%C3%A1dra%C5%BEn%C3%AD%20531%2F18%2C%20789%2085%20Mohelnice" target="_blank" rel="noopener" class="map-link-btn">📍 Otevřít na Mapy.cz</a>
                         </div>
-                        <div id="map" class="map-container"></div>
+                        <iframe class="map-iframe" src="https://frame.mapy.cz/zakladni?x=16.9278&amp;y=49.7761&amp;z=16" frameborder="0" allowfullscreen title="Mapa výrobního areálu DK mont na Mapy.cz"></iframe>
                     </div>
                 </div>
             </div>
@@ -694,7 +826,6 @@
 
     <div class="toast" id="toastMsg">IČO 26867133 bylo zkopírováno do schránky</div>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="../ping-config.js"></script>
     <script src="script.js"></script>
 </body>
