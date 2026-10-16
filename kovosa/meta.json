@@ -1,0 +1,63 @@
+{
+  "slug": "kovosa",
+  "firma": "KOVOSA s.r.o.",
+  "ico": "60739428",
+  "obec": "Staré Město",
+  "okres": "Uherské Hradiště",
+  "kraj": "Zlínský kraj",
+  "obor_plny": "Kovoobrábění a kovovýroba / CNC soustružení, CNC frézování, dělení materiálu, konvenční obrábění a povrchové úpravy",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://kovosa.cz",
+  "email": "kovosa@seznam.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Tradice kovoobrábění již od roku 1993 (více než 33 let zkušeností ve strojírenství)",
+    "Špičková opakovatelná přesnost najíždění ± 0,005 mm na CNC centrech s řízením FANUC",
+    "Rychlé vyřízení cenových poptávek v průměru do 3 pracovních dnů (garance max. 5 dnů)",
+    "Komplexní CNC obrábění kovů i technických plastů včetně poháněných nástrojů a osy Y",
+    "Vlastní automatické dělení materiálu na CNC pile Pegas a zajištění certifikovaných povrchových úprav"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez SSL certifikátu (prohlížeče varují před nebezpečným webem)",
+    "Chybějící mobilní optimalizace a zastaralý tabulkový layout nečitelný na chytrých telefonech",
+    "Závažná bezpečnostní kompromitace staré Joomly – injektované spamové odkazy na zahraniční kasina v patičce",
+    "Statický a nepřehledný přehled strojního parku bez možnosti filtrace či vyhledávání",
+    "Neaktivní fotogalerie bez technických parametrů a specifikací dílců"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní high-tech vizuální identita Tech & Precision s čistou typografií a glassmorphism prvky",
+    "100% mobilní responzivita ověřená na reálných displejích s nulovým vodorovným posunem",
+    "Interaktivní technický katalog strojů a výrobků s okamžitým vyhledáváním a detailními modálními okny",
+    "Ověřená interaktivní mapa Mapy.cz s červeným špendlíkem RÚIAN pro výrobní areál ve Starém Městě",
+    "Přímé kontaktní karty na jednatele a obchodní oddělení s možností okamžitého volání a poptávkového formuláře",
+    "Plná bezpečnost moderního statického kódu bez zranitelností a bez databázových rizik"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1993,
+    "zkusenosti_let": 33,
+    "pocet_strojovych_jednotek": 12,
+    "presnost_najizdeni": "± 0,005 mm",
+    "vyrizeni_poptavky_dny": 3,
+    "adresa": "Zlechovská 2195, 686 03 Staré Město",
+    "gps": {
+      "lat": 49.07122,
+      "lon": 17.4138
+    },
+    "kontakty": [
+      {
+        "jmeno": "Petr Sadílek",
+        "funkce": "Majitel a jednatel společnosti",
+        "telefon": "+420 736 674 882",
+        "email": "kovosa@seznam.cz"
+      },
+      {
+        "jmeno": "Ing. Veronika Sadílková",
+        "funkce": "Obchodní a marketingový manažer",
+        "telefon": "+420 604 326 302",
+        "email": "kovosa@seznam.cz"
+      }
+    ]
+  }
+}

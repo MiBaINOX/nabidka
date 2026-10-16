@@ -1,0 +1,90 @@
+{
+  "slug": "kovonyt",
+  "firma": "KOVONYT, s.r.o.",
+  "ico": "25823574",
+  "dic": "CZ25823574",
+  "obec": "Lučina",
+  "okres": "Frýdek-Místek",
+  "kraj": "Moravskoslezský kraj",
+  "adresa": "č.p. 150, 739 39 Lučina",
+  "provozovna": "Albrechtice u Českého Těšína, ul. Obecní",
+  "souradnice": {
+    "lat": 49.71168,
+    "lon": 18.446
+  },
+  "mapy_cz_url": "https://frame.mapy.cz/zakladni?x=18.446&y=49.71168&z=16&source=coor&id=18.446%2C49.71168",
+  "obor_plny": "Kovoobrábění a kovovýroba / výroba nýtů, čepů, spojovacího materiálu a přesných rotačních součástí",
+  "archetyp": "Corporate Portal (styl Hakov)",
+  "stary_web": "http://kovonyt.cz",
+  "email": "kovonyt@volny.cz",
+  "telefon": "+420 737 420 404",
+  "jednatele": [
+    "Petr Nytra"
+  ],
+  "kontaktni_osoby": [
+    {
+      "jmeno": "Petr Nytra",
+      "funkce": "Jednatel společnosti",
+      "telefon": "+420 737 420 404",
+      "email": "kovonyt@volny.cz"
+    },
+    {
+      "jmeno": "P. Havlísek",
+      "funkce": "Vedoucí provozu a výkupu kovů",
+      "telefon": "+420 737 241 442",
+      "email": "kovonyt@volny.cz"
+    }
+  ],
+  "prodejni_body": [
+    "Tradice v kovovýrobě od roku 1998 (více než 26 let zkušeností v oboru)",
+    "Kompletní sortiment plných, polodutých a trubkových nýtů dle ČSN a DIN",
+    "Zakázková výroba přesných čepů, kolíků a rotačních součástí dle výkresů",
+    "Vlastní materiálové zázemí se spektrometrem pro 100% chemickou kontrolu slitin",
+    "Komplexní areál s nájezdovou váhou do 30 tun, nakladačem FUCHS 714 a vlastní dopravou"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené připojení přes zastaralý protokol HTTP bez SSL/TLS šifrování",
+    "Chybějící meta viewport – stránka se na mobilních zařízeních nezalamuje a vyžaduje zoomování",
+    "Zastaralé kódování Windows-1250 způsobující rozpad diakritiky v moderních prohlížečích",
+    "Statický tabulkový layout z počátku 2000 bez katalogového vyhledávání či filtrování norem",
+    "Chybějící technické parametry spojovacího materiálu a interaktivní rozměrové tabulky"
+  ],
+  "vylepseni_noveho_webu": [
+    "Reprezentativní Corporate Portal s horní certifikační a kontaktní lištou",
+    "Interaktivní katalog spojovacího materiálu s fulltextovým vyhledávačem a filtrem norem DIN/ČSN",
+    "Technické modální okno s kompletními rozměrovými tabulkami a tolerancemi",
+    "100% mobilní responzivita s nulovým horizontálním přetečením (0px overflow)",
+    "Oficiální Mapy.cz widget s ověřeným červeným špendlíkem sídla v Lučině",
+    "Ověřené kontaktní vizitky vedení a dispečinku pro rychlou přímou komunikaci"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1998,
+    "let_na_trhu": 26,
+    "kapacita_vahy_t": 30,
+    "nosnost_kontejneru_t": 5,
+    "vybaveni": [
+      "Nakladač FUCHS 714",
+      "Nájezdová digitální váha do 30 tun",
+      "Vysokozdvižné vozíky Linde (3t) a Yale (2,5t)",
+      "Kolové nakladače UNC 60",
+      "Spektrometr pro chemickou analýzu kovů",
+      "2 vozy AVIA s natahovacími kontejnery 5t"
+    ],
+    "normy": [
+      "DIN 660",
+      "DIN 661",
+      "DIN 674",
+      "DIN 662",
+      "DIN 7338",
+      "DIN 7339",
+      "DIN 1476",
+      "DIN 7",
+      "DIN 1444",
+      "DIN 1",
+      "ČSN EN ISO 9001"
+    ]
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#ffffff" rx="8"/>
+  <line x1="100" y1="15" x2="100" y2="185" stroke="#94a3b8" stroke-width="1" stroke-dasharray="6,3"/>
+  <rect x="55" y="35" width="90" height="20" fill="#e2e8f0" stroke="#1e293b" stroke-width="3" rx="2"/>
+  <rect x="75" y="55" width="50" height="110" fill="#f1f5f9" stroke="#1e293b" stroke-width="3" rx="2"/>
+  <circle cx="100" cy="148" r="8" fill="#ffffff" stroke="#0284c7" stroke-width="3"/>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0284c7" text-anchor="middle">DIN 1444 (Čep s otvorem)</text>
+</svg>

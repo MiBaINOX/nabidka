@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#ffffff" rx="8"/>
+  <line x1="100" y1="15" x2="100" y2="185" stroke="#94a3b8" stroke-width="1" stroke-dasharray="6,3"/>
+  <path d="M 40,45 Q 60,35 75,55 L 75,165 L 85,165 L 85,60 Q 95,50 100,50 Q 105,50 115,60 L 115,165 L 125,165 L 125,55 Q 140,35 160,45 Z" fill="#e2e8f0" stroke="#1e293b" stroke-width="3"/>
+  <rect x="85" y="55" width="30" height="110" fill="#cbd5e1" stroke="#0284c7" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0284c7" text-anchor="middle">DIN 7339 (Trubkový nýt)</text>
+</svg>

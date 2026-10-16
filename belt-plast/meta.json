@@ -1,0 +1,49 @@
+{
+  "slug": "belt-plast",
+  "firma": "BELT PLAST, s.r.o.",
+  "ico": "60718871",
+  "dic": "CZ60718871",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba plastů a pryže / technické plasty, polyuretanové dílce, pryže a dopravníkové pásy pro průmysl",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://beltplast.cz",
+  "email": "beltplast@beltplast.cz",
+  "telefon": "+420 548 539 316",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Kompletní digitalizace rozsáhlého sortimentu polymerů BELTA (PE-UHMW, PTFE, POM, PA) do interaktivního katalogu s 24 technickými listy",
+    "Přehledné členění dělených ozubených kol a kladek sérií 221-237 s okamžitou dostupností parametrů vrtání a počtů zubů",
+    "Prezentace patentovaného řešení Crystalen a samočisticích přesypů pro řešení problémů s klenbováním sypkých hmot",
+    "Responzivní technické tabulky a interaktivní poptávkový formulář pro engineeringové poptávky",
+    "Ověřená firemní identita s logem na kontrastním podkladu a geolokací přesného sídla v Brně na Mapy.cz"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené připojení HTTP bez platného SSL/TLS šifrovacího certifikátu",
+    "Absence značky meta viewport – web se na mobilních zařízeních nezobrazuje responzivně a vyžaduje horizontální posun",
+    "Zastaralé kódování Windows-1250 způsobující rozpad diakritiky v moderních prohlížečích",
+    "Statický tabulkový layout z roku 2009 bez možnosti rychlého filtrování a vyhledávání v sortimentu",
+    "Zastaralý kontaktní formulář a chybějící interaktivní mapa"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní Heavy Industrial design s tmavým antracitovým motivem a kontrastními bezpečnostními akcenty",
+    "Interaktivní technický katalog s 24 položkami, živým fulltextovým vyhledáváním a kategoriálními filtry",
+    "Responzivní modální okno (#techModalBackdrop) s kompletními tabulkami rozměrů a materiálových vlastností",
+    "Přesný Mapy.cz widget s červeným špendlíkem ověřeným dle RÚIAN katastru (Brno)",
+    "Příprava pro zahraniční expanzi: architektura připravena pro vícejazyčné mutace EN / DE / PL pro exportní odběratele",
+    "100% responzivní mobilní zobrazení bez horizontálního přetečení (0px overflow na 360px)"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1994,
+    "zkusenosti_let": 32,
+    "sidlo": "Rotalova 551/59, Husovice, 614 00 Brno",
+    "provozovna": "Hájecká 12, 618 00 Brno",
+    "pobocka": "Vratimovská ulice, 707 00 Ostrava",
+    "patenty": "Systém vestaveb Crystalen pro usměrňování toku v zásobnících",
+    "spisova_znacka": "C 16318 vedená u Krajského soudu v Brně",
+    "pocet_polozek_katalogu": 24
+  }
+}

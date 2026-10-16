@@ -1,0 +1,246 @@
+{
+  "total_subpages": 13,
+  "urls_crawled": [
+    "http://kovosa.cz/",
+    "http://kovosa.cz/index.php/profil-firmy",
+    "http://kovosa.cz/index.php/profil-firmy/historie",
+    "http://kovosa.cz/index.php/profil-firmy/kariera",
+    "http://kovosa.cz/index.php/profil-firmy/strojovy-park",
+    "http://kovosa.cz/index.php/fotogalerie",
+    "http://kovosa.cz/index.php/aktuality1",
+    "http://kovosa.cz/index.php/kontakt",
+    "http://kovosa.cz/index.php/hlavni-cinnosti",
+    "http://kovosa.cz/index.php/cnc-obrabeni",
+    "http://kovosa.cz/index.php/fotogalerie/25-soustruzene",
+    "http://kovosa.cz/index.php/fotogalerie/26-frezovane",
+    "http://kovosa.cz/index.php/fotogalerie/27-soustruzene-frezovane"
+  ],
+  "total_images": 36,
+  "images": [
+    {
+      "url": "http://kovosa.cz/images/sitemaps-15x15.png",
+      "local_file": "sitemaps-15x15.png",
+      "alt": "Mapa stránek",
+      "size": 43438
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blank.gif",
+      "local_file": "blank.gif",
+      "alt": "Google",
+      "size": 1093
+    },
+    {
+      "url": "http://kovosa.cz/images/Logo_text_2.png",
+      "local_file": "Logo_text_2.png",
+      "alt": "Kovosa s.r.o.",
+      "size": 506741
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/home/HLAVNI-CINNOSTI-STRANKA.jpg",
+      "local_file": "HLAVNI-CINNOSTI-STRANKA.jpg",
+      "alt": "",
+      "size": 53815
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/home/CNC-OBRABENI-HL-STRANKA.jpg",
+      "local_file": "CNC-OBRABENI-HL-STRANKA.jpg",
+      "alt": "",
+      "size": 57765
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/SMART42T8-300X200.jpg",
+      "local_file": "SMART42T8-300X200.jpg",
+      "alt": "",
+      "size": 23931
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/Fotogalerie.Soustruzene-Frezovane.SF1nsp_173.jpg",
+      "local_file": "Fotogalerie.Soustruzene-Frezovane.SF1nsp_173.jpg",
+      "alt": "Historie slide 1",
+      "size": 44314
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/sampledata.asimage.random.about.IMG_1840nsp_173.jpg",
+      "local_file": "sampledata.asimage.random.about.IMG_1840nsp_173.jpg",
+      "alt": "Historie slide 2",
+      "size": 92243
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/Fotogalerie.Soustruzene.s1nsp_173.jpg",
+      "local_file": "Fotogalerie.Soustruzene.s1nsp_173.jpg",
+      "alt": "Historie slide 3",
+      "size": 54586
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/Fotogalerie.Soustruzene.S4nsp_173.jpg",
+      "local_file": "Fotogalerie.Soustruzene.S4nsp_173.jpg",
+      "alt": "Historie slide 4",
+      "size": 56741
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/Fotogalerie.Soustruzene.S3nsp_173.jpg",
+      "local_file": "Fotogalerie.Soustruzene.S3nsp_173.jpg",
+      "alt": "Historie slide 5",
+      "size": 47828
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/Fotogalerie.Soustruzene-Frezovane.SF1nsp_174.jpg",
+      "local_file": "Fotogalerie.Soustruzene-Frezovane.SF1nsp_174.jpg",
+      "alt": "Historie slide 1",
+      "size": 44314
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/sampledata.asimage.random.about.IMG_1840nsp_174.jpg",
+      "local_file": "sampledata.asimage.random.about.IMG_1840nsp_174.jpg",
+      "alt": "Historie slide 2",
+      "size": 92243
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/Fotogalerie.Soustruzene.s1nsp_174.jpg",
+      "local_file": "Fotogalerie.Soustruzene.s1nsp_174.jpg",
+      "alt": "Historie slide 3",
+      "size": 54586
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/Fotogalerie.Soustruzene.S4nsp_174.jpg",
+      "local_file": "Fotogalerie.Soustruzene.S4nsp_174.jpg",
+      "alt": "Historie slide 4",
+      "size": 56741
+    },
+    {
+      "url": "http://kovosa.cz/modules/mod_news_pro_gk4/cache/Fotogalerie.Soustruzene.S3nsp_174.jpg",
+      "local_file": "Fotogalerie.Soustruzene.S3nsp_174.jpg",
+      "alt": "Historie slide 5",
+      "size": 47828
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/Ge-fong.jpg",
+      "local_file": "Ge-fong.jpg",
+      "alt": "",
+      "size": 18263
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/hardinge.jpg",
+      "local_file": "hardinge.jpg",
+      "alt": "http://svachula.org/images/sampledata/asimage/blog/hardinge.jpg",
+      "size": 6473
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/smart42t8.jpg",
+      "local_file": "smart42t8.jpg",
+      "alt": "",
+      "size": 42667
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/plg42y.JPG",
+      "local_file": "plg42y.JPG",
+      "alt": "http://svachula.org/images/sampledata/asimage/blog/plg42y.JPG",
+      "size": 43220
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/VMC850B-300X200.jpg",
+      "local_file": "VMC850B-300X200.jpg",
+      "alt": "",
+      "size": 23850
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/pila_pegas.jpg",
+      "local_file": "pila_pegas.jpg",
+      "alt": "http://svachula.org/images/sampledata/asimage/blog/pila_pegas.jpg",
+      "size": 59978
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/pila%20opti%20s%20181.jpg",
+      "local_file": "pila%20opti%20s%20181.jpg",
+      "alt": "",
+      "size": 64898
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/hyster.jpg",
+      "local_file": "hyster.jpg",
+      "alt": "",
+      "size": 188984
+    },
+    {
+      "url": "http://kovosa.cz/images/sampledata/asimage/blog/paletov%C3%BD%20voz%C3%ADk.jpg",
+      "local_file": "paletov%C3%BD%20voz%C3%ADk.jpg",
+      "alt": "",
+      "size": 17937
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene/S7.jpg",
+      "local_file": "S7.jpg",
+      "alt": "",
+      "size": 256675
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene/S6.jpg",
+      "local_file": "S6.jpg",
+      "alt": "",
+      "size": 68440
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene/S5.jpg",
+      "local_file": "S5.jpg",
+      "alt": "",
+      "size": 78886
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene/S4.jpg",
+      "local_file": "S4.jpg",
+      "alt": "",
+      "size": 139156
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene/S3.jpg",
+      "local_file": "S3.jpg",
+      "alt": "",
+      "size": 124675
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene/s2.jpg",
+      "local_file": "s2.jpg",
+      "alt": "",
+      "size": 99487
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene/s1.jpg",
+      "local_file": "s1.jpg",
+      "alt": "",
+      "size": 124157
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene-Frezovane/SF3.jpg",
+      "local_file": "SF3.jpg",
+      "alt": "",
+      "size": 101188
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene-Frezovane/SF2.jpg",
+      "local_file": "SF2.jpg",
+      "alt": "",
+      "size": 105875
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Soustruzene-Frezovane/SF1.jpg",
+      "local_file": "SF1.jpg",
+      "alt": "",
+      "size": 104959
+    },
+    {
+      "url": "http://kovosa.cz/images/Fotogalerie/Frezovane/F1-1.jpg",
+      "local_file": "F1-1.jpg",
+      "alt": "",
+      "size": 98225
+    }
+  ],
+  "menu_categories": [
+    "Profil firmy",
+    "Historie",
+    "Kariéra",
+    "Strojový park",
+    "Fotogalerie",
+    "Kontakt",
+    "CNC obrábění"
+  ]
+}

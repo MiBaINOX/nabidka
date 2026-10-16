@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#ffffff" rx="8"/>
+  <line x1="100" y1="15" x2="100" y2="185" stroke="#94a3b8" stroke-width="1" stroke-dasharray="6,3"/>
+  <path d="M 40,65 A 60,45 0 0,1 160,65 Z" fill="#e2e8f0" stroke="#1e293b" stroke-width="3"/>
+  <rect x="70" y="65" width="60" height="100" fill="#f1f5f9" stroke="#1e293b" stroke-width="3" rx="2"/>
+  <polygon points="85,165 85,125 115,125 115,165" fill="#cbd5e1" stroke="#0284c7" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0284c7" text-anchor="middle">DIN 7338 A (Polodutý půlkulový)</text>
+</svg>

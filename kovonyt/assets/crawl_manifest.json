@@ -1,0 +1,110 @@
+{
+  "slug": "kovonyt",
+  "firma": "KOVONYT, s.r.o.",
+  "ico": "25823574",
+  "url": "http://kovonyt.cz",
+  "crawled_pages_count": 8,
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Kovonyt s.r.o.",
+      "url": "http://kovonyt.cz/index.html",
+      "text_length": 294
+    },
+    {
+      "file": "historie.html",
+      "title": "Kovonyt s.r.o.-Historie",
+      "url": "http://kovonyt.cz/historie.html",
+      "text_length": 712
+    },
+    {
+      "file": "vykup.html",
+      "title": "Výkup kovů Havířov",
+      "url": "http://kovonyt.cz/vykup.html",
+      "text_length": 218
+    },
+    {
+      "file": "uhli.html",
+      "title": "Prodej uhlí-Havířov,Karviná",
+      "url": "http://kovonyt.cz/uhli.html",
+      "text_length": 1517
+    },
+    {
+      "file": "alarmy.html",
+      "title": "Jablotron Havířov",
+      "url": "http://kovonyt.cz/alarmy.html",
+      "text_length": 2959
+    },
+    {
+      "file": "rekultivace.html",
+      "title": "Zahradnické služby",
+      "url": "http://kovonyt.cz/rekultivace.html",
+      "text_length": 1084
+    },
+    {
+      "file": "kontakt.html",
+      "title": "Kontakty KOVONYT s.r.o.",
+      "url": "http://kovonyt.cz/kontakt.html",
+      "text_length": 618
+    },
+    {
+      "file": "Otev%EDrac%ED_doba.html",
+      "title": "Kovonyt s.r.o.",
+      "url": "http://kovonyt.cz/Otev%EDrac%ED_doba.html",
+      "text_length": 240
+    }
+  ],
+  "menu_categories": [
+    "Úvod",
+    "Sortiment spojovacího materiálu",
+    "Historie a vybavení",
+    "Výkup kovů",
+    "Prodej paliv",
+    "Zabezpečovací systémy",
+    "Zahradnické služby",
+    "Kontakty"
+  ],
+  "downloaded_images_count": 40,
+  "images": [
+    "21.png",
+    "13.jpg",
+    "sklad2.jpg",
+    "sklad.png",
+    "Fuchs.jpg",
+    "desta.jpg",
+    "interier.jpg",
+    "vertikutator.jpg",
+    "vykup1.jpg",
+    "uhli4.jpg",
+    "jarter1.jpg",
+    "jablotron100.jpg",
+    "JABLOTRON_100_Control_CZ.png",
+    "JABLOTRON_100_Design.png",
+    "JA-151TH.png",
+    "JA-150EM.png",
+    "ICON_Ok.png",
+    "UvodPS.png",
+    "HistoriePS.png",
+    "Kovy.png",
+    "ProdejPS.png",
+    "AlarmPS.png",
+    "RekultivacePS.png",
+    "KontaktPS.png",
+    "oteviraci.png",
+    "logo_kovonyt.png",
+    "logo_banner.png",
+    "logo_transparent.png",
+    "rivet_din660.svg",
+    "rivet_din661.svg",
+    "rivet_din674.svg",
+    "rivet_din662.svg",
+    "rivet_din7338a.svg",
+    "rivet_din7338b.svg",
+    "rivet_din7339.svg",
+    "rivet_din1476.svg",
+    "rivet_din7.svg",
+    "rivet_din1444.svg",
+    "rivet_din1.svg",
+    "rivet_custom.svg"
+  ]
+}
