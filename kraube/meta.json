@@ -1,0 +1,43 @@
+{
+  "slug": "kraube",
+  "firma": "KRAUBE, s.r.o.",
+  "ico": "01823639",
+  "dic": "CZ01823639",
+  "obec": "Rajhradice",
+  "okres": "Brno-venkov",
+  "kraj": "Jihomoravský kraj",
+  "adresa_plna": "Hlavní 169, 664 61 Rajhradice",
+  "obor_plny": "Přesné CNC kovoobrábění, soustružení, vertikální frézování a zakázková kovovýroba",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://kraube.cz",
+  "email": "vedeni@kraube.cz",
+  "telefon": "+420 547 229 180",
+  "jednatel": "Yvona Bendová",
+  "vedeni": "Yvona Bendová, jednatelka",
+  "osloveni": "Vážená paní Bendová,",
+  "prodejni_body": [
+    "Přesné CNC obrábění kovů, soustružení a vertikální frézování na moderních centrech",
+    "Komplexní zakázková kovovýroba, přesné dělení, svařování MIG/MAG i TIG a zámečnictví",
+    "Dodávka hotových dílců včetně povrchových úprav (zinkování, černění, elox, kalení)"
+  ],
+  "vady_stareho_webu": [
+    "Web běží pouze na nezabezpečeném protokolu HTTP bez SSL/TLS šifrování",
+    "Zcela chybí meta viewport – web není optimalizován pro chytré telefony",
+    "Zastaralé řešení vnitřního rámce (iframe) zhoršující indexaci a použitelnost",
+    "Absence přehledného katalogu strojního vybavení a technických rozjezdů os"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Tech & Precision s interaktivními přepínacími záložkami strojů",
+    "100% mobilní responzivita auditovaná pro iPhone i Android zařízení bez přetékání",
+    "Interaktivní katalog výrobních kapacit s vyhledáváním a modálním oknem technických specifikací",
+    "Mapy.cz widget s katastrálním RÚIAN špendlíkem pro sídlo v Rajhradicích",
+    "Rychlý poptávkový formulář pro technologické zadání a výkresy s okamžitou odezvou"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2016,
+    "katalog_pocet": 4,
+    "tochny_prumer_mm": 300,
+    "pojezd_x_mm": 1000,
+    "otacky_vretena_rpm": 10000
+  }
+}

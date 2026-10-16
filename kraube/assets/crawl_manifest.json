@@ -1,0 +1,22 @@
+{
+  "slug": "kraube",
+  "url": "http://kraube.cz",
+  "subpages_crawled": 6,
+  "menu_categories": [
+    "Obrábění",
+    "Výrobní technologie",
+    "Strojní park",
+    "Katalog kapacit",
+    "O společnosti",
+    "Kontakt"
+  ],
+  "total_photos": 5,
+  "assets_downloaded": [
+    "logo.png",
+    "img_01.jpg",
+    "img_02.jpg",
+    "img_03.jpg",
+    "img_04.jpg",
+    "hero_bg.jpg"
+  ]
+}

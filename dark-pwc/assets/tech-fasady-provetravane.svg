@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#0F172A" rx="8"/>
+  <rect x="40" y="100" width="80" height="100" fill="#334155" rx="2"/>
+  <rect x="120" y="100" width="100" height="100" fill="#D97706" opacity="0.7"/>
+  <text x="170" y="155" font-family="monospace" font-size="10" fill="#FEF3C7" text-anchor="middle">MINERÁL</text>
+  <line x1="220" y1="100" x2="220" y2="200" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4 2"/>
+  <text x="240" y="155" font-family="monospace" font-size="9" fill="#38BDF8" transform="rotate(90, 240, 155)">TAH VZDUCHU</text>
+  <rect x="260" y="100" width="20" height="100" fill="#0284C7"/>
+  <rect x="290" y="90" width="15" height="120" fill="#E2E8F0"/>
+  <text x="200" y="45" font-family="monospace" font-size="14" fill="#38BDF8" font-weight="bold" text-anchor="middle">ČSN 73 2901 | PROVĚTRÁVANÁ FASÁDA</text>
+  <rect x="100" y="58" width="200" height="20" rx="4" fill="#1E293B" stroke="#38BDF8" stroke-width="1"/>
+  <text x="200" y="72" font-family="monospace" font-size="10" fill="#38BDF8" text-anchor="middle">Komínový tah mezery ≥40 mm</text>
+</svg>

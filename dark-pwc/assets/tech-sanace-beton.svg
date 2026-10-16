@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#0F172A" rx="8"/>
+  <rect x="40" y="120" width="180" height="80" fill="#334155" rx="2"/>
+  <text x="130" y="165" font-family="monospace" font-size="11" fill="#94A3B8" text-anchor="middle">PŮVODNÍ BETON</text>
+  <rect x="220" y="120" width="140" height="80" fill="#0284C7" rx="2"/>
+  <text x="290" y="165" font-family="monospace" font-size="11" fill="#FFFFFF" text-anchor="middle">MALTA R4</text>
+  <circle cx="220" cy="145" r="8" fill="#E2E8F0" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="220" cy="175" r="8" fill="#E2E8F0" stroke="#F59E0B" stroke-width="3"/>
+  <text x="220" y="110" font-family="monospace" font-size="10" fill="#F59E0B" text-anchor="middle">Pasivovaná výztuž</text>
+  <text x="200" y="45" font-family="monospace" font-size="14" fill="#38BDF8" font-weight="bold" text-anchor="middle">ČSN EN 1504-3 | SANACE R4</text>
+  <rect x="110" y="58" width="180" height="20" rx="4" fill="#1E293B" stroke="#0284C7" stroke-width="1"/>
+  <text x="200" y="72" font-family="monospace" font-size="10" fill="#38BDF8" text-anchor="middle">Pevnost v tlaku ≥45 MPa</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#0F172A" rx="8"/>
+  <rect x="50" y="100" width="25" height="100" fill="#94A3B8" rx="2"/>
+  <text x="62" y="155" font-family="monospace" font-size="9" fill="#0F172A" transform="rotate(90, 62, 155)">GKF POŽÁRNÍ</text>
+  <rect x="75" y="100" width="50" height="100" fill="#38BDF8" opacity="0.7"/>
+  <rect x="125" y="100" width="150" height="100" fill="#FDE047" opacity="0.8"/>
+  <text x="200" y="155" font-family="monospace" font-size="10" fill="#000" font-weight="bold" text-anchor="middle">AKUSTICKÝ MINERÁL</text>
+  <rect x="275" y="100" width="50" height="100" fill="#38BDF8" opacity="0.7"/>
+  <rect x="325" y="100" width="25" height="100" fill="#94A3B8" rx="2"/>
+  <text x="200" y="45" font-family="monospace" font-size="14" fill="#38BDF8" font-weight="bold" text-anchor="middle">ČSN EN 520 | SUCHÁ VÝSTAVBA SDK</text>
+  <rect x="100" y="58" width="200" height="20" rx="4" fill="#1E293B" stroke="#38BDF8" stroke-width="1"/>
+  <text x="200" y="72" font-family="monospace" font-size="10" fill="#38BDF8" text-anchor="middle">Požární odolnost EI 15 až EI 90</text>
+</svg>

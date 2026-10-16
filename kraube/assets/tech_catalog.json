@@ -1,0 +1,130 @@
+[
+  {
+    "id": "kraube-soustruzeni",
+    "title": "Přesné CNC soustružení rotačních dílců",
+    "category": "CNC obrábění",
+    "badge": "Třískové obrábění",
+    "short_desc": "Produktivní kusová i sériová výroba hřídelí, čepů, pouzder a přírub na moderních CNC soustruzích s poháněnými nástroji a C-osou.",
+    "specs": [
+      {
+        "label": "Průměr tyčového materiálu",
+        "value": "Ø 5 mm až Ø 65 mm"
+      },
+      {
+        "label": "Max. průměr soustružení",
+        "value": "až 300 mm v universálním sklíčidle"
+      },
+      {
+        "label": "Max. délka obrobku",
+        "value": "750 mm mezi hroty"
+      },
+      {
+        "label": "Dosažitelná přesnost",
+        "value": "v tolerančních třídách IT6 až IT7"
+      },
+      {
+        "label": "Technologické možnosti",
+        "value": "radiální i axiální frézování, závitování na jedno upnutí"
+      }
+    ],
+    "features": [
+      "Obrábění ocelí, nerezi, mosazi, bronzu i technických plastů",
+      "Vysoká opakovatelná přesnost pro střední a velké výrobní série",
+      "Měření rozměrů kalibrovanými digitálními měřidly a protokoly jakosti"
+    ]
+  },
+  {
+    "id": "kraube-frezovani",
+    "title": "CNC vertikální 3-osé a víceosé frézování",
+    "category": "CNC obrábění",
+    "badge": "Třískové obrábění",
+    "short_desc": "Vysoce přesné frézování deskových, skříňových a tvarově složitých dílců na vertikálních CNC centrech s vysokorychlostním vřetenem.",
+    "specs": [
+      {
+        "label": "Rozjezdy v osách X / Y / Z",
+        "value": "1000 mm × 600 mm × 500 mm"
+      },
+      {
+        "label": "Upínací plocha stolu",
+        "value": "1200 mm × 600 mm"
+      },
+      {
+        "label": "Max. nosnost stolu",
+        "value": "800 kg"
+      },
+      {
+        "label": "Otáčky vřetena",
+        "value": "až 10 000 ot/min s chlazením"
+      },
+      {
+        "label": "Kapacita zásobníku nástrojů",
+        "value": "24 nástrojových pozic (ISO 40)"
+      }
+    ],
+    "features": [
+      "Obrábění prizmatických součástí a forem s vysokou jakostí povrchu",
+      "Optimalizace drah nástroje pro minimální výrobní čas dílce",
+      "Možnost výroby prototypů i opakovaných sériových dávek"
+    ]
+  },
+  {
+    "id": "kraube-kovovyroba",
+    "title": "Zakázková kovovýroba a zámečnická montáž",
+    "category": "Kovovýroba",
+    "badge": "Zámečnictví & Svařování",
+    "short_desc": "Komplexní zpracování ocelových profilů, pásové dělení, přesné vrtání, svařování metodami MIG/MAG a kompletace podsestav na klíč.",
+    "specs": [
+      {
+        "label": "Metody svařování",
+        "value": "MIG/MAG (CO2), TIG pro ocel i nerez"
+      },
+      {
+        "label": "Dělení materiálu",
+        "value": "pásové pily s úhlováním do 60°"
+      },
+      {
+        "label": "Zámečnické operace",
+        "value": "vrtání, závitování, odhrotování, lisování pouzder"
+      },
+      {
+        "label": "Kompletace",
+        "value": "montáž mechanických celků včetně spojovacího materiálu"
+      }
+    ],
+    "features": [
+      "Zakázková kusová i malosériová výroba konstrukcí a rámů",
+      "Zkušený zámečnický tým s certifikovanými svářeči",
+      "Spolehlivá výstupní kontrola geometrie a svarových spojů"
+    ]
+  },
+  {
+    "id": "kraube-povrchy",
+    "title": "Povrchové úpravy a zušlechťování kovů",
+    "category": "Zušlechťování",
+    "badge": "Finální úpravy",
+    "short_desc": "Kompletní finální ochrana obrobených dílců: galvanické zinkování, chemické černění (brynýrování), eloxování hliníku i kalení.",
+    "specs": [
+      {
+        "label": "Galvanické povrchy",
+        "value": "galvanický zinek (modrý, žlutý chromát)"
+      },
+      {
+        "label": "Černění oceli",
+        "value": "chemické brynýrování s olejovou konzervací"
+      },
+      {
+        "label": "Úpravy hliníku",
+        "value": "přírodní a černý elox (anodická oxidace)"
+      },
+      {
+        "label": "Tepelné zpracování",
+        "value": "kalení, zušlechťování, cementování dle výkresu"
+      }
+    ],
+    "features": [
+      "Dodávka hotového obrobeného dílce včetně povrchové ochrany",
+      "Vysoká korozní odolnost a atraktivní technický vzhled",
+      "Dlouhodobě prověření partneři pro speciální metalurgické procesy"
+    ]
+  }
+]

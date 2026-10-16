@@ -1,0 +1,162 @@
+[
+  {
+    "id": "specializovane-monolity",
+    "title": "Specializované monolitické a základové práce",
+    "category": "stavby",
+    "category_name": "Stavební práce",
+    "image": "assets/sluzba_stavby.jpg",
+    "description": "Komplexní realizace železobetonových základových desek, monolitických patek a opěrných zdí pro průmyslové haly, logistická centra a administrativní objekty.",
+    "specs": {
+      "Třídy betonu": "C12/15 až C35/45 dle ČSN EN 206",
+      "Výztuž": "B500B / B500A (vázaná i svařovaná)",
+      "Bednění": "Systémové rámové velkoplošné bednění DOKA / PERI",
+      "Měření rovinatosti": "Laserové nivelace dle DIN 18202",
+      "Objem betonáží": "Jednorázově až 450 m³ denně"
+    },
+    "advantages": [
+      "Práce v náročných geologických podmínkách a průmyslových zónách",
+      "Kompletní statické a geodetické zaměření před i po betonáži",
+      "Garantovaná rovinnost podlahových desek pod regálové systémy"
+    ]
+  },
+  {
+    "id": "prumyslove-haly-skelety",
+    "title": "Výstavba a montáže ocelových hal a skeletů",
+    "category": "konstrukce",
+    "category_name": "Ocelové konstrukce",
+    "image": "assets/sluzba_haly.jpg",
+    "description": "Dodávka a montáž nosných ocelových konstrukcí průmyslových, výrobních a skladových hal včetně sendvičového opláštění a střešních světlíků.",
+    "specs": {
+      "Konstrukční ocel": "S235, S275, S355 dle ČSN EN 10025",
+      "Třída provedení": "EXC1 až EXC3 dle ČSN EN 1090-2",
+      "Rozpony konstrukcí": "12 m až 42 m bez vnitřních podpor",
+      "Opláštění": "PUR/PIR a minerální sendvičové panely (tl. 80–160 mm)",
+      "Požární odolnost": "DP1 s odolností EW/EI 15 až 90 minut"
+    },
+    "advantages": [
+      "Vlastní montážní týmy s oprávněním pro montáže ve výškách",
+      "Rychlá stavební připravenost a modularita pro budoucí rozšíření",
+      "Certifikované svářečské postupy dle EN ISO 3834-2"
+    ]
+  },
+  {
+    "id": "tezka-mechanizace",
+    "title": "Pronájem těžké stavební mechanizace s obsluhou",
+    "category": "mechanizace",
+    "category_name": "Strojní mechanizace",
+    "image": "assets/sluzba_bagry.jpg",
+    "description": "Pronájem moderních pásových a kolových rypadel, čelních nakladačů a teleskopických manipulátorů včetně zkušených strojníků pro rozsáhlé zemní práce.",
+    "specs": {
+      "Pásová rypadla": "Hmotnost 14 až 26 tun (dosah až 10,2 m)",
+      "Kolové nakladače": "Objem lopaty 1,8 až 3,5 m³",
+      "Teleskopické manipulátory": "Nosnost 4,0 t, výsuv ramene až 17 m",
+      "Navádění strojů": "Příprava pro 2D / 3D nivelační systémy",
+      "Přídavná zařízení": "Bourací kladiva, svahovací lopaty, drapáky"
+    },
+    "advantages": [
+      "Pravidelně servisované stroje splňující emisní normy Stage V",
+      "Obsluha certifikovanými strojníky s dlouholetou praxí na stavbách",
+      "Možnost nepřetržitého vícesměnného provozu pro urychlení zakázky"
+    ]
+  },
+  {
+    "id": "skladova-logistika",
+    "title": "Průmyslová a skladová logistika, překládka břemen",
+    "category": "logistika",
+    "category_name": "Průmyslová logistika",
+    "image": "assets/sluzba_logistika.jpg",
+    "description": "Zajištění komplexních vnitropodnikových i mezioperačních logistických toků, stěhování těžkých technologických celků a vykládka nadrozměrných zásilek.",
+    "specs": {
+      "Manipulační technika": "Čelní vozíky 2,5 až 8,0 t, terénní vozíky",
+      "Stěhovací kapacity": "Hydraulické pojezdy pro břemena až do 40 t",
+      "Překládková plocha": "Zpevněné venkovní i kryté plochy",
+      "Logistický dohled": "Elektronická evidence zásilek a kusových břemen",
+      "Režim provozu": "Just-in-Time dodávky na staveniště"
+    },
+    "advantages": [
+      "Pojištění odpovědnosti za škodu na přepravovaném nákladu",
+      "Koordinace s jeřábovou technikou a autojeřáby",
+      "Komplexní řešení od vykládky po ustavení na základový blok"
+    ]
+  },
+  {
+    "id": "zpevnene-plochy",
+    "title": "Výstavba komunikací, parkovišť a zpevněných ploch",
+    "category": "stavby",
+    "category_name": "Stavební práce",
+    "image": "assets/sluzba_komunikace.jpg",
+    "description": "Příprava podloží, pokládka konstrukčních štěrkových vrstev, asfaltování a pokládka těžkotonážní zámkové dlažby pro logistické terminály a areály.",
+    "specs": {
+      "Třída zatížení": "Dopravní zatížení I až IV dle ČSN 73 6114",
+      "Zámková dlažba": "Průmyslová vibrolisovaná dlažba tl. 80–120 mm",
+      "Podkladní vrstvy": "Štěrkodrť frakce 0/32, 0/63, zpevněné kamenivo",
+      "Zkoušky zhutnění": "Statické a dynamické zatěžovací desky (Edef2)",
+      "Odvodnění": "Liniové odvodňovací žlaby třídy D400 / F900"
+    },
+    "advantages": [
+      "Vysoká odolnost vůči bodovému zatížení a pojezdu kamionové dopravy",
+      "Dodržení spádování a projektovaných odtokových poměrů",
+      "Zajištění atestů a hutnících protokolů ke kolaudaci"
+    ]
+  },
+  {
+    "id": "zamecnicka-kovo-vyroba",
+    "title": "Zakázková zámečnická výroba a kovové prvky",
+    "category": "konstrukce",
+    "category_name": "Ocelové konstrukce",
+    "image": "assets/sluzba_zamecnictvi.jpg",
+    "description": "Výroba a povrchová úprava atypických ocelových konstrukcí, průmyslových lávek, požárních únikových schodišť, zábradlí a technologických rámů.",
+    "specs": {
+      "Technologie dělení": "Pálení laserem, plazmou a pásovými pilami",
+      "Svařování": "Metody MIG/MAG (135), TIG (141), MMA (111)",
+      "Povrchová ochrana": "Žárové zinkování dle ČSN EN ISO 1461, lakování",
+      "Nosnost konstrukcí": "Statické výpočty pro zatížení až 5,0 kN/m²",
+      "Normy jakosti": "Certifikace procesů dle ČSN EN ISO 3834"
+    },
+    "advantages": [
+      "Precizní dílenské zpracování s 3D výrobní dokumentací",
+      "Dlouhodobá korozní odolnost díky žárovému zinkování",
+      "Montáž na stavbě včetně chemického kotvení do betonu"
+    ]
+  },
+  {
+    "id": "sprava-arealu-udrzba",
+    "title": "Technická správa, údržba a rekonstrukce areálů",
+    "category": "sprava",
+    "category_name": "Technická správa",
+    "image": "assets/sluzba_arealy.jpg",
+    "description": "Pravidelná údržba průmyslových objektů, opravy střešních plášťů, fasád, zámečnických prvků a stavební úpravy administrativních prostor.",
+    "specs": {
+      "Typy zásahů": "Havarijní opravy, plánovaná údržba, rekonstrukce",
+      "Rozsah prací": "Stavební, zámečnické, instalatérské a izolatérské práce",
+      "Reakční doba": "Smluvní servis s garancí nástupu do 24 hodin",
+      "Diagnostika": "Termovizní měření úniků tepla, revize konstrukcí",
+      "Předávací dokumentace": "Protokoly o shodě, stavební deník, atesty"
+    },
+    "advantages": [
+      "Minimalizace prostojů v provozu výrobních a logistických závodů",
+      "Jeden spolehlivý partner pro celkovou stavební údržbu objektu",
+      "Transparentní kalkulace bez skrytých poplatků"
+    ]
+  },
+  {
+    "id": "zemni-prace-demolice",
+    "title": "Zemní práce, výkopy a řízené demolice",
+    "category": "stavby",
+    "category_name": "Stavební práce",
+    "image": "assets/sluzba_zemni.jpg",
+    "description": "Hrubé terénní úpravy, svahování, výkopy rýh pro inženýrské sítě, sanace nekvalitních zemin a řízené demolice stavebních objektů.",
+    "specs": {
+      "Hloubkový dosah": "Výkopy základových jam až do hloubky 7,5 m",
+      "Odvoz materiálu": "Zajištění sklápěcích souprav 6x4 a 8x4",
+      "Třídění odpadu": "Drcení a recyklace stavební suti přímo na staveništi",
+      "Zlepšování zemin": "Vápnění a cementová stabilizace podloží",
+      "Bezpečnost": "Dodržení bezpečných sklonů svahů a pažení výkopů"
+    },
+    "advantages": [
+      "Vlastní nakládací a odvozová kapacita s recyklační certifikací",
+      "Příprava staveniště na klíč pro navazující stavební technologie",
+      "Legislativně čistá likvidace a uložení zemin dle zákona o odpadech"
+    ]
+  }
+]

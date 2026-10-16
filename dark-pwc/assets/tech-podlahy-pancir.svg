@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#0F172A" rx="8"/>
+  <defs>
+    <pattern id="grid2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="240" fill="url(#grid2)"/>
+  <rect x="40" y="120" width="320" height="80" fill="#334155" rx="2"/>
+  <line x1="70" y1="145" x2="110" y2="165" stroke="#64748B" stroke-width="2"/>
+  <line x1="160" y1="170" x2="210" y2="140" stroke="#64748B" stroke-width="2"/>
+  <line x1="270" y1="150" x2="320" y2="165" stroke="#64748B" stroke-width="2"/>
+  <text x="200" y="180" font-family="monospace" font-size="11" fill="#94A3B8" text-anchor="middle">DRÁTKOBETON C25/30</text>
+  <rect x="40" y="105" width="320" height="15" fill="#D97706"/>
+  <line x1="40" y1="105" x2="360" y2="105" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="200" y1="105" x2="200" y2="145" stroke="#EF4444" stroke-width="2" stroke-dasharray="4 2"/>
+  <text x="200" y="95" font-family="monospace" font-size="10" fill="#EF4444" text-anchor="middle">Dilatační řez 1/3 tl.</text>
+  <text x="200" y="45" font-family="monospace" font-size="14" fill="#F59E0B" font-weight="bold" text-anchor="middle">ČSN EN 206 | PANCÉŘOVÝ VSYP</text>
+  <rect x="120" y="58" width="160" height="20" rx="4" fill="#1E293B" stroke="#D97706" stroke-width="1"/>
+  <text x="200" y="72" font-family="monospace" font-size="10" fill="#F59E0B" text-anchor="middle">Korundový vsyp 5 kg/m²</text>
+</svg>

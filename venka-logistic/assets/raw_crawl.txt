@@ -1,0 +1,42 @@
+============================================================
+CRAWL ARCHIVE: Venka Logistic s.r.o. (http://venkalogistic.cz)
+============================================================
+Datum auditu: 2026-10-16
+Cílové IČO: 01930354
+DIČ: CZ01930354
+Oficiální název: Venka Logistic s.r.o.
+Právní forma: Společnost s ručením omezeným
+Sídlo: Holandská 878/2, Štýřice, 639 00 Brno (Spielberk Office Centre)
+Spisová značka: Krajský soud v Brně, oddíl C, vložka 106988
+Datum zápisu: 25. července 2013
+Základní kapitál: 200 000 Kč
+Statutární orgán: Stanislava Kalinovská, jednatel
+
+ŽIVNOSTENSKÝ REJSTŘÍK (RŽP) - PŘEDMĚT PODNIKÁNÍ A VOLNÉ ŽIVNOSTI:
+- Přípravné a dokončovací stavební práce, specializované stavební činnosti
+- Pronájem a půjčování věcí movitých (mechanizace, technika, zařízení)
+- Výroba motorových a přípojných vozidel a karoserií
+- Výroba kovových konstrukcí a kovodělných výrobků
+- Povrchové úpravy a svařování kovů a dalších materiálů
+- Poskytování technických služeb
+- Nákup, prodej, správa a údržba nemovitostí
+- Zprostředkování obchodu a služeb, velkoobchod a maloobchod
+
+PŮVODNÍ HTML ZDROJ (http://venkalogistic.cz):
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="https://parking.vedos.cz" type="image/x-icon">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<iframe src="https://parking.vedos.cz/" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px;border:none;" width="100%" height="100%" frameBorder="0"></iframe>
+</body>
+</html>
+
+ZJIŠTĚNÉ VADY PŮVODNÍ PREZENTACE:
+1. Web na nezabezpečeném HTTP protokolu bez platného SSL/TLS šifrování.
+2. Chybějící meta tag viewport – nulová mobilní optimalizace pro smartphony a tablety.
+3. Doména směrována na WEDOS parkovací stránku (nedostatečná reprezentace fungující společnosti s 12letou historií).
+4. Absence online katalogu specializovaných stavebních a logistických služeb.
+5. Chybějící interaktivní poptávkový formulář a ověřené kontaktní údaje s mapou.

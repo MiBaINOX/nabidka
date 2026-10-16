@@ -1,0 +1,43 @@
+{
+  "slug": "venka-logistic",
+  "firma": "Venka Logistic s.r.o.",
+  "ico": "01930354",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Specializované stavební práce, železobetonové monolity, montáže ocelových hal a průmyslová logistika",
+  "archetyp": "Corporate Portal (styl Hakov)",
+  "stary_web": "http://venkalogistic.cz",
+  "email": "info@venkalogistic.cz",
+  "prodejni_body": [
+    "Tradice a stabilita od roku 2013 se sídlem ve Spielberk Office Centre v Brně",
+    "Komplexní realizace základových monolitů a montáží ocelových konstrukcí na klíč",
+    "Vlastní strojní park pásových rypadel a manipulační techniky s certifikovanou obsluhou"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez platného SSL šifrování – moderní prohlížeče varují před vstupem",
+    "Chybějící meta viewport – nulová mobilní responzivita a nutnost nepraktického ručního zoomování",
+    "Doména byla přesměrována na parkovací stránku registrátora bez prezentace realizací",
+    "Absence technického katalogu stavebních a logistických služeb pro průmyslové investory"
+  ],
+  "vylepseni_noveho_webu": [
+    "Designový archetyp Corporate Portal po vzoru etalonu Hakov s bohatou hlavičkou a certifikáty",
+    "Interaktivní katalog služeb s živým fulltextovým vyhledáváním a kategoriálními filtry",
+    "Detailní technická modální okna (#techModalBackdrop) s kompletními normami ČSN EN a parametry",
+    "100% responzivní mobilní zobrazení s nulovým horizontálním přetečením (0px overflow na 360px)",
+    "Ověřený Mapy.cz widget se špendlíkem zaměřeným na oficiální sídlo Holandská 878/2 v Brně",
+    "Interaktivní poptávkový formulář s přímým napojením na jednotlivé kategorie služeb"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "sidlo": "Holandská 878/2, Štýřice, 639 00 Brno",
+    "jednatel": "Stanislava Kalinovská",
+    "rejstrik": "Krajský soud v Brně, oddíl C, vložka 106988",
+    "normy": [
+      "ČSN EN ISO 9001",
+      "ČSN EN 1090-2 (EXC1-EXC3)",
+      "ČSN EN ISO 14001"
+    ],
+    "sluzby_pocet": 8
+  }
+}

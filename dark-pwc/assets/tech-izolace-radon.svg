@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#0F172A" rx="8"/>
+  <rect x="40" y="150" width="320" height="50" fill="#334155" rx="2"/>
+  <text x="200" y="180" font-family="monospace" font-size="11" fill="#94A3B8" text-anchor="middle">ZÁKLADOVÁ ŽB DESKA</text>
+  <rect x="40" y="135" width="320" height="15" fill="#1E293B" stroke="#64748B" stroke-width="1"/>
+  <rect x="40" y="125" width="320" height="10" fill="#F59E0B"/>
+  <text x="200" y="133" font-family="monospace" font-size="9" fill="#000" font-weight="bold" text-anchor="middle">AL BARIÉRA (PROTIRADONOVÁ)</text>
+  <rect x="40" y="115" width="320" height="10" fill="#0F172A" stroke="#F59E0B" stroke-width="1"/>
+  <text x="200" y="45" font-family="monospace" font-size="14" fill="#F59E0B" font-weight="bold" text-anchor="middle">ČSN 73 0601 | RADONOVÁ BARIÉRA</text>
+  <rect x="100" y="58" width="200" height="20" rx="4" fill="#1E293B" stroke="#F59E0B" stroke-width="1"/>
+  <text x="200" y="72" font-family="monospace" font-size="10" fill="#F59E0B" text-anchor="middle">Součinitel D ≤ 1.5×10⁻¹² m²/s</text>
+</svg>

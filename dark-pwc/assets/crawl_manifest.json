@@ -1,0 +1,22 @@
+{
+  "slug": "dark-pwc",
+  "url": "http://darkpwc.cz",
+  "subpages_crawled": 7,
+  "menu_categories": [
+    "Nabízíme",
+    "Stavba",
+    "Rekonstrukce",
+    "Fasády a zateplení objektů",
+    "Info",
+    "Kontakty"
+  ],
+  "total_photos": 6,
+  "assets_downloaded": [
+    "logo.png",
+    "bannerheader1.jpg",
+    "bannerheader2.jpg",
+    "header.jpg",
+    "header8.jpg",
+    "mapa.jpg"
+  ]
+}

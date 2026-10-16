@@ -1,0 +1,62 @@
+{
+  "slug": "dark-pwc",
+  "firma": "DARK pwc s.r.o.",
+  "ico": "01501259",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Specializované stavební práce, průmyslové lité podlahy, statické sanace betonu a izolace",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://darkpwc.cz",
+  "email": "info@darkpwc.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Více než 13 let specializace na náročné průmyslové stavby, podlahy a sanace od roku 2013",
+    "Komplexní realizace pozemních staveb na klíč – od projektu a povolení po finální kolaudaci",
+    "Statické sanace nosných betonových konstrukcí certifikovanými maltami třídy R4",
+    "Zateplovací systémy ETICS a inovativní technologie lepicích kotev StarTrack bez tepelných mostů",
+    "Ověřené sídlo společnosti v Brně-Žabovřeskách a působnost po celé Moravě"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez platného SSL certifikátu – moderní prohlížeče zobrazují varování",
+    "Absence značky meta viewport – web není responzivní a na chytrých telefonech vyžaduje horizontální posun a zoomování",
+    "Archaický webový layout z roku 2013 s nedostupným obsahem na původním hostingu",
+    "Zastaralý kontaktní formulář a chybějící moderní interaktivní prezentace technologií"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Tech & Precision s tmavým technickým motivem a precizními schématy",
+    "Interaktivní přepínací záložky (taby) v Hero sekci pro okamžitý přehled hlavních stavebních disciplín",
+    "Kompletní technický katalog 14 technologií s živým vyhledáváním, kategoriemi a modálními okny bez ořezu obsahu",
+    "Certifikované technické parametry dle evropských norem ČSN EN a směrnic WTA",
+    "Plná mobilní optimalizace s nulovým přetečením (0px overflow na 360px i při otevřeném detailu)",
+    "Přesný špendlík Mapy.cz ověřený přes oficiální geodata RÚIAN na adrese Sochorova 3262/23 v Brně",
+    "Interaktivní poptávkový formulář s předvyplněním vybrané technologie z katalogu"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "zkusenosti_let": 13,
+    "sidlo": "Sochorova 3262/23, 616 00 Brno-Žabovřesky",
+    "spisova_znacka": "Krajský soud v Brně, oddíl C, vložka 78258",
+    "jednatel": "Dariusz Kapsia",
+    "telefon": "+420 776 890 222",
+    "technologii_pocet": 14,
+    "normy": [
+      "ČSN EN 13813",
+      "ČSN EN 206+A2",
+      "ČSN EN 1504-2",
+      "ČSN EN 1504-3",
+      "ČSN EN 998-1",
+      "ČSN EN 1504-5",
+      "ČSN 73 0601",
+      "ČSN EN 13956",
+      "ČSN EN 13499",
+      "ETA-08/0263",
+      "ČSN 73 2901",
+      "ČSN EN 1992-1-1",
+      "ČSN EN 1996-1-1",
+      "ČSN EN 520"
+    ]
+  }
+}

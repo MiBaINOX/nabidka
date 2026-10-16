@@ -1,0 +1,268 @@
+[
+  {
+    "id": "tech-podlahy-epoxid",
+    "name": "Epoxidové samonivelační lité podlahy",
+    "category": "podlahy",
+    "category_cz": "Průmyslové podlahy",
+    "norm": "ČSN EN 13813",
+    "badge": "Chemická a mechanická odolnost",
+    "description": "Vysoce odolné bezešvé epoxidové podlahové systémy pro průmyslové haly, sklady, dílny a čisté provozy. Chemická a mechanická odolnost s možností protiskluzové úpravy.",
+    "params": {
+      "Pevnost v tlaku": "≥ 65 MPa",
+      "Pevnost v tahu za ohybu": "≥ 25 MPa",
+      "Tloušťka souvrství": "2,0 – 4,5 mm",
+      "Teplotní odolnost": "-20 °C až +60 °C",
+      "Protismykovost": "R9 až R12 dle požadavku provozu",
+      "Aplikace": "Strojní hlazení a odvzdušnění jehlovým válečkem"
+    },
+    "procedure": "Tryskání nebo diamantové broušení betonového podkladu, hloubková epoxidová penetrace, aplikace samonivelační stěrky, případný křemičitý vsyp a uzavírací nátěr.",
+    "image": "assets/tech-podlahy-epoxid.svg"
+  },
+  {
+    "id": "tech-podlahy-pancir",
+    "name": "Pancéřované betonové podlahy se vsypem",
+    "category": "podlahy",
+    "category_cz": "Průmyslové podlahy",
+    "norm": "ČSN EN 206+A2",
+    "badge": "Vysoké bodové zatížení",
+    "description": "Monolitické drátkobetonové a železobetonové průmyslové podlahy se strojně hlazeným vsypem na bázi korundu a karbidu křemíku pro vysoké bodové i pojezdové zatížení.",
+    "params": {
+      "Třída betonu": "C25/30 – C30/37",
+      "Vsypový materiál": "Syntetický korund a křemičitan",
+      "Dávkování vsypu": "4,0 – 6,0 kg/m²",
+      "Obrusnost dle Böhme": "Třída A3 – A6",
+      "Dilatační spáry": "Řezání do 1/3 tloušťky, polyuretanový tmel",
+      "Zatížení": "Vysokozdvižné vozíky, těžké regálové systémy"
+    },
+    "procedure": "Laserové urovnání čerstvého betonu, strojní zapracování vsypu rotačními hladičkami, nástřik ošetřujícího vytvrzovacího akrylátového laku a nařezání spár.",
+    "image": "assets/tech-podlahy-pancir.svg"
+  },
+  {
+    "id": "tech-podlahy-pur",
+    "name": "Polyuretanové pružné stěrky a nátěry",
+    "category": "podlahy",
+    "category_cz": "Průmyslové podlahy",
+    "norm": "ČSN EN 1504-2",
+    "badge": "Dynamické přemostění trhlin",
+    "description": "Trvale pružné polyuretanové systémy schopné překlenovat dynamické trhliny v podkladu. Ideální pro parkovací domy, rampy, laboratoře a komerční prostory.",
+    "params": {
+      "Schopnost přemostění trhlin": "Třída B3.2 (až 2 mm)",
+      "Tvrdost Shore D": "55 – 65",
+      "Tloušťka": "1,5 – 3,0 mm",
+      "UV stabilita": "Plná odolnost vůči UV záření a žloutnutí",
+      "Tlumicí efekt": "Kročejový útlum až 6 dB",
+      "Využití": "Výrobní haly, autoservisy, parkovací plochy"
+    },
+    "procedure": "Příprava podkladu frézováním, penetrace, nanesení elastické polyuretanové mezivrstvy a finálního UV stabilního polyuretanového matného či pololesklého laku.",
+    "image": "assets/tech-podlahy-pur.svg"
+  },
+  {
+    "id": "tech-sanace-beton",
+    "name": "Sanace železobetonových konstrukcí a reprofilace",
+    "category": "sanace",
+    "category_cz": "Sanace betonu",
+    "norm": "ČSN EN 1504-3",
+    "badge": "Statické zesílení a reprofilace",
+    "description": "Komplexní statická reprofilace poškozených betonových nosníků, průvlaků, sloupů a podlahových desek sanačními maltami třídy R4 s inhibitory koroze výztuže.",
+    "params": {
+      "Pevnost v tlaku malty": "≥ 45 MPa (třída R4)",
+      "Přídržnost k podkladu": "≥ 2,0 MPa",
+      "Modul pružnosti": "≥ 20 GPa",
+      "Antikorozní ochrana": "Aktivní pasivace výztuže",
+      "Tloušťka jedné vrstvy": "10 – 50 mm",
+      "Odolnost proti karbonataci": "Dk ≤ kontrolní beton"
+    },
+    "procedure": "Vysokotlaké otryskání degradovaného betonu vodním paprskem, očištění ocelové výztuže na Sa 2.5, antikorozní nátěr, adhezní můstek a strojní reprofilace maltou R4.",
+    "image": "assets/tech-sanace-beton.svg"
+  },
+  {
+    "id": "tech-sanace-omitky",
+    "name": "Sanační omítkové systémy vlhkého zdiva",
+    "category": "sanace",
+    "category_cz": "Sanace zdiva",
+    "norm": "ČSN EN 998-1",
+    "badge": "Systém WTA pro vysoušení",
+    "description": "Systémové sanační omítky s vysokou pórovitostí a difuzní propustností pro vysušování vlhkého a zasoleného cihelného i kamenného zdiva objektů.",
+    "params": {
+      "Pórovitost omítky": "> 40 obj. %",
+      "Koeficient difuzního odporu μ": "≤ 12",
+      "Hloubka ukládání solí": "Ukládání solí uvnitř pórů bez výkvětů",
+      "Paropropustnost": "Vysoká (třída V1)",
+      "Tloušťka systému": "25 – 35 mm (podhoz + jádro + štuk)",
+      "Certifikace": "Směrnice WTA 2-9-04/D"
+    },
+    "procedure": "Otlučení původních zavlhlých omítek 80 cm nad linii zavlhčení, vyškrábnutí spár, neutralizace solí, aplikace sanačního podhozu a paropropustné hydrofobizované jádrové omítky.",
+    "image": "assets/tech-sanace-omitky.svg"
+  },
+  {
+    "id": "tech-sanace-injektaz",
+    "name": "Tlakové injektáže a hydroizolační clony",
+    "category": "sanace",
+    "category_cz": "Sanace a izolace",
+    "norm": "ČSN EN 1504-5",
+    "badge": "Zamezení vzlínající vlhkosti",
+    "description": "Dodatečné hydroizolační clony zdiva chemickou nízkotlakou a vysokotlakou injektáží mikroemulzemi nebo polyuretanovými pryskyřicemi proti vzlínající vlhkosti.",
+    "params": {
+      "Injekční médium": "Silan-siloxanové mikroemulze / PUR pryskyřice",
+      "Tlak injektáže": "Nízkotlaká (0,5–1,5 MPa) i vysokotlaká (do 15 MPa)",
+      "Rozteč vrtů": "100 – 125 mm v jedné až dvou řadách",
+      "Těsnění spár": "Bobtnavé bentonitové pásky a injektážní hadičky",
+      "Účinnost hydrofobizace": "Až 98 % zamezení vzlínání",
+      "Použití": "Suterény, opěrné zdi, základy a technologické šachty"
+    },
+    "procedure": "Vyvrtání šikmých otvorů do zdiva, osazení ocelových pakrů, postupné proinjektování materiálu a zaplnění vrtů sanační hydrofobní zálivkou.",
+    "image": "assets/tech-sanace-injektaz.svg"
+  },
+  {
+    "id": "tech-izolace-radon",
+    "name": "Izolace spodní stavby a protiradonová opatření",
+    "category": "izolace",
+    "category_cz": "Hydroizolace",
+    "norm": "ČSN 73 0601",
+    "badge": "Tlaková voda i vysoký radon",
+    "description": "Dvouvrstvé systémy z modifikovaných SBS asfaltových pásů s hliníkovou spřaženou vložkou garantující plynotěsnost proti radonu i těsnost proti tlakové spodní vodě.",
+    "params": {
+      "Součinitel difuze radonu": "D ≤ 1,5 × 10⁻¹² m²/s",
+      "Pevnost v tahu pásu": "≥ 1000 N / 50 mm",
+      "Tloušťka souvrství": "2× 4,0 mm (celkem 8 mm)",
+      "Ohebnost na trnu": "do -20 °C (SBS modifikace)",
+      "Odolnost proti tlaku vody": "Až 0,2 MPa",
+      "Vložka": "Polyesterové rouno + hliníková bariéra"
+    },
+    "procedure": "Penetrace základové desky asfaltovým lakem, celoplošné natavení podkladního protiradonového pásu a plnoplošné natavení vrchního SBS pásu s vystřídanými přesahy 100 mm.",
+    "image": "assets/tech-izolace-radon.svg"
+  },
+  {
+    "id": "tech-izolace-strechy",
+    "name": "Fóliové hydroizolace plochých střech a teras",
+    "category": "izolace",
+    "category_cz": "Hydroizolace střech",
+    "norm": "ČSN EN 13956",
+    "badge": "Životnost > 30 let a BROOF(t3)",
+    "description": "Jednovrstvé mechanicky kotvené nebo přitížené hydroizolační souvrství z mPVC a TPO fólií vyztužených polyesterovou mřížkou s horkovzdušně svařovanými spoji.",
+    "params": {
+      "Tloušťka fólie": "1,5 – 1,8 mm",
+      "Pevnost svaru v tahu": "Přetržení mimo svar (> 800 N)",
+      "Požární klasifikace": "BROOF(t3) odolnost proti vnějšímu ohni",
+      "UV stabilizace": "Plná odolnost s životností > 30 let",
+      "Svařování": "Automatické horkovzdušné automaty Leister",
+      "Příslušenství": "Poplastované plechy Viplanyl pro ukončení"
+    },
+    "procedure": "Pokládka separační geotextilie min. 300 g/m², rozvinutí hydroizolační fólie, mechanické kotvení teleskopickými hmoždinkami do nosné konstrukce a horkovzdušný dvojitý svar.",
+    "image": "assets/tech-izolace-strechy.svg"
+  },
+  {
+    "id": "tech-fasady-etics",
+    "name": "Kontaktní zateplovací systémy ETICS",
+    "category": "fasady",
+    "category_cz": "Fasády a zateplení",
+    "norm": "ČSN EN 13499",
+    "badge": "Úspora energií a certifikace",
+    "description": "Certifikovaný vnější kontaktní zateplovací systém s izolačními deskami z fasádního polystyrenu (EPS 70F / šedý grafitový EPS) nebo podélné minerální vlny.",
+    "params": {
+      "Součinitel tepelné vodivosti λ": "0,031 – 0,039 W/(m·K)",
+      "Kotvení": "Talířové hmoždinky s ocelovým trnem a EPS zátkou",
+      "Výztužná vrstva": "Sklotextilní síťovina Vertex min. 160 g/m²",
+      "Přídržnost lepicí hmoty": "≥ 0,25 MPa",
+      "Finální povrch": "Silikonová probarvená omítka zrnitosti 1,5 mm",
+      "Třída reakce na oheň": "A2-s1,d0 (minerální vata) / B-s1,d0 (EPS)"
+    },
+    "procedure": "Očištění podkladu, lepení desek po obvodu rámečkem a na buchty, montáž hmoždinek se zápustnou montáží, armovací stěrka s perlinkou, penetrace a finální silikonový štuk.",
+    "image": "assets/tech-fasady-etics.svg"
+  },
+  {
+    "id": "tech-fasady-startrack",
+    "name": "Systém zateplení starých domů StarTrack",
+    "category": "fasady",
+    "category_cz": "Fasády a zateplení",
+    "norm": "ETA-08/0263",
+    "badge": "Zateplení bez tepelných mostů",
+    "description": "Technologie zateplení starých domů a břízolitových fasád bez nutnosti kotvení přes izolant. Lepicí kotvy StarTrack se osazují přímo do nosného zdiva před lepením.",
+    "params": {
+      "Typ kotvení": "Příklepové lepicí kotvy přímo do nosné zdi",
+      "Tepelné mosty": "Bodový činitel prostupu tepla χ = 0,000 W/K",
+      "Kotevní hloubka": "≥ 40 mm v betonu, plné cihle i pórobetonu",
+      "Úspora pracnosti": "Zamezení provrtávání silných izolačních desek",
+      "Pevnost ve vytržení": "≥ 1,5 kN na jednu kotvu",
+      "Využití": "Starší bytové domy, křivé podklady, rekonstrukce"
+    },
+    "procedure": "Vyvrtání otvorů do nosného zdiva v rastru, osazení kotev StarTrack, nanesení lepicí hmoty na terče kotev a celoplošné nalepení izolačních desek.",
+    "image": "assets/tech-fasady-startrack.svg"
+  },
+  {
+    "id": "tech-fasady-provetravane",
+    "name": "Provětrávané fasády a lehké opláštění",
+    "category": "fasady",
+    "category_cz": "Fasády a opláštění",
+    "norm": "ČSN 73 2901",
+    "badge": "Komínový tah a moderní design",
+    "description": "Moderní fasádní systémy s hliníkovou nosnou podkonstrukcí, provětrávanou vzduchovou mezerou a velkoformátovými kompozitními, vláknocementovými či kovovými deskami.",
+    "params": {
+      "Vzduchová mezera": "Minimálně 40 mm pro komínový tah odvětrání",
+      "Izolační výplň": "Hydrofobizovaná minerální vata s černou netkanou textilií",
+      "Nosný rošt": "Hliníkový rošt s termopodložkami proti tepelným mostům",
+      "Dilatační kompenzace": "Plovoucí uložení desek s kompenzací teplotních změn",
+      "Opláštění": "Cembrit, Equitone, Alucobond, bondové kazety",
+      "Akustický útlum": "Zlepšení vzduchové neprůzvučnosti až o 11 dB"
+    },
+    "procedure": "Kotvení nerezových/hliníkových konzolí na nosnou zeď s přerušením tepelného mostu, vložení minerální izolace, instalace vertikálních profilů a montáž obkladových desek.",
+    "image": "assets/tech-fasady-provetravane.svg"
+  },
+  {
+    "id": "tech-stavba-monolit",
+    "name": "Monolitické železobetonové konstrukce a základy",
+    "category": "stavba",
+    "category_cz": "Pozemní stavby",
+    "norm": "ČSN EN 1992-1-1",
+    "badge": "Vysoká únosnost a vodonepropustnost",
+    "description": "Komplexní realizace základových pasů, monolitických základových desek a železobetonových stropních konstrukcí včetně dodávky bednění Peri a armokošů.",
+    "params": {
+      "Třída betonu": "C20/25 až C35/45 se zaručenou vodonepropustností",
+      "Vyztužení": "Kari sítě + vázaná prutová výztuž B500B",
+      "Hutnění": "Vysokofrekvenční ponorné vibrátory Wacker Neuson",
+      "Rovinnost desky": "Odchylka ≤ 2 mm na 2m lati pro přímou montáž podlah",
+      "Bednící systémy": "Systémové rámové bednění s vysokou únosností",
+      "Ošetřování": "Vlhčení a nástřik protiodparovacích emulzí"
+    },
+    "procedure": "Přesné vytyčení stavby geodetem, zemní výkopy, štěrkový podsyp s hutněním na Edef2, uložení ležaté kanalizace a chrániček, položení hydroizolace, armování a betonáž pumpou.",
+    "image": "assets/tech-stavba-monolit.svg"
+  },
+  {
+    "id": "tech-stavba-zdivo",
+    "name": "Přesné zdění nosných a výplňových konstrukcí",
+    "category": "stavba",
+    "category_cz": "Pozemní stavby",
+    "norm": "ČSN EN 1996-1-1",
+    "badge": "Tepelně-izolační a akustické zdivo",
+    "description": "Zdění z broušených keramických bloků (Porotherm, Heluz), vápenopískových cihel i pórobetonových tvárnic (Ytong) na tenkovrstvou maltu či PUR pěnu.",
+    "params": {
+      "Tloušťka ložné spáry": "1 – 3 mm (broušené tvarovky)",
+      "Pevnost zdicích prvků v tlaku": "P10 – P25 MPa",
+      "Akustický útlum": "Rw až 56 dB u vápenopískových mezibytových příček",
+      "Kotvení příček": "Nerezové stěnové spony v každé druhé ložné spáře",
+      "Řešení překladů": "Systémové nosné keramické i ploché spřažené překlady",
+      "Rychlost výstavby": "Rychlá montáž bez technologických prodlev"
+    },
+    "procedure": "Založení první řady na zakládací maltu nivelační soupravou s přesností do 1 mm, nanášení tenkovrstvého lepidla nanášecím válcem a vazba rohových i křížících se stěn.",
+    "image": "assets/tech-stavba-zdivo.svg"
+  },
+  {
+    "id": "tech-dokonceni-sdk",
+    "name": "Suchá výstavba a protipožární SDK konstrukce",
+    "category": "dokonceni",
+    "category_cz": "Suchá výstavba",
+    "norm": "ČSN EN 520",
+    "badge": "Certifikovaná požární odolnost",
+    "description": "Montáž sádrokartonových podhledů, předsazených stěn a akustických i protipožárních mezibytových a dělicích příček (Knauf, Rigips) s certifikovanou odolností.",
+    "params": {
+      "Požární odolnost": "EI 15 až EI 90 DP1",
+      "Typy desek": "GKB (standard), GKBi (impregnovaná), GKF (protipožární)",
+      "Vzduchová neprůzvučnost": "Rw = 48 – 62 dB dle skladby a minerální výplně",
+      "Tmelení spár": "Kvalitativní třídy Q1 až Q4 s výztužnou páskou",
+      "Ocelový rošt": "Tenkostěnné pozinkované profily CW a UW 50/75/100",
+      "Certifikace montáže": "Osvědčení pro montáž protipožárních konstrukcí"
+    },
+    "procedure": "Osazení obvodových profilů s tlumicí páskou, rozteč stojin 625 mm, vložení minerální akustické izolace, opláštění systémovými deskami a tmelení spár v požadované třídě Q.",
+    "image": "assets/tech-dokonceni-sdk.svg"
+  }
+]
