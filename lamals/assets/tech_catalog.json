@@ -1,0 +1,116 @@
+[
+  {
+    "id": "komplexni-it-sprava",
+    "title": "Komplexní správa firemní IT infrastruktury",
+    "category": "infrastruktura",
+    "category_name": "Správa infrastruktury",
+    "image": "assets/banner02.jpg",
+    "description": "Kompletní outsourcing správy výpočetní techniky, serverů, síťových prvků a periférií pro firmy a instituce. Zahrnuje pravidelnou profylaxi, dohled 24/7, zálohování dat a garanci reakční doby SLA.",
+    "specs": {
+      "Služby": "Servery (Windows/Linux), pracovní stanice, VPN, firewally, aktivní prvky",
+      "Zálohování": "Automatizované zálohy do cloudu i lokálních NAS úložišť",
+      "Podpora": "Helpdesk, vzdálená asistence přes TeamViewer, zásahy on-site",
+      "Garance": "Smlouva SLA s garantovanou dobou zásahu od 2 hodin"
+    },
+    "advantages": [
+      "Více než 30 let zkušeností v IT servisu od roku 1991",
+      "Výrazná úspora mzdových nákladů oproti vlastnímu IT oddělení",
+      "Proaktivní monitoring zabraňující výpadkům před jejich vznikem"
+    ]
+  },
+  {
+    "id": "zarucni-pozaucni-servis",
+    "title": "Záruční a pozáruční servis PC a periferií",
+    "category": "servis",
+    "category_name": "Servis a opravy",
+    "image": "assets/hpImg01.jpg",
+    "description": "Autorizovaný a specializovaný servis počítačů, notebooků, tiskáren a multifunkčních zařízení všech předních značek (HP, Dell, Lenovo, Canon, Epson). Pro zákazníky z Prahy zajišťujeme svoz a servis v místě instalace zdarma.",
+    "specs": {
+      "Opravy": "Výměny základních desek, displejů, zdrojů, pamětí, disků",
+      "Zrychlení": "Klonování a upgrade na rychlé NVMe SSD disky",
+      "Čištění": "Ultrazvukové čištění tiskových hlav, přepastování procesorů",
+      "Svoz": "Vlastní kurýrní svoz v rámci celé Prahy"
+    },
+    "advantages": [
+      "Záruční servis vybraných zařízení přímo u zákazníka zdarma",
+      "Použití výhradně originálních náhradních dílů",
+      "Rychlá diagnostika závady do 24 hodin"
+    ]
+  },
+  {
+    "id": "sitova-infrastruktura",
+    "title": "Návrh a realizace strukturované kabeláže a sítí",
+    "category": "infrastruktura",
+    "category_name": "Správa infrastruktury",
+    "image": "assets/banner03.jpg",
+    "description": "Projektování, instalace a certifikační měření metalických i optických počítačových sítí Cat5e, Cat6, Cat6A a Cat7, instalace serverových racků a profesionální pokrytí Wi-Fi signálem.",
+    "specs": {
+      "Kategorie": "Strukturovaná kabeláž Cat5e až Cat7A, optické trasy",
+      "Komponenty": "Rackové skříně, patch panely, UPS záložní zdroje",
+      "Wi-Fi systémy": "Centrálně řízené mesh sítě Ubiquiti UniFi / Cisco / Aruba",
+      "Měření": "Protokol o certifikačním měření útlumu a přeslechů"
+    },
+    "advantages": [
+      "Certifikovaná instalace s dlouhodobou garancí propustnosti",
+      "Přehledné vyvázání a označení každého portu v datovém rozvaděči",
+      "Bezpečné oddělení návštěvnické Wi-Fi od interní podnikové sítě"
+    ]
+  },
+  {
+    "id": "dodavka-hardware",
+    "title": "Prodej a konfigurace firemního hardwaru a licencí",
+    "category": "prodej",
+    "category_name": "Prodej a licence",
+    "image": "assets/img_2.jpg",
+    "description": "Dodávky prověřených značkových počítačů, serverů, monitorů a kancelářské techniky na míru firemním požadavkům včetně instalace operačních systémů, bezpečnostního softwaru a Microsoft 365.",
+    "specs": {
+      "Značky": "HP Partner, Dell Authorized Reseller, Lenovo Business Partner",
+      "Software": "Microsoft 365, Windows Server, ESET Security, Adobe",
+      "Příprava": "Kompletní předinstalace a přenesení uživatelských dat z původního PC",
+      "Financování": "Možnost nákupu na fakturu s odloženou splatností pro stálé klienty"
+    },
+    "advantages": [
+      "Zařízení dorazí plně nakonfigurované a připravené k okamžité práci",
+      "Optimalizace licenčních nákladů Microsoft 365",
+      "Prodloužená on-site záruka NBD (Next Business Day) až na 5 let"
+    ]
+  },
+  {
+    "id": "kyberneticka-bezpecnost",
+    "title": "Zabezpečení dat, antivirová ochrana a zálohování",
+    "category": "bezpecnost",
+    "category_name": "Bezpečnost dat",
+    "image": "assets/img_5.jpg",
+    "description": "Komplexní audit kybernetické bezpečnosti, nasazení šifrování, vícefaktorového ověřování (MFA), ochrana proti ransomwaru a nastavení nezávislých diskových polí a bezpečných offline záloh.",
+    "specs": {
+      "Ochrana koncových bodů": "ESET Endpoint Security / Microsoft Defender for Business",
+      "Firewally": "Hardwarové UTM brány Fortinet / Sophos / Mikrotik",
+      "Šifrování": "BitLocker šifrování disků přenosných počítačů",
+      "Zálohovací strategie": "Pravidlo 3-2-1 (tři kopie, dvě média, jedna mimo firmu)"
+    },
+    "advantages": [
+      "100% ochrana proti zašifrování dat vyděračským softwarem",
+      "Okamžitá obnova systémů po případné hardwarové havárii",
+      "Splnění legislativních požadavků GDPR a zákona o kybernetické bezpečnosti"
+    ]
+  },
+  {
+    "id": "vzdalena-podpora",
+    "title": "Okamžitá vzdálená podpora přes TeamViewer",
+    "category": "servis",
+    "category_name": "Servis a opravy",
+    "image": "assets/img_12.jpg",
+    "description": "Okamžité řešení běžných uživatelských potíží, chyb v softwaru, konfigurace pošty či tiskáren bez nutnosti čekat na příjezd technika prostřednictvím zabezpečeného šifrovaného spojení.",
+    "specs": {
+      "Software": "TeamViewer Corporate s 256bitovým AES šifrováním",
+      "Dostupnost": "Pracovní dny 8:00 – 17:00 (pro SLA klienty nonstop)",
+      "Doba odezvy": "Do 15 minut od nahlášení požadavku",
+      "Fakturace": "Přesné účtování po minutách nebo v rámci měsíčního balíčku"
+    },
+    "advantages": [
+      "Uživatel nemusí nikam jezdit ani čekat na výjezd technika",
+      "Bezpečné spojení pod plnou vizuální kontrolou uživatele",
+      "Vyřešení 85 % běžných softwarových potíží na první zavolání"
+    ]
+  }
+]

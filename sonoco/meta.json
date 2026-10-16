@@ -1,0 +1,42 @@
+{
+  "slug": "sonoco",
+  "firma": "SONOCO s.r.o.",
+  "ico": "07957777",
+  "obec": "Praha 1",
+  "okres": "Hlavní město Praha",
+  "kraj": "Hlavní město Praha",
+  "obor_plny": "Výroba a dodávka vertikálních větrných turbín a průmyslových technologií",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://sonoco.cz/",
+  "email": "havlin@sonoco.cz",
+  "prodejni_body": [
+    "Vertikální větrné turbíny 600 W až 15 kW s tichým chodem",
+    "Hybridní systémy větrné a solární energie s bateriovým úložištěm",
+    "Bezkontaktní průmyslové laserové čištění kovů bez chemie"
+  ],
+  "vady_stareho_webu": [
+    "Chybí responzivita pro mobily – web je fixní a na telefonech se musí neustále zoomovat",
+    "Nezabezpečené spojení pouze přes zastaralý HTTP protokol bez šifrování",
+    "Archaický tabulkový layout z počátku tisíciletí bránící vyhledávačům",
+    "Nefunkční odkazy a chybějící interaktivní konfigurátor výkonu"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní vizuální archetyp Editorial & Story s velkoformátovou fotodokumentací",
+    "Interaktivní kalkulátor roční výroby energie a úspor dle rychlosti větru",
+    "Kompletní technický katalog turbín s modálními detaily a parametry",
+    "Plně responzivní layout optimalizovaný pro chytré telefony a tablety",
+    "Integrovaná mapa Mapy.cz s přesným červeným špendlíkem dle katastru RÚIAN",
+    "Přímá poptávková lišta pro okamžité zaslání technické specifikace"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2019,
+    "vykon_rozsah": "600 W až 15 kW",
+    "nabihaci_rychlost": "od 1,5 m/s",
+    "technologie": [
+      "Vertikální osa rotace",
+      "PMG generátory",
+      "Hybridní střídače",
+      "Vláknový laser"
+    ]
+  }
+}

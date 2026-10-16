@@ -1,0 +1,47 @@
+{
+  "slug": "lamals",
+  "firma": "LAMALS a.s.",
+  "ico": "00147303",
+  "obec": "Praha 3 - Žižkov",
+  "okres": "Hlavní město Praha",
+  "kraj": "Hlavní město Praha",
+  "obor_plny": "Komplexní správa, údržba a servis výpočetní a kancelářské techniky",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://lamals.cz/",
+  "email": "info@lamals.cz",
+  "prodejni_body": [
+    "Více než 30 let prověřených zkušeností na trhu IT služeb od roku 1991",
+    "Záruční i pozáruční servis počítačů a tiskáren s možností bezplatného svozu",
+    "Špičkové reference: Národní filmový archiv, Městská knihovna, OS Kovo"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez šifrování – prohlížeče hlásí bezpečnostní varování",
+    "Chybí meta viewport – web není responzivní a na telefonech je nutné horizontální scrollování",
+    "Zastaralý redakční systém z roku 2013 s neaktuální strukturou obsahu",
+    "Kontaktní formulář postavený na zastaralých JavaScriptových pop-upech z minulého desetiletí"
+  ],
+  "vylepseni_noveho_webu": [
+    "Čistý a elegantní designový archetyp Swiss Bento Grid s asymetrickým rozvržením",
+    "Interaktivní rozcestník IT potíží s rychlým vyhledáváním a filtrem služeb",
+    "Kompletní katalog servisních služeb s detailními modálními okny bez ořezu textů",
+    "Plná mobilní optimalizace s nulovým přetečením (0px overflow na 360px)",
+    "Interaktivní modul pro okamžité spuštění vzdálené podpory TeamViewer",
+    "Přesný Mapy.cz špendlík ověřený přes katastrální data RÚIAN na Žižkově"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1991,
+    "zkusenosti_let": 35,
+    "klicove_reference": [
+      "Národní filmový archiv",
+      "Městská knihovna v Praze",
+      "Odborový svaz Kovo",
+      "TREND technologie",
+      "Dialab"
+    ],
+    "sluzby_pocet": 6,
+    "vedeni": [
+      "Jan Roháček",
+      "Vladimír Kurák"
+    ]
+  }
+}

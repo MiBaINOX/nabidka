@@ -1,0 +1,45 @@
+{
+  "slug": "windowmont",
+  "firma": "WindowMont s.r.o.",
+  "ico": "03500748",
+  "obec": "Praha 9 - Běchovice",
+  "okres": "Hlavní město Praha",
+  "kraj": "Hlavní město Praha",
+  "obor_plny": "Montáže hliníkových konstrukcí, oken, fasád a pronájem minijeřábu UNIC URW-295",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://windowmont.cz/",
+  "email": "info@windowmont.cz",
+  "prodejni_body": [
+    "Vlastní kompaktní minijeřáb UNIC URW-295 s elektrickým i dieselovým pohonem",
+    "Odborná montáž hliníkových fasád a prosklených plášťů budov",
+    "Kompletní servis, přesklení a nezávislý technický dozor oken"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez šifrování – prohlížeče varují před návštěvou",
+    "Zastaralý redakční systém Joomla s pomalým načítáním a bezpečnostními riziky",
+    "Technické diagramy a tabulky nosností minijeřábu jsou na mobilu nečitelné",
+    "Chybí moderní interaktivní poptávkový formulář pro kalkulaci zapůjčení stroje"
+  ],
+  "vylepseni_noveho_webu": [
+    "High-tech designový archetyp Tech & Precision s interaktivními přepínacími taby",
+    "Interaktivní kalkulátor dosahu a nosnosti minijeřábu UNIC URW-295",
+    "Plný technický katalog služeb s detailními modálními okny bez ořezu obsahu",
+    "100% responzivní mobilní zobrazení s nulovým přetečením (0px overflow)",
+    "Oficiální Mapy.cz špendlík ověřený přes RÚIAN v areálu Podnikatelská v Běchovicích",
+    "Optimalizované načítání fotografií s moderními hover efekty a plynulými přechody"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2014,
+    "stroje": [
+      "Minijeřáb UNIC URW-295",
+      "Vakuové savky",
+      "Montážní plošiny"
+    ],
+    "max_nosnost_jerabu": "2 900 kg",
+    "max_dosah": "8,41 m",
+    "jednatele": [
+      "Jiří Sýkora",
+      "Zdeněk Lefner"
+    ]
+  }
+}

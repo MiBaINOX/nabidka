@@ -1,0 +1,117 @@
+[
+  {
+    "id": "minijerab-unic",
+    "title": "Pronájem minijeřábu UNIC URW-295 s obsluhou",
+    "category": "jeraby",
+    "category_name": "Minijeřáby a technika",
+    "image": "assets/minijerab.jpg",
+    "description": "Kompaktní pásový minijeřáb UNIC URW-295 o šířce pouhých 600 mm, umožňující průjezd standardními dveřmi a montáže v interiérech, atriích i těžce přístupném terénu s vakuovými přísavkami pro sklo.",
+    "specs": {
+      "Maximální nosnost": "2 900 kg při vyložení 1,4 m",
+      "Maximální pracovní dosah": "8,41 m",
+      "Maximální výška zdvihu": "8,8 m (s krakorcem 9,8 m)",
+      "Šířka stroje": "600 mm (průjezd běžnými dveřmi)",
+      "Pohon": "Duální (dieselový motor + tichý elektromotor na 380 V)",
+      "Hmotnost stroje": "1 850 kg"
+    },
+    "advantages": [
+      "Ideální pro přesné zasklívání velkoformátových skel s vakuovými manipulátory",
+      "Možnost práce v uzavřených prostorách bez zplodin na elektrický pohon",
+      "Patky s variabilním nastavením pro práci na schodištích a nerovném povrchu"
+    ]
+  },
+  {
+    "id": "hlinikove-konstrukce",
+    "title": "Montáže hliníkových fasád a konstrukcí",
+    "category": "montaze",
+    "category_name": "Montážní práce",
+    "image": "assets/CentralnidepozitarUPM-I.jpg",
+    "description": "Profesionální montáže sloupko-příčkových hliníkových fasád, prosklených plášťů budov, strukturálních fasád, střešních světlíků a hliníkových protipožárních uzávěrů.",
+    "specs": {
+      "Profily": "Schüco, Reynaers, Wicona, Aluprof, Cortizo",
+      "Typy objektů": "Administrativní budovy, centrální depozitáře, obchodní centra",
+      "Vybavení": "Vlastní vakuové savky, minijeřáb, montážní lešení",
+      "Normy": "ČSN EN 13830 (Zavěšené stěny)"
+    },
+    "advantages": [
+      "Desítky referenčních velkých staveb (např. Centrální depozitář UPM)",
+      "Certifikovaní montážníci proškolení předními výrobci profilů",
+      "Kompletní záruka na těsnost a montážní práce"
+    ]
+  },
+  {
+    "id": "drevena-okna",
+    "title": "Montáž dřevěných oken a eurooken",
+    "category": "okna",
+    "category_name": "Okenní systémy",
+    "image": "assets/trutnovII.jpg",
+    "description": "Odborná montáž dřevěných eurooken профиlu IV78/IV92 a dřevohliníkových oken pro novostavby, pasivní domy a historické rekonstrukce dle ČSN 74 6077.",
+    "specs": {
+      "Materiál": "Vícelamelový lepený hranol (smrk, borovice, dub, meranti)",
+      "Těsnění připojovací spáry": "Parotěsné a difuzní pásky (Illbruck / Soudal)",
+      "Zasklení": "Izolační trojskla s Ug až 0,5 W/m²K",
+      "Kování": "Celoobvodové bezpečnostní kování s mikroventilací"
+    },
+    "advantages": [
+      "Přísné dodržení montážní normy ČSN 74 6077 zaručující nulovou tvorbu plísní",
+      "Precizní seřízení chodu křídel a kontrola přítlaků",
+      "Dlouholetá životnost a zachování izolačních vlastností"
+    ]
+  },
+  {
+    "id": "plastova-okna",
+    "title": "Montáž a výměna plastových oken",
+    "category": "okna",
+    "category_name": "Okenní systémy",
+    "image": "assets/HornomecholupskaII.jpg",
+    "description": "Kompletní dodávka a montáž plastových vícekomorových oken pro bytové domy, komerční objekty a developerské projekty včetně zednického začištění.",
+    "specs": {
+      "Profily": "5 až 7komorové profily třídy A",
+      "Třída profilu": "ČSN EN 12608 třída A (stěny 3,0 mm)",
+      "Zednické začištění": "Kompletní vnitřní i venkovní štukové začištění",
+      "Příslušenství": "Vnitřní a venkovní parapety, sítě proti hmyzu, žaluzie"
+    },
+    "advantages": [
+      "Rychlá a čistá výměna oken v obydlených bytech",
+      "Certifikovaná ekologická recyklace a odvoz starých oken",
+      "Vynikající poměr tepelné izolace a investičních nákladů"
+    ]
+  },
+  {
+    "id": "servis-oken",
+    "title": "Servis, opravy a seřízení oken a dveří",
+    "category": "servis",
+    "category_name": "Servis a revize",
+    "image": "assets/1.jpg",
+    "description": "Pravidelný záruční i pozáruční servis všech typů plastových, hliníkových a dřevěných oken, výměna prasklých skel, výměna těsnění a renovace kování.",
+    "specs": {
+      "Rozsah": "Seřízení přítlaku, promazání převodů, výměna poškozených dílů kování",
+      "Těsnění": "Výměna zpuchřelého pryžového těsnění za silikonové",
+      "Opravy skel": "Přesklení izolačními dvojskly / trojskly",
+      "Dojezd": "Praha a celá ČR"
+    },
+    "advantages": [
+      "Okamžité odstranění profukování a zatékání",
+      "Úspora nákladů na vytápění díky správnému přítlaku křídla",
+      "Výrazné prodloužení životnosti původních výplní otvorů"
+    ]
+  },
+  {
+    "id": "stavebni-dozor",
+    "title": "Technický stavební dozor a posudky výplní otvorů",
+    "category": "servis",
+    "category_name": "Servis a revize",
+    "image": "assets/diagramzatentr.png",
+    "description": "Nezávislá kontrola kvality montáže oken a fasád na stavbách, kontrola parotěsného napojení, posuzování reklamací a přejímky díla od dodavatelů.",
+    "specs": {
+      "Kontrolní metodika": "Kontrola dle ČSN 74 6077 a technologických předpisů",
+      "Výstup": "Podrobný kontrolní protokol s fotodokumentací vad",
+      "Oprávnění": "Autorizovaný technik / dozor"
+    },
+    "advantages": [
+      "Ochrana investora před skrytými vadami a budoucím vlhnutím izolací",
+      "Objektivní kontrola dodržení předepsaných technologických postupů",
+      "Právní opora při uplatňování reklamací u dodavatelů oken"
+    ]
+  }
+]

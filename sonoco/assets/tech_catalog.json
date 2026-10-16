@@ -1,0 +1,121 @@
+[
+  {
+    "id": "turbina-h-10-15",
+    "title": "Vertikální větrná turbína typ H (10 kW / 15 kW)",
+    "category": "prumyslove",
+    "category_name": "Průmyslové turbíny",
+    "image": "assets/turbina2hybrid.jpg",
+    "description": "Průmyslová vertikální větrná turbína typu H pro firemní areály, výrobní závody a komerční objekty. Vyznačuje se tichým chodem, rozběhem již od 1.5 m/s a generátorem s permanentními magnety.",
+    "specs": {
+      "Jmenovitý výkon": "10 000 W / 15 000 W",
+      "Náběhová rychlost větru": "1,5 m/s",
+      "Jmenovitá rychlost větru": "11 m/s",
+      "Maximální bezpečná rychlost": "45 m/s",
+      "Typ generátoru": "Třífázový s permanentními magnety (PMG)",
+      "Hlučnost": "< 35 dB (extrémně tichý provoz)"
+    },
+    "advantages": [
+      "Nezávislost na směru větru díky vertikální ose rotace",
+      "Minimální nároky na údržbu a dlouhá životnost ložisek",
+      "Bezpečný provoz pro ptactvo i v hustší zástavbě"
+    ]
+  },
+  {
+    "id": "turbina-x-2-3",
+    "title": "Vertikální větrná turbína typ X (2 kW / 3 kW)",
+    "category": "domovni",
+    "category_name": "Domovní a menší objekty",
+    "image": "assets/turbinaX9.jpg",
+    "description": "Vysoce aerodynamická vertikální větrná turbína s X-profilem lopatek pro rodinné domy, penziony, farmy a menší provozovny. Odolná vůči silným poryvům větru a turbulencím.",
+    "specs": {
+      "Jmenovitý výkon": "2 000 W / 3 000 W",
+      "Náběhová rychlost větru": "1,8 m/s",
+      "Jmenovitá rychlost větru": "10,5 m/s",
+      "Bezpečná rychlost větru": "50 m/s",
+      "Materiál lopatek": "Hliníková slitina / kompozit",
+      "Napětí systému": "48 V / 96 V / 230 V"
+    },
+    "advantages": [
+      "Kompaktní půdorys vhodný i na ploché střechy a sloupy",
+      "Okamžitá reakce na slabý i proměnlivý vítr",
+      "Elegantní moderní vzhled"
+    ]
+  },
+  {
+    "id": "turbina-hybrid-5-7",
+    "title": "Hybridní větrný systém (5 kW / 6 kW / 7 kW)",
+    "category": "hybridni",
+    "category_name": "Hybridní systémy",
+    "image": "assets/turbina3hybrid.jpg",
+    "description": "Komplexní hybridní energetické řešení kombinující vertikální větrnou turbínu, fotovoltaické panely a akumulační bateriové úložiště pro celoroční energetickou soběstačnost.",
+    "specs": {
+      "Výkon turbíny": "5 000 W – 7 000 W",
+      "Podpora fotovoltaiky": "Až 10 kWp FV pole",
+      "Akumulace": "LiFePO4 bateriový blok",
+      "Inteligentní střídač": "Hybridní on-grid / off-grid měnič",
+      "Monitorovací rozhraní": "Mobilní a webová aplikace"
+    },
+    "advantages": [
+      "Výroba elektřiny ve dne i v noci a zejména v zimním období",
+      "Vyhlazování výkonových špiček a plná záloha při výpadku sítě",
+      "Modulární rozšiřitelnost podle energetických nároků"
+    ]
+  },
+  {
+    "id": "turbina-tulip-600",
+    "title": "Vertikální turbína TULIP (600 W / 1 000 W)",
+    "category": "domovni",
+    "category_name": "Domovní a menší objekty",
+    "image": "assets/tulip8.jpg",
+    "description": "Designová mikroturbína ve tvaru tulipánu pro zahradní architekturu, chalupy, ostrovní systémy a dobíjecí stanice. Tichá, ekologická a vizuálně atraktivní.",
+    "specs": {
+      "Jmenovitý výkon": "600 W / 1 000 W",
+      "Náběh": "1,3 m/s",
+      "Výška rotoru": "1 600 mm",
+      "Hmotnost": "38 kg",
+      "Provozní teplota": "-40 °C až +60 °C"
+    },
+    "advantages": [
+      "Bezpečná pro obytné zóny a zahrady",
+      "Nulová světelná a stroboskopická zátěž",
+      "Jednoduchá instalace na stožár nebo zídku"
+    ]
+  },
+  {
+    "id": "laserove-cisteni",
+    "title": "Průmyslové laserové čištění kovů a konstrukcí",
+    "category": "technologie",
+    "category_name": "Průmyslové technologie",
+    "image": "assets/bouraci1.jpg",
+    "description": "Vysoce účinné bezkontaktní laserové odstraňování rzi, mastnoty, starých laků, oxidů a nečistot ze strojních součástí a kovových konstrukcí bez poškození základního materiálu.",
+    "specs": {
+      "Technologie": "Pulzní vláknový průmyslový laser",
+      "Přesnost": "Mikrometrické selektivní čištění",
+      "Využití": "Formy, hřídele, svary, historické konstrukce",
+      "Ekologie": "100% bez chemikálií a abraziva"
+    },
+    "advantages": [
+      "Žádné mechanické obrušování podkladového kovu",
+      "Okamžitá připravenost povrchu pro další nátěr či svařování",
+      "Minimální odpad a bezpečný bezprašný provoz"
+    ]
+  },
+  {
+    "id": "bouraci-stavebni",
+    "title": "Specializované stavební a bourací práce",
+    "category": "technologie",
+    "category_name": "Průmyslové technologie",
+    "image": "assets/bouraci2.jpg",
+    "description": "Kompletní demoliční, řezací a stavební přípravné práce pro instalace průmyslových technologií, základových patek stožárů a stavebních jam.",
+    "specs": {
+      "Rozsah": "Průmyslové demolice, řezání betonu, úpravy areálů",
+      "Technika": "Těžká i kompaktní mechanizace",
+      "Likvidace": "Certifikovaný odvoz a recyklace suti"
+    },
+    "advantages": [
+      "Komplexní realizace od demolice po montáž technologie",
+      "Přísné dodržování BOZP a požárních předpisů",
+      "Zkušený realizační tým s platnou certifikací"
+    ]
+  }
+]
