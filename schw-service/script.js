@@ -174,10 +174,35 @@ const translations = {
         hero_point2_desc: "Soustružení, vrtání, závitování i frézování v jednom upnutí",
         hero_btn_mach: "Parametry strojního parku",
         hero_btn_parts: "Katalog dílů",
-        sec_story_sub: "HISTORICKÝ PŘÍBĚH SPOLEČNOSTI",
-        sec_story_title: "OD AUTOKROSOVÉ DÍLNY K DODÁVKÁM PRO MEZINÁRODNÍ KONCERNY",
-        sec_mach_sub: "HIGH-END TECHNOLOGIE",
-        sec_mach_title: "ŠPIČKOVÝ STROJNÍ PARK MORI SEIKI & HYUNDAI",
+        stat1_sub: "Rok zahájení praxe",
+        stat1_desc: "Vznik dílny a start závodních licencí",
+        stat2_sub: "Klíčových CNC center",
+        stat2_desc: "Mori Seiki, Hyundai a DMG 5-osé centrum",
+        stat3_sub: "Výstupní kontrola jakosti",
+        stat3_desc: "Kalibrované měřicí pracoviště a protokoly",
+        stat4_sub: "Tepelné zpracování",
+        stat4_desc: "Popouštěcí pec PP 270/65 s Ht200 přímo v provozu",
+        sec_story_sub: "PŘÍBĚH ZAKLADATELE & HISTORIE SPOLEČNOSTI",
+        sec_story_title: "OD ZÁVODNÍHO AUTOKROSU K <span>ŠPIČKOVÉMU CNC OBRÁBĚNÍ</span>",
+        story_quote: "\"Na začátku byl sen stát se automobilovým závodníkem. V roce 1994 jsem získal mezinárodní licenci jezdce v autokrosu (divize D1600 Nová Paka). Bylo zřejmé, že bez špičkové dílny a soustruhu to nepůjde. A tak jsme v roce 1994 pořídili první manuální soustruh. Po čase první řízený a dále první frézovací centrum.\"",
+        story_author_role: "Zakladatel a jednatel S.CH.W. SERVICE, s.r.o.",
+        t1994_title: "Založení dílny v Hanušovicích",
+        t1994_desc: "Pořízení prvního manuálního soustruhu pro stavbu závodních speciálů a postupné zahájení zakázkové výroby dílů.",
+        t2006_title: "Transformace na S.CH.W. SERVICE s.r.o.",
+        t2006_desc: "Formální zápis společnosti, nákup prvních moderních CNC soustruhů a expanze výrobních kapacit pro strojírenství.",
+        t2013_title: "Masivní technologická stabilizace a inovace",
+        t2013_desc: "Kompletní modernizace výrobních systémů, instalace víceosých center Mori Seiki a specializace na náročné nerezové materiály.",
+        tnow_title: "Stabilní dodavatel pro lídry českého i evropského průmyslu",
+        tnow_desc: "Desítky tisíc vyrobených přesných komponentů ročně s přenosem taveb materiálu a trvalá podpora mladých talentů v kartingu.",
+        hall_caption: "Hlavní výrobní hala S.CH.W. SERVICE v Hanušovicích",
+        cam_desc: "Veškerou přípravu a simulaci 3D obrábění realizujeme v profesionálním prostředí <strong>GibbsCAM</strong> s přímým generováním G-kódů pro řídicí systémy Siemens 840D a Mori Seiki M730BM.",
+        sec_mach_sub: "TECHNICKÁ DOKUMENTACE STROJŮ",
+        sec_mach_title: "STROJNÍ PARK <span>S.CH.W. SERVICE</span>",
+        sec_mach_lead: "Pracujeme výhradně na prověřených japonských a korejských CNC strojích nejvyšší tuhosti s vnitřním chlazením vřetena a aktivním odměřováním.",
+        mtab_all: "Všechny stroje (8)",
+        mtab_mori: "Mori Seiki (3)",
+        mtab_mill: "5-osá & Frézky (2)",
+        mtab_hyu: "Hyundai & Ostatní (3)",
         sec_contact_sub: "SPOJTE SE S NÁMI",
         sec_contact_title: "POPTÁVKA CNC VÝROBY A KONTAKTNÍ MÍSTO",
         form_submit: "Odeslat poptávku jednateli"
@@ -200,10 +225,35 @@ const translations = {
         hero_point2_desc: "Turning, drilling, tapping and milling in a single clamping setup",
         hero_btn_mach: "Machinery Specifications",
         hero_btn_parts: "Parts Catalog",
+        stat1_sub: "Year Established",
+        stat1_desc: "Founding of the workshop and racing engineering",
+        stat2_sub: "Core CNC Centers",
+        stat2_desc: "Mori Seiki, Hyundai and DMG 5-axis machining centers",
+        stat3_sub: "Final Quality Inspection",
+        stat3_desc: "Calibrated metrology laboratory and QA reports",
+        stat4_sub: "In-House Heat Treatment",
+        stat4_desc: "Tempering furnace PP 270/65 with Ht200 controller on site",
         sec_story_sub: "COMPANY STORY & HERITAGE",
-        sec_story_title: "FROM RACING WORKSHOP TO GLOBAL INDUSTRIAL CLIENTS",
-        sec_mach_sub: "HIGH-END TECHNOLOGY",
-        sec_mach_title: "PREMIUM MORI SEIKI & HYUNDAI CNC MACHINERY",
+        sec_story_title: "FROM RACING WORKSHOP TO <span>PRECISION CNC ENGINEERING</span>",
+        story_quote: "\"It began with a dream to become a racing driver. In 1994 I obtained an international autocross license (D1600 division Nová Paka). It was clear that without a top workshop and lathe it wouldn't be possible. So in 1994 we acquired our first manual lathe, followed by CNC turning and milling centers.\"",
+        story_author_role: "Founder & Managing Director, S.CH.W. SERVICE, s.r.o.",
+        t1994_title: "Workshop Founded in Hanušovice",
+        t1994_desc: "Acquisition of the first manual lathe for racing specials and start of custom component manufacturing.",
+        t2006_title: "Incorporation of S.CH.W. SERVICE s.r.o.",
+        t2006_desc: "Official registration, investment in modern CNC lathes and expansion of engineering production capacities.",
+        t2013_title: "Major Technological Upgrade",
+        t2013_desc: "Comprehensive modernization of production systems, installation of multi-axis Mori Seiki centers and stainless steel specialization.",
+        tnow_title: "Trusted Supplier for European Industrial Leaders",
+        tnow_desc: "Tens of thousands of precision parts produced annually with full heat melt traceability and support for young karting talents.",
+        hall_caption: "Main CNC Production Hall of S.CH.W. SERVICE in Hanušovice",
+        cam_desc: "All 3D toolpath preparation and simulation is performed in <strong>GibbsCAM</strong> with direct post-processing for Siemens 840D and Mori Seiki M730BM controls.",
+        sec_mach_sub: "TECHNICAL MACHINE SPECIFICATIONS",
+        sec_mach_title: "CNC MACHINE FLEET <span>S.CH.W. SERVICE</span>",
+        sec_mach_lead: "We operate exclusively proven Japanese and Korean high-rigidity CNC machines with through-spindle coolant and active probing.",
+        mtab_all: "All Machines (8)",
+        mtab_mori: "Mori Seiki (3)",
+        mtab_mill: "5-Axis & Milling (2)",
+        mtab_hyu: "Hyundai & Other (3)",
         sec_contact_sub: "GET IN TOUCH",
         sec_contact_title: "CNC PRODUCTION INQUIRY & CONTACT POINT",
         form_submit: "Send RFQ to Management"
@@ -226,10 +276,35 @@ const translations = {
         hero_point2_desc: "Drehen, Bohren, Gewinden und Fräsen in einer einzigen Aufspannung",
         hero_btn_mach: "Maschinenpark-Parameter",
         hero_btn_parts: "Teilekatalog",
+        stat1_sub: "Gründungsjahr",
+        stat1_desc: "Werkstattgründung und Start im Rennsport",
+        stat2_sub: "CNC-Bearbeitungszentren",
+        stat2_desc: "Mori Seiki, Hyundai und DMG 5-Achs-Zentrum",
+        stat3_sub: "Endkontrolle & QS",
+        stat3_desc: "Kalibrierter Messraum und Prüfprotokolle",
+        stat4_sub: "Wärmebehandlung",
+        stat4_desc: "Anlassofen PP 270/65 mit Ht200 direkt im Werk",
         sec_story_sub: "UNTERNEHMENSGESCHICHTE",
-        sec_story_title: "VOM AUTOCROSS-BETRIEB ZUM GLOBALEN INDUSTRIELIEFERANTEN",
-        sec_mach_sub: "HIGH-END TECHNOLOGIE",
-        sec_mach_title: "HOCHMODERNER MASCHINENPARK MORI SEIKI & HYUNDAI",
+        sec_story_title: "VOM AUTOCROSS-BETRIEB ZUR <span>SPITZEN-CNC-ZERSPANUNG</span>",
+        story_quote: "\"Am Anfang stand der Traum vom Motorsport. 1994 erhielt ich die internationale Autocross-Lizenz (Division D1600 Nová Paka). Ohne eigene Werkstatt und Drehmaschine ging es nicht. So kauften wir 1994 die erste konventionelle Drehmaschine, später CNC-Dreh- und Fräszentren.\"",
+        story_author_role: "Gründer & Geschäftsführer, S.CH.W. SERVICE, s.r.o.",
+        t1994_title: "Werkstattgründung in Hanušovice",
+        t1994_desc: "Anschaffung der ersten Drehmaschine für Rennfahrzeuge und Beginn der Lohnfertigung.",
+        t2006_title: "Gründung der S.CH.W. SERVICE s.r.o.",
+        t2006_desc: "Handelsregistereintragung, Kauf moderner CNC-Drehmaschinen und Ausbau der Fertigungskapazitäten.",
+        t2013_title: "Technologische Modernisierung",
+        t2013_desc: "Installation mehrachsiger Mori Seiki Dreh-Fräszentren und Spezialisierung auf hochlegierte Edelstähle.",
+        tnow_title: "Zuverlässiger Partner der europäischen Industrie",
+        tnow_desc: "Zehntausende Präzisionsteile jährlich mit Schmelzenrückverfolgbarkeit sowie Nachwuchsförderung im Kartsport.",
+        hall_caption: "Haupthalle der CNC-Fertigung S.CH.W. SERVICE in Hanušovice",
+        cam_desc: "Die gesamte 3D-Programmierung und Simulation erfolgt in <strong>GibbsCAM</strong> für Siemens 840D und Mori Seiki M730BM Steuerungen.",
+        sec_mach_sub: "TECHNISCHE DOKUMENTATION",
+        sec_mach_title: "MASCHINENPARK <span>S.CH.W. SERVICE</span>",
+        sec_mach_lead: "Wir arbeiten ausschließlich auf hochsteifen japanischen und koreanischen CNC-Maschinen mit Innenkühlung und Messtastern.",
+        mtab_all: "Alle Maschinen (8)",
+        mtab_mori: "Mori Seiki (3)",
+        mtab_mill: "5-Achs & Fräsen (2)",
+        mtab_hyu: "Hyundai & Sonstige (3)",
         sec_contact_sub: "KONTAKTIEREN SIE UNS",
         sec_contact_title: "CNC-FERTIGUNGSANFRAGE & KONTAKT",
         form_submit: "Anfrage an Geschäftsleitung senden"
@@ -237,24 +312,34 @@ const translations = {
 };
 
 function setLanguage(lang) {
+    if (lang === "cz") lang = "cs";
     if (!translations[lang]) return;
     try {
         localStorage.setItem("selected_lang_schw", lang);
     } catch (e) {}
 
+    document.documentElement.lang = lang;
+
     document.querySelectorAll(".lang-btn").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.lang === lang);
+        btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
     });
 
     document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.getAttribute("data-i18n");
-        if (translations[lang][key]) {
+        if (translations[lang] && translations[lang][key] !== undefined) {
             el.innerHTML = translations[lang][key];
         }
     });
 }
+window.setLanguage = setLanguage;
 
 document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+            setLanguage(btn.getAttribute("data-lang"));
+        });
+    });
+
     try {
         const saved = localStorage.getItem("selected_lang_schw");
         if (saved && translations[saved]) {

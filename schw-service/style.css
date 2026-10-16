@@ -1199,6 +1199,12 @@ body {
     .header {
         padding: 10px 0;
     }
+    .logo {
+        gap: 8px;
+    }
+    .logo-label {
+        display: none;
+    }
     .header-actions .btn {
         display: none;
     }

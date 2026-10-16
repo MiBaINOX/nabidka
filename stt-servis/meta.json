@@ -35,6 +35,8 @@
     "rok_zalozeni": 2001,
     "vyrobni_haly": 2,
     "max_delka_obrabeni_mm": 8000,
-    "certifikace": ["EN 1090-1:2009+A1:2011", "EN ISO 9001:2009", "EN ISO 3834-2:2006"]
-  }
+    "certifikace": ["EN 1090-1:2009+A1:2011", "EN ISO 9001:2009", "EN ISO 3834-2:2006"],
+    "adresa": "Dvorská 245, 783 86 Dlouhá Loučka"
+  },
+  "jazyky": ["CZ", "EN"]
 }
