@@ -1,0 +1,39 @@
+{
+  "slug": "adapta",
+  "firma": "ADAPTA, spol. s r.o.",
+  "ico": "00532461",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Regenerace bytových domů, kontaktní zateplovací systémy ETICS, Nová zelená úsporám",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://adapta.cz",
+  "email": "adapta.sro@adapta.cz",
+  "prodejni_body": [
+    "Certifikovaný dodavatel ETICS dle ČSN EN ISO 9001:2009 již od roku 2001",
+    "Registrace v Seznamu odborných dodavatelů pro Nová zelená úsporám",
+    "Komplexní revitalizace panelových i bytových domů na klíč"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes protokol HTTP bez šifrování",
+    "Chybějící mobilní optimalizace (absence meta viewport, rozpad na telefonu)",
+    "Zastaralý redakční systém Joomla 1.5 s bezpečnostními riziky",
+    "Statická prezentace bez kalkulátoru zateplení a orientační výše dotace"
+  ],
+  "vylepseni_noveho_webu": [
+    "Interaktivní katalog zateplovacích a stavebních technologií s technickými listy",
+    "Kalkulátor orientačních úspor a dotace Nová zelená úsporám dle plochy fasády",
+    "Předvyplněný poptávkový formulář pro okamžitou kalkulaci revitalizace",
+    "Ověřený Mapy.cz špendlík na sídlo na Holzově ulici v Brně-Líšni",
+    "Industriální responzivní design Heavy Industrial se 100% mobilní odezvou"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "zamestnanci": "10-19",
+    "sidlo": "Holzova 2887/10b, Líšeň, 628 00 Brno",
+    "polozky_katalogu": 4
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

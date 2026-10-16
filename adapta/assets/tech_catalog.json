@@ -1,0 +1,262 @@
+[
+  {
+    "id": "zatepleni-etics",
+    "cat": "etics",
+    "cat_name": "Kontaktní zateplování",
+    "title": "Kontaktní zateplovací systémy fasád (ETICS)",
+    "perex": "Certifikované zateplovací systémy Baumit, Caparol a Weber s použitím grafitového polystyrenu a minerální vaty s požární odolností.",
+    "img": "assets/ref_01.jpg",
+    "badge": "ČSN EN 13499 / 13500",
+    "specs_preview": "Izolant EPS-F / Minerální vata • Tloušťka 100-240 mm • Třída reakce na oheň A1-E",
+    "full_desc": "Společnost ADAPTA je proškoleným a certifikovaným dodavatelem kontaktních zateplovacích systémů předních evropských výrobců. Realizujeme zateplení fasád bytových, panelových i rodinných domů s důrazem na eliminaci tepelných mostů a dlouhodobou životnost povrchové úpravy.",
+    "models": [
+      {
+        "name": "ETICS EPS šedý grafitový",
+        "desc": "Vysoký tepelný odpor při menší tloušťce izolantu, součinitel lambda 0,031 W/mK"
+      },
+      {
+        "name": "ETICS minerální vata",
+        "desc": "Nehořlavé zateplení třídy A1 s vysokou paropropustností pro panelové domy"
+      },
+      {
+        "name": "Sanační omítkové systémy",
+        "desc": "Paropropustné omítky pro vlhké zdivo a soklové zóny s XPS deskami"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Typ zateplení",
+        "Doporučená tloušťka",
+        "Součinitel lambda",
+        "Požární odolnost"
+      ],
+      "rows": [
+        [
+          "Fasádní EPS bílý 70F",
+          "120 - 180 mm",
+          "0,039 W/(m·K)",
+          "Třída E"
+        ],
+        [
+          "Grafitový EPS Neo",
+          "120 - 200 mm",
+          "0,031 W/(m·K)",
+          "Třída E (tlumí tepelné mosty)"
+        ],
+        [
+          "Minerální fasádní vata",
+          "140 - 240 mm",
+          "0,036 W/(m·K)",
+          "Třída A1 (nehořlavé)"
+        ],
+        [
+          "Soklový extrudovaný XPS",
+          "100 - 160 mm",
+          "0,034 W/(m·K)",
+          "Třída E (vysoká pevnost v tlaku)"
+        ]
+      ]
+    },
+    "features": [
+      "Držitel certifikátu systému managementu jakosti ČSN EN ISO 9001:2009",
+      "Odborná montáž proškolenými kmenovými pracovníky s dlouholetou praxí",
+      "Záruka na celistvost zateplovacího pláště v délce až 60 měsíců",
+      "Kompletní lešení, zakrytí oken, klempířské prvky a hromosvody v ceně zakázky"
+    ]
+  },
+  {
+    "id": "zelena-usporam",
+    "cat": "dotace",
+    "cat_name": "Dotační programy",
+    "title": "Realizace v programu Nová zelená úsporám (NZÚ)",
+    "perex": "Kompletní administrace a realizace energetických úspor budov zapsaným odborným dodavatelem v databázi Státního fondu životního prostředí.",
+    "img": "assets/ref_03.jpg",
+    "badge": "Zapsaný dodavatel SFŽP",
+    "specs_preview": "Podpora pro bytové i rodinné domy • Vyřízení dotace na klíč • Kódy SVT",
+    "full_desc": "Naše firma je oficiálně zapsána v Seznamu odborných dodavatelů programu Nová zelená úsporám. Zajišťujeme energetické posudky, projektovou dokumentaci, technický dozor a samotnou realizaci zateplení, která splňuje nejpřísnější dotační parametry.",
+    "models": [
+      {
+        "name": "Revitalizace bytových domů",
+        "desc": "Komplexní zateplení obvodového pláště, střechy a výměna výplní otvorů"
+      },
+      {
+        "name": "Zateplení rodinných domů",
+        "desc": "Dotace NZÚ Standard i NZÚ Light pro seniory a nízkopříjmové domácnosti"
+      },
+      {
+        "name": "Zateplení stropů a suterénů",
+        "desc": "Zateplení stropů nevytápěných suterénů a garáží minerální vatou"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Dotační opatření",
+        "Cílová úspora",
+        "Dotační podpora",
+        "Způsobilé výdaje"
+      ],
+      "rows": [
+        [
+          "Komplexní zateplení NZÚ",
+          "Úspora energie > 40 %",
+          "až 50 % způsobilých výdajů",
+          "Fasáda, střecha, okna, stropy"
+        ],
+        [
+          "Dílčí zateplení fasády",
+          "Úspora energie > 20 %",
+          "až 40 % způsobilých výdajů",
+          "Obvodové stěny a sokly"
+        ],
+        [
+          "NZÚ pro bytové domy / SVJ",
+          "Dle energetického posudku",
+          "až 55 % způsobilých výdajů",
+          "Celý bytový dům na klíč"
+        ],
+        [
+          "NZÚ Light (senioři)",
+          "Rychlá dílčí opatření",
+          "až 100 % zálohově předem",
+          "Fasáda, stropy, okna"
+        ]
+      ]
+    },
+    "features": [
+      "100% garance schválení dotace při dodržení projektového energetického posudku",
+      "Výběr pouze z certifikovaných materiálů registrovaných v seznamu SVT",
+      "Zpracování žádosti, doložení fakturace a závěrečné vyúčtování pro SFŽP",
+      "Více než 100 úspěšně realizovaných a proplacených dotačních projektů"
+    ]
+  },
+  {
+    "id": "revitalizace-domu",
+    "cat": "revitalizace",
+    "cat_name": "Komplexní rekonstrukce",
+    "title": "Regenerace a opravy bytových a panelových domů",
+    "perex": "Stavební sanace lodžií, rekonstrukce balkónů, oprava vstupních portálů, hydroizolace plochých střech a sanace betonových konstrukcí.",
+    "img": "assets/ref_02.jpg",
+    "badge": "Stavby na klíč",
+    "specs_preview": "Sanace lodžií a zábradlí • Hydroizolace střech • Výměna oken a dveří",
+    "full_desc": "Revitalizace domu není jen o zateplení. Provádíme kompletní diagnostiku konstrukce panelových a cihlových budov, sanaci narušené betonové výztuže, renovaci nášlapných vrstev lodžií včetně hydroizolačních stěrek a montáže nového hliníkového či ocelového zábradlí.",
+    "models": [
+      {
+        "name": "Sanace lodžií a balkónů",
+        "desc": "Odstranění původních vrstev, oprava čel, nová hydroizolace a moderní zábradlí"
+      },
+      {
+        "name": "Rekonstrukce plochých střech",
+        "desc": "Dodatečné zateplení spádovými klíny a pokládka modifikovaných PVC fólií"
+      },
+      {
+        "name": "Společné prostory a portály",
+        "desc": "Opravy vstupů, instalace samočinných hliníkových dveří a schránek"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Stavební etapa",
+        "Použitá technologie",
+        "Životnost řešení",
+        "Záruční lhůta"
+      ],
+      "rows": [
+        [
+          "Sanace podlah lodžií",
+          "Dvousložkové flexibilní hydroizolace",
+          "min. 25 let",
+          "60 měsíců"
+        ],
+        [
+          "Výměna zábradlí",
+          "Hliníkový systém s bezpečnostním sklem",
+          "bezúdržbové",
+          "60 měsíců"
+        ],
+        [
+          "Hydroizolace střechy",
+          "Měkčené PVC fólie / SBS pásy",
+          "min. 30 let",
+          "120 měsíců"
+        ],
+        [
+          "Opravy spár panelů",
+          "Trvale pružné polyuretanové tmely",
+          "min. 15 let",
+          "36 měsíců"
+        ]
+      ]
+    },
+    "features": [
+      "Statické posouzení stávajících konstrukcí lodžií a balkónů autorizovaným inženýrem",
+      "Výrazné snížení energetické náročnosti domu a zhodnocení bytových jednotek",
+      "Koordinace prací s ohledem na komfort a bezpečnost obyvatel domu",
+      "Kompletní likvidace suti a ekologická recyklace původních materiálů"
+    ]
+  },
+  {
+    "id": "sadrokartony-interiery",
+    "cat": "interiery",
+    "cat_name": "Suchá výstavba",
+    "title": "Sádrokartonové konstrukce a kazetové podhledy",
+    "perex": "Montáž certifikovaných sádrokartonových systémů Knauf a Rigips, protipožární příčky, akustické stěny a minerální kazetové stropy.",
+    "img": "assets/ref_04.jpg",
+    "badge": "Knauf / Rigips certifikace",
+    "specs_preview": "Požární odolnost EI 15 až EI 90 • Akustický útlum až 58 dB • Suchý proces",
+    "full_desc": "V rámci suché výstavby realizujeme sádrokartonové podhledy, mezibytové akustické příčky a podkrovní vestavby. Zvláštní důraz klademe na protipožární ucpávky a atesty vyžadované hasičským záchranným sborem při kolaudacích.",
+    "models": [
+      {
+        "name": "Akustické mezibytové příčky",
+        "desc": "Vícenásobné opláštění s minerální izolací pro eliminaci hluku mezi byty"
+      },
+      {
+        "name": "Protipožární stěny a podhledy",
+        "desc": "Červené protipožární desky DF s deklarovanou odolností EI 30 - EI 90"
+      },
+      {
+        "name": "Kazetové rastrové podhledy",
+        "desc": "Minerální kazety Armstrong pro kancelářské a komerční prostory"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Typ konstrukce",
+        "Tloušťka stěny",
+        "Akustický útlum",
+        "Požární odolnost"
+      ],
+      "rows": [
+        [
+          "Příčka jednoduchá W111",
+          "75 - 100 mm",
+          "45 dB",
+          "EI 30"
+        ],
+        [
+          "Příčka dvojitá W112",
+          "100 - 150 mm",
+          "53 dB",
+          "EI 60 - EI 90"
+        ],
+        [
+          "Akustická mezibytová W115",
+          "155 - 205 mm",
+          "58 dB",
+          "EI 60"
+        ],
+        [
+          "Protipožární podhled D112",
+          "Dle zavěšení",
+          "Zlepšení o 8 dB",
+          "EI 30 - EI 60"
+        ]
+      ]
+    },
+    "features": [
+      "Certifikovaní montéři suchých staveb s pravidelným přezkušováním u výrobců",
+      "Zpracování protokolů o montáži požárně bezpečnostních zařízení pro HZS",
+      "Rychlá čistá realizace bez technologických přestávek na schnutí",
+      "Vysoká finální rovinatost povrchu v kvalitě tmelení Q3 a Q4"
+    ]
+  }
+]

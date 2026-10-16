@@ -1,0 +1,39 @@
+{
+  "slug": "boos",
+  "firma": "BOOS a.s.",
+  "ico": "00558249",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Projektová činnost ve výstavbě, generální dodávky pozemních staveb a inženýring",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://boos.cz",
+  "email": "honka@boos.cz",
+  "prodejni_body": [
+    "Tradiční brněnská projekční a stavební akciová společnost od roku 1990",
+    "Komplexní inženýring od architektonické studie po kolaudaci díla",
+    "Autorizovaní inženýři ČKAIT pro pozemní stavitelství a statiku"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes protokol HTTP bez šifrování",
+    "Chybějící mobilní optimalizace (absence meta viewport, rozpad na mobilu)",
+    "Extrémně strohá jednoprvková vizitka z roku 1990 bez ukázky realizací",
+    "Absence interaktivního rozcestníku fází stavebního a povolovacího řízení"
+  ],
+  "vylepseni_noveho_webu": [
+    "Přehledný technologický katalog projekčních a inženýrských služeb s modály",
+    "Interaktivní průvodce fázemi stavebního projektu od studie po kolaudaci",
+    "Předvyplněný poptávkový formulář pro okamžitou konzultaci záměru",
+    "Ověřený Mapy.cz špendlík na sídlo na Horově ulici v Brně-Žabovřeskách",
+    "Moderní technologický design Tech & Precision se 100% mobilní odezvou"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "zamestnanci": "6-9",
+    "sidlo": "Horova 3121/68, Žabovřesky, 616 00 Brno",
+    "polozky_katalogu": 4
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

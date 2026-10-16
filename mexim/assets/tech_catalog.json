@@ -1,0 +1,262 @@
+[
+  {
+    "id": "prumyslova-loziska",
+    "cat": "loziska",
+    "cat_name": "Průmyslová ložiska",
+    "title": "Valivá, kuličková a soudečková ložiska",
+    "perex": "Kompletní sortiment kuličkových, válečkových, soudečkových, jehlových a kuželíkových ložisek renomovaných světových značek.",
+    "img": "assets/img_09.png",
+    "badge": "SKF / FAG / INA / ZKL",
+    "specs_preview": "Kuličková • Válečková • Soudečková • Kuželíková • Nadrozměrná",
+    "full_desc": "MEXIM spol. s r.o. dodává kompletní sortiment standardních i vysoce specializovaných ložisek pro strojírenství, energetiku, dopravní techniku i zemědělství. Zajišťujeme ložiska od miniaturních průměrů až po těžká nadrozměrná soudečková ložiska pro průmyslové převodovky.",
+    "models": [
+      {
+        "name": "Jednořadá kuličková ložiska",
+        "desc": "Univerzální ložiska pro vysoké otáčky s krytím 2RS a 2Z"
+      },
+      {
+        "name": "Dvouřadá soudečková ložiska",
+        "desc": "Vysoká radiální únosnost a schopnost vyrovnávat nesouosost hřídele"
+      },
+      {
+        "name": "Kuželíková a válečková ložiska",
+        "desc": "Přenášení vysokých kombinovaných radiálních a axiálních sil"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Typ ložiska",
+        "Hlavní značky",
+        "Rozsah průměrů",
+        "Typické použití"
+      ],
+      "rows": [
+        [
+          "Kuličková jednořadá (řada 60, 62, 63)",
+          "SKF, FAG, ZKL, ZVL",
+          "d = 3 mm až 400 mm",
+          "Elektromotory, čerpadla, ventilátory"
+        ],
+        [
+          "Soudečková dvouřadá (řada 222, 223)",
+          "TIMKEN, SKF, FAG",
+          "d = 20 mm až 1 200 mm",
+          "Drtiče, těžké převodovky, hutní linky"
+        ],
+        [
+          "Kuželíková ložiska (řada 302, 320)",
+          "TIMKEN, FAG, ZKL",
+          "d = 15 mm až 320 mm",
+          "Nápravy vozidel, převodové skříně"
+        ],
+        [
+          "Jehlová a kombinovaná ložiska",
+          "INA, IKO, SKF",
+          "d = 5 mm až 180 mm",
+          "Kompaktní uložení s vysokým zatížením"
+        ]
+      ]
+    },
+    "features": [
+      "Garance 100% originality ložisek přímo od autorizovaných distributorů",
+      "Rozsáhlý sklad standardních řad s odesláním do 24 hodin po celé ČR a SR",
+      "Dodávky speciálních tolerančních tříd P6, P5 pro vřetena obráběcích strojů",
+      "Odborné technické poradenství při náhradách a záměnách starších typů ložisek"
+    ]
+  },
+  {
+    "id": "kloubove-hlavy",
+    "cat": "klouby",
+    "cat_name": "Kloubové mechanismy",
+    "title": "Kloubové hlavy, oka a kluzná kloubová ložiska",
+    "perex": "Přesné kloubové hlavy s vnitřním i vnějším závitem, bezúdržbové kluzné plochy PTFE i provedení ocel/ocel s maznicí.",
+    "img": "assets/img_03.png",
+    "badge": "DIN ISO 12240-4",
+    "specs_preview": "Závity M5 až M42 • Pravý i levý závit • Provedení ocel/bronz a ocel/PTFE",
+    "full_desc": "Dodáváme kloubové hlavy a kloubová oka pro hydraulické válce, táhla řízení, balicí stroje a automatizační linky. V nabídce máme bezúdržbová provedení s teflonovou vložkou PTFE i robustní provedení s možností domazávání pro vysoké rázové zatížení.",
+    "models": [
+      {
+        "name": "Kloubové hlavy s vnitřním závitem",
+        "desc": "Řady PHS, SI, GIKFR s metrickým i jemným závitem"
+      },
+      {
+        "name": "Kloubové hlavy s vnějším závitem",
+        "desc": "Řady POS, SA, GAKFR pro přímou montáž do táhel"
+      },
+      {
+        "name": "Kloubová oka pro hydrauliku",
+        "desc": "Robustní oka s navařovacím koncem nebo pojistným šroubem"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Označení řady",
+        "Typ závitu",
+        "Kluzná dvojice",
+        "Úhel naklopení"
+      ],
+      "rows": [
+        [
+          "Řada SI / SA..E (ocel/ocel)",
+          "M6 až M36 (pravý/levý)",
+          "Ocel / ocel s maznicí",
+          "cca 13° až 16°"
+        ],
+        [
+          "Řada SI / SA..TE (bezúdržbová)",
+          "M5 až M30 (pravý/levý)",
+          "Ocel / PTFE kompozit",
+          "cca 11° až 15°"
+        ],
+        [
+          "Řada PHS / POS (bronz)",
+          "M5 až M25",
+          "Ocel / ložiskový bronz",
+          "cca 13° až 17°"
+        ],
+        [
+          "Hydraulická oka s navařením",
+          "Vrtání 12 až 100 mm",
+          "Ocel / ocel mazatelná",
+          "cca 6° až 12°"
+        ]
+      ]
+    },
+    "features": [
+      "Vysoká přesnost zpracování s minimální radiální a axiální vůlí",
+      "Odolnost proti korozi díky galvanickému zinkování tělesa hlavy",
+      "Široký výběr palcových i metrických rozměrů pro zahraniční stroje",
+      "Možnost dodávky pryžových těsnicích manžet chránících kloub před prachem"
+    ]
+  },
+  {
+    "id": "valiva-vedeni",
+    "cat": "vedeni",
+    "cat_name": "Lineární technika",
+    "title": "Valivá lineární vedení a profilové kolejnice",
+    "perex": "Profilová lineární vedení, vozíky, vodicí tyče a kuličková pouzdra pro přesný přímočarý pohyb v CNC strojích a robotice.",
+    "img": "assets/img_05.png",
+    "badge": "Lineární přesnost",
+    "specs_preview": "Kolejnice vel. 15 až 55 • Čtyřřadé kuličkové uspořádání • Vodicí tyče",
+    "full_desc": "Zajišťujeme lineární vodicí systémy pro jednoúčelové stroje, obráběcí centra i automatické manipulační linky. Kolejnice dodáváme nařezané přesně na požadovanou délku s koncovým opracováním a s vozíky v různých třídách předpětí.",
+    "models": [
+      {
+        "name": "Profilová kuličková vedení",
+        "desc": "Kolejnice a vozíky s vysokou tuhostí a stejnou únosností ve všech směrech"
+      },
+      {
+        "name": "Přesné vodicí tyče a kuličková pouzdra",
+        "desc": "Kalené a broušené hřídele Cf53 / nerez s domečky a ložisky"
+      },
+      {
+        "name": "Kuličkové šrouby a matice",
+        "desc": "Přesný převod rotačního pohybu na přímočarý s minimálním třením"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Rozměrová řada",
+        "Výška kolejnice",
+        "Základní dynamická únosnost",
+        "Max. rychlost pojezdu"
+      ],
+      "rows": [
+        [
+          "Velikost 15",
+          "15 mm",
+          "11,4 kN",
+          "až 5 m/s"
+        ],
+        [
+          "Velikost 20",
+          "18 mm",
+          "17,7 kN",
+          "až 5 m/s"
+        ],
+        [
+          "Velikost 25",
+          "22 mm",
+          "24,9 kN",
+          "až 4 m/s"
+        ],
+        [
+          "Velikost 35",
+          "31 mm",
+          "49,5 kN",
+          "až 3 m/s"
+        ]
+      ]
+    },
+    "features": [
+      "Dělení vodicích profilů na míru s tolerancí řezu ± 0,5 mm",
+      "Integrovaná čelní a podélná těsnění chránící kuličkovou dráhu před šponami a prachem",
+      "Možnost dlouhodobé bezúdržbovosti díky přídavným mazacím jednotkám",
+      "Vzájemná zaměnitelnost kolejnic a vozíků v rámci standardních přesnostních tříd"
+    ]
+  },
+  {
+    "id": "maziva-tesneni",
+    "cat": "chemie",
+    "cat_name": "Těsnění a chemie",
+    "title": "Hřídelová gufera, průmyslová maziva a technické tmely",
+    "perex": "Tuzemská i zahraniční gufera NBR / FKM (Viton), průmyslové oleje TOTAL, mazací tuky MOGUL a zajišťovací tmely LOCTITE.",
+    "img": "assets/img_14.png",
+    "badge": "TOTAL / LOCTITE / MOGUL",
+    "specs_preview": "Gufera dle DIN 3760 • Průmyslové oleje ISO VG 32-460 • Lepidla a tmely",
+    "full_desc": "Správná údržba ložiskových uložení vyžaduje kvalitní mazání a dokonalé utěsnění. Nabízíme kompletní sortiment hřídelových těsnicích kroužků (gufer), O-kroužků, mazacích tuků pro vysoké teploty i otáčky a anaerobních lepidel pro upevňování ložisek a jištění závitů.",
+    "models": [
+      {
+        "name": "Hřídelová těsnění (gufera)",
+        "desc": "Provedení s prachovkou i bez z materiálu NBR, silikonu a vitonu (FKM)"
+      },
+      {
+        "name": "Loctite pro ložiska a závity",
+        "desc": "Zajišťovače závitů 243/270 a upevňovače ložisek do pouzder 603/648"
+      },
+      {
+        "name": "Plastická maziva a oleje",
+        "desc": "Ložiskové tuky s lithným mýdlem, vysokotlaké přísady EP, spreje WD-40"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Kategorie produktu",
+        "Klíčové značky",
+        "Teplotní rozsah",
+        "Účel použití"
+      ],
+      "rows": [
+        [
+          "Gufera NBR standard",
+          "Rubena, Dichtomatik",
+          "-30 °C až +100 °C",
+          "Běžné hřídelové utěsnění převodovek a motorů"
+        ],
+        [
+          "Gufera FKM (Viton)",
+          "Freudenberg, Simrit",
+          "-20 °C až +200 °C",
+          "Agresivní chemikálie, vysoké teploty a otáčky"
+        ],
+        [
+          "Tmely na upevnění ložisek",
+          "LOCTITE 603 / 648",
+          "-55 °C až +175 °C",
+          "Vymezení vůlí a pevné usazení ložiska v tělese"
+        ],
+        [
+          "Vysokotlaká maziva EP",
+          "TOTAL, MOGUL, Mobil",
+          "-30 °C až +140 °C",
+          "Mazání valivých a kluzných ložisek při vysokém tlaku"
+        ]
+      ]
+    },
+    "features": [
+      "Tisíce rozměrů gufer a O-kroužků okamžitě k dispozici na brněnském skladě",
+      "Dodávky originálních technických tmelů Loctite s garantovanou expirací",
+      "Možnost dodávky maziv v balení od 400g kartuší po 180kg sudy",
+      "Technické listy a bezpečnostní listy ke všem dodávaným chemickým produktům"
+    ]
+  }
+]

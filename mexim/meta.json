@@ -1,0 +1,41 @@
+{
+  "slug": "mexim",
+  "firma": "MEXIM spol. s r.o. Brno",
+  "ico": "00205753",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Velkoobchod a distribuce průmyslových ložisek, kloubových hlav, valivých vedení a maziv",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://mexim.cz",
+  "email": "mexim@mexim.cz",
+  "prodejni_body": [
+    "Autorizovaný distributor ložisek SKF, FAG, INA, TIMKEN, ZKL a ZVL",
+    "Kompletní sortiment průmyslových maziv TOTAL, MOBIL, MOGUL, WD-40 a LOCTITE",
+    "Expedice standardních i nadrozměrných ložisek a kloubových hlav ze skladu v ČR"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes protokol HTTP bez šifrování",
+    "Zastaralé kódování znaků windows-1250 a archaický tabulkový layout z roku 2000",
+    "Chybějící mobilní optimalizace (absence meta viewport, nutnost zoomování)",
+    "Nefunkční navigační JS skript Xara WebStyle 4 způsobující výpadky v moderních prohlížečích"
+  ],
+  "vylepseni_noveho_webu": [
+    "Přehledný interaktivní Bento Grid katalog ložisek a průmyslových dílů",
+    "Plnohodnotný přepínač jazyků CZ | EN | DE s okamžitým přeložením celé prezentace",
+    "Interaktivní vyhledávač a kalkulátor parametrů ložisek dle typu a zatížení",
+    "Předvyplněný poptávkový formulář pro rychlou expedici skladových zásob",
+    "Ověřený Mapy.cz špendlík na sídlo na Kounicově ulici v centru Brna"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1991,
+    "zamestnanci": "6-9",
+    "sidlo": "Kounicova 286/43, Veveří, 602 00 Brno",
+    "polozky_katalogu": 4
+  },
+  "jazyky": [
+    "CZ",
+    "EN",
+    "DE"
+  ]
+}

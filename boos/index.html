@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOS a.s. | Projekční činnost ve výstavbě, inženýring a pozemní stavby Brno</title>
+    <meta name="description" content="Autorizovaní inženýři ČKAIT pro pozemní stavitelství, architektonické studie, projekty pro stavební povolení, inženýring a technický dozor stavebníka od roku 1990.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tech-precision-theme">
+    <header class="precision-header">
+        <div class="precision-topbar">
+            <div class="container topbar-content">
+                <div class="topbar-left">
+                    <span class="precision-badge">Autorizovaná projekční kancelář od roku 1990</span>
+                    <span class="topbar-sep">•</span>
+                    <span class="topbar-claim">Autorizace ČKAIT • Pozemní stavby a inženýring Brno</span>
+                </div>
+                <div class="topbar-right">
+                    <span class="phone-label">Konzultace záměru:</span>
+                    <a href="tel:+420602520797" class="topbar-phone">+420 602 520 797</a>
+                </div>
+            </div>
+        </div>
+        <nav class="precision-nav container">
+            <a href="#" class="brand-link">
+                <img src="assets/logo.png" alt="BOOS a.s." class="brand-logo" width="180" height="42">
+            </a>
+            <div class="nav-links">
+                <a href="#faze">Fáze projektu</a>
+                <a href="#sluzby">Projekční program</a>
+                <a href="#kalkulator">Průvodce řízením</a>
+                <a href="#standardy">Standardy ČKAIT</a>
+                <a href="#kontakt" class="btn-nav">Poptat projekt</a>
+            </div>
+            <button class="menu-toggle" aria-label="Otevřít menu" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#faze">Fáze projektu</a>
+            <a href="#sluzby">Projekční program</a>
+            <a href="#kalkulator">Průvodce řízením</a>
+            <a href="#standardy">Standardy ČKAIT</a>
+            <a href="#kontakt">Poptat projekt</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="precision-hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-tech-pill">Autorizovaný inženýring • Projekce staveb Brno</div>
+                    <h1 class="hero-title">Komplexní projekční činnost ve výstavbě, inženýring a technický dozor</h1>
+                    <p class="hero-perex">Již od roku 1990 provázíme investory celým procesem výstavby. Od úvodní architektonické studie přes vyřízení stavebního povolení a prováděcí projekty až po technický dozor stavebníka a úspěšnou kolaudaci.</p>
+                    <div class="hero-actions">
+                        <a href="#sluzby" class="btn-primary">Projekční portfolio</a>
+                        <a href="#kalkulator" class="btn-glass">Průvodce řízením</a>
+                    </div>
+                    <div class="hero-metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-value"><span data-target="34">0</span><span class="unit"> let</span></div>
+                            <div class="metric-label">kontinuitní praxe v oboru</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value"><span data-target="100">0</span><span class="unit">%</span></div>
+                            <div class="metric-label">zastoupení u stavebních úřadů</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-value"><span data-target="4">0</span><span class="unit"> stupně</span></div>
+                            <div class="metric-label">kompletní projektové dokumentace</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-frame">
+                        <div class="blueprint-visual">
+                            <div class="blueprint-grid"></div>
+                            <div class="blueprint-card">
+                                <span class="card-badge">ČKAIT Garance</span>
+                                <h3>Projekty dle nového stavebního zákona</h3>
+                                <p>Optimalizace investičních nákladů v BIM prostředí, eliminace kolizí profesí a zrychlení povolovacího procesu.</p>
+                                <div class="blueprint-meta">
+                                    <span>Pozemní stavitelství</span>
+                                    <span>Statika a dynamika</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faze" class="precision-section section-tabs-tech">
+            <div class="container">
+                <div class="section-header-center">
+                    <span class="sec-tag">Harmonogram zakázky</span>
+                    <h2>Čtyři etapy úspěšné realizace stavby</h2>
+                    <p>Investor má po celou dobu výstavby jediného partnera s plnou odpovědností za kvalitu, termíny i rozpočet.</p>
+                </div>
+
+                <div class="tech-tab-strip">
+                    <button class="tech-tab-btn active" data-step="1">1. Studie & Koncept</button>
+                    <button class="tech-tab-btn" data-step="2">2. Povolení stavby</button>
+                    <button class="tech-tab-btn" data-step="3">3. Prováděcí projekt</button>
+                    <button class="tech-tab-btn" data-step="4">4. Dozor & Realizace</button>
+                </div>
+
+                <div class="tech-step-display" id="stepDisplay">
+                    <div class="step-card active" id="step1">
+                        <div class="step-grid">
+                            <div class="step-text">
+                                <span class="step-num">Fáze 01</span>
+                                <h3>Architektonická studie a prověření území</h3>
+                                <p>Prověříme soulad záměru s územním plánem, kapacitami inženýrských sítí a limity pozemku. Vytvoříme 3D dispoziční model a orientační propočet investičních nákladů.</p>
+                                <ul class="step-bullets">
+                                    <li>Územně plánovací informace a prověření limitů</li>
+                                    <li>Dispoziční a hmotové varianty ve 3D</li>
+                                    <li>Ověření kapacit vodovodu, kanalizace, plynu a elektro</li>
+                                </ul>
+                            </div>
+                            <div class="step-info-card">
+                                <h4>Klíčový výstup fáze</h4>
+                                <p>Schválená architektonická studie stavby, objemový model a jasný investiční rozpočet před zahájením nákladných projektových prací.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card" id="step2" style="display:none;">
+                        <div class="step-grid">
+                            <div class="step-text">
+                                <span class="step-num">Fáze 02</span>
+                                <h3>Projektová dokumentace pro povolení záměru</h3>
+                                <p>Vypracujeme kompletní projekt pro stavební řízení dle vyhlášky o dokumentaci staveb a obstaráme veškerá závazná stanoviska dotčených orgánů státní správy (DOSS).</p>
+                                <ul class="step-bullets">
+                                    <li>Stavebně-konstrukční část, požární bezpečnost (PBŘ), TZB</li>
+                                    <li>Vyřízení stanovisek HZS, KHS, OŽP a správců sítí</li>
+                                    <li>Podání na portál stavebníka a právní zastoupení</li>
+                                </ul>
+                            </div>
+                            <div class="step-info-card">
+                                <h4>Klíčový výstup fáze</h4>
+                                <p>Pravomocné rozhodnutí o povolení stavby bez zbytečných prodlev a sankcí.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card" id="step3" style="display:none;">
+                        <div class="step-grid">
+                            <div class="step-text">
+                                <span class="step-num">Fáze 03</span>
+                                <h3>Prováděcí dokumentace stavby (DPS) a tendr</h3>
+                                <p>Detailní výkresová dokumentace v měřítku 1:50 s řešením všech konstrukčních detailů, skladeb konstrukcí, výkazem výměr a položkovým slepým rozpočtem.</p>
+                                <ul class="step-bullets">
+                                    <li>Přesné konstrukční detaily eliminující improvizaci na stavbě</li>
+                                    <li>Položkový slepý rozpočet pro transparentní výběrové řízení</li>
+                                    <li>Odborné vyhodnocení nabídek dodavatelů a úspora nákladů</li>
+                                </ul>
+                            </div>
+                            <div class="step-info-card">
+                                <h4>Klíčový výstup fáze</h4>
+                                <p>Podrobný prováděcí projekt a bezchybný podklad pro výběr generálního dodavatele bez rizika víceprací.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card" id="step4" style="display:none;">
+                        <div class="step-grid">
+                            <div class="step-text">
+                                <span class="step-num">Fáze 04</span>
+                                <h3>Technický dozor stavebníka (TDS) a kolaudace</h3>
+                                <p>Přebíráme nezávislý dohled přímo na stavbě. Kontrolujeme kvalitu montáží, přebíráme zakrývané konstrukce, ověřujeme prostavěnost a vedeme kolaudační řízení.</p>
+                                <ul class="step-bullets">
+                                    <li>Pravidelné kontrolní dny a přejímky armatur a hydroizolací</li>
+                                    <li>Autorizace měsíčních soupisů prací pro platby zhotoviteli</li>
+                                    <li>Zajištění zkoušek, revizí a úspěšné kolaudace díla</li>
+                                </ul>
+                            </div>
+                            <div class="step-info-card">
+                                <h4>Klíčový výstup fáze</h4>
+                                <p>Zkolaudovaná bezvadná stavba uvedená do plného provozu s kompletní dokumentací skutečného provedení.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sluzby" class="precision-section section-catalog">
+            <div class="container">
+                <div class="section-lead-flex">
+                    <div>
+                        <span class="sec-tag">Odborné činnosti</span>
+                        <h2>Projekční a inženýrský program BOOS a.s.</h2>
+                    </div>
+                    <p class="sec-lead-text">Detailní technické listy jednotlivých fází zakázky pro rezidenční, komerční i průmyslové investory.</p>
+                </div>
+
+                <div class="catalog-grid">
+                    <article class="precision-card catalog-item" data-id="projekcni-cinnost">
+                        <div class="card-thumb">
+                            <span class="tech-icon-box">📐</span>
+                            <span class="tech-tag">Autorizace ČKAIT</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="item-cat">Projektování budov</span>
+                            <h3 class="item-title">Komplexní projektová dokumentace pozemních staveb</h3>
+                            <p class="item-desc">Zpracování všech stupňů projektové dokumentace pro novostavby i rekonstrukce rezidenčních, administrativních a průmyslových objektů.</p>
+                            <div class="item-specs">Studie stavby • Dokumentace pro povolení stavby (DSP) • Prováděcí projekty (DPS)</div>
+                            <button class="btn-tech-detail" data-open-tech="projekcni-cinnost">Zobrazit parametry projektu</button>
+                        </div>
+                    </article>
+
+                    <article class="precision-card catalog-item" data-id="inzenyring-povoleni">
+                        <div class="card-thumb">
+                            <span class="tech-icon-box">🏛️</span>
+                            <span class="tech-tag">Povolovací řízení</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="item-cat">Legislativní proces</span>
+                            <h3 class="item-title">Inženýring, vyřízení stavebních povolení a DOSS</h3>
+                            <p class="item-desc">Zastupování stavebníka při jednání s dotčenými orgány státní správy, správci inženýrských sítí a získání pravomocného stavebního povolení.</p>
+                            <div class="item-specs">Stanoviska DOSS • Vyjádření správců sítí • Územní a stavební řízení</div>
+                            <button class="btn-tech-detail" data-open-tech="inzenyring-povoleni">Zobrazit parametry inženýringu</button>
+                        </div>
+                    </article>
+
+                    <article class="precision-card catalog-item" data-id="stavebni-dozor">
+                        <div class="card-thumb">
+                            <span class="tech-icon-box">🔍</span>
+                            <span class="tech-tag">Kontrola stavby</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="item-cat">Dozorová činnost</span>
+                            <h3 class="item-title">Technický dozor stavebníka (TDS) a autorský dozor</h3>
+                            <p class="item-desc">Nezávislá kontrola kvality prováděných prací na stavbě, dodržování technologických postupů, souladu s projektem a čerpání rozpočtu.</p>
+                            <div class="item-specs">Pravidelné kontrolní dny • Přejímky zakrývaných konstrukcí • Kontrola fakturace</div>
+                            <button class="btn-tech-detail" data-open-tech="stavebni-dozor">Zobrazit parametry dozoru</button>
+                        </div>
+                    </article>
+
+                    <article class="precision-card catalog-item" data-id="provadeni-staveb">
+                        <div class="card-thumb">
+                            <span class="tech-icon-box">🏗️</span>
+                            <span class="tech-tag">Realizace na klíč</span>
+                        </div>
+                        <div class="card-body">
+                            <span class="item-cat">Pozemní stavitelství</span>
+                            <h3 class="item-title">Generální dodávky a stavební úpravy objektů</h3>
+                            <p class="item-desc">Provádění novostaveb, rekonstrukcí budov, půdních vestaveb a odstraňování staveb s vlastními osvědčenými řemeslnými kapacitami.</p>
+                            <div class="item-specs">Pozemní stavitelství • Hrubé stavby • Kompletní rekonstrukce</div>
+                            <button class="btn-tech-detail" data-open-tech="provadeni-staveb">Zobrazit parametry realizace</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="kalkulator" class="precision-section section-calc">
+            <div class="container">
+                <div class="calc-glass-box" id="projectRoadmapCalc">
+                    <div class="calc-header">
+                        <span class="sec-tag">Interaktivní plánovač</span>
+                        <h2>Průvodce povolením a fázemi vašeho stavebního záměru</h2>
+                        <p>Zvolte typ zamýšlené stavby a stávající fázi přípravy. Zobrazíme doporučený rozsah dokumentace, klíčová stanoviska DOSS a odhad časové náročnosti.</p>
+                    </div>
+
+                    <div class="calc-grid">
+                        <div class="calc-inputs">
+                            <div class="ctrl-group">
+                                <label for="bldCategory">Typ stavebního záměru</label>
+                                <select id="bldCategory">
+                                    <option value="rd">Rodinný dům / Rezidenční vila</option>
+                                    <option value="bd">Bytový dům / Bytová nástavba</option>
+                                    <option value="komerce">Administrativní budova / Prodejna</option>
+                                    <option value="prumysl">Výrobní hala / Skladový areál</option>
+                                </select>
+                            </div>
+
+                            <div class="ctrl-group">
+                                <label for="projectStage">Současný stav přípravy záměru</label>
+                                <select id="projectStage">
+                                    <option value="koncept">Pouze záměr / Hledáme pozemek</option>
+                                    <option value="studie">Máme studii / Potřebujeme povolení</option>
+                                    <option value="dsp_hotovo">Povolení máme / Chceme prováděcí projekt</option>
+                                    <option value="dozor">Před zahájením stavby / Hledáme TDS</option>
+                                </select>
+                            </div>
+
+                            <div class="ctrl-group">
+                                <label for="floorArea">Předpokládaná užitná plocha: <span id="floorAreaVal">350</span> m²</label>
+                                <input type="range" id="floorArea" min="100" max="3000" step="50" value="350">
+                                <div class="slider-marks">
+                                    <span>100 m²</span>
+                                    <span>1 000 m²</span>
+                                    <span>2 000 m²</span>
+                                    <span>3 000 m²</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="calc-outputs">
+                            <div class="out-card">
+                                <div class="out-title">Doporučený postup</div>
+                                <div class="out-val" id="recAction">Studie + Projekt DSP</div>
+                                <div class="out-sub" id="recActionSub">ověření území a povolovací dokumentace</div>
+                            </div>
+                            <div class="out-card">
+                                <div class="out-title">Odhad doby projekce a DOSS</div>
+                                <div class="out-val" id="recTime">4 - 6 měsíců</div>
+                                <div class="out-sub">včetně vyjádření správců sítí</div>
+                            </div>
+                            <div class="out-card">
+                                <div class="out-title">Klíčová stanoviska DOSS</div>
+                                <div class="out-val" id="recDoss">HZS, KHS, OŽP</div>
+                                <div class="out-sub">hasiči, hygiena, životní prostředí</div>
+                            </div>
+                            <a href="#kontakt" class="btn-calc-action" id="btnApplyRoadmap">Přenést parametry do poptávky projektu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="standardy" class="precision-section section-reqs">
+            <div class="container">
+                <div class="section-lead-flex">
+                    <div>
+                        <span class="sec-tag">Garantované zázemí</span>
+                        <h2>Proč svěřit projektování a dozor společnosti BOOS a.s.</h2>
+                    </div>
+                    <p class="sec-lead-text">Odborná způsobilost ověřená Českou komorou autorizovaných inženýrů a techniků činných ve výstavbě.</p>
+                </div>
+
+                <div class="reqs-grid">
+                    <div class="req-box">
+                        <div class="req-icon">📋</div>
+                        <h3>Autorizace ČKAIT</h3>
+                        <p>Všechny projekty jsou autorizovány kulatým razítkem autorizovaného inženýra s pojištěním profesní odpovědnosti.</p>
+                    </div>
+                    <div class="req-box">
+                        <div class="req-icon">💻</div>
+                        <h3>Projektování v BIM</h3>
+                        <p>Projekty tvoříme v 3D prostředí, které včas odhalí prostorové kolize mezi konstrukcemi a rozvody technologií.</p>
+                    </div>
+                    <div class="req-box">
+                        <div class="req-icon">🤝</div>
+                        <h3>Znalost brněnského regionu</h3>
+                        <p>Díky více než 30leté praxi máme detailní znalost specifik územních plánů Brna i okolních okresů Jihomoravského kraje.</p>
+                    </div>
+                    <div class="req-box">
+                        <div class="req-icon">🛡️</div>
+                        <h3>Finanční kontrola investora</h3>
+                        <p>Nezávislý technický dozor hlídá soupisy prací a brání zhotovitelům v neoprávněném účtování fiktivních víceprací.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="precision-section section-contact">
+            <div class="container">
+                <div class="contact-layout">
+                    <div class="contact-info">
+                        <span class="sec-tag">Přímé spojení</span>
+                        <h2>Konzultace stavebních a projekčních záměrů</h2>
+                        <p>Chystáte novostavbu, rekonstrukci nebo potřebujete vyřešit zastavení povolovacího řízení u stavebního úřadu? Rádi s vámi záměr nezávazně projednáme v naší brněnské kanceláři.</p>
+
+                        <div class="exec-card">
+                            <div class="exec-badge">Vedení společnosti</div>
+                            <div class="exec-name">Ing. Josef Hoňka, předseda správní rady</div>
+                            <div class="exec-field">
+                                <span>Telefon:</span>
+                                <a href="tel:+420602520797" class="exec-val">+420 602 520 797</a>
+                            </div>
+                            <div class="exec-field">
+                                <span>E-mail:</span>
+                                <a href="mailto:honka@boos.cz" class="exec-val">honka@boos.cz</a>
+                            </div>
+                        </div>
+
+                        <div class="company-card">
+                            <div class="comp-row">
+                                <span class="comp-lbl">Sídlo společnosti:</span>
+                                <span class="comp-val">BOOS a.s.<br>Horova 3121/68, Žabovřesky<br>616 00 Brno</span>
+                            </div>
+                            <div class="comp-row">
+                                <span class="comp-lbl">IČO:</span>
+                                <span class="comp-val">00558249</span>
+                            </div>
+                            <div class="comp-row">
+                                <span class="comp-lbl">DIČ:</span>
+                                <span class="comp-val">CZ00558249</span>
+                            </div>
+                            <div class="comp-row">
+                                <span class="comp-lbl">Rejstřík:</span>
+                                <span class="comp-val">Krajský soud v Brně, oddíl B, vložka 126</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrap">
+                        <form class="precision-form" id="boosInquiryForm">
+                            <h3>Nezávazná poptávka projektu</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="cName">Jméno a příjmení / Společnost *</label>
+                                    <input type="text" id="cName" required placeholder="Ing. Petr Novák">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cCity">Lokalita záměru (obec, parcelní číslo) *</label>
+                                    <input type="text" id="cCity" required placeholder="Brno-Žabovřesky">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="cPhone">Telefonní číslo *</label>
+                                    <input type="tel" id="cPhone" required placeholder="+420 600 000 000">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cEmail">E-mailová adresa *</label>
+                                    <input type="email" id="cEmail" required placeholder="novak@email.cz">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cService">Požadovaná úroveň spolupráce</label>
+                                <select id="cService">
+                                    <option value="studie_dsp">Kompletní projekt (Studie + Povolení stavby)</option>
+                                    <option value="inzenyring">Pouze inženýring a vyřízení povolení</option>
+                                    <option value="dps">Prováděcí dokumentace stavby (DPS)</option>
+                                    <option value="tds">Technický dozor stavebníka (TDS)</option>
+                                    <option value="stavba">Generální dodávka stavby na klíč</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="cNotes">Stručný popis záměru, plocha, stávající stav</label>
+                                <textarea id="cNotes" rows="4" placeholder="Popište stavební záměr, stávající stav pozemku či stavby, plánovaný termín..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">Odeslat poptávku projektu</button>
+                            <div class="form-success" id="cSuccess">Děkujeme za poptávku. Kancelář BOOS a.s. vás bude kontaktovat pro sjednání osobní konzultace.</div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <div class="map-bar">
+                        <h4>Sídlo kanceláře na Horově ulici v Brně-Žabovřeskách</h4>
+                        <a href="https://mapy.cz/zakladni?x=16.57046&amp;y=49.21484&amp;z=17&amp;source=coor&amp;id=16.57046%2C49.21484" target="_blank" rel="noopener noreferrer" class="map-out-link">Otevřít sídlo na Mapy.cz</a>
+                    </div>
+                    <iframe class="map-frame" src="https://frame.mapy.cz/zakladni?x=16.57046&y=49.21484&z=16&source=coor&id=16.57046%2C49.21484" width="100%" height="380" frameborder="0" loading="lazy" title="Mapa sídla BOOS a.s. Brno"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="precision-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="BOOS a.s." class="footer-logo" width="160" height="38">
+                <p>BOOS a.s. – Akciová společnost pro projektovou činnost ve výstavbě, inženýrské služby a realizace pozemních staveb od roku 1990.</p>
+            </div>
+            <div class="footer-links">
+                <div class="f-title">Činnosti</div>
+                <a href="#sluzby">Projekty pozemních staveb</a>
+                <a href="#sluzby">Inženýring a povolení stavby</a>
+                <a href="#sluzby">Technický dozor stavebníka</a>
+                <a href="#sluzby">Generální dodávky staveb</a>
+            </div>
+            <div class="footer-links">
+                <div class="f-title">Kontaktní údaje</div>
+                <span class="f-info">Horova 3121/68, 616 00 Brno</span>
+                <span class="f-info nowrap-val">Telefon: +420 602 520 797</span>
+                <span class="f-info">E-mail: honka@boos.cz</span>
+                <span class="f-info">IČO: 00558249</span>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>&copy; 1990–2026 BOOS a.s. Všechna práva vyhrazena.</span>
+            <span>Autorizovaní inženýři ČKAIT • Pozemní stavitelství.</span>
+        </div>
+    </footer>
+
+    <div class="tech-modal-backdrop" id="techModalBackdrop" aria-hidden="true" style="display: none;">
+        <div class="tech-modal-window">
+            <button class="modal-close-btn" id="techModalClose" aria-label="Zavřít technické okno">&times;</button>
+            <div class="tech-modal-content" id="techModalBody"></div>
+        </div>
+    </div>
+
+    <script src="../ping-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "projekcni-cinnost",
+    "cat": "projekce",
+    "cat_name": "Projekce staveb",
+    "title": "Komplexní projektová dokumentace pozemních staveb",
+    "perex": "Zpracování všech stupňů projektové dokumentace pro novostavby i rekonstrukce rezidenčních, administrativních a průmyslových objektů.",
+    "img": "assets/img_00.png",
+    "badge": "Autorizace ČKAIT",
+    "specs_preview": "Studie stavby • Dokumentace pro povolení stavby (DSP) • Prováděcí projekty (DPS)",
+    "full_desc": "BOOS a.s. působí v oblasti projektování pozemních staveb již od roku 1990. Náš tým autorizovaných inženýrů a architektů zajišťuje vypracování architektonických studií, stavebně-konstrukčních řešení, statických výpočtů i koordinace všech profesních částí (TZB, elektro, požární bezpečnost).",
+    "models": [
+      {
+        "name": "Architektonické a objemové studie",
+        "desc": "3D vizualizace, dispoziční koncepty a propočty investičních nákladů"
+      },
+      {
+        "name": "Dokumentace pro povolení záměru",
+        "desc": "Projekt dle nového stavebního zákona včetně projednání s dotčenými orgány"
+      },
+      {
+        "name": "Prováděcí dokumentace stavby (DPS)",
+        "desc": "Detailní výkresy detailů, výkazy výměr a položkové rozpočty pro tendry"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Stupeň dokumentace",
+        "Účel projektu",
+        "Výstupní formát",
+        "Typická lhůta"
+      ],
+      "rows": [
+        [
+          "Architektonická studie",
+          "Koncept, dispozice, 3D model",
+          "BIM model / PDF / Rendery",
+          "3 - 6 týdnů"
+        ],
+        [
+          "Projekt pro povolení stavby",
+          "Stavební povolení u úřadů",
+          "Kompletní paré + digitální DOSS",
+          "8 - 14 týdnů"
+        ],
+        [
+          "Prováděcí projekt (DPS)",
+          "Podklad pro výběr zhotovitele a stavbu",
+          "Detailní výkresy 1:50, rozpočet",
+          "6 - 10 týdnů"
+        ],
+        [
+          "Dokumentace skutečného provedení",
+          "Kolaudace a předání díla",
+          "Digitální pasport stavby",
+          "2 - 4 týdny"
+        ]
+      ]
+    },
+    "features": [
+      "Autorizace ČKAIT v oborech Pozemní stavby a Statika a dynamika staveb",
+      "Zpracování projektů v moderním prostředí BIM pro eliminaci kolizí profesí",
+      "Optimální návrh konstrukcí s důrazem na investiční efektivitu a nízké provozní náklady",
+      "Více než 30 let zkušeností s brněnskými a jihomoravskými stavebními úřady"
+    ]
+  },
+  {
+    "id": "inzenyring-povoleni",
+    "cat": "inzenyring",
+    "cat_name": "Inženýrská činnost",
+    "title": "Inženýring, vyřízení stavebních povolení a DOSS",
+    "perex": "Zastupování stavebníka při jednání s dotčenými orgány státní správy, správci inženýrských sítí a získání pravomocného stavebního povolení.",
+    "img": "assets/img_00.png",
+    "badge": "Právní garance procesu",
+    "specs_preview": "Stanoviska DOSS • Vyjádření správců sítí • Územní a stavební řízení",
+    "full_desc": "Legislativní proces povolování staveb je v ČR vysoce náročný. Přijmeme plnou odpovědnost za shromáždění všech potřebných podkladů, vyjádření hygieny, hasičů, odborů životního prostředí a správců infrastruktury tak, aby stavební řízení proběhlo bez zbytečných průtahů.",
+    "models": [
+      {
+        "name": "Předprojektová příprava",
+        "desc": "Zajištění radonového, geologického a hydrogeologického průzkumu"
+      },
+      {
+        "name": "Koordinace stanovisek DOSS",
+        "desc": "Získání kladných závazných stanovisek dotčených orgánů státní správy"
+      },
+      {
+        "name": "Zastupování u stavebního úřadu",
+        "desc": "Kompletní podání na portál stavebníka a komunikace s referenty"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Fáze inženýringu",
+        "Zahrnuté úkony",
+        "Doba vyřízení",
+        "Garantovaný výsledek"
+      ],
+      "rows": [
+        [
+          "Předběžné konzultace",
+          "Ověření záměru v územním plánu",
+          "1 - 2 týdny",
+          "Územně plánovací informace"
+        ],
+        [
+          "Správci sítí (VTE, GAS, EL)",
+          "Zajištění bodů napojení a smluv",
+          "3 - 5 týdnů",
+          "Smlouvy o připojení"
+        ],
+        [
+          "Závazná stanoviska DOSS",
+          "HZS, KHS, OŽP, Památková péče",
+          "30 - 60 dní",
+          "Kladná stanoviska k záměru"
+        ],
+        [
+          "Povolení stavby",
+          "Vedení řízení do právní moci",
+          "Dle lhůt úřadu",
+          "Pravomocné stavební povolení"
+        ]
+      ]
+    },
+    "features": [
+      "Plné převzetí administrativní zátěže na základě plné moci investora",
+      "Přesná znalost nového stavebního zákona č. 283/2021 Sb. a digitálního stavebního řízení",
+      "Aktivní řešení případných připomínek účastníků řízení a sousedů",
+      "Minimální časové ztráty díky paralelnímu projednávání jednotlivých profesí"
+    ]
+  },
+  {
+    "id": "stavebni-dozor",
+    "cat": "dozor",
+    "cat_name": "Autorský a technický dozor",
+    "title": "Technický dozor stavebníka (TDS) a autorský dozor",
+    "perex": "Nezávislá kontrola kvality prováděných prací na stavbě, dodržování technologických postupů, souladu s projektem a čerpání rozpočtu.",
+    "img": "assets/img_00.png",
+    "badge": "Ochrana rozpočtu investora",
+    "specs_preview": "Pravidelné kontrolní dny • Přejímky zakrývaných konstrukcí • Kontrola fakturace",
+    "full_desc": "Technický dozor investora je klíčovým ochranným prvkem před nekvalitní prací zhotovitelů a neoprávněným navyšováním ceny díla formou víceprací. Prověřujeme každou položku na soupisu prací a přebíráme výhradně bezvadně provedené stavební konstrukce.",
+    "models": [
+      {
+        "name": "Technický dozor investora (TDS)",
+        "desc": "Dohled nad kvalitou montáží, zkouškami materiálů a stavebním deníkem"
+      },
+      {
+        "name": "Autorský dozor projektanta (AD)",
+        "desc": "Kontrola souladu stavby s architektonickým a technickým projektem"
+      },
+      {
+        "name": "Koordinátor BOZP na staveništi",
+        "desc": "Plnění zákonných požadavků na bezpečnost práce při výstavbě"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Činnost dozoru",
+        "Frekvence na stavbě",
+        "Výstupy dozoru",
+        "Přínos pro investora"
+      ],
+      "rows": [
+        [
+          "Kontrolní dny stavby",
+          "1x až 2x týdně dle etapy",
+          "Zápis v deníku, fotodokumentace",
+          "Průběžná informovanost a kontrola"
+        ],
+        [
+          "Kontrola zakrytých prací",
+          "Před každým betonováním a záklopy",
+          "Přejímací protokoly armatury",
+          "Prevence skrytých konstrukčních vad"
+        ],
+        [
+          "Ověřování prostavěnosti",
+          "Měsíčně před schválením faktury",
+          "Autorizovaný soupis prací",
+          "Platba pouze za skutečně provedené práce"
+        ],
+        [
+          "Přejímací a kolaudační řízení",
+          "Závěr výstavby",
+          "Seznam vad a nedodělků, kolaudace",
+          "Bezproblémové uvedení do provozu"
+        ]
+      ]
+    },
+    "features": [
+      "Nezávislost na realizačních stavebních firmách – hájíme výhradně zájmy investora",
+      "Důsledné vymáhání technologických norem ČSN a technologických předpisů výrobců",
+      "Fotografický archiv všech fází stavby pro případné budoucí spory",
+      "Zkušenosti s řízením investičních akcí v objemech od jednotek po stovky milionů Kč"
+    ]
+  },
+  {
+    "id": "provadeni-staveb",
+    "cat": "stavby",
+    "cat_name": "Realizace staveb",
+    "title": "Generální dodávky a stavební úpravy objektů",
+    "perex": "Provádění novostaveb, rekonstrukcí budov, půdních vestaveb a odstraňování staveb s vlastními osvědčenými řemeslnými kapacitami.",
+    "img": "assets/img_00.png",
+    "badge": "Záruka na dílo",
+    "specs_preview": "Pozemní stavitelství • Hrubé stavby • Kompletní rekonstrukce",
+    "full_desc": "Kromě projekční a inženýrské činnosti disponuje BOOS a.s. licencí na provádění staveb, jejich změn a odstraňování. Pro vybrané investory zajišťujeme realizaci formou Design & Build (Navrhni a postav), což zkracuje čas výstavby a garantuje jednotnou odpovědnost za projekt i provedení.",
+    "models": [
+      {
+        "name": "Rezidenční a bytová výstavba",
+        "desc": "Výstavba rodinných domů na klíč, vil a rekonstrukce bytových domů"
+      },
+      {
+        "name": "Komerční a administrativní objekty",
+        "desc": "Úpravy kancelářských interiérů, prodejen a lehkých provozních budov"
+      },
+      {
+        "name": "Stavební sanace a adaptace",
+        "desc": "Zesilování konstrukcí, výměny krovů, hydroizolační injektáže"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Typ realizace",
+        "Forma spolupráce",
+        "Záruční doba",
+        "Hlavní reference"
+      ],
+      "rows": [
+        [
+          "Novostavby rodinných domů",
+          "Generální dodávka na klíč",
+          "60 měsíců",
+          "Brno a okolí"
+        ],
+        [
+          "Rekonstrukce a adaptace budov",
+          "Kompletní stavební úpravy",
+          "60 měsíců",
+          "Historické i moderní objekty"
+        ],
+        [
+          "Půdní vestavby a nástavby",
+          "Suchá výstavba a krovy",
+          "36 - 60 měsíců",
+          "Bytové domy v Brně"
+        ],
+        [
+          "Demolice a odstraňování staveb",
+          "Včetně recyklace a odvozu",
+          "Předávací protokol",
+          "Průmyslové i obytné objekty"
+        ]
+      ]
+    },
+    "features": [
+      "Jediný smluvní partner pro celou realizaci od prvního náčrtu po předání klíčů",
+      "Transparentní položkový rozpočet v systému RTS / ÚRS bez skrytých poplatků",
+      "Pojištění odpovědnosti za škodu z výkonu stavební a projektové činnosti",
+      "Přísné dodržování dohodnutých harmonogramů a smluvních termínů"
+    ]
+  }
+]
