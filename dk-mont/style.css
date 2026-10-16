@@ -716,6 +716,8 @@ img {
     max-height: 100%;
     width: auto;
     object-fit: contain;
+    background: #FFFFFF;
+    padding: 12px;
     transition: transform 0.4s ease;
 }
 
@@ -1013,13 +1015,13 @@ img {
 }
 
 .contact-logo-box {
-    background-color: #002855;
+    background-color: #0F172A;
     padding: 0.65rem 1.4rem;
     border-radius: 8px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 14px rgba(0, 40, 85, 0.25);
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.25);
 }
 
 .contact-logo {
