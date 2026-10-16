@@ -1,0 +1,314 @@
+[
+  {
+    "id": "nerez_01",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_01.jpg",
+    "title": "Trubkový rozvaděč kapalin",
+    "desc": "Nerezový rozdělovač s přesnými TIG svary pro potravinářský průmysl."
+  },
+  {
+    "id": "nerez_02",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_02.jpg",
+    "title": "Tlaková komora s přírubami",
+    "desc": "Kompaktní nerezová nádoba s těsnými svarovými spoji bez pórů."
+  },
+  {
+    "id": "nerez_03",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_03.jpg",
+    "title": "Nosný svařenec pro farmaceutickou linku",
+    "desc": "Vysoká rovinnost a leštěné povrchy pro sterilní prostředí."
+  },
+  {
+    "id": "nerez_04",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_04.jpg",
+    "title": "Kruhová nerezová vana",
+    "desc": "Kruhové těleso s obvodovými svary a zkouškou těsnosti kapalinou."
+  },
+  {
+    "id": "nerez_05",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_05.jpg",
+    "title": "Rozměrný skříňový rám",
+    "desc": "Komplexní sestava profilů s minimálními úhlovými deformacemi."
+  },
+  {
+    "id": "nerez_06",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_06.jpg",
+    "title": "Nerezový kryt reaktoru",
+    "desc": "Pohledový svarový spoj s jemnou kresbou a chemickým mořením."
+  },
+  {
+    "id": "nerez_07",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_07.jpg",
+    "title": "Potrubní koleno s redukcí",
+    "desc": "Svařování tenkostěnných trubek z oceli AISI 316L pod inertním plynem."
+  },
+  {
+    "id": "nerez_08",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_08.jpg",
+    "title": "Svařovaný zásobník s výpustí",
+    "desc": "Hladké koutové svary zamezující ulpívání usazenin uvnitř nádoby."
+  },
+  {
+    "id": "nerez_09",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_09.jpg",
+    "title": "Segment výměníku tepla",
+    "desc": "Precizní usazení trubkovnice a těsnost svarů při pracovním tlaku."
+  },
+  {
+    "id": "nerez_10",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_10.jpg",
+    "title": "Manipulační konzole",
+    "desc": "Pevnostní nerezový svařenec pro automatizované výrobní linky."
+  },
+  {
+    "id": "nerez_11",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_11.jpg",
+    "title": "Svařovaná příruba s hrdlem",
+    "desc": "Strojně opracované dosedací plochy a přesný kořen svaru."
+  },
+  {
+    "id": "nerez_12",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_12.jpg",
+    "title": "Sanitární sběrný kanál",
+    "desc": "Leštěné provedení pro snadné čištění a CIP sanitaci."
+  },
+  {
+    "id": "nerez_13",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_13.jpg",
+    "title": "Skříň řídicí jednotky",
+    "desc": "Nerezový rozvaděč pro chemické provozy s vysokou korozní odolností."
+  },
+  {
+    "id": "nerez_14",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_14.jpg",
+    "title": "Nerezový rám laboratorního stolu",
+    "desc": "Tuhá konstrukce z jeklových profilů s rektifikačními patkami."
+  },
+  {
+    "id": "nerez_15",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_15.jpg",
+    "title": "Filtrační těleso kapalin",
+    "desc": "Kombinace plechových výpalků a přesně svařených nerezových trubek."
+  },
+  {
+    "id": "nerez_16",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_16.jpg",
+    "title": "Kompaktní sběrná vana",
+    "desc": "Jednolitý svarový lem s kapilární zkouškou nepropustnosti svarů."
+  },
+  {
+    "id": "nerez_17",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_17.jpg",
+    "title": "Ochranný tubus senzoru",
+    "desc": "Tenkostěnný svařenec s vysokými nároky na rozměrovou toleranci."
+  },
+  {
+    "id": "nerez_18",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_18.jpg",
+    "title": "Výfukový a spalinový nerezový modul",
+    "desc": "Žárupevná nerezová ocel odolávající cyklickému tepelnému namáhání."
+  },
+  {
+    "id": "nerez_19",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_19.jpg",
+    "title": "Tvarová redukční spojka",
+    "desc": "Hladký vnitřní průtok bez nerovností a otřepů ve svarové zóně."
+  },
+  {
+    "id": "nerez_20",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_20.jpg",
+    "title": "Technologická lávka a schodnice",
+    "desc": "Pochozí nerezová konstrukce s protiskluzovým roštem."
+  },
+  {
+    "id": "nerez_21",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_21.jpg",
+    "title": "Rozváděcí věnec hořáku",
+    "desc": "Radiální uspořádání trysek s rovnoměrným přívodem plynu."
+  },
+  {
+    "id": "nerez_22",
+    "cat": "nerez",
+    "cat_name": "Nerezové svařence",
+    "file": "assets/gallery/nerez_22.jpg",
+    "title": "Masivní nerezová příruba",
+    "desc": "Vícevrstvý TIG svar s předehřevem a kontrolovanou teplotou interpass."
+  },
+  {
+    "id": "hlinik_01",
+    "cat": "hlinik",
+    "cat_name": "Hliníkové svařence",
+    "file": "assets/gallery/hlinik_01.jpg",
+    "title": "Hliníková nosná konzole",
+    "desc": "Svařenec ze slitiny AlMg pro lehká kolejová vozidla a dopravu."
+  },
+  {
+    "id": "hlinik_02",
+    "cat": "hlinik",
+    "cat_name": "Hliníkové svařence",
+    "file": "assets/gallery/hlinik_02.jpg",
+    "title": "Hliníkový rám skříně",
+    "desc": "Pulzní MIG svařování pro minimalizaci deformací tenkých hliníkových stěn."
+  },
+  {
+    "id": "hlinik_03",
+    "cat": "hlinik",
+    "cat_name": "Hliníkové svařence",
+    "file": "assets/gallery/hlinik_03.jpg",
+    "title": "Kryt agregátu z Al slitiny",
+    "desc": "Vysoká pevnost při zachování minimální hmotnosti celého dílce."
+  },
+  {
+    "id": "hlinik_04",
+    "cat": "hlinik",
+    "cat_name": "Hliníkové svařence",
+    "file": "assets/gallery/hlinik_04.jpg",
+    "title": "Hliníkový vzduchotechnický dílec",
+    "desc": "Plynulý přechod profilů a čistý svarový lem bez oxidických vměstků."
+  },
+  {
+    "id": "hlinik_05",
+    "cat": "hlinik",
+    "cat_name": "Hliníkové svařence",
+    "file": "assets/gallery/hlinik_05.jpg",
+    "title": "Svařovaná hliníková skříň",
+    "desc": "Rohové svary s rovnoměrným závarem a estetickou kresbou housenky."
+  },
+  {
+    "id": "hlinik_06",
+    "cat": "hlinik",
+    "cat_name": "Hliníkové svařence",
+    "file": "assets/gallery/hlinik_06.jpg",
+    "title": "Montážní hliníková vzpěra",
+    "desc": "Přesné vrtané otvory a tuhé rohové výztuhy pro dynamické namáhání."
+  },
+  {
+    "id": "hlinik_07",
+    "cat": "hlinik",
+    "cat_name": "Hliníkové svařence",
+    "file": "assets/gallery/hlinik_07.jpg",
+    "title": "Hliníkový distribuční kanál",
+    "desc": "Lehká konstrukce odolná vlhkosti a venkovnímu koroznímu prostředí."
+  },
+  {
+    "id": "expedice_01",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_01.jpg",
+    "title": "Fixační balení na dřevěných paletách",
+    "desc": "Pevné ukotvení a antikorozní proložky pro bezpečnou kamionovou dopravu."
+  },
+  {
+    "id": "expedice_02",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_02.jpg",
+    "title": "Vakuové balení leštěných dílů",
+    "desc": "Ochranná fólie zabraňující poškrábání a atmosférické oxidaci povrchu."
+  },
+  {
+    "id": "expedice_03",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_03.jpg",
+    "title": "Příprava nerezových celků k expedici",
+    "desc": "Značení štítky a finální kontrola rozměrů před nakládkou do Německa."
+  },
+  {
+    "id": "expedice_04",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_04.jpg",
+    "title": "Kontejnerová přeprava do zámoří",
+    "desc": "Ochrana proti vlhkosti s vysoušecími sáčky pro lodní transport do Kanady."
+  },
+  {
+    "id": "expedice_05",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_05.jpg",
+    "title": "Stohování přepravních boxů",
+    "desc": "Modulární ukládání svařenců pro maximální vytížení ložného prostoru."
+  },
+  {
+    "id": "expedice_06",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_06.jpg",
+    "title": "Individuální polstrování hran",
+    "desc": "Rohové chrániče a pěnové pásy chránící citlivé těsnicí plochy."
+  },
+  {
+    "id": "expedice_07",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_07.jpg",
+    "title": "Zajištění exportní zásilky",
+    "desc": "Vázací PES pásky s vysokou pevností a certifikací pro mezinárodní tranzit."
+  },
+  {
+    "id": "expedice_08",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_08.jpg",
+    "title": "Finální výstupní inspekce",
+    "desc": "Vizuální prohlídka svarů a balení s protokolem měření jakosti."
+  },
+  {
+    "id": "expedice_09",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_09.jpg",
+    "title": "Nakládka hotových svařenců",
+    "desc": "Jeřábová manipulace s textilními úvazky bez rizika poškození nerezi."
+  },
+  {
+    "id": "expedice_10",
+    "cat": "expedice",
+    "cat_name": "Balení a expedice",
+    "file": "assets/gallery/expedice_10.jpg",
+    "title": "Zásilka připravená k odbavení",
+    "desc": "Kompletní přepravní a celní dokumentace pro odběratele v Nizozemsku."
+  }
+]

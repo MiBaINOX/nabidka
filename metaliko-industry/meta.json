@@ -15,25 +15,39 @@
     "Člen silné strojírenské skupiny Metaliko Group s vlastním inženýringem"
   ],
   "vady_stareho_webu": [
-    "Zastaralá šablona s nízkým kontrastem a nepřehlednou strukturou",
-    "Nefunkční interaktivita a absence technologického rozcestníku materiálů",
-    "Statický katalog výrobků bez možnosti detailního prozkoumání svarů",
-    "Chybějící Mapy.cz navigace k provozovně v Šebetově",
-    "Ploché rozvržení bez prezentace exportní stability a příběhu firmy"
+    "Skrytá fotogalerie výrobků načítaná přes pomalý AJAX plugin",
+    "Absence přepínače jazyků pro zahraniční odběratele z 8 zemí",
+    "Chybějící Mapy.cz navigace k výrobnímu areálu v Šebetově",
+    "Ploché rozvržení bez technologického rozcestníku materiálů a parametrů",
+    "Neoptimalizované velkoobjemové fotografie zpomalující načítání na mobilech"
   ],
   "vylepseni_noveho_webu": [
-    "Unikátní Editorial & Story design s prémiovou typografií",
-    "Interaktivní materiálový rozcestník parametrů svařování TIG/MIG",
-    "Fotogalerie výrobků s vysokým rozlišením a interaktivním modálním oknem",
-    "Ověřené personální vizitky celého technického i obchodního vedení",
-    "100% mobilní responzivita a optimalizace pro mezinárodní B2B klienty"
+    "Kompletní fotogalerie všech 39 reálných výrobků s filtrem kategorií a lightboxem",
+    "Interaktivní technologický rozcestník materiálů s přenosem parametrů do poptávky",
+    "Plně funkční vícejazyčnost CZ / EN / DE s okamžitým přepnutím všech textů",
+    "Ověřený Mapy.cz špendlík přímo na budovu areálu Šebetov 258",
+    "Kompletní vizitky 5 klíčových manažerů včetně reálné fotografie a certifikátů"
   ],
   "fakta": {
     "rok_zalozeni": 2017,
     "zamestnanci": "25-49",
     "provozovna": "Šebetov 258",
     "skupina": "Metaliko Group",
-    "export_zeme": ["Německo", "Rakousko", "Dánsko", "Nizozemsko", "Norsko", "Švédsko", "Kanada", "Velká Británie"]
+    "export_zeme": [
+      "Německo",
+      "Rakousko",
+      "Dánsko",
+      "Nizozemsko",
+      "Norsko",
+      "Švédsko",
+      "Kanada",
+      "Velká Británie"
+    ],
+    "fotografie_pocet": 39
   },
-  "jazyky": ["CZ"]
+  "jazyky": [
+    "CZ",
+    "EN",
+    "DE"
+  ]
 }

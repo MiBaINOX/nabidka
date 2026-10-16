@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Metaliko industry s.r.o. | Certifikované svařování nerezi a hliníku</title>
+  <title data-i18n="page_title">Metaliko industry s.r.o. | Certifikované svařování nerezi a hliníku</title>
   <meta name="description" content="Česká strojírenská společnost specializovaná na zakázkovou výrobu přesných nerezových a hliníkových svařenců v čistém prostředí bez kontaminace uhlíkem.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,14 @@
     <div class="container top-bar-inner">
       <div class="top-left">
         <span class="top-badge">Metaliko Group</span>
-        <span class="top-meta">Provozovna Šebetov 258 • Export do 8 zemí</span>
+        <span class="top-meta" data-i18n="top_meta">Provozovna Šebetov 258 • Export do 8 zemí</span>
       </div>
       <div class="top-right">
+        <div class="lang-switcher" id="langSwitcher">
+          <button type="button" class="lang-btn is-active" data-lang="cs">CZ</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="de">DE</button>
+        </div>
         <a href="tel:+420728259050" class="top-link">
           <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           +420 728 259 050
@@ -37,12 +42,12 @@
       </a>
       <nav class="site-nav" id="siteNav">
         <ul class="nav-list">
-          <li><a href="#o-nas" class="nav-item">O společnosti</a></li>
-          <li><a href="#pribeh" class="nav-item">Náš příběh</a></li>
-          <li><a href="#produkty" class="nav-item">Výrobky</a></li>
-          <li><a href="#technologie" class="nav-item">Technologie</a></li>
-          <li><a href="#tym" class="nav-item">Vedení firmy</a></li>
-          <li><a href="#kontakt" class="nav-item nav-btn">Nezávazná poptávka</a></li>
+          <li><a href="#o-nas" class="nav-item" data-i18n="nav_about">O společnosti</a></li>
+          <li><a href="#pribeh" class="nav-item" data-i18n="nav_story">Náš příběh</a></li>
+          <li><a href="#produkty" class="nav-item" data-i18n="nav_products">Výrobky</a></li>
+          <li><a href="#rozcestnik" class="nav-item nav-highlight" data-i18n="nav_rozcestnik">Technologický rozcestník</a></li>
+          <li><a href="#tym" class="nav-item" data-i18n="nav_team">Vedení firmy</a></li>
+          <li><a href="#kontakt" class="nav-item nav-btn" data-i18n="nav_contact">Nezávazná poptávka</a></li>
         </ul>
       </nav>
       <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
@@ -58,23 +63,23 @@
       <div class="container">
         <div class="hero-split">
           <div class="hero-text-col reveal-on-scroll">
-            <span class="editorial-kicker">Ryze česká strojírenská výroba</span>
-            <h1 class="hero-headline">
+            <span class="editorial-kicker" data-i18n="hero_kicker">Ryze česká strojírenská výroba</span>
+            <h1 class="hero-headline" data-i18n="hero_title">
               Špičkové svařování nerezi a hliníku v prostředí bez kontaminace
             </h1>
-            <p class="hero-standfirst">
+            <p class="hero-standfirst" data-i18n="hero_perex">
               Vyrábíme vysoce přesné nerezové a hliníkové svařence pro energetiku, potravinářství, medicínskou techniku a ekologické provozy. Naše čistá hala v Šebetově garantuje absolutní absenci uhlíkového materiálu a stoprocentní čistotu svarových spojů.
             </p>
             <div class="hero-cta-group">
               <a href="#produkty" class="btn btn-editorial-primary">
-                Katalog svařenců
+                <span data-i18n="hero_btn_catalog">Katalog svařenců</span>
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
-              <a href="#pribeh" class="btn btn-editorial-outline">Příběh a vize</a>
+              <a href="#rozcestnik" class="btn btn-editorial-outline" data-i18n="hero_btn_rozcestnik">Materiálový rozcestník</a>
             </div>
             <div class="export-strip">
-              <span class="export-label">Exportní trhy:</span>
-              <span class="export-tags">Německo • Rakousko • Dánsko • Nizozemsko • Norsko • Švédsko • Kanada • Velká Británie</span>
+              <span class="export-label" data-i18n="export_label">Exportní trhy:</span>
+              <span class="export-tags" data-i18n="export_countries">Německo • Rakousko • Dánsko • Nizozemsko • Norsko • Švédsko • Kanada • Velká Británie</span>
             </div>
           </div>
           <div class="hero-media-col reveal-on-scroll">
@@ -84,11 +89,11 @@
               </div>
               <div class="floating-stat-box stat-left">
                 <span class="stat-big-num">100%</span>
-                <span class="stat-desc-inline">Čisté nerezové prostředí bez uhlíku</span>
+                <span class="stat-desc-inline" data-i18n="stat_clean">Čisté nerezové prostředí bez uhlíku</span>
               </div>
               <div class="floating-stat-box stat-right">
                 <span class="stat-big-num">8+</span>
-                <span class="stat-desc-inline">Zemí mezinárodního exportu</span>
+                <span class="stat-desc-inline" data-i18n="stat_export">Zemí mezinárodního exportu</span>
               </div>
             </div>
           </div>
@@ -103,25 +108,25 @@
             <div class="counter-val-wrap">
               <span class="counter-val" data-target="2017">0</span>
             </div>
-            <div class="counter-label">Rok vzniku společnosti a vstup do Metaliko Group</div>
+            <div class="counter-label" data-i18n="counter_1">Rok vzniku společnosti a vstup do Metaliko Group</div>
           </div>
           <div class="counter-card reveal-on-scroll">
             <div class="counter-val-wrap">
-              <span class="counter-val" data-target="8">0</span><span class="counter-plus">států</span>
+              <span class="counter-val" data-target="8">0</span><span class="counter-plus" data-i18n="counter_states_unit">států</span>
             </div>
-            <div class="counter-label">Globální exportní dosah v západní Evropě a Skandinávii</div>
+            <div class="counter-label" data-i18n="counter_2">Globální exportní dosah v západní Evropě a Skandinávii</div>
           </div>
           <div class="counter-card reveal-on-scroll">
             <div class="counter-val-wrap">
               <span class="counter-val" data-target="100">0</span><span class="counter-plus">%</span>
             </div>
-            <div class="counter-label">Oddělení výroby od uhlíkových ocelí pro nulovou korozi</div>
+            <div class="counter-label" data-i18n="counter_3">Oddělení výroby od uhlíkových ocelí pro nulovou korozi</div>
           </div>
           <div class="counter-card reveal-on-scroll">
             <div class="counter-val-wrap">
-              <span class="counter-val" data-target="5">0</span><span class="counter-plus">manažerů</span>
+              <span class="counter-val" data-target="39">0</span><span class="counter-plus" data-i18n="counter_gallery_unit">položek</span>
             </div>
-            <div class="counter-label">Zkušené technické vedení s přímým kontaktem pro zákazníky</div>
+            <div class="counter-label" data-i18n="counter_4">Zdokumentovaných referenčních dílců v galerii výrobků</div>
           </div>
         </div>
       </div>
@@ -130,32 +135,32 @@
     <section class="section-editorial" id="o-nas">
       <div class="container">
         <div class="editorial-title-center reveal-on-scroll">
-          <span class="editorial-kicker">Filozofie a zázemí</span>
-          <h2 class="editorial-heading">Proč zvolit Metaliko industry</h2>
-          <p class="editorial-perex">
+          <span class="editorial-kicker" data-i18n="about_kicker">Filozofie a zázemí</span>
+          <h2 class="editorial-heading" data-i18n="about_title">Proč zvolit Metaliko industry</h2>
+          <p class="editorial-perex" data-i18n="about_perex">
             Jsme členové týmu Metaliko Group – silného strojírenského partnera s dlouholetou tradicí. V naší modernizované hale v Šebetově se soustředíme výhradně na čistou práci s nerezovými a hliníkovými materiály.
           </p>
         </div>
         <div class="features-triptych">
           <div class="triptych-item reveal-on-scroll">
             <div class="item-number">I</div>
-            <h3>Absolutní čistota prostředí</h3>
-            <p>
+            <h3 data-i18n="feat1_title">Absolutní čistota prostředí</h3>
+            <p data-i18n="feat1_p">
               V naší výrobní hale se nezpracovávají žádné černé uhlíkové oceli. Tím je vyloučena jakákoliv kontaminace feritickým prachem, která by mohla u nerezových dílů způsobit skrytou korozi.
             </p>
           </div>
           <div class="triptych-item reveal-on-scroll">
             <div class="item-number">II</div>
-            <h3>Zakázková i malosériová přesnost</h3>
-            <p>
-              Výrobní tým tvoří kvalifikovaní mistři svého oboru s dlouholetou praxí. Vynikáme flexibilitou při výrobě atypických rámů, tlakových nádrží i jemných komponentů pro nemocniční techniku.
+            <h3 data-i18n="feat2_title">Zakázková i malosériová přesnost</h3>
+            <p data-i18n="feat2_p">
+              Disponujeme certifikovanými svářeči podle mezinárodních norem pro metody TIG a MIG. Dokážeme realizovat jak unikátní prototypové sestavy, tak opakované výrobní série.
             </p>
           </div>
           <div class="triptych-item reveal-on-scroll">
             <div class="item-number">III</div>
-            <h3>Kompletní dodávka na klíč</h3>
-            <p>
-              Zajišťujeme celý životní cyklus zakázky: od kontroly konstrukčních podkladů a přípravy technologie, přes dělení, svařování metodami TIG/MIG, až po moření, pasivaci, balení a export.
+            <h3 data-i18n="feat3_title">Mezinárodní expedice a balení</h3>
+            <p data-i18n="feat3_p">
+              Propracovaný systém antikorozního a fixačního balení zaručuje, že pohledové nerezové díly dorazí k odběratelům v Německu, Skandinávii i zámoří v netknutém stavu.
             </p>
           </div>
         </div>
@@ -165,40 +170,39 @@
     <section class="section-editorial bg-light" id="pribeh">
       <div class="container">
         <div class="editorial-title-center reveal-on-scroll">
-          <span class="editorial-kicker">Časová osa rozvoje</span>
-          <h2 class="editorial-heading">Příběh naší cesty a expanze</h2>
-          <p class="editorial-perex">
-            Cesta od specializované české svařovny k renomovanému exportnímu partnerovi pro náročné zahraniční klienty.
+          <span class="editorial-kicker" data-i18n="story_kicker">Naše cesta a vize</span>
+          <h2 class="editorial-heading" data-i18n="story_title">Příběh čistého strojírenství</h2>
+          <p class="editorial-perex" data-i18n="story_perex">
+            Od založení v roce 2017 budujeme v Šebetově pracoviště, které splňuje nejpřísnější evropské požadavky na přesnost svarů a metalurgickou čistotu.
           </p>
         </div>
-        <div class="timeline-editorial">
-          <div class="timeline-track"></div>
-          <div class="timeline-entry reveal-on-scroll">
-            <div class="timeline-year">2017</div>
-            <div class="timeline-content">
-              <h4>Vznik společnosti Metaliko industry s.r.o.</h4>
-              <p>Založení specializované dceřiné entity v rámci Metaliko Group se zaměřením na náročné aplikace v nerezových a hliníkových slitinách.</p>
+        <div class="story-timeline">
+          <div class="timeline-milestone reveal-on-scroll">
+            <div class="milestone-year">2017</div>
+            <div class="milestone-body">
+              <h4 data-i18n="m1_title">Vznik společnosti a vstup do Metaliko Group</h4>
+              <p data-i18n="m1_p">Spojení s mateřskou společností Metaliko a strategické rozhodnutí vytvořit specializovaný provoz zaměřený výhradně na nerez a hliník.</p>
             </div>
           </div>
-          <div class="timeline-entry reveal-on-scroll">
-            <div class="timeline-year">2019</div>
-            <div class="timeline-content">
-              <h4>Vybudování bezuhlíkové výrobní haly v Šebetově</h4>
-              <p>Striktní prostorové i technologické oddělení výroby. Zavedení přísných auditních postupů pro zamezení feritické kontaminace u medicínských a potravinářských výrobků.</p>
+          <div class="timeline-milestone reveal-on-scroll">
+            <div class="milestone-year">2019</div>
+            <div class="milestone-body">
+              <h4 data-i18n="m2_title">Modernizace areálu v Šebetově</h4>
+              <p data-i18n="m2_p">Kompletní přebudování výrobních prostor na bezuhlíkovou zónu s odsáváním, moderními TIG pracovišti a systémem čistého nářadí.</p>
             </div>
           </div>
-          <div class="timeline-entry reveal-on-scroll">
-            <div class="timeline-year">2021</div>
-            <div class="timeline-content">
-              <h4>Masivní mezinárodní expanze do 8 zemí</h4>
-              <p>Schválení do dodavatelských řetězců významných průmyslových skupin v Německu, Rakousku, Dánsku a Skandinávii. Pravidelný export do zámoří včetně Kanady.</p>
+          <div class="timeline-milestone reveal-on-scroll">
+            <div class="milestone-year">2022</div>
+            <div class="milestone-body">
+              <h4 data-i18n="m3_title">Průlom na náročné exportní trhy</h4>
+              <p data-i18n="m3_p">Zahájení dodávek pro lídry v chemickém a medicínském strojírenství v Německu, Dánsku, Nizozemsku a zámoří.</p>
             </div>
           </div>
-          <div class="timeline-entry reveal-on-scroll">
-            <div class="timeline-year">Dnes</div>
-            <div class="timeline-content">
-              <h4>Stabilní partner s moderním inženýringem</h4>
-              <p>Kompletní konstrukční podpora, pokročilá kontrola jakosti svarů, mezinárodní certifikace a stabilní tým kvalifikovaných svářečů.</p>
+          <div class="timeline-milestone reveal-on-scroll">
+            <div class="milestone-year">Dnes</div>
+            <div class="milestone-body">
+              <h4 data-i18n="m4_title">Stabilní partner s moderním inženýringem</h4>
+              <p data-i18n="m4_p">Kompletní konstrukční podpora, pokročilá kontrola jakosti svarů, mezinárodní certifikace a stabilní tým kvalifikovaných svářečů.</p>
             </div>
           </div>
         </div>
@@ -208,71 +212,409 @@
     <section class="section-editorial" id="produkty">
       <div class="container">
         <div class="editorial-title-center reveal-on-scroll">
-          <span class="editorial-kicker">Výrobní portfolio</span>
-          <h2 class="editorial-heading">Nerezové a hliníkové svařence</h2>
-          <p class="editorial-perex">
-            Prohlédněte si ukázky reálných výrobků dodávaných našim zákazníkům. Kliknutím na fotografii otevřete detailní náhled.
+          <span class="editorial-kicker" data-i18n="prod_kicker">Výrobní portfolio &amp; Reference</span>
+          <h2 class="editorial-heading" data-i18n="prod_title">Katalog a fotogalerie svařenců</h2>
+          <p class="editorial-perex" data-i18n="prod_perex">
+            Kompletní přehled všech 39 reálných dílců vyráběných v našem závodě. Vyberte kategorii pro okamžité filtrování nebo klikněte pro zvětšení detailu svaru.
           </p>
         </div>
-        <div class="products-editorial-grid">
-          <div class="prod-card reveal-on-scroll">
+
+        <div class="gallery-filter-bar reveal-on-scroll">
+          <button type="button" class="filter-btn is-active" data-filter="all" data-i18n="filter_all">Všechny realizace (39)</button>
+          <button type="button" class="filter-btn" data-filter="nerez" data-i18n="filter_nerez">Nerezové svařence (22)</button>
+          <button type="button" class="filter-btn" data-filter="hlinik" data-i18n="filter_hlinik">Hliníkové svařence (7)</button>
+          <button type="button" class="filter-btn" data-filter="expedice" data-i18n="filter_expedice">Balení a expedice (10)</button>
+        </div>
+
+        <div class="products-editorial-grid" id="productsGrid">
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
             <div class="prod-frame">
-              <img src="assets/img_03_nerezove-svarence-01-270x263.jpg" alt="Přesný nerezový svařenec - detail TIG svaru" class="prod-img zoom-target" data-full="assets/img_03_nerezove-svarence-01-270x263.jpg" width="270" height="263">
+              <img src="assets/gallery/nerez_01.jpg" alt="Trubkový rozvaděč kapalin" class="prod-img zoom-target" data-full="assets/gallery/nerez_01.jpg" loading="lazy">
             </div>
             <div class="prod-meta">
               <span class="prod-category">Nerezové svařence</span>
-              <h4 class="prod-title">Tvarový rozvaděč kapalin</h4>
-              <p class="prod-desc">Nerezové potrubní a skříňové celky pro chemický a farmaceutický sektor.</p>
+              <h4 class="prod-title">Trubkový rozvaděč kapalin</h4>
+              <p class="prod-desc">Nerezový rozdělovač s přesnými TIG svary pro potravinářský průmysl.</p>
             </div>
           </div>
-          <div class="prod-card reveal-on-scroll">
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
             <div class="prod-frame">
-              <img src="assets/img_04_nerezove-svarence-02-270x263.jpg" alt="Nerezový rám pro zdravotnickou techniku" class="prod-img zoom-target" data-full="assets/img_04_nerezove-svarence-02-270x263.jpg" width="270" height="263">
+              <img src="assets/gallery/nerez_02.jpg" alt="Tlaková komora s přírubami" class="prod-img zoom-target" data-full="assets/gallery/nerez_02.jpg" loading="lazy">
             </div>
             <div class="prod-meta">
-              <span class="prod-category">Medicínská technika</span>
-              <h4 class="prod-title">Nosný rám laboratorního zařízení</h4>
-              <p class="prod-desc">Pohledové svary s vysokými nároky na rovinnost a chemickou odolnost.</p>
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Tlaková komora s přírubami</h4>
+              <p class="prod-desc">Kompaktní nerezová nádoba s těsnými svarovými spoji bez pórů.</p>
             </div>
           </div>
-          <div class="prod-card reveal-on-scroll">
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
             <div class="prod-frame">
-              <img src="assets/img_05_nerezove-svarence-03-270x263.jpg" alt="Potravinářská nerezová konstrukce" class="prod-img zoom-target" data-full="assets/img_05_nerezove-svarence-03-270x263.jpg" width="270" height="263">
+              <img src="assets/gallery/nerez_03.jpg" alt="Nosný svařenec pro farmaceutickou linku" class="prod-img zoom-target" data-full="assets/gallery/nerez_03.jpg" loading="lazy">
             </div>
             <div class="prod-meta">
-              <span class="prod-category">Potravinářství</span>
-              <h4 class="prod-title">Sanitární technologická vana</h4>
-              <p class="prod-desc">Hladké vnitřní koutové svary zamezující ulpívání bakterií a nečistot.</p>
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Nosný svařenec pro farmaceutickou linku</h4>
+              <p class="prod-desc">Vysoká rovinnost a leštěné povrchy pro sterilní prostředí.</p>
             </div>
           </div>
-          <div class="prod-card reveal-on-scroll">
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
             <div class="prod-frame">
-              <img src="assets/img_06_nerezove-svarence-04-270x263.jpg" alt="Hliníkový lehký konstrukční prvek" class="prod-img zoom-target" data-full="assets/img_06_nerezove-svarence-04-270x263.jpg" width="270" height="263">
+              <img src="assets/gallery/nerez_04.jpg" alt="Kruhová nerezová vana" class="prod-img zoom-target" data-full="assets/gallery/nerez_04.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Kruhová nerezová vana</h4>
+              <p class="prod-desc">Kruhové těleso s obvodovými svary a zkouškou těsnosti kapalinou.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_05.jpg" alt="Rozměrný skříňový rám" class="prod-img zoom-target" data-full="assets/gallery/nerez_05.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Rozměrný skříňový rám</h4>
+              <p class="prod-desc">Komplexní sestava profilů s minimálními úhlovými deformacemi.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_06.jpg" alt="Nerezový kryt reaktoru" class="prod-img zoom-target" data-full="assets/gallery/nerez_06.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Nerezový kryt reaktoru</h4>
+              <p class="prod-desc">Pohledový svarový spoj s jemnou kresbou a chemickým mořením.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_07.jpg" alt="Potrubní koleno s redukcí" class="prod-img zoom-target" data-full="assets/gallery/nerez_07.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Potrubní koleno s redukcí</h4>
+              <p class="prod-desc">Svařování tenkostěnných trubek z oceli AISI 316L pod inertním plynem.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_08.jpg" alt="Svařovaný zásobník s výpustí" class="prod-img zoom-target" data-full="assets/gallery/nerez_08.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Svařovaný zásobník s výpustí</h4>
+              <p class="prod-desc">Hladké koutové svary zamezující ulpívání usazenin uvnitř nádoby.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_09.jpg" alt="Segment výměníku tepla" class="prod-img zoom-target" data-full="assets/gallery/nerez_09.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Segment výměníku tepla</h4>
+              <p class="prod-desc">Precizní usazení trubkovnice a těsnost svarů při pracovním tlaku.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_10.jpg" alt="Manipulační konzole" class="prod-img zoom-target" data-full="assets/gallery/nerez_10.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Manipulační konzole</h4>
+              <p class="prod-desc">Pevnostní nerezový svařenec pro automatizované výrobní linky.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_11.jpg" alt="Svařovaná příruba s hrdlem" class="prod-img zoom-target" data-full="assets/gallery/nerez_11.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Svařovaná příruba s hrdlem</h4>
+              <p class="prod-desc">Strojně opracované dosedací plochy a přesný kořen svaru.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_12.jpg" alt="Sanitární sběrný kanál" class="prod-img zoom-target" data-full="assets/gallery/nerez_12.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Sanitární sběrný kanál</h4>
+              <p class="prod-desc">Leštěné provedení pro snadné čištění a CIP sanitaci.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_13.jpg" alt="Skříň řídicí jednotky" class="prod-img zoom-target" data-full="assets/gallery/nerez_13.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Skříň řídicí jednotky</h4>
+              <p class="prod-desc">Nerezový rozvaděč pro chemické provozy s vysokou korozní odolností.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_14.jpg" alt="Nerezový rám laboratorního stolu" class="prod-img zoom-target" data-full="assets/gallery/nerez_14.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Nerezový rám laboratorního stolu</h4>
+              <p class="prod-desc">Tuhá konstrukce z jeklových profilů s rektifikačními patkami.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_15.jpg" alt="Filtrační těleso kapalin" class="prod-img zoom-target" data-full="assets/gallery/nerez_15.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Filtrační těleso kapalin</h4>
+              <p class="prod-desc">Kombinace plechových výpalků a přesně svařených nerezových trubek.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_16.jpg" alt="Kompaktní sběrná vana" class="prod-img zoom-target" data-full="assets/gallery/nerez_16.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Kompaktní sběrná vana</h4>
+              <p class="prod-desc">Jednolitý svarový lem s kapilární zkouškou nepropustnosti svarů.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_17.jpg" alt="Ochranný tubus senzoru" class="prod-img zoom-target" data-full="assets/gallery/nerez_17.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Ochranný tubus senzoru</h4>
+              <p class="prod-desc">Tenkostěnný svařenec s vysokými nároky na rozměrovou toleranci.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_18.jpg" alt="Výfukový a spalinový nerezový modul" class="prod-img zoom-target" data-full="assets/gallery/nerez_18.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Výfukový a spalinový nerezový modul</h4>
+              <p class="prod-desc">Žárupevná nerezová ocel odolávající cyklickému tepelnému namáhání.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_19.jpg" alt="Tvarová redukční spojka" class="prod-img zoom-target" data-full="assets/gallery/nerez_19.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Tvarová redukční spojka</h4>
+              <p class="prod-desc">Hladký vnitřní průtok bez nerovností a otřepů ve svarové zóně.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_20.jpg" alt="Technologická lávka a schodnice" class="prod-img zoom-target" data-full="assets/gallery/nerez_20.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Technologická lávka a schodnice</h4>
+              <p class="prod-desc">Pochozí nerezová konstrukce s protiskluzovým roštem.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_21.jpg" alt="Rozváděcí věnec hořáku" class="prod-img zoom-target" data-full="assets/gallery/nerez_21.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Rozváděcí věnec hořáku</h4>
+              <p class="prod-desc">Radiální uspořádání trysek s rovnoměrným přívodem plynu.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="nerez">
+            <div class="prod-frame">
+              <img src="assets/gallery/nerez_22.jpg" alt="Masivní nerezová příruba" class="prod-img zoom-target" data-full="assets/gallery/nerez_22.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Nerezové svařence</span>
+              <h4 class="prod-title">Masivní nerezová příruba</h4>
+              <p class="prod-desc">Vícevrstvý TIG svar s předehřevem a kontrolovanou teplotou interpass.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="hlinik">
+            <div class="prod-frame">
+              <img src="assets/gallery/hlinik_01.jpg" alt="Hliníková nosná konzole" class="prod-img zoom-target" data-full="assets/gallery/hlinik_01.jpg" loading="lazy">
             </div>
             <div class="prod-meta">
               <span class="prod-category">Hliníkové svařence</span>
-              <h4 class="prod-title">Konzole pro kolejová vozidla</h4>
-              <p class="prod-desc">Lehká slitina AlMg s certifikovanou dynamickou únavovou pevností.</p>
+              <h4 class="prod-title">Hliníková nosná konzole</h4>
+              <p class="prod-desc">Svařenec ze slitiny AlMg pro lehká kolejová vozidla a dopravu.</p>
             </div>
           </div>
-          <div class="prod-card reveal-on-scroll">
+          <div class="prod-card reveal-on-scroll" data-category="hlinik">
             <div class="prod-frame">
-              <img src="assets/img_07_nerezove-svarence-05b-270x263.jpg" alt="Komplexní nerezový skříňový dílec" class="prod-img zoom-target" data-full="assets/img_07_nerezove-svarence-05b-270x263.jpg" width="270" height="263">
+              <img src="assets/gallery/hlinik_02.jpg" alt="Hliníkový rám skříně" class="prod-img zoom-target" data-full="assets/gallery/hlinik_02.jpg" loading="lazy">
             </div>
             <div class="prod-meta">
-              <span class="prod-category">Energetika</span>
-              <h4 class="prod-title">Skříň pro čisté energetické provozy</h4>
-              <p class="prod-desc">Přesná geometrie s minimální tolerancí deformací po svařování.</p>
+              <span class="prod-category">Hliníkové svařence</span>
+              <h4 class="prod-title">Hliníkový rám skříně</h4>
+              <p class="prod-desc">Pulzní MIG svařování pro minimalizaci deformací tenkých hliníkových stěn.</p>
             </div>
           </div>
-          <div class="prod-card reveal-on-scroll">
+          <div class="prod-card reveal-on-scroll" data-category="hlinik">
             <div class="prod-frame">
-              <img src="assets/img_08_nerezove-svarence-06-270x263.jpg" alt="Balení a expedice svařenců do zahraničí" class="prod-img zoom-target" data-full="assets/img_08_nerezove-svarence-06-270x263.jpg" width="270" height="263">
+              <img src="assets/gallery/hlinik_03.jpg" alt="Kryt agregátu z Al slitiny" class="prod-img zoom-target" data-full="assets/gallery/hlinik_03.jpg" loading="lazy">
             </div>
             <div class="prod-meta">
-              <span class="prod-category">Expedice &amp; Balení</span>
-              <h4 class="prod-title">Ochranné balení a mezinárodní transport</h4>
-              <p class="prod-desc">Individuální fixační balení chránící citlivé leštěné a mořené povrchy.</p>
+              <span class="prod-category">Hliníkové svařence</span>
+              <h4 class="prod-title">Kryt agregátu z Al slitiny</h4>
+              <p class="prod-desc">Vysoká pevnost při zachování minimální hmotnosti celého dílce.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="hlinik">
+            <div class="prod-frame">
+              <img src="assets/gallery/hlinik_04.jpg" alt="Hliníkový vzduchotechnický dílec" class="prod-img zoom-target" data-full="assets/gallery/hlinik_04.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Hliníkové svařence</span>
+              <h4 class="prod-title">Hliníkový vzduchotechnický dílec</h4>
+              <p class="prod-desc">Plynulý přechod profilů a čistý svarový lem bez oxidických vměstků.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="hlinik">
+            <div class="prod-frame">
+              <img src="assets/gallery/hlinik_05.jpg" alt="Svařovaná hliníková skříň" class="prod-img zoom-target" data-full="assets/gallery/hlinik_05.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Hliníkové svařence</span>
+              <h4 class="prod-title">Svařovaná hliníková skříň</h4>
+              <p class="prod-desc">Rohové svary s rovnoměrným závarem a estetickou kresbou housenky.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="hlinik">
+            <div class="prod-frame">
+              <img src="assets/gallery/hlinik_06.jpg" alt="Montážní hliníková vzpěra" class="prod-img zoom-target" data-full="assets/gallery/hlinik_06.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Hliníkové svařence</span>
+              <h4 class="prod-title">Montážní hliníková vzpěra</h4>
+              <p class="prod-desc">Přesné vrtané otvory a tuhé rohové výztuhy pro dynamické namáhání.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="hlinik">
+            <div class="prod-frame">
+              <img src="assets/gallery/hlinik_07.jpg" alt="Hliníkový distribuční kanál" class="prod-img zoom-target" data-full="assets/gallery/hlinik_07.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Hliníkové svařence</span>
+              <h4 class="prod-title">Hliníkový distribuční kanál</h4>
+              <p class="prod-desc">Lehká konstrukce odolná vlhkosti a venkovnímu koroznímu prostředí.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_01.jpg" alt="Fixační balení na dřevěných paletách" class="prod-img zoom-target" data-full="assets/gallery/expedice_01.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Fixační balení na dřevěných paletách</h4>
+              <p class="prod-desc">Pevné ukotvení a antikorozní proložky pro bezpečnou kamionovou dopravu.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_02.jpg" alt="Vakuové balení leštěných dílů" class="prod-img zoom-target" data-full="assets/gallery/expedice_02.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Vakuové balení leštěných dílů</h4>
+              <p class="prod-desc">Ochranná fólie zabraňující poškrábání a atmosférické oxidaci povrchu.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_03.jpg" alt="Příprava nerezových celků k expedici" class="prod-img zoom-target" data-full="assets/gallery/expedice_03.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Příprava nerezových celků k expedici</h4>
+              <p class="prod-desc">Značení štítky a finální kontrola rozměrů před nakládkou do Německa.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_04.jpg" alt="Kontejnerová přeprava do zámoří" class="prod-img zoom-target" data-full="assets/gallery/expedice_04.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Kontejnerová přeprava do zámoří</h4>
+              <p class="prod-desc">Ochrana proti vlhkosti s vysoušecími sáčky pro lodní transport do Kanady.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_05.jpg" alt="Stohování přepravních boxů" class="prod-img zoom-target" data-full="assets/gallery/expedice_05.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Stohování přepravních boxů</h4>
+              <p class="prod-desc">Modulární ukládání svařenců pro maximální vytížení ložného prostoru.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_06.jpg" alt="Individuální polstrování hran" class="prod-img zoom-target" data-full="assets/gallery/expedice_06.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Individuální polstrování hran</h4>
+              <p class="prod-desc">Rohové chrániče a pěnové pásy chránící citlivé těsnicí plochy.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_07.jpg" alt="Zajištění exportní zásilky" class="prod-img zoom-target" data-full="assets/gallery/expedice_07.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Zajištění exportní zásilky</h4>
+              <p class="prod-desc">Vázací PES pásky s vysokou pevností a certifikací pro mezinárodní tranzit.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_08.jpg" alt="Finální výstupní inspekce" class="prod-img zoom-target" data-full="assets/gallery/expedice_08.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Finální výstupní inspekce</h4>
+              <p class="prod-desc">Vizuální prohlídka svarů a balení s protokolem měření jakosti.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_09.jpg" alt="Nakládka hotových svařenců" class="prod-img zoom-target" data-full="assets/gallery/expedice_09.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Nakládka hotových svařenců</h4>
+              <p class="prod-desc">Jeřábová manipulace s textilními úvazky bez rizika poškození nerezi.</p>
+            </div>
+          </div>
+          <div class="prod-card reveal-on-scroll" data-category="expedice">
+            <div class="prod-frame">
+              <img src="assets/gallery/expedice_10.jpg" alt="Zásilka připravená k odbavení" class="prod-img zoom-target" data-full="assets/gallery/expedice_10.jpg" loading="lazy">
+            </div>
+            <div class="prod-meta">
+              <span class="prod-category">Balení a expedice</span>
+              <h4 class="prod-title">Zásilka připravená k odbavení</h4>
+              <p class="prod-desc">Kompletní přepravní a celní dokumentace pro odběratele v Nizozemsku.</p>
             </div>
           </div>
         </div>
@@ -283,49 +625,96 @@
       <div class="modal-backdrop" id="modalBackdrop"></div>
       <div class="modal-content-box">
         <button class="modal-close" id="modalClose" aria-label="Zavřít">&times;</button>
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E" alt="Zvětšený náhled výrobku Metaliko industry" id="modalImg" class="modal-image">
+        <button class="modal-arrow modal-prev" id="modalPrev" aria-label="Předchozí">&lsaquo;</button>
+        <button class="modal-arrow modal-next" id="modalNext" aria-label="Další">&rsaquo;</button>
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E" alt="Detail výrobku Metaliko industry" id="modalImg" class="modal-image">
         <div class="modal-caption-text" id="modalCaption"></div>
       </div>
     </div>
 
-    <section class="section-editorial bg-light" id="technologie">
+    <section class="section-editorial bg-light" id="rozcestnik">
       <div class="container">
         <div class="editorial-title-center reveal-on-scroll">
-          <span class="editorial-kicker">Materiálový rozcestník</span>
-          <h2 class="editorial-heading">Technologický průvodce materiály</h2>
-          <p class="editorial-perex">
-            Přepněte požadovaný materiál a prohlédněte si naše svařovací metody, parametry čistoty i doporučené povrchové úpravy.
+          <span class="editorial-kicker" data-i18n="guide_kicker">Interaktivní konfigurátor svarů</span>
+          <h2 class="editorial-heading" data-i18n="guide_title">Technologický rozcestník materiálů &amp; parametrů</h2>
+          <p class="editorial-perex" data-i18n="guide_perex">
+            Zvolte základní materiál a požadované odvětví aplikace. Systém automaticky doporučí certifikovanou metodu svařování, ochranný plyn a povrchovou úpravu s možností přímého přenosu do poptávky.
           </p>
         </div>
-        <div class="tech-guide-widget reveal-on-scroll">
-          <div class="tech-tabs-nav">
-            <button class="tech-tab is-active" data-mat="nerez">Nerezové oceli (AISI 304 / 316L)</button>
-            <button class="tech-tab" data-mat="hlinik">Konstrukční hliník (AlMg / AlSi)</button>
-            <button class="tech-tab" data-mat="special">Speciální žárupevné slitiny</button>
+
+        <div class="rozcestnik-builder reveal-on-scroll">
+          <div class="rozcestnik-steps-grid">
+            <div class="step-box">
+              <div class="step-badge" data-i18n="step1_label">Krok 1: Výběr materiálu</div>
+              <div class="choice-buttons" id="matChoiceGroup">
+                <button type="button" class="choice-btn is-active" data-mat="nerez">
+                  <strong data-i18n="mat1_t">Nerezové oceli</strong>
+                  <span>AISI 304 / AISI 316L</span>
+                </button>
+                <button type="button" class="choice-btn" data-mat="hlinik">
+                  <strong data-i18n="mat2_t">Hliníkové slitiny</strong>
+                  <span>AlMg / AlSi konstrukční</span>
+                </button>
+                <button type="button" class="choice-btn" data-mat="special">
+                  <strong data-i18n="mat3_t">Speciální slitiny</strong>
+                  <span>Žárupevné &amp; kyselinovzdorné</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="step-box">
+              <div class="step-badge" data-i18n="step2_label">Krok 2: Odvětví nasazení</div>
+              <div class="choice-buttons" id="appChoiceGroup">
+                <button type="button" class="choice-btn is-active" data-app="potraviny">
+                  <strong data-i18n="app1_t">Potravinářství</strong>
+                  <span>Sanitární vany &amp; CIP čištění</span>
+                </button>
+                <button type="button" class="choice-btn" data-app="farmacie">
+                  <strong data-i18n="app2_t">Farmacie &amp; Chemie</strong>
+                  <span>Sterilní reaktory &amp; potrubí</span>
+                </button>
+                <button type="button" class="choice-btn" data-app="energie">
+                  <strong data-i18n="app3_t">Energetika</strong>
+                  <span>Vakuové a tlakové skříně</span>
+                </button>
+                <button type="button" class="choice-btn" data-app="doprava">
+                  <strong data-i18n="app4_t">Kolejová vozidla</strong>
+                  <span>Lehké nosné AlMg konzole</span>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="tech-content-card" id="techContentCard">
-            <div class="tech-row">
-              <div class="tech-col">
-                <span class="tech-col-label">Svařovací metody:</span>
-                <strong id="techMethods">TIG (141) pulzní oblouk, MIG (131) s jemným podáváním</strong>
+
+          <div class="rozcestnik-result-card" id="rozcestnikResult">
+            <div class="result-header">
+              <div class="result-tag" id="resultTag" data-i18n="res_header">Doporučená technologie svařování pro vybranou kombinaci</div>
+              <h3 id="resultTitle">Nerezové oceli AISI 304/316L pro potravinářský průmysl</h3>
+            </div>
+            <div class="result-grid">
+              <div class="res-item">
+                <span class="res-label" data-i18n="lbl_method">Metoda svařování:</span>
+                <strong id="resMethod">TIG (141) pulzní oblouk s jemným závarem kořene</strong>
               </div>
-              <div class="tech-col">
-                <span class="tech-col-label">Ochranná atmosféra:</span>
-                <strong id="techGas">Čistý Argon 4.8 / směsi Argon + He s formováním kořene</strong>
+              <div class="res-item">
+                <span class="res-label" data-i18n="lbl_gas">Ochranná atmosféra:</span>
+                <strong id="resGas">Argon 4.8 s formováním kořene dusíko-vodíkem</strong>
+              </div>
+              <div class="res-item">
+                <span class="res-label" data-i18n="lbl_clean">Čistota prostředí:</span>
+                <strong id="resClean">100% bezuhlíková hala Šebetov bez feritického prachu</strong>
+              </div>
+              <div class="res-item">
+                <span class="res-label" data-i18n="lbl_finish">Povrchová úprava:</span>
+                <strong id="resFinish">Elektrochemické moření, pasivace a balotinování</strong>
               </div>
             </div>
-            <div class="tech-row">
-              <div class="tech-col">
-                <span class="tech-col-label">Čistota prostředí:</span>
-                <strong id="techClean">100% bezuhlíková hala, dedikované nerezové nářadí</strong>
-              </div>
-              <div class="tech-col">
-                <span class="tech-col-label">Finální povrchová úprava:</span>
-                <strong id="techFinish">Moření, pasivace, balotinování nerezovými kuličkami</strong>
-              </div>
+            <div class="result-note-box" id="resNote">
+              Garantujeme rovinnost pohledových ploch, hladké vnitřní koutové svary a absolutní odolnost proti pittingové a štěrbinové korozi.
             </div>
-            <div class="tech-note" id="techNote">
-              Ideální pro potravinářské provozy, farmaceutické linky, chemické reaktory a ekologická zařízení s vysokými nároky na hygienu a korozní odolnost.
+            <div class="result-action-bar">
+              <button type="button" class="btn btn-editorial-primary" id="btnApplyToInquiry">
+                <span data-i18n="btn_apply_inquiry">Přenést parametry do poptávkového formuláře</span> &darr;
+              </button>
             </div>
           </div>
         </div>
@@ -335,16 +724,16 @@
     <section class="section-editorial" id="tym">
       <div class="container">
         <div class="editorial-title-center reveal-on-scroll">
-          <span class="editorial-kicker">Lidé stojící za kvalitou</span>
-          <h2 class="editorial-heading">Klíčoví představitelé společnosti</h2>
-          <p class="editorial-perex">
+          <span class="editorial-kicker" data-i18n="team_kicker">Lidé stojící za kvalitou</span>
+          <h2 class="editorial-heading" data-i18n="team_title">Klíčoví představitelé společnosti</h2>
+          <p class="editorial-perex" data-i18n="team_perex">
             Věříme v otevřenou a přímou komunikaci. Naši vedoucí pracovníci jsou vám k dispozici pro technické i obchodní konzultace.
           </p>
         </div>
         <div class="team-cards-grid">
           <div class="team-card reveal-on-scroll">
             <div class="team-card-inner">
-              <div class="team-role-tag">Jednatel společnosti / Managing Director</div>
+              <div class="team-role-tag" data-i18n="role_1">Jednatel společnosti / Managing Director</div>
               <h3 class="team-name">Martin Janíček</h3>
               <div class="team-links">
                 <a href="tel:+420728259050" class="team-link">
@@ -360,7 +749,7 @@
           </div>
           <div class="team-card reveal-on-scroll">
             <div class="team-card-inner">
-              <div class="team-role-tag">Ředitel výroby / Production Director</div>
+              <div class="team-role-tag" data-i18n="role_2">Ředitel výroby / Production Director</div>
               <h3 class="team-name">David Zukal</h3>
               <div class="team-links">
                 <a href="tel:+420607594317" class="team-link">
@@ -374,15 +763,13 @@
               </div>
             </div>
           </div>
-          <div class="team-card reveal-on-scroll">
+          <div class="team-card team-card-featured reveal-on-scroll">
+            <div class="team-photo-wrap">
+              <img src="assets/axman.jpg" alt="Ing. Tomáš Axman" class="team-photo" width="800" height="534">
+            </div>
             <div class="team-card-inner">
-              <div class="team-card-top-flex">
-                <div class="team-info-left">
-                  <div class="team-role-tag">Obchodně technický manažer / Sales Manager</div>
-                  <h3 class="team-name">Ing. Tomáš Axman</h3>
-                </div>
-                <img src="assets/img_10_Axman-27.08-2.jpg" alt="Ing. Tomáš Axman" class="team-avatar" width="60" height="60">
-              </div>
+              <div class="team-role-tag" data-i18n="role_3">Obchodně technický manažer / Sales &amp; Operations</div>
+              <h3 class="team-name">Ing. Tomáš Axman</h3>
               <div class="team-links">
                 <a href="tel:+420732492685" class="team-link">
                   <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -397,7 +784,7 @@
           </div>
           <div class="team-card reveal-on-scroll">
             <div class="team-card-inner">
-              <div class="team-role-tag">Příprava výroby a konstrukce / Design</div>
+              <div class="team-role-tag" data-i18n="role_4">Příprava výroby a konstrukce / Design</div>
               <h3 class="team-name">Pavel Láník</h3>
               <div class="team-links">
                 <a href="tel:+420603752476" class="team-link">
@@ -413,7 +800,7 @@
           </div>
           <div class="team-card reveal-on-scroll">
             <div class="team-card-inner">
-              <div class="team-role-tag">Koordinátor výroby / Manufacturing Coordinator</div>
+              <div class="team-role-tag" data-i18n="role_5">Koordinátor výroby / Manufacturing Coordinator</div>
               <h3 class="team-name">Lukáš Pecháček</h3>
               <div class="team-links">
                 <a href="tel:+420736661589" class="team-link">
@@ -428,82 +815,97 @@
             </div>
           </div>
         </div>
+
+        <div class="quality-policy-strip reveal-on-scroll">
+          <div class="quality-icon-box">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="quality-text">
+            <h4 data-i18n="doc_title">Oficiální dokument: Politika kvality Metaliko industry</h4>
+            <p data-i18n="doc_desc">Závazek vedení společnosti k trvalému zvyšování jakosti, metalurgické čistoty a spokojenosti zákazníků podle mezinárodních norem.</p>
+          </div>
+          <div class="quality-action">
+            <a href="assets/politika-kvality.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-quality-download" data-i18n="doc_btn">
+              Stáhnout dokument (PDF)
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="section-editorial bg-light" id="kontakt">
       <div class="container">
         <div class="editorial-title-center reveal-on-scroll">
-          <span class="editorial-kicker">Spojte se s námi</span>
-          <h2 class="editorial-heading">Poptávka svařování a kontakty</h2>
-          <p class="editorial-perex">
+          <span class="editorial-kicker" data-i18n="contact_kicker">Spojte se s námi</span>
+          <h2 class="editorial-heading" data-i18n="contact_title">Poptávka svařování a kontakty</h2>
+          <p class="editorial-perex" data-i18n="contact_perex">
             Zašlete nám výkresovou dokumentaci nebo nás navštivte přímo v naší provozovně v Šebetově.
           </p>
         </div>
         <div class="contact-columns-wrap">
           <div class="contact-info-block reveal-on-scroll">
             <div class="address-box-card">
-              <h4>Výrobní provozovna:</h4>
+              <h4 data-i18n="addr_plant_title">Výrobní provozovna:</h4>
               <p><strong>Metaliko industry s.r.o.</strong><br>
               Šebetov 258<br>
               679 35 Šebetov, Česká republika</p>
             </div>
             <div class="address-box-card">
-              <h4>Fakturační sídlo:</h4>
+              <h4 data-i18n="addr_seat_title">Fakturační sídlo:</h4>
               <p><strong>Metaliko industry s.r.o.</strong><br>
               Boskovická 251<br>
               798 48 Protivanov</p>
               <div class="reg-tags">
-                <span>IČO: <strong>06269826</strong> <button class="btn-copy-ico" data-copy="06269826">Kopírovat</button></span>
+                <span>IČO: <strong>06269826</strong> <button type="button" class="btn-copy-ico" data-copy="06269826" data-i18n="btn_copy">Kopírovat</button></span>
                 <span>DIČ: <strong>CZ06269826</strong></span>
               </div>
-              <p class="reg-court">Zapsaná v OR u Krajského soudu v Brně, oddíl C, vložka 101077</p>
+              <p class="reg-court" data-i18n="reg_court">Zapsaná v OR u Krajského soudu v Brně, oddíl C, vložka 101077</p>
             </div>
             <div class="address-box-card">
-              <h4>Mateřská skupina:</h4>
-              <p>Člen skupiny <strong>Metaliko Group</strong> (<a href="https://www.metaliko.cz" target="_blank" rel="noopener noreferrer">www.metaliko.cz</a>)</p>
+              <h4 data-i18n="group_title">Mateřská skupina:</h4>
+              <p><span data-i18n="group_member">Člen skupiny</span> <strong>Metaliko Group</strong> (<a href="https://www.metaliko.cz" target="_blank" rel="noopener noreferrer">www.metaliko.cz</a>)</p>
             </div>
           </div>
           <div class="contact-form-block reveal-on-scroll">
             <div class="editorial-form-wrap">
-              <h3>Rychlý poptávkový formulář</h3>
-              <p class="form-sub-note">Odpovídáme standardně do 24 hodin s technickým návrhem.</p>
+              <h3 data-i18n="form_title">Rychlý poptávkový formulář</h3>
+              <p class="form-sub-note" data-i18n="form_note">Odpovídáme standardně do 24 hodin s technickým návrhem.</p>
               <form id="inquiryForm" class="inquiry-form">
                 <div class="form-row-2">
                   <div class="form-field-wrap">
-                    <label for="userName" class="label-text">Jméno a příjmení *</label>
-                    <input type="text" id="userName" class="field-control" required placeholder="Ing. Petr Svoboda">
+                    <label for="userName" class="label-text" data-i18n="form_name_lbl">Jméno a příjmení *</label>
+                    <input type="text" id="userName" class="field-control" required placeholder="Ing. Petr Svoboda" data-i18n-placeholder="form_name_ph">
                   </div>
                   <div class="form-field-wrap">
-                    <label for="userCompany" class="label-text">Firma</label>
-                    <input type="text" id="userCompany" class="field-control" placeholder="Průmyslová společnost a.s.">
+                    <label for="userCompany" class="label-text" data-i18n="form_comp_lbl">Firma</label>
+                    <input type="text" id="userCompany" class="field-control" placeholder="Průmyslová společnost a.s." data-i18n-placeholder="form_comp_ph">
                   </div>
                 </div>
                 <div class="form-row-2">
                   <div class="form-field-wrap">
-                    <label for="userEmail" class="label-text">E-mail *</label>
-                    <input type="email" id="userEmail" class="field-control" required placeholder="svoboda@spolecnost.cz">
+                    <label for="userEmail" class="label-text" data-i18n="form_email_lbl">E-mail *</label>
+                    <input type="email" id="userEmail" class="field-control" required placeholder="svoboda@spolecnost.cz" data-i18n-placeholder="form_email_ph">
                   </div>
                   <div class="form-field-wrap">
-                    <label for="userPhone" class="label-text">Telefon *</label>
-                    <input type="tel" id="userPhone" class="field-control" required placeholder="+420 777 123 456">
+                    <label for="userPhone" class="label-text" data-i18n="form_tel_lbl">Telefon *</label>
+                    <input type="tel" id="userPhone" class="field-control" required placeholder="+420 777 123 456" data-i18n-placeholder="form_tel_ph">
                   </div>
                 </div>
                 <div class="form-field-wrap">
-                  <label for="userMaterial" class="label-text">Požadovaný typ svařence</label>
+                  <label for="userMaterial" class="label-text" data-i18n="form_mat_lbl">Požadovaný typ svařence</label>
                   <select id="userMaterial" class="field-control">
-                    <option value="nerez">Nerezové svařence TIG/MIG</option>
-                    <option value="hlinik">Hliníkové svařence AlMg/AlSi</option>
-                    <option value="potravinarske">Potravinářské a sanitární vany</option>
-                    <option value="medicina">Rámy pro zdravotnickou techniku</option>
-                    <option value="jine">Jiné zakázkové strojírenství</option>
+                    <option value="nerez" data-i18n="opt_1">Nerezové svařence TIG/MIG</option>
+                    <option value="hlinik" data-i18n="opt_2">Hliníkové svařence AlMg/AlSi</option>
+                    <option value="potravinarske" data-i18n="opt_3">Potravinářské a sanitární vany</option>
+                    <option value="medicina" data-i18n="opt_4">Rámy pro zdravotnickou techniku</option>
+                    <option value="jine" data-i18n="opt_5">Jiné zakázkové strojírenství</option>
                   </select>
                 </div>
                 <div class="form-field-wrap">
-                  <label for="userNote" class="label-text">Popis poptávky, tloušťky materiálu, export *</label>
-                  <textarea id="userNote" class="field-control field-area" rows="4" required placeholder="Uveďte rozměry svařence, požadované tolerance, povrchovou úpravu či zemi doručení..."></textarea>
+                  <label for="userNote" class="label-text" data-i18n="form_note_lbl">Popis poptávky, tloušťky materiálu, export *</label>
+                  <textarea id="userNote" class="field-control field-area" rows="4" required placeholder="Uveďte rozměry svařence, požadované tolerance, povrchovou úpravu či zemi doručení..." data-i18n-placeholder="form_note_ph"></textarea>
                 </div>
-                <button type="submit" class="btn btn-editorial-primary btn-full">
+                <button type="submit" class="btn btn-editorial-primary btn-full" data-i18n="form_submit_btn">
                   Odeslat technickou poptávku
                 </button>
                 <div class="form-alert" id="formAlert"></div>
@@ -513,11 +915,11 @@
         </div>
         <div class="map-card-editorial reveal-on-scroll">
           <div class="map-bar">
-            <span>Provozovna: Šebetov 258, 679 35 Šebetov</span>
-            <a href="https://mapy.cz/zakladni?x=16.70512&y=49.55126&z=16" target="_blank" rel="noopener noreferrer" class="map-bar-link">Otevřít na Mapy.cz &rarr;</a>
+            <span data-i18n="map_bar_text">Provozovna: Šebetov 258, 679 35 Šebetov</span>
+            <a href="https://mapy.cz/zakladni?x=16.70512&y=49.55126&z=16&source=coor&id=16.70512%2C49.55126" target="_blank" rel="noopener noreferrer" class="map-bar-link" data-i18n="map_open_btn">Otevřít na Mapy.cz &rarr;</a>
           </div>
           <div class="map-iframe-container">
-            <iframe src="https://frame.mapy.cz/zakladni?x=16.70512&y=49.55126&z=16&source=coor&id=16.7118%2C49.5492" width="100%" height="380" frameborder="0" style="border:0;" allowfullscreen="" title="Mapa provozovny Metaliko industry s.r.o. Šebetov"></iframe>
+            <iframe src="https://frame.mapy.cz/zakladni?x=16.70512&y=49.55126&z=16&source=coor&id=16.70512%2C49.55126" width="100%" height="380" style="border:0;" allowfullscreen="" title="Mapa provozovny Metaliko industry s.r.o. Šebetov"></iframe>
           </div>
         </div>
       </div>
@@ -530,32 +932,32 @@
         <div class="footer-logo-container">
           <img src="assets/img_01_logo-metaliko-industry.png" alt="Metaliko industry s.r.o." class="footer-logo-img" width="190" height="51">
         </div>
-        <p class="footer-desc">
+        <p class="footer-desc" data-i18n="footer_desc">
           Přední česká strojírenská společnost se specializací na zakázkové svařování nerezových a hliníkových svařenců pro mezinárodní trh.
         </p>
         <div class="footer-copyright">
-          &copy; <span id="yearVal">2026</span> Metaliko industry s.r.o. Všechna práva vyhrazena.
+          &copy; <span id="yearVal">2026</span> Metaliko industry s.r.o. <span data-i18n="footer_rights">Všechna práva vyhrazena.</span>
         </div>
       </div>
       <div class="footer-col-nav">
-        <h4>Rychlá navigace</h4>
+        <h4 data-i18n="footer_nav_title">Rychlá navigace</h4>
         <ul class="footer-nav-list">
-          <li><a href="#o-nas">O společnosti</a></li>
-          <li><a href="#pribeh">Náš příběh</a></li>
-          <li><a href="#produkty">Výrobky a galerie</a></li>
-          <li><a href="#technologie">Materiály a technologie</a></li>
-          <li><a href="#tym">Vedení společnosti</a></li>
-          <li><a href="#kontakt">Kontaktní údaje</a></li>
+          <li><a href="#o-nas" data-i18n="nav_about">O společnosti</a></li>
+          <li><a href="#pribeh" data-i18n="nav_story">Náš příběh</a></li>
+          <li><a href="#produkty" data-i18n="nav_products">Výrobky a galerie</a></li>
+          <li><a href="#rozcestnik" data-i18n="nav_rozcestnik">Technologický rozcestník</a></li>
+          <li><a href="#tym" data-i18n="nav_team">Vedení společnosti</a></li>
+          <li><a href="#kontakt" data-i18n="nav_contact">Kontaktní údaje</a></li>
         </ul>
       </div>
       <div class="footer-col-contact">
-        <h4>Provozovna a kontakt</h4>
+        <h4 data-i18n="footer_contact_title">Provozovna a kontakt</h4>
         <p><strong>Metaliko industry s.r.o.</strong></p>
         <p>Šebetov 258, 679 35 Šebetov</p>
         <p>Tel: <a href="tel:+420728259050">+420 728 259 050</a></p>
         <p>E-mail: <a href="mailto:janicek@metaliko-industry.cz">janicek@metaliko-industry.cz</a></p>
         <p>IČO: 06269826 | DIČ: CZ06269826</p>
-        <p class="group-note">Součást Metaliko Group (<a href="https://www.metaliko.cz" target="_blank" rel="noopener noreferrer">www.metaliko.cz</a>)</p>
+        <p class="group-note"><span data-i18n="footer_part_of">Součást Metaliko Group</span> (<a href="https://www.metaliko.cz" target="_blank" rel="noopener noreferrer">www.metaliko.cz</a>)</p>
       </div>
     </div>
   </footer>
