@@ -1,0 +1,41 @@
+{
+  "slug": "liten",
+  "firma": "LITEN s.r.o.",
+  "ico": "01973118",
+  "obec": "Tetčice",
+  "okres": "Brno-venkov",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba plastů a pryže, přesné vstřikování plastů, nástrojárna a technické výlisky",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://liten.cz",
+  "email": "vedeni@liten.cz",
+  "prodejni_body": [
+    "Výrobní areál v Tetčicích s lisy o uzavírací síle 50 t až 450 t",
+    "Kompletní nástrojářské zázemí pro preventivní údržbu a úpravy forem",
+    "Zpracování náročných technických plastů včetně PA66-GF30, POM-C a 2K zálisků",
+    "Zázemí pro navazující montáž, ultrazvukové svařování a tamponový potisk"
+  ],
+  "vady_stareho_webu": [
+    "Absence responzivity a meta viewportu – na mobilních telefonech se web zobrazoval deformovaný",
+    "Archaický tabulkový layout z počátku 2000. let bez moderní vizuální identity",
+    "Nezabezpečené spojení HTTP bez platného SSL certifikátu",
+    "Zcela chybějící interaktivní katalog výrobních technologií a technických parametrů vstřikování"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní archetyp Tech & Precision s přepínacími taby přímo v horní části webu",
+    "Interaktivní technický katalog výrobků s vyhledáváním a modálním oknem (#techModalBackdrop)",
+    "Tabulky technických specifikací s responzivním posunem pro 100% čitelnost na smartphonech",
+    "Ověřená adresa a Mapy.cz špendlík přesně na výrobní areál Rosická 358 v Tetčicích",
+    "Strukturovaný poptávkový formulář pro zadání technických parametrů a 3D dat",
+    "Garantovaná mobilní responzivita s 0px horizontálním přetečením na všech zařízeních"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "sidlo": "Rosická 358, 664 17 Tetčice",
+    "jednatel": "Jiří Šejnoha",
+    "sila_lisu": "50 t až 450 t",
+    "hmotnost_vyrobku": "1 g až 1 800 g",
+    "nastrojarna": "Formy do hmotnosti 3,5 t",
+    "certifikace": "ČSN EN ISO 9001:2016"
+  }
+}

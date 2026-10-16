@@ -105,7 +105,7 @@
             <div class="filters-group">
                 <select id="districtFilter" class="filter-select" onchange="applyFilters()">
                     <option value="all">Všechny okresy</option>
-                    <option value="Beroun">Beroun</option><option value="Blansko">Blansko</option><option value="Brno-město">Brno-město</option><option value="Brno-venkov">Brno-venkov</option><option value="Břeclav">Břeclav</option><option value="Hlavní město Praha">Hlavní město Praha</option><option value="Jihlava">Jihlava</option><option value="Olomouc">Olomouc</option><option value="Praha">Praha</option><option value="Prostějov">Prostějov</option><option value="Přerov">Přerov</option><option value="Šumperk">Šumperk</option>
+                    <option value="Beroun">Beroun</option><option value="Blansko">Blansko</option><option value="Brno-město">Brno-město</option><option value="Brno-venkov">Brno-venkov</option><option value="Břeclav">Břeclav</option><option value="Hlavní město Praha">Hlavní město Praha</option><option value="Jihlava">Jihlava</option><option value="Olomouc">Olomouc</option><option value="Praha">Praha</option><option value="Prostějov">Prostějov</option><option value="Přerov">Přerov</option><option value="Vyškov">Vyškov</option><option value="Šumperk">Šumperk</option>
                 </select>
                 <select id="statusFilter" class="filter-select" onchange="applyFilters()">
                     <option value="all">Všechny stavy</option>
@@ -115,7 +115,7 @@
                     <option value="Zájem">🔥 Zájem</option>
                     <option value="Odmítnuto">❌ Odmítnuto</option>
                 </select>
-                <div class="stats-counter" id="statsCounter">40 firem</div>
+                <div class="stats-counter" id="statsCounter">43 firem</div>
             </div>
         </div>
 
@@ -4872,6 +4872,363 @@ mibainox@gmail.com
 dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek.
 
 👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/venka-logistic/?ref=nabidka
+
+(Kompletní znění e-mailu s body auditu a podpisem máte zkopírované ve schránce – stačí stisknout Ctrl+V)
+
+S pozdravem,
+Michal Bartoš | MiBa INOX | +420 604 692 808
+">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="01973118" data-okres="Brno-venkov" data-kraj="Jihomoravský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_liten">
+                <img class="img-preview img-new" src="liten/screenshots/screen_desktop.jpg" alt="LITEN s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="liten/screenshots/screen_old.jpg" alt="LITEN s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('liten', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('liten', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Výroba plastů a pryže, přesné vstřikování plastů, nástrojárna a technické výlisky</span>
+                    <span class="card-ico">IČO: 01973118</span>
+                </div>
+                <h2 class="card-title">LITEN s.r.o.</h2>
+                <div class="card-meta">📍 Brno-venkov (Jihomoravský kraj) • ✉️ vedeni@liten.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Jiří Šejnoha (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>Výrobní areál v Tetčicích s lisy o uzavírací síle 50 t až 450 t</span><span>Kompletní nástrojářské zázemí pro preventivní údržbu a úpravy forem</span><span>Zpracování náročných technických plastů včetně PA66-GF30, POM-C a 2K zálisků</span>
+                </div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('01973118', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="liten/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://liten.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_liten.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('01973118', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('01973118', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('01973118', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_01973118" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Návrh modernizace webové prezentace a technický audit – LITEN s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">vedeni@liten.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_liten.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('01973118', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Šejnoho,
+
+dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek. Při analýze jsme narazili na několik klíčových nedostatků, které mohou odrazovat Vaše potenciální zákazníky:
+
+• Absence responzivity a meta viewportu – na mobilních telefonech se web zobrazoval deformovaný
+• Archaický tabulkový layout z počátku 2000. let bez moderní vizuální identity
+
+Abychom Vám ukázali, jak by mohl Váš web vypadat v moderním pojetí odpovídajícím Vaší pozici na trhu, připravili jsme pro Vás kompletní, plně funkční prototyp nového webu:
+
+👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/liten/?ref=nabidka
+
+V příloze tohoto e-mailu Vám zasílám přehledné PDF srovnání původního a nového řešení.
+
+Rád s Vámi nezávazně projdu detaily. V případě zájmu stačí odpovědět na tento e-mail.
+
+S pozdravem,
+
+Michal Bartoš
+MiBa INOX
++420 604 692 808
+
+Osek nad Bečvou 348, 75122
+https://mibainox.cz/
+mibainox@gmail.com
+</div>
+                </div>
+                <textarea id="email_text_01973118" style="display:none;">Vážený pane Šejnoho,
+
+dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek. Při analýze jsme narazili na několik klíčových nedostatků, které mohou odrazovat Vaše potenciální zákazníky:
+
+• Absence responzivity a meta viewportu – na mobilních telefonech se web zobrazoval deformovaný
+• Archaický tabulkový layout z počátku 2000. let bez moderní vizuální identity
+
+Abychom Vám ukázali, jak by mohl Váš web vypadat v moderním pojetí odpovídajícím Vaší pozici na trhu, připravili jsme pro Vás kompletní, plně funkční prototyp nového webu:
+
+👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/liten/?ref=nabidka
+
+V příloze tohoto e-mailu Vám zasílám přehledné PDF srovnání původního a nového řešení.
+
+Rád s Vámi nezávazně projdu detaily. V případě zájmu stačí odpovědět na tento e-mail.
+
+S pozdravem,
+
+Michal Bartoš
+MiBa INOX
++420 604 692 808
+
+Osek nad Bečvou 348, 75122
+https://mibainox.cz/
+mibainox@gmail.com
+</textarea>
+                <input type="hidden" id="email_to_01973118" value="vedeni@liten.cz">
+                <input type="hidden" id="email_sub_01973118" value="Návrh modernizace webové prezentace a technický audit – LITEN s.r.o.">
+                <input type="hidden" id="email_teaser_01973118" value="Vážený pane Šejnoho,
+
+dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek.
+
+👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/liten/?ref=nabidka
+
+(Kompletní znění e-mailu s body auditu a podpisem máte zkopírované ve schránce – stačí stisknout Ctrl+V)
+
+S pozdravem,
+Michal Bartoš | MiBa INOX | +420 604 692 808
+">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="02191458" data-okres="Vyškov" data-kraj="Jihomoravský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_social-group">
+                <img class="img-preview img-new" src="social-group/screenshots/screen_desktop.jpg" alt="Social Group s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="social-group/screenshots/screen_old.jpg" alt="Social Group s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('social-group', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('social-group', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Specializované stavební práce, sanace, hydroizolace a rekonstrukce</span>
+                    <span class="card-ico">IČO: 02191458</span>
+                </div>
+                <h2 class="card-title">Social Group s.r.o.</h2>
+                <div class="card-meta">📍 Vyškov (Jihomoravský kraj) • ✉️ vedeni@socialgroup.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Ing. Tomáš Gregůrek (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ | SK | EN</span>
+                    <span>Specialista na sanace vlhkého zdiva, chemické injektáže a podřezávání zdiva diamantovým lanem s tradicí od roku 2013</span><span>Kompletní hydroizolace základů, spodních staveb a bílých van krystalizačními technologiemi odolnými tlakové vodě</span><span>Realizace průmyslových podlah, pancéřových vsypů a chemicky odolných epoxidových litých stěrek</span>
+                </div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('02191458', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="social-group/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://socialgroup.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_social-group.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('02191458', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('02191458', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('02191458', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_02191458" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Návrh modernizace webové prezentace a technický audit – Social Group s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">vedeni@socialgroup.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_social-group.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('02191458', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane inženýre Gregůrku,
+
+dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek. Při analýze jsme narazili na několik klíčových nedostatků, které mohou odrazovat Vaše potenciální zákazníky:
+
+• Absence zabezpečeného HTTPS šifrování (web funguje pouze na nezabezpečeném protokolu HTTP)
+• Chybějící mobilní responzivita a absence viewportu – na chytrých telefonech se web zobrazuje nepřehledně a vyžaduje horizontální posun
+
+Abychom Vám ukázali, jak by mohl Váš web vypadat v moderním pojetí odpovídajícím Vaší pozici na trhu, připravili jsme pro Vás kompletní, plně funkční prototyp nového webu:
+
+👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/social-group/?ref=nabidka
+
+V příloze tohoto e-mailu Vám zasílám přehledné PDF srovnání původního a nového řešení.
+
+Rád s Vámi nezávazně projdu detaily. V případě zájmu stačí odpovědět na tento e-mail.
+
+S pozdravem,
+
+Michal Bartoš
+MiBa INOX
++420 604 692 808
+
+Osek nad Bečvou 348, 75122
+https://mibainox.cz/
+mibainox@gmail.com
+</div>
+                </div>
+                <textarea id="email_text_02191458" style="display:none;">Vážený pane inženýre Gregůrku,
+
+dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek. Při analýze jsme narazili na několik klíčových nedostatků, které mohou odrazovat Vaše potenciální zákazníky:
+
+• Absence zabezpečeného HTTPS šifrování (web funguje pouze na nezabezpečeném protokolu HTTP)
+• Chybějící mobilní responzivita a absence viewportu – na chytrých telefonech se web zobrazuje nepřehledně a vyžaduje horizontální posun
+
+Abychom Vám ukázali, jak by mohl Váš web vypadat v moderním pojetí odpovídajícím Vaší pozici na trhu, připravili jsme pro Vás kompletní, plně funkční prototyp nového webu:
+
+👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/social-group/?ref=nabidka
+
+V příloze tohoto e-mailu Vám zasílám přehledné PDF srovnání původního a nového řešení.
+
+Rád s Vámi nezávazně projdu detaily. V případě zájmu stačí odpovědět na tento e-mail.
+
+S pozdravem,
+
+Michal Bartoš
+MiBa INOX
++420 604 692 808
+
+Osek nad Bečvou 348, 75122
+https://mibainox.cz/
+mibainox@gmail.com
+</textarea>
+                <input type="hidden" id="email_to_02191458" value="vedeni@socialgroup.cz">
+                <input type="hidden" id="email_sub_02191458" value="Návrh modernizace webové prezentace a technický audit – Social Group s.r.o.">
+                <input type="hidden" id="email_teaser_02191458" value="Vážený pane inženýre Gregůrku,
+
+dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek.
+
+👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/social-group/?ref=nabidka
+
+(Kompletní znění e-mailu s body auditu a podpisem máte zkopírované ve schránce – stačí stisknout Ctrl+V)
+
+S pozdravem,
+Michal Bartoš | MiBa INOX | +420 604 692 808
+">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="02356490" data-okres="Brno-město" data-kraj="Jihomoravský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_psindustry">
+                <img class="img-preview img-new" src="psindustry/screenshots/screen_desktop.jpg" alt="PSIndustry s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="psindustry/screenshots/screen_old.jpg" alt="PSIndustry s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('psindustry', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('psindustry', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Kovoobrábění a kovovýroba / průmyslová výroba a montáže</span>
+                    <span class="card-ico">IČO: 02356490</span>
+                </div>
+                <h2 class="card-title">PSIndustry s.r.o.</h2>
+                <div class="card-meta">📍 Brno-město (Jihomoravský kraj) • ✉️ info@psindustry.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Ing. Petr Šebela (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>Precizní CNC soustružení a frézování dílců s opakovanou přesností ±0,005 mm</span><span>Certifikovaná kovovýroba, svařování TIG/MIG dle ČSN EN ISO 9606-1 a montáže tlakových rozvodů</span><span>Konstrukční zázemí VUT Brno, 3D CAD/CAM příprava a kompletní rozměrová metrologie</span>
+                </div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('02356490', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="psindustry/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://psindustry.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_psindustry.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('02356490', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('02356490', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('02356490', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_02356490" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Návrh modernizace webové prezentace a technický audit – PSIndustry s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">info@psindustry.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_psindustry.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('02356490', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane inženýre Šebelo,
+
+dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek. Při analýze jsme narazili na několik klíčových nedostatků, které mohou odrazovat Vaše potenciální zákazníky:
+
+• Doména psindustry.cz neobsahuje moderní prezentaci a běží pouze na nezabezpečeném protokolu HTTP
+• Absence mobilní responzivity – web není uzpůsoben pro telefony a tablety průmyslových nákupčích
+
+Abychom Vám ukázali, jak by mohl Váš web vypadat v moderním pojetí odpovídajícím Vaší pozici na trhu, připravili jsme pro Vás kompletní, plně funkční prototyp nového webu:
+
+👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/psindustry/?ref=nabidka
+
+V příloze tohoto e-mailu Vám zasílám přehledné PDF srovnání původního a nového řešení.
+
+Rád s Vámi nezávazně projdu detaily. V případě zájmu stačí odpovědět na tento e-mail.
+
+S pozdravem,
+
+Michal Bartoš
+MiBa INOX
++420 604 692 808
+
+Osek nad Bečvou 348, 75122
+https://mibainox.cz/
+mibainox@gmail.com
+</div>
+                </div>
+                <textarea id="email_text_02356490" style="display:none;">Vážený pane inženýre Šebelo,
+
+dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek. Při analýze jsme narazili na několik klíčových nedostatků, které mohou odrazovat Vaše potenciální zákazníky:
+
+• Doména psindustry.cz neobsahuje moderní prezentaci a běží pouze na nezabezpečeném protokolu HTTP
+• Absence mobilní responzivity – web není uzpůsoben pro telefony a tablety průmyslových nákupčích
+
+Abychom Vám ukázali, jak by mohl Váš web vypadat v moderním pojetí odpovídajícím Vaší pozici na trhu, připravili jsme pro Vás kompletní, plně funkční prototyp nového webu:
+
+👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/psindustry/?ref=nabidka
+
+V příloze tohoto e-mailu Vám zasílám přehledné PDF srovnání původního a nového řešení.
+
+Rád s Vámi nezávazně projdu detaily. V případě zájmu stačí odpovědět na tento e-mail.
+
+S pozdravem,
+
+Michal Bartoš
+MiBa INOX
++420 604 692 808
+
+Osek nad Bečvou 348, 75122
+https://mibainox.cz/
+mibainox@gmail.com
+</textarea>
+                <input type="hidden" id="email_to_02356490" value="info@psindustry.cz">
+                <input type="hidden" id="email_sub_02356490" value="Návrh modernizace webové prezentace a technický audit – PSIndustry s.r.o.">
+                <input type="hidden" id="email_teaser_02356490" value="Vážený pane inženýre Šebelo,
+
+dovoluji si Vás oslovit v návaznosti na technický audit Vašich stávajících webových stránek.
+
+👉 Živá ukázka nového webu: https://mibainox.github.io/nabidka/psindustry/?ref=nabidka
 
 (Kompletní znění e-mailu s body auditu a podpisem máte zkopírované ve schránce – stačí stisknout Ctrl+V)
 

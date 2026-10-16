@@ -1,0 +1,49 @@
+{
+  "slug": "social-group",
+  "firma": "Social Group s.r.o.",
+  "ico": "02191458",
+  "obec": "Vyškov",
+  "okres": "Vyškov",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Specializované stavební práce, sanace, hydroizolace a rekonstrukce",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://socialgroup.cz",
+  "email": "vedeni@socialgroup.cz",
+  "telefon": "+420 727 981 486",
+  "adresa": "Olomoucká 392/2, Vyškov-Předměstí, 682 01 Vyškov",
+  "jazyky": [
+    "CZ",
+    "SK",
+    "EN"
+  ],
+  "prodejni_body": [
+    "Specialista na sanace vlhkého zdiva, chemické injektáže a podřezávání zdiva diamantovým lanem s tradicí od roku 2013",
+    "Kompletní hydroizolace základů, spodních staveb a bílých van krystalizačními technologiemi odolnými tlakové vodě",
+    "Realizace průmyslových podlah, pancéřových vsypů a chemicky odolných epoxidových litých stěrek",
+    "Statické zajišťování objektů helikálními nerezovými výztužemi a zesilování nosných prvků uhlíkovými CFRP lamelami",
+    "Vedení společnosti autorizovaným odborníkem (Ing. Tomáš Gregůrek) s garancí dodržování mezinárodních směrnic WTA a ČSN"
+  ],
+  "vady_stareho_webu": [
+    "Absence zabezpečeného HTTPS šifrování (web funguje pouze na nezabezpečeném protokolu HTTP)",
+    "Chybějící mobilní responzivita a absence viewportu – na chytrých telefonech se web zobrazuje nepřehledně a vyžaduje horizontální posun",
+    "Neaktuální jazykový směrovač s prázdnými parkovacími podstránkami bez reálné prezentace stavebních technologií a referencí",
+    "Absence interaktivního technického katalogu, chybějící vyhledávání parametrů a nemožnost rychlého odeslání specifikované poptávky"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní technická architektura Tech & Precision s responzivním rozvržením pro všechna mobilní zařízení a tablety",
+    "Plně funkční vícejazyčný přepínač (CZ, SK, EN) s okamžitým dynamickým překladem všech sekcí a katalogu",
+    "Interaktivní katalog stavebních technologií s živým vyhledáváním, kategoriemi a přesným počítadlem položek",
+    "Interaktivní technická modální okna (#techModalBackdrop) s detailními tabulkami parametrů, normami a postupy",
+    "Přesná interaktivní mapa Mapy.cz s červeným špendlíkem ověřeným v RÚIAN na sídle Olomoucká 392/2 ve Vyškově",
+    "Rychlý poptávkový formulář s výběrem technologie a přímou telefonickou i e-mailovou vazbou na jednatele"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "let_na_trhu": 12,
+    "jednatel": "Ing. Tomáš Gregůrek",
+    "spolecnik": "Marie Wyplosz",
+    "sidlo": "Olomoucká 392/2, 682 01 Vyškov",
+    "gps": "49.28284 N, 17.00329 E",
+    "normy": "WTA 4-4-04/D, WTA 2-9-04/D, ČSN P 73 0610, ČSN 73 0601, ČSN EN 1504-9"
+  }
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1",
+    "title": "Přesné technické výlisky pro automotive a průmysl",
+    "category": "Technické díly",
+    "image": "assets/prod_technical.jpg",
+    "description": "Konstrukční díly s vysokou tvarovou stálostí a mechanickou pevností z PA66-GF30 a POM-C pro náročné průmyslové mechanismy.",
+    "clamping_force": "150 t – 320 t",
+    "materials": "PA66-GF30, POM-C, PBT",
+    "tolerance": "ČSN DIN 16742 TG4",
+    "specs": [
+      {"param": "Uzavírací síla lisu", "value": "1500 až 3200 kN"},
+      {"param": "Zpracovávané polymery", "value": "PA66-GF30, POM-C, PBT, PPS"},
+      {"param": "Rozměrová přesnost", "value": "Tolerance dle DIN 16742 TG4"},
+      {"param": "Typické aplikace", "value": "Ozubená kola, vodicí pouzdra, příruby, konektory"},
+      {"param": "Kontrola kvality", "value": "3D optické a dotykové měření dílů"}
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Komponenty pro sanitární a wellness techniku",
+    "category": "Sanitární systémy",
+    "image": "assets/sanitary_box.jpg",
+    "description": "Tvarově komplexní pohledové díly, tělesa ventilů, masážní trysky a rozvody z ABS a SAN pro dlouhodobý kontakt s vodou.",
+    "clamping_force": "180 t – 450 t",
+    "materials": "ABS, SAN, PMMA, PP",
+    "tolerance": "ČSN EN ISO 9001:2016",
+    "specs": [
+      {"param": "Uzavírací síla lisu", "value": "1800 až 4500 kN"},
+      {"param": "Materiálová báze", "value": "Sanitární ABS, SAN, PMMA, kopolymer PP"},
+      {"param": "Povrchová úprava", "value": "Zrcadlový lesk SPI A1 / jemný dezén"},
+      {"param": "Odolnost", "value": "Chemická stálost vůči čisticím přípravkům a teplé vodě"},
+      {"param": "Výrobní areál", "value": "Tetčice, Rosická 358"}
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Konstrukční díly z polypropylenu a polyethylenu",
+    "category": "Konstrukční plasty",
+    "image": "assets/prod_enclosures.jpg",
+    "description": "Chemicky odolné kryty, elektroinstalační boxy, montážní příruby a transportní pouzdra z PP a PE-HD.",
+    "clamping_force": "80 t – 250 t",
+    "materials": "PP kopolymer, PE-HD",
+    "tolerance": "Standard ČSN 64 0005",
+    "specs": [
+      {"param": "Uzavírací síla lisu", "value": "800 až 2500 kN"},
+      {"param": "Materiál výlisků", "value": "PP homopolymer, PP kopolymer, PE-HD, PE-LD"},
+      {"param": "Vlastnosti", "value": "Vysoká rázová houževnatost i za nízkých teplot"},
+      {"param": "Recyklace", "value": "100% materiálově recyklovatelné polymery"},
+      {"param": "Výrobní série", "value": "Střední a velkosériová produkce"}
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Dvoukomponentní 2K vstřikování a zastřikování zálisků",
+    "category": "Speciální technologie",
+    "image": "assets/prod_inserts.jpg",
+    "description": "Kombinace konstrukčního termoplastu s elastomerovým těsněním TPE v jednom cyklu a precizní zastřikování mosazných závitů.",
+    "clamping_force": "120 t – 300 t",
+    "materials": "PP + TPE, PA6 + CuZn zálisky",
+    "tolerance": "ISO 2768-mK",
+    "specs": [
+      {"param": "Technologie vstřikování", "value": "2K dvousložkové vstřikování + insert moulding"},
+      {"param": "Kombinace materiálů", "value": "Tvrdý nosič PP/PA + měkký elastomer TPE"},
+      {"param": "Zálisky", "value": "Mosazné a ocelové závitové vložky s předehřevem"},
+      {"param": "Těsnost spoje", "value": "Molekulární soudržnost komponentů"},
+      {"param": "Kontrola zálisků", "value": "Kamerová kontrola polohy zálisků v dutině"}
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Výroba a preventivní údržba vstřikovacích forem",
+    "category": "Nástrojárna",
+    "image": "assets/mold_tool.jpg",
+    "description": "Kompletní servis vstřikovacích forem, CNC 3D obrábění dutin, elektroerozivní hloubení EDM a laserové navařování v Tetčicích.",
+    "clamping_force": "Formy do hmotnosti 3,5 t",
+    "materials": "Ocel 1.2312, 1.2343 ESR",
+    "tolerance": "Mikronová přesnost EDM",
+    "specs": [
+      {"param": "Kapacita nástrojárny", "value": "Formy do rozměru 800 x 600 mm a váhy 3,5 t"},
+      {"param": "Strojní vybavení", "value": "CNC 3D frézovací centra, EDM drátové řezačky"},
+      {"param": "Vtokové systémy", "value": "Optimalizace horkých i studených vtokových soustav"},
+      {"param": "Údržba forem", "value": "Pravidelný ultrazvukový servis a konzervace"},
+      {"param": "Pohotovostní opravy", "value": "Vlastní nástrojářské zázemí přímo u lisovny"}
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Hydromasážní a rozvodné sanitární moduly",
+    "category": "Sanitární systémy",
+    "image": "assets/sanitary_panel.jpg",
+    "description": "Výroba těles masážních panelů, vanových modulů a vodicích prvků s vysokou odolností proti usazování vodního kamene.",
+    "clamping_force": "250 t – 450 t",
+    "materials": "ABS sanitární kvality, PMMA",
+    "tolerance": "ČSN EN ISO 9001:2016",
+    "specs": [
+      {"param": "Uzavírací síla lisu", "value": "2500 až 4500 kN"},
+      {"param": "Výrobní materiál", "value": "Sanitární akrylát, ABS s UV stabilizací"},
+      {"param": "Rozměry výlisků", "value": "Délka výlisků až 1200 mm"},
+      {"param": "Zkoušky spolehlivosti", "value": "Cyklické tlakové testy hydro-okruhů"},
+      {"param": "Výrobní kooperace", "value": "Výroba pro areál Tetčice a odběratele v ČR"}
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Optické kryty a pohledové díly s vysokým leskem",
+    "category": "Designové výlisky",
+    "image": "assets/prod_optical.jpg",
+    "description": "Precizní čelní panely, optické průzory a ovládací prvky z transparentního PC a PMMA bez propadlin a stop po vyhazovačích.",
+    "clamping_force": "100 t – 280 t",
+    "materials": "Polykarbonát (PC), PMMA",
+    "tolerance": "ČSN DIN 16742 TG3",
+    "specs": [
+      {"param": "Uzavírací síla lisu", "value": "1000 až 2800 kN"},
+      {"param": "Použité polymery", "value": "Optický polykarbonát Makrolon, Plexiglas PMMA"},
+      {"param": "Kvalita optiky", "value": "Třída čirosti bez vzduchových bublin a závojů"},
+      {"param": "Ochrana povrchu", "value": "Okamžitá aplikace ochranné PE maskovací fólie"},
+      {"param": "Prostředí výroby", "value": "Zvýšená ochrana proti prachu a elektrostatice"}
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Montáž podskupin, ultrazvukové svařování a kompletace",
+    "category": "Kompletace",
+    "image": "assets/sanitary_acc.jpg",
+    "description": "Finální navazující montáž sestav, ultrazvukové spojování plastů, tamponový potisk a expediční balení dle požadavků klienta.",
+    "clamping_force": "Montážní linka",
+    "materials": "Víceprvkové sestavy",
+    "tolerance": "100% výstupní kontrola",
+    "specs": [
+      {"param": "Montážní technologie", "value": "Ultrazvukové sváření 20 kHz Herrmann"},
+      {"param": "Značení výrobků", "value": "Průmyslový tamponový tisk (1 až 2 barvy)"},
+      {"param": "Zkoušení funkčnosti", "value": "Pneumatická kontrola těsnosti každého kusu"},
+      {"param": "Balicí služby", "value": "Zatavování do fólie, kartonáž, značení čárovými kódy"},
+      {"param": "Lokalita expedice", "value": "Expediční sklad Tetčice u Brna"}
+    ]
+  }
+]

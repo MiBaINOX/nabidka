@@ -1,0 +1,178 @@
+[
+  {
+    "id": "sanace-kremova-injektaz",
+    "title": "Silan-siloxanová krémová injektáž zdiva",
+    "category": "sanace",
+    "category_name": "Sanace zdiva",
+    "image": "assets/sanace_injektaz.jpg",
+    "perex": "Vytvoření dodatečné hydrofobní clony proti vzlínající vlhkosti bez narušení statiky zdiva.",
+    "norma": "ČSN P 73 0610 / WTA 4-4-04/D",
+    "specs": [
+      {"param": "Účinná látka", "value": "Aktivní silan-siloxanová mikroemulze 80 %"},
+      {"param": "Průměr vrtů", "value": "12 mm v osových roztečích 100 až 120 mm"},
+      {"param": "Účinnost hydrofobizace", "value": "Až 98 % redukce kapilární vzlínavosti"},
+      {"param": "Vhodné zdivo", "value": "Plná i dutá cihla, smíšené zdivo, opuka"},
+      {"param": "Technologický postup", "value": "Nízkotlaká plnicí pistole, beztlaké nasycení"}
+    ],
+    "features": [
+      "Okamžité zastavení vzlínání vody v kapilárách zdiva",
+      "Staticky zcela bezpečná metoda bez otřesů a sesedání",
+      "Dlouhodobá životnost hydrofobní clony přesahující 30 let",
+      "Možnost aplikace i při stupni provlhčení zdiva až 95 %"
+    ]
+  },
+  {
+    "id": "sanace-podrezani-retez",
+    "title": "Mechanické podřezávání zdiva diamantovým lanem",
+    "category": "sanace",
+    "category_name": "Sanace zdiva",
+    "image": "assets/sanace_podrezani.jpg",
+    "perex": "Nejúčinnější přímé vložení nové celistvé hydroizolační fólie s PE deskami do proříznuté spáry.",
+    "norma": "ČSN 73 0601 / ČSN P 73 0610",
+    "specs": [
+      {"param": "Izolační materiál", "value": "Plastové desky LDPE/HDPE tl. 2 mm se zámkem"},
+      {"param": "Statické zajištění", "value": "Plastové klíny zkoušené na tlak min. 50 MPa"},
+      {"param": "Zálivková směs", "value": "Cementová expanzní směs s plastifikátorem"},
+      {"param": "Druh zdiva", "value": "Cihla, kámen, smíšené zdivo neomezené tloušťky"},
+      {"param": "Záruka hydroizolace", "value": "Garance 100% nepropustnosti clony"}
+    ],
+    "features": [
+      "Stoprocentní fyzická bariéra proti kapilární vlhkosti",
+      "Aplikace do průběžné i nepravidelné spáry kamenného zdiva",
+      "Postupné zajišťování statickými klíny brání sedání objektu",
+      "Trvalé řešení pro památkově chráněné i obytné stavby"
+    ]
+  },
+  {
+    "id": "sanacni-omitky-wta",
+    "title": "Sanační omítkové souvrství WTA",
+    "category": "sanace",
+    "category_name": "Sanace zdiva",
+    "image": "assets/sanacni_omitky.jpg",
+    "perex": "Paropropustný vícevrstvý omítkový systém pro ukládání solí a odpařování vlhkosti bez výkvětů.",
+    "norma": "Směrnice WTA 2-9-04/D",
+    "specs": [
+      {"param": "Pórovitost jádra", "value": "Minimálně 45 % celkového objemu pórů"},
+      {"param": "Koeficient difuze vodní páry", "value": "µ ≤ 12 (vysoce paropropustné)"},
+      {"param": "Penetrace a postřik", "value": "Sanační podhoz s obsahem trasu 50 % pokrytí"},
+      {"param": "Tloušťka souvrství", "value": "Jádrová vrstva min. 20 mm, štuk min. 3 mm"},
+      {"param": "Kapacita solí", "value": "Vysoká akumulační schopnost pro sírany a dusičnany"}
+    ],
+    "features": [
+      "Zabraňuje tvorbě vlhkostních map a solným výkvětům",
+      "Umožňuje kontinuální vysychání sanovaného zdiva",
+      "Finální nátěry na bázi silikátů pro maximální prodyšnost",
+      "Certifikace dle mezinárodního předpisu WTA"
+    ]
+  },
+  {
+    "id": "hydroizolace-tlakova-kmb",
+    "title": "Tlaková hydroizolace základů stěrkou KMB",
+    "category": "hydroizolace",
+    "category_name": "Hydroizolační systémy",
+    "image": "assets/hydroizolace_tlakova.jpg",
+    "perex": "Dvousložková bitumen-polymerová bezešvá stěrka odolná proti tlakové vodě a radonu.",
+    "norma": "ČSN EN 15814 / ČSN 73 0601",
+    "specs": [
+      {"param": "Typ stěrky", "value": "Dvousložková modifikovaná bitumenová emulze KMB"},
+      {"param": "Tloušťka suché vrstvy", "value": "3,0 až 4,5 mm s výztužnou tkaninou"},
+      {"param": "Přemostění trhlin", "value": "Třída CB2 (překlenutí spáry až do 2 mm)"},
+      {"param": "Odolnost proti tlaku", "value": "Testováno na tlak vody 0,5 bar (5 m vodní sloupec)"},
+      {"param": "Ochrana spodní stavby", "value": "Základové pasy, opěrné zdi, suterénní stěny"}
+    ],
+    "features": [
+      "Bezešvá monolitická izolace bez rizika netěsných spojů",
+      "Integrovaná bariéra proti pronikání radonu z podloží",
+      "Výborná adheze k betonu, pórobetonu i cihelnému zdivu",
+      "Odolnost vůči agresivním huminovým a spodním vodám"
+    ]
+  },
+  {
+    "id": "krystalizacni-izolace-beton",
+    "title": "Hloubková krystalizační izolace betonu",
+    "category": "hydroizolace",
+    "category_name": "Hydroizolační systémy",
+    "image": "assets/krystalizace_beton.jpg",
+    "perex": "Chemicky reaktivní systém vytvářející nerozpustné krystaly v kapilárách a pórech betonu.",
+    "norma": "ČSN EN 1504-2 / Zásady WTA",
+    "specs": [
+      {"param": "Hloubka penetrace", "value": "Krystalická reakce proniká až do hloubky 150 mm"},
+      {"param": "Tlaková odolnost", "value": "Odolává hydrostatickému tlaku až 14 bar"},
+      {"param": "Samohojicí schopnost", "value": "Aktivní zacelení trhlin do šířky 0,4 mm"},
+      {"param": "Využití v praxi", "value": "Bílé vany, šachty, retenční nádrže, tunely"},
+      {"param": "Způsob aplikace", "value": "Plavený cementový nátěr nebo vsyp do čerstvého betonu"}
+    ],
+    "features": [
+      "Trvalá vnitřní krystalizace se stává přímou součástí betonu",
+      "Účinnost z pozitivní i negativní strany vodního tlaku",
+      "Chrání armovací výztuž před korozí vlivem chloridů",
+      "Nevyžaduje dodatečné ochranné přizdívky ani drenážní fólie"
+    ]
+  },
+  {
+    "id": "prumyslove-podlahy-epoxid",
+    "title": "Průmyslové epoxidové a vsypové podlahy",
+    "category": "podlahy",
+    "category_name": "Průmyslové podlahy",
+    "image": "assets/prumyslove_podlahy.jpg",
+    "perex": "Monolitické podlahové systémy s vysokou mechanickou a chemickou odolností pro výrobní haly a sklady.",
+    "norma": "ČSN 74 4505 / ČSN EN 13813",
+    "specs": [
+      {"param": "Pevnost v tlaku", "value": "Minimálně 65 až 80 MPa po 28 dnech"},
+      {"param": "Odolnost proti obrusu", "value": "Třída BCA ARO,5 (vysoké průmyslové zatížení)"},
+      {"param": "Protiskluznost", "value": "R9 až R12 dle požadavků provozního prostředí"},
+      {"param": "Tloušťka souvrství", "value": "Lité stěrky 2 až 4 mm, vsypy pancéřové 3 až 5 mm"},
+      {"param": "Chemická odolnost", "value": "Odolnost vůči olejům, palivům, louhům a solím"}
+    ],
+    "features": [
+      "Bezprašný povrch se snadnou mechanickou údržbou",
+      "Vysoká zatížitelnost těžkou manipulační a skladovou technikou",
+      "Hladké provedení bez spár eliminující znečištění",
+      "Rychlé vytvrzení umožňující minimální odstávku výroby"
+    ]
+  },
+  {
+    "id": "statika-helikalni-vyztuze",
+    "title": "Helikální nerezové výztuže a spínání zdiva",
+    "category": "statika",
+    "category_name": "Statika & sanace",
+    "image": "assets/statika_vyztuze.jpg",
+    "perex": "Šetrné strukturální sešívání popraskaných stěn a kleneb pomocí austenitické nerezové oceli.",
+    "norma": "ČSN EN 845-1 / ČSN EN 1996-1-1",
+    "specs": [
+      {"param": "Materiál výztuže", "value": "Nerezová ocel třídy AISI 304 nebo AISI 316"},
+      {"param": "Průměr táhel", "value": "Profilované helikální pruty průměru 6 až 10 mm"},
+      {"param": "Kotevní tmel", "value": "Vysokopevnostní tixotropní cementová kotevní malta"},
+      {"param": "Hloubka drážky", "value": "30 až 40 mm ve ložné spáře bez zásahu do interiéru"},
+      {"param": "Pevnost v tahu", "value": "Minimálně 1050 N/mm² při vysoké pružnosti"}
+    ],
+    "features": [
+      "Obnovení prostorové tuhosti objektu a nosných kleneb",
+      "Neviditelný zásah se zachováním historického líce zdiva",
+      "Roznášení tahových napětí bez vzniku sekundárních trhlin",
+      "Kompatibilní s cihelným, kamenným i smíšeným zdivem"
+    ]
+  },
+  {
+    "id": "reprofilace-uhlikove-lamely",
+    "title": "Zesilování konstrukcí uhlíkovými CFRP lamelami",
+    "category": "statika",
+    "category_name": "Statika & sanace",
+    "image": "assets/statika_reprofilace.jpg",
+    "perex": "Dodatečné statické zesílení betonových průvlaků, nosníků a stropních desek kompozity z uhlíkových vláken.",
+    "norma": "ČSN EN 1504-9 / fib Bulletin 14",
+    "specs": [
+      {"param": "Typ kompozitu", "value": "Uhlíkové lamely CFRP lepené epoxidovým tmelem"},
+      {"param": "Modul pružnosti", "value": "E ≥ 165 GPa (vysokomodulové varianty až 210 GPa)"},
+      {"param": "Pevnost v tahu", "value": "Minimálně 2800 až 3100 MPa"},
+      {"param": "Tloušťka lamely", "value": "1,2 až 1,4 mm při šířce 50 až 100 mm"},
+      {"param": "Reprofilace podkladu", "value": "Tixotropní malty PCC třídy R4 dle EN 1504-3"}
+    ],
+    "features": [
+      "Extrémní zvýšení únosnosti bez zatížení konstrukce vlastní vahou",
+      "Minimální tloušťka zachovávající původní světlou výšku prostor",
+      "Absolutní korozní odolnost materiálu ve vlhkém prostředí",
+      "Zvýšení zatížitelnosti stropů při změně užívání budovy"
+    ]
+  }
+]

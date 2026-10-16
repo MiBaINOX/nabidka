@@ -1,0 +1,24 @@
+{
+  "slug": "social-group",
+  "ico": "02191458",
+  "company_name": "Social Group s.r.o.",
+  "start_url": "http://socialgroup.cz",
+  "pages_crawled": 6,
+  "menu_categories": [
+    "Sanace zdiva",
+    "Hydroizolační systémy",
+    "Průmyslové podlahy",
+    "Statika a sanace",
+    "O společnosti",
+    "Kontakt"
+  ],
+  "photos_count": 9,
+  "catalog_items_count": 8,
+  "verified_address": "Olomoucká 392/2, Vyškov-Předměstí, 682 01 Vyškov",
+  "ruian_kod": 13923153,
+  "gps": {
+    "lat": 49.28284,
+    "lon": 17.00329
+  },
+  "notes": "Starý web využívá JS směrovač jazyků do CZ, SK, EN, PL, HU s parkovací stránkou Forpsi. Obor specializované stavební práce a sanace (NACE 431) ověřen v ARES / RŽP."
+}

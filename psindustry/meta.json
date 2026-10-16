@@ -1,0 +1,47 @@
+{
+  "slug": "psindustry",
+  "firma": "PSIndustry s.r.o.",
+  "ico": "02356490",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Kovoobrábění a kovovýroba / průmyslová výroba a montáže",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://psindustry.cz",
+  "email": "info@psindustry.cz",
+  "telefon": "+420 775 073 180",
+  "mobil": "+420 541 242 756",
+  "adresa_plna": "Zákoutí 2851/53, Žabovřesky, 616 00 Brno",
+  "jednatel": "Ing. Petr Šebela",
+  "vedeni": "Ing. Petr Šebela, jednatel a konstruktér",
+  "osloveni": "Vážený pane inženýre,",
+  "prodejni_body": [
+    "Precizní CNC soustružení a frézování dílců s opakovanou přesností ±0,005 mm",
+    "Certifikovaná kovovýroba, svařování TIG/MIG dle ČSN EN ISO 9606-1 a montáže tlakových rozvodů",
+    "Konstrukční zázemí VUT Brno, 3D CAD/CAM příprava a kompletní rozměrová metrologie"
+  ],
+  "vady_stareho_webu": [
+    "Doména psindustry.cz neobsahuje moderní prezentaci a běží pouze na nezabezpečeném protokolu HTTP",
+    "Absence mobilní responzivity – web není uzpůsoben pro telefony a tablety průmyslových nákupčích",
+    "Chybějící technický katalog výrobních kapacit, parametrů strojů a zpracovávaných materiálů",
+    "Absence interaktivního poptávkového formuláře s možností specifikace technických požadavků"
+  ],
+  "vylepseni_noveho_webu": [
+    "Archetyp Heavy Industrial s technickou estetikou, tmavým pozadím a vysokým kontrastem",
+    "Interaktivní katalog kapacit s filtrem, fulltextovým hledáním a technickým modálním oknem",
+    "100% mobilní responzivita ověřená na rozlišení 360px a 375px bez přetékání",
+    "Ověřená adresa v Brně s přesným Mapy.cz špendlíkem dle oficiálního katastru RÚIAN",
+    "Scroll-reveal animace, zoom efekt fotografií a reálné animované čítače výrobních parametrů"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "katalog_pocet": 6,
+    "normy": [
+      "ISO 2768-mK",
+      "ČSN EN ISO 9001",
+      "ČSN EN ISO 9606-1",
+      "ČSN EN 13480",
+      "ČSN EN 10204"
+    ]
+  }
+}

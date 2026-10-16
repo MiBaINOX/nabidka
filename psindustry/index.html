@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PSIndustry s.r.o. | CNC kovoobrábění, kovovýroba a průmyslové montáže Brno</title>
+  <meta name="description" content="Zakázkové CNC kovoobrábění, soustružení, frézování s přesností ±0,005 mm, certifikovaná kovovýroba TIG/MIG a průmyslové montáže tlakových zařízení v Brně.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="../ping-config.js"></script>
+</head>
+<body class="heavy-industrial">
+
+  <div id="nabidkaBanner" class="nabidka-bar" style="display:none;">
+    <div class="container nabidka-inner">
+      <span class="nabidka-badge">Interaktivní technologický náhled</span>
+      <span class="nabidka-text">Návrh moderní webové prezentace a katalogu výrobních kapacit připravený pro <strong>PSIndustry s.r.o.</strong></span>
+      <a href="#kontakt" class="nabidka-btn">Přejít k jednání</a>
+    </div>
+  </div>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="topbar-badge">ZÁVOD BRNO</span>
+        <span class="topbar-address">Zákoutí 2851/53, 616 00 Brno-Žabovřesky</span>
+        <span class="topbar-sep">|</span>
+        <span class="topbar-reg">IČO: 02356490</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+420775073180" class="topbar-link tel-link">+420 775 073 180</a>
+        <a href="mailto:info@psindustry.cz" class="topbar-link">info@psindustry.cz</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-link" aria-label="PSIndustry s.r.o. - Úvod">
+        <img src="assets/logo.png" alt="PSIndustry s.r.o." class="site-logo" width="220" height="42">
+      </a>
+      <nav class="site-nav" id="siteNav">
+        <ul class="nav-menu">
+          <li><a href="#o-spolecnosti" class="nav-link">O společnosti</a></li>
+          <li><a href="#katalog" class="nav-link">CNC obrábění</a></li>
+          <li><a href="#katalog" class="nav-link">Kovovýroba</a></li>
+          <li><a href="#katalog" class="nav-link">Průmyslové montáže</a></li>
+          <li><a href="#strojni-park" class="nav-link">Strojní park</a></li>
+          <li><a href="#metrologie" class="nav-link">Kontrola jakosti</a></li>
+          <li><a href="#poptavka" class="nav-link nav-btn">Poptávka</a></li>
+          <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Otevřít navigaci">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-pretitle">STROJÍRENSKÁ VÝROBA &amp; KOVOOBRÁBĚNÍ BRNO</div>
+          <h1 class="hero-title">Přesné CNC kovoobrábění, certifikovaná kovovýroba a průmyslové montáže</h1>
+          <p class="hero-perex">Vyrábíme vysoce přesné soustružené a frézované komponenty s tolerancí na setiny milimetru, svařované ocelové celky a potrubní rozvody pro průmyslové odběratele z celé České republiky.</p>
+          <div class="hero-actions">
+            <a href="#katalog" class="btn btn-primary">Prohlédnout výrobní kapacity</a>
+            <a href="#poptavka" class="btn btn-outline">Zadat nezávaznou poptávku</a>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric-box">
+              <div class="metric-num"><span class="counter" data-target="11">0</span><span class="metric-suffix">+</span></div>
+              <div class="metric-label">Let tradice (od 2013)</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-num"><span class="counter" data-target="6">0</span></div>
+              <div class="metric-label">Výrobních technologií</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-num"><span class="metric-prefix">&plusmn;</span><span class="counter" data-target="5">0</span><span class="metric-suffix">&mu;m</span></div>
+              <div class="metric-label">Opakovaná přesnost</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-num"><span class="counter" data-target="100">0</span><span class="metric-suffix">%</span></div>
+              <div class="metric-label">Výstupní metrologie</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual reveal-on-scroll">
+          <div class="visual-wrap">
+            <img src="assets/hero_machining.jpg" alt="Výrobní provoz kovoobrábění a svařování PSIndustry s.r.o. Brno" class="hero-img zoom-target" width="800" height="533">
+            <div class="visual-badge">
+              <div class="badge-icon">&#9632;</div>
+              <div class="badge-text">
+                <strong>Průmyslová přesnost a normy</strong>
+                <span>ČSN EN ISO 9606-1 &bull; ISO 2768-mK &bull; ČSN EN 13480</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="o-spolecnosti">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">ZÁZEMÍ A ZKUŠENOSTI</span>
+          <h2 class="section-title">O společnosti PSIndustry s.r.o.</h2>
+          <p class="section-subtitle">Spojení technického inženýrství, moderního strojního parku a řemeslné pečlivosti při zakázkové výrobě dílců.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card reveal-on-scroll">
+            <div class="about-icon">&#9881;</div>
+            <h3 class="about-title">Technologické know-how</h3>
+            <p class="about-text">Společnost vede Ing. Petr Šebela, absolvent Průmyslového designu na VUT v Brně s více než 30 lety praxe ve strojírenství a výrobě technologických zařízení. Každý projekt prochází důkladnou technologickou přípravou.</p>
+          </div>
+          <div class="about-card reveal-on-scroll">
+            <div class="about-icon">&#9889;</div>
+            <h3 class="about-title">Kusová i sériová výroba</h3>
+            <p class="about-text">Flexibilně reagujeme na požadavky zákazníků od kusových prototypů a jednoúčelových přípravků až po opakované středněsériové výrobní zakázky s garantovaným termínem dodání a stálou jakostí.</p>
+          </div>
+          <div class="about-card reveal-on-scroll">
+            <div class="about-icon">&#10004;</div>
+            <h3 class="about-title">Komplexní servis od A do Z</h3>
+            <p class="about-text">Zajistíme kompletní proces: 3D modelování v CAD/CAM, nákup hutních materiálů s atesty 3.1, třískové obrábění, certifikované svařování, povrchové zušlechtění i finální montáž celku.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="katalog">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">KAPACITNÍ ROZCESTNÍK</span>
+          <h2 class="section-title">Katalog výrobních a obráběcích kapacit</h2>
+          <p class="section-subtitle">Vyberte kategorii nebo vyhledejte požadovanou technologii a otevřete detailní technickou specifikaci.</p>
+        </div>
+
+        <div class="catalog-controls reveal-on-scroll">
+          <div class="search-box">
+            <input type="text" id="catalogSearch" placeholder="Hledat technologii, materiál nebo stroj..." class="search-input" aria-label="Hledat v katalogu kapacit">
+          </div>
+          <div class="filter-pills" id="filterPills">
+            <button type="button" class="filter-pill is-active" data-filter="all">Všechny kapacity</button>
+            <button type="button" class="filter-pill" data-filter="CNC obrábění">CNC obrábění</button>
+            <button type="button" class="filter-pill" data-filter="Kovovýroba a svařování">Kovovýroba</button>
+            <button type="button" class="filter-pill" data-filter="Průmyslové montáže">Průmyslové montáže</button>
+            <button type="button" class="filter-pill" data-filter="Konstrukce a vývoj">Konstrukce 3D</button>
+            <button type="button" class="filter-pill" data-filter="Kontrola jakosti">Metrologie</button>
+          </div>
+          <div class="catalog-status">
+            Zobrazeno: <span id="itemCount" class="catalog-count">6 výrobních kapacit</span>
+          </div>
+        </div>
+
+        <div class="catalog-grid" id="catalogGrid">
+
+          <article class="catalog-card reveal-on-scroll" data-category="CNC obrábění" data-id="psi-cnc-soustruzeni" data-open-tech="psi-cnc-soustruzeni">
+            <div class="card-media">
+              <img src="assets/cnc_turning.jpg" alt="CNC přesné soustružení rotačních dílů PSIndustry Brno" class="item-img zoom-target" width="400" height="267" loading="lazy">
+              <span class="card-badge">ISO 2768-mK</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">CNC obrábění</span>
+              <h3 class="card-title">CNC přesné soustružení rotačních dílů</h3>
+              <p class="card-desc">Vysoce přesné CNC soustružení hřídelí, pouzder, přírub a čepů z konstrukčních ocelí, nerezi i neželezných kovů s přesností na setiny milimetru.</p>
+              <div class="card-specs-preview">
+                <div class="spec-row">
+                  <span class="spec-key">Max. točný průměr:</span>
+                  <span class="spec-val">380 mm</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Max. točná délka:</span>
+                  <span class="spec-val">750 mm</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Opakovatelnost:</span>
+                  <span class="spec-val">&plusmn;0,005 mm</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-card" data-target-tech="psi-cnc-soustruzeni">Technické parametry &raquo;</button>
+            </div>
+          </article>
+
+          <article class="catalog-card reveal-on-scroll" data-category="CNC obrábění" data-id="psi-cnc-frezovani" data-open-tech="psi-cnc-frezovani">
+            <div class="card-media">
+              <img src="assets/cnc_milling.jpg" alt="CNC 3 a 4-osé vertikální frézování kovových součástí PSIndustry" class="item-img zoom-target" width="400" height="267" loading="lazy">
+              <span class="card-badge">ČSN EN ISO 9001</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">CNC obrábění</span>
+              <h3 class="card-title">CNC 3 a 4-osé vertikální frézování</h3>
+              <p class="card-desc">Přesné frézování tvarově složitých prizmatických součástí, forem, upínacích desek a těles jednoúčelových strojů na moderních obráběcích centrech.</p>
+              <div class="card-specs-preview">
+                <div class="spec-row">
+                  <span class="spec-key">Pojezdy os X/Y/Z:</span>
+                  <span class="spec-val">1020 &times; 610 &times; 560 mm</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Zatížení stolu:</span>
+                  <span class="spec-val">850 kg</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Otáčky vřetena:</span>
+                  <span class="spec-val">až 12 000 ot/min</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-card" data-target-tech="psi-cnc-frezovani">Technické parametry &raquo;</button>
+            </div>
+          </article>
+
+          <article class="catalog-card reveal-on-scroll" data-category="Kovovýroba a svařování" data-id="psi-zamecnictvi" data-open-tech="psi-zamecnictvi">
+            <div class="card-media">
+              <img src="assets/welding_fabrication.jpg" alt="Certifikovaná kovovýroba a svařování TIG MIG MAG" class="item-img zoom-target" width="400" height="267" loading="lazy">
+              <span class="card-badge">ČSN EN ISO 9606-1</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">Kovovýroba a svařování</span>
+              <h3 class="card-title">Certifikovaná kovovýroba a svařování TIG / MIG / MAG</h3>
+              <p class="card-desc">Zakázková zámečnická výroba ocelových a nerezových rámů, nosných konstrukcí, potrubních dílů a technologických celků pro průmyslové provozy.</p>
+              <div class="card-specs-preview">
+                <div class="spec-row">
+                  <span class="spec-key">Metody svařování:</span>
+                  <span class="spec-val">TIG/WIG (141), MIG/MAG</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Svařované materiály:</span>
+                  <span class="spec-val">Ocel S235/S355, nerez, Al</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Hmotnost svařence:</span>
+                  <span class="spec-val">do 2 500 kg</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-card" data-target-tech="psi-zamecnictvi">Technické parametry &raquo;</button>
+            </div>
+          </article>
+
+          <article class="catalog-card reveal-on-scroll" data-category="Průmyslové montáže" data-id="psi-prumyslove-montaze" data-open-tech="psi-prumyslove-montaze">
+            <div class="card-media">
+              <img src="assets/industrial_assembly.jpg" alt="Průmyslové montáže a montáž tlakových rozvodů" class="item-img zoom-target" width="400" height="267" loading="lazy">
+              <span class="card-badge">ČSN EN 13480</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">Průmyslové montáže</span>
+              <h3 class="card-title">Průmyslové montáže a montáž tlakových rozvodů</h3>
+              <p class="card-desc">Komplexní mechanické a technologické montáže strojních zařízení, potrubních tras, tlakových nádob a revizní činnost v souladu s předpisy.</p>
+              <div class="card-specs-preview">
+                <div class="spec-row">
+                  <span class="spec-key">Oprávnění:</span>
+                  <span class="spec-val">Vyhrazená tlaková zařízení</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Průmyslová média:</span>
+                  <span class="spec-val">Plyny, pára, vzduch, kapaliny</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Tlakové zkoušky:</span>
+                  <span class="spec-val">Hydraulické a pneumatické</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-card" data-target-tech="psi-prumyslove-montaze">Technické parametry &raquo;</button>
+            </div>
+          </article>
+
+          <article class="catalog-card reveal-on-scroll" data-category="Konstrukce a vývoj" data-id="psi-cad-konstrukce" data-open-tech="psi-cad-konstrukce">
+            <div class="card-media">
+              <img src="assets/cad_engineering.jpg" alt="3D konstrukce CAD CAM a reverzní inženýrství" class="item-img zoom-target" width="400" height="267" loading="lazy">
+              <span class="card-badge">CAD/CAM 3D</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">Konstrukce a vývoj</span>
+              <h3 class="card-title">3D konstrukce CAD/CAM a reverzní inženýrství</h3>
+              <p class="card-desc">Technologická příprava výroby, 3D modelování dílců a sestav, tvorba výkresové dokumentace a konstrukční optimalizace výrobků.</p>
+              <div class="card-specs-preview">
+                <div class="spec-row">
+                  <span class="spec-key">Software:</span>
+                  <span class="spec-val">SolidWorks, Inventor, CAM</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">3D Formáty:</span>
+                  <span class="spec-val">STEP, IGES, Parasolid, DXF</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Odborné vedení:</span>
+                  <span class="spec-val">Ing. Petr Šebela (VUT Brno)</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-card" data-target-tech="psi-cad-konstrukce">Technické parametry &raquo;</button>
+            </div>
+          </article>
+
+          <article class="catalog-card reveal-on-scroll" data-category="Kontrola jakosti" data-id="psi-kontrola-jakosti" data-open-tech="psi-kontrola-jakosti">
+            <div class="card-media">
+              <img src="assets/metrology_inspection.jpg" alt="Přesná metrologie a rozměrová kontrola jakosti" class="item-img zoom-target" width="400" height="267" loading="lazy">
+              <span class="card-badge">ČSN EN 10204</span>
+            </div>
+            <div class="card-body">
+              <span class="card-cat">Kontrola jakosti</span>
+              <h3 class="card-title">Přesná metrologie a rozměrová kontrola jakosti</h3>
+              <p class="card-desc">Mezioperační a výstupní rozměrová kontrola na kalibrovaných měřicích zařízeních s garancí shody a materiálovými atesty 3.1.</p>
+              <div class="card-specs-preview">
+                <div class="spec-row">
+                  <span class="spec-key">Měřidla:</span>
+                  <span class="spec-val">Digitální výškoměry Mitutoyo</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Měření drsnosti:</span>
+                  <span class="spec-val">Ra, Rz dle ISO 4287</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">Atesty:</span>
+                  <span class="spec-val">Protokoly dle EN 10204 3.1</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-card" data-target-tech="psi-kontrola-jakosti">Technické parametry &raquo;</button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section tech-table-section" id="strojni-park">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">VÝROBNÍ ZÁKLADNA</span>
+          <h2 class="section-title">Strojní park a technické parametry</h2>
+          <p class="section-subtitle">Přehled výrobního vybavení dílny pro třískové kovoobrábění, svařování a zámečnickou montáž.</p>
+        </div>
+        <div class="table-responsive reveal-on-scroll">
+          <table class="industrial-table">
+            <thead>
+              <tr>
+                <th>Pracoviště / Stroj</th>
+                <th>Technologické určení</th>
+                <th>Pracovní rozsah</th>
+                <th>Dosažitelná přesnost</th>
+                <th>Výstupní norma</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>CNC soustruh s řízením</strong></td>
+                <td>Soustružení hřídelí, pouzder, přírub a čepů</td>
+                <td>&Oslash; 380 mm &times; 750 mm</td>
+                <td>&plusmn;0,005 mm</td>
+                <td>ISO 2768-mK</td>
+              </tr>
+              <tr>
+                <td><strong>CNC 4-osé obráběcí centrum</strong></td>
+                <td>Frézování prizmatických dílů, desek a forem</td>
+                <td>1020 &times; 610 &times; 560 mm</td>
+                <td>0,008 mm polohování</td>
+                <td>ČSN EN ISO 9001</td>
+              </tr>
+              <tr>
+                <td><strong>Svařovací stanice TIG/WIG</strong></td>
+                <td>Svařování nerezových ocelí a tenkostěnných dílů</td>
+                <td>Svařenec do 2 500 kg</td>
+                <td>Třída jakosti svaru B</td>
+                <td>ČSN EN ISO 9606-1</td>
+              </tr>
+              <tr>
+                <td><strong>Poloautomatické MIG/MAG</strong></td>
+                <td>Svařování ocelových konstrukcí a rámů strojů</td>
+                <td>Ocelové profily a plechy</td>
+                <td>Třída jakosti svaru C/B</td>
+                <td>ČSN EN ISO 9606-1</td>
+              </tr>
+              <tr>
+                <td><strong>Montážní pracoviště tlak. rozvodů</strong></td>
+                <td>Sestavování aparatur, potrubí a armatur</td>
+                <td>Tlakové zkoušky do PN 40</td>
+                <td>Těsnostní certifikace</td>
+                <td>ČSN EN 13480</td>
+              </tr>
+              <tr>
+                <td><strong>Metrologické pracoviště Mitutoyo</strong></td>
+                <td>Rozměrová a tvarová kontrola výrobků</td>
+                <td>Výškoměry, mikrometry, pasametry</td>
+                <td>0,001 mm dělení</td>
+                <td>ČSN EN 10204 3.1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section metrology-section" id="metrologie">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">KVALITA BEZ KOMPROMISŮ</span>
+          <h2 class="section-title">Kontrola jakosti a certifikace</h2>
+          <p class="section-subtitle">Každý díl opouštějící naši brněnskou dílnu splňuje nejpřísnější rozměrové a materiálové tolerance.</p>
+        </div>
+        <div class="metro-grid">
+          <div class="metro-card reveal-on-scroll">
+            <div class="metro-badge">01</div>
+            <h3 class="metro-title">Vstupní inspekce materiálu</h3>
+            <p class="metro-text">Zpracováváme výhradně hutní polotovary od prověřených evropských dodavatelů s hutními atesty EN 10204 3.1. Ověřujeme chemické složení a mechanické vlastnosti materiálu.</p>
+          </div>
+          <div class="metro-card reveal-on-scroll">
+            <div class="metro-badge">02</div>
+            <h3 class="metro-title">Průběžná mezioperační kontrola</h3>
+            <p class="metro-text">Při sériové výrobě provádíme pravidelné mezioperační měření rozměrů, házivosti a drsnosti povrchu (Ra, Rz dle ISO 4287), čímž zamezujeme vzniku neshodných kusů.</p>
+          </div>
+          <div class="metro-card reveal-on-scroll">
+            <div class="metro-badge">03</div>
+            <h3 class="metro-title">Výstupní měřicí protokol</h3>
+            <p class="metro-text">K hotovým dílcům přikládáme výstupní protokol měření na kalibrovaných přístrojích Mitutoyo, záznamy o zkouškách těsnosti a materiálovou trasovatelnost.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote-section" id="poptavka">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">RYCHLÁ ODEZVA</span>
+          <h2 class="section-title">Zadat nezávaznou poptávku výroby</h2>
+          <p class="section-subtitle">Vyplňte základní parametry vašeho projektu. Zpracujeme nezávaznou technologickou kalkulaci a navrhneme optimální postup.</p>
+        </div>
+        <div class="quote-wrap reveal-on-scroll">
+          <form id="quoteForm" class="industrial-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="fTechnology">Požadovaná technologie:</label>
+                <select id="fTechnology" name="technology" class="form-control" required>
+                  <option value="cnc-soustruzeni">CNC soustružení dílců</option>
+                  <option value="cnc-frezovani">CNC frézování dílců</option>
+                  <option value="kovovyroba">Zámečnictví a svařování</option>
+                  <option value="montaze">Průmyslové montáže</option>
+                  <option value="konstrukce">3D konstrukce CAD/CAM</option>
+                  <option value="komplet">Komplexní strojírenská výroba</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="fMaterial">Materiálová skupina:</label>
+                <select id="fMaterial" name="material" class="form-control" required>
+                  <option value="ocel-konstrukcni">Konstrukční ocel S235/S355</option>
+                  <option value="ocel-nerez">Nerezová ocel AISI 304/316L</option>
+                  <option value="slitiny-hliniku">Slitiny hliníku a dural</option>
+                  <option value="barevne-kovy">Barevné kovy (mosaz, bronz)</option>
+                  <option value="plasty">Technické plasty (POM, PA)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="fSeries">Předpokládaný objem výroby:</label>
+                <select id="fSeries" name="series" class="form-control" required>
+                  <option value="prototyp">Kusový prototyp (1-5 ks)</option>
+                  <option value="mala-serie">Malá série (6-50 ks)</option>
+                  <option value="stredni-serie">Střední série (51-500 ks)</option>
+                  <option value="opakovana-vyroba">Opakovaná zakázková výroba</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="fName">Jméno a příjmení / Kontaktní osoba:</label>
+                <input type="text" id="fName" name="name" class="form-control" placeholder="Ing. Jan Novák" required>
+              </div>
+              <div class="form-group">
+                <label for="fCompany">Název společnosti:</label>
+                <input type="text" id="fCompany" name="company" class="form-control" placeholder="Firma s.r.o.">
+              </div>
+              <div class="form-group">
+                <label for="fPhone">Telefonní číslo:</label>
+                <input type="tel" id="fPhone" name="phone" class="form-control" placeholder="+420 777 000 000" required>
+              </div>
+              <div class="form-group">
+                <label for="fEmail">Kontaktní e-mail:</label>
+                <input type="email" id="fEmail" name="email" class="form-control" placeholder="novak@firma.cz" required>
+              </div>
+              <div class="form-group full-width">
+                <label for="fMessage">Specifikace dílců, tolerance nebo odkaz na výkres:</label>
+                <textarea id="fMessage" name="message" class="form-control" rows="4" placeholder="Uveďte rozměry, požadované tolerance, termín dodání nebo připojte odkaz na 3D CAD data (STEP / DWG)..."></textarea>
+              </div>
+            </div>
+            <div class="form-footer">
+              <button type="submit" class="btn btn-primary btn-submit">Odeslat nezávaznou poptávku</button>
+              <div id="formStatus" class="form-status" style="display:none;"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="kontakt">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-tag">PŘÍMÉ SPOJENÍ</span>
+          <h2 class="section-title">Kontaktní údaje a sídlo firmy</h2>
+          <p class="section-subtitle">Navštivte naši provozovnu v Brně-Žabovřeskách nebo nás kontaktujte telefonicky či e-mailem.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal-on-scroll">
+            <div class="company-id-block">
+              <h3 class="company-name">PSIndustry s.r.o.</h3>
+              <p class="company-desc">Zakázková strojírenská výroba, CNC kovoobrábění a průmyslové montáže</p>
+            </div>
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="ci-icon">&#128205;</div>
+                <div class="ci-content">
+                  <strong>Sídlo a výrobní provozovna:</strong>
+                  <span>Zákoutí 2851/53, Žabovřesky, 616 00 Brno</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon">&#128100;</div>
+                <div class="ci-content">
+                  <strong>Jednatel a vedoucí výroby:</strong>
+                  <span>Ing. Petr Šebela</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon">&#128222;</div>
+                <div class="ci-content">
+                  <strong>Mobilní telefon:</strong>
+                  <a href="tel:+420775073180" class="tel-link">+420 775 073 180</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon">&#9742;</div>
+                <div class="ci-content">
+                  <strong>Pevná linka:</strong>
+                  <a href="tel:+420541242756" class="tel-link">+420 541 242 756</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon">&#9993;</div>
+                <div class="ci-content">
+                  <strong>E-mail pro poptávky:</strong>
+                  <a href="mailto:info@psindustry.cz">info@psindustry.cz</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon">&#128196;</div>
+                <div class="ci-content">
+                  <strong>Registrační údaje:</strong>
+                  <span>IČO: 02356490 &bull; DIČ: CZ02356490 &bull; KS v Brně, oddíl C, vložka 80986</span>
+                </div>
+              </div>
+            </div>
+            <div class="map-link-wrap">
+              <a href="https://mapy.cz/zakladni?x=16.5677&y=49.2206&z=16&source=coor&id=16.5677%2C49.2206" target="_blank" rel="noopener" class="btn btn-outline btn-map">Otevřít navigaci na Mapy.cz &raquo;</a>
+            </div>
+          </div>
+          <div class="contact-map reveal-on-scroll">
+            <div class="map-frame">
+              <iframe src="https://frame.mapy.cz/zakladni?x=16.5677&y=49.2206&z=16&source=coor&id=16.5677%2C49.2206" width="100%" height="420" style="border:0;" loading="lazy" title="Mapa sídla PSIndustry s.r.o. Brno"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col footer-brand">
+        <a href="#hero" class="brand-link">
+          <img src="assets/logo.png" alt="PSIndustry s.r.o." class="footer-logo" width="220" height="42">
+        </a>
+        <p class="footer-about">Ryze česká společnost specializovaná na přesné CNC obrábění kovů, zámečnictví, certifikované svařování a průmyslové montáže v Brně.</p>
+      </div>
+      <div class="footer-col footer-links">
+        <h4 class="footer-heading">Rychlá navigace</h4>
+        <ul class="footer-menu">
+          <li><a href="#o-spolecnosti">O společnosti</a></li>
+          <li><a href="#katalog">CNC obrábění</a></li>
+          <li><a href="#katalog">Kovovýroba</a></li>
+          <li><a href="#katalog">Průmyslové montáže</a></li>
+          <li><a href="#strojni-park">Strojní park</a></li>
+          <li><a href="#metrologie">Kontrola jakosti</a></li>
+          <li><a href="#poptavka">Poptávkový formulář</a></li>
+          <li><a href="#kontakt">Kontaktní spojení</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-contact">
+        <h4 class="footer-heading">PSIndustry s.r.o.</h4>
+        <p>Zákoutí 2851/53<br>616 00 Brno-Žabovřesky</p>
+        <p>Telefon: <a href="tel:+420775073180" class="tel-link">+420 775 073 180</a><br>E-mail: <a href="mailto:info@psindustry.cz">info@psindustry.cz</a></p>
+        <p>IČO: 02356490 | DIČ: CZ02356490</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 PSIndustry s.r.o. Všechna práva vyhrazena.</p>
+        <p class="footer-legal">Zápis v obchodním rejstříku: KS v Brně, oddíl C, vložka 80986.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="techModalBackdrop" class="tech-modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true" style="display:none;">
+    <div class="tech-modal-container">
+      <div class="tech-modal-dialog">
+        <div class="tech-modal-header">
+          <div class="tm-header-info">
+            <span id="tmCategory" class="tm-category"></span>
+            <span id="tmBadge" class="tm-badge"></span>
+            <h3 id="tmTitle" class="tm-title"></h3>
+          </div>
+          <button type="button" id="techModalClose" class="tech-modal-close" aria-label="Zavřít technické okno">&times;</button>
+        </div>
+        <div class="tech-modal-body">
+          <div class="tm-lead-row">
+            <div class="tm-media">
+              <img id="tmImage" src="assets/cnc_turning.jpg" alt="" class="tm-img item-img" width="480" height="320">
+            </div>
+            <div class="tm-desc-col">
+              <p id="tmDesc" class="tm-desc"></p>
+              <h4 class="tm-subhead">Hlavní přednosti a technologické možnosti:</h4>
+              <ul id="tmFeatures" class="tm-features-list"></ul>
+            </div>
+          </div>
+          <div class="tm-specs-section">
+            <h4 class="tm-subhead">Technické parametry a mezní hodnoty:</h4>
+            <div class="tm-table-wrap" style="overflow-x: auto; max-width: 100%;">
+              <table class="tm-specs-table">
+                <thead>
+                  <tr>
+                    <th>Sledovaný parametr</th>
+                    <th>Výrobní rozsah / Tolerance</th>
+                  </tr>
+                </thead>
+                <tbody id="tmSpecsTbody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="tech-modal-footer">
+          <button type="button" id="tmSelectBtn" class="btn btn-primary">Poptat tuto výrobní kapacitu</button>
+          <button type="button" id="tmCloseSecondary" class="btn btn-outline">Zavřít detail</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

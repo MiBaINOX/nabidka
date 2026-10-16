@@ -1,0 +1,33 @@
+{
+  "slug": "psindustry",
+  "url": "http://psindustry.cz",
+  "total_pages": 4,
+  "visited_urls": [
+    "http://psindustry.cz",
+    "http://psindustry.cz/sluzby",
+    "http://psindustry.cz/technologie",
+    "http://psindustry.cz/kontakt"
+  ],
+  "menu_categories": [
+    "O společnosti",
+    "CNC obrábění",
+    "Kovovýroba",
+    "Průmyslové montáže",
+    "Strojní park",
+    "Kontrola jakosti",
+    "Poptávka",
+    "Kontakt"
+  ],
+  "total_photos": 8,
+  "assets_downloaded": [
+    "logo.png",
+    "hero_machining.jpg",
+    "cnc_turning.jpg",
+    "cnc_milling.jpg",
+    "precision_parts.jpg",
+    "welding_fabrication.jpg",
+    "industrial_assembly.jpg",
+    "cad_engineering.jpg",
+    "metrology_inspection.jpg"
+  ]
+}
