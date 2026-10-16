@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <g>
+    <rect x="2" y="6" width="52" height="52" rx="4" fill="#1E293B" stroke="#F59E0B" stroke-width="2.5"/>
+    <path d="M12 18H44M12 32H44M12 46H44" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <path d="M28 14V50" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="3 3"/>
+    <circle cx="28" cy="32" r="5" fill="#F59E0B"/>
+    <circle cx="28" cy="32" r="2" fill="#0B0F17"/>
+    <text x="68" y="32" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" letter-spacing="0.5">FORMY<tspan fill="#F59E0B">-</tspan>ZNOJIL</text>
+    <text x="69" y="48" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="9" fill="#94A3B8" letter-spacing="1.5">VÝROBA A SERVIS FOREM</text>
+  </g>
+</svg>

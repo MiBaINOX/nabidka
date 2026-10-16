@@ -1,0 +1,39 @@
+{
+  "slug": "ekoprogres",
+  "firma": "EKOPROGRES HRANICE, a.s.",
+  "ico": "00562301",
+  "obec": "Hranice",
+  "okres": "Přerov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Výroba a dodávka vodohospodářských technologií, čistíren odpadních vod a těsnění",
+  "archetyp": "Corporate Portal",
+  "stary_web": "https://www.ekoprogres.cz",
+  "email": "ekoprogres@ekoprogres.cz",
+  "prodejni_body": [
+    "Kompletní čistírenské celky KOMBIBLOK® pro 50 až 50 000 EO",
+    "Výroba robustních sedimentačních nádrží a pojezdových mostů",
+    "Certifikované modulární těsnění prostupů potrubí LINK-SEAL®"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralý systém inPage s neaktualizovaným rozložením z roku 2005",
+    "Absence moderní mobilní responzivity a přehledné struktury",
+    "Statický výčet technologií bez interaktivního dimenzování EO",
+    "Cizojazyčné verze (EN/DE) skryté hluboko v podstránkách rubrik",
+    "Chybějící Mapy.cz navigace k sídlu a výrobnímu areálu v Hranicích"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní Corporate Portal styl s vodohospodářskou identitou",
+    "Okamžitý přepínač jazyků CZ | EN | DE se stoprocentním pokrytím",
+    "Interaktivní dimenzovací kalkulátor čistíren odpadních vod podle EO",
+    "Filtrovatelný katalog sedimentačních nádrží, česlí a těsnění",
+    "Plná optimalizace pro smartphony a přehledná prezentace referencí"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "zamestnanci": "10-24",
+    "kapacita_eo_max": 50000,
+    "sidlo": "Třída 1. máje 1013, 753 01 Hranice",
+    "datova_schranka": "nscuyhi"
+  },
+  "jazyky": ["CZ", "EN", "DE"]
+}

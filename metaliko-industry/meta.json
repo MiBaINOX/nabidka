@@ -1,0 +1,39 @@
+{
+  "slug": "metaliko-industry",
+  "firma": "Metaliko industry s.r.o.",
+  "ico": "06269826",
+  "obec": "Protivanov / Šebetov",
+  "okres": "Prostějov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Zakázkové a malosériové svařování nerezových a hliníkových svařenců",
+  "archetyp": "Editorial & Story",
+  "stary_web": "https://metaliko-industry.cz",
+  "email": "janicek@metaliko-industry.cz",
+  "prodejni_body": [
+    "Výroba výhradně v bezuhlíkové hale bez rizika feritické kontaminace",
+    "Pravidelný export přesných celků do 8 zemí Evropy i zámoří",
+    "Člen silné strojírenské skupiny Metaliko Group s vlastním inženýringem"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralá šablona s nízkým kontrastem a nepřehlednou strukturou",
+    "Nefunkční interaktivita a absence technologického rozcestníku materiálů",
+    "Statický katalog výrobků bez možnosti detailního prozkoumání svarů",
+    "Chybějící Mapy.cz navigace k provozovně v Šebetově",
+    "Ploché rozvržení bez prezentace exportní stability a příběhu firmy"
+  ],
+  "vylepseni_noveho_webu": [
+    "Unikátní Editorial & Story design s prémiovou typografií",
+    "Interaktivní materiálový rozcestník parametrů svařování TIG/MIG",
+    "Fotogalerie výrobků s vysokým rozlišením a interaktivním modálním oknem",
+    "Ověřené personální vizitky celého technického i obchodního vedení",
+    "100% mobilní responzivita a optimalizace pro mezinárodní B2B klienty"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2017,
+    "zamestnanci": "25-49",
+    "provozovna": "Šebetov 258",
+    "skupina": "Metaliko Group",
+    "export_zeme": ["Německo", "Rakousko", "Dánsko", "Nizozemsko", "Norsko", "Švédsko", "Kanada", "Velká Británie"]
+  },
+  "jazyky": ["CZ"]
+}

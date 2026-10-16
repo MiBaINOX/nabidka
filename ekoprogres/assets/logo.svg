@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 68" fill="none">
+  <g>
+    <rect x="2" y="6" width="56" height="56" rx="8" fill="#0284C7"/>
+    <path d="M30 14C30 14 16 30 16 40C16 47.732 22.268 54 30 54C37.732 54 44 47.732 44 40C44 30 30 14 30 14Z" fill="#FFFFFF" fill-opacity="0.95"/>
+    <path d="M22 41C22 45.4183 25.5817 49 30 49C34.4183 49 38 45.4183 38 41C38 35.5 30 25 30 25C30 25 22 35.5 22 41Z" fill="#0369A1"/>
+    <path d="M12 48C18 45 24 51 30 48C36 45 42 51 48 48" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="70" y="34" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-weight="900" font-size="22" fill="#0F172A" letter-spacing="0.5">EKOPROGRES</text>
+    <text x="71" y="50" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-weight="700" font-size="9.5" fill="#0284C7" letter-spacing="1.5">HRANICE, a.s. • VODOHOSPODÁŘSTVÍ</text>
+  </g>
+</svg>

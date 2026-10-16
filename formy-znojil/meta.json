@@ -1,0 +1,39 @@
+{
+  "slug": "formy-znojil",
+  "firma": "FORMY-ZNOJIL s.r.o.",
+  "ico": "04520301",
+  "obec": "Prostějov",
+  "okres": "Prostějov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Konstrukce, výroba a servis forem na vstřikování plastů a pryže",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://formy-znojil.cz",
+  "email": "znojil@formy-znojil.cz",
+  "prodejni_body": [
+    "Vývoj a výroba forem na plasty a vulkanizaci pryže na klíč",
+    "Ultrazvukové leštění povrchů do zrcadlového lesku (15+ let praxe)",
+    "Okamžité vzorování na vlastních lisech ARBURG 470 C a BOY 55"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralý fixní layout bez responzivity pro chytré telefony",
+    "Nezabezpečený provoz na protokolu HTTP bez šifrování SSL/HTTPS",
+    "Chybějící interaktivní konfigurátor technologických parametrů",
+    "Statická fotogalerie bez možnosti detailního náhledu povrchů kavit",
+    "Absence Mapy.cz navigace k výrobnímu areálu v Prostějově"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní Heavy Industrial design s tmavým technickým kontrastem",
+    "Plná mobilní responzivita se stoprocentním zobrazením na všech zařízeních",
+    "Interaktivní parametrický konfigurátor materiálů, kavit a ocelí",
+    "Vysoce detailní fotogalerie zrcadlových povrchů s lightbox zvětšením",
+    "Přehledná vizitka klíčových osob nástrojárny a interaktivní mapa"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2015,
+    "zamestnanci": "10-19",
+    "lisy_vlastni": ["ARBURG 470 C 1500-400", "BOY 55"],
+    "software": ["SolidWorks", "Autodesk Inventor", "HSMWorks", "InventorHSM"],
+    "lesteni_praxe_let": 15
+  },
+  "jazyky": ["CZ"]
+}
