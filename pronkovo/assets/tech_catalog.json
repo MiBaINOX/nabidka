@@ -1,0 +1,254 @@
+[
+  {
+    "id": "cnc-soustruzeni",
+    "title": "CNC a konvenční soustružení dílců",
+    "category": "kovovyroba",
+    "category_name": "Zakázková kovovýroba",
+    "image": "assets/ceniky_d418.jpg",
+    "tag": "Třískové obrábění",
+    "description": "Přesné rotační obrábění dílců z konstrukčních i nerezových ocelí, mosazi, duralu a technických plastů pro strojírenství.",
+    "specs": {
+      "Výrobní rozsah": "Kusová a malosériová produkce dle výkresů",
+      "Materiály": "Uhlíkové a nerezové oceli, dural, bronz, POM",
+      "Operace": "Podélné i čelní soustružení, řezání závitů, vyvrtávání",
+      "Přesnost": "Výrobní tolerance v mezích norem ISO 2768",
+      "Podklady": "CAD modely (STEP, IGES), 2D výkresy (DWG, PDF)"
+    },
+    "advantages": [
+      "Vysoká přesnost a opakovatelnost rozměrů",
+      "Zpracování prototypů i opakovaných sérií",
+      "Optimalizace výrobních nákladů ve spolupráci se zákazníkem"
+    ]
+  },
+  {
+    "id": "cnc-frezovani",
+    "title": "CNC a univerzální frézování",
+    "category": "kovovyroba",
+    "category_name": "Zakázková kovovýroba",
+    "image": "assets/ceniky_d419.jpg",
+    "tag": "Třískové obrábění",
+    "description": "Komplexní prizmatické obrábění rovných, tvarových a drážkovaných ploch pro jednoúčelové stroje a technologické celky.",
+    "specs": {
+      "Typ operací": "Rovinné a tvarové frézování, zahlubování kapes",
+      "Obráběné kovy": "Konstrukční a legované oceli, hliníkové slitiny",
+      "Přípravky": "Zakázková výroba speciálních upínacích desek",
+      "Kontrola": "Dílenská metrologie měřidly MAHR a SOMET",
+      "Normy jakosti": "Tolerance dle výkresové dokumentace zákazníka"
+    },
+    "advantages": [
+      "Obrábění složitých prostorových tvarů",
+      "Tuhé upnutí pro minimalizaci deformací tenkostěnných dílů",
+      "Vysoká čistota obrobeného povrchu"
+    ]
+  },
+  {
+    "id": "vyroba-pripravku",
+    "title": "Výroba technologických přípravků a nestandardních součástí",
+    "category": "kovovyroba",
+    "category_name": "Zakázková kovovýroba",
+    "image": "assets/ceniky_d4110.jpg",
+    "tag": "Zakázkový vývoj",
+    "description": "Specializovaná kusová výroba atypických komponent, montážních přípravků a upínek přesně dle individuálního zadání.",
+    "specs": {
+      "Zaměření": "Montážní a měřicí přípravky pro výrobní provozy",
+      "Spolupráce": "Optimalizace nákladů a technologičnosti konstrukce",
+      "Tepelné úpravy": "Kooperační zušlechťování, cementování a kalení",
+      "Povrchové úpravy": "Kooperační černění, niklování, galvanické zinkování",
+      "Dodávka": "Důraz na kvalitu a 100% dodržení dohodnutých termínů"
+    },
+    "advantages": [
+      "Individuální přístup ke specifickým požadavkům zadání",
+      "Řešení pro nestandardní a malosériové aplikace",
+      "Kompletní dodávka včetně zušlechtění materiálu"
+    ]
+  },
+  {
+    "id": "deleni-materialu",
+    "title": "Dělení materiálu a zámečnická kompletace",
+    "category": "kovovyroba",
+    "category_name": "Zakázková kovovýroba",
+    "image": "assets/ceniky_d4111.jpg",
+    "tag": "Příprava a montáž",
+    "description": "Příprava hutních polotovarů na pásových pilách, odhrotování, montáž a kompletace zámečnických podsestav před expedicí.",
+    "specs": {
+      "Dělení": "Pásové a kotoučové pily na profily, trubky a tyče",
+      "Zámečnictví": "Odstraňování otřepů, srážení hran, řezání závitů",
+      "Svařování podsestav": "Stehovací a konstrukční svařování MIG/MAG a TIG",
+      "Výstupní přejímka": "100% vizuální a rozměrová kontrola hotových výrobků",
+      "Expedice": "Ochranné antikorozní balení a doprava k zákazníkovi"
+    },
+    "advantages": [
+      "Čisté a přesné kolmé i úhlové řezy bez tepelného ovlivnění",
+      "Rychlá příprava materiálu pro další obráběcí operace",
+      "Kompletní dodávka finálně smontovaných podsestav"
+    ]
+  },
+  {
+    "id": "grit-gx-bruska",
+    "title": "Modulární pásová bruska GRIT GX 75",
+    "category": "stacionarni-stroje",
+    "category_name": "Stacionární stroje",
+    "image": "assets/ceniky_d412.jpg",
+    "tag": "Pásové broušení",
+    "description": "Kompaktní základní jednotka pásové brusky pro průmyslové i dílenské použití s vysokou stabilitou a patentovaným napínáním pásu.",
+    "specs": {
+      "Rozměr pásu": "75 x 2000 mm",
+      "Příkon motoru": "3 kW při 3000 ot/min",
+      "Rychlost pásu": "30 m/s pro vysoký úběr materiálu",
+      "Modulární systém": "Možnost rozšíření o modul bezhrotého broušení GXC",
+      "Vibrace": "Minimální vibrace díky vyváženému hnacímu kolu"
+    },
+    "advantages": [
+      "Extrémně rychlá výměna brusného pásu bez použití nářadí",
+      "Robustní konstrukce pro dlouhou životnost v dílně",
+      "Nízké provozní náklady a vysoká hospodárnost"
+    ]
+  },
+  {
+    "id": "grit-bezhrote-brouseni",
+    "title": "Zařízení pro bezhroté broušení GRIT GXC",
+    "category": "stacionarni-stroje",
+    "category_name": "Stacionární stroje",
+    "image": "assets/ceniky_d413.jpg",
+    "tag": "Broušení trubek a tyčí",
+    "description": "Přídavný modul k pásové brusce GRIT GX pro kruhové a bezhroté broušení válcových součástí, trubek a hřídelí.",
+    "specs": {
+      "Průměry trubek": "Průměr 10 až 100 mm",
+      "Rychlost posuvu": "Plynule nastavitelná pro hrubování i leštění",
+      "Materiály": "Ušlechtilé nerezové oceli, ocelové i mosazné trubky",
+      "Vodicí lišty": "Mosazné a plastové vodicí lišty chránící obrobek",
+      "Chlazení": "Příprava pro připojení modulu chladicí emulze"
+    },
+    "advantages": [
+      "Dokonalý kruhovitý výbrus a rovnoměrný finální povrch",
+      "Rychlé přestavení na různé průměry trubek",
+      "Vysoká produktivita oproti ručnímu broušení"
+    ]
+  },
+  {
+    "id": "grit-profi-bruska",
+    "title": "Těžká průmyslová pásová bruska GRIT GI",
+    "category": "stacionarni-stroje",
+    "category_name": "Stacionární stroje",
+    "image": "assets/ceniky_d414.jpg",
+    "tag": "Těžký provoz",
+    "description": "Vysoce výkonná průmyslová pásová bruska pro nepřetržité nasazení ve výrobních závodech a slévárnách.",
+    "specs": {
+      "Šířka pásu": "75 mm nebo 150 mm (délka 2000 mm)",
+      "Výkon motoru": "4 kW robustní třífázový asynchronní motor",
+      "Konstrukce": "Litinový rám pro maximální tuhost a stabilitu",
+      "Brousicí stůl": "Výškově stavitelný stůl pro přesné rovinné broušení",
+      "Odsávání": "Centrální příruby pro připojení odsávací stanice"
+    },
+    "advantages": [
+      "Konstruováno pro třísměnný průmyslový provoz",
+      "Vysoký úběrový výkon i při opracování tvrdých ocelí",
+      "Kompletní bezpečnostní prvky a krytování"
+    ]
+  },
+  {
+    "id": "ewm-mig-mag-zdroj",
+    "title": "Invertorové svařovací zdroje EWM MIG/MAG",
+    "category": "svarovani",
+    "category_name": "Svařovací technika",
+    "image": "assets/img_pages_d3111.gif",
+    "tag": "Svařovací zdroje",
+    "description": "Prémiové pulzní svařovací zdroje německé výroby pro vysoce kvalitní sváry ocelí, nerezi i hliníkových slitin.",
+    "specs": {
+      "Metody svařování": "MIG/MAG, pulzní MIG/MAG, MMA obalená elektroda",
+      "Svařovací proud": "Až 350 A / 400 A při zatěžovateli 60 %",
+      "Podavač drátu": "4kladkový precizní motorový posuv drátu",
+      "Řízení": "Přednastavené synergické křivky pro různé materiály",
+      "Účinnost": "Invertorová technologie s minimální spotřebou proudu"
+    },
+    "advantages": [
+      "Minimální rozstřik a vynikající kresba svarové housenky",
+      "Digitální ovládací panel pro snadné nastavení parametrů",
+      "Dlouhá životnost a vysoká spolehlivost v těžkém provozu"
+    ]
+  },
+  {
+    "id": "tara-svarovaci-zdroj",
+    "title": "Svařovací zdroje a startovací stanice TARA",
+    "category": "svarovani",
+    "category_name": "Svařovací technika",
+    "image": "assets/img_pages_d3131.gif",
+    "tag": "Dílenská technika",
+    "description": "Odolné transformátorové svářečky a kombinované nabíjecí a pomocné startovací zdroje pro údržbářské provozy.",
+    "specs": {
+      "Použití": "Zámečnické dílny, údržba vozového parku, montáže",
+      "Regulace": "Plynulá regulace svařovacího proudu",
+      "Startovací funkce": "Pomocný startovací proud pro nákladní automobily",
+      "Ochrana": "Vestavěná bimetalová tepelná ochrana proti přetížení",
+      "Podvozek": "Kovový podvozek s odolnými pojezdovými koly"
+    },
+    "advantages": [
+      "Jednoduchá robustní konstrukce nenáročná na údržbu",
+      "Dvojí funkce: spolehlivé svařování i startování techniky",
+      "Dlouhodobě prověřená dílenská spolehlivost"
+    ]
+  },
+  {
+    "id": "strojni-sadove-zavitniky",
+    "title": "Strojní a sadové závitníky ČSN / DIN",
+    "category": "obrabeci-nastroje",
+    "category_name": "Obráběcí nástroje",
+    "image": "assets/ceniky_d413.jpg",
+    "tag": "Závitování",
+    "description": "Přesné závitníky z rychlořezné oceli HSS a kobaltové HSS-E pro ruční i CNC řezání vnitřních závitů.",
+    "specs": {
+      "Typy závitů": "Metrické M, jemné metrické MF, trubkové G, trapézové Tr",
+      "Provedení": "Přímá drážka s lamačem třísek, šroubovitá drážka 35°/45°",
+      "Materiál": "HSS, HSS-E (Co5), povrchové povlaky TiN a TiAlN",
+      "Normy": "ČSN 22 3010, DIN 371, DIN 376, DIN 352",
+      "Závitové čelisti": "Kruhové závitové čelisti pro řezání vnějších závitů"
+    },
+    "advantages": [
+      "Dlouhá životnost břitu a odolnost proti opotřebení",
+      "Spolehlivý odvod třísek zabraňující zalomení závitníku",
+      "Vysoká přesnost geometrie a tolerance závitu 6H"
+    ]
+  },
+  {
+    "id": "vrtaky-vyhrubniky-vystruzniky",
+    "title": "Vrtáky, výhrubníky a výstružníky ČSN / DIN",
+    "category": "obrabeci-nastroje",
+    "category_name": "Obráběcí nástroje",
+    "image": "assets/ceniky_d412.jpg",
+    "tag": "Opracování otvorů",
+    "description": "Šroubovité vrtáky s válcovou i kuželovou stopkou Morse a výstružníky pro přesné lícování otvorů H7.",
+    "specs": {
+      "Rozsah průměrů": "Vrtáky od 0,5 mm do 50 mm, stopka Morse MK1 až MK4",
+      "Výstružníky": "Strojní a ruční výstružníky pro tolerance H7, H8",
+      "Záhlubníky": "Kuželové záhlubníky 60°, 90° a 120° pro hlavy šroubů",
+      "Materiály nástrojů": "HSS, HSS-Co5, HSS-Co8 a tvrdokov VHM",
+      "Normy": "ČSN 22 1121, ČSN 22 1431, DIN 338, DIN 345, DIN 212"
+    },
+    "advantages": [
+      "Přesné navrtání a vedení nástroje v materiálu",
+      "Hladký povrch obrobené díry v lícování H7",
+      "Vysoká tepelná stabilita řezné hrany"
+    ]
+  },
+  {
+    "id": "metrologie-somet-mahr",
+    "title": "Přesná dílenská měřidla SOMET a MAHR",
+    "category": "meridla",
+    "category_name": "Měřidla a metrologie",
+    "image": "assets/img_pages_d121.gif",
+    "tag": "Metrologie",
+    "description": "Digitální i mechanická měřidla pro přesnou kontrolu rozměrů, úchylek tvaru a jakosti povrchu dílců.",
+    "specs": {
+      "Rozlišení": "Mechanické nonium 0,02 mm, digitální displej 0,01 mm",
+      "Měřicí přístroje": "Posuvná měřítka, mikrometry, číselníkové úchylkoměry",
+      "Krytí": "Průmyslové krytí IP67 odolné kapalinám a prachu",
+      "Metrologické značky": "SOMET Teplice, MAHR Esslingen, KINEX Measuring",
+      "Certifikace": "Dodávka včetně kalibračních protokolů a norem ČSN ISO"
+    },
+    "advantages": [
+      "Garance 100% rozměrové kontroly hotových dílců",
+      "Ergonomické ovládání a přehledné čtení hodnot",
+      "Dlouhodobá stabilita měřicího mechanismu"
+    ]
+  }
+]

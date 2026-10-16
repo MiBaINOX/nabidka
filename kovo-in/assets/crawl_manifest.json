@@ -1,0 +1,535 @@
+{
+  "total_pages": 12,
+  "visited_urls": [
+    "http://www.kovoin.cz/obrabeni-kovu",
+    "http://www.kovoin.cz/zamecnictvi",
+    "http://www.kovoin.cz/poptavka",
+    "http://www.kovoin.cz/nase-vyrobky",
+    "http://www.kovoin.cz/nase-vyrobky/mrize-a-postovni-schranky",
+    "http://www.kovoin.cz/nase-vyrobky/ploty",
+    "http://www.kovoin.cz/nase-vyrobky/zabradli",
+    "http://www.kovoin.cz/kontakty",
+    "http://www.kovoin.cz/technicke-vybaveni",
+    "http://www.kovoin.cz/kvalita",
+    "http://www.kovoin.cz",
+    "http://www.kovoin.cz/nase-vyrobky/brany-a-branky"
+  ],
+  "total_images_found": 102,
+  "downloaded_images_count": 101,
+  "downloaded_images": [
+    {
+      "filename": "iso_9001.jpg",
+      "url": "http://www.kovoin.cz/images/editor/images/iso_9001.jpg",
+      "size": 33522
+    },
+    {
+      "filename": "00001-141031075542-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00001-141031075542-mini.jpg",
+      "size": 7537
+    },
+    {
+      "filename": "00001-141031075542.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00001-141031075542.jpg",
+      "size": 48924
+    },
+    {
+      "filename": "00002-141031075542-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00002-141031075542-mini.jpg",
+      "size": 9839
+    },
+    {
+      "filename": "00002-141031075542.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00002-141031075542.jpg",
+      "size": 66171
+    },
+    {
+      "filename": "00003-141031075542-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00003-141031075542-mini.jpg",
+      "size": 11629
+    },
+    {
+      "filename": "00003-141031075542.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00003-141031075542.jpg",
+      "size": 82063
+    },
+    {
+      "filename": "00003-141031080947-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00003-141031080947-mini.jpg",
+      "size": 11629
+    },
+    {
+      "filename": "00003-141031080947.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00003-141031080947.jpg",
+      "size": 82063
+    },
+    {
+      "filename": "00004-141031075542-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00004-141031075542-mini.jpg",
+      "size": 9393
+    },
+    {
+      "filename": "00004-141031075542.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00004-141031075542.jpg",
+      "size": 72491
+    },
+    {
+      "filename": "00005-141031075542-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00005-141031075542-mini.jpg",
+      "size": 11178
+    },
+    {
+      "filename": "00005-141031075542.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00005-141031075542.jpg",
+      "size": 72155
+    },
+    {
+      "filename": "00006-141031075551-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00006-141031075551-mini.jpg",
+      "size": 10370
+    },
+    {
+      "filename": "00006-141031075551.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00006-141031075551.jpg",
+      "size": 65869
+    },
+    {
+      "filename": "00007-141031075551-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00007-141031075551-mini.jpg",
+      "size": 10026
+    },
+    {
+      "filename": "00007-141031075551.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00007-141031075551.jpg",
+      "size": 77118
+    },
+    {
+      "filename": "00008-141031075551-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00008-141031075551-mini.jpg",
+      "size": 8560
+    },
+    {
+      "filename": "00008-141031075551.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/00008-141031075551.jpg",
+      "size": 50809
+    },
+    {
+      "filename": "0001-141031075608-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0001-141031075608-mini.jpg",
+      "size": 7739
+    },
+    {
+      "filename": "0001-141031075608.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0001-141031075608.jpg",
+      "size": 30909
+    },
+    {
+      "filename": "0002-141031075608-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0002-141031075608-mini.jpg",
+      "size": 10605
+    },
+    {
+      "filename": "0002-141031075608.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0002-141031075608.jpg",
+      "size": 57026
+    },
+    {
+      "filename": "0003-141031075608-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0003-141031075608-mini.jpg",
+      "size": 8973
+    },
+    {
+      "filename": "0003-141031075608.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0003-141031075608.jpg",
+      "size": 47903
+    },
+    {
+      "filename": "0004-141031075608-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0004-141031075608-mini.jpg",
+      "size": 5032
+    },
+    {
+      "filename": "0004-141031075608.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0004-141031075608.jpg",
+      "size": 17927
+    },
+    {
+      "filename": "0005-141031075608-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0005-141031075608-mini.jpg",
+      "size": 9006
+    },
+    {
+      "filename": "0005-141031075608.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0005-141031075608.jpg",
+      "size": 37754
+    },
+    {
+      "filename": "0006-141031075623-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0006-141031075623-mini.jpg",
+      "size": 10076
+    },
+    {
+      "filename": "0006-141031075623.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0006-141031075623.jpg",
+      "size": 48853
+    },
+    {
+      "filename": "0006-141031080947-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0006-141031080947-mini.jpg",
+      "size": 10076
+    },
+    {
+      "filename": "0006-141031080947.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0006-141031080947.jpg",
+      "size": 48853
+    },
+    {
+      "filename": "0007-141031075623-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0007-141031075623-mini.jpg",
+      "size": 10229
+    },
+    {
+      "filename": "0007-141031075623.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0007-141031075623.jpg",
+      "size": 52200
+    },
+    {
+      "filename": "0008-141031075623-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0008-141031075623-mini.jpg",
+      "size": 7924
+    },
+    {
+      "filename": "0008-141031075623.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0008-141031075623.jpg",
+      "size": 33080
+    },
+    {
+      "filename": "0009-141031075623-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0009-141031075623-mini.jpg",
+      "size": 9956
+    },
+    {
+      "filename": "0009-141031075623.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0009-141031075623.jpg",
+      "size": 44482
+    },
+    {
+      "filename": "001-141031075707-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/001-141031075707-mini.jpg",
+      "size": 8533
+    },
+    {
+      "filename": "001-141031075707.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/001-141031075707.jpg",
+      "size": 38831
+    },
+    {
+      "filename": "0010-141031075623-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0010-141031075623-mini.jpg",
+      "size": 9369
+    },
+    {
+      "filename": "0010-141031075623.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0010-141031075623.jpg",
+      "size": 42249
+    },
+    {
+      "filename": "0011-141031075638-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0011-141031075638-mini.jpg",
+      "size": 10014
+    },
+    {
+      "filename": "0012-141031075638-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0012-141031075638-mini.jpg",
+      "size": 9273
+    },
+    {
+      "filename": "0012-141031075638.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0012-141031075638.jpg",
+      "size": 44083
+    },
+    {
+      "filename": "0013-141031075638-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0013-141031075638-mini.jpg",
+      "size": 10454
+    },
+    {
+      "filename": "0013-141031075638.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0013-141031075638.jpg",
+      "size": 53530
+    },
+    {
+      "filename": "0014-141031075638-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0014-141031075638-mini.jpg",
+      "size": 10501
+    },
+    {
+      "filename": "0014-141031075638.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0014-141031075638.jpg",
+      "size": 49694
+    },
+    {
+      "filename": "0015-141031075638-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0015-141031075638-mini.jpg",
+      "size": 9337
+    },
+    {
+      "filename": "0015-141031075638.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0015-141031075638.jpg",
+      "size": 48051
+    },
+    {
+      "filename": "0016-141031075646-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0016-141031075646-mini.jpg",
+      "size": 9343
+    },
+    {
+      "filename": "0016-141031075646.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0016-141031075646.jpg",
+      "size": 47520
+    },
+    {
+      "filename": "0017-141031075646-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0017-141031075646-mini.jpg",
+      "size": 7561
+    },
+    {
+      "filename": "0017-141031075646.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/0017-141031075646.jpg",
+      "size": 29826
+    },
+    {
+      "filename": "002-141031075707-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/002-141031075707-mini.jpg",
+      "size": 5843
+    },
+    {
+      "filename": "002-141031075707.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/002-141031075707.jpg",
+      "size": 47936
+    },
+    {
+      "filename": "003-141031075707-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/003-141031075707-mini.jpg",
+      "size": 9730
+    },
+    {
+      "filename": "003-141031075707.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/003-141031075707.jpg",
+      "size": 53993
+    },
+    {
+      "filename": "004-141031075707-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/004-141031075707-mini.jpg",
+      "size": 8005
+    },
+    {
+      "filename": "004-141031075707.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/004-141031075707.jpg",
+      "size": 36099
+    },
+    {
+      "filename": "005-141031075707-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/005-141031075707-mini.jpg",
+      "size": 8949
+    },
+    {
+      "filename": "005-141031075707.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/005-141031075707.jpg",
+      "size": 37823
+    },
+    {
+      "filename": "01-141031075459-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/01-141031075459-mini.jpg",
+      "size": 10784
+    },
+    {
+      "filename": "01-141031075459.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/01-141031075459.jpg",
+      "size": 94264
+    },
+    {
+      "filename": "02-141031075459-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/02-141031075459-mini.jpg",
+      "size": 8836
+    },
+    {
+      "filename": "02-141031075459.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/02-141031075459.jpg",
+      "size": 55789
+    },
+    {
+      "filename": "03-141031075459-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/03-141031075459-mini.jpg",
+      "size": 9838
+    },
+    {
+      "filename": "03-141031075459.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/03-141031075459.jpg",
+      "size": 66843
+    },
+    {
+      "filename": "04-141031075459-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/04-141031075459-mini.jpg",
+      "size": 10569
+    },
+    {
+      "filename": "04-141031075459.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/04-141031075459.jpg",
+      "size": 90155
+    },
+    {
+      "filename": "05-141031075459-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/05-141031075459-mini.jpg",
+      "size": 11494
+    },
+    {
+      "filename": "05-141031075459.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/05-141031075459.jpg",
+      "size": 84037
+    },
+    {
+      "filename": "05-141031080947-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/05-141031080947-mini.jpg",
+      "size": 11494
+    },
+    {
+      "filename": "05-141031080947.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/05-141031080947.jpg",
+      "size": 84037
+    },
+    {
+      "filename": "06-141031075515-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/06-141031075515-mini.jpg",
+      "size": 10842
+    },
+    {
+      "filename": "06-141031075515.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/06-141031075515.jpg",
+      "size": 74738
+    },
+    {
+      "filename": "07-141031075515-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/07-141031075515-mini.jpg",
+      "size": 10145
+    },
+    {
+      "filename": "07-141031075515.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/07-141031075515.jpg",
+      "size": 77226
+    },
+    {
+      "filename": "08-141031075515-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/08-141031075515-mini.jpg",
+      "size": 11559
+    },
+    {
+      "filename": "08-141031075515.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/08-141031075515.jpg",
+      "size": 88376
+    },
+    {
+      "filename": "09-141031075515-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/09-141031075515-mini.jpg",
+      "size": 10200
+    },
+    {
+      "filename": "09-141031075515.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/09-141031075515.jpg",
+      "size": 76701
+    },
+    {
+      "filename": "10-141031075515-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/10-141031075515-mini.jpg",
+      "size": 10583
+    },
+    {
+      "filename": "10-141031075515.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/10-141031075515.jpg",
+      "size": 76941
+    },
+    {
+      "filename": "11-141031075521-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/11-141031075521-mini.jpg",
+      "size": 4568
+    },
+    {
+      "filename": "11-141031075521.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/11-141031075521.jpg",
+      "size": 33736
+    },
+    {
+      "filename": "main-pic-141031080912-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/main-pic-141031080912-mini.jpg",
+      "size": 4168
+    },
+    {
+      "filename": "main-pic-141031080912.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/main-pic-141031080912.jpg",
+      "size": 26106
+    },
+    {
+      "filename": "stroj-pic-1-141031074230-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/stroj-pic-1-141031074230-mini.jpg",
+      "size": 4244
+    },
+    {
+      "filename": "stroj-pic-1-141031074230.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/stroj-pic-1-141031074230.jpg",
+      "size": 14578
+    },
+    {
+      "filename": "stroj-pic-1-141031080912-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/stroj-pic-1-141031080912-mini.jpg",
+      "size": 5391
+    },
+    {
+      "filename": "stroj-pic-1-141031080912.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/stroj-pic-1-141031080912.jpg",
+      "size": 12645
+    },
+    {
+      "filename": "stroj-pic-2-141031074230-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/stroj-pic-2-141031074230-mini.jpg",
+      "size": 4696
+    },
+    {
+      "filename": "stroj-pic-2-141031074230.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/stroj-pic-2-141031074230.jpg",
+      "size": 14599
+    },
+    {
+      "filename": "stroj-pic-2-141031080912-mini.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/stroj-pic-2-141031080912-mini.jpg",
+      "size": 4973
+    },
+    {
+      "filename": "stroj-pic-2-141031080912.jpg",
+      "url": "http://www.kovoin.cz/images/stranky/stroj-pic-2-141031080912.jpg",
+      "size": 11370
+    },
+    {
+      "filename": "evropsky-fond-pro-regionalni-rozvoj.pdf",
+      "url": "http://www.kovoin.cz/kovoin/images/editor/files/evropsky-fond-pro-regionalni-rozvoj.pdf",
+      "size": 77979
+    },
+    {
+      "filename": "publicita.png",
+      "url": "http://www.kovoin.cz/kovoin/images/editor/images/publicita.png",
+      "size": 5370
+    },
+    {
+      "filename": "map-bg.png",
+      "url": "http://www.kovoin.cz/themes/default/images/map-bg.png",
+      "size": 4149
+    }
+  ],
+  "menu_categories": [
+    "O společnosti",
+    "Obrábění kovů",
+    "Zámečnictví",
+    "Naše výrobky",
+    "Technické vybavení",
+    "Kvalita",
+    "Kontakty"
+  ]
+}

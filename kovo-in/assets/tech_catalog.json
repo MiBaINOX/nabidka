@@ -1,0 +1,295 @@
+[
+  {
+    "id": "puma-240-m",
+    "title": "CNC soustruh Doosan PUMA 240 M",
+    "category": "CNC soustružení",
+    "category_slug": "soustruzeni",
+    "perex": "Vysoce výkonné horizontální soustružnické centrum vybavené poháněnými nástroji pro komplexní obrábění v ose C.",
+    "description": "CNC soustruh Doosan PUMA 240 M představuje základ našeho přesného soustružnického parku. Díky poháněným nástrojům umožňuje provádět vedle standardního soustružení také frézování drážek, vrtání a řezání závitů mimo osu na jedno upnutí. Vhodný pro kusovou i středně sériovou výrobu hřídelí, pouzder a rotačních součástí s vysokými nároky na rozměrovou přesnost.",
+    "specs": {
+      "Typ stroje": "CNC horizontální soustruh s poháněnými nástroji",
+      "Řídicí systém": "Fanuc s barevným displejem",
+      "Vřeteno": "Poháněné rotační nástroje, osa C",
+      "Maximální průměr soustružení": "až 300 mm",
+      "Maximální délka soustružení": "až 513 mm",
+      "Vrtání vřetene": "65 mm",
+      "Opakovatelná přesnost": "±0,005 mm"
+    },
+    "image": "assets/stroj-pic-1-141031074230.jpg"
+  },
+  {
+    "id": "puma-240-b",
+    "title": "CNC soustruh Doosan PUMA 240 B",
+    "category": "CNC soustružení",
+    "category_slug": "soustruzeni",
+    "perex": "Tuhé a přesné soustružnické centrum s velkým vrtáním vřetene pro tyčový materiál a přírubové součásti.",
+    "description": "Doosan PUMA 240 B je robustní produkční CNC soustruh s monolitickým litinovým šikmým ložem, který vyniká maximální tuhostí při těžkém i dokončovacím obrábění. Vybaven hydraulickým sklíčidlem a koníkem pro podepření dlouhých hřídelí. Určen pro hospodárné obrábění ocelí, nerezových ocelí a neželezných kovů.",
+    "specs": {
+      "Typ stroje": "Vysoce tuhý produkční CNC soustruh",
+      "Řídicí systém": "CNC Fanuc řady i",
+      "Vrtání vřetene": "76 mm (velké vrtání pro tyče)",
+      "Otáčky vřetene": "až 3 500 ot/min",
+      "Počet pozic nástrojové hlavy": "12 pozic",
+      "Použití": "Sériová výroba přírub, čepů a pouzder"
+    },
+    "image": "assets/stroj-pic-2-141031074230.jpg"
+  },
+  {
+    "id": "puma-240-ms",
+    "title": "CNC soustruh Doosan PUMA 240 MS (protivřeteno)",
+    "category": "CNC soustružení",
+    "category_slug": "soustruzeni",
+    "perex": "Špičkový dvousoustružnický automat s protivřetenem a pohony pro kompletní obrobení dílu z obou stran.",
+    "description": "Model PUMA 240 MS disponuje synchronizovaným protivřetenem a poháněnými rotačními nástroji. Díky tomu je možné obrobek po obrobení čela a vnějšího průměru automaticky předat do protivřetene a dokončit zadní stranu bez nutnosti manuálního přehazování obsluhou. To eliminuje kumulaci geometrických chyb a radikálně zkracuje výrobní časy sérií.",
+    "specs": {
+      "Konfigurace": "Hlavní vřeteno + plnohodnotné protivřeteno",
+      "Pohon nástrojů": "Ano, frézování a vrtání na obou vřetenech",
+      "Automatické předání dílu": "Plynulá synchronizace otáček",
+      "Průměr sklíčidla": "210 mm hlavní / 135 mm protivřeteno",
+      "Výhoda": "Hotový dílec na jedno upnutí (hotovo z obou stran)"
+    },
+    "image": "assets/stroj-pic-1-141031080912.jpg"
+  },
+  {
+    "id": "puma-240-a",
+    "title": "CNC soustruh Doosan PUMA 240 A",
+    "category": "CNC soustružení",
+    "category_slug": "soustruzeni",
+    "perex": "Rychlý a spolehlivý soustruh pro precizní dokončovací práce a přesné tolerované průměry.",
+    "description": "Doosan PUMA 240 A je osvědčený CNC soustruh s vysokorychlostním vřetenem, který poskytuje prvotřídní kvalitu obrobeného povrchu (drsnost Ra až 0,4) a vynikající tepelnou stabilitu během celodenního sériového provozu. Pravidelně kalibrovaný a kontrolovaný dle firemního systému jakosti ISO 9001.",
+    "specs": {
+      "Typ stroje": "Přesný CNC horizontální soustruh",
+      "Max. točný průměr": "300 mm",
+      "Vedení": "Tuhá kluzná vedení pro tlumení vibrací",
+      "Přesnost najíždění": "V mikrometrických tolerancích",
+      "Materiály": "Ušlechtilá ocel, konstrukční ocel, dural, mosaz"
+    },
+    "image": "assets/stroj-pic-2-141031080912.jpg"
+  },
+  {
+    "id": "puma-2600-ms",
+    "title": "CNC soustruh Doosan PUMA 2600 MS (protivřeteno)",
+    "category": "CNC soustružení",
+    "category_slug": "soustruzeni",
+    "perex": "Těžké velkoformátové soustružnické centrum nové generace s protivřetenem a vysokým krouticím momentem.",
+    "description": "Nejvýkonnější soustružnické centrum v naší dílně. PUMA 2600 MS nabízí zvětšený pracovní prostor, silný motor s vysokým točivým momentem pro těžké úběry a protivřeteno pro kompletní dokončení rozměrných hřídelí a přírub. Špičková dynamika posuvů a precizní optické odměřování garantují dokonalou opakovatelnost rozměrů i u stovek kusů.",
+    "specs": {
+      "Průměr obrábění nad ložem": "až 780 mm",
+      "Max. točný průměr": "376 mm",
+      "Max. točná délka": "760 mm",
+      "Vrtání vřetene": "82 mm",
+      "Výkon motoru vřetene": "22 kW",
+      "Technologie": "Poháněné nástroje BMT65 + synchronní protivřeteno"
+    },
+    "image": "assets/stroj-pic-1-141031074230.jpg"
+  },
+  {
+    "id": "lynx-220",
+    "title": "CNC soustruh Doosan LYNX 220",
+    "category": "CNC soustružení",
+    "category_slug": "soustruzeni",
+    "perex": "Kompaktní a bleskurychlý CNC soustruh pro sériovou výrobu menších přesných rotačních dílců.",
+    "description": "Doosan LYNX 220 je konstruován pro vysokou produktivitu s minimálními vedlejšími časy. Rychloposuvy 30 m/min a rychlé indexování nástrojové hlavy zajišťují nízké výrobní náklady na kus při zachování nekompromisní přesnosti. Ideální pro výrobu fittingů, distančních podložek, pouzder a kolíků.",
+    "specs": {
+      "Max. točný průměr": "320 mm",
+      "Max. točná délka": "300 mm",
+      "Rychloposuvy os X / Z": "30 / 36 m/min",
+      "Otáčky vřetene": "až 6 000 ot/min",
+      "Vhodné pro": "Rychlé série menších přesných součástek"
+    },
+    "image": "assets/stroj-pic-2-141031074230.jpg"
+  },
+  {
+    "id": "haas-vf-2ss-1",
+    "title": "CNC vertikální frézka HAAS VF 2SS (I)",
+    "category": "CNC frézování",
+    "category_slug": "frezovani",
+    "perex": "Super-rychlé vertikální obráběcí centrum amerického výrobce HAAS s otáčkami 12 000 ot/min.",
+    "description": "Vertikální 3osé frézovací centrum HAAS VF-2SS je optimalizováno pro vysokorychlostní obrábění (Super Speed). Přímý pohon vřetene, rychlé výměny nástrojů za 1,8 sekundy a pokročilé řízení trajektorie umožňují dosahovat špičkové kvality frézovaných povrchů a vysoké produktivity při výrobě tvarových desek a dílců.",
+    "specs": {
+      "Pojezdy v osách X / Y / Z": "762 × 406 × 508 mm",
+      "Upínací plocha stolu": "914 × 356 mm",
+      "Maximální zatížení stolu": "680 kg",
+      "Otáčky vřetene": "12 000 ot/min, pohon Inline Direct-Drive",
+      "Kapacita zásobníku nástrojů": "24+1 pozic (výměník s bočním uchycením)",
+      "Chlazení": "Vysokotlaké chlazení kapalinou"
+    },
+    "image": "assets/stroj-pic-1-141031080912.jpg"
+  },
+  {
+    "id": "haas-vf-2ss-2",
+    "title": "CNC vertikální frézka HAAS VF 2SS (II)",
+    "category": "CNC frézování",
+    "category_slug": "frezovani",
+    "perex": "Druhé identické frézovací centrum HAAS VF-2SS zajišťující flexibilitu a výrobní kapacitu pro velké série.",
+    "description": "Díky dvojici identických center HAAS VF-2SS jsme schopni flexibilně rozdělit zakázky, zajistit stoprocentní zastupitelnost výroby a dodržet i nejnáročnější dodací termíny. Stroje sdílejí jednotné seřízení nástrojů, CAM programy a technologické postupy.",
+    "specs": {
+      "Pojezdy v osách X / Y / Z": "762 × 406 × 508 mm",
+      "Dynamika posuvů": "Rychloposuv 35,6 m/min",
+      "Kužel vřetene": "ISO 40",
+      "Řídicí systém": "HAAS CNC s intuitivním dialogovým ovládáním",
+      "Záruka termínu": "Plná zálohovatelnost a kontinuita výroby"
+    },
+    "image": "assets/stroj-pic-2-141031080912.jpg"
+  },
+  {
+    "id": "mynx-400",
+    "title": "CNC frézovací centrum Doosan MYNX 400",
+    "category": "CNC frézování",
+    "category_slug": "frezovani",
+    "perex": "Těžké vertikální obráběcí centrum s kluznými vedeními pro silové frézování ocelových svařenců a výpalků.",
+    "description": "Doosan MYNX 400 je navržen pro nejnáročnější frézovací operace s vysokým úběrem materiálu. Masivní litinová konstrukce s široce dimenzovanými obdélníkovými kluznými vedeními spolehlivě pohlcuje veškeré vibrace při obrábění tvrdých nástrojových ocelí, nerezí i těžkých ocelových svařenců.",
+    "specs": {
+      "Pojezdy X / Y / Z": "762 × 400 × 510 mm",
+      "Vedení": "Tuhá obdélníková kluzná vedení",
+      "Kužel vřetene": "BT 40",
+      "Točivý moment": "Vysoký krouticí moment pro silové záběry",
+      "Vhodné pro": "Formy, těžké desky, přesné opracování svařenců"
+    },
+    "image": "assets/stroj-pic-1-141031074230.jpg"
+  },
+  {
+    "id": "challenger-800",
+    "title": "CNC obráběcí centrum CHALLENGER 800",
+    "category": "CNC frézování",
+    "category_slug": "frezovani",
+    "perex": "Velkorysé vertikální frézovací centrum pro rozměrné konstrukční desky a základové rámy.",
+    "description": "CHALLENGER 800 rozšiřuje naše možnosti frézování o rozměrnější obrobky. Umožňuje přesné rovinné frézování, vrtání a vyvrtávání velkých ocelových a hliníkových desek, přírub a zámečnických podsestav vyžadujících přesné lícované otvory po svaření.",
+    "specs": {
+      "Rozsah pojezdu stolu": "X = 800 mm, Y = 500 mm",
+      "Upínací plocha stolu": "Zvětšený stůl pro vícenásobné upnutí dílců",
+      "Nosnost stolu": "až 800 kg",
+      "Chlazení středem vřetene": "Pro hluboké vrtání a výrobu otvorů",
+      "Materiálové spektrum": "Konstrukční oceli, nerez, slitiny Al, litina"
+    },
+    "image": "assets/stroj-pic-2-141031074230.jpg"
+  },
+  {
+    "id": "brany-samonosne",
+    "title": "Samonosné vjezdové a pojezdové brány",
+    "category": "Brány a oplocení",
+    "category_slug": "brany",
+    "perex": "Výroba samonosných ocelových bran na míru se špičkovým nosným C-profilem, pojezdem a pohonem.",
+    "description": "Vyrábíme samonosné posuvné brány pro rodinné domy i firemní areály. Samonosná konstrukce nevyžaduje vodicí kolejnici v zemi, což zaručuje bezproblémový provoz i v zimě při sněhu a mrazu. Každá brána je dimenzována dle šířky průjezdu, staticky vyztužena a povrchově chráněna žárovým zinkováním a vypalovanou práškovou barvou RAL.",
+    "specs": {
+      "Průjezdná šířka": "Standardně od 3 do 10 metrů na zakázku",
+      "Nosný profil": "Kvalitní C-profil s vysoce přesnými vozíky",
+      "Pohon": "Příprava na automatický pohon nebo manuální chod",
+      "Antikorozní ochrana": "Žárové zinkování dle ČSN EN ISO 1461 + lakování",
+      "Výplně": "Tahokov, jeklové profily, lamelové prvky, dřevoplast"
+    },
+    "image": "assets/01-141031075459.jpg"
+  },
+  {
+    "id": "brany-kridlove",
+    "title": "Křídlové vjezdové brány a vstupní branky",
+    "category": "Brány a oplocení",
+    "category_slug": "brany",
+    "perex": "Jednokřídlé a dvoukřídlé ocelové brány s regulovatelnými panty, zámkem a sjednoceným designem.",
+    "description": "Dodáváme klasické otočné křídlové brány a pěší branky ladící s plotovými poli. Vybaveny masivními seřiditelnými panty pro snadné doladění geometrie po montáži, nerezovým kováním, dorazy a přípravou pro elektrozámek nebo pohon.",
+    "specs": {
+      "Konstrukce": "Ocelový svařovaný rám z uzavřených jeklů",
+      "Panty": "Nastavitelné závitové panty s maznicí",
+      "Zamykání": "Zadlabací zámek s cylindrickou vložkou / el. otvírač",
+      "Sloupky": "Masivní ocelové jeklové sloupky k zabetonování / na patku",
+      "Životnost": "Díky žárovému zinku přesahuje 30 let bez údržby"
+    },
+    "image": "assets/05-141031075459.jpg"
+  },
+  {
+    "id": "ploty-ocelove",
+    "title": "Ocelové ploty a plotové dílce",
+    "category": "Brány a oplocení",
+    "category_slug": "brany",
+    "perex": "Moderní a industriální plotové dílce s tahokovem, jekly či lamelami dle přesných rozměrů stavebních polí.",
+    "description": "Zhotovujeme kompletní plotové systémy na míru podezdívkám nebo sloupkům. Naše zámečnická dílna precizně svaří každý plotový panel, očistí svary a zajistí antikorozní úpravu. Nabízíme čisté minimalistické linie, industriální vzhled i klasické výplně.",
+    "specs": {
+      "Výrobní rozměry": "Zcela na zakázku dle zaměření na stavbě",
+      "Typy výplní": "Tahokov různých ok, svislé jekly, vodorovné profily",
+      "Uchycení": "Nerezové spojovací prvky a skryté úchyty",
+      "Povrch": "Žárový zinek + prášková barva (komaxit dle RAL)",
+      "Záruka jakosti": "Poctivé kovářské a zámečnické svary bez dutin"
+    },
+    "image": "assets/0001-141031075608.jpg"
+  },
+  {
+    "id": "zabradli-schodiste",
+    "title": "Zábradlí pro schodiště, balkony a terasy",
+    "category": "Zámečnictví a konstrukce",
+    "category_slug": "zamecnictvi",
+    "perex": "Bezpečná a estetická zábradlí pro interiér i exteriér splňující veškeré bezpečnostní normy ČSN.",
+    "description": "Vyrábíme ocelová a nerezová zábradlí pro privátní i průmyslové objekty. Důraz klademe na pevnou kotvicí konstrukci, ergonomické madlo a přesné dodržení předepsaných výšek a roztečí výplní dle ČSN 74 3305. Možnost kombinace s bezpečnostním sklem nebo tahokovem.",
+    "specs": {
+      "Materiálové varianty": "Konstrukční ocel žárově zinkovaná / Nerez AISI 304",
+      "Kotvení": "Z boku podesty (boční) nebo shora do nášlapu",
+      "Norma": "ČSN 74 3305 Ochranná zábradlí",
+      "Madlo": "Kruhové, obdélníkové nebo ploché ocelové madlo",
+      "Určení": "Balkony, lodžie, vnitřní schodiště, rampa pro invalidy"
+    },
+    "image": "assets/00001-141031075542.jpg"
+  },
+  {
+    "id": "mrize-bezpecnostni",
+    "title": "Bezpečnostní mříže na okna a světlíky",
+    "category": "Zámečnictví a konstrukce",
+    "category_slug": "zamecnictvi",
+    "perex": "Masivní ocelové bezpečnostní mříže pro ochranu provozoven, sklepů, rodinných domů i průmyslových skladů.",
+    "description": "Zakázková výroba pevných i otevíracích bezpečnostních mříží. Konstrukce z plné oceli s bezpečnostními kotvami do zdiva, které zamezují jejich vytržení. Estetické zpracování nekazí vzhled fasády a poskytuje neprostupnou mechanickou zábranu.",
+    "specs": {
+      "Provedení": "Pevné kotvené / otevírací s bezpečnostním zámkem",
+      "Materiál": "Plná ocelová čtyřhranná nebo kruhová tyčovina, plochá ocel",
+      "Kotvení": "Chemické kotvy do betonu a kamene se zavařenými hlavami",
+      "Úprava": "Zinkováno a lakováno pro venkovní použití",
+      "Využití": "Výrobní haly, sklady, suterénní okna, technické místnosti"
+    },
+    "image": "assets/001-141031075707.jpg"
+  },
+  {
+    "id": "postovni-schranky",
+    "title": "Zakázkové poštovní schránky a sloupky",
+    "category": "Zámečnictví a konstrukce",
+    "category_slug": "zamecnictvi",
+    "perex": "Atypické schránky integrované do oplocení, vjezdových sloupků nebo zdiva s přípravou pro zvonek.",
+    "description": "Vyrábíme masivní poštovní schránky z nerezového a ocelového plechu, které lze plně integrovat do plotových dílců či vchodových sloupků. Možnost předního vhozu a zadního výběru pošty, integrace domovního čísla, audio/videotelefonu i LED osvětlení.",
+    "specs": {
+      "Materiál": "Nerezový broušený plech nebo pozinkovaný lakovaný plech",
+      "Konstrukce": "Oboustranná schránka (vhoz z ulice, výběr ze dvora)",
+      "Zámek": "Kvalitní schránkový zámek se dvěma klíči",
+      "Příslušenství": "Příprava pro zvonková tlačítka a interkom",
+      "Design": "Sjednoceno s barevností a stylem plotu"
+    },
+    "image": "assets/002-141031075707.jpg"
+  },
+  {
+    "id": "ocelove-sarence",
+    "title": "Kovovýroba a ocelové svařence",
+    "category": "Zámečnictví a konstrukce",
+    "category_slug": "zamecnictvi",
+    "perex": "Zakázkové svařování ocelových konstrukcí, rámů strojů a technologických sestav metodami MIG/MAG.",
+    "description": "Zajišťujeme kompletní výrobu ocelových svařenců od přípravy materiálu (dělení, pálení, úkosování) přes přesné sestavení ve svařovacích přípravcích až po finální sváření certifikovanými svářeči. Následně provádíme CNC obrobení styčných ploch a osazení.",
+    "specs": {
+      "Metody svařování": "MIG/MAG (135), TIG/WIG (141)",
+      "Personál": "Certifikovaní svářeči dle EN ISO 9606-1",
+      "Hmotnost sestav": "Kusové i sériové svařence do hmotnosti 2 tun",
+      "Kontrola svarů": "Vizuální kontrola (VT), kapilární zkoušky (PT)",
+      "Finální úprava": "Otryskání, základní a vrchní nátěr, žárový zinek"
+    },
+    "image": "assets/0006-141031080947.jpg"
+  },
+  {
+    "id": "rizeni-jakosti-iso",
+    "title": "Systém řízení jakosti dle ISO 9001",
+    "category": "Kontrola jakosti",
+    "category_slug": "kvalita",
+    "perex": "Certifikovaný systém managementu kvality garantující stoprocentní rozměrovou kontrolu a sledovatelnost.",
+    "description": "Kovo In s.r.o. je certifikovaným držitelem systému managementu kvality dle mezinárodní normy ISO 9001. Veškeré obráběné dílce i zámečnické výrobky procházejí vstupní kontrolou materiálu, mezioperační kontrolou přímo u strojů a výstupní technickou kontrolou kalibrovanými měřidly včetně vystavení měřicího protokolu.",
+    "specs": {
+      "Certifikace": "Systém kvality dle ČSN EN ISO 9001",
+      "Měřicí vybavení": "Digitální výškoměry, mikrometry, dutinoměry, pasametry",
+      "Dokumentace": "Měřicí protokoly, atesty materiálu 3.1 dle EN 10204",
+      "Sledovatelnost": "Značení výrobních dávek a šarží vstupního materiálu",
+      "Pravidelná re-certifikace": "Kontrolní a recertifikační audity nezávislou autoritou"
+    },
+    "image": "assets/iso_9001.jpg"
+  }
+]

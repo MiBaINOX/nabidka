@@ -1,0 +1,26 @@
+{
+  "total_pages": 10,
+  "crawled_urls": [
+    "http://plastform.cz/",
+    "http://plastform.cz/onas.html",
+    "http://plastform.cz/vybaveni.html",
+    "http://plastform.cz/vybaveni_a.html",
+    "http://plastform.cz/vybaveni_b.html",
+    "http://plastform.cz/laser.html",
+    "http://plastform.cz/reference.html",
+    "http://plastform.cz/reference_a.html",
+    "http://plastform.cz/reference_b.html",
+    "http://plastform.cz/kontakty.html"
+  ],
+  "menu_categories": [
+    "O nás",
+    "Strojní vybavení",
+    "Laserové navařování",
+    "Reference",
+    "Kontakty"
+  ],
+  "images_count": 12,
+  "languages_detected": [
+    "cs"
+  ]
+}

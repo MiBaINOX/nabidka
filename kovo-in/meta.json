@@ -1,0 +1,69 @@
+{
+  "slug": "kovo-in",
+  "firma": "Kovo In s.r.o.",
+  "ico": "29315107",
+  "obec": "Blížkovice",
+  "okres": "Znojmo",
+  "kraj": "Jihomoravský kraj",
+  "adresa": "č.p. 430, 671 55 Blížkovice",
+  "obor_plny": "Přesné CNC kovoobrábění, soustružení, frézování a zakázková výroba bran, plotů a zábradlí",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://kovoin.cz",
+  "email": "libor.mar@kovoin.cz",
+  "telefon": "+420 602 836 053",
+  "jednatel": "Libor Mar",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Kompletní strojní park s 10 CNC centry (6 soustruhů PUMA a LYNX, 4 frézky HAAS a Doosan)",
+    "Dvousoustružnická centra s protivřetenem pro hotové obrobení z obou stran na jedno upnutí",
+    "Tradiční zakázková výroba samonosných pojezdových bran, ocelových plotů a zábradlí na míru",
+    "Certifikovaný systém řízení jakosti dle mezinárodní normy ISO 9001:2008 s měřicími protokoly"
+  ],
+  "vady_stareho_webu": [
+    "Absence mobilní responzivity – chybějící meta viewport způsoboval nutnost zoomování na telefonech",
+    "Nezabezpečený provoz na zastaralém HTTP protokolu bez platného SSL/TLS šifrování",
+    "Původní web byl infikován cizími spamovými odkazy kvůli chybějícímu modernímu zabezpečení",
+    "Prázdné podstránky s textem 'Text se připravuje' u klíčových oborů zámečnictví a obrábění",
+    "Chybějící interaktivní vyhledávání a prezentace detailních parametrů strojního parku"
+  ],
+  "vylepseni_noveho_webu": [
+    "Prémiový vizuální archetyp Editorial & Story s fotodokumentací výroby a časovou osou historie od r. 1994",
+    "Interaktivní katalog 18 strojů a výrobků s okamžitým vyhledáváním a kategoriálními filtry",
+    "Technické modální okno s detailními specifikacemi rozjezdů, otáček vřeten a norem",
+    "100% responzivní design optimalizovaný pro chytré telefony a tablety s bleskovým načítáním",
+    "Integrace interaktivní mapy Mapy.cz s ověřeným červeným špendlíkem dle katastru RÚIAN",
+    "Rychlý poptávkový formulář s výběrem technologie pro okamžité zaslání výkresové dokumentace"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1994,
+    "rok_transformace": 2012,
+    "pocet_cnc_stroju": 10,
+    "cnc_soustruhy": 6,
+    "cnc_frezky": 4,
+    "certifikace": "ISO 9001:2008",
+    "stroje_soustruhy": [
+      "Doosan PUMA 240 M",
+      "Doosan PUMA 240 B",
+      "Doosan PUMA 240 MS",
+      "Doosan PUMA 240 A",
+      "Doosan PUMA 2600 MS",
+      "Doosan LYNX 220"
+    ],
+    "stroje_frezky": [
+      "HAAS VF 2SS (I)",
+      "HAAS VF 2SS (II)",
+      "Doosan MYNX 400",
+      "CHALLENGER 800"
+    ],
+    "vyrobky": [
+      "Samonosné pojezdové brány",
+      "Křídlové brány a branky",
+      "Ocelové ploty a tahokov",
+      "Zábradlí dle ČSN 74 3305",
+      "Bezpečnostní mříže",
+      "Zakázkové schránky"
+    ]
+  }
+}

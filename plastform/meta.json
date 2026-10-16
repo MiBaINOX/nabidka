@@ -1,0 +1,63 @@
+{
+  "slug": "plastform",
+  "firma": "Plastform Brno, s.r.o.",
+  "ico": "26913933",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba plastů a pryže, vakuové tvarování plastů, výroba lisovacích forem a laserové navařování",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://plastform.cz",
+  "email": "plasty@plastform.cz",
+  "prodejni_body": [
+    "Dlouholetá tradice nástrojařské a lisovací výroby navazující na závody Chronotechna a Meopta Brno od roku 1990",
+    "Kompletní výrobní řetězec: od 3D CAD/CAM konstrukce v SolidWorks přes výrobu forem až po sériové vstřikování plastů",
+    "Specializované pracoviště laserového navařování YAG QR 150 (1064 nm) pro precizní opravy nástrojů za studena",
+    "Strojní park s 10 vstřikovacími lisy ENGEL a ESCHMAS (15–160 t) a těžkým nástrojářským lisem CZR 600 tun",
+    "Certifikovaný systém řízení jakosti dle ČSN EN ISO 9001 a reference pro lídry jako ZKL, TOKOZ, MEZ či Tyco Fire"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené připojení přes protokol HTTP bez SSL šifrování – moderní prohlížeče zobrazují varování",
+    "Absence značky meta viewport – web se na mobilních zařízeních nezalamuje a vyžaduje lupu a horizontální posun",
+    "Zastaralý rámcový layout (HTML inline iframes), který způsobuje chyby v indexaci vyhledávači a rozpad na telefonech",
+    "Ztráta důvěryhodnosti u náročných B2B partnerů kvůli zastaralé grafice z éry roku 2005"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní čistý designový archetyp Swiss Bento Grid s asymetrickým rozvržením a technickou elegancí",
+    "Interaktivní katalog technických materiálů (HPS, ABS, PMMA, PE, PVC, ESD) a technologií s filtrem a vyhledáváním",
+    "Plnohodnotná modální okna (#techModalBackdrop) s kompletními tabulkami strojních parametrů bez ořezu obsahu",
+    "100% mobilní responzivita s nulovým přetečením (0px overflow na 360px i 375px) a dotykovým ovládáním",
+    "Integrovaná interaktivní mapa Mapy.cz s přesným červeným špendlíkem ověřeným v RÚIAN (Cejl 29/76, Brno)",
+    "Předpřipravená architektura pro vícejazyčný export (EN/DE) pro zahraniční odběratele"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2003,
+    "rok_pocatek_provozu": 1990,
+    "zkusenosti_let": 36,
+    "certifikace": "ISO 9001:2000 (zavedeno 2005)",
+    "pocet_vstrikovacich_lisu": 10,
+    "max_lisovaci_sila_tun": 600,
+    "laser_vlnova_delka_nm": 1064,
+    "pocet_polozek_katalogu": 12,
+    "adresa": "Cejl 29/76, Zábrdovice, 602 00 Brno",
+    "jednatel": "Jaroslav Nečas",
+    "vedeni_telefon": "+420 545 243 153",
+    "vedeni_mobil": "+420 608 730 550",
+    "ekonomicke_telefon": "+420 545 126 300",
+    "email": "plasty@plastform.cz",
+    "ekonomicky_email": "eva@plastform.cz",
+    "pracovni_doba": "Po–Pá 06:30 – 14:30",
+    "klicove_reference": [
+      "ZKL Brno, a.s.",
+      "TOKOZ a.s.",
+      "MEZ, a.s.",
+      "ISAN Radiátory s.r.o.",
+      "Technometra Radotín a.s.",
+      "WESTFALIA metal s.r.o.",
+      "Tyco Fire & Integrated Solutions s.r.o.",
+      "BUSHPLANET Wien",
+      "Darfon Electronics Czech s.r.o.",
+      "FAZZINI Czech Republic s.r.o."
+    ]
+  }
+}

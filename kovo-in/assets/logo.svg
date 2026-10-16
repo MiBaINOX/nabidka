@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64">
+  <rect x="4" y="8" width="48" height="48" rx="10" fill="#C85A32"/>
+  <path d="M18 20 L38 20 L38 26 L26 26 L26 38 L38 38 L38 44 L18 44 Z" fill="#F8FAFC"/>
+  <circle cx="38" cy="20" r="3" fill="#1E293B"/>
+  <text x="64" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" letter-spacing="1.5" fill="#1E293B">KOVO <tspan fill="#C85A32">IN</tspan></text>
+  <text x="66" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#64748B">STROJÍRENSKÁ VÝROBA &amp; ZÁMEČNICTVÍ</text>
+</svg>

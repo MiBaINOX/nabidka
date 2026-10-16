@@ -1,0 +1,50 @@
+{
+  "slug": "pronkovo",
+  "firma": "PRONKOVO s.r.o.",
+  "ico": "27667669",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Kovoobrábění, zakázková kovovýroba, dodávky průmyslových brusek a obráběcích nástrojů",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://pronkovo.cz",
+  "email": "pronkovo@pronkovo.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Více než 20 let kontinuální stability na strojírenském trhu od založení v roce 2005",
+    "Komplexní kovoobráběcí kapacity: CNC soustružení, frézování a výroba atypických přípravků",
+    "Autorizované dodávky a servis modulárních brusek GRIT, svářeček EWM a měřidel SOMET / MAHR"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez SSL certifikátu – moderní prohlížeče označují web jako nezabezpečený",
+    "Absence viewport meta tagu – web není optimalizován pro mobilní zařízení a vyžaduje horizontální posun",
+    "Zastaralé kódování Windows-1250 a tabulkový layout z počátku tisíciletí",
+    "Nedokončené sekce s hlášením 'Stránka je v přípravě' v klíčových oblastech nabídky"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní vizuální archetyp Tech & Precision s technologickými přepínacími záložkami výrobních kapacit",
+    "Plně interaktivní vyhledávací katalog strojů a služeb s modálními technickými okny bez ořezu dat",
+    "100% mobilní responzivita s nulovým horizontálním přetečením (0px overflow na 360px)",
+    "Ověřené sídlo společnosti s přesným Mapy.cz špendlíkem dle katastrálních dat RÚIAN v Brně-Ivanovicích",
+    "Kompletní odstranění nedokončených stránek a strukturovaná prezentace strojírenských norem ISO a DIN"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2005,
+    "zkusenosti_let": 21,
+    "sidlo": "Mácova 327/26, Ivanovice, 621 00 Brno",
+    "jednatel": "Mgr. Luděk Janota",
+    "pocet_polozek_katalogu": 12,
+    "klicove_znacky": [
+      "GRIT by Fein",
+      "EWM",
+      "SOMET",
+      "MAHR",
+      "KINEX",
+      "NAREX",
+      "BAHCO",
+      "TONA EXPERT"
+    ]
+  }
+}
