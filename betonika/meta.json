@@ -1,0 +1,36 @@
+{
+  "slug": "betonika",
+  "firma": "BETONIKA spol. s r.o.",
+  "ico": "00561681",
+  "obec": "Lobodice",
+  "okres": "Přerov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Výroba betonových a železobetonových prefabrikátů pro kanalizační a odvodňovací sítě",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://www.betonika.cz/",
+  "email": "lobodice@betonika.cz",
+  "jazyky": ["CZ"],
+  "prodejni_body": [
+    "Patentovaná monolitická šachtová dna SOLID bez spár",
+    "Kompletní sortiment dle norem ČSN EN 1917 a ČSN EN 1916",
+    "Schválený dodavatel odvodňovacích prvků pro České dráhy"
+  ],
+  "vady_stareho_webu": [
+    "Web nemá responzivní zobrazení pro chytré telefony (chybí meta viewport)",
+    "Nezabezpečené spojení HTTP vystavuje návštěvníky bezpečnostnímu varování prohlížeče",
+    "Zastaralý tabulkový layout z roku 2005 s nepřehlednou strukturou podstránek",
+    "Chybějící interaktivní konfigurátor prefabrikovaných sestav pro projektanty"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní Heavy Industrial design s perfektní mobilní ergonomií na všech zařízeních",
+    "Interaktivní technický konfigurátor šachtové sestavy dle DN a požadované hloubky",
+    "Filtrovatelný katalog výrobků s technickými parametry a certifikacemi",
+    "Přehledné vizitky 6 klíčových osob obchodního a výrobního úseku s přímými kontakty",
+    "Interaktivní mapa Mapy.cz s přesným špendlíkem výrobního areálu v Lobodicích"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "zamestnanci": "200–249",
+    "certifikace": ["ISO 9001:2015", "ISO 14001:2015", "ČSN EN 1917", "ČSN EN 1916", "ČD V 95/5"]
+  }
+}

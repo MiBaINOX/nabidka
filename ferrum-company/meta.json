@@ -1,0 +1,36 @@
+{
+  "slug": "ferrum-company",
+  "firma": "Ferrum Company s.r.o.",
+  "ico": "05197023",
+  "obec": "Prostějov",
+  "okres": "Prostějov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Zakázková kovovýroba, certifikované svařování a výroba ocelových konstrukcí",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://ferrumcompany.cz/",
+  "email": "info@ferrumcompany.cz",
+  "jazyky": ["CZ"],
+  "prodejni_body": [
+    "Komplexní zámečnictví a kovovýroba od zaměření po montáž",
+    "Certifikované svařování oceli metodami MIG/MAG i TIG",
+    "Výroba a generální repase těžebních lžic z oceli Hardox"
+  ],
+  "vady_stareho_webu": [
+    "Web nebyl optimalizován pro moderní mobilní telefony a tablety",
+    "Nezabezpečený HTTP protokol bez platného SSL certifikátu",
+    "Zastaralý fixní layout se skrytými fotkami ve slidech",
+    "Chybějící strukturovaný přehled kapacit a parametrů strojního parku"
+  ],
+  "vylepseni_noveho_webu": [
+    "Unikátní moderní Swiss Bento Grid s dynamickými informačními dlaždicemi",
+    "Interaktivní filtr výrobních činností a zámečnických kapacit",
+    "Prezentace reálných fotografií z výrobní haly se zoom-on-hover mikroefekty",
+    "Přehledné kontaktní vizitky vedoucího výroby i ekonomického oddělení",
+    "Integrace Mapy.cz s červeným špendlíkem výrobního areálu v Prostějově"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2016,
+    "zamestnanci": "50–99",
+    "projekty_pocet": 1200
+  }
+}

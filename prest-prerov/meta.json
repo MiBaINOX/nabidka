@@ -1,0 +1,36 @@
+{
+  "slug": "prest-prerov",
+  "firma": "PREST PŘEROV a.s.",
+  "ico": "25830678",
+  "obec": "Přerov",
+  "okres": "Přerov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Výroba tlakových nádob, kolon, výměníků, technologických van a těžkých ocelových konstrukcí",
+  "archetyp": "Tech & Precision",
+  "stary_web": "https://www.prest-prerov.cz/",
+  "email": "prest@prest-prerov.cz",
+  "jazyky": ["CZ", "EN"],
+  "prodejni_body": [
+    "Tlakové aparáty do průměru 4 500 mm a hmotnosti 60 tun",
+    "Komplexní mezinárodní certifikace ISO 9001, EN 1090-2 a EN 15085-2",
+    "Generální opravy parních kotlů kolejových vozidel a cisteren"
+  ],
+  "vady_stareho_webu": [
+    "Pomalé načítání velkých neoptimalizovaných fotografií a PDF dokumentů",
+    "Zastaralý systém přepínání jazyků přes statické podstránky",
+    "Nepřehledné rozdělení výrobních divizí do složitých vnořených podmenu",
+    "Absence moderního interaktivního představení technologických limitů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Špičkový Tech & Precision design s glassmorphism prvky a vysokým kontrastem",
+    "Okamžitý přepínač jazykových mutací CZ / EN přímo v záhlaví",
+    "Interaktivní přepínací taby výrobních divizí v horní části stránky",
+    "Strukturovaná prezentace certifikací a referenčních klientů (České dráhy, Metrostav)",
+    "Osobní vizitky 6 specialistů včetně jazykových kompetencí (ENG / DEU)"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1999,
+    "zamestnanci": "100–199",
+    "certifikace": ["ISO 9001:2015", "ČSN EN ISO 3834-2", "ČSN EN 1090-2 (EXC4)", "ČSN EN 15085-2 (CL1)", "ČD V 95/5", "RID/ADR Railtest"]
+  }
+}
