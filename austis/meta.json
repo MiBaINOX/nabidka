@@ -1,0 +1,50 @@
+{
+  "slug": "austis",
+  "firma": "AUSTIS a.s.",
+  "ico": "00550655",
+  "obec": "Praha 5",
+  "okres": "Praha",
+  "kraj": "Hlavní město Praha",
+  "obor_plny": "Přední výrobce stavební chemie a barev ETERNAL, generální dodavatel staveb a správa nemovitostí",
+  "archetyp": "Corporate Portal",
+  "stary_web": "http://austis.cz",
+  "email": "austis@austis.cz",
+  "languages": [
+    "cz",
+    "en"
+  ],
+  "prodejni_body": [
+    "Výrobce barev a chemie ETERNAL",
+    "30+ let tradice a certifikace ISO",
+    "Generální dodavatel staveb a TDS"
+  ],
+  "vady_stareho_webu": [
+    "Archaický tabulkový layout bez podpory moderních HTML5 standardů",
+    "Chybí responzivní meta viewport – nutnost složitého horizontálního posouvání na mobilu",
+    "Zastaralé kaskádové styly a nečitelné rozvržení na displejích s vysokým rozlišením",
+    "Nezabezpečené spojení HTTP bez moderního šifrování certifikátem"
+  ],
+  "vylepseni_noveho_webu": [
+    "Reprezentativní Corporate Portal dle vzoru etalonu Hakov s bohatou horní lištou",
+    "Interaktivní rozcestník divizí: Výroba stavební chemie ETERNAL vs. Stavební divize a facility",
+    "100% vícejazyčný přepínač CZ a EN pro zahraniční obchodní partnery",
+    "Technický katalog produktových řad s modálními okny norem TZÚS a ISO certifikací",
+    "Ověřená Mapy.cz mapa s přesným RÚIAN špendlíkem areálu v Praze 5 - Slivenci"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "sidlo": "K Austisu 680, Slivenec, 15400 Praha 5",
+    "predseda_predstavenstva": "Karel Janda",
+    "certifikace": [
+      "ISO 9001",
+      "ISO 14001",
+      "OHSAS 18001 / ISO 45001"
+    ],
+    "znacky": [
+      "ETERNAL",
+      "SANAKRYL",
+      "APS AUSTIS",
+      "AUSTIS-REAL"
+    ]
+  }
+}

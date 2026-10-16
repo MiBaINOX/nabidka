@@ -1,0 +1,47 @@
+{
+  "slug": "paletplastik",
+  "firma": "Paletplastik, s.r.o.",
+  "ico": "01535871",
+  "obec": "Praha 1",
+  "okres": "Praha",
+  "kraj": "Hlavní město Praha",
+  "obor_plny": "Výroba a prodej plastových transportních palet PLASTETA® z recyklovaného plastu",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://paletplastik.cz",
+  "email": "info@paletplastik.cz",
+  "languages": [
+    "cz",
+    "en",
+    "de"
+  ],
+  "prodejni_body": [
+    "100% recyklovaný směsný plast",
+    "Hygienické palety PLASTETA®",
+    "Statická nosnost až 6 000 kg"
+  ],
+  "vady_stareho_webu": [
+    "Chybí responzivní meta viewport – nutnost manuálního zoomování na telefonech",
+    "Nezabezpečené spojení pouze přes protokol HTTP bez SSL/TLS šifrování",
+    "Zastaralý fixní layout s pevnou šířkou a mikro-tlačítky",
+    "Nefunkční dotykové ovládání produktových katalogů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Interaktivní technický katalog PLASTETA® s okamžitým filtrem nosnosti a rozměrů",
+    "Detailní technická modální okna pro všech 6 certifikovaných produktových řad",
+    "100% vícejazyčný přepínač jazyků (CZ | EN | DE) s okamžitým překladem v DOM",
+    "Rychlý poptávkový formulář s předvýběrem typu palet",
+    "Ověřená Mapy.cz mapa s přesným RÚIAN špendlíkem centrály na Václavském náměstí"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "sidlo": "Václavské náměstí 819/43, 11000 Praha 1",
+    "sortiment_pocet": 6,
+    "material": "Recyklovaný směsný plast PE/PP",
+    "sluzby": [
+      "Prodej",
+      "Pronájem",
+      "Outsourcing paletového hospodářství",
+      "Ekologická recyklace"
+    ]
+  }
+}

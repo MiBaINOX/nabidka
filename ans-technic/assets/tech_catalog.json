@@ -1,0 +1,84 @@
+[
+  {
+    "id": "lisovane-profily",
+    "title": "Lisované hliníkové profily Standard Proferal",
+    "perex": "Kompletní sortiment lisovaných profilů z konstrukčních slitin AlMgSi pro strojírenství a stavebnictví.",
+    "category": "lisovane",
+    "image": "assets/hprofily.jpg",
+    "specs": {
+      "Sortiment": "Trubky, čtvercové a obdélníkové profily, L, T, U, J profily",
+      "Normy": "ČSN EN 573-3, ČSN EN 755-1 až 9",
+      "Slitiny": "EN AW-6060 (AlMgSi), EN AW-6082 (AlSi1MgMn), EN AW-6005A",
+      "Stavy materiálu": "T4, T5, T6, T66 dle požadavku na pevnost",
+      "Pevnost v tahu Rm": "120 až 310 MPa dle zvolené slitiny",
+      "Délky": "Standardní výrobní délky 6 m nebo přesné dělení na míru",
+      "Povrchová úprava": "Surový lisovaný povrch, eloxování, práškové lakování"
+    },
+    "features": [
+      "Vysoká korozní odolnost a vynikající svařitelnost",
+      "Přesné geometrické tolerance dle evropských norem",
+      "Výkresové profily na zakázku dle dodané dokumentace",
+      "Okamžitá skladová dostupnost standardních průřezů"
+    ]
+  },
+  {
+    "id": "tazne-profily",
+    "title": "Tažné hliníkové profily a přesné tyče",
+    "perex": "Tažené kalibrované tyče kruhového, čtyřhranného a šestihranného průřezu s vysokou rozměrovou přesností.",
+    "category": "tazne",
+    "image": "assets/hprofily.jpg",
+    "specs": {
+      "Sortiment": "Kruhové tyče, čtyřhranné tyče, šestihranné tyče, trubky",
+      "Slitiny": "EN AW-2011 (AlCu6BiPb), EN AW-2024, EN AW-7075 (letecký dural)",
+      "Tolerance": "H9, H11 přesné kalibrování pro CNC obrábění",
+      "Pevnost v tahu Rm": "až 560 MPa (vysokopevnostní slitina 7075)",
+      "Stav": "T6, T8, T9 zušlechtěno na vysokou tvrdost HB",
+      "Obrobitelnost": "Výborná drobivá tříska pro automatové soustružení"
+    },
+    "features": [
+      "Určeno pro vysoce namáhané strojní součásti a letectví",
+      "Přísná kontrola vnitřní homogenity a ultrazvuková defektoskopie",
+      "Minimální házení a vysoká přímočarost pro rychloběžné automaty",
+      "Dodávky s hutními atesty EN 10204 3.1"
+    ]
+  },
+  {
+    "id": "tpe-elastomery",
+    "title": "Termoplastické elastomery (TPE) – směsi a profily",
+    "perex": "Spojovací článek mezi vulkanizovanou pryží a termoplasty se špičkovou elasticitou a recyklovatelností.",
+    "category": "tpe",
+    "image": "assets/tpe.jpg",
+    "specs": {
+      "Produktové řady": "Elastofran, Gumifran, Adifran, Elifran, Marfran",
+      "Tvrdost": "20 Shore A až 65 Shore D",
+      "Technologie zpracování": "Vstřikování, extruze (vytlačování), vyfukování",
+      "Teplotní rozsah": "-40 °C až +125 °C",
+      "Recyklovatelnost": "100% recyklovatelné, opětovné zpracování technologického odpadu"
+    },
+    "features": [
+      "Pryžové elastické vlastnosti bez nutnosti vulkanizace",
+      "Vynikající odolnost vůči UV záření, ozónu a povětrnosti",
+      "Možnost koextruze s polypropylenem a technickými plasty",
+      "Vhodné pro automobilová těsnění, kabely a spotřební výrobky"
+    ]
+  },
+  {
+    "id": "obuvnicke-komponenty",
+    "title": "Komponenty pro obuvnický a kožedělný průmysl",
+    "perex": "Ucelený sortiment polotovarů, podešví a materiálů pro profesionální výrobu a opravy obuvi.",
+    "category": "obuv",
+    "image": "assets/obuv.jpg",
+    "specs": {
+      "Sortiment": "Fusbetty (anatomické stélky), plotny EVA, technické usně, lepidla, podešve",
+      "EVA materiály": "Vysoká hustota, paměťový efekt, tlumicí schopnost",
+      "Lepidla": "Kontaktní polyuretanová a polychloroprenová lepidla",
+      "Použití": "Pracovní, bezpečnostní, ortopedická i vycházková obuv"
+    },
+    "features": [
+      "Ergonomicky tvarované komponenty pro maximální komfort",
+      "Materiály testované na oděr a mechanické namáhání",
+      "Stabilní dodávky pro sériovou i zakázkovou výrobu",
+      "Ekologicky šetrné receptury lepidel s nízkým obsahem VOC"
+    ]
+  }
+]

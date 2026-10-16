@@ -1,0 +1,79 @@
+[
+  {
+    "id": "stavebni-chemie-eternal",
+    "title": "Výroba stavební chemie a nátěrových hmot ETERNAL",
+    "perex": "Přední český výrobce vodou ředitelných nátěrových systémů pro střechy, podlahy, fasády a kovové konstrukce.",
+    "category": "chemie",
+    "image": "assets/obr1.jpg",
+    "specs": {
+      "Sortiment": "ETERNAL na střechy, SANAKRYL, hydroizolace, antikorozní nátěry, lazury a laky",
+      "Ekologie": "100% vodou ředitelné receptury, nízký obsah VOC, bez zápachu",
+      "Certifikace": "ISO 9001, ISO 14001, certifikováno TZÚS Praha",
+      "Záruka na systém": "Až 10 let na ucelené střešní a hydroizolační systémy",
+      "Použití": "Ocelové haly, eternitové a plechové střechy, průmyslové podlahy, balkóny"
+    },
+    "features": [
+      "Více než 30 let tradice na českém i evropském trhu stavební chemie",
+      "Vlastní výzkumné a vývojové laboratoře s testováním stárnutí",
+      "Komplexní hydroizolační řešení pro ploché i šikmé střechy",
+      "Odborné technické poradenství a tvorba technologických předpisů"
+    ]
+  },
+  {
+    "id": "stavebni-divize-aps",
+    "title": "Divize Realizace staveb (APS AUSTIS)",
+    "perex": "Generální dodávky pozemních staveb, revitalizace bytových domů, zateplování fasád a průmyslové rekonstrukce.",
+    "category": "stavby",
+    "image": "assets/obr2.jpg",
+    "specs": {
+      "Rozsah": "Generální dodavatel pozemních a průmyslových staveb",
+      "Specializace": "Zateplovací systémy ETICS, sanace betonových konstrukcí, střechy",
+      "Reference": "Stovky zrealizovaných bytových domů, škol a komerčních objektů",
+      "Zázemí": "Vlastní lešení, mechanizace, dopravní technika a zkušení stavbyvedoucí"
+    },
+    "features": [
+      "Komplexní realizace od architektonické studie po kolaudaci",
+      "Důsledná kontrola kvality dle norem ISO 9001 a BOZP",
+      "Optimalizace energetické náročnosti budov v programu Nová zelená úsporám",
+      "Pojištění odpovědnosti stavební činnosti do výše desítek milionů Kč"
+    ]
+  },
+  {
+    "id": "technicky-dozor-bozp",
+    "title": "Technický dozor stavebníka (TDS) a Koordinátor BOZP",
+    "perex": "Nezávislá expertní kontrola kvality, prostavěnosti a bezpečnosti práce na staveništi dle zákona č. 309/2006 Sb.",
+    "category": "inzenyring",
+    "image": "assets/obr3.jpg",
+    "specs": {
+      "Oprávnění": "Autorizovaní inženýři ČKAIT, certifikovaní koordinátoři BOZP",
+      "Činnost": "Kontrola souladu s projektovou dokumentací, přejímky konstrukcí, soupisy vad a nedodělků",
+      "Finanční kontrola": "Prověřování zjišťovacích protokolů a fakturace zhotovitelů",
+      "BOZP": "Plán BOZP, koordinace profesí, hlášení inspekci práce"
+    },
+    "features": [
+      "Ochrana finančních zájmů a investic stavebníka",
+      "Prevence skrytých vad a zbytečných vícenákladů stavby",
+      "Pravidelný fotodokumentační reporting z kontrolních dnů",
+      "Zkušenosti s projekty financovanými ze strukturálních fondů EU"
+    ]
+  },
+  {
+    "id": "sprava-nemovitosti-real",
+    "title": "Správa nemovitostí a facility management (AUSTIS-REAL)",
+    "perex": "Komplexní ekonomická, právní a technická správa bytových domů, SVJ, bytových družstev a komerčních areálů.",
+    "category": "facility",
+    "image": "assets/obr2.jpg",
+    "specs": {
+      "Spravované jednotky": "Více než 10 000 spravovaných bytových a nebytových jednotek",
+      "Služby": "Vedení účetnictví, vyúčtování služeb, revize, havarijní servis 24/7",
+      "Právní servis": "Vymáhání pohledávek, příprava smluv, asistence na shromážděních SVJ",
+      "Klientský portál": "Online přístup vlastníků k předpisům plateb a dokumentům"
+    },
+    "features": [
+      "Nonstop dispečink havarijních oprav pro vodu, plyn, elektro a výtahy",
+      "Pravidelné technické prohlídky a plánování fondu oprav",
+      "Transparentní hospodaření s důrazem na úspory energií",
+      "Dlouholetá tradice na trhu správy nemovitostí v Praze a okolí"
+    ]
+  }
+]

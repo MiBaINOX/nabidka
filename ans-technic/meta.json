@@ -1,0 +1,44 @@
+{
+  "slug": "ans-technic",
+  "firma": "ANS technic s.r.o.",
+  "ico": "01398202",
+  "obec": "Praha 4",
+  "okres": "Praha",
+  "kraj": "Hlavní město Praha",
+  "obor_plny": "Dodavatel hliníkových profilů Standard Proferal, TPE elastomerů a technických komponentů",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://ans-technic.cz",
+  "email": "leona.mercuri@gmail.com",
+  "languages": [
+    "cz"
+  ],
+  "prodejni_body": [
+    "Hliníkové profily Standard Proferal",
+    "Slitiny EN AW 6060, 6082 i 7075",
+    "TPE elastomery Elastofran a Gumifran"
+  ],
+  "vady_stareho_webu": [
+    "Web běží na bezplatném webhostingu Endora s rušivými reklamními bannery v záhlaví",
+    "Nezabezpečené připojení pouze přes HTTP bez SSL/TLS šifrování",
+    "Chybí meta viewport – web se nezalamuje pro displeje chytrých telefonů",
+    "Zastaralý systém WordPress z roku 2012 s neaktuálními pluginy"
+  ],
+  "vylepseni_noveho_webu": [
+    "Čistý Swiss Bento Grid design bez cizích reklam a freehostingových bannerů",
+    "Interaktivní katalog hliníkových profilů s technickou tabulkou mechanických vlastností",
+    "Modální okna s detailními parametry norem ČSN EN 573-3 a tvrdosti HB",
+    "Přehledný poptávkový formulář s výběrem profilů a slitin",
+    "Ověřená Mapy.cz mapa s přesným katastrálním špendlíkem sídla v Kunraticích"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "sidlo": "Ještědská 121, Kunratice, 14800 Praha 4",
+    "jednatel": "Leona Mercuri",
+    "sortiment_pocet": 4,
+    "normy": [
+      "ČSN EN 573-3",
+      "ČSN EN 755-1 až 9",
+      "DIN 1725"
+    ]
+  }
+}

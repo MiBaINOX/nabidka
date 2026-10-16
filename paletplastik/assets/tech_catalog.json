@@ -1,0 +1,132 @@
+[
+  {
+    "id": "ep-08",
+    "title": "EUROPLASTETA® Standard (EP 08 / EP 08R)",
+    "perex": "Ekologická přepravní europaleta 1200 x 800 mm vyráběná ze 100% recyklovaného směsného plastu.",
+    "category": "europalety",
+    "image": "assets/9-europlasteta.png",
+    "specs": {
+      "Rozměry": "1200 x 800 x 150 mm",
+      "Materiál": "Recyklovaný směsný plast (PE/PP)",
+      "Statická nosnost": "5 000 kg",
+      "Dynamická nosnost": "1 200 kg",
+      "Regálová nosnost": "800 kg",
+      "Provedení lemu": "S 5mm okrajem (R) nebo hladká plocha",
+      "Hygienický atest": "Vhodné pro potravinářství a export",
+      "Životnost": "Až 10x vyšší než dřevěná paleta"
+    },
+    "features": [
+      "Odolnost proti vlhkosti, plísním, hnilobě i chemikáliím",
+      "Není nutné ošetřovat insekticidy/fungicidy (IPPC ISPM 15)",
+      "Možnost označení RFID čipy, čárovým kódem nebo logem",
+      "100% recyklovatelná s možností zpětného odkupu"
+    ]
+  },
+  {
+    "id": "ip-10",
+    "title": "PLASTETA® Industriální (IP 10 / IP 10R)",
+    "perex": "Zesílená průmyslová paleta 1200 x 1000 mm pro vysoké zatížení v logistických centrech a chemickém průmyslu.",
+    "category": "prumyslove",
+    "image": "assets/9-plasteta-industrialni.png",
+    "specs": {
+      "Rozměry": "1200 x 1000 x 150 mm",
+      "Materiál": "Zesílený polypropylen/polyethylen recyklát",
+      "Statická nosnost": "6 000 kg",
+      "Dynamická nosnost": "1 500 kg",
+      "Regálová nosnost": "1 000 kg",
+      "Hmotnost": "cca 18,5 kg",
+      "Teplotní odolnost": "-30 °C až +60 °C",
+      "Varianta okraje": "Hladká nebo s bezpečnostním lemem 5 mm"
+    },
+    "features": [
+      "Optimalizováno pro automatizované regálové zakladače",
+      "Vysoká odolnost vůči agresivním louhům, kyselinám a olejům",
+      "Konstantní tara bez nasákavosti vody za deště",
+      "Protiskluzový profil ložné plochy pro bezpečnou manipulaci"
+    ]
+  },
+  {
+    "id": "cp-114",
+    "title": "EUROPLASTETA® Kontejnerová (CP 114)",
+    "perex": "Kontejnerová paleta 1140 x 1140 mm navržená pro maximální využití prostoru v námořních ISO kontejnerech.",
+    "category": "kontejnerove",
+    "image": "assets/9-europlasteta-kontejnerova.png",
+    "specs": {
+      "Rozměry": "1140 x 1140 x 150 mm",
+      "Určení": "Námořní 20' a 40' ISO kontejnery",
+      "Statická nosnost": "4 500 kg",
+      "Dynamická nosnost": "1 200 kg",
+      "Materiál": "Tuhý směsný recyklovaný plast",
+      "Vstup pro vidle": "4cestný pro VZV i paletové vozíky",
+      "Stohovatelnost": "Ano, stabilní stohování"
+    },
+    "features": [
+      "Bezezbytku vyplňuje vnitřní šířku námořního kontejneru",
+      "Nulové prostoje na celnicích – nepodléhá fytosanitárním předpisům",
+      "Bez hřebíků, třísek a ostrých hran ohrožujících obaly",
+      "Certifikováno pro mezinárodní zámořský export"
+    ]
+  },
+  {
+    "id": "ep-08k",
+    "title": "PLASTETA® Sudová (EP 08K)",
+    "perex": "Specializovaná paleta s prolisy a bezpečnostním lůžkem pro bezpečnou přepravu a skladování 200l sudů.",
+    "category": "specialni",
+    "image": "assets/9-plasteta-sudova.png",
+    "specs": {
+      "Rozměry": "1200 x 800 x 165 mm",
+      "Kapacita": "Bezpečné uložení 2x 200l sudů",
+      "Statická nosnost": "4 000 kg",
+      "Dynamická nosnost": "1 200 kg",
+      "Materiál": "Chemicky odolný recyklovaný plast",
+      "Aretace": "Tvarované prolisy zabraňující posunu sudů"
+    },
+    "features": [
+      "Zabraňuje převrácení a skluzu sudů při prudkém brzdění",
+      "Odolné proti ropným produktům, mazivům a ředidlům",
+      "Vhodné pro chemické provozy, lakovny i automotive",
+      "Snadná dekontaminace a mytí horkou párou"
+    ]
+  },
+  {
+    "id": "ep-08pd",
+    "title": "PLASTETA® Plná s hladkou deskou (EP 08 - PD)",
+    "perex": "Hygienická plná paleta s celistvou ložnou plochou bez otvorů pro sypké a potravinářské zboží.",
+    "category": "hygienicke",
+    "image": "assets/9-plasteta-plna.png",
+    "specs": {
+      "Rozměry": "1200 x 800 x 155 mm",
+      "Ložná deska": "Plná, hladká, snadno omyvatelná",
+      "Statická nosnost": "4 000 kg",
+      "Dynamická nosnost": "1 000 kg",
+      "Materiál": "Vysokohustotní recyklovaný plast",
+      "Použití": "Potravinářství, farmacie, sypké směsi"
+    },
+    "features": [
+      "Zamezuje propadávání drobných předmětů a nečistot",
+      "Perfektní čistitelnost bez dutin a skrytých spár",
+      "Splňuje nejpřísnější hygienické požadavky HACCP",
+      "Dlouhá životnost v mrazírenských a vlhkých skladech"
+    ]
+  },
+  {
+    "id": "svod-750",
+    "title": "Mobilní plastové svodidlo (SVOD)",
+    "perex": "Modulární silniční svodidlo z recyklovaného plastu s možností úhlového natáčení a řetězení.",
+    "category": "prvky",
+    "image": "assets/9-mobilni-svodidlo.png",
+    "specs": {
+      "Skladebná délka": "750 mm",
+      "Materiál": "Recyklovaný směsný plast",
+      "Možnost spojování": "Ano, modulární zámkový systém",
+      "Možnost natáčení": "Ano, flexibilní úhly oblouku",
+      "Odolnost": "Mrazuvzdorné, UV stabilní, netříštivé"
+    },
+    "features": [
+      "Rychlá ruční montáž a demontáž bez těžké mechanizace",
+      "Pohlcuje kinetickou energii nárazu bez tříštění",
+      "Ekologická náhrada betonových a ocelových svodidel",
+      "Vhodné pro staveniště, parkoviště i logistické areály"
+    ]
+  }
+]
