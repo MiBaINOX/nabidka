@@ -1,0 +1,251 @@
+[
+  {
+    "id": "cutter-gerber",
+    "cat": "cuttery",
+    "cat_name": "Automatické cuttery",
+    "title": "Automatické řezací linky GERBER Technology",
+    "perex": "Vysoce přesné CNC vícevrstvé i jednovrstvé řezací systémy pro textilní, oděvní, kožedělný a automobilový průmysl.",
+    "img": "assets/img_02.jpg",
+    "badge": "Systémy GERBER Paragon",
+    "specs_preview": "Výška nářezu až 7,2 cm • Šířka stolu 1,8 až 2,4 m",
+    "full_desc": "ZADAS spol. s r.o. je dlouholetým specialistou na dodávky a servis automatizovaných nářezových cutterů značky GERBER. Systémy disponují inteligentní nožovou hlavou s integrovaným ostřením, vakuovým přísunem materiálu a pokročilým nesting softwarem pro maximální výtěžnost materiálu a minimalizaci prostřihu.",
+    "models": [
+      {
+        "name": "GERBER Paragon HX",
+        "desc": "Vysokoobjemový vícevrstvý cutter pro těžké tkaniny a technické textilie"
+      },
+      {
+        "name": "GERBER Z1",
+        "desc": "Jednovrstvý precizní CNC cutter pro prototypovou a malosériovou výrobu"
+      },
+      {
+        "name": "GERBER Taurus II",
+        "desc": "Automatický kožedělný cutter s digitální kamerovou detekcí vad usní"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Řada Paragon",
+        "Řada Z1 (Single-ply)"
+      ],
+      "rows": [
+        [
+          "Max. výška stlačené vrstvy",
+          "až 72 mm",
+          "do 15 mm"
+        ],
+        [
+          "Pracovní šířka stolu",
+          "1.800 – 2.400 mm",
+          "1.600 – 2.200 mm"
+        ],
+        [
+          "Max. rychlost řezu",
+          "až 1,1 m/s",
+          "až 1,5 m/s"
+        ],
+        [
+          "Systém vakuování",
+          "Plynule řízená turbína",
+          "Zónové vakuové komory"
+        ]
+      ]
+    },
+    "features": [
+      "Automatický kamerový systém pro sesazování vzorů a pruhů",
+      "Inteligentní monitoring opotřebení nože s dynamickou korekcí dráhy",
+      "Úspora materiálu až 8 % díky optimalizovanému algoritmickému nestingu",
+      "Kompletní záruční a pozáruční servis vyškolenými techniky ZADAS"
+    ]
+  },
+  {
+    "id": "lisy-meyer",
+    "cat": "fixace",
+    "cat_name": "Fixační a kašírovací lisy",
+    "title": "Kontinuální fixační a laminovací lisy MEYER",
+    "perex": "Špičková německá technologie pro fixaci výztužných vložek, lepení a sendvičové kašírování textilií a kompozitů.",
+    "img": "assets/img_04.jpg",
+    "badge": "MEYER KLF Series",
+    "specs_preview": "Šířka pásu 600 až 1 800 mm • Teploty do 220 °C",
+    "full_desc": "Průběžné fixační lisy MEYER představují průmyslový standard v oblasti termofixace textilních dílů, membrán a technických textilií. Patentovaný topný systém s kontaktními topnými tělesy zajišťuje dokonale rovnoměrné rozložení teploty po celé šířce pásu bez teplotních propadů.",
+    "models": [
+      {
+        "name": "MEYER KLF-ECO",
+        "desc": "Kompaktní kontinuální lis pro konfekční a zakázkovou výrobu"
+      },
+      {
+        "name": "MEYER KLF-PROFI",
+        "desc": "Vysokovýkonný lis s prodlouženou topnou zónou pro technické textilie"
+      },
+      {
+        "name": "MEYER AHV",
+        "desc": "Plošný hydraulický lis pro tvarování a vysokotlaké lepení"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Model lisu",
+        "Pracovní šířka [mm]",
+        "Topná zóna [mm]",
+        "Max. tlak [N/cm²]"
+      ],
+      "rows": [
+        [
+          "KLF 600",
+          "600",
+          "800",
+          "0 – 50"
+        ],
+        [
+          "KLF 1000",
+          "1.000",
+          "1.100",
+          "0 – 60"
+        ],
+        [
+          "KLF 1400",
+          "1.400",
+          "1.400",
+          "0 – 60"
+        ],
+        [
+          "KLF 1800",
+          "1.800",
+          "1.600",
+          "0 – 80"
+        ]
+      ]
+    },
+    "features": [
+      "Teflonové bezešvé pásy s automatickým pneumatickým centrováním",
+      "Samostatně regulovatelné horní a spodní topné zóny",
+      "Přesná elektronická regulace přítlaku pro ochranu citlivých vláken",
+      "Integrovaná chladicí zóna na výstupu pro okamžitou stabilizaci spoje"
+    ]
+  },
+  {
+    "id": "termolisy-lotus",
+    "cat": "potisk",
+    "cat_name": "Termolisy & Sublimace",
+    "title": "Průmyslové transferové termolisy Lotus Transcraft",
+    "perex": "Robustní ruční, pneumatické i poloautomatické termolisy pro sublimační potisk, transfer fólií a aplikaci emblémů.",
+    "img": "assets/img_06.jpg",
+    "badge": "Lotus Pneumatic Series",
+    "specs_preview": "Pracovní plochy až 100 x 80 cm • Pneumatický přítlak",
+    "full_desc": "Termolisy Lotus jsou konstruovány pro nepřetržitý průmyslový provoz při aplikaci transferových fólií, sítotiskových transferů, sublimace a nášivek. Díky přesným digitálním regulátorům teploty a rovnoměrnému pneumatickému tlaku zaručují stoprocentní stálost naneseného motivu i po opakovaném průmyslovém praní.",
+    "models": [
+      {
+        "name": "Lotus LTS 138",
+        "desc": "Manuální zaklapávací lis 38 x 38 cm s magnetickým uvolněním"
+      },
+      {
+        "name": "Lotus LTS 550",
+        "desc": "Pneumatický dvoupracovištní lis 40 x 50 cm pro sériovou výrobu"
+      },
+      {
+        "name": "Lotus Maxi Press",
+        "desc": "Velkoformátový pneumatický lis až 100 x 80 cm s výsuvným stolem"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Model",
+        "Rozměr desky [cm]",
+        "Max. teplota [°C]",
+        "Typ ovládání"
+      ],
+      "rows": [
+        [
+          "LTS 138",
+          "38 x 38",
+          "250 °C",
+          "Manuální s autootvíráním"
+        ],
+        [
+          "LTS 550 Twin",
+          "2x 40 x 50",
+          "250 °C",
+          "Pneumatické otočné rameno"
+        ],
+        [
+          "LTS 750",
+          "50 x 70",
+          "250 °C",
+          "Pneumatický výsuvný stůl"
+        ],
+        [
+          "Maxi 10080",
+          "100 x 80",
+          "250 °C",
+          "Pneumatický velkoformát"
+        ]
+      ]
+    },
+    "features": [
+      "Mikanitová topná tělesa s garancí rovnoměrného prohřátí celé plochy",
+      "Výměnné spodní desky pro potisk rukávů, čepic, kapes a tašek",
+      "Počítadlo pracovních cyklů a akustická signalizace ukončení přítlaku",
+      "Vysoká bezpečnost práce s dvouručním spouštěním u pneumatických modelů"
+    ]
+  },
+  {
+    "id": "spotrebni-material",
+    "cat": "material",
+    "cat_name": "Spotřební materiál",
+    "title": "Perforovaný papír, podkladový papír a vakuové fólie",
+    "perex": "Kompletní sortiment spotřebních materiálů pro automatické řezací stoly, plotry a fixační lisy.",
+    "img": "assets/img_10.jpg",
+    "badge": "CAD/CAM spotřební díly",
+    "specs_preview": "Šíře rolí 90 až 240 cm • Gramáže 40–120 g/m²",
+    "full_desc": "Pro bezporuchový chod automatických nářezových linek dodáváme certifikovaný spotřební materiál. Naše vakuové HDPE fólie a perforované papíry zajišťují perfektní podtlakové držení nářezu i u vzdušných či kluzkých syntetických látek.",
+    "models": [
+      {
+        "name": "Perforovaný papír",
+        "desc": "Mikroperforace pro optimální průchod podtlaku na cutterech"
+      },
+      {
+        "name": "Vakuová fólie HDPE",
+        "desc": "Vysoce elastická fólie pro hermetické stlačení vysokých nářezů"
+      },
+      {
+        "name": "Plotrový papír",
+        "desc": "Hlazený bílý papír pro inkoustové kreslicí plotry Algotex a Gerber"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Materiál",
+        "Šířka role [cm]",
+        "Návin [m]",
+        "Doporučené použití"
+      ],
+      "rows": [
+        [
+          "Plotrový papír bílý",
+          "90, 160, 185, 220",
+          "150 – 300",
+          "Kreslení střihových poloh"
+        ],
+        [
+          "Perforovaný podklad",
+          "160, 180, 200, 240",
+          "250 – 500",
+          "Spodní vrstva pod nářez"
+        ],
+        [
+          "Vakuová HDPE fólie",
+          "165, 185, 205, 235",
+          "500 – 1000",
+          "Horní krytí pro vakuování"
+        ]
+      ]
+    },
+    "features": [
+      "Stálá skladová zásoba v Prostějově s expedicí do 24 hodin",
+      "Možnost dodání náhradních dílů: nože, brousicí pásky, teflonové potahy",
+      "Vysoká pevnost v tahu zamezující přetržení při automatickém odvíjení",
+      "Množstevní slevy pro výrobní provozy a stálé odběratele"
+    ]
+  }
+]

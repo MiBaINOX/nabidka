@@ -1,0 +1,252 @@
+[
+  {
+    "id": "chlazeni-prumysl",
+    "cat": "prumysl",
+    "cat_name": "Průmyslové chlazení",
+    "title": "Komplexní chladicí a mrazicí technologie pro potravinářství a průmysl",
+    "perex": "Projektování, dodávka a montáž průmyslových chladicích soustav s kompresory Bitzer, Frascold a Copeland.",
+    "img": "assets/img_02.jpg",
+    "badge": "Průmyslové chladicí okruhy",
+    "specs_preview": "Chladicí výkony 5 až 500 kW • Ekologická chladiva R449A, R448A, CO₂",
+    "full_desc": "MARCOOLING s.r.o. navrhuje a realizuje technologické celky průmyslového chlazení pro masokombináty, mlékárny, pivovary, mrazírny a distribuční centra. Využíváme vícesdružené kompresorové stanice s frekvenční regulací otáček, elektronickými expanzními ventily a rekuperací odpadního tepla pro ohřev užitkové vody.",
+    "models": [
+      {
+        "name": "Sdružené kompresorové stanice",
+        "desc": "Paralelně řazené polohermetické pístové či šroubové kompresory s plynulou modulací"
+      },
+      {
+        "name": "Kondenzační jednotky",
+        "desc": "Tiché venkovní jednotky s EC ventilátory a mikrokanálkovými kondenzátory"
+      },
+      {
+        "name": "Systémy s rekuperací",
+        "desc": "Využití kondenzačního tepla pro vytápění objektu a předehřev technologické vody"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Typ systému",
+        "Rozsah výkonu",
+        "Používaná chladiva",
+        "Aplikace"
+      ],
+      "rows": [
+        [
+          "Středněteplotní okruhy (-5 až +5 °C)",
+          "10 – 350 kW",
+          "R449A, R134a, R513A",
+          "Chlazené sklady, bourárny, mlékárny"
+        ],
+        [
+          "Mrazicí okruhy (-25 až -18 °C)",
+          "5 – 180 kW",
+          "R452A, R404A retro, CO₂",
+          "Mrazicí komory, šokové zchlazovače"
+        ],
+        [
+          "Ekologické CO₂ transkritické",
+          "20 – 500 kW",
+          "R744 (přírodní CO₂)",
+          "Velká logistická centra a supermarkety"
+        ],
+        [
+          "Výrobníky ledové vody",
+          "15 – 250 kW",
+          "Voda / propylenglykol",
+          "Pivovary, pekárny, nápojový průmysl"
+        ]
+      ]
+    },
+    "features": [
+      "Energetická úspora až 35 % díky adaptivnímu řízení vypařovacího tlaku",
+      "Dálkový 24/7 telemetrický dohled s okamžitou GSM / web signalizací alarmů",
+      "Plná certifikace F-plyny dle nařízení EP a Rady EU č. 517/2014",
+      "Servisní výjezd do 4 hodin od nahlášení poruchy chlazení"
+    ]
+  },
+  {
+    "id": "boxy-panely",
+    "cat": "boxy",
+    "cat_name": "Chladicí a mrazicí boxy",
+    "title": "Výstavba chladicích komor a mrazíren z PUR / PIR panelů",
+    "perex": "Kompletní dodávka izolovaných komor včetně podlah, posuvných dveří a tlakových vyrovnávacích ventilů.",
+    "img": "assets/img_04.jpg",
+    "badge": "PIR Izolační systémy",
+    "specs_preview": "Tloušťky izolace 60 až 150 mm • Dveře s vyhřívaným rámem",
+    "full_desc": "Stavíme komerční i velkokapacitní chladicí a mrazicí boxy na míru dispozici zákazníka. Používáme certifikované sendvičové PUR/PIR panely s potravinářským lakováním FoodSafe. Pro mrazírny instalujeme podlahové vyhřívací kabely zamezující promrzání podloží a bezpečnostní vnitřní otevírání dveří.",
+    "models": [
+      {
+        "name": "Gastro chladicí boxy",
+        "desc": "Kompaktní boxy pro restaurace, hotely, řeznictví a supermarkety"
+      },
+      {
+        "name": "Průmyslové mrazírny",
+        "desc": "Velkoprostorové komory s tloušťkou panelu 120–150 mm a pojezdovými vraty"
+      },
+      {
+        "name": "Čisté prostory a laboratoře",
+        "desc": "Hermetické komory se speciálními antibakteriálními povrchy"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Typ komory",
+        "Teplotní režim",
+        "Tloušťka panelu",
+        "Součinitel prostupu U"
+      ],
+      "rows": [
+        [
+          "Chladicí box",
+          "0 až +4 °C",
+          "60 – 80 mm",
+          "0,28 – 0,35 W/m²K"
+        ],
+        [
+          "Mrazicí box",
+          "-18 až -25 °C",
+          "100 – 120 mm",
+          "0,19 – 0,22 W/m²K"
+        ],
+        [
+          "Hlubokomrazicí / šokový",
+          "-35 až -40 °C",
+          "150 mm",
+          "0,15 W/m²K"
+        ],
+        [
+          "Vinařský sklad",
+          "+10 až +14 °C",
+          "50 – 60 mm",
+          "0,38 W/m²K"
+        ]
+      ]
+    },
+    "features": [
+      "Sendvičové panely s perodrážkou pro eliminaci tepelných mostů",
+      "Mrazírenská posuvná vrata s vyhříváním těsnění a prahu proti přimrzání",
+      "Protiskluzové nerezové nebo slzičkové hliníkové podlahy s vysokou nosností",
+      "Splnění přísných hygienických norem HACCP pro styk s potravinami"
+    ]
+  },
+  {
+    "id": "mereni-regulace",
+    "cat": "mar",
+    "cat_name": "Měření a regulace (MaR)",
+    "title": "Automatizace chlazení, monitoring HACCP a dispečerské řízení",
+    "perex": "Elektronické řídicí systémy Carel a Danfoss s kontinuálním záznamem teplot dle požadavků hygieny a veterinární správy.",
+    "img": "assets/img_06.jpg",
+    "badge": "MaR & Monitoring",
+    "specs_preview": "Řídicí automaty Carel / Danfoss • Dálkový webový dohled",
+    "full_desc": "Dodáváme a programujeme rozvaděče měření a regulace pro kompletní řízení chladicích okruhů. Systém automaticky zaznamenává teplotní průběhy do archivu pro potřeby hygienických kontrol HACCP a při výkyvu teploty okamžitě odesílá notifikaci technikovi a provozovateli.",
+    "models": [
+      {
+        "name": "Rozvaděče MaR na míru",
+        "desc": "Vlastní montáž a zapojení rozvaděčů s komponenty Schneider, Carel a Danfoss"
+      },
+      {
+        "name": "Centrální monitorovací systém",
+        "desc": "Webové rozhraní pro správu teplot na neomezeném počtu provozoven"
+      },
+      {
+        "name": "Elektronická expanze (EEV)",
+        "desc": "Algoritmické řízení vstřikování chladiva zvyšující energetickou účinnost"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Funkce systému MaR",
+        "Technické řešení",
+        "Přínos pro provoz"
+      ],
+      "rows": [
+        [
+          "Monitoring teplot HACCP",
+          "Kalibrovaná čidla Pt1000 / NTC",
+          "100% splnění veterinárních auditů"
+        ],
+        [
+          "Detekce úniku chladiva",
+          "Stacionární infračervené senzory",
+          "Soulad se zákonem o ochraně ovzduší"
+        ],
+        [
+          "Řízení odtávání výparníků",
+          "Elektrické / horkými parami",
+          "Rychlé odtátí s minimálním oteplením komory"
+        ],
+        [
+          "Vzdálená správa",
+          "Cloudové rozhraní / mobilní aplikace",
+          "Okamžitý přehled odkudkoliv bez nutnosti fyzické kontroly"
+        ]
+      ]
+    },
+    "features": [
+      "Automatický zápis provozních teplot v intervalech stanovených normou",
+      "Plynulá regulace kondenzačního tlaku šetřící opotřebení ventilátorů",
+      "Záložní akumulátorové napájení pro hlášení alarmů i při výpadku sítě",
+      "Intuitivní dotykový panel přímo na rozvaděči v českém jazyce"
+    ]
+  },
+  {
+    "id": "servis-revize",
+    "cat": "servis",
+    "cat_name": "Servis a zákonné revize",
+    "title": "Pravidelný servis chladicích zařízení, revize těsnosti a čištění",
+    "perex": "Pravidelné zákonné kontroly těsnosti chladicích okruhů, revize tlakových nádob a rychlý havarijní servis.",
+    "img": "assets/img_08.jpg",
+    "badge": "Zákonné revize F-plynů",
+    "specs_preview": "Kontroly úniků dle zákona • Vedení evidenčních knih",
+    "full_desc": "Zajišťujeme povinné periodické kontroly těsnosti chladicích zařízení dle nařízení EU o fluorovaných skleníkových plynech. Provádíme čištění a chemickou dezinfekci kondenzátorů a výparníků, výměny kompresorových olejů a filtry chladiva pro zajištění maximálního chladicího výkonu a dlouhé životnosti kompresorů.",
+    "models": [
+      {
+        "name": "Periodické revize těsnosti",
+        "desc": "Zkoušky elektronickými detektory úniku a zápis do elektronické knihy zařízení"
+      },
+      {
+        "name": "Preventivní údržba",
+        "desc": "Pravidelná kontrola chladiva, oleje, proudových odběrů a čištění výměníků"
+      },
+      {
+        "name": "Havarijní servis",
+        "desc": "Pohotovostní zásahy při výpadku chlazení pro záchranu skladovaného zboží"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Ekvi. CO₂ chladiva",
+        "Periodicita kontroly",
+        "Rozsah zásahu"
+      ],
+      "rows": [
+        [
+          "5 až 50 tun ekv. CO₂",
+          "1x za 12 měsíců",
+          "Přímá detekce úniku, kontrola funkce"
+        ],
+        [
+          "50 až 500 tun ekv. CO₂",
+          "1x za 6 měsíců",
+          "Podrobná revize celého okruhu a armatur"
+        ],
+        [
+          "nad 500 tun ekv. CO₂",
+          "1x za 3 měsíce",
+          "Povinný stacionární detekční systém"
+        ],
+        [
+          "Čištění výparníků",
+          "Dle znečištění provozu",
+          "Tlakové mytí a antibakteriální dezinfekce"
+        ]
+      ]
+    },
+    "features": [
+      "Vedení zákonných evidenčních knih chladicích zařízení bez starostí pro klienta",
+      "Měření přehřátí a podchlazení chladiva pro ověření optimálního režimu",
+      "Rychlá dostupnost originálních náhradních dílů a kompresorů skladem",
+      "Zkušený tým certifikovaných chladírenských mechaniků s dlouholetou praxí"
+    ]
+  }
+]

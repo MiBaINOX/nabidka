@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAVOPROJEKT ŠUMPERK, spol. s r.o. | Komplexní projektová činnost a inženýring</title>
+    <meta name="description" content="Generální projektování pozemních, průmyslových a vodohospodářských staveb, statické výpočty a reprografické centrum s tradicí od roku 1954 v Šumperku.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="industrial-theme">
+    <header class="heavy-header">
+        <div class="top-bar">
+            <div class="container top-bar-inner">
+                <div class="top-info">
+                    <span class="ind-badge" data-i18n="badge_tradition">Tradice od 1954</span>
+                    <span data-i18n="top_scope">Autorizovaní inženýři ČKAIT & architekti ČKA</span>
+                </div>
+                <div class="top-controls">
+                    <div class="lang-switcher">
+                        <button type="button" class="lang-btn active" data-lang="cs">CZ</button>
+                        <button type="button" class="lang-btn" data-lang="en">EN</button>
+                    </div>
+                    <a href="tel:+420583213631" class="top-tel">+420 583 213 631</a>
+                </div>
+            </div>
+        </div>
+        <nav class="container nav-container">
+            <a href="#" class="brand-link">
+                <img src="assets/logo.png" alt="STAVOPROJEKT ŠUMPERK, spol. s r.o." class="brand-logo" width="180" height="50">
+            </a>
+            <div class="nav-menu">
+                <a href="#profil" data-i18n="nav_about">O společnosti</a>
+                <a href="#obory" data-i18n="nav_fields">Projektové obory</a>
+                <a href="#kalkulator" data-i18n="nav_calc">Kalkulátor fází</a>
+                <a href="#reference" data-i18n="nav_refs">Vybrané stavby</a>
+                <a href="#repro" data-i18n="nav_repro">Planografie</a>
+                <a href="#kontakt" class="btn-ind-nav" data-i18n="nav_contact">Poptat projekt</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Menu" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+        <div class="mobile-nav-panel" id="mobileNav">
+            <a href="#profil" data-i18n="nav_about_mob">O společnosti</a>
+            <a href="#obory" data-i18n="nav_fields_mob">Projektové obory</a>
+            <a href="#kalkulator" data-i18n="nav_calc_mob">Kalkulátor fází</a>
+            <a href="#reference" data-i18n="nav_refs_mob">Vybrané stavby</a>
+            <a href="#repro" data-i18n="nav_repro_mob">Planografie</a>
+            <a href="#kontakt" data-i18n="nav_contact_mob">Poptat projekt</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-industrial">
+            <div class="container hero-split">
+                <div class="hero-left">
+                    <div class="hero-tag-wrap">
+                        <span class="hero-tag" data-i18n="hero_tag">Generální projektant staveb</span>
+                    </div>
+                    <h1 class="hero-heading" data-i18n="hero_title">Komplexní inženýrská a projektová činnost od studie po realizaci</h1>
+                    <p class="hero-desc" data-i18n="hero_perex">STAVOPROJEKT ŠUMPERK navazuje na více než 70letou tradici krajského projektového ústavu. Poskytujeme plný servis pro investory pozemních, průmyslových a vodohospodářských staveb včetně statických posudků a inženýringu.</p>
+                    <div class="hero-actions">
+                        <a href="#obory" class="btn-primary" data-i18n="btn_explore">Prozkoumat obory</a>
+                        <a href="#kalkulator" class="btn-secondary" data-i18n="btn_calc">Spustit kalkulátor fází</a>
+                    </div>
+                    <div class="hero-metrics">
+                        <div class="metric-item">
+                            <span class="metric-num" data-target="70">0</span><span class="metric-sym">+</span>
+                            <span class="metric-lbl" data-i18n="stat_years">let nepřetržité praxe</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-num" data-target="1500">0</span><span class="metric-sym">+</span>
+                            <span class="metric-lbl" data-i18n="stat_projects">dokončených projektů</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-num" data-target="100">0</span><span class="metric-sym">%</span>
+                            <span class="metric-lbl" data-i18n="stat_inhouse">vlastní inženýrský tým</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-frame">
+                        <img src="assets/img_82.jpg" alt="Projektování staveb STAVOPROJEKT ŠUMPERK" class="hero-img" width="600" height="420">
+                        <div class="hero-overlay-tag">
+                            <span class="overlay-title" data-i18n="hero_badge_title">Autorizovaný ateliér</span>
+                            <span class="overlay-sub" data-i18n="hero_badge_sub">Šumperk • Olomoucký kraj</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="profil" class="section-profile">
+            <div class="container profile-grid">
+                <div class="profile-text">
+                    <span class="sec-label" data-i18n="profile_sub">Profil ateliéru</span>
+                    <h2 data-i18n="profile_title">Sedm dekád zkušeností v projektování moderní architektury a infrastruktury</h2>
+                    <p data-i18n="profile_p1">Naše společnost představuje stabilního partnera pro soukromé investory, města i průmyslové korporace. Zajišťujeme plynulý průběh investičního záměru od prvotní objemové a architektonické studie přes územní a stavební řízení až po detailní prováděcí dokumentaci a autorský dozor na stavbě.</p>
+                    <p data-i18n="profile_p2">Všechny projekty zpracováváme s důrazem na optimalizaci statického řešení, energetickou efektivitu a provázanost profesí TZB v moderních 3D/BIM nástrojích.</p>
+                </div>
+                <div class="profile-capabilities">
+                    <div class="cap-box">
+                        <span class="cap-num">A1</span>
+                        <h3 data-i18n="cap1_title">Komplexní inženýring</h3>
+                        <p data-i18n="cap1_desc">Zajištění vyjádření dotčených orgánů státní správy a vyřízení stavebního povolení.</p>
+                    </div>
+                    <div class="cap-box">
+                        <span class="cap-num">A2</span>
+                        <h3 data-i18n="cap2_title">Vlastní statické oddělení</h3>
+                        <p data-i18n="cap2_desc">Statické výpočty železobetonových, ocelových i dřevěných konstrukcí a základů staveb.</p>
+                    </div>
+                    <div class="cap-box">
+                        <span class="cap-num">A3</span>
+                        <h3 data-i18n="cap3_title">Dotační poradenství</h3>
+                        <p data-i18n="cap3_desc">Příprava technických podkladů a energetických posudků pro programy OPŽP a NZÚ.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="obory" class="section-catalog">
+            <div class="container">
+                <div class="section-head-industrial">
+                    <div>
+                        <span class="sec-label" data-i18n="catalog_sub">Portfolio specializací</span>
+                        <h2 data-i18n="catalog_title">Klíčové projektové obory</h2>
+                    </div>
+                    <div class="filter-group">
+                        <button class="flt-btn active" data-filter="all" data-i18n="flt_all">Všechny obory</button>
+                        <button class="flt-btn" data-filter="pozemni" data-i18n="flt_civic">Pozemní stavby</button>
+                        <button class="flt-btn" data-filter="prumysl" data-i18n="flt_ind">Průmyslové haly</button>
+                        <button class="flt-btn" data-filter="vh" data-i18n="flt_water">Vodohospodářské</button>
+                        <button class="flt-btn" data-filter="sluzby" data-i18n="flt_repro">Planografie</button>
+                    </div>
+                </div>
+
+                <div class="catalog-grid" id="catalogGrid">
+                    <article class="catalog-item cat-card" data-cat="pozemni" data-id="projekty-pozemni">
+                        <div class="item-media">
+                            <img src="assets/img_82.jpg" alt="Pozemní stavby" class="item-img" width="380" height="240" loading="lazy">
+                            <span class="item-tag" data-i18n="card1_badge">Architektura & Statika</span>
+                        </div>
+                        <div class="item-content">
+                            <span class="item-kicker" data-i18n="card1_kicker">Pozemní a občanské stavby</span>
+                            <h3 class="item-title" data-i18n="catalog_card1_title">Komplexní projektování bytových, občanských a komerčních staveb</h3>
+                            <p class="item-desc" data-i18n="catalog_card1_desc">Architektonické studie, projekty pro stavební povolení i prováděcí dokumentace včetně statických výpočtů.</p>
+                            <div class="item-specs" data-i18n="card1_specs">Studie • Územní řízení • DSP • DPS • Autorský dozor</div>
+                            <button class="btn-spec" data-open-tech="projekty-pozemni" data-i18n="btn_spec">Zobrazit stupně a autorizace</button>
+                        </div>
+                    </article>
+
+                    <article class="catalog-item cat-card" data-cat="prumysl" data-id="projekty-prumysl">
+                        <div class="item-media">
+                            <img src="assets/img_84.jpg" alt="Průmyslové haly" class="item-img" width="380" height="240" loading="lazy">
+                            <span class="item-tag" data-i18n="card2_badge">Haly & Výroba</span>
+                        </div>
+                        <div class="item-content">
+                            <span class="item-kicker" data-i18n="card2_kicker">Průmyslové a výrobní areály</span>
+                            <h3 class="item-title" data-i18n="catalog_card2_title">Generální projektování výrobních hal, logistických center a skladů</h3>
+                            <p class="item-desc" data-i18n="catalog_card2_desc">Optimalizovaná řešení nosných konstrukcí, jeřábových drah a technologického vystrojení pro průmyslové provozy.</p>
+                            <div class="item-specs" data-i18n="card2_specs">Ocelové i prefabrikované haly • Těžké jeřábové dráhy</div>
+                            <button class="btn-spec" data-open-tech="projekty-prumysl" data-i18n="btn_spec">Zobrazit stupně a autorizace</button>
+                        </div>
+                    </article>
+
+                    <article class="catalog-item cat-card" data-cat="vh" data-id="projekty-vodohospodarske">
+                        <div class="item-media">
+                            <img src="assets/img_86.jpg" alt="Vodohospodářské stavby" class="item-img" width="380" height="240" loading="lazy">
+                            <span class="item-tag" data-i18n="card3_badge">Vodohospodářské celky</span>
+                        </div>
+                        <div class="item-content">
+                            <span class="item-kicker" data-i18n="card3_kicker">Vodohospodářské stavby</span>
+                            <h3 class="item-title" data-i18n="catalog_card3_title">Vodovody, kanalizace, čistírny vod a úpravy toků</h3>
+                            <p class="item-desc" data-i18n="catalog_card3_desc">Specializované projektování vodohospodářské infrastruktury pro města, obce a povodí.</p>
+                            <div class="item-specs" data-i18n="card3_specs">Kanalizační sítě • Vodojemy • Poldry • Retence vod</div>
+                            <button class="btn-spec" data-open-tech="projekty-vodohospodarske" data-i18n="btn_spec">Zobrazit stupně a autorizace</button>
+                        </div>
+                    </article>
+
+                    <article class="catalog-item cat-card" data-cat="sluzby" data-id="sluzby-planografie">
+                        <div class="item-media">
+                            <img src="assets/img_89.jpg" alt="Planografie a copycentrum" class="item-img" width="380" height="240" loading="lazy">
+                            <span class="item-tag" data-i18n="card4_badge">Reprografické centrum</span>
+                        </div>
+                        <div class="item-content">
+                            <span class="item-kicker" data-i18n="card4_kicker">Planografie a copycentrum</span>
+                            <h3 class="item-title" data-i18n="catalog_card4_title">Velkoformátový tisk, kopírování a digitalizace výkresů</h3>
+                            <p class="item-desc" data-i18n="catalog_card4_desc">Vlastní profesionální reprografické centrum pro architekty, projektanty, stavební firmy i veřejnost v Šumperku.</p>
+                            <div class="item-specs" data-i18n="card4_specs">Tisk do šíře 1067 mm • Barevné i ČB skenování</div>
+                            <button class="btn-spec" data-open-tech="sluzby-planografie" data-i18n="btn_spec">Zobrazit stupně a autorizace</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="kalkulator" class="section-calculator">
+            <div class="container">
+                <div class="calc-card">
+                    <div class="calc-header">
+                        <span class="sec-label" data-i18n="calc_sub">Interaktivní plánovač</span>
+                        <h2 data-i18n="calc_title">Kalkulátor orientačního harmonogramu a stupňů dokumentace</h2>
+                        <p data-i18n="calc_perex">Zvolte charakter stavby a požadované projektové fáze pro okamžitou kalkulaci orientačního časového rozsahu a přehledu zákonných výstupů.</p>
+                    </div>
+                    <div class="calc-grid">
+                        <div class="calc-inputs">
+                            <div class="calc-field">
+                                <label for="calcBuildingType" data-i18n="calc_lbl_type">Typ plánované stavby</label>
+                                <select id="calcBuildingType">
+                                    <option value="pozemni" data-i18n="opt_type_civic">Bytový dům / Občanská stavba</option>
+                                    <option value="prumysl" data-i18n="opt_type_ind">Výrobní hala / Skladový areál</option>
+                                    <option value="vh" data-i18n="opt_type_water">Kanalizace / Vodohospodářská stavba</option>
+                                    <option value="rekonstrukce" data-i18n="opt_type_recon">Komplexní rekonstrukce objektu</option>
+                                </select>
+                            </div>
+                            <div class="calc-field">
+                                <label data-i18n="calc_lbl_phases">Požadované stupně dokumentace</label>
+                                <div class="checkbox-group">
+                                    <label class="check-item"><input type="checkbox" id="chkStudie" checked> <span data-i18n="chk_study">Architektonická studie</span></label>
+                                    <label class="check-item"><input type="checkbox" id="chkDur" checked> <span data-i18n="chk_dur">Dokumentace pro územní řízení</span></label>
+                                    <label class="check-item"><input type="checkbox" id="chkDsp" checked> <span data-i18n="chk_dsp">Projekt pro stavební povolení</span></label>
+                                    <label class="check-item"><input type="checkbox" id="chkDps" checked> <span data-i18n="chk_dps">Prováděcí dokumentace stavby</span></label>
+                                    <label class="check-item"><input type="checkbox" id="chkAd"> <span data-i18n="chk_ad">Autorský a stavební dozor</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calc-results">
+                            <div class="res-box">
+                                <span class="res-sub" data-i18n="res_lbl_weeks">Orientační doba zpracování</span>
+                                <div class="res-main"><span id="resWeeks">14–20</span> <span class="res-unit" data-i18n="res_unit_weeks">týdnů</span></div>
+                                <p class="res-note" data-i18n="res_note_admin">Doba závisí na rozsahu profesí a lhůtách dotčených orgánů státní správy.</p>
+                            </div>
+                            <div class="res-deliverables">
+                                <span class="res-sub" data-i18n="res_lbl_outputs">Zahrnuté výstupy v digitální i tištěné formě:</span>
+                                <ul id="resDeliverablesList" class="res-list">
+                                    <li>3D architektonický model a dispoziční výkresy</li>
+                                    <li>Stavebně-konstrukční část a statické posouzení</li>
+                                    <li>Koordinace profesí ZTI, VZT, PBŘ a energetický štítek</li>
+                                    <li>6 kompletních tištěných paré z naší planografie</li>
+                                </ul>
+                            </div>
+                            <a href="#kontakt" class="btn-calc-cta" data-i18n="btn_calc_quote">Poptat konkrétní harmonogram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reference" class="section-references">
+            <div class="container">
+                <div class="section-title-ind">
+                    <span class="sec-label" data-i18n="refs_sub">Vybrané reference</span>
+                    <h2 data-i18n="refs_title">Stavby, které tvoří tvář regionu i průmyslu</h2>
+                </div>
+                <div class="refs-grid">
+                    <div class="ref-card">
+                        <img src="assets/img_84.jpg" alt="Výrobní závod" class="ref-img" width="360" height="220" loading="lazy">
+                        <div class="ref-desc">
+                            <span class="ref-cat" data-i18n="ref1_cat">Průmyslová výstavba</span>
+                            <h4 data-i18n="ref1_title">Výrobní a logistický areál Šumperk</h4>
+                            <p data-i18n="ref1_txt">Kompletní generální projekt ocelových hal s mostovými jeřáby o nosnosti 10 tun.</p>
+                        </div>
+                    </div>
+                    <div class="ref-card">
+                        <img src="assets/img_82.jpg" alt="Bytový dům" class="ref-img" width="360" height="220" loading="lazy">
+                        <div class="ref-desc">
+                            <span class="ref-cat" data-i18n="ref2_cat">Občanská výstavba</span>
+                            <h4 data-i18n="ref2_title">Bytový komplex a polyfunkční centrum</h4>
+                            <p data-i18n="ref2_txt">Architektonická studie a DSP nízkoenergetických bytových domů s podzemním parkováním.</p>
+                        </div>
+                    </div>
+                    <div class="ref-card">
+                        <img src="assets/img_86.jpg" alt="Čistírna odpadních vod" class="ref-img" width="360" height="220" loading="lazy">
+                        <div class="ref-desc">
+                            <span class="ref-cat" data-i18n="ref3_cat">Vodohospodářská infrastruktura</span>
+                            <h4 data-i18n="ref3_title">Obecní kanalizace a intenzifikace ČOV</h4>
+                            <p data-i18n="ref3_txt">Projekt splaškové kanalizace a modernizace mechanicko-biologického čištění vod.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="repro" class="section-repro">
+            <div class="container repro-box">
+                <div class="repro-info">
+                    <span class="sec-label" data-i18n="repro_sub">Planografie Šumperk</span>
+                    <h2 data-i18n="repro_title">Velkoformátové copycentrum v centru Šumperka</h2>
+                    <p data-i18n="repro_txt">Zajišťujeme expresní velkoformátový tisk výkresové dokumentace z DWG a PDF, skenování archivních plánů do šíře 1067 mm a strojní skládání výkresů pro projekční kanceláře i stavební firmy.</p>
+                    <div class="repro-meta">
+                        <span data-i18n="repro_loc">📍 Radniční 231/4, 787 01 Šumperk (vchod z náměstí)</span>
+                        <a href="tel:+420583213631" class="repro-tel">+420 583 213 631</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="section-contact">
+            <div class="container">
+                <div class="contact-header">
+                    <span class="sec-label" data-i18n="contact_sub">Spojte se s námi</span>
+                    <h2 data-i18n="contact_title">Konzultace vašeho stavebního záměru</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card-info">
+                        <div class="c-info-group">
+                            <span class="c-label" data-i18n="lbl_office">Sídlo ateliéru</span>
+                            <p><strong>STAVOPROJEKT ŠUMPERK, spol. s r.o.</strong><br>Radniční 231/4<br>787 01 Šumperk</p>
+                        </div>
+                        <div class="c-info-group">
+                            <span class="c-label" data-i18n="lbl_reg">Identifikace</span>
+                            <p>IČO: 00562050<br>DIČ: CZ00562050</p>
+                        </div>
+                        <div class="c-info-group">
+                            <span class="c-label" data-i18n="lbl_phone">Telefon</span>
+                            <p><a href="tel:+420583213631" class="tel-link">+420 583 213 631</a></p>
+                        </div>
+                        <div class="c-info-group">
+                            <span class="c-label" data-i18n="lbl_mail">E-mail</span>
+                            <p><a href="mailto:stavoprojekt@stavoprojekt.cz">stavoprojekt@stavoprojekt.cz</a></p>
+                        </div>
+                        <div class="c-info-group">
+                            <span class="c-label" data-i18n="lbl_hours">Pracovní doba</span>
+                            <p data-i18n="hours_val">Pondělí – Pátek: 7:00 – 15:30</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card-form">
+                        <form id="projectInquiryForm" class="inq-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="pName" data-i18n="f_name">Jméno a příjmení / Firma *</label>
+                                    <input type="text" id="pName" name="name" required data-i18n-placeholder="f_ph_name" placeholder="Ing. Jan Novák / Investor s.r.o.">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pPhone" data-i18n="f_phone">Telefonní kontakt *</label>
+                                    <input type="tel" id="pPhone" name="phone" required data-i18n-placeholder="f_ph_phone" placeholder="+420 ...">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pEmail" data-i18n="f_mail">E-mailová adresa *</label>
+                                <input type="email" id="pEmail" name="email" required data-i18n-placeholder="f_ph_mail" placeholder="novak@firma.cz">
+                            </div>
+                            <div class="form-group">
+                                <label for="pType" data-i18n="f_scope">Předmět záměru</label>
+                                <select id="pType" name="project_type">
+                                    <option value="pozemni" data-i18n="f_opt1">Bytová nebo občanská výstavba</option>
+                                    <option value="prumysl" data-i18n="f_opt2">Průmyslová výrobní hala / Sklad</option>
+                                    <option value="vh" data-i18n="f_opt3">Vodohospodářská stavba / Kanalizace</option>
+                                    <option value="statika" data-i18n="f_opt4">Statické posouzení stavby</option>
+                                    <option value="repro" data-i18n="f_opt5">Velkoformátový tisk a planografie</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="pMessage" data-i18n="f_desc">Popis lokality a stavebního záměru</label>
+                                <textarea id="pMessage" name="message" rows="4" data-i18n-placeholder="f_ph_desc" placeholder="Popište lokalitu, velikost pozemku, předpokládaný rozsah stavby..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit" data-i18n="btn_submit_inquiry">Odeslat nezávaznou poptávku projektu</button>
+                            <div id="pSuccessMsg" class="form-success-box" style="display:none;" data-i18n="msg_sent_success">Děkujeme. Poptávka byla zaznamenána, naši autorizovaní inženýři se vám ozvou do 24 hodin.</div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe src="https://frame.mapy.cz/zakladni?x=16.97182&amp;y=49.96516&amp;z=16&amp;source=coor&amp;id=16.97182%2C49.96516" width="100%" height="380" style="border:0;" loading="lazy" title="STAVOPROJEKT ŠUMPERK na Mapy.cz"></iframe>
+                    <div class="map-bar">
+                        <a href="https://mapy.cz/zakladni?x=16.97182&amp;y=49.96516&amp;z=16&amp;source=coor&amp;id=16.97182%2C49.96516" target="_blank" rel="noopener noreferrer" class="map-link" data-i18n="map_open">Otevřít sídlo Radniční 231/4 na Mapy.cz</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="heavy-footer">
+        <div class="container footer-grid">
+            <div class="f-brand">
+                <img src="assets/logo.png" alt="STAVOPROJEKT ŠUMPERK" class="footer-logo" width="170" height="46">
+                <p data-i18n="footer_claim">Komplexní projektová činnost ve výstavbě, statika, průmyslové i pozemní stavby a reprografické centrum s tradicí od roku 1954.</p>
+            </div>
+            <div class="f-links">
+                <div class="fl-col">
+                    <span class="fl-head" data-i18n="f_head_fields">Specializace</span>
+                    <a href="#obory" data-i18n="fl_civic">Pozemní stavby</a>
+                    <a href="#obory" data-i18n="fl_ind">Průmyslové areály</a>
+                    <a href="#obory" data-i18n="fl_water">Vodohospodářské celky</a>
+                    <a href="#repro" data-i18n="fl_repro">Planografie Šumperk</a>
+                </div>
+                <div class="fl-col">
+                    <span class="fl-head" data-i18n="f_head_office">Ateliér Šumperk</span>
+                    <p>Radniční 231/4<br>787 01 Šumperk</p>
+                    <p><a href="tel:+420583213631" class="tel-link">+420 583 213 631</a><br><a href="mailto:stavoprojekt@stavoprojekt.cz">stavoprojekt@stavoprojekt.cz</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-sub">
+            <span data-i18n="f_copy">&copy; 1954–2024 STAVOPROJEKT ŠUMPERK, spol. s r.o. Všechna práva vyhrazena.</span>
+            <span data-i18n="f_auth">Autorizovaný projektový ateliér ČKAIT & ČKA.</span>
+        </div>
+    </footer>
+
+    <div id="techModalBackdrop" class="tech-modal-backdrop" aria-hidden="true" style="display:none;">
+        <div class="tech-modal-dialog" role="dialog" aria-modal="true">
+            <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close">&times;</button>
+            <div class="modal-body" id="modalDynamicContent"></div>
+        </div>
+    </div>
+
+    <script src="../ping-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

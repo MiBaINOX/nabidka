@@ -1,0 +1,40 @@
+{
+  "slug": "stavoprojekt-sumperk",
+  "firma": "STAVOPROJEKT ŠUMPERK, spol. s r.o.",
+  "ico": "00562050",
+  "obec": "Šumperk",
+  "okres": "Šumperk",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Komplexní projektová činnost ve výstavbě, statika, průmyslové i pozemní stavby",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://www.stavoprojekt.cz",
+  "email": "stavoprojekt@stavoprojekt.cz",
+  "prodejni_body": [
+    "Kontinuální tradice projektování a inženýringu již od roku 1954",
+    "Vlastní autorizovaný tým architektů, statiků i vodohospodářů",
+    "Reprografické centrum a digitalizace velkoformátové dokumentace"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes protokol HTTP bez šifrování",
+    "Chybějící mobilní optimalizace (absence meta viewport, nutné zoomování)",
+    "Stovky referenčních staveb v nepřehledném statickém seznamu bez filtrů",
+    "Absence interaktivní kalkulace projektových fází a online poptávky"
+  ],
+  "vylepseni_noveho_webu": [
+    "Interaktivní portfolio projektových oborů s modálními technickými listy",
+    "Přepínač jazykových verzí CZ | EN zachovávající kontinuitu s profilem firmy",
+    "Kalkulátor orientačního rozsahu projektových fází a stupňů dokumentace",
+    "Ověřený Mapy.cz špendlík na sídlo na Radniční ulici v centru Šumperka",
+    "Moderní a přehledná prezentace referencí z průmyslu, občanských i VH staveb"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1954,
+    "zamestnanci": "10-19",
+    "sidlo": "Radniční 231/4, 787 01 Šumperk",
+    "polozky_katalogu": 4
+  },
+  "jazyky": [
+    "CZ",
+    "EN"
+  ]
+}

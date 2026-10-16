@@ -1,0 +1,39 @@
+{
+  "slug": "zadas",
+  "firma": "ZADAS spol. s r.o.",
+  "ico": "00546526",
+  "obec": "Prostějov",
+  "okres": "Prostějov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Dodávka a servis technologií pro textilní výrobu, automatické cuttery a lisy",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://www.zadas.cz",
+  "email": "zadas@zadas.cz",
+  "prodejni_body": [
+    "Autorizovaný servis automatických cutterů GERBER Technology",
+    "Kontinuální fixační a kašírovací lisy MEYER s precizní regulací",
+    "Vlastní sklad spotřebních materiálů a dílů s expedicí do 24 hodin"
+  ],
+  "vady_stareho_webu": [
+    "Chybějící mobilní optimalizace (absence meta viewport, rozpad na telefonu)",
+    "Archaický tabulkový layout bez moderní sémantiky HTML5",
+    "Neúplné technické parametry strojů bez interaktivního srovnání",
+    "Statické kontakty bez přímého poptávkového formuláře technologií"
+  ],
+  "vylepseni_noveho_webu": [
+    "Interaktivní technický katalog strojů s modálními okny a tabulkami parametrů",
+    "Filtrovatelný přehled technologií (cuttery, fixační lisy, termolisy, materiály)",
+    "Plná mobilní optimalizace pro bezchybné zobrazení na všech zařízeních",
+    "Ověřený Mapy.cz špendlík a navigace přímo k areálu Za drahou v Prostějově",
+    "Předvyplněný poptávkový formulář pro okamžitou specifikaci stroje"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "zamestnanci": "6-9",
+    "sidlo": "Za drahou 4479/2a, 796 01 Prostějov",
+    "polozky_katalogu": 4
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

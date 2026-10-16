@@ -1,0 +1,39 @@
+{
+  "slug": "marcooling",
+  "firma": "MARCOOLING s.r.o.",
+  "ico": "01595890",
+  "obec": "Držovice",
+  "okres": "Prostějov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Dodávka a servis průmyslového chlazení, chladicích boxů a systémů MaR",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://marcooling.cz",
+  "email": "info@marcooling.cz",
+  "prodejni_body": [
+    "Kompletní průmyslové chladicí celky na klíč s kompresory Bitzer",
+    "Výstavba chladicích a mrazicích boxů z certifikovaných PUR/PIR panelů",
+    "Vlastní montáž rozvaděčů MaR s automatickým monitoringem teplot HACCP"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes protokol HTTP bez šifrování",
+    "Chybějící mobilní optimalizace (absence meta viewport, rozpad na telefonu)",
+    "Zastaralá kostra XHTML 1.0 s archaickým tabulkovým layoutem",
+    "Statický výčet referencí bez technických parametrů a přímé poptávky"
+  ],
+  "vylepseni_noveho_webu": [
+    "Interaktivní technologický katalog chlazení s detailními technickými modály",
+    "Kalkulátor orientačního chladicího výkonu a dimenzování tloušťky boxu",
+    "Přehledné členění oborových řešení (potravinářství, gastro, logistika, MaR)",
+    "Ověřený Mapy.cz špendlík na sídlo ve Smržické ulici v Držovicích u Prostějova",
+    "Předvyplněný poptávkový formulář pro okamžitou kalkulaci chladicí technologie"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2013,
+    "zamestnanci": "6-9",
+    "sidlo": "Smržická 115/13, 796 07 Držovice",
+    "polozky_katalogu": 4
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

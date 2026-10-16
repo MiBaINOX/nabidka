@@ -1,0 +1,242 @@
+[
+  {
+    "id": "projekty-pozemni",
+    "cat": "pozemni",
+    "cat_name": "Pozemní a občanské stavby",
+    "title": "Komplexní projektování bytových, občanských a komerčních staveb",
+    "perex": "Architektonické studie, projekty pro stavební povolení i prováděcí dokumentace včetně statických výpočtů.",
+    "img": "assets/img_82.jpg",
+    "badge": "Architektura & Statika",
+    "specs_preview": "Studie • Územní řízení • DSP • DPS • Autorský dozor",
+    "full_desc": "STAVOPROJEKT ŠUMPERK, spol. s r.o. navazuje na tradici krajského projektového ústavu s historií od roku 1954. Zajišťujeme veškeré stupně projektové dokumentace pro novostavby i náročné rekonstrukce občanských budov, škol, zdravotnických zařízení, administrativních center a bytových domů. Součástí týmu jsou autorizovaní inženýři pro pozemní stavby a statiku.",
+    "models": [
+      {
+        "name": "Architektonická studie",
+        "desc": "Dispoziční a hmotové řešení stavby, 3D vizualizace a urbanistické začlenění"
+      },
+      {
+        "name": "Dokumentace pro povolení (DSP)",
+        "desc": "Kompletní projektová dokumentace včetně inženýringu a stanovisek dotčených orgánů"
+      },
+      {
+        "name": "Prováděcí dokumentace (DPS)",
+        "desc": "Detailní výkresy skladeb, detailů, výkazů výměr a položkových rozpočtů"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Projektová fáze",
+        "Obsah dokumentace",
+        "Garantovaná autorizace"
+      ],
+      "rows": [
+        [
+          "Architektonická studie",
+          "3D modely, zákresy do území, bilance ploch",
+          "Autorizovaný architekt ČKA"
+        ],
+        [
+          "DUR / DSP",
+          "Stavebně-konstrukční část, PBŘ, PENB, ZTI, VZT",
+          "Autorizovaný inženýr ČKAIT"
+        ],
+        [
+          "Statické posouzení",
+          "Výpočty železobetonu, oceli, zdiva a dřeva",
+          "Autorizovaný statik ČKAIT"
+        ],
+        [
+          "Autorský dozor",
+          "Kontrola provádění stavby v souladu s projektem",
+          "Stavební dozor na stavbě"
+        ]
+      ]
+    },
+    "features": [
+      "Kontinuální tradice projektování v regionu s více než 70 lety zkušeností",
+      "Vlastní ateliéry statiky, stavební fyziky a technických zařízení budov",
+      "Zpracování v moderním BIM softwaru s 3D koordinací všech profesí",
+      "Kompletní inženýrská činnost a vyřízení stavebního povolení na klíč"
+    ]
+  },
+  {
+    "id": "projekty-prumysl",
+    "cat": "prumysl",
+    "cat_name": "Průmyslové a výrobní areály",
+    "title": "Generální projektování výrobních hal, logistických center a skladů",
+    "perex": "Optimalizovaná řešení nosných konstrukcí, jeřábových drah a technologického vystrojení pro průmyslové provozy.",
+    "img": "assets/img_84.jpg",
+    "badge": "Haly & Výroba",
+    "specs_preview": "Ocelové i prefabrikované haly • Těžké jeřábové dráhy",
+    "full_desc": "Navrhujeme energeticky úsporné a provozně efektivní průmyslové objekty. Optimalizujeme modulové rastry sloupů, zatížení podlah a zakládání staveb i v náročných geologických podmínkách. Máme bohaté reference výrobních závodů pro strojírenství, automotive i potravinářství.",
+    "models": [
+      {
+        "name": "Výrobní haly",
+        "desc": "Ocelové i ŽB skelety s mostovými jeřáby a vestavbami administrativy"
+      },
+      {
+        "name": "Logistické sklady",
+        "desc": "Vysokoregálové skladové objekty s nakládacími doky a velkorozponovými střechami"
+      },
+      {
+        "name": "Modernizace areálů",
+        "desc": "Zesilování konstrukcí, zateplení plášťů a změny užívání staveb"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Typ konstrukce",
+        "Typické rozpony",
+        "Specializace"
+      ],
+      "rows": [
+        [
+          "Ocelový skelet",
+          "18 – 36 metrů",
+          "Příhradové i plnostěnné rámy, mostové jeřáby"
+        ],
+        [
+          "Železobetonový prefabrikát",
+          "12 – 30 metrů",
+          "Vysoká požární odolnost, rychlá montáž"
+        ],
+        [
+          "Zakládání na pilotách",
+          "Dle geologie",
+          "Průmyslové podlahy s vysokou únosností"
+        ],
+        [
+          "Technická infrastruktura",
+          "Kompletní areál",
+          "Areálové komunikace, vlečky, trafostanice"
+        ]
+      ]
+    },
+    "features": [
+      "Statická optimalizace spotřeby oceli a betonu přinášející milionové úspory",
+      "Požárně bezpečnostní řešení (PBŘ) s ohledem na požární úseky a odvětrání",
+      "Komplexní napojení na inženýrské sítě a areálové komunikace",
+      "Řešení pro čisté prostory, chladírenské zóny i chemické provozy"
+    ]
+  },
+  {
+    "id": "projekty-vodohospodarske",
+    "cat": "vh",
+    "cat_name": "Vodohospodářské stavby",
+    "title": "Vodovody, kanalizace, čistírny vod a úpravy toků",
+    "perex": "Specializované projektování vodohospodářské infrastruktury pro města, obce a povodí.",
+    "img": "assets/img_86.jpg",
+    "badge": "Vodohospodářské celky",
+    "specs_preview": "Kanalizační sítě • Vodojemy • Poldry • Retence vod",
+    "full_desc": "Samostatné vodohospodářské oddělení zpracovává projekty stokových sítí, čistíren odpadních vod, přivaděčů pitné vody, čerpacích stanic a protipovodňových opatření. Navrhujeme suché poldry, retenční nádrže i revitalizace přírodních vodních toků.",
+    "models": [
+      {
+        "name": "Stokové sítě a ČOV",
+        "desc": "Gravitační i tlaková kanalizace, mechanicko-biologické čistírny odpadních vod"
+      },
+      {
+        "name": "Vodárenské soustavy",
+        "desc": "Úpravny vody, zásobní vodojemy, hydroforové stanice a vodovodní řady"
+      },
+      {
+        "name": "Protipovodňová opatření",
+        "desc": "Hrázové systémy, suché retenční nádrže, průlehy a zkapacitnění koryt"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Oblast VH staveb",
+        "Předmět návrhu",
+        "Legislativní soulad"
+      ],
+      "rows": [
+        [
+          "Zásobování vodou",
+          "Vodovodní řady, armaturní šachty, vodojemy",
+          "ČSN 75 5401"
+        ],
+        [
+          "Odkanalizování",
+          "Splašková a dešťová kanalizace, odlehčovací komory",
+          "ČSN EN 752"
+        ],
+        [
+          "Retence a vsakování",
+          "Retenční nádrže, vsakovací objekty, regulované odtoky",
+          "ČSN 75 9010"
+        ],
+        [
+          "Vodní toky",
+          "Revitalizace, přírodě blízká protipovodňová ochrana",
+          "Vodní zákon č. 254/2001 Sb."
+        ]
+      ]
+    },
+    "features": [
+      "Dlouholeté zkušenosti s dotačními tituly OPŽP a Ministerstva zemědělství",
+      "Hydraulické výpočty stokových sítí v simulačních programech",
+      "Koordinace s povodími (Povodí Moravy, Povodí Odry) a správci toků",
+      "Úzká vazba na geodetické zaměření a hydrogeologický průzkum"
+    ]
+  },
+  {
+    "id": "sluzby-planografie",
+    "cat": "sluzby",
+    "cat_name": "Planografie a copycentrum",
+    "title": "Velkoformátový tisk, kopírování a digitalizace výkresů",
+    "perex": "Vlastní profesionální reprografické centrum pro architekty, projektanty, stavební firmy i veřejnost v Šumperku.",
+    "img": "assets/img_89.jpg",
+    "badge": "Reprografické centrum",
+    "specs_preview": "Tisk do šíře 1067 mm • Barevné i ČB skenování",
+    "full_desc": "Naše copycentrum v centru Šumperka poskytuje špičkové velkoformátové služby na moderních strojích Océ a HP. Zajišťujeme velkoformátový tisk z PDF a DWG, skenování archivních výkresů, automatické skládání výkresů na formát A4 i vazby projektové dokumentace.",
+    "models": [
+      {
+        "name": "Velkoformátový tisk",
+        "desc": "Černobílý i plnobarevný tisk výkresů na role šíře až 1067 mm"
+      },
+      {
+        "name": "Digitalizace a skenování",
+        "desc": "Optické skenování starých papírových výkresů a plánů do PDF/TIFF"
+      },
+      {
+        "name": "Kompletace projektů",
+        "desc": "Strojní skládání na A4 s chlopní do šanonů, vazby a kompletace paré"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Služba",
+        "Technologie",
+        "Výstupní formáty"
+      ],
+      "rows": [
+        [
+          "ČB tisk výkresů",
+          "Laserová technologie Océ TDS",
+          "Role 297 – 914 mm, papír 80g"
+        ],
+        [
+          "Barevný tisk výkresů",
+          "Pigmentový inkoust HP DesignJet",
+          "Role až 1067 mm, papír 90–160g"
+        ],
+        [
+          "Skenování předloh",
+          "Průchozí velkoformátový skener",
+          "PDF, TIFF, JPEG až 600 DPI"
+        ],
+        [
+          "Dokončovací práce",
+          "Automatická skládačka Gera",
+          "Sklady na A4, kroužková vazba"
+        ]
+      ]
+    },
+    "features": [
+      "Expresní tisk s možností zaslání podkladů e-mailem a vyzvednutím v Šumperku",
+      "Množstevní slevy pro projekční kanceláře a stavební dodavatele",
+      "Bezpečné zálohování a archivace digitálních projektových dat",
+      "Centrální poloha v Šumperku na Radniční 4"
+    ]
+  }
+]
