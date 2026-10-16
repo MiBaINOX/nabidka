@@ -69,7 +69,15 @@ footer_hq: "Centrála Slivenec",
 modal_specs: "Technické specifikace",
 modal_advantages: "Certifikované přednosti",
 btn_inquire_div: "Poptat tuto divizi",
-btn_close: "Zavřít"
+btn_close: "Zavřít",
+card1_title: "Výroba stavební chemie a nátěrových hmot ETERNAL",
+card1_perex: "Přední český výrobce vodou ředitelných nátěrových systémů pro střechy, podlahy, fasády a kovové konstrukce.",
+card2_title: "Divize Realizace staveb (APS AUSTIS)",
+card2_perex: "Generální dodávky pozemních staveb, revitalizace bytových domů, zateplování fasád a průmyslové rekonstrukce.",
+card3_title: "Technický dozor stavebníka (TDS) a Koordinátor BOZP",
+card3_perex: "Nezávislá expertní kontrola kvality, prostavěnosti a bezpečnosti práce na staveništi dle zákona č. 309/2006 Sb.",
+card4_title: "Správa nemovitostí a facility management (AUSTIS-REAL)",
+card4_perex: "Komplexní ekonomická, právní a technická správa bytových domů, SVJ, bytových družstev a komerčních areálů."
 },
 en: {
 topbar_exp: "Czech manufacture and heritage since 1990",
@@ -139,7 +147,15 @@ footer_hq: "Slivenec Headquarters",
 modal_specs: "Technical Specifications",
 modal_advantages: "Certified Highlights",
 btn_inquire_div: "Inquire This Division",
-btn_close: "Close"
+btn_close: "Close",
+card1_title: "Manufacture of Building Chemistry and ETERNAL Coatings",
+card1_perex: "Leading European producer of waterborne coating systems for roofs, industrial floors, facades and structural steel.",
+card2_title: "Construction Works Division (APS AUSTIS)",
+card2_perex: "General contracting for commercial buildings, residential thermal renovations, concrete restoration and roofs.",
+card3_title: "Independent Construction Supervision (TDS) and Safety",
+card3_perex: "Expert quality control, execution audits and occupational site safety coordination under Act No. 309/2006 Coll.",
+card4_title: "Property Management and Facility Services (AUSTIS-REAL)",
+card4_perex: "Complete financial, legal and technical management for residential communities, housing cooperatives and commercial hubs."
 }
 };
 
@@ -187,7 +203,13 @@ el.textContent = dict[key];
 document.querySelectorAll(".lang-btn").forEach(b => {
 b.classList.toggle("active", b.dataset.lang === lang);
 });
+const modal = document.getElementById("techModalBackdrop");
+if (modal) {
+modal.classList.remove("active");
+modal.style.display = "none";
 }
+}
+window.setLanguage = setLanguage;
 
 const counters = document.querySelectorAll(".count-val");
 const counterObserver = new IntersectionObserver((entries, observer) => {

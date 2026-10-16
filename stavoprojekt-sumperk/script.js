@@ -191,7 +191,7 @@ const TRANSLATIONS = {
     card4_badge: "Reprographic Center",
     card4_kicker: "Planography & Copy Center",
     catalog_card4_title: "Large-Format Plotting, Copying, and Drawing Digitization",
-    catalog_card4_desc: "Professional reprographic center for architects, structural engineers, and contractors in Šumperk.",
+    catalog_card4_desc: "Professional reprographic center for architects, structural engineers, and contractors in Sumperk.",
     card4_specs: "Plotting up to 1067 mm • Color & Monochrome Scanning",
     btn_spec: "View Details & Authorization",
     calc_sub: "Interactive Planner",

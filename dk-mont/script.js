@@ -210,8 +210,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ];
 
-    const modal = document.getElementById('productModal');
-    const modalClose = document.getElementById('modalClose');
+    const modal = document.getElementById('techModalBackdrop') || document.getElementById('productModal');
+    const modalClose = document.getElementById('techModalClose') || document.getElementById('modalClose');
     const modalImg = document.getElementById('modalImg');
     const modalTitle = document.getElementById('modalTitle');
     const modalCode = document.getElementById('modalCode');
@@ -232,8 +232,10 @@ document.addEventListener('DOMContentLoaded', () => {
             modalImg.src = p.img;
             modalImg.alt = cardTitle ? cardTitle.textContent : p.title;
             modalTitle.textContent = cardTitle ? cardTitle.textContent : p.title;
+            modalTitle.setAttribute('data-i18n', 'p' + (idx + 1) + '_title');
             modalCode.textContent = cardSub ? cardSub.textContent : p.code;
             modalDesc.textContent = cardDesc ? cardDesc.textContent : p.desc;
+            modalDesc.setAttribute('data-i18n', 'p' + (idx + 1) + '_desc');
             modalParams.innerHTML = '';
             if (cardSpecs && cardSpecs.length > 0) {
                 cardSpecs.forEach(sp => {
@@ -248,7 +250,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     modalParams.appendChild(row);
                 });
             }
-            modal.classList.add('active');
+            if (modal) {
+                modal.setAttribute('data-active-prod', idx);
+                modal.classList.add('active');
+            }
         });
     });
 
@@ -1142,6 +1147,11 @@ function setLanguage(lang) {
     document.querySelectorAll(".lang-btn").forEach(btn => {
         btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
     });
+
+    const activeModal = document.getElementById("techModalBackdrop") || document.getElementById("productModal");
+    if (activeModal) {
+        activeModal.classList.remove("active");
+    }
 
     document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.getAttribute("data-i18n");

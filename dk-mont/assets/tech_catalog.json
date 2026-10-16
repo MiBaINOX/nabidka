@@ -1,0 +1,124 @@
+[
+  {
+    "id": "prod_01",
+    "name": "Přímý závěs pro CD profily",
+    "category": "zavesy",
+    "norm": "ČSN EN 13964",
+    "material": "Pozinkovaný ocelový plech DX51D",
+    "thickness": "0.8 / 1.0 mm",
+    "load_capacity": "0.40 kN",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_01.jpg"
+  },
+  {
+    "id": "prod_02",
+    "name": "Akustický přímý závěs s tlumicí vložkou",
+    "category": "zavesy",
+    "norm": "ČSN EN 13964",
+    "material": "Pozinkovaný ocelový plech Z140 + elastomer",
+    "damping": "až 14 dB",
+    "load_capacity": "0.40 kN",
+    "packaging": "50 ks",
+    "image": "assets/products/prod_02.jpg"
+  },
+  {
+    "id": "prod_03",
+    "name": "Krokvový závěs zesílený pro podkroví",
+    "category": "zavesy",
+    "norm": "ČSN EN 13964",
+    "lengths": "170 mm / 270 mm",
+    "load_capacity": "0.40 kN",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_03.jpg"
+  },
+  {
+    "id": "prod_04",
+    "name": "Rychlozávěs pérový čtyřbodový",
+    "category": "rychlozavesy",
+    "norm": "ČSN EN 13964",
+    "spring": "Temperovaná pružinová ocel",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_04.jpg"
+  },
+  {
+    "id": "prod_05",
+    "name": "Závěsný drát s okem tahový",
+    "category": "rychlozavesy",
+    "norm": "ČSN EN 13964",
+    "diameter": "Ø 4.0 mm",
+    "lengths": "125 až 2000 mm",
+    "coating": "Žárový pozink",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_05.jpg"
+  },
+  {
+    "id": "prod_06",
+    "name": "Křížová spojka CD profilů dvoudílná",
+    "category": "spojky",
+    "norm": "ČSN EN 13964",
+    "thickness": "0.9 mm",
+    "grid_type": "Dvouúrovňový",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_06.jpg"
+  },
+  {
+    "id": "prod_07",
+    "name": "Úrovňová spojka CD profilů",
+    "category": "spojky",
+    "norm": "ČSN EN 13964",
+    "construction": "Jednoúrovňový rošt",
+    "material": "DX51D",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_07.jpg"
+  },
+  {
+    "id": "prod_08",
+    "name": "Rovná podélná spojka CD profilu",
+    "category": "spojky",
+    "norm": "ČSN EN 13964",
+    "length": "110 mm",
+    "compatibility": "CD 60/27",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_08.jpg"
+  },
+  {
+    "id": "prod_09",
+    "name": "Nonius vrchní díl závěsu",
+    "category": "nonius",
+    "norm": "ČSN EN 13964",
+    "lengths": "200 až 1000 mm",
+    "load_capacity": "0.40 kN",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_09.jpg"
+  },
+  {
+    "id": "prod_10",
+    "name": "Nonius spodní díl pro CD profil",
+    "category": "nonius",
+    "norm": "ČSN EN 13964",
+    "attachment": "CD 60/27",
+    "locking": "Dvojitá závlačka",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_10.jpg"
+  },
+  {
+    "id": "prod_11",
+    "name": "Pojistná závlačka Nonius",
+    "category": "nonius",
+    "norm": "ČSN EN 13964",
+    "material": "Temperovaná pružinová ocel",
+    "packaging": "100 ks",
+    "image": "assets/products/prod_11.jpg"
+  },
+  {
+    "id": "prod_12",
+    "name": "Hliníkový ochranný roh děrovaný",
+    "category": "ostatni",
+    "norm": "ČSN EN 13964",
+    "material": "Hliník AL99.5",
+    "lengths": "2.0 / 2.5 / 3.0 m",
+    "angle": "90°",
+    "packaging": "50 ks",
+    "image": "assets/products/prod_12.jpg"
+  }
+]

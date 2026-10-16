@@ -1,0 +1,55 @@
+[
+  {
+    "id": "stozary-20m",
+    "name": "Osvětlovací a trakční stožáry do 20 m",
+    "category": "stozary",
+    "height": "do 20 m",
+    "coating": "Žárové zinkování ČSN EN ISO 1461",
+    "specs": "Kuželové a stupňovité provedení s přírubou pro kotvení do betonových patek.",
+    "norm": "ČSN EN 40-5"
+  },
+  {
+    "id": "stozary-stadiony",
+    "name": "Výškové stožáry 20–40 m pro stadiony",
+    "category": "stozary",
+    "height": "20–40 m",
+    "mounting": "Přírubové kotvení, statický výpočet",
+    "specs": "Dimenzováno pro těžké sestavy LED reflektorů na stadionech a velkých sportovištích.",
+    "norm": "ČSN EN ISO 1461, statický atest"
+  },
+  {
+    "id": "3d-laser-trubky",
+    "name": "3D laserové tvarové dělení trubek a profilů",
+    "category": "laser",
+    "diameter": "do Ø 414 mm",
+    "axes": "3 prostorové osy",
+    "specs": "Komplexní tvarové průniky, sedla trubek a zámky pro ocelové konstrukce bez nutnosti broušení.",
+    "norm": "Vysoká rozměrová přesnost"
+  },
+  {
+    "id": "laser-trumpf",
+    "name": "Přesné pálení plechů na laseru TRUMPF",
+    "category": "plechy",
+    "thickness": "Konstrukční ocel do 20 mm, nerez do 12 mm, hliník do 8 mm",
+    "specs": "CNC laserové pálení složitých tvarů z plechů s minimálním tepelným ovlivněním materiálu.",
+    "norm": "ČSN EN ISO 9013"
+  },
+  {
+    "id": "ohranovani-hap",
+    "name": "CNC ohraňovací lis HAP 30120 (120 t)",
+    "category": "plechy",
+    "force": "120 tun (1200 kN)",
+    "length": "3050 mm",
+    "axes": "4 řízené osy CNC",
+    "specs": "Vysoce přesné ohýbání silných plechů a profilů s automatickou kompenzací průhybu stolu.",
+    "norm": "Přesnost ohybu ±0.2°"
+  },
+  {
+    "id": "statika-certifikace",
+    "name": "Statické výpočty, atesty a protokoly zatížení",
+    "category": "sluzby",
+    "service": "Kompletní projektová a statická dokumentace",
+    "specs": "Statické posudky stožárů dle větrných map ČR a zatížení svítidly pro kolaudační řízení.",
+    "norm": "ČSN EN 1991-1-4"
+  }
+]

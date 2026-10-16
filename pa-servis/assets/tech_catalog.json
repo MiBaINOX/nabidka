@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gedip-17",
+    "name": "Přímočinné redukční ventily GEDIP 17-3 a 17-5",
+    "category": "ventily",
+    "medium": "Pára, technické plyny, voda",
+    "pn": "PN 16 – PN 40",
+    "dn": "DN 15 – DN 100",
+    "temp": "do 350 °C",
+    "specs": "Samočinné regulátory bez pomocné energie pro přesné udržení výstupního tlaku páry.",
+    "norm": "ČSN EN 12266-1"
+  },
+  {
+    "id": "polix-s15",
+    "name": "Pojistné ventily POLIX S15 plnozdvižné",
+    "category": "ventily",
+    "medium": "Pára, stlačený vzduch, plyny, kapaliny",
+    "pn": "PN 16 – PN 63",
+    "dn": "DN 15 – DN 200",
+    "temp": "-10 °C až +400 °C",
+    "specs": "Pružinové pojistné ventily k jištění kotlů a tlakových nádob s protokolem o seřízení.",
+    "norm": "ČSN EN ISO 4126-1"
+  },
+  {
+    "id": "socla-812",
+    "name": "Mezipřírubové zpětné ventily SOCLA 812",
+    "category": "ventily",
+    "medium": "Pára, kondenzát, agresivní kapaliny",
+    "pn": "PN 16 – PN 40",
+    "dn": "DN 15 – DN 200",
+    "material": "Nerezové těleso i talíř AISI 316",
+    "specs": "Zamezení zpětného toku v horizontální i vertikální poloze s minimální tlakovou ztrátou.",
+    "norm": "ČSN EN 12334"
+  },
+  {
+    "id": "veda-v30121",
+    "name": "Regulační ventily VEDA & V30121 s pohony",
+    "category": "ventily",
+    "medium": "Pára, horká voda, glykol",
+    "pn": "PN 16 – PN 40",
+    "dn": "DN 15 – DN 150",
+    "control": "Elektrické servopohony 230V / 24V, 4-20 mA",
+    "specs": "Plynulá regulace průtoku a teploty s lineární nebo rovnoprocentní charakteristikou.",
+    "norm": "ČSN EN 60534"
+  },
+  {
+    "id": "vlnovcove-ventily",
+    "name": "Vlnovcové uzavírací ventily hermetické",
+    "category": "ventily",
+    "medium": "Pára, termooil, horká voda",
+    "pn": "PN 16 – PN 40",
+    "dn": "DN 15 – DN 250",
+    "bellows": "Vícevrstvý nerezový vlnovec",
+    "specs": "Stoprocentní hermetická těsnost vřetene eliminující úniky parního média do ovzduší.",
+    "norm": "ČSN EN 13709"
+  },
+  {
+    "id": "odvadece-kondenzatu",
+    "name": "Plovákové a termické odvaděče kondenzátu",
+    "category": "odvadece",
+    "medium": "Parní kondenzát",
+    "pn": "PN 16 – PN 40",
+    "dn": "DN 15 – DN 50",
+    "types": "Plovákový kuličkový, termický kapslový, termodynamický",
+    "specs": "Plynulé automatické odvádění kondenzátu bez ztráty živé páry z parních spotřebičů.",
+    "norm": "ČSN EN 26704"
+  }
+]

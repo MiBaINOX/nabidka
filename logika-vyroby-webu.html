@@ -570,15 +570,15 @@
         <div class="top-nav-inner">
             <a href="#" class="brand-badge">
                 <span class="brand-dot"></span>
-                <span>B2B Engine v2.0 – Architektura &amp; Výrobní Logika</span>
+                <span>B2B Engine v2.1 – Architektura &amp; Výrobní Logika</span>
             </a>
             <div class="nav-links">
                 <a href="#problem-solution">Problémy vs. Zámky</a>
                 <a href="#pipeline">6 Fází Pipeline</a>
                 <a href="#archetypy">Rotace Archetypů</a>
-                <a href="#qa-gatekeeper">8 Závor QA</a>
+                <a href="#qa-gatekeeper">9 Závor QA</a>
                 <a href="#circuit-breaker">Jističe 24/7</a>
-                <a href="#k-zamysleni">Body k zamyšlení</a>
+                <a href="#k-zamysleni">Rozhodnutí &amp; Zámky</a>
                 <a href="prehled-interni-8f4k2.html" class="btn-crm">← Zpět do CRM Rozcestníku</a>
             </div>
         </div>
@@ -589,7 +589,7 @@
             <div class="eyebrow">⚙️ Technická dokumentace výrobní linky</div>
             <h1>Deterministická logika výroby B2B webů a PDF nabídek</h1>
             <p>
-                Přehled kompletního výrobního procesu po zavedení <strong>tvrdých programových závor v Pythonu</strong>.
+                Přehled kompletního výrobního procesu po zavedení <strong>tvrdých programových závor v Pythonu (B2B Engine v2.1)</strong>.
                 Cílem architektury je 100% eliminovat lidské i modelové zkratky („flákání“, ořezávání katalogů, halucinace v PDF či nepřesné špendlíky na mapě)
                 tím, že žádný web nemůže opustit linku bez splnění exaktních strojových kontrol.
             </p>
@@ -600,8 +600,8 @@
                     <div class="kpi-lbl">Od vstupního síta a RÚIAN katastru po verifikovaný Git Push</div>
                 </div>
                 <div class="kpi-box">
-                    <div class="kpi-val">8 Závor v QA</div>
-                    <div class="kpi-lbl">Strojová kontrola DOMu, mobilu, špendlíku mapy, překladů a PDF</div>
+                    <div class="kpi-val">9 Závor v QA</div>
+                    <div class="kpi-lbl">Strojová kontrola DOMu, otevřených modálů, přepnutí jazyka a jasu loga</div>
                 </div>
                 <div class="kpi-box">
                     <div class="kpi-val">100% Parita</div>
@@ -821,8 +821,8 @@
                         <div class="stage-title-group">
                             <div class="stage-num">04</div>
                             <div>
-                                <h3>Automatická před-publikační brána (Pre-Flight Gatekeeper)</h3>
-                                <div style="font-size:0.85rem;color:var(--text-muted);">8 exaktních strojových testů v bezhlavém Chromu a Pythonu</div>
+                                <h3>Automatická před-publikační brána (Pre-Flight Gatekeeper v2.1)</h3>
+                                <div style="font-size:0.85rem;color:var(--text-muted);">9 exaktních strojových testů v bezhlavém Chromu a Pythonu</div>
                             </div>
                         </div>
                         <span class="script-pill">py preflight_qa.py &lt;slug&gt;</span>
@@ -830,21 +830,24 @@
 
                     <div class="stage-grid">
                         <div class="stage-subbox">
-                            <h4>🛡️ Kontroly kódu, mobilu a mapy (1–4)</h4>
+                            <h4>🛡️ Kontroly kódu, mobilu, modálů a mapy (1–4)</h4>
                             <ul>
-                                <li><strong>1. Nula komentářů:</strong> <code>check_no_comments.py</code> nesmí najít jediný <code>&lt;!-- --&gt;</code>, <code>//</code> ani <code>/* */</code>.</li>
+                                <li><strong>1. Nula komentářů:</strong> <code>check_no_comments.py</code> nesmí najít jediný <code>&lt;!-- --&gt;</code>, <code>//</code> ani <code>/* */</code> v HTML/CSS/JS.</li>
                                 <li><strong>2. Mobilní responzivita 0px:</strong> <code>check_mobile_qa.py</code> otevře web v Chromu na <code>360×800</code> a <code>375×812</code> a změří horizontální přetečení (musí být <code>0px</code>).</li>
-                                <li><strong>3. Formulářové <code>&lt;option&gt;</code>:</strong> Všechny položky v <code>&lt;select&gt;</code> musí mít ≤ 45 znaků.</li>
-                                <li><strong>4. Mapy.cz RÚIAN Pin:</strong> Iframe i všechny odkazy <code>mapy.cz</code> musí mít <code>source=coor&amp;id=</code> a ležet do 120 m od katastru RÚIAN.</li>
+                                <li><strong>2b. Mobilní test OTEVŘENÉHO modálu:</strong> Headless Chrome programově klikne na kartu katalogu, otevře <code>#techModalBackdrop</code> s tabulkou rozměrů, změří přetečení modálu (<code>modalOverflowPx == 0</code>), ověří <code>overflow-x: auto; max-width: 100%</code> obal tabulky a viditelnost zavíracího křížku uvnitř 360px obrazovky.</li>
+                                <li><strong>3. Formulářové <code>&lt;option&gt;</code>:</strong> Všechny položky v <code>&lt;select&gt;</code> musí mít ≤ 45 znaků pro bezchybné zobrazení na mobilu.</li>
+                                <li><strong>4. Mapy.cz RÚIAN Pin:</strong> Iframe i všechny odkazy <code>mapy.cz</code> musí mít <code>source=coor&amp;id=</code> a ležet do 120 m od katastrálních souřadnic RÚIAN.</li>
                             </ul>
                         </div>
                         <div class="stage-subbox">
-                            <h4>🛡️ Kontroly obsahu, jazyků a pravdivosti (5–8)</h4>
+                            <h4>🛡️ Kontroly obsahu, jazyků, loga a pravdivosti (5–9)</h4>
                             <ul>
-                                <li><strong>5. Zákaz halucinovaných adres:</strong> Detekce nepovolených textů adres mimo ARES/kontakt.</li>
-                                <li><strong>6. Parita katalogu:</strong> Počet karet v HTML musí souhlasit s <code>tech_catalog.json</code> + přítomnost <code>#techModalBackdrop</code>.</li>
-                                <li><strong>7. 100% i18n překlady:</strong> Každý atribut <code>data-i18n</code> v HTML musí existovat ve slovníku v <code>script.js</code>.</li>
-                                <li><strong>8. Pravdivost PDF &amp; Nulové ceny:</strong> Křížová kontrola mezi vygenerovaným PDF a reálným DOMem webu.</li>
+                                <li><strong>5. Zákaz halucinovaných adres:</strong> Detekce nepovolených adres mimo ARES/kontakt.</li>
+                                <li><strong>5b. Zákaz vymyšlených sekvenčních kódů:</strong> Blokování umělých kódů produktů typu <code>*-001</code>, <code>*-002</code> bez doloženého výskytu v <code>raw_crawl.txt</code> původního webu.</li>
+                                <li><strong>6. Parita katalogu + 6b. Kontrola manifestu &amp; Počítadla:</strong> Žádná hlavní kategorie z <code>crawl_manifest.json</code> nesmí chybět na novém webu a jakékoliv počítadlo položek (<code>#searchCounter</code>) se musí přesně rovnat počtu karet v DOMu.</li>
+                                <li><strong>7. 100% i18n překlady + 7b. Skutečný test přepnutí jazyka:</strong> Skript v Chromu zavolá <code>setLanguage('en')</code>; pokud v kartách katalogu nebo popiscích zůstane česká diakritika (<code>[řěščžůťď]</code>) → okamžitý FAIL.</li>
+                                <li><strong>8. Pravdivost PDF &amp; Nulové ceny:</strong> Křížová kontrola mezi DOMem a tvrzeními v PDF; absolutní zákaz uvádění cen a měsíčních paušálů.</li>
+                                <li><strong>9. Strojová kontrola kontrastu loga (Luminance Gate):</strong> Měření průměrného jasu pixelů loga vs. efektivního pozadí (světlé/bílé logo vyžaduje tmavý podklad <code>lum &lt; 120</code> v hlavičce, sekcích i patičce).</li>
                             </ul>
                         </div>
                     </div>
@@ -997,27 +1000,27 @@
 
         <section class="section-block" id="k-zamysleni">
             <div class="think-box">
-                <h3>💡 Otázky a body k zamyšlení (Co můžeme ještě vylepšit?)</h3>
+                <h3>🔒 Implementovaná strategická rozhodnutí (B2B Engine v2.1)</h3>
                 <p style="color:var(--text-muted);font-size:0.95rem;">
-                    Při procházení této logiky se můžeš zamyslet nad těmito strategickými body – cokoliv z toho můžeme jedním příkazem upravit:
+                    Na základě zpětné vazby a auditu byly do produkčního jádra v2.1 natvrdo začleněny tyto systémové zámky:
                 </p>
 
                 <div class="think-list">
                     <div class="think-item">
-                        <h4>1. Přísnost kvalifikačního síta (Zákon č. 4)</h4>
-                        <p>Aktuálně skript <code>qualify_targets.py</code> vyžaduje alespoň 2 prokazatelné technické vady (např. chybějící mobilní viewport, HTTP bez SSL, starý redakční systém nebo tabulkový layout). Chceš toto síto nechat takto, nebo třeba upřednostňovat primárně weby bez SSL (<code>http://</code>) a zcela neresponzivní weby?</p>
+                        <h4>1. Regionální zámek Morava &amp; Slezsko + Přísné síto</h4>
+                        <p>Skript <code>qualify_targets.py</code> zpracovává výhradně Olomoucký, Moravskoslezský, Jihomoravský a Zlínský kraj. Do výroby jsou vpuštěny pouze firmy s nezabezpečeným HTTP, chybějícím viewportem či archaickým CMS (min. 2 vady). Moderní weby dostávají okamžitý ban <code>SKIPPED_MODERNI_WEB</code>.</p>
                     </div>
                     <div class="think-item">
-                        <h4>2. Hloubka modálních oken u obřích katalogů</h4>
-                        <p>Pokud má firma na starém webu např. 15 hlavních výrobních kategorií (jako Ekoprogres nebo Betonika), zobrazujeme na webu všechny kategorie a po kliknutí otevíráme technické modální okno s tabulkou rozměrů. Pokud má firma stovky drobných položek (e-shopový styl), seskupujeme je do ucelených typových řad s kompletní rozměrovou tabulkou uvnitř modálu.</p>
+                        <h4>2. Zákaz ořezávání sortimentu &amp; Modální okna</h4>
+                        <p>100% obsahová parita starého webu je zachována. Všechny podkategorie, tabulky rozměrů i parametry jsou přístupné přes technická modální okna (<code>#techModalBackdrop</code>), jež na mobilu prochází přísným testem responzivity <code>0px overflow</code>.</p>
                     </div>
                     <div class="think-item">
-                        <h4>3. Dokumenty a certifikáty ke stažení (PDF / VOP / ISO)</h4>
-                        <p>U firem, které mají na starém webu ke stažení PDF certifikáty (ISO, TÜV), technické listy nebo Všeobecné obchodní podmínky (případ Betonika), je v nové logice povinné vytvořit sekci certifikátů/dokumentů s přímými odkazy na tyto reálné dokumenty.</p>
+                        <h4>3. Povinná sekce Dokumenty / Certifikáty / VOP</h4>
+                        <p>Kdykoliv má původní web ke stažení technické katalogy, certifikáty ISO/TÜV nebo Všeobecné obchodní podmínky, nový prototyp na ně povinně přebírá odkazy a zpřístupňuje je klientům.</p>
                     </div>
                     <div class="think-item">
-                        <h4>4. Oborové kalkulátory vs. Rychlá poptávka</h4>
-                        <p>Každý web má oborový interaktivní prvek (např. kalkulátor kapacity EO u čistíren, konfigurátor dílců, živý filtr strojního parku u CNC). Vyhovuje ti tento přímý přenos zvolené konfigurace jedním klikem rovnou do předvyplněného poptávkového formuláře?</p>
+                        <h4>4. Schránkový helper pro e-maily (Anti-Truncate)</h4>
+                        <p>V CRM rozcestníku tlačítko <code>✉️ Otevřít v poště</code> volá funkci <code>openMailAndCopy()</code>, která celý 1 400znakový text nabídky zkopíruje do schránky a současně otevře <code>mailto:</code>, čímž eliminuje riziko oříznutí podpisu Windows klienty.</p>
                     </div>
                 </div>
             </div>

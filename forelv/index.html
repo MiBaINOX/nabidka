@@ -114,7 +114,7 @@
 
     <div class="bento-grid-3">
       
-      <div class="bento-card reveal">
+      <div class="bento-card reveal" data-open-tech="stozary-20m" style="cursor:pointer;">
         <div class="card-badge">Do 20 metrů</div>
         <div class="card-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
@@ -132,7 +132,7 @@
         </div>
       </div>
 
-      <div class="bento-card highlight-card reveal">
+      <div class="bento-card highlight-card reveal" data-open-tech="stozary-stadiony" style="cursor:pointer;">
         <div class="card-badge badge-accent">20 až 40 metrů</div>
         <div class="card-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 22 22 22"/></svg>
@@ -150,7 +150,7 @@
         </div>
       </div>
 
-      <div class="bento-card reveal">
+      <div class="bento-card reveal" data-open-tech="statika-certifikace" style="cursor:pointer;">
         <div class="card-badge">Zakázková výroba</div>
         <div class="card-icon">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
@@ -197,7 +197,7 @@
 
     <div class="bento-grid-2">
       
-      <div class="bento-card bento-tube reveal">
+      <div class="bento-card bento-tube reveal" data-open-tech="3d-laser-trubky" style="cursor:pointer;">
         <div class="card-badge badge-accent">Unikátní technologie 3 os</div>
         <h3 class="card-title">3D tvarové dělení trubek a profilů</h3>
         <p class="card-p">Určeno především pro mostní nosníky, střešní příhradové vazníky a prostorové ocelové konstrukce. Značně zjednodušuje montáž – dělené prvky do sebe na stavbě přesně zapadají bez nutnosti dodatečného lícování.</p>
@@ -256,7 +256,7 @@
         </div>
       </div>
 
-      <div class="bento-card bento-sheet reveal">
+      <div class="bento-card bento-sheet reveal" data-open-tech="laser-trumpf" style="cursor:pointer;">
         <div class="card-badge">Plošné řezání</div>
         <h3 class="card-title">Pálení plechů laserem TRUMPF</h3>
         <p class="card-p">Vysoce produktivní metoda dělení materiálu zaručující precizní rozměry a kolmost řezné hrany. Plně nahrazuje nákladné frézování či vysekávání plechů i u tvarově velmi složitých výpalků.</p>
@@ -341,7 +341,7 @@
 
     <div class="bento-grid-4">
       
-      <div class="bento-card reveal">
+      <div class="bento-card reveal" data-open-tech="ohranovani-hap" style="cursor:pointer;">
         <div class="card-icon">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
         </div>
@@ -930,7 +930,22 @@
       <div class="footer-meta">Vyrobeno v čistém standardu Swiss Bento Grid.</div>
     </div>
   </div>
-</footer>
+<div class="modal-backdrop tech-modal-backdrop" id="techModalBackdrop" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999; align-items:center; justify-content:center; padding:16px; box-sizing:border-box;">
+  <div class="tech-modal-dialog" style="max-width:640px; width:100%; max-height:90vh; overflow-y:auto; background:#0F172A; border:1px solid #334155; border-radius:14px; padding:24px; color:#FFFFFF; position:relative; box-sizing:border-box;">
+    <button class="tech-modal-close" id="techModalClose" aria-label="Zavřít" style="position:absolute; top:16px; right:16px; font-size:24px; color:#94A3B8; background:none; border:none; cursor:pointer;">&times;</button>
+    <div id="techModalBody">
+      <span class="tag-accent" id="techModalCat" style="color:#38bdf8; font-weight:700; text-transform:uppercase; font-size:0.85rem;">Technický list</span>
+      <h3 id="techModalTitle" style="margin:10px 0 16px; font-size:1.35rem; color:#FFFFFF;">Detail položky</h3>
+      <div class="table-responsive" style="overflow-x:auto; max-width:100%; box-sizing:border-box; margin-bottom:16px;">
+        <table class="tech-table" style="width:100%; border-collapse:collapse; min-width:280px;">
+          <thead><tr style="border-bottom:1px solid #334155;"><th style="padding:8px; text-align:left; color:#94a3b8;">Vlastnost</th><th style="padding:8px; text-align:left; color:#94a3b8;">Hodnota</th></tr></thead>
+          <tbody id="techModalRows"></tbody>
+        </table>
+      </div>
+      <p id="techModalDesc" style="color:#CBD5E1; font-size:0.95rem; line-height:1.5;"></p>
+    </div>
+  </div>
+</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="script.js"></script>

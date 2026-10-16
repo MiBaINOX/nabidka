@@ -334,3 +334,89 @@ function showCopiedFeedback() {
     }, 2000);
   }
 }
+
+var techData = {
+  "stozary-20m": {
+    cat: "Výrobní program",
+    title: "Osvětlovací stožáry do 20 m",
+    specs: [["Výška", "do 20 m"], ["Typy", "Stupňovité, kuželové, sadové"], ["Kotvení", "Přírubové na patku nebo vetknutí"], ["Norma", "ČSN EN 40-5, ČSN EN ISO 1461"]],
+    desc: "Kompletní certifikovaná řada stožárů pro veřejné osvětlení měst a komunikací se žárovým zinkováním."
+  },
+  "stozary-stadiony": {
+    cat: "Výškové věže",
+    title: "Výškové stožáry 20–40 m pro stadiony",
+    specs: [["Výška", "20 až 40 m"], ["Určení", "Fotbalové stadiony a velká sportoviště"], ["Zatížení", "Ověřené zatěžovací hodnoty a statika"], ["Norma", "ČSN EN 1991-1-4, ČSN EN ISO 1461"]],
+    desc: "Dimenzováno pro těžké sestavy LED světlometů s kompletní statickou projektovou dokumentací."
+  },
+  "statika-certifikace": {
+    cat: "Statika a atesty",
+    title: "Statické výpočty a certifikace stožárů",
+    specs: [["Certifikace", "ČSN EN ISO 1461"], ["Posudky", "Statické výpočty zatížení větrem"], ["Atesty", "Zatěžovací zkoušky"], ["Využití", "Kolaudace a stavební řízení"]],
+    desc: "Kompletní technická podpora a projektové posouzení všech stožárů dle větrných map ČR."
+  },
+  "3d-laser-trubky": {
+    cat: "CNC centrum",
+    title: "3D tvarové dělení trubek ve 3 osách",
+    specs: [["Řízené osy", "3 prostorové osy"], ["Přesnost řezu", "±0,2 mm"], ["Průměr obrobku", "do Ø 414 mm"], ["Tloušťka stěny", "až 15 mm"]],
+    desc: "Prostorové tvarové průniky a sedla trubek pro mostní nosníky a střešní příhradové vazníky."
+  },
+  "laser-trumpf": {
+    cat: "Plošné pálení",
+    title: "Pálení plechů laserem TRUMPF",
+    specs: [["Konstrukční ocel", "do 20 mm"], ["Nerez Fe-Cr", "do 12 mm"], ["Hliník Al", "do 8 mm"], ["Rozměr tabule", "1500 × 3000 mm"]],
+    desc: "CNC přesné pálení složitých tvarů z plechu s garantovanou kolmostí řezné hrany."
+  },
+  "ohranovani-hap": {
+    cat: "Tváření kovů",
+    title: "Ohraňovací lis CNC HAP 30120 (120 t)",
+    specs: [["Lisovací síla", "120 tun (1200 kN)"], ["Pracovní délka", "3050 mm"], ["Řízené osy", "4 osy CNC"], ["Max. tloušťka", "6 mm ocel"]],
+    desc: "Automatická kompenzace průhybu stolu pro dokonalou přesnost úhlů ohybu po celé délce."
+  }
+};
+
+var techModal = document.getElementById('techModalBackdrop');
+var techClose = document.getElementById('techModalClose');
+var techTitle = document.getElementById('techModalTitle');
+var techCat = document.getElementById('techModalCat');
+var techRows = document.getElementById('techModalRows');
+var techDesc = document.getElementById('techModalDesc');
+
+document.querySelectorAll('[data-open-tech]').forEach(function(card) {
+  card.addEventListener('click', function() {
+    var key = card.getAttribute('data-open-tech');
+    var item = techData[key];
+    if (item && techModal) {
+      if (techTitle) techTitle.textContent = item.title;
+      if (techCat) techCat.textContent = item.cat;
+      if (techDesc) techDesc.textContent = item.desc;
+      if (techRows) {
+        techRows.innerHTML = '';
+        item.specs.forEach(function(s) {
+          var tr = document.createElement('tr');
+          tr.style.borderBottom = '1px solid #1e293b';
+          tr.innerHTML = '<td style="padding:8px; color:#94a3b8;">' + s[0] + '</td><td style="padding:8px; color:#ffffff; font-weight:600;">' + s[1] + '</td>';
+          techRows.appendChild(tr);
+        });
+      }
+      techModal.style.display = 'flex';
+      techModal.classList.add('active');
+    }
+  });
+});
+
+if (techClose) {
+  techClose.addEventListener('click', function() {
+    if (techModal) {
+      techModal.style.display = 'none';
+      techModal.classList.remove('active');
+    }
+  });
+}
+if (techModal) {
+  techModal.addEventListener('click', function(e) {
+    if (e.target === techModal) {
+      techModal.style.display = 'none';
+      techModal.classList.remove('active');
+    }
+  });
+}

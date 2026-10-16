@@ -63,7 +63,19 @@ footer_contacts: "Kontaktní centrála",
 modal_specs_title: "Technické parametry",
 modal_feat_title: "Konstrukční přednosti",
 btn_inquire_product: "Poptat tento typ palety",
-btn_close: "Zavřít okno"
+btn_close: "Zavřít okno",
+prod_1_title: "EUROPLASTETA® Standard (EP 08 / EP 08R)",
+prod_1_perex: "Ekologická přepravní europaleta 1200 x 800 mm vyráběná ze 100% recyklovaného směsného plastu.",
+prod_2_title: "PLASTETA® Industriální (IP 10 / IP 10R)",
+prod_2_perex: "Zesílená průmyslová paleta 1200 x 1000 mm pro vysoké zatížení v logistických centrech a chemickém průmyslu.",
+prod_3_title: "EUROPLASTETA® Kontejnerová (CP 114)",
+prod_3_perex: "Kontejnerová paleta 1140 x 1140 mm navržená pro maximální využití prostoru v námořních ISO kontejnerech.",
+prod_4_title: "PLASTETA® Sudová (EP 08K)",
+prod_4_perex: "Specializovaná paleta s prolisy a bezpečnostním lůžkem pro bezpečnou přepravu a skladování 200l sudů.",
+prod_5_title: "PLASTETA® Plná s hladkou deskou (EP 08 - PD)",
+prod_5_perex: "Hygienická plná paleta s celistvou ložnou plochou bez otvorů pro sypké a potravinářské zboží.",
+prod_6_title: "Mobilní plastové svodidlo (SVOD)",
+prod_6_perex: "Modulární silniční svodidlo z recyklovaného plastu s možností úhlového natáčení a řetězení."
 },
 en: {
 nav_advantages: "Recycled Plastic Benefits",
@@ -127,7 +139,19 @@ footer_contacts: "Head Office",
 modal_specs_title: "Technical Parameters",
 modal_feat_title: "Design Advantages",
 btn_inquire_product: "Inquire This Model",
-btn_close: "Close"
+btn_close: "Close",
+prod_1_title: "EUROPLASTETA Standard (EP 08 / EP 08R)",
+prod_1_perex: "Eco-friendly shipping europallet 1200 x 800 mm manufactured from 100% recycled mixed plastic.",
+prod_2_title: "PLASTETA Industrial (IP 10 / IP 10R)",
+prod_2_perex: "Reinforced industrial shipping pallet 1200 x 1000 mm for heavy load distribution in logistics and chemical plants.",
+prod_3_title: "EUROPLASTETA Container (CP 114)",
+prod_3_perex: "Container pallet 1140 x 1140 mm designed for optimal cube utilization in maritime ISO freight containers.",
+prod_4_title: "PLASTETA Drum Pallet (EP 08K)",
+prod_4_perex: "Specialized pallet with molded cradles for safe transport and storage of two 200-liter chemical drums.",
+prod_5_title: "PLASTETA Solid Smooth Top (EP 08 - PD)",
+prod_5_perex: "Hygienic heavy pallet with a solid seamless top deck preventing contamination for food and bulk cargo.",
+prod_6_title: "Mobile Plastic Road Barrier (SVOD)",
+prod_6_perex: "Modular recycled polymer road safety barrier with interlocking hinges and variable angular positioning."
 },
 de: {
 nav_advantages: "Vorteile von Kunststoff",
@@ -191,7 +215,19 @@ footer_contacts: "Zentrale",
 modal_specs_title: "Technische Parameter",
 modal_feat_title: "Konstruktionsvorteile",
 btn_inquire_product: "Dieses Modell anfragen",
-btn_close: "Schließen"
+btn_close: "Schließen",
+prod_1_title: "EUROPLASTETA Standard (EP 08 / EP 08R)",
+prod_1_perex: "Ökologische Transport-Europalette 1200 x 800 mm aus 100% recyceltem Mischkunststoff.",
+prod_2_title: "PLASTETA Industriepalette (IP 10 / IP 10R)",
+prod_2_perex: "Verstärkte Industriepalette 1200 x 1000 mm für schwere Lasten in Logistik und chemischer Industrie.",
+prod_3_title: "EUROPLASTETA Containerpalette (CP 114)",
+prod_3_perex: "Containerpalette 1140 x 1140 mm zur optimalen Raumausnutzung in Seefrachtcontainern.",
+prod_4_title: "PLASTETA Fasspalette (EP 08K)",
+prod_4_perex: "Spezialpalette mit Mulden zur sicheren Beförderung und Lagerung von 200-Liter-Fässern.",
+prod_5_title: "PLASTETA Vollplatte (EP 08 - PD)",
+prod_5_perex: "Hygienische Vollkunststoffpalette mit geschlossener Deckfläche für lose Güter und Lebensmittel.",
+prod_6_title: "Mobile Leitplanke aus Kunststoff (SVOD)",
+prod_6_perex: "Modulare Leitplanke aus Recyclingkunststoff mit flexiblem Winkeleinschlag und Stecksystem."
 }
 };
 
@@ -239,7 +275,13 @@ el.textContent = dict[key];
 document.querySelectorAll(".lang-btn").forEach(b => {
 b.classList.toggle("active", b.dataset.lang === lang);
 });
+const modal = document.getElementById("techModalBackdrop");
+if (modal) {
+modal.classList.remove("active");
+modal.style.display = "none";
 }
+}
+window.setLanguage = setLanguage;
 
 const counters = document.querySelectorAll(".stat-number");
 const counterObserver = new IntersectionObserver((entries, observer) => {

@@ -197,3 +197,131 @@ function handlePaSubmit(event) {
 
     window.location.href = "mailto:paservis@paservis.cz?subject=" + subject + "&body=" + body;
 }
+
+const paTechData = {
+    "gedip-17": {
+        title: "Přímočinné redukční ventily GEDIP 17-3 a 17-5",
+        cat: "Přímočinné ventily",
+        desc: "Samočinné regulátory bez pomocné energie pro přesné udržení výstupního tlaku páry a technických plynů.",
+        specs: [
+            ["Médium", "Pára, technické plyny, voda"],
+            ["Tlaková třída", "PN 16 – PN 40"],
+            ["Světlost", "DN 15 – DN 100"],
+            ["Pracovní teplota", "do 350 °C"],
+            ["Norma", "ČSN EN 12266-1"]
+        ]
+    },
+    "polix-s15": {
+        title: "Pojistné ventily POLIX S15 plnozdvižné",
+        cat: "Pojistné ventily",
+        desc: "Pružinové pojistné ventily k jištění kotlů a tlakových nádob s protokolem o seřízení na zkušební stolici.",
+        specs: [
+            ["Médium", "Pára, stlačený vzduch, plyny, kapaliny"],
+            ["Tlaková třída", "PN 16 – PN 63"],
+            ["Světlost", "DN 15 – DN 200"],
+            ["Pracovní teplota", "-10 °C až +400 °C"],
+            ["Norma", "ČSN EN ISO 4126-1"]
+        ]
+    },
+    "socla-812": {
+        title: "Mezipřírubové zpětné ventily SOCLA 812",
+        cat: "Zpětné ventily",
+        desc: "Zamezení zpětného toku v horizontální i vertikální poloze s minimální tlakovou ztrátou.",
+        specs: [
+            ["Médium", "Pára, kondenzát, agresivní kapaliny"],
+            ["Tlaková třída", "PN 16 – PN 40"],
+            ["Světlost", "DN 15 – DN 200"],
+            ["Materiál tělesa", "Nerez AISI 316"],
+            ["Norma", "ČSN EN 12334"]
+        ]
+    },
+    "veda-v30121": {
+        title: "Regulační ventily VEDA & V30121 s pohony",
+        cat: "Regulační armatury",
+        desc: "Plynulá regulace průtoku a teploty s lineární nebo rovnoprocentní charakteristikou a servopohony.",
+        specs: [
+            ["Médium", "Pára, horká voda, glykol"],
+            ["Tlaková třída", "PN 16 – PN 40"],
+            ["Světlost", "DN 15 – DN 150"],
+            ["Řízení", "Elektrické servopohony 230V / 24V, 4-20 mA"],
+            ["Norma", "ČSN EN 60534"]
+        ]
+    },
+    "vlnovcove-ventily": {
+        title: "Vlnovcové uzavírací ventily hermetické",
+        cat: "Uzavírací ventily",
+        desc: "Stoprocentní hermetická těsnost vřetene eliminující úniky parního média do ovzduší.",
+        specs: [
+            ["Médium", "Pára, termooil, horká voda"],
+            ["Tlaková třída", "PN 16 – PN 40"],
+            ["Světlost", "DN 15 – DN 250"],
+            ["Těsnění vřetene", "Vícevrstvý nerezový vlnovec"],
+            ["Norma", "ČSN EN 13709"]
+        ]
+    },
+    "odvadece-kondenzatu": {
+        title: "Plovákové a termické odvaděče kondenzátu",
+        cat: "Odvaděče kondenzátu",
+        desc: "Plynulé automatické odvádění kondenzátu bez ztráty živé páry z parních spotřebičů.",
+        specs: [
+            ["Médium", "Parní kondenzát"],
+            ["Tlaková třída", "PN 16 – PN 40"],
+            ["Světlost", "DN 15 – DN 50"],
+            ["Provedení", "Plovákový kuličkový, termický kapslový, termodynamický"],
+            ["Norma", "ČSN EN 26704"]
+        ]
+    }
+};
+
+const paTechModal = document.getElementById("techModalBackdrop");
+const paTechClose = document.getElementById("techModalClose");
+const paTechTitle = document.getElementById("techModalTitle");
+const paTechCat = document.getElementById("techModalCat");
+const paTechRows = document.getElementById("techModalRows");
+const paTechDesc = document.getElementById("techModalDesc");
+
+document.querySelectorAll("[data-open-tech]").forEach(function(card) {
+    card.addEventListener("click", function() {
+        const key = card.getAttribute("data-open-tech");
+        const item = paTechData[key];
+        if (item && paTechModal) {
+            if (paTechTitle) paTechTitle.textContent = item.title;
+            if (paTechCat) paTechCat.textContent = item.cat;
+            if (paTechDesc) paTechDesc.textContent = item.desc;
+            if (paTechRows) {
+                paTechRows.innerHTML = "";
+                item.specs.forEach(function(s) {
+                    const tr = document.createElement("tr");
+                    tr.style.borderBottom = "1px solid #1e293b";
+                    tr.innerHTML = '<td style="padding:8px; color:#94a3b8;">' + s[0] + '</td><td style="padding:8px; color:#ffffff; font-weight:600;">' + s[1] + '</td>';
+                    paTechRows.appendChild(tr);
+                });
+            }
+            paTechModal.style.display = "flex";
+            paTechModal.classList.add("active");
+        }
+    });
+});
+
+if (paTechClose) {
+    paTechClose.addEventListener("click", function() {
+        if (paTechModal) {
+            paTechModal.style.display = "none";
+            paTechModal.classList.remove("active");
+        }
+    });
+}
+if (paTechModal) {
+    paTechModal.addEventListener("click", function(e) {
+        if (e.target === paTechModal) {
+            paTechModal.style.display = "none";
+            paTechModal.classList.remove("active");
+        }
+    });
+}
+document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape" && paTechModal && paTechModal.classList.contains("active")) {
+        paTechModal.style.display = "none";
+        paTechModal.classList.remove("active");
+    }
+});

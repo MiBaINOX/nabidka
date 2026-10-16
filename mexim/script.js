@@ -284,39 +284,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  function setLanguage(lang) {
-    const dict = I18N[lang] || I18N.cs;
-    document.querySelectorAll("[data-i18n]").forEach(el => {
-      const key = el.getAttribute("data-i18n");
-      if (dict[key]) {
-        el.innerText = dict[key];
-      }
-    });
-
-    document.querySelectorAll(".lang-btn").forEach(btn => {
-      if (btn.getAttribute("data-lang") === lang) {
-        btn.classList.add("active");
-      } else {
-        btn.classList.remove("active");
-      }
-    });
-
-    localStorage.setItem("mexim_lang", lang);
-    updateBearingFinder();
-  }
-
-  document.querySelectorAll(".lang-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const lang = btn.getAttribute("data-lang");
-      setLanguage(lang);
-    });
-  });
-
-  const savedLang = localStorage.getItem("mexim_lang") || "cs";
-  if (savedLang !== "cs") {
-    setLanguage(savedLang);
-  }
-
   const shaftDiameter = document.getElementById("shaftDiameter");
   const shaftVal = document.getElementById("shaftVal");
   const bearingTypeSelect = document.getElementById("bearingTypeSelect");
@@ -357,6 +324,40 @@ document.addEventListener("DOMContentLoaded", () => {
     if (resBearingSeries) resBearingSeries.innerText = series;
     if (resBearingDims) resBearingDims.innerText = dims;
     if (resLubricant) resLubricant.innerText = lub;
+  }
+
+  function setLanguage(lang) {
+    const dict = I18N[lang] || I18N.cs;
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+      const key = el.getAttribute("data-i18n");
+      if (dict[key]) {
+        el.textContent = dict[key];
+      }
+    });
+
+    document.querySelectorAll(".lang-btn").forEach(btn => {
+      if (btn.getAttribute("data-lang") === lang) {
+        btn.classList.add("active");
+      } else {
+        btn.classList.remove("active");
+      }
+    });
+
+    localStorage.setItem("mexim_lang", lang);
+    updateBearingFinder();
+  }
+  window.setLanguage = setLanguage;
+
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const lang = btn.getAttribute("data-lang");
+      setLanguage(lang);
+    });
+  });
+
+  const savedLang = localStorage.getItem("mexim_lang") || "cs";
+  if (savedLang !== "cs") {
+    setLanguage(savedLang);
   }
 
   if (shaftDiameter) shaftDiameter.addEventListener("input", updateBearingFinder);

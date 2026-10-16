@@ -242,7 +242,7 @@
                     </div>
                     <div class="catalog-search-wrap">
                         <input type="text" id="catalogSearch" class="catalog-search-input" placeholder="Hledat dílec, rozměr, normu..." data-i18n-placeholder="search_placeholder">
-                        <span class="search-counter" id="searchCounter">12 položek</span>
+                        <span class="search-counter" id="searchCounter">30 položek</span>
                     </div>
                 </div>
 
@@ -804,9 +804,9 @@
         </div>
     </footer>
 
-    <div class="modal-overlay" id="productModal">
+    <div class="modal-overlay tech-modal-backdrop" id="techModalBackdrop">
         <div class="modal-card">
-            <button class="modal-close" id="modalClose">&times;</button>
+            <button class="modal-close" id="techModalClose" aria-label="Zavřít">&times;</button>
             <div class="modal-grid">
                 <div class="modal-media">
                     <img src="" alt="" id="modalImg" class="modal-img">
@@ -815,7 +815,7 @@
                     <span class="tag-accent" id="modalCode">Kód</span>
                     <h3 id="modalTitle">Název položky</h3>
                     <p id="modalDesc">Popis produktu</p>
-                    <div class="modal-params" id="modalParams"></div>
+                    <div class="modal-params table-responsive" id="modalParams" style="overflow-x: auto; max-width: 100%;"></div>
                     <div class="modal-action">
                         <a href="#kontakt" class="btn-primary" id="modalInquireBtn" data-i18n="modal_inquire_btn">Poptat tento dílec</a>
                     </div>
