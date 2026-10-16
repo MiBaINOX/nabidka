@@ -1,0 +1,50 @@
+{
+  "slug": "horak-kovo",
+  "firma": "Horakkovo s.r.o.",
+  "ico": "08653895",
+  "obec": "Topolná",
+  "okres": "Uherské Hradiště",
+  "kraj": "Zlínský kraj",
+  "obor_plny": "Kovoobrábění a kovovýroba / CNC soustružení, frézování, elektroerozivní obrábění a přesné broušení",
+  "archetyp": "Corporate Portal",
+  "stary_web": "http://horakkovo.cz",
+  "email": "horakkovo@seznam.cz",
+  "telefon": "+420 572 508 312",
+  "mobil": "+420 605 255 540",
+  "adresa_plna": "č.p. 319, 687 11 Topolná",
+  "jednatel": "Vladimír Horák, Miroslav Horák",
+  "vedeni": "Vladimír Horák, Miroslav Horák, Vladimír Horák ml.",
+  "osloveni": "Vážení pánové Horákovi,",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Rodinná strojírenská tradice od roku 1992 s kompletním strojním parkem v Topolné",
+    "Přesné CNC soustružení (SF 55/1000, Doosan LYNX 220 B) i elektroeroze EDM (HITACHI 254R)",
+    "Dlouholeté reference pro průmyslové podniky RAVEO, Sekon plast, Bohemia Transport či SUKOV"
+  ],
+  "vady_stareho_webu": [
+    "Provoz na nezabezpečeném protokolu HTTP bez SSL/TLS certifikátu",
+    "Chybějící mobilní responzivita (absence meta viewportu, nutnost lupy na smartphonech)",
+    "Zastaralý systém inPage s nechtěně injektovaným spamem v kontaktní sekci",
+    "Statický přehled bez možnosti filtrování strojních kapacit a parametrů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní korporátní portál s expertním strojírenským tónem a přehlednou strukturou",
+    "Interaktivní katalog 14 kapacit a referencí s okamžitým filtrem technologií a vyhledáváním",
+    "Technické modální okno s detailními rozměrovými tabulkami a parametry pojezdů",
+    "100% responzivní layout bez horizontálního přetékání na mobilech od 360 px",
+    "Ověřený Mapy.cz widget s RÚIAN špendlíkem areálu v Topolné směr Bílovice"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1992,
+    "pocet_pracovniku": 5,
+    "katalog_pocet": 14,
+    "stroju_celkem": 11,
+    "normy": [
+      "ČSN ISO 2768",
+      "ČSN EN ISO 9001",
+      "DIN 6885"
+    ]
+  }
+}

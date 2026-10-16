@@ -1,0 +1,104 @@
+{
+  "pages": [
+    {
+      "url": "http://maringcnc.cz/",
+      "title": "Maring - CNC",
+      "length": 932
+    },
+    {
+      "url": "http://maringcnc.cz/vybaveni.php",
+      "title": "Maring - CNC",
+      "length": 2188
+    },
+    {
+      "url": "http://maringcnc.cz/kariera.php",
+      "title": "Maring - CNC",
+      "length": 87
+    },
+    {
+      "url": "http://maringcnc.cz/kontakty.php",
+      "title": "Maring - CNC",
+      "length": 331
+    },
+    {
+      "url": "http://maringcnc.cz/napiste_nam.php",
+      "title": "Maring - CNC",
+      "length": 192
+    }
+  ],
+  "images": [
+    {
+      "url": "http://maringcnc.cz/img/top_bord.png",
+      "local_filename": "top_bord.png",
+      "alt": "top_bord.png",
+      "size_bytes": 503
+    },
+    {
+      "url": "http://maringcnc.cz/img/logo.png",
+      "local_filename": "logo.png",
+      "alt": "marign-cnc",
+      "size_bytes": 103108
+    },
+    {
+      "url": "http://maringcnc.cz/img/promo1.png",
+      "local_filename": "promo1.png",
+      "alt": "Co nabĂ­zĂ­me",
+      "size_bytes": 21262
+    },
+    {
+      "url": "http://maringcnc.cz/img/promo2.png",
+      "local_filename": "promo2.png",
+      "alt": "Tradice",
+      "size_bytes": 18419
+    },
+    {
+      "url": "http://maringcnc.cz/img/promo3.png",
+      "local_filename": "promo3.png",
+      "alt": "Technologie",
+      "size_bytes": 17529
+    },
+    {
+      "url": "http://maringcnc.cz/img/maring-small.jpg",
+      "local_filename": "maring-small.jpg",
+      "alt": "NaĹˇe sĂ­dlo",
+      "size_bytes": 8826
+    },
+    {
+      "url": "http://maringcnc.cz/img/down_bord.png",
+      "local_filename": "down_bord.png",
+      "alt": "down_bord.png",
+      "size_bytes": 513
+    },
+    {
+      "url": "http://maringcnc.cz/img/ctx510eco-small.jpeg",
+      "local_filename": "ctx510eco-small.jpeg",
+      "alt": "DMG CTX 510 eco",
+      "size_bytes": 3800
+    },
+    {
+      "url": "http://maringcnc.cz/img/ctx310eco-small.jpeg",
+      "local_filename": "ctx310eco-small.jpeg",
+      "alt": "DMG CTX 310 eco",
+      "size_bytes": 3801
+    },
+    {
+      "url": "http://maringcnc.cz/img/ctx635eco-small.jpeg",
+      "local_filename": "ctx635eco-small.jpeg",
+      "alt": "DMG CTX 635 eco",
+      "size_bytes": 3882
+    },
+    {
+      "url": "http://maringcnc.cz/img/dratovka_small.png",
+      "local_filename": "dratovka_small.png",
+      "alt": "GF AgieCharmilles CUT 20 P - drĂˇtovĂˇ EDM Ĺ™ezaÄŤka",
+      "size_bytes": 26542
+    }
+  ],
+  "menu_categories": [
+    "Domů",
+    "Vybavení",
+    "Kontakty",
+    "Napište nám",
+    "Kariéra"
+  ]
+}

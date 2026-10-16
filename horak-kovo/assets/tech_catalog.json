@@ -1,0 +1,472 @@
+[
+  {
+    "id": "cnc-soustruh-sf55",
+    "title": "CNC soustruh SF 55/1000",
+    "category": "CNC soustružení",
+    "badge": "2 osy souvisle řízené",
+    "short_desc": "Dvouosý CNC soustruh pro vysoce přesné obrábění rotačních součástí z děleného i tyčového materiálu a hutních polotovarů.",
+    "image": "assets/cnc_soustruh_cnc_soustruh_maly1.jpg",
+    "specs": [
+      {
+        "label": "Oběžný průměr nad ložem",
+        "value": "550 mm"
+      },
+      {
+        "label": "Oběžný průměr nad suportem",
+        "value": "310 mm"
+      },
+      {
+        "label": "Točná délka mezi hroty",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Vrtání vřetena",
+        "value": "72 mm"
+      },
+      {
+        "label": "Ovládání stroje",
+        "value": "Manuální, poloautomatické a automatické"
+      },
+      {
+        "label": "Konstrukční přednosti",
+        "value": "Vysoká tuhost, broušené vodorovné lože, precisní uložení suportu"
+      }
+    ],
+    "features": [
+      "Plynulé obrábění v osách X a Z pro přesné rotační součásti",
+      "Hydraulické upínací sklíčidlo a vícepolohová nástrojová hlava",
+      "Vhodné pro opakované série i kusové náročné zakázky"
+    ]
+  },
+  {
+    "id": "doosan-lynx-220b",
+    "title": "Doosan LYNX 220 B",
+    "category": "CNC soustružení",
+    "badge": "Sériové CNC centrum",
+    "short_desc": "Vysoce produktivní CNC soustružnické centrum se šikmým ložem určené pro rychlou a hospodárnou sériovou výrobu.",
+    "image": "assets/doosan220B_doosan220B_maly1.jpg",
+    "specs": [
+      {
+        "label": "Maximální točný průměr",
+        "value": "320 mm"
+      },
+      {
+        "label": "Maximální točná délka",
+        "value": "510 mm"
+      },
+      {
+        "label": "Průchod vřetena",
+        "value": "65 mm (posuv tyčoviny)"
+      },
+      {
+        "label": "Nástrojová hlava",
+        "value": "12 polohovatelných nástrojových pozic"
+      },
+      {
+        "label": "Podpěrný koník",
+        "value": "Plně programovatelný hydraulický"
+      },
+      {
+        "label": "Lože stroje",
+        "value": "Tuhé šikmé lože s rychlými dynamickými posuvy"
+      }
+    ],
+    "features": [
+      "Integrovaná nástrojová sonda pro bleskové a přesné seřízení",
+      "Automatický podavač a posun tyčového materiálu",
+      "Výrazné zkrácení výrobních časů a minimalizace nákladů na kus"
+    ]
+  },
+  {
+    "id": "hitachi-245r-edm",
+    "title": "Elektroerozivní drátová řezačka HITACHI 254R",
+    "category": "Elektroerozivní obrábění",
+    "badge": "Přesnost EDM drátování",
+    "short_desc": "CNC drátová řezačka se zaplavenou vanou pro mikronovou přesnost řezání forem, střižných nástrojů a kalených ocelí.",
+    "image": "assets/dratovka_dratovka_mala1.jpg",
+    "specs": [
+      {
+        "label": "Průměr řezného drátu",
+        "value": "0,25 mm mosazný drát"
+      },
+      {
+        "label": "Pracovní prostředí",
+        "value": "Zaplavená vana pro maximální tepelnou a geometrickou stabilitu"
+      },
+      {
+        "label": "Kuželové řezání",
+        "value": "Úhel řezu až +/- 12° na 100 mm výšky"
+      },
+      {
+        "label": "Upínací systém",
+        "value": "Švýcarský referenční systém HIRSCHMANN"
+      },
+      {
+        "label": "Typické výrobky",
+        "value": "Raznice, formy, vytlačovací hubice pro plastikářský průmysl"
+      }
+    ],
+    "features": [
+      "Bezkontaktní dělení bez vnitřního mechanického pnutí materiálu",
+      "Schopnost řezat kalené, zušlechtěné oceli i slinuté karbidy",
+      "Vysoká přesnost obrysů s excelentní jakostí obrobeného povrchu"
+    ]
+  },
+  {
+    "id": "soustruh-sv18r",
+    "title": "Hrotový soustruh SV 18R",
+    "category": "Konvenční soustružení",
+    "badge": "Legendární přesnost TOS",
+    "short_desc": "Univerzální hrotový soustruh pro přesné kusové soustružení válcových, kuželových ploch a řezání závitů.",
+    "image": "assets/soustruh_sv18_soustruh_sv18_velky1.jpg",
+    "specs": [
+      {
+        "label": "Oběžný průměr nad ložem",
+        "value": "380 mm"
+      },
+      {
+        "label": "Oběžný průměr nad suportem",
+        "value": "215 mm"
+      },
+      {
+        "label": "Vzdálenost mezi hroty",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Vrtání vřetena",
+        "value": "41 mm"
+      },
+      {
+        "label": "Typy řezaných závitů",
+        "value": "Metrické, Whitworth, modulové i diametral pitch"
+      }
+    ],
+    "features": [
+      "Vyhlášená přesnost a citlivost vřetena pro lícované průměry",
+      "Ideální zázemí pro rychlou zakázkovou a prototypovou výrobu",
+      "Kompletní nabídka soustružnických nožů a přípravků"
+    ]
+  },
+  {
+    "id": "soustruh-sn40",
+    "title": "Univerzální soustruh SN 40",
+    "category": "Konvenční soustružení",
+    "badge": "Robustní točné kapacity",
+    "short_desc": "Výkonný hrotový soustruh s velkou tuhostí a kapacitou pro obrábění větších a těžších válcových dílců.",
+    "image": "assets/soustruh_sn40_soustruh_sn40_velky1.jpg",
+    "specs": [
+      {
+        "label": "Oběžný průměr nad ložem",
+        "value": "400 mm"
+      },
+      {
+        "label": "Oběžný průměr v prolomení",
+        "value": "600 mm"
+      },
+      {
+        "label": "Oběžný průměr nad suportem",
+        "value": "220 mm"
+      },
+      {
+        "label": "Točná délka",
+        "value": "1000 až 1500 mm"
+      },
+      {
+        "label": "Vrtání vřetena",
+        "value": "52 mm"
+      }
+    ],
+    "features": [
+      "Obrábění rozměrných hřídelí a polotovarů pro hydrauliku",
+      "Příprava dílců s přídavkem pro finální hrotové broušení",
+      "Vysoký krouticí moment pro spolehlivý úběr materiálu"
+    ]
+  },
+  {
+    "id": "frezka-fa3av",
+    "title": "Vertikální frézka FA3AV",
+    "category": "Frézování",
+    "badge": "Univerzální vertikální frézování",
+    "short_desc": "Univerzální vertikální konzolová frézka pro kusovou a malosériovou výrobu rovin, drážek a tvarových ploch.",
+    "image": "assets/frezka_frezka_velka1.jpg",
+    "specs": [
+      {
+        "label": "Upínací plocha stolu",
+        "value": "300 × 1375 mm"
+      },
+      {
+        "label": "Podélný pojezd (X)",
+        "value": "800 mm"
+      },
+      {
+        "label": "Příčný pojezd (Y)",
+        "value": "275 mm"
+      },
+      {
+        "label": "Svislý pojezd (Z)",
+        "value": "400 mm"
+      },
+      {
+        "label": "Upínací kužel vřetena",
+        "value": "ISO 40"
+      }
+    ],
+    "features": [
+      "Frézování přesných drážek pro pera, T-drážek a prizmatických ploch",
+      "Spolehlivá konzolová konstrukce s minimálními vibracemi",
+      "Kusová i malosériová příprava konstrukčních dílců"
+    ]
+  },
+  {
+    "id": "bruska-bu28",
+    "title": "Hrotová bruska na kulato BU 28x100",
+    "category": "Přesné broušení",
+    "badge": "Mikronová přesnost IT5/IT6",
+    "short_desc": "Přesná hrotová bruska určená k finálnímu broušení vnějších a vnitřních válcových i kuželových ploch.",
+    "image": "assets/bruska_na_kulato_bruska_na_kulato_velka1.jpg",
+    "specs": [
+      {
+        "label": "Oběžný průměr",
+        "value": "280 mm"
+      },
+      {
+        "label": "Vzdálenost mezi hroty",
+        "value": "1000 mm"
+      },
+      {
+        "label": "Maximální hmotnost obrobku",
+        "value": "65 kg"
+      },
+      {
+        "label": "Úhlové natáčení stolu",
+        "value": "Broušení táhlých i strmých kuželů"
+      },
+      {
+        "label": "Dosažitelná drsnost",
+        "value": "Ra 0,2 až 0,4 um"
+      }
+    ],
+    "features": [
+      "Přesné broušení čepů, ložiskových sedel a pístních tyčí",
+      "Zpracování součástí po kalení a zušlechťování",
+      "Dodržení přísných tolerancí válcovitosti a soustřednosti"
+    ]
+  },
+  {
+    "id": "bruska-brh20a",
+    "title": "Rovinná bruska na plocho BRH 20A",
+    "category": "Přesné broušení",
+    "badge": "Rovinnost a planparalelita",
+    "short_desc": "Vodorovná rovinná bruska pro precizní broušení rovin desek, lišt a nožů obvodem brusného kotouče.",
+    "image": "assets/bruska_na_plocho_bruska_na_plocho_velka1.jpg",
+    "specs": [
+      {
+        "label": "Upínací plocha stolu",
+        "value": "200 × 630 mm"
+      },
+      {
+        "label": "Maximální rozměr broušení",
+        "value": "200 × 600 mm"
+      },
+      {
+        "label": "Upínací systém",
+        "value": "Elektromagnetická upínací deska"
+      },
+      {
+        "label": "Přísuv vřeteníku",
+        "value": "Jemný mikrometrický svislý posuv"
+      }
+    ],
+    "features": [
+      "Broušení kalených ocelových lišt, nožů a desek forem",
+      "Vysoká planparalelita a zrcadlově čistý broušený povrch",
+      "Zpracování nástrojových i konstrukčních ocelí"
+    ]
+  },
+  {
+    "id": "obrazecka-st125",
+    "title": "Svislá obrážečka ST 125",
+    "category": "Konvenční obrábění",
+    "badge": "Drážky a vnitřní profily",
+    "short_desc": "Svislá obrážečka s otočným dělicím stolem pro protahování drážek per, vnitřních šestihranů a drážkování.",
+    "image": "assets/obrazecka_obrazecka_velka1.jpg",
+    "specs": [
+      {
+        "label": "Maximální zdvih smykadla",
+        "value": "125 mm"
+      },
+      {
+        "label": "Průměr otočného stolu",
+        "value": "315 mm"
+      },
+      {
+        "label": "Výrobní operace",
+        "value": "Drážky per DIN 6885, vnitřní mnohohrany"
+      },
+      {
+        "label": "Nastavení smykadla",
+        "value": "Možnost obrážení kuželových otvorů"
+      }
+    ],
+    "features": [
+      "Zhotovení vnitřních drážek v řemenicích, spojkách a ozubených kolech",
+      "Dělicí stůl pro přesné rozteče vícenásobných drážek",
+      "Operativní výroba bez nutnosti drahých protahovacích trnů"
+    ]
+  },
+  {
+    "id": "vrtacka-vs20",
+    "title": "Sloupová vrtačka VS 20",
+    "category": "Konvenční obrábění",
+    "badge": "Vrtání a závitování",
+    "short_desc": "Univerzální dílenská vrtačka s širokým rozsahem otáček a automatickým posuvem pro přesné vrtání a závity.",
+    "image": "assets/stroje_vrtacka_sloupova.jpg",
+    "specs": [
+      {
+        "label": "Maximální průměr vrtání",
+        "value": "20 mm do oceli"
+      },
+      {
+        "label": "Kužel vřetena",
+        "value": "Morse 3 (MK3)"
+      },
+      {
+        "label": "Vyložení vřetena",
+        "value": "250 mm"
+      },
+      {
+        "label": "Posuv vřetena",
+        "value": "Ruční i automatický strojní posuv"
+      }
+    ],
+    "features": [
+      "Přesné vrtání, zahlubování a vystružování otvorů v toleranci H7",
+      "Možnost řezání vnitřních závitů s vratným chodem",
+      "Tuhá konstrukce litinového sloupu a základny"
+    ]
+  },
+  {
+    "id": "pila-mod270",
+    "title": "Pásová pila na kov MOD 270",
+    "category": "Dělení materiálu",
+    "badge": "Dělení profilů do průměru 270 mm",
+    "short_desc": "Robustní pásová pila na kov pro přesné dělení tyčí, trubek a profilů s možností plynulého úhlového řezání.",
+    "image": "assets/stroje_pilka.jpg",
+    "specs": [
+      {
+        "label": "Kapacita řezu - kulatina 90°",
+        "value": "Průměr 270 mm"
+      },
+      {
+        "label": "Kapacita řezu - čtyřhran 90°",
+        "value": "260 × 260 mm"
+      },
+      {
+        "label": "Úhlové řezy",
+        "value": "Plynulé natáčení ramene 0° až 60°"
+      },
+      {
+        "label": "Chlazení řezu",
+        "value": "Integrovaný okruh chladicí emulze"
+      }
+    ],
+    "features": [
+      "Rychlá příprava polotovarů pro CNC i konvenční stroje",
+      "Čisté a kolmé řezy s minimálním prořezem a bez otřepů",
+      "Dělení konstrukčních, nerezových i nástrojových ocelí"
+    ]
+  },
+  {
+    "id": "kladka-odtahu",
+    "title": "Kladka odtahu",
+    "category": "Výrobní reference",
+    "badge": "Plastikářský průmysl",
+    "short_desc": "Přesný rotační dílec vyráběný pro plastikářský průmysl s přísnými požadavky na soustřednost a uložení ložisek.",
+    "image": "assets/kladka_odtahu_kladka_odtahu.jpg",
+    "specs": [
+      {
+        "label": "Výrobní technologie",
+        "value": "CNC soustruh SF 55/1000"
+      },
+      {
+        "label": "Odvětví nasazení",
+        "value": "Plastikářský a vytlačovací průmysl"
+      },
+      {
+        "label": "Tolerance uložení",
+        "value": "Přesná ložisková sedla v toleranci js6"
+      },
+      {
+        "label": "Výrobní charakter",
+        "value": "Opakovaná malosériová výroba"
+      }
+    ],
+    "features": [
+      "Přesné soustružení tvarového obvodu pro odtah profilů",
+      "Kontrola házivosti a dynamické stability obrobku",
+      "100% kontrola rozměrů měřidly před expedicí"
+    ]
+  },
+  {
+    "id": "pist-ic416",
+    "title": "Píst IC416",
+    "category": "Výrobní reference",
+    "badge": "Hydraulické systémy",
+    "short_desc": "Kusová zakázková výroba pístu pro hydraulické zařízení se soustružením a následným přídavkem na broušení.",
+    "image": "assets/pist_IC416_pist_IC416.jpg",
+    "specs": [
+      {
+        "label": "Soustružení tělesa",
+        "value": "Hrotový soustruh SN 40"
+      },
+      {
+        "label": "Finální dokončení",
+        "value": "Hrotová bruska na kulato BU 28x100"
+      },
+      {
+        "label": "Dosažená drsnost",
+        "value": "Ra 0,4 um pro bezpečné těsnění"
+      },
+      {
+        "label": "Výrobní charakter",
+        "value": "Přesná kusová zakázka"
+      }
+    ],
+    "features": [
+      "Přesné drážky pro hydraulické manžety a stírací kroužky",
+      "Vysoká odolnost povrchu proti otěru v tlakovém prostředí",
+      "Zakázková kusová výroba dle dodané výkresové dokumentace"
+    ]
+  },
+  {
+    "id": "miska-kardanu-mala",
+    "title": "Miska kardanu - malá",
+    "category": "Výrobní reference",
+    "badge": "Pohonná technika",
+    "short_desc": "Opakovaně vyráběný komponent kardanového mechanismu zhotovovaný na moderním CNC soustruhu pro pohonné systémy.",
+    "image": "assets/miska_kardanu_mala_miska_kardanu_mala.jpg",
+    "specs": [
+      {
+        "label": "Výrobní technologie",
+        "value": "CNC soustruh SF 55/1000"
+      },
+      {
+        "label": "Odvětví nasazení",
+        "value": "Pohonná a automobilová technika"
+      },
+      {
+        "label": "Materiálová báze",
+        "value": "Cementační ušlechtilá ocel"
+      },
+      {
+        "label": "Výrobní charakter",
+        "value": "Opakovaná sériová výroba"
+      }
+    ],
+    "features": [
+      "Soustředné vnitřní osazení pro uložení kardanového kříže",
+      "Drážky pro pojistné kroužky s mikronovou opakovatelností",
+      "Vysoká hospodárnost výroby díky CNC optimalizaci"
+    ]
+  }
+]

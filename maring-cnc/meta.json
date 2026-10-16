@@ -1,0 +1,66 @@
+{
+  "slug": "maring-cnc",
+  "firma": "MARING-CNC, s.r.o.",
+  "ico": "28313917",
+  "obec": "Staré Město",
+  "okres": "Uherské Hradiště",
+  "kraj": "Zlínský kraj",
+  "obor_plny": "Kovoobrábění a kovovýroba / přesné CNC frézování, soustružení a obrábění dílců pro průmysl",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://maringcnc.cz",
+  "email": "maringcnc@seznam.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Moderní CNC strojní park DMG MORI (CTX 510 eco, CTX 310 eco, CTX 635 eco) pro přesné soustružení a frézování",
+    "Špičková drátová elektroerozivní řezačka GF AgieCharmilles CUT 20 P s přesností Ra < 0.25 µm a řezáním bez bílé vrstvy",
+    "Kompletní výroba dílců od dělení materiálu a CNC opracování až po 100% rozměrovou kontrolu a protokolování",
+    "Dlouholetá tradice a stabilita v kovoobrábění od roku 2008 přímo ve Starém Městě u Uherského Hradiště"
+  ],
+  "vady_stareho_webu": [
+    "Absence mobilní responzivity – web zcela postrádá značku meta viewport a na smartphonech vyžaduje horizontální posuv a neustálé zoomování",
+    "Nezabezpečené spojení HTTP – moderní webové prohlížeče varují firemní návštěvníky před nezabezpečeným webem",
+    "Archaický fixní layout z roku 2012 s rozbitým kódováním diakritiky v meta tazích",
+    "Statická neinteraktivní prezentace strojního parku v miniaturních náhledech bez možnosti vyhledávání či filtrace parametrů",
+    "Absence interaktivní mapy se špendlíkem pro navigaci do výrobních prostor na ulici Brněnská"
+  ],
+  "vylepseni_noveho_webu": [
+    "Výrazný industriální archetyp Editorial & Story s velkoformátovou prezentací výroby a časovou osou vývoje firmy",
+    "Interaktivní katalog strojního parku a výrobních kapacit s vyhledáváním v reálném čase, filtry a technickým modálním oknem",
+    "100% mobilní responzivita s nulovým horizontálním přetečením (0px overflow na 360px i 375px)",
+    "Plovoucí statistické karty, scroll-reveal animace a plynulé načítání reálných technických faktů",
+    "Ověřený Mapy.cz widget s červeným špendlíkem na přesné souřadnice areálu ve Starém Městě dle RÚIAN",
+    "Přímé personální vizitky obou jednatelů s ověřenými telefonními a e-mailovými kontakty"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2008,
+    "zkusenosti_let": 16,
+    "stroje": [
+      "DMG MORI CTX 510 eco (oběžný Ø 680 mm, točný Ø 465 mm, pojezd Z 1050 mm, 12 nástrojů / 6 poháněných, 33 kW)",
+      "DMG MORI CTX 310 eco (oběžný Ø 330 mm, točný Ø 200 mm, pojezd Z 450 mm, 5000 ot/min, 16.5 kW)",
+      "DMG MORI CTX 635 eco / DMC 635 eco (pojezdy 635×510×460 mm, stůl 790×560 mm / 600 kg, 10000 ot/min, SK 40)",
+      "GF AgieCharmilles CUT 20 P drátová EDM řezačka (pojezdy 350×250×250 mm, drát 0.1-0.3 mm, Ra < 0.25 µm)"
+    ],
+    "kontaktni_osoby": [
+      {
+        "jmeno": "Ing. Čeněk Říha",
+        "funkce": "Jednatel společnosti",
+        "telefon": "+420 608 442 552",
+        "email": "maringcnc@seznam.cz"
+      },
+      {
+        "jmeno": "Bc. Vladislava Zemánková",
+        "funkce": "Jednatelka společnosti",
+        "telefon": "+420 724 379 592",
+        "email": "maringcnc@seznam.cz"
+      }
+    ],
+    "sidlo": "Brněnská 490, 686 03 Staré Město",
+    "gps": {
+      "lat": 49.07448,
+      "lon": 17.42821
+    },
+    "dic": "CZ28313917"
+  }
+}

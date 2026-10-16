@@ -1,0 +1,53 @@
+{
+  "slug": "kontinent-plast",
+  "firma": "Kontinent Plast s.r.o.",
+  "ico": "49969340",
+  "dic": "CZ49969340",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba plastů a pryže / lisování plastů, distribuce technických polymerních granulátů (HDPE, LDPE, PP, PVC, konstrukční termoplasty) pro vstřikování a vytlačování",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://kontinentplast.cz",
+  "email": "kontinentplast@email.cz",
+  "jazyky": [
+    "CZ",
+    "EN"
+  ],
+  "languages": [
+    "cz",
+    "en"
+  ],
+  "prodejni_body": [
+    "Certifikované granuláty HDPE, LDPE, PP, PVC a inženýrské termoplasty",
+    "30+ let tradice a stability na evropském trhu polymerů od roku 1994",
+    "Kompletní logistický servis včetně celního odbavení a přímého závozu do výroby",
+    "Okamžitá skladová dostupnost klíčových šarží v Brně"
+  ],
+  "vady_stareho_webu": [
+    "Absence responzivního meta viewportu – stránky se na mobilních zařízeních nezalamují a vyžadují horizontální rolování a zoomování",
+    "Nezabezpečené spojení přes zastaralý HTTP protokol bez platného SSL/TLS certifikátu (prohlížeče hlásí Nezabezpečeno)",
+    "Zastaralé kódování Windows-1250 způsobující rozpad diakritiky na moderních zařízeních",
+    "Archaický tabulkový layout s nečitelnými technickými parametry a bez interaktivního vyhledávání v materiálech"
+  ],
+  "vylepseni_noveho_webu": [
+    "Heavy Industrial design optimalizovaný pro B2B nákupčí plastů, vstřikolisovny a vytlačovací provozy",
+    "Interaktivní katalog 18 certifikovaných polymerních tříd s fulltextovým vyhledáváním a filtrací dle bází (PE, PP, PVC, PS, technické plasty)",
+    "Plnohodnotná technická modální okna (#techModalBackdrop) s kompletními fyzikálními parametry (hustota, MFI, tahová pevnost, Vicat, atesty)",
+    "100% funkční okamžitý přepínač jazyků CZ / EN s kompletním překladem všech prvků a karet",
+    "Ověřená adresa Bohunická 133/50, Horní Heršpice s přesným Mapy.cz špendlíkem dle katastrálního geokodéru RÚIAN"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1994,
+    "sidlo": "Bohunická 133/50, Horní Heršpice, 619 00 Brno",
+    "jednatel": "Pavel Klaška",
+    "pocet_materialu": 18,
+    "sortiment": "Polyetylen (HDPE, LDPE, LLDPE), Polypropylen (Homo, PPC, PPRC), Polyvinylchlorid (S-PVC K67, K70), Polystyren (HIPS, GPPS), Polyamidy (PA6, PA66), ABS, PC, POM",
+    "sluzby": [
+      "Distribuce polymerních granulátů",
+      "Celní odbavení",
+      "Doprava v silocisternách a big-bag balení",
+      "Technické materiálové poradenství"
+    ]
+  }
+}

@@ -1,0 +1,276 @@
+=== URL: http://maringcnc.cz/ ===
+META: text/html; charset=utf-8
+META: cs
+META: VĂ˝roba souÄŤĂˇstek pomocĂ­ CNC strojĹŻ ve StarĂ©m MÄ›stÄ› u UherskĂ©ho HradiĹˇtÄ›.
+META: CNC,vĂ˝roba soÄŤĂˇstek,strojnĂ­ souÄŤĂˇstky,StarĂ© MÄ›sto,UherskĂ© HradiĹˇtÄ›,DMG CTX 510 eco,soustruh,DMG CTX 310 eco,DMG CTX 635 eco,vertikĂˇlnĂ­ obrĂˇbÄ›cĂ­ centrum,Brother TC 32A,frĂ©za
+IMG ALT: top_bord.png
+IMG SRC: img/top_bord.png
+IMG ALT: marign-cnc
+IMG SRC: img/logo.png
+IMG ALT: Co nabĂ­zĂ­me
+IMG SRC: img/promo1.png
+IMG ALT: Tradice
+IMG SRC: img/promo2.png
+IMG ALT: Technologie
+IMG SRC: img/promo3.png
+IMG ALT: NaĹˇe sĂ­dlo
+IMG SRC: /img/maring-small.jpg
+IMG ALT: down_bord.png
+IMG SRC: img/down_bord.png
+Maring - CNC
+DomĹŻ
+VybavenĂ­
+Kontakty
+NapiĹˇte nĂˇm
+KariĂ©ra
+Co nabĂ­zĂ­me
+CNC ĹˇpiÄŤkovĂ© kvality na strojĂ­ch novĂ© generace
+Tradice
+NaĹˇe firma se mĹŻĹľe pochlubit dlouhou tradicĂ­ v oboru a velkĂ˝m mnoĹľstvĂ­m spokojenĂ˝ch zĂˇkaznĂ­kĹŻ
+Technologie
+PouĹľĂ­vĂˇme nejnovÄ›jĹˇĂ­ technologie zaruÄŤujĂ­cĂ­ kvalitu zpracovĂˇnĂ­.
+VĂ˝roba strojĂ­renskĂ˝ch souÄŤĂˇstek
+ProÄŤ si ke spoluprĂˇci vybrat prĂˇvÄ› nĂˇs?
+NaĹˇe spoleÄŤnost mĂˇ dlouhou tradici a velkĂ© zkuĹˇenosti na trhu s obrĂˇbÄ›nĂ­m pomocĂ­ CNC strojĹŻ
+PouĹľĂ­vĂˇme nejnovÄ›jĹˇĂ­ technologie, abychom zaruÄŤili dokonalou kvalitu naĹˇich vĂ˝robkĹŻ
+NĂˇĹˇ odbornÄ› vyĹˇkolenĂ˝ personĂˇl VĂˇm odpovĂ­ na jakĂ©koliv dotazy a pomĹŻĹľe VĂˇm s realizacĂ­ VaĹˇeho projektu
+VĂ˝robnĂ­ prostory jsou pĹ™Ă­mo ve StarĂ©m MÄ›stÄ›
+VeĹˇkerĂ© dotazy mĹŻĹľete smÄ›rovat pomocĂ­
+kontaktnĂ­ho formulĂˇĹ™e
+a my VĂˇm co nejdĹ™Ă­ve odpovĂ­me
+Nebo nĂˇs kontaktujte
+pĹ™Ă­mo
+Copyrights MARING-CNC 2012
+
+
+=== URL: http://maringcnc.cz/vybaveni.php ===
+META: text/html; charset=utf-8
+META: cs
+META: VĂ˝roba souÄŤĂˇstek pomocĂ­ CNC strojĹŻ ve StarĂ©m MÄ›stÄ› u UherskĂ©ho HradiĹˇtÄ›.
+META: CNC,vĂ˝roba soÄŤĂˇstek,strojnĂ­ souÄŤĂˇstky,StarĂ© MÄ›sto,UherskĂ© HradiĹˇtÄ›,DMG CTX 510 eco,soustruh,DMG CTX 310 eco,DMG CTX 635 eco,vertikĂˇlnĂ­ obrĂˇbÄ›cĂ­ centrum,Brother TC 32A,frĂ©za
+IMG ALT: top_bord.png
+IMG SRC: img/top_bord.png
+IMG ALT: marign-cnc
+IMG SRC: img/logo.png
+IMG ALT: DMG CTX 510 eco
+IMG SRC: /img/ctx510eco-small.jpeg
+IMG ALT: DMG CTX 310 eco
+IMG SRC: /img/ctx310eco-small.jpeg
+IMG ALT: DMG CTX 635 eco
+IMG SRC: /img/ctx635eco-small.jpeg
+IMG ALT: GF AgieCharmilles CUT 20 P - drĂˇtovĂˇ EDM Ĺ™ezaÄŤka
+IMG SRC: /img/dratovka_small.png
+IMG ALT: down_bord.png
+IMG SRC: img/down_bord.png
+Maring - CNC
+DomĹŻ
+VybavenĂ­
+Kontakty
+NapiĹˇte nĂˇm
+KariĂ©ra
+ObÄ›ĹľnĂ˝ prĹŻmÄ›r max.
+680 mm
+ToÄŤnĂ˝ prĹŻmÄ›r max.
+465 mm
+PĹ™Ă­ÄŤnĂ˝ pojezd (X)
+300 mm
+PodĂ©lnĂ˝ pojezd (Z)
+1050 mm
+PrĹŻchod tyÄŤe
+76 mm
+SklĂ­ÄŤidlo
+250 mm
+PoÄŤet nĂˇstrojovĂ˝ch mĂ­st
+12
+Rozsah otĂˇÄŤek max.
+3.250 ot/min
+Z toho pohĂˇnÄ›nĂ˝ch nĂˇstrojovĂ˝ch mĂ­st (volitelnÄ›)
+6
+VĂ˝kon pohonu (40% / 100% zatĂ­Ĺľ.)
+33 / 22 kW (st.)
+ObÄ›ĹľnĂ˝ prĹŻmÄ›r max.
+330 mm
+ToÄŤnĂ˝ prĹŻmÄ›r max.
+200 mm
+PĹ™Ă­ÄŤnĂ˝ pojezd (X)
+160 mm
+PodĂ©lnĂ˝ pojezd (Z)
+450 mm
+PrĹŻchod tyÄŤe
+51 mm
+SklĂ­ÄŤidlo
+210 mm
+PoÄŤet nĂˇstrojovĂ˝ch mĂ­st
+12
+Rozsah otĂˇÄŤek max.
+5.000 ot/min
+Z toho pohĂˇnÄ›nĂ˝ch nĂˇstrojovĂ˝ch mĂ­st (volitelnÄ›)
+6
+VĂ˝kon pohonu (40% / 100% zatĂ­Ĺľ.)
+16,5 / 11 kW
+Pojezd X
+635 mm
+Rozsah otĂˇÄŤek max.
+10.000 ot/min
+Pojezd Y
+510 mm
+Rychlost posuvu
+20 m/min
+Pojezd Z
+460 mm
+UpĂ­nacĂ­ kuĹľel
+SK 40
+PoÄŤet nĂˇstrojĹŻ
+20
+Max. prĹŻmÄ›r nĂˇstroje pĹ™i volnĂ˝ch sousednĂ­ch mĂ­stech
+130 mm
+Max. dĂ©lka nĂˇstroje
+300 mm
+ÄŚas vĂ˝mÄ›ny nĂˇstroje
+1,6 s
+ÄŚas od Ĺ™ezu k Ĺ™ezu
+5 s
+UpĂ­nacĂ­ plocha s drĂˇĹľkami T
+790 mm x 560 mm
+ManipulaÄŤnĂ­ vĂ˝Ĺˇka (hornĂ­ hrana stolu)
+720 mm
+ZatĂ­ĹľenĂ­ stolu
+600 kg
+Hmotnost stroje:
+2640 kg
+ĂšhlovĂ© Ĺ™ezy:
++-25Â° / 80 mm
+MaximĂˇlnĂ­ rozmÄ›ry obrobku (D x Ĺ  x V):
+820 mm, 680 mm, 250 mm
+OvlivnÄ›nĂ­ povrchu:
+bez bĂ­lĂ© vrstvy
+Pojezdy os (X, Y, Z):
+350 mm x 250 mm x 250 mm
+Typ vedenĂ­ drĂˇtu:
+UzavĹ™enĂˇ diamantovĂˇ vodĂ­tka
+Pojezdy os (U, V):
+90 mm x 90 mm
+Kvalita povrchu -Ra (Aa):
+< 0.25 Âµm
+Max. hmotnost obrobku:
+400 kg
+Kontakty:
+KarbidovĂ©, s vĂ­ce polohami
+MaximĂˇlnĂ­ vĂ˝Ĺˇka Ĺ™ezu (pod hladinou):
+250 mm
+Typ odmÄ›Ĺ™ovĂˇnĂ­:
+LineĂˇrnĂ­ pravĂ­tka (XY)/encodĂ©r(UVZ)
+RozmÄ›ry stroje (D x Ĺ  x V):
+2500 mm x 2500 mm x 2200 mm
+RozliĹˇenĂ­ Serva/Ĺ�Ă­zenĂ­:
+0.1 Âµm
+GenerĂˇtor:
+integrovanĂ˝ IPG-V
+Procesor CNC Ĺ™Ă­zenĂ­:
+Pentium
+Max. vĂ˝kon Ĺ™ezĂˇnĂ­:
+300 mm
+2
+/min
+OvlĂˇdacĂ­ panel:
+17" LCD display, klĂˇvesnice a myĹˇ
+PrĹŻmÄ›ry drĂˇtu:
+0.10 mm, 0.15 mm, 0.20 mm, 0.25 mm, 0.30 mm
+Velikost pevnĂ©ho disku:
+40 GB
+Max. hmotnost cĂ­vky drĂˇtu:
+8 kg
+RAM:
+256 MB Âµm
+KomunikaÄŤnĂ­ rozhranĂ­:
+1 LAN, 1 USB
+ExternĂ­ uklĂˇdĂˇnĂ­ dat:
+USB port
+OperaÄŤnĂ­ systĂ©m:
+Microsoft Windows XP
+Copyrights MARING-CNC 2012
+
+
+=== URL: http://maringcnc.cz/kariera.php ===
+META: text/html; charset=utf-8
+META: cs
+META: VĂ˝roba souÄŤĂˇstek pomocĂ­ CNC strojĹŻ ve StarĂ©m MÄ›stÄ› u UherskĂ©ho HradiĹˇtÄ›.
+META: CNC,vĂ˝roba soÄŤĂˇstek,strojnĂ­ souÄŤĂˇstky,StarĂ© MÄ›sto,UherskĂ© HradiĹˇtÄ›,DMG CTX 510 eco,soustruh,DMG CTX 310 eco,DMG CTX 635 eco,vertikĂˇlnĂ­ obrĂˇbÄ›cĂ­ centrum,Brother TC 32A,frĂ©za
+IMG ALT: top_bord.png
+IMG SRC: img/top_bord.png
+IMG ALT: marign-cnc
+IMG SRC: img/logo.png
+IMG ALT: down_bord.png
+IMG SRC: img/down_bord.png
+Maring - CNC
+DomĹŻ
+VybavenĂ­
+Kontakty
+NapiĹˇte nĂˇm
+KariĂ©ra
+Copyrights MARING-CNC 2012
+
+
+=== URL: http://maringcnc.cz/kontakty.php ===
+META: text/html; charset=utf-8
+META: cs
+META: VĂ˝roba souÄŤĂˇstek pomocĂ­ CNC strojĹŻ ve StarĂ©m MÄ›stÄ› u UherskĂ©ho HradiĹˇtÄ›.
+META: CNC,vĂ˝roba soÄŤĂˇstek,strojnĂ­ souÄŤĂˇstky,StarĂ© MÄ›sto,UherskĂ© HradiĹˇtÄ›,DMG CTX 510 eco,soustruh,DMG CTX 310 eco,DMG CTX 635 eco,vertikĂˇlnĂ­ obrĂˇbÄ›cĂ­ centrum,Brother TC 32A,frĂ©za
+IMG ALT: top_bord.png
+IMG SRC: img/top_bord.png
+IMG ALT: marign-cnc
+IMG SRC: img/logo.png
+IMG ALT: down_bord.png
+IMG SRC: img/down_bord.png
+Maring - CNC
+DomĹŻ
+VybavenĂ­
+Kontakty
+NapiĹˇte nĂˇm
+KariĂ©ra
+jednatel:
+Ing. ÄŚenÄ›k Ĺ�Ă­ha
+telefon:
++420 608 442 552
+email:
+maringcnc@seznam.cz
+jednatel:
+Bc. Vladislava ZemĂˇnkovĂˇ
+telefon:
++420 724 379 592
+email:
+maringcnc@seznam.cz
+Kde nĂˇs najdete?
+BrnÄ›nskĂˇ 490
+StarĂ© MÄ›sto u UherskĂ©ho HradiĹˇtÄ›
+Copyrights MARING-CNC 2012
+
+
+=== URL: http://maringcnc.cz/napiste_nam.php ===
+META: text/html; charset=utf-8
+META: cs
+META: VĂ˝roba souÄŤĂˇstek pomocĂ­ CNC strojĹŻ ve StarĂ©m MÄ›stÄ› u UherskĂ©ho HradiĹˇtÄ›.
+META: CNC,vĂ˝roba soÄŤĂˇstek,strojnĂ­ souÄŤĂˇstky,StarĂ© MÄ›sto,UherskĂ© HradiĹˇtÄ›,DMG CTX 510 eco,soustruh,DMG CTX 310 eco,DMG CTX 635 eco,vertikĂˇlnĂ­ obrĂˇbÄ›cĂ­ centrum,Brother TC 32A,frĂ©za
+IMG ALT: top_bord.png
+IMG SRC: img/top_bord.png
+IMG ALT: marign-cnc
+IMG SRC: img/logo.png
+IMG ALT: down_bord.png
+IMG SRC: img/down_bord.png
+Maring - CNC
+DomĹŻ
+VybavenĂ­
+Kontakty
+NapiĹˇte nĂˇm
+KariĂ©ra
+JmĂ©no:
+Email:
+MÄ›sto:
+Za ĂşÄŤelem:
+NovĂ© zakĂˇzky
+Kalkulace zakĂˇzky
+DalĹˇĂ­ informace
+ZprĂˇva:
+Odeslat
+Copyrights MARING-CNC 2012
+
