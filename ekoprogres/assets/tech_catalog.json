@@ -1,0 +1,266 @@
+[
+  {
+    "id": "sedim-kruhove",
+    "cat": "sedim",
+    "cat_name": "Sedimentační nádrže",
+    "title": "Kruhové sedimentační nádrže se stíracími mosty",
+    "perex": "Dosazovací a usazovací kruhové nádrže s pojezdovým mostem a pohonem s ozubeným hřebenem pro čistírny odpadních vod.",
+    "img": "assets/img_07_.jpg",
+    "badge": "Typ EP-KSDN / EP-KSUN",
+    "specs_preview": "Průměry nádrží 6 až 30 m • Obvodový nebo středový pohon",
+    "full_desc": "Kruhové sedimentační nádrže slouží pro separaci usaditelného kalu a plovoucích nečistot na mechanicko-biologických čistírnách odpadních vod. Dodáváme nádrže s vodorovným i kuželovým dnem s centrálním nosným sloupem nebo obvodovým pojezdem. Vyvinuli jsme patentovaný systém pohonu stíracího mostu s ozubeným hřebenem, který eliminuje prokluzování pojezdových kol při námraze a sněhu.",
+    "models": [
+      {"name": "EP-KSUN", "desc": "Kruhová usazovací nádrž primární sedimentace se stíráním dna i hladiny"},
+      {"name": "EP-KSDN", "desc": "Kruhová dosazovací nádrž sekundární sedimentace s odběrem vyčištěné vody"},
+      {"name": "EP-KSDZ", "desc": "Kruhová dešťová zdrž pro záchyt prvního splachu ze stokové sítě"},
+      {"name": "EP-KSZN", "desc": "Zahušťovací nádrž kalů s vertikálním plotovým míchadlem"}
+    ],
+    "table": {
+      "headers": ["Parametr", "Standardní řada", "Materiálové provedení"],
+      "rows": [
+        ["Průměr nádrže D", "6.000 až 30.000 mm", "Železobetonová vana / nerezový plášť"],
+        ["Obvodová rychlost mostu", "1,5 až 2,5 cm/s", "Plynulá regulace frekvenčním měničem"],
+        ["Pohon mostu", "Ozubený hřeben / třecí pryžové kolo", "Elektropřevodovka SEW / Nord IP65"],
+        ["Stírání hladiny", "Stěrka plovoucích nečistot do jímky", "Nerez AISI 304 nebo žárový zinek"]
+      ]
+    },
+    "features": [
+      "Stírací most z profilové oceli s pochozí lávkou z protiskluzových roštů",
+      "Uklidňovací válec s tangenciálním nátokem pro optimální hydraulický režim",
+      "Odtokové žlaby s přelivnými hranami Thomsonova typu (trojúhelníkové výřezy)",
+      "Čisticí kartáč pro automatické čištění odtokového žlabu během pojezdu"
+    ]
+  },
+  {
+    "id": "cistirny-kombiblok",
+    "cat": "cistirny",
+    "cat_name": "ČOV KOMBIBLOK®",
+    "title": "Kompaktní biologická čistírna KOMBIBLOK® NG",
+    "perex": "Ucelený stavebně-technologický celek pro 200 až 50 000 EO s minimálními nároky na zastavěnou plochu.",
+    "img": "assets/img_06_.jpg",
+    "badge": "Modely NG 1 až NG 8",
+    "specs_preview": "Kapacita 200–3 200 EO v bloku • Průtok Q24 až 480 m³/den",
+    "full_desc": "Systém KOMBIBLOK® NG integruje v jedné kompaktní stavební jednotce aktivační nádrž, dosazovací nádrž a kalový prostor. Odpadá nutnost rozsáhlých meziobjektových potrubních rozvodů a čerpacích jímek. Pracuje s nízkozatěžovanou aktivací s úplnou stabilizací kalu a nitrifikací/denitrifikací. Garantujeme splnění nejpřísnějších odtokových limitů po celou dobu životnosti čistírny.",
+    "models": [
+      {"name": "KOMBIBLOK NG 1–2", "desc": "Pro 200 až 400 EO, aktivace 70–100 m³, aerátor 1,5–2,2 kW"},
+      {"name": "KOMBIBLOK NG 3–5", "desc": "Pro 400 až 1 150 EO, aktivace 140–280 m³, aerátor 3,0–5,5 kW"},
+      {"name": "KOMBIBLOK NG 6–8", "desc": "Pro 1 150 až 3 200 EO, aktivace 400–800 m³, aerátor 7,5–15 kW"},
+      {"name": "Soustava KOMBIBLOK", "desc": "Paralelní řazení bloků pro aglomerace až do 50 000 EO"}
+    ],
+    "table": {
+      "headers": ["Model", "Kapacita [EO]", "Objem AN [m³]", "Průtok Q24 [m³/d]", "Plocha DN [m²]", "Příkon [kW]"],
+      "rows": [
+        ["KOMBIBLOK NG 1", "200 – 280", "70", "42", "7", "1,5"],
+        ["KOMBIBLOK NG 2", "280 – 400", "100", "60", "10", "2,2"],
+        ["KOMBIBLOK NG 3", "400 – 580", "140", "84", "14", "3,0"],
+        ["KOMBIBLOK NG 4", "580 – 800", "200", "120", "20", "4,0"],
+        ["KOMBIBLOK NG 5", "800 – 1 150", "280", "172", "29", "5,5"],
+        ["KOMBIBLOK NG 6", "1 150 – 1 600", "400", "240", "40", "7,5"],
+        ["KOMBIBLOK NG 7", "1 600 – 2 300", "560", "345", "58", "11,0"],
+        ["KOMBIBLOK NG 8", "2 300 – 3 200", "800", "480", "80", "15,0"]
+      ]
+    },
+    "features": [
+      "Integrovaná dosazovací nádrž se svislým průtokem a odsáváním vratného kalu",
+      "Kyslíková sonda s frekvenčním měničem otáček pro energeticky úsporný provoz",
+      "Možnost přepnutí aerátoru na pomalé otáčky pro řízenou denitrifikaci",
+      "Členství v KOMBIBLOK Klubu s bezplatným poradenstvím a garancí servisu"
+    ]
+  },
+  {
+    "id": "sedim-podelne",
+    "cat": "sedim",
+    "cat_name": "Sedimentační nádrže",
+    "title": "Podélné sedimentační nádrže a lapáky písku",
+    "perex": "Obdélníkové usazovací nádrže s pojízdnými mosty šířky 5 až 15 metrů a jehlanovými kalovými jímkami.",
+    "img": "assets/img_11_.jpg",
+    "badge": "Typ EP-PSDN / EP-PSUN / LP",
+    "specs_preview": "Šířky mostů 5.150 až 15.000 mm • Délky nádrží 20 až 60 m",
+    "full_desc": "Podélné sedimentační nádrže jsou určeny pro větší čistírny odpadních vod s vysokým hydraulickým zatížením. Pojízdný stírací most stírá kal ze dna nádrže směrem k nátokové straně do kalových jímek a současně stírá plovoucí pěnu a nečistoty z hladiny do odvodňovacího žlabu. Speciální úpravou podélné nádrže je dvoukomorový provzdušňovaný lapák písku (LP).",
+    "models": [
+      {"name": "EP-PSUN", "desc": "Podélná usazovací nádrž předřazená biologickému stupni"},
+      {"name": "EP-PSDN", "desc": "Podélná dosazovací nádrž pro separaci aktivovaného kalu"},
+      {"name": "EP-PSDZ", "desc": "Podélná dešťová zdrž s automatickým vyprázdněním a oplachem"},
+      {"name": "LP (Lapák písku)", "desc": "Provzdušňovaný podélný lapák písku s mamutkovým čerpadlem"}
+    ],
+    "table": {
+      "headers": ["Šířka nádrže B", "Hmotnost mostu (L=30m)", "Přírůstek na 1m délky", "Příkon pojezdu"],
+      "rows": [
+        ["5.150 mm (LP)", "5.400 kg", "180 kg/m", "2 x 0,37 kW"],
+        ["6.000 mm", "4.500 kg", "100 kg/m", "2 x 0,37 kW"],
+        ["7.850 mm (LP)", "6.600 kg", "250 kg/m", "2 x 0,55 kW"],
+        ["9.000 mm", "5.500 kg", "120 kg/m", "2 x 0,55 kW"],
+        ["12.000 mm", "7.000 kg", "150 kg/m", "2 x 0,75 kW"],
+        ["15.000 mm", "9.000 kg", "200 kg/m", "2 x 1,10 kW"]
+      ]
+    },
+    "features": [
+      "Oboustranný elektromechanický pojezd po ocelových kolejnicích na koruně nádrže",
+      "Dnové stírací radlice s pryžovými břity s automatickým přizvedáváním při zpětném chodu",
+      "Možnost instalace ponorných čerpadel kalu přímo na pojezdový most",
+      "Vyhřívání pojezdové dráhy pro spolehlivý zimní provoz v mrazech"
+    ]
+  },
+  {
+    "id": "predcisteni-cesle",
+    "cat": "cesle",
+    "cat_name": "Předčištění",
+    "title": "Strojně stírané česle typu SH a lapáky písku",
+    "perex": "Automatické strojní česle pro záchyt a vynesení hrubých nečistot z přítokových kanálů ČOV a MVE.",
+    "img": "assets/img_08_.jpg",
+    "badge": "Typ SH-K / SH-L",
+    "specs_preview": "Průlinatost 6 až 50 mm • Kanály šířky 400 až 2 000 mm",
+    "full_desc": "Strojně stírané česle typu SH představují spolehlivé primární mechanické předčištění. Hrablový mechanismus automaticky stírá česlicový rošt a vynáší zachycené shrabky do shozu nebo přímo do integrovaného lisovacího šnekového dopravníku, který shrabky odvodní a slisuje do kontejneru. Zařízení pracuje plně automaticky na základě hladinového rozdílu nebo časového intervalu.",
+    "models": [
+      {"name": "Česle SH přímé", "desc": "Klasické vertikální či šikmé provedení se sklonem 75° pro hluboké kanály"},
+      {"name": "Česle SH obloukové", "desc": "Kompaktní obloukové provedení pro menší čerpací stanice a mělké stoky"},
+      {"name": "Vírový lapák písku", "desc": "Kruhová nádrž s rotační lopatkou pro separaci anorganického písku"},
+      {"name": "Šnekový separátor písku", "desc": "Vynášecí a odvodňovací šnek směsi písku a vody"}
+    ],
+    "table": {
+      "headers": ["Parametr", "Hodnota", "Poznámka"],
+      "rows": [
+        ["Šířka kanálu B", "400 až 2.000 mm", "Přizpůsobeno stavebním rozměrům stoky"],
+        ["Hloubka kanálu H", "800 až 5.000 mm", "Vysoká tuhost bočních rámů"],
+        ["Světlá průlinatost e", "6, 10, 15, 20, 30 mm", "Nerezové česlice AISI 304 / 316"],
+        ["Objem lisu shrabků", "Úspora objemu až 65%", "Odvodnění s odvodem lisovací vody zpět"]
+      ]
+    },
+    "features": [
+      "Celonerezové konstrukční provedení zaručující dlouhou životnost v agresivní atmosféře",
+      "Pohon elektropřevodovkou s momentovým přetěžovacím spínačem proti zaklínění kamene",
+      "Doplňkové oplachování shrabků vodou pro snížení zápachu v kontejneru",
+      "Snadná instalace do stávajícího betonového žlabu bez nutnosti rozsáhlých úprav"
+    ]
+  },
+  {
+    "id": "tesneni-linkseal",
+    "cat": "linkseal",
+    "cat_name": "Těsnění Link-Seal®",
+    "title": "Certifikované modulární těsnění LINK-SEAL®",
+    "perex": "Originální elastomerové řetězové těsnění prostupů potrubí stavebními konstrukcemi proti vodě a plynu.",
+    "img": "assets/img_10_.jpg",
+    "badge": "Modely LS 200 až LS 650",
+    "specs_preview": "Tlaková odolnost 5 bar (50 m v.s.) • Teploty -40 až +200 °C",
+    "full_desc": "LINK-SEAL® je přední světový modulární systém pro spolehlivé a trvalé utěsnění mezikruží mezi pažnicí (nebo jádrovým vrtem) a procházejícím potrubím. Těsnění je tvořeno řetězem vzájemně propojených elastomerových segmentů s přítlačnými deskami a stahovacími šrouby. Utažením šroubů dojde k radiálnímu roztažení pryže a vytvoření absolutně plynotěsného a vodotěsného spoje.",
+    "models": [
+      {"name": "Typ C (Standard)", "desc": "Černý EPDM kaučuk, kompozitové podložky, zinkované šrouby, -40 až +125 °C"},
+      {"name": "Typ S316 (Nerez)", "desc": "EPDM kaučuk, nerezové šrouby AISI 316 pro agresivní odpadní vody a chemické prostředí"},
+      {"name": "Typ O (Olejivzdorný)", "desc": "Zelený Nitril (NBR) odolávající ropným látkám, benzínu a rozpouštědlům"},
+      {"name": "Typ T (Vysokoteplotní)", "desc": "Šedý silikon odolávající teplotám až do +200 °C a parním rozvodům"}
+    ],
+    "table": {
+      "headers": ["Model elementu", "Min. mezera B [mm]", "Max. mezera B [mm]", "Délka L [mm]", "Rozsah potrubí D2 [mm]"],
+      "rows": [
+        ["LS 200", "12,7", "15,7", "30,0", "21,3 – 323,9"],
+        ["LS 275", "16,0", "20,0", "25,6", "0 – 90,0"],
+        ["LS 300", "18,0", "22,5", "41,0", "44,5 – 250,0"],
+        ["LS 325", "23,0", "30,0", "30,0", "88,9 – 711,0"],
+        ["LS 400", "36,0", "46,0", "64,0", "139,7 – 1220,0"],
+        ["LS 500", "60,0", "75,0", "80,0", "323,9 – 3000,0"],
+        ["LS 600", "80,0", "102,0", "100,0", "500,0 – 3500,0"]
+      ]
+    },
+    "features": [
+      "Hydrostatická tlaková odolnost testována až do tlaku 5 bar (50 m vodního sloupce)",
+      "Tlumení vibrací, rázů a dilatace potrubí – zamezuje přenosu chvění do stavební zdi",
+      "Elektrická izolace chránící kovová potrubí před bludnými proudy a katodickou korozí",
+      "Dodávka včetně ukončovacích manžet KT a DU a středicích prstenců"
+    ]
+  },
+  {
+    "id": "aerace-gigant",
+    "cat": "cistirny",
+    "cat_name": "ČOV KOMBIBLOK®",
+    "title": "Povrchové aerační turbíny GIGANT - NG",
+    "perex": "Vysokoúčinné mechanické aerátory pro provzdušňování aktivačních nádrží a oxidaci odpadních vod.",
+    "img": "assets/img_04_.jpg",
+    "badge": "Výkony 1,5 až 30 kW",
+    "specs_preview": "Kyslíková kapacita OC až 2,2 kg O₂/kWh • Plovákové i pevné uložení",
+    "full_desc": "Povrchový aerátor GIGANT-NG představuje léty prověřenou a modernizovanou aerační jednotku s vertikální pomaloběžnou turbínou. Turbína nasává vodu ze spodních vrstev nádrže a rozstřikuje ji do širokého paprsku kapek, čímž dochází k intenzivnímu přestupu vzdušného kyslíku do aktivační směsi a současně k dokonalému promíchání celého objemu nádrže bez tvorby usazenin na dně.",
+    "models": [
+      {"name": "GIGANT NG pevný", "desc": "Montáž na ocelový nebo betonový most nad aktivační nádrží"},
+      {"name": "GIGANT NG plovákový", "desc": "Uložení na plovákové konstrukci bez nutnosti kotvení do stavebních konstrukcí"},
+      {"name": "MONOBLOK - NG", "desc": "Diskontinuální aerační čistírna SBR pro malé izolované zdroje 50–200 EO"}
+    ],
+    "table": {
+      "headers": ["Typ aerátoru", "Příkon motoru [kW]", "Otáčky turbíny [ot/min]", "Kyslíková kapacita [kg O₂/h]"],
+      "rows": [
+        ["GIGANT NG 1.5", "1,5", "95", "2,8 – 3,2"],
+        ["GIGANT NG 3.0", "3,0", "75", "5,5 – 6,4"],
+        ["GIGANT NG 5.5", "5,5", "60", "10,5 – 12,0"],
+        ["GIGANT NG 7.5", "7,5", "52", "14,5 – 16,5"],
+        ["GIGANT NG 11.0", "11,0", "45", "21,0 – 24,0"],
+        ["GIGANT NG 15.0", "15,0", "38", "29,0 – 33,0"]
+      ]
+    },
+    "features": [
+      "Vysoká spolehlivost s minimální údržbou oproti aeračním elementům náchylným k ucpávání",
+      "Plováková konstrukce umožňuje jednoduchou montáž a rychlé vytažení jeřábem při servisu",
+      "Dvousložkový antikorozní nátěrový systém vhodný pro agresivní průmyslové vody",
+      "Možnost regulace vneseného kyslíku pomocí frekvenčního měniče podle kyslíkové sondy"
+    ]
+  },
+  {
+    "id": "upravny-vody",
+    "cat": "ostatni",
+    "cat_name": "Úpravny vod & inženýring",
+    "title": "Úpravny pitné a průmyslové vody, vodojemy",
+    "perex": "Kompletní technologické vystrojení úpraven vod, armaturních komor, rychlofiltrů a dávkování chemikálií.",
+    "img": "assets/img_13_.jpg",
+    "badge": "Technologie úpravy vody",
+    "specs_preview": "Strojní vystrojení • Čerpací stanice • Pomalé i rychlé filtry",
+    "full_desc": "EKOPROGRES HRANICE a.s. navazuje na více než stoletou hranickou tradici ve vodárenství a výrobě čerpadel a armatur. Dodáváme technologické celky pro úpravu podzemních i povrchových vod na vodu pitnou, úpravny procesní a chladicí vody pro průmysl a technologie pro bazény. Zajišťujeme první i druhý stupeň úpravy vody včetně chemického hospodářství.",
+    "models": [
+      {"name": "Úpravny pitné vody", "desc": "Koagulace, sedimentace, filtrace přes rychlofiltry a hygienické zabezpečení"},
+      {"name": "Průmyslové chladicí okruhy", "desc": "Recirkulace vody, odkalování, filtrace a změkčování procesní vody"},
+      {"name": "Vystrojení vodojemů", "desc": "Nerezová potrubí, armaturní komory, zpětné klapky a obtoky"},
+      {"name": "Chemické hospodářství", "desc": "Rozpouštěcí nádrže s míchadly, dávkovací čerpadla a záchytné vany"}
+    ],
+    "table": {
+      "headers": ["Technologický stupeň", "Vyráběné strojní zařízení", "Materiál"],
+      "rows": [
+        ["1. Stupeň úpravy", "Česle, lapáky splavenin, rychlomísiče, flokulátory", "Nerez AISI 304 / 316"],
+        ["2. Stupeň filtrace", "Vystrojení pískových filtrů, drenážní systémy, odtokové regulátory", "Nerez / polypropylen"],
+        ["Chemické dávkování", "Rozpouštěcí a zásobní nádrže, míchadla, dávkovací stanice", "PE / PP / nerez"],
+        ["Čerpací stanice", "Dodávka čerpadel, armatur, výtlačných řadů a elektroinstalace", "Litina / tvárná litina / nerez"]
+      ]
+    },
+    "features": [
+      "Individuální projektové řešení přizpůsobené rozboru surové vody v dané lokalitě",
+      "Kompletní dodávka včetně měření a regulace (MaR) a napojení na dispečink",
+      "Strojní armaturní vystrojení s dlouhodobou zárukou a poprodejním servisem",
+      "Rekonstrukce a modernizace starších vodárenských provozů v systému BIM"
+    ]
+  },
+  {
+    "id": "sedim-vertikalni",
+    "cat": "sedim",
+    "cat_name": "Sedimentační nádrže",
+    "title": "Vertikální čtvercové a kruhové nádrže",
+    "perex": "Dortmundské beznapěťové sedimentační nádrže bez pohyblivých částí a motorového pohonu.",
+    "img": "assets/img_14_.jpg",
+    "badge": "Typ EP-VkDN / EP-VSDN",
+    "specs_preview": "Stavební hloubka od 3 m • Čtvercové i kruhové provedení",
+    "full_desc": "Vertikální nádrže dortmundského typu využívají gravitační separaci bez jakýchkoliv pohyblivých strojních mechanismů. Voda přitéká do středového uklidňovacího válce, kde klesá ke dnu a při změně směru proudění dochází k oddělení kalu, který sedimentuje v kuželovém nebo jehlanovém dně. Jsou ideální pro menší čistírny, kde minimalizují provozní a energetické náklady.",
+    "models": [
+      {"name": "EP-VkDN kruhové", "desc": "Kruhový ocelový nebo betonový plášť s kuželovým dnem se sklonem 60°"},
+      {"name": "EP-VSDN čtvercové", "desc": "Čtvercový půdorys s jehlanovým dnem a nátokovým křížem"},
+      {"name": "EP-VSDZ dešťové", "desc": "Vertikální dešťové nádrže s přepadem pro zachycení přívalových srážek"}
+    ],
+    "table": {
+      "headers": ["Typ nádrže", "Doporučená hloubka", "Způsob odběru kalu", "Údržba"],
+      "rows": [
+        ["EP-VkDN kruhová", "min. 3.000 mm dle ČSN", "Hydrostatický přetlak / mamutka", "Bezpohonové, nulová spotřeba elektro"],
+        ["EP-VSDN čtvercová", "min. 3.000 mm dle ČSN", "Kalové potrubí se šoupětem", "Bezpohonové, bezúdržbové"],
+        ["EP-VSDZ dešťová", "dle projektu", "Gravitační odkalení", "Automatický proplach dna"]
+      ]
+    },
+    "features": [
+      "Absolutní spolehlivost daná absencí jakýchkoliv motorů, řetězů či ložisek",
+      "Odběr plovoucích nečistot pomocí ponorné děrované trubky s nerezovým košem",
+      "Možnost prefabrikovaného samonosného provedení z konstrukční oceli",
+      "Snadné napojení do sestav biologických čistíren KOMBIBLOK®"
+    ]
+  }
+]

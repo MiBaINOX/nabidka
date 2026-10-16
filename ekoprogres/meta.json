@@ -22,18 +22,23 @@
     "Chybějící Mapy.cz navigace k sídlu a výrobnímu areálu v Hranicích"
   ],
   "vylepseni_noveho_webu": [
-    "Moderní Corporate Portal styl s vodohospodářskou identitou",
-    "Okamžitý přepínač jazyků CZ | EN | DE se stoprocentním pokrytím",
-    "Interaktivní dimenzovací kalkulátor čistíren odpadních vod podle EO",
-    "Filtrovatelný katalog sedimentačních nádrží, česlí a těsnění",
-    "Plná optimalizace pro smartphony a přehledná prezentace referencí"
+    "Interaktivní technický katalog nádrží a ČOV s detailními specifikacemi v modálních oknech",
+    "Interaktivní dimenzovací kalkulátor čistíren KOMBIBLOK® dle modelů NG 1 až NG 8",
+    "Okamžitý přepínač jazyků CZ | EN | DE se stoprocentním pokrytím všech textů",
+    "Ověřený Mapy.cz špendlík a přímý odkaz přímo na budovu sídla Třída 1. máje 1013",
+    "Plná mobilní optimalizace s rychlým přístupem k technickým tabulkám a výkresům"
   ],
   "fakta": {
     "rok_zalozeni": 1990,
     "zamestnanci": "10-24",
     "kapacita_eo_max": 50000,
     "sidlo": "Třída 1. máje 1013, 753 01 Hranice",
-    "datova_schranka": "nscuyhi"
+    "datova_schranka": "nscuyhi",
+    "polozky_katalogu": 8
   },
-  "jazyky": ["CZ", "EN", "DE"]
+  "jazyky": [
+    "CZ",
+    "EN",
+    "DE"
+  ]
 }
