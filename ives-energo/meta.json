@@ -1,0 +1,48 @@
+{
+  "slug": "ives-energo",
+  "firma": "IVES ENERGO s.r.o.",
+  "ico": "01435671",
+  "dic": "CZ01435671",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Pozemní stavitelství / provádění staveb, zateplovací systémy ETICS, rekonstrukce objektů, bytová a občanská výstavba",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://ivesenergo.cz",
+  "email": "poncza@ivesenergo.cz",
+  "telefon": "+420 722 365 100",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Důstojná digitální prezentace 16leté stavební historie a významných referencí pro HOCHTIEF CZ, Průmyslové Montáže i Fakultní nemocnici Ostrava",
+    "Interaktivní katalog 12 stavebních technologií s vyhledáváním, kategoriemi a technickými specifikacemi v modálním okně",
+    "Přehledná časová osa velkých referenčních zakázek (Vítkovický stadion, OKK Ostrava, školy, bytové domy)",
+    "Ověřené personální zastoupení jednatele Ing. Marka Ponczy a přesná geolokace sídla v Brně a zázemí v Karviné",
+    "Moderní Heavy Industrial design s perfektní mobilní ergonomií na telefonech i tabletech"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez platného SSL/TLS šifrování",
+    "Chybějící značka meta viewport – web není responzivní a na mobilech se musí posouvat a zvětšovat",
+    "Zastaralá architektura Joomla s nefunkčními podstránkami (404 chyby) a skrytými kontaktními údaji",
+    "Statický seznam referencí bez možnosti filtrace, vyhledávání a detailních technických parametrů",
+    "Chybějící moderní poptávkový formulář a absence interaktivní mapy"
+  ],
+  "vylepseni_noveho_webu": [
+    "Responzivní Heavy Industrial layout s tmavým antracitovým schématem a kontrastními signálními akcenty",
+    "Interaktivní katalog 12 technologií a stavebních postupů s živým filtrem a fulltextovým vyhledávačem",
+    "Detailní technické modální okno (#techModalBackdrop) s normami ČSN, materiály a součiniteli U",
+    "Přesný Mapy.cz widget s červeným špendlíkem ověřeným dle RÚIAN katastru (Brno, Botanická 785/9)",
+    "Příprava pro zahraniční expanzi: možnost okamžitého spuštění cizojazyčných mutací (EN / DE / PL) pro zahraniční investory",
+    "100% responzivní mobilní zobrazení s nulovým horizontálním přetečením (0px overflow na 360px a 375px)"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2010,
+    "zkusenosti_let": 16,
+    "sidlo": "Botanická 785/9, Veveří, 602 00 Brno",
+    "kancelar_a_stavebni_dvur": "Na Stráni 1501/45c, 734 01 Karviná - Ráj",
+    "jednatel": "Ing. Marek Poncza",
+    "klicovi_partneri": "HOCHTIEF CZ a.s., PRŮMYSLOVÉ MONTÁŽE s.r.o., BESKYDSKÁ STAVEBNÍ a.s., Obec Stonava",
+    "pocet_polozek_katalogu": 12
+  }
+}

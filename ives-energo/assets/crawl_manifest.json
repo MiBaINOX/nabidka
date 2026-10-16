@@ -1,0 +1,25 @@
+{
+  "total_pages": 4,
+  "urls": [
+    "http://ivesenergo.cz",
+    "http://ivesenergo.cz/",
+    "http://ivesenergo.cz/reference.htm",
+    "http://ivesenergo.cz/ivesenergo-kontakty.htm"
+  ],
+  "total_images": 1,
+  "images": [
+    "http://ivesenergo.cz/logo_sbarakem3.jpg"
+  ],
+  "downloaded_images": [
+    {
+      "url": "http://ivesenergo.cz/logo_sbarakem3.jpg",
+      "local_path": "img_00_logo_sbarakem3.jpg",
+      "size": 162687
+    }
+  ],
+  "menu_categories": [
+    "O společnosti",
+    "Reference",
+    "KONTAKTY"
+  ]
+}

@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DNA DESIGN s.r.o. | Autorská monolitická schodiště a pohledový beton</title>
+  <meta name="description" content="Projektování a realizace atypických betonových schodišť od roku 1997. Moniérková, lomenicová, páteřová, konzolová schodiště, kazetové stropy i betonová umyvadla.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="../ping-config.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-info">
+        <span class="topbar-badge" data-i18n="topbar_badge">Architektonické betony a monolitická schodiště</span>
+        <span class="topbar-item"><strong data-i18n="topbar_address">Dolní Dubňany 62, okr. Znojmo</strong></span>
+      </div>
+      <div class="topbar-actions">
+        <a href="tel:+420777668137" class="topbar-link"><span data-i18n="topbar_phone">+420 777 668 137</span></a>
+        <a href="mailto:info@dnadesign.cz" class="topbar-link"><span data-i18n="topbar_email">info@dnadesign.cz</span></a>
+        <div class="lang-switcher">
+          <button type="button" class="lang-btn active" data-lang="cs">CZ</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="sk">SK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo" aria-label="DNA DESIGN domovská stránka">
+        <img src="assets/logo.png" alt="DNA DESIGN s.r.o. logo" class="site-logo">
+        <div class="brand-text">
+          <span class="brand-name">DNA DESIGN</span>
+          <span class="brand-sub">ARCHITECTURAL CONCRETE</span>
+        </div>
+      </a>
+      <nav class="main-nav" aria-label="Hlavní navigace">
+        <ul class="nav-list">
+          <li><a href="#uvod" class="nav-link" data-i18n="nav_home">Úvod</a></li>
+          <li><a href="#katalog" class="nav-link" data-i18n="nav_stairs">Schodiště</a></li>
+          <li><a href="#katalog" class="nav-link" data-i18n="nav_interiors">Interiéry</a></li>
+          <li><a href="#media" class="nav-link" data-i18n="nav_media">Média</a></li>
+          <li><a href="#o-nas" class="nav-link" data-i18n="nav_about">O nás</a></li>
+          <li><a href="#kontakt" class="nav-link" data-i18n="nav_contact">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a href="#kontakt" class="btn btn-primary" data-i18n="nav_quote">Poptat realizaci</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="uvod" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge hero-badge" data-i18n="hero_badge">Autorský betonový design od roku 1997</span>
+          <h1 class="hero-title" data-i18n="hero_title">Originální monolitická schodiště a architektonický beton</h1>
+          <p class="hero-subtitle" data-i18n="hero_subtitle">Specializujeme se na návrh, statiku a realizaci atypických betonových schodišť – moniérková, lomenicová, páteřová, konzolová i designová umyvadla a interiérové prvky.</p>
+          <div class="hero-actions">
+            <a href="#katalog" class="btn btn-primary" data-i18n="hero_cta_catalog">Prohlédnout realizace</a>
+            <a href="#kontakt" class="btn btn-secondary" data-i18n="hero_cta_quote">Konzultovat projekt</a>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-value" data-i18n="stat_years">28+</span>
+              <span class="stat-label" data-i18n="stat_years_lbl">Let zkušeností v oboru</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value" data-i18n="stat_projects">2000+</span>
+              <span class="stat-label" data-i18n="stat_projects_lbl">Dokončených schodišť</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value" data-i18n="stat_satisfaction">100%</span>
+              <span class="stat-label" data-i18n="stat_satisfaction_lbl">Autorské originály</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-value" data-i18n="stat_tonnage">40+</span>
+              <span class="stat-label" data-i18n="stat_tonnage_lbl">Architektonických ocenění</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="katalog" class="catalog-section">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="badge" data-i18n="catalog_badge">Strukturované portfolio</span>
+          <h2 class="section-title" data-i18n="catalog_title">Katalog betonových konstrukcí a designových prvků</h2>
+          <p class="section-subtitle" data-i18n="catalog_subtitle">Filtrujte podle typu nosné konstrukce nebo vyhledejte konkrétní architektonický detail.</p>
+        </div>
+
+        <div class="catalog-controls">
+          <div class="search-bar-wrap">
+            <input type="text" id="catalogSearch" class="search-input" placeholder="Hledat podle názvu, typu konstrukce či třídy betonu..." data-i18n-placeholder="search_placeholder">
+          </div>
+          <div class="filter-pills-wrap">
+            <button type="button" class="filter-pill active" data-filter="all" data-i18n="filter_all">Všechny realizace</button>
+            <button type="button" class="filter-pill" data-filter="monierka" data-i18n="filter_monierka">Moniérková schodiště</button>
+            <button type="button" class="filter-pill" data-filter="lomenicova" data-i18n="filter_lomenicova">Lomenicová schodiště</button>
+            <button type="button" class="filter-pill" data-filter="plna-deska" data-i18n="filter_plna_deska">Schodiště na plné desce</button>
+            <button type="button" class="filter-pill" data-filter="paterova" data-i18n="filter_paterova">Páteřová schodiště</button>
+            <button type="button" class="filter-pill" data-filter="konzolova" data-i18n="filter_konzolova">Konzolová schodiště</button>
+            <button type="button" class="filter-pill" data-filter="architektonicke" data-i18n="filter_arch">Atypické konstrukce</button>
+            <button type="button" class="filter-pill" data-filter="umyvadla-interiery" data-i18n="filter_design">Umyvadla & Design</button>
+          </div>
+          <div class="catalog-meta-bar">
+            <span id="searchCounter" class="search-counter" data-i18n="counter_text">Zobrazeno 24 realizací z 24</span>
+          </div>
+        </div>
+
+        <div class="catalog-grid" id="catalogGrid">
+        <article class="catalog-item-card cat-card" data-id="spirala-dna-krkonosske-muzeum" data-category="monierka" data-open-tech="spirala-dna-krkonosske-muzeum">
+          <div class="item-img-wrap">
+            <img src="assets/392761765_834483795351676_7433837529037045853_n.jpg" alt="Spirála DNA – Krkonošské muzeum Vrchlabí" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Moniérková schodiště</span>
+            <h3 class="item-title" data-i18n="t_spirala_dna">Spirála DNA – Krkonošské muzeum Vrchlabí</h3>
+            <p class="item-desc" data-i18n="d_spirala_dna">Monolitické točité schodiště s integrovaným nosným betonovým zábradlím (moniérkou) tvarovaným do podoby dvojité šroubovice DNA pro expozici Krkonošského muzea.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45 XF1</span> <span class="spec-pill"><strong>Konstrukce:</strong> Monolitická samonosná spirála s moniérkou</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="spirala-dna-krkonosske-muzeum" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="lasvit-novy-bor-kazetovy-strop" data-category="architektonicke" data-open-tech="lasvit-novy-bor-kazetovy-strop">
+          <div class="item-img-wrap">
+            <img src="assets/IMG_5304.jpg" alt="LASVIT Nový Bor – Kazetový strop" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Atypické konstrukce</span>
+            <h3 class="item-title" data-i18n="t_lasvit_strop">LASVIT Nový Bor – Kazetový strop</h3>
+            <p class="item-desc" data-i18n="d_lasvit_strop">Unikátní monolitický kazetový strop z architektonického pohledového betonu v centrále světového výrobce designového skla LASVIT v Novém Boru.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 40/50</span> <span class="spec-pill"><strong>Konstrukcni system:</strong> Monolitický žebrový kazetový strop</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="lasvit-novy-bor-kazetovy-strop" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="lasvit-novy-bor-klenba" data-category="architektonicke" data-open-tech="lasvit-novy-bor-klenba">
+          <div class="item-img-wrap">
+            <img src="assets/IMG_4630.jpg" alt="LASVIT Nový Bor – Klenba z pohledového betonu" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Atypické konstrukce</span>
+            <h3 class="item-title" data-i18n="t_lasvit_klenba">LASVIT Nový Bor – Klenba z pohledového betonu</h3>
+            <p class="item-desc" data-i18n="d_lasvit_klenba">Samonosná skořepinová klenba v historickém areálu sklárny LASVIT spojující moderní tvarosloví betonu s tradičním řemeslem.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 40/50</span> <span class="spec-pill"><strong>Tvar konstrukce:</strong> Dvojitě zakřivená skořepina</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="lasvit-novy-bor-klenba" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="bmw-liberec-monierka" data-category="monierka" data-open-tech="bmw-liberec-monierka">
+          <div class="item-img-wrap">
+            <img src="assets/bmw_liberec_realizace.jpg" alt="Schodiště s moniérkou v autosalonu BMW v Liberci" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Moniérková schodiště</span>
+            <h3 class="item-title" data-i18n="t_bmw_liberec">Schodiště s moniérkou v autosalonu BMW v Liberci</h3>
+            <p class="item-desc" data-i18n="d_bmw_liberec">Reprezentativní točité schodiště s plným betonovým zábradlím moniérkou v showroomu autosalonu BMW, navržené pro vysoké zatížení a dynamický pohyb návštěvníků.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45</span> <span class="spec-pill"><strong>Ucel:</strong> Hlavní komunikační dominanta autosalonu</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="bmw-liberec-monierka" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="wolfsburg-spirala" data-category="monierka" data-open-tech="wolfsburg-spirala">
+          <div class="item-img-wrap">
+            <img src="assets/22197729_10213768095426873_1040939103_o.jpg" alt="Wolfsburg – Spirála s moniérkami po obvodu" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Moniérková schodiště</span>
+            <h3 class="item-title" data-i18n="t_wolfsburg">Wolfsburg – Spirála s moniérkami po obvodu</h3>
+            <p class="item-desc" data-i18n="d_wolfsburg">Výjimečná realizace pro zahraničního klienta v německém Wolfsburgu. Schodiště stoupá ve štíhlé spirále s oboustranným nosným betonovým pláštěm.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45</span> <span class="spec-pill"><strong>Konstrukce:</strong> Oboustranná nosná skořepina (moniérka)</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="wolfsburg-spirala" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="prima-lomenice-pobytove-stupne" data-category="lomenicova" data-open-tech="prima-lomenice-pobytove-stupne">
+          <div class="item-img-wrap">
+            <img src="assets/403618165_1467669160464815_303843196072027815_n.jpg" alt="Přímá lomenice s pobytovými stupni" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Lomenicová schodiště</span>
+            <h3 class="item-title" data-i18n="t_prima_lomenice">Přímá lomenice s pobytovými stupni</h3>
+            <p class="item-desc" data-i18n="d_prima_lomenice">Moderní přímočaré schodiště s lomenicovým profilem, jehož spodní stupně jsou velkoryse rozšířeny pro sezení a přirozené propojení s obytným prostorem.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 30/37</span> <span class="spec-pill"><strong>Konstrukce:</strong> Přímočará zubatice bez podstupnicových nosníků</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="prima-lomenice-pobytove-stupne" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="lomenice-u-zrcadlo" data-category="lomenicova" data-open-tech="lomenice-u-zrcadlo">
+          <div class="item-img-wrap">
+            <img src="assets/05.10.2011-olympes-e510-001.jpg" alt="Lomenicové U schodiště se stěrkami ARDEX" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Lomenicová schodiště</span>
+            <h3 class="item-title" data-i18n="t_lomenice_u">Lomenicové U schodiště se stěrkami ARDEX</h3>
+            <p class="item-desc" data-i18n="d_lomenice_u">Dvojramenné schodiště tvaru U s pravoúhlým zrcadlem. Celý povrch je upraven designovými cementovými stěrkami ARDEX s ochranným epoxidovým lakem.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45</span> <span class="spec-pill"><strong>Geometrie:</strong> Dvouramenné U s mezipodestou</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="lomenice-u-zrcadlo" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="lomenice-loft" data-category="lomenicova" data-open-tech="lomenice-loft">
+          <div class="item-img-wrap">
+            <img src="assets/lomenice_loft_realizace.jpg" alt="Originální lomenicové schodiště v industriálním loftu" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Lomenicová schodiště</span>
+            <h3 class="item-title" data-i18n="t_lomenice_loft">Originální lomenicové schodiště v industriálním loftu</h3>
+            <p class="item-desc" data-i18n="d_lomenice_loft">Odvážná monolitická lomenice do otevřeného loftového prostoru. Přiznaná textura bednění podtrhuje autentickou syrovost materiálu.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 30/37</span> <span class="spec-pill"><strong>Styl:</strong> Autentický industriální beton</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="lomenice-loft" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="csob-radlice-schodiste" data-category="plna-deska" data-open-tech="csob-radlice-schodiste">
+          <div class="item-img-wrap">
+            <img src="assets/11.10.11.-canon-068.jpg" alt="ČSOB Centrála Radlice – Monolitické točité schodiště" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Schodiště na plné desce</span>
+            <h3 class="item-title" data-i18n="t_csob_radlice">ČSOB Centrála Radlice – Monolitické točité schodiště</h3>
+            <p class="item-desc" data-i18n="d_csob_radlice">Monumentální monolitické točité schodiště na plné nosné betonové desce v centrále ČSOB v Praze Radlicích. Přísné statické a vizuální požadavky bankovní budovy.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 40/50</span> <span class="spec-pill"><strong>Nosny prvek:</strong> Zakřivená plná nosná železobetonová deska</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="csob-radlice-schodiste" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="spirala-sykora-praha" data-category="plna-deska" data-open-tech="spirala-sykora-praha">
+          <div class="item-img-wrap">
+            <img src="assets/spirala_sykora_realizace.jpg" alt="Spirála požárního schodiště OD Sýkora v Praze" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Schodiště na plné desce</span>
+            <h3 class="item-title" data-i18n="t_spirala_sykora">Spirála požárního schodiště OD Sýkora v Praze</h3>
+            <p class="item-desc" data-i18n="d_spirala_sykora">Venkovní samonosná spirála navržená a realizovaná jako únikové i designové schodiště obchodního domu Sýkora v Praze. Odolné proti povětrnostním vlivům.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45 XF4</span> <span class="spec-pill"><strong>Odolnost:</strong> Vysoká mrazuvzdornost a odolnost vůči solím</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="spirala-sykora-praha" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="spirala-moderni-vila" data-category="plna-deska" data-open-tech="spirala-moderni-vila">
+          <div class="item-img-wrap">
+            <img src="assets/spirala_vila_realizace.jpg" alt="Spirála betonového schodiště v moderní vile" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Schodiště na plné desce</span>
+            <h3 class="item-title" data-i18n="t_spirala_vila">Spirála betonového schodiště v moderní vile</h3>
+            <p class="item-desc" data-i18n="d_spirala_vila">Ladná točitá křivka na plné železobetonové desce tvoří přirozené těžiště velkorysé moderní rodinné vily. Hladký povrch ze speciálního ocelového bednění.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 30/37</span> <span class="spec-pill"><strong>Geometrie:</strong> Plynulá spirála s kružnicovým zrcadlem</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="spirala-moderni-vila" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="paterove-schodiste-teak" data-category="paterova" data-open-tech="paterove-schodiste-teak">
+          <div class="item-img-wrap">
+            <img src="assets/P10101281.jpg" alt="Páteřové schodiště se stupni z teakového dřeva" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Páteřová schodiště</span>
+            <h3 class="item-title" data-i18n="t_paterove_teak">Páteřové schodiště se stupni z teakového dřeva</h3>
+            <p class="item-desc" data-i18n="d_paterove_teak">Subtilní železobetonový centrální páteřový nosník osazený masivními stupni z teakového dřeva. Ideální pro prostory s vyšší vlhkostí nebo u vnitřního bazénu.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45</span> <span class="spec-pill"><strong>Nosny prvek:</strong> Centrální monolitický páteřový nosník</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="paterove-schodiste-teak" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="paterove-schodiste-j" data-category="paterova" data-open-tech="paterove-schodiste-j">
+          <div class="item-img-wrap">
+            <img src="assets/P10100111.jpg" alt="Páteřové schodiště tvaru J v otevřeném prostoru" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Páteřová schodiště</span>
+            <h3 class="item-title" data-i18n="t_paterove_j">Páteřové schodiště tvaru J v otevřeném prostoru</h3>
+            <p class="item-desc" data-i18n="d_paterove_j">Atypický půdorys ve tvaru písmene J vyniká v prosvětleném interiéru. Centrální páteřový nosník přenáší ohybové i krouticí momenty do základové patky.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45</span> <span class="spec-pill"><strong>Prurez nosniku:</strong> Proměnný lichoběžníkový monolitický profil</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="paterove-schodiste-j" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="paterove-schodiste-houslista" data-category="paterova" data-open-tech="paterove-schodiste-houslista">
+          <div class="item-img-wrap">
+            <img src="assets/pater_houslista_realizace.jpg" alt="Lomenicově páteřní schodiště s houslistou" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Páteřová schodiště</span>
+            <h3 class="item-title" data-i18n="t_paterove_houslista">Lomenicově páteřní schodiště s houslistou</h3>
+            <p class="item-desc" data-i18n="d_paterove_houslista">Hybridní konstrukce kombinující tuhost páteřního nosníku s lehkostí lomenicových ramen. Akusticky vyladěné těleso vhodné do hudebního salonu.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 30/37</span> <span class="spec-pill"><strong>Konstrukce:</strong> Páteřový nosník integrovaný do lomenicových stupňů</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="paterove-schodiste-houslista" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="konzolove-schodiste-praha" data-category="konzolova" data-open-tech="konzolove-schodiste-praha">
+          <div class="item-img-wrap">
+            <img src="assets/720776070_4341275792764050_1138265281118536532_n.jpg" alt="Konzolové schodiště tvaru U v pražské vile" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Konzolová schodiště</span>
+            <h3 class="item-title" data-i18n="t_konzoly_praha">Konzolové schodiště tvaru U v pražské vile</h3>
+            <p class="item-desc" data-i18n="d_konzoly_praha">Levitující betonové stupně kotvené do skryté ocelové nosné konstrukce ve stěně. Čistý minimalistický prostor s maximálním optickým odlehčením.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45</span> <span class="spec-pill"><strong>Kotevni system:</strong> Skrytá svařovaná pouzdra v nosné zdi</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="konzolove-schodiste-praha" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="konzolove-schodiste-turnov" data-category="konzolova" data-open-tech="konzolove-schodiste-turnov">
+          <div class="item-img-wrap">
+            <img src="assets/686935566_1587317286734986_1932263893500164752_n.jpg" alt="Konzolové schodiště tvaru L na Turnovsku" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Konzolová schodiště</span>
+            <h3 class="item-title" data-i18n="t_konzoly_turnov">Konzolové schodiště tvaru L na Turnovsku</h3>
+            <p class="item-desc" data-i18n="d_konzoly_turnov">Jednotlivé monolitické betonové konzoly v půdorysu L pevně vetknuté do železobetonové stěny. Ošetřeno přírodním voskem s hedvábným omakem.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 40/50</span> <span class="spec-pill"><strong>Vetknuti:</strong> Ocelové trny a chemická malta Hilti HIT</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="konzolove-schodiste-turnov" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="konzolove-schody-galerie" data-category="konzolova" data-open-tech="konzolove-schody-galerie">
+          <div class="item-img-wrap">
+            <img src="assets/konzoly_galerie_realizace.jpg" alt="Konzolové schody do mezonetové galerie" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Konzolová schodiště</span>
+            <h3 class="item-title" data-i18n="t_konzoly_galerie">Konzolové schody do mezonetové galerie</h3>
+            <p class="item-desc" data-i18n="d_konzoly_galerie">Subtilní konzolové stupně vedoucí do horní galerie. Vetknutí přímo do obvodového zdiva při rekonstrukci s dodatečným statickým zajištěním.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45</span> <span class="spec-pill"><strong>Aplikace:</strong> Rekonstrukce se starším zdivem</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="konzolove-schody-galerie" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="breclav-smutecni-sin" data-category="architektonicke" data-open-tech="breclav-smutecni-sin">
+          <div class="item-img-wrap">
+            <img src="assets/IMG_3938.jpg" alt="Smuteční síň městského hřbitova Břeclav" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Atypické konstrukce</span>
+            <h3 class="item-title" data-i18n="t_breclav_sin">Smuteční síň městského hřbitova Břeclav</h3>
+            <p class="item-desc" data-i18n="d_breclav_sin">Monumentální monolitické prvky a obkladové pohledové betony pro smuteční síň v Břeclavi. Dokonalá geometrie spar a sametový povrch.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45 XC4</span> <span class="spec-pill"><strong>Typ realizace:</strong> Monolitické architektonické pulty a stěny</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="breclav-smutecni-sin" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="dvojumyvadlo-beton" data-category="umyvadla-interiery" data-open-tech="dvojumyvadlo-beton">
+          <div class="item-img-wrap">
+            <img src="assets/dvojumyvadlo_realizace.jpg" alt="Masivní designové dvojumyvadlo z pohledového betonu" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Umyvadla & Design</span>
+            <h3 class="item-title" data-i18n="t_dvojumyvadlo">Masivní designové dvojumyvadlo z pohledového betonu</h3>
+            <p class="item-desc" data-i18n="d_dvojumyvadlo">Monolitické dvojumyvadlo z vysokohodnotného jemnozrnného betonu UHPC se skrytým štěrbinovým odtokem. Vysoce odolná nanobariéra certifikovaná pro koupelny.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Material:</strong> Vysokopevnostní UHPC beton s mikrovlákny</span> <span class="spec-pill"><strong>Rozmery:</strong> 1600 x 500 x 120 mm</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="dvojumyvadlo-beton" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="restaurace-rekovice" data-category="umyvadla-interiery" data-open-tech="restaurace-rekovice">
+          <div class="item-img-wrap">
+            <img src="assets/20160907_1321061.jpg" alt="Betonové interiéry a umyvadla restaurace Rekovice" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Umyvadla & Design</span>
+            <h3 class="item-title" data-i18n="t_rekovice">Betonové interiéry a umyvadla restaurace Rekovice</h3>
+            <p class="item-desc" data-i18n="d_rekovice">Kompletní dodávka betonových prvků pro oceňovanou restauraci Rekovice v Trojanovicích (Ateliér Kamila Mrvy). Velká dvojumyvadla a barový pult.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Architekt:</strong> Ateliér Kamila Mrvy + arch. Romana Mališ Bílková</span> <span class="spec-pill"><strong>Prvky:</strong> Velká dvojumyvadla, barový pult, odkládací pult pece</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="restaurace-rekovice" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="miska-vaza-srdce" data-category="umyvadla-interiery" data-open-tech="miska-vaza-srdce">
+          <div class="item-img-wrap">
+            <img src="assets/IMG_8484.jpg" alt="Autorská betonová miska / váza – Srdce 057" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Umyvadla & Design</span>
+            <h3 class="item-title" data-i18n="t_miska_srdce">Autorská betonová miska / váza – Srdce 057</h3>
+            <p class="item-desc" data-i18n="d_miska_srdce">Ručně odlévaná solitérní betonová miska organického tvaru. Každý kus nese unikátní kresbu vzduchových pórů a přírodní odstín šedého cementu.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Material:</strong> Jemnozrnný vibrovaný cementový kompozit</span> <span class="spec-pill"><strong>Vyroba:</strong> Ruční odlévání do elastické silikonové formy</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="miska-vaza-srdce" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="kosik-betonovy-055" data-category="umyvadla-interiery" data-open-tech="kosik-betonovy-055">
+          <div class="item-img-wrap">
+            <img src="assets/IMG_8454.jpg" alt="Designový betonový košík 055" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Umyvadla & Design</span>
+            <h3 class="item-title" data-i18n="t_kosik">Designový betonový košík 055</h3>
+            <p class="item-desc" data-i18n="d_kosik">Tenkostěnný betonový košík demonstrující mimořádnou tvárnost moderního betonu vyztuženého vlákny. Pevný, a přitom překvapivě lehký.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Material:</strong> UHPC tenkostěnný beton s rozptýlenou výztuží</span> <span class="spec-pill"><strong>Tloustka sten:</strong> 8–12 mm</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="kosik-betonovy-055" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="kvetinac-054-monolit" data-category="umyvadla-interiery" data-open-tech="kvetinac-054-monolit">
+          <div class="item-img-wrap">
+            <img src="assets/25.jpg" alt="Monolitický betonový solitérní květináč 054" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Umyvadla & Design</span>
+            <h3 class="item-title" data-i18n="t_kvetinac">Monolitický betonový solitérní květináč 054</h3>
+            <p class="item-desc" data-i18n="d_kvetinac">Masivní monolitický květináč pro interiéry i terasy. Přirozená akumulace tepla a optimální vlhkostní mikroklima pro kořenový systém rostlin.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 30/37 XF3</span> <span class="spec-pill"><strong>Mrazuvzdornost:</strong> 150 cyklů zmrazování dle ČSN 73 1322</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="kvetinac-054-monolit" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        <article class="catalog-item-card cat-card" data-id="schodiste-podkova-monierka" data-category="monierka" data-open-tech="schodiste-podkova-monierka">
+          <div class="item-img-wrap">
+            <img src="assets/schodiste_podkova_realizace.jpg" alt="Schodiště s moniérkou ve tvaru podkovy" class="item-img" loading="lazy">
+          </div>
+          <div class="item-content">
+            <span class="item-badge">Moniérková schodiště</span>
+            <h3 class="item-title" data-i18n="t_podkova">Schodiště s moniérkou ve tvaru podkovy</h3>
+            <p class="item-desc" data-i18n="d_podkova">Ladná půlkruhová podkova s monolitickým betonovým zábradlím z obou stran. Schodiště plynule objímá vnitřní zrcadlo a vytváří monumentální vstup.</p>
+            <div class="item-specs-preview">
+              <span class="spec-pill"><strong>Trida betonu:</strong> C 35/45</span> <span class="spec-pill"><strong>Tvar:</strong> Podkovovitý zakřivený půdorys</span> 
+            </div>
+            <button type="button" class="btn-detail" data-modal-id="schodiste-podkova-monierka" data-i18n="open_detail_btn">Technická specifikace</button>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="media-section">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="badge" data-i18n="media_badge">Odborná publicita</span>
+          <h2 class="section-title" data-i18n="media_title">DNA DESIGN v médiích a televizních pořadech</h2>
+          <p class="section-subtitle" data-i18n="media_subtitle">Naše schodiště a atypické betonové konstrukce pravidelně inspirují architekty i média.</p>
+        </div>
+        <div class="media-grid">
+          <div class="media-card">
+            <div class="media-tag">Česká televize</div>
+            <h3 class="media-card-title" data-i18n="media_tv_title">Bydlení je hra: Schodiště RIZZI</h3>
+            <p class="media-card-desc" data-i18n="media_tv_desc">Jak stoupat pohodlně, bezpečně a s elegancí aneb jak si vybrat schody pro moderní interiér.</p>
+          </div>
+          <div class="media-card">
+            <div class="media-tag">Architektonické publikace</div>
+            <h3 class="media-card-title" data-i18n="media_mag_title">Architektonické realizace LASVIT a ČSOB</h3>
+            <p class="media-card-desc" data-i18n="media_mag_desc">Oceněné monolitické klenby, kazetové stropy a točité spirály v předních českých stavbách.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="o-nas" class="about-section">
+      <div class="container">
+        <div class="about-split">
+          <div class="about-info">
+            <span class="badge" data-i18n="about_badge">Řemeslo a statika</span>
+            <h2 class="section-title" data-i18n="about_title">O společnosti DNA DESIGN s.r.o.</h2>
+            <p class="lead-text" data-i18n="about_p1">Projektováním a realizací schodišť se zabýváme již od roku 1997. S kolegy jsme vytvořili přes 2000 unikátních realizací od standardních tvarů po nadčasové architektonické originály.</p>
+            <p class="body-text" data-i18n="about_p2">Spolupracujeme s předními architekty, projektanty a investory v České republice i zahraničí. Provádíme přesná zaměření staveniště, 3D návrhy, statické dimenzování i vlastní precizní betonáž.</p>
+          </div>
+          <div class="team-cards-wrap">
+            <div class="person-card">
+              <div class="person-avatar">DE</div>
+              <div class="person-body">
+                <h3 class="person-name" data-i18n="team_dominik_name">Dominik Eichler</h3>
+                <span class="person-role" data-i18n="team_dominik_role">Jednatel společnosti DNA DESIGN s.r.o.</span>
+                <p class="person-desc" data-i18n="team_dominik_desc">Vedení firmy, koordinace staveb a vlastní realizace přímo na objektech. Zajišťuje zaměření schodišťového prostoru, průzkum staveniště při rekonstrukcích a fotodokumentaci.</p>
+              </div>
+            </div>
+            <div class="person-card">
+              <div class="person-avatar">BE</div>
+              <div class="person-body">
+                <h3 class="person-name" data-i18n="team_bretislav_name">Břetislav Eichler</h3>
+                <span class="person-role" data-i18n="team_bretislav_role">Vývoj a příprava originálních schodišť</span>
+                <p class="person-desc" data-i18n="team_bretislav_desc">Projektováním a realizací schodišť se zabývá od roku 1997. Řeší technický vývoj, statické koncepty a naplňuje architektonické představy zákazníků a ateliérů.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="contact-section">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="badge" data-i18n="contact_badge">Konzultace a zaměření</span>
+          <h2 class="section-title" data-i18n="contact_title">Kontaktujte náš tým pro nezávaznou nabídku</h2>
+          <p class="section-subtitle" data-i18n="contact_subtitle">Zašlete nám projektovou dokumentaci nebo skicu – připravíme statický a tvarový návrh na míru.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-form-panel">
+            <h3 class="form-title" data-i18n="contact_form_title">Poptávkový formulář realizace</h3>
+            <form id="inquiryForm" class="inquiry-form" onsubmit="event.preventDefault(); alert('Děkujeme za poptávku. Brzy se s vámi spojíme.');">
+              <div class="form-row">
+                <div class="form-group form-col">
+                  <label for="fName" class="form-label" data-i18n="form_name_lbl">Jméno a příjmení</label>
+                  <input type="text" id="fName" class="form-control" placeholder="Ing. arch. Jan Novák" data-i18n-placeholder="form_name_ph" required>
+                </div>
+                <div class="form-group form-col">
+                  <label for="fEmail" class="form-label" data-i18n="form_email_lbl">Kontaktní e-mail</label>
+                  <input type="email" id="fEmail" class="form-control" placeholder="jan.novak@studio.cz" data-i18n-placeholder="form_email_ph" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group form-col">
+                  <label for="fPhone" class="form-label" data-i18n="form_phone_lbl">Telefonní číslo</label>
+                  <input type="tel" id="fPhone" class="form-control" placeholder="+420 777 000 000" data-i18n-placeholder="form_phone_ph">
+                </div>
+                <div class="form-group form-col">
+                  <label for="fService" class="form-label" data-i18n="form_service_lbl">Typ poptávané konstrukce</label>
+                  <select id="fService" class="form-control">
+                    <option value="monierka" data-i18n="form_opt_monierka">Moniérkové točité schodiště</option>
+                    <option value="lomenice" data-i18n="form_opt_lomenice">Lomenicové schodiště</option>
+                    <option value="plna-deska" data-i18n="form_opt_plna_deska">Schodiště na plné nosné desce</option>
+                    <option value="paterove" data-i18n="form_opt_paterove">Páteřové centrální schodiště</option>
+                    <option value="konzola" data-i18n="form_opt_konzola">Konzolové levitující schodiště</option>
+                    <option value="umyvadlo" data-i18n="form_opt_umyvadlo">Betonové umyvadlo nebo solitér</option>
+                    <option value="jine" data-i18n="form_opt_jine">Atypická architektonická konstrukce</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="fMessage" class="form-label" data-i18n="form_msg_lbl">Popis projektu a požadavky na schodiště</label>
+                <textarea id="fMessage" class="form-control" rows="4" placeholder="Uveďte výšku podlaží, typ prostoru, požadovaný tvar a stupeň projektové přípravy..." data-i18n-placeholder="form_msg_ph" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" data-i18n="form_submit_btn">Odeslat nezávaznou poptávku</button>
+            </form>
+          </div>
+
+          <div class="contact-info-panel">
+            <h3 class="info-title" data-i18n="contact_hq_title">Sídlo společnosti a kancelář</h3>
+            <div class="info-details">
+              <div class="info-line">
+                <span class="info-lbl" data-i18n="contact_addr_lbl">Adresa:</span>
+                <span class="info-val" data-i18n="contact_addr">671 73 Dolní Dubňany 62, okr. Znojmo</span>
+              </div>
+              <div class="info-line">
+                <span class="info-lbl" data-i18n="contact_ico_lbl">IČO:</span>
+                <span class="info-val" data-i18n="contact_ico">014 77 595</span>
+              </div>
+              <div class="info-line">
+                <span class="info-lbl" data-i18n="contact_reg_lbl">Registrace:</span>
+                <span class="info-val" data-i18n="contact_reg">Krajský soud v Brně, sp. zn. C 78265</span>
+              </div>
+              <div class="info-line">
+                <span class="info-lbl" data-i18n="contact_phone_lbl">Dispečink a konzultace:</span>
+                <span class="info-val"><a href="tel:+420777668137" class="val-link">+420 777 668 137</a></span>
+              </div>
+              <div class="info-line">
+                <span class="info-lbl">E-mail:</span>
+                <span class="info-val"><a href="mailto:info@dnadesign.cz" class="val-link">info@dnadesign.cz</a></span>
+              </div>
+              <div class="info-line">
+                <span class="info-lbl" data-i18n="contact_hours_title">Pracovní doba:</span>
+                <span class="info-val" data-i18n="contact_hours_val">Po – Pá: 7:00 – 17:00</span>
+              </div>
+            </div>
+            <div class="map-wrapper">
+              <iframe src="https://frame.mapy.cz/zakladni?x=16.22757&y=49.05618&z=16&source=coor&id=16.22757%2C49.05618" width="100%" height="240" frameborder="0" style="border:0;" loading="lazy" title="Mapa sídla DNA DESIGN s.r.o."></iframe>
+            </div>
+            <div class="map-link-row">
+              <a href="https://mapy.cz/zakladni?x=16.22757&y=49.05618&z=16&source=coor&id=16.22757%2C49.05618" target="_blank" rel="noopener noreferrer" class="btn-map-link">Otevřít na Mapy.cz (červený špendlík)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <div class="footer-logo-badge">
+          <img src="assets/logo.png" alt="DNA DESIGN s.r.o. logo" class="footer-logo">
+        </div>
+        <p class="footer-desc" data-i18n="footer_desc">DNA DESIGN s.r.o. – Specialista na výrobu a realizaci architektonického pohledového betonu, monolitických schodišť a designových solitérů od roku 1997.</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading" data-i18n="footer_nav_title">Rychlá navigace</h4>
+        <ul class="footer-links">
+          <li><a href="#uvod" data-i18n="nav_home">Úvod</a></li>
+          <li><a href="#katalog" data-i18n="nav_stairs">Schodiště</a></li>
+          <li><a href="#katalog" data-i18n="nav_interiors">Interiéry</a></li>
+          <li><a href="#media" data-i18n="nav_media">Média</a></li>
+          <li><a href="#o-nas" data-i18n="nav_about">O nás</a></li>
+          <li><a href="#kontakt" data-i18n="nav_contact">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading" data-i18n="footer_services_title">Kategorie konstrukcí</h4>
+        <ul class="footer-links">
+          <li><a href="#katalog" data-i18n="filter_monierka">Moniérková schodiště</a></li>
+          <li><a href="#katalog" data-i18n="filter_lomenicova">Lomenicová schodiště</a></li>
+          <li><a href="#katalog" data-i18n="filter_plna_deska">Schodiště na plné desce</a></li>
+          <li><a href="#katalog" data-i18n="filter_paterova">Páteřová schodiště</a></li>
+          <li><a href="#katalog" data-i18n="filter_konzolova">Konzolová schodiště</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading" data-i18n="footer_contact_title">Kontaktní spojení</h4>
+        <p class="footer-contact-line"><strong>DNA DESIGN s.r.o.</strong></p>
+        <p class="footer-contact-line" data-i18n="contact_addr">671 73 Dolní Dubňany 62, okr. Znojmo</p>
+        <p class="footer-contact-line">Tel: <a href="tel:+420777668137" class="footer-link-inline">+420 777 668 137</a></p>
+        <p class="footer-contact-line">Email: <a href="mailto:info@dnadesign.cz" class="footer-link-inline">info@dnadesign.cz</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="copyright">&copy; 2026 DNA DESIGN s.r.o. <span data-i18n="footer_rights">Všechna práva vyhrazena.</span></p>
+        <div class="footer-badge">IČO 014 77 595 | Krajský soud v Brně, C 78265</div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="techModalBackdrop" class="tech-modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <div class="modal-head">
+        <div class="modal-title-wrap">
+          <span id="modalCategory" class="modal-category">Moniérkové schodiště</span>
+          <h3 id="modalTitle" class="modal-title">Název konstrukce</h3>
+        </div>
+        <button type="button" id="techModalClose" class="tech-modal-close" aria-label="Zavřít detail">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-img-wrap">
+          <img id="modalImg" src="assets/392761765_834483795351676_7433837529037045853_n.jpg" alt="Detail konstrukce" class="modal-img">
+        </div>
+        <p id="modalDesc" class="modal-desc">Podrobný popis konstrukce...</p>
+        
+        <h4 class="modal-subhead" data-i18n="modal_tech_specs">Technické parametry a specifikace konstrukce</h4>
+        <div class="table-responsive tm-table-wrap" style="overflow-x: auto; max-width: 100%;">
+          <table class="modal-specs-table">
+            <thead>
+              <tr>
+                <th data-i18n="spec_col_param">Konstrukční parametr</th>
+                <th data-i18n="spec_col_val">Ověřená hodnota</th>
+              </tr>
+            </thead>
+            <tbody id="modalSpecsBody">
+              <tr>
+                <td>Třída betonu</td>
+                <td>C 35/45</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 class="modal-subhead" data-i18n="modal_adv_title">Klíčové konstrukční přednosti</h4>
+        <ul id="modalAdvantages" class="modal-advantages-list">
+          <li>Statická samostatnost a tuhost</li>
+        </ul>
+
+        <div class="modal-actions">
+          <a href="#kontakt" id="modalInquireBtn" class="btn btn-primary" data-i18n="modal_inquire_btn">Poptat tento typ konstrukce</a>
+          <button type="button" id="modalCloseSecondary" class="btn btn-secondary" data-i18n="modal_close_btn">Zavřít detail</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

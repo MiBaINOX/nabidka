@@ -1,0 +1,527 @@
+[
+  {
+    "id": "spirala-dna-krkonosske-muzeum",
+    "key": "spirala_dna",
+    "category": "monierka",
+    "category_name": "Moniérková schodiště",
+    "title": "Spirála DNA – Krkonošské muzeum Vrchlabí",
+    "image": "assets/392761765_834483795351676_7433837529037045853_n.jpg",
+    "desc": "Monolitické točité schodiště s integrovaným nosným betonovým zábradlím (moniérkou) tvarovaným do podoby dvojité šroubovice DNA pro expozici Krkonošského muzea.",
+    "specs": {
+      "Trida betonu": "C 35/45 XF1",
+      "Konstrukce": "Monolitická samonosná spirála s moniérkou",
+      "Tloustka monierky": "90 mm",
+      "Uzitne zatizeni": "4,0 kN/m2 (verejny prostor)",
+      "Povrchova uprava": "Hladký pohledový beton PB3 s hydrofobní impregnací",
+      "Akusticke ulozeni": "Akustické tlumicí prvky Schöck Tronsole"
+    },
+    "advantages": [
+      "Vysoká prostorová tuhost skořepiny",
+      "Exkluzivní architektonický solitér",
+      "Bez nutnosti dodatečného zábradlí"
+    ]
+  },
+  {
+    "id": "lasvit-novy-bor-kazetovy-strop",
+    "key": "lasvit_strop",
+    "category": "architektonicke",
+    "category_name": "Atypické konstrukce",
+    "title": "LASVIT Nový Bor – Kazetový strop",
+    "image": "assets/IMG_5304.jpg",
+    "desc": "Unikátní monolitický kazetový strop z architektonického pohledového betonu v centrále světového výrobce designového skla LASVIT v Novém Boru.",
+    "specs": {
+      "Trida betonu": "C 40/50",
+      "Konstrukcni system": "Monolitický žebrový kazetový strop",
+      "Bedneni": "Zakázkové truhlářské formy s hladkou překližkou",
+      "Pohledova trida": "Architektonický světlý beton PB3",
+      "Impregnace": "Nanokřemičitanová zpevňující pečeť",
+      "Staticke overeni": "Prostorový model nelineární analýzy"
+    },
+    "advantages": [
+      "Mimořádná estetická hodnota",
+      "Akustický rozptyl zvuku v sále",
+      "Vysoká požární odolnost REI 120"
+    ]
+  },
+  {
+    "id": "lasvit-novy-bor-klenba",
+    "key": "lasvit_klenba",
+    "category": "architektonicke",
+    "category_name": "Atypické konstrukce",
+    "title": "LASVIT Nový Bor – Klenba z pohledového betonu",
+    "image": "assets/IMG_4630.jpg",
+    "desc": "Samonosná skořepinová klenba v historickém areálu sklárny LASVIT spojující moderní tvarosloví betonu s tradičním řemeslem.",
+    "specs": {
+      "Trida betonu": "C 40/50",
+      "Tvar konstrukce": "Dvojitě zakřivená skořepina",
+      "Vyztuzeni": "Vysokopevnostní ocel B500B + rozptýlená mikrovlákna",
+      "Tloustka klenby": "120–160 mm v patkách",
+      "Povrch": "Přirozený reliéf dřevěného bednění",
+      "Trvanlivost": "Certifikace XC3 dle EN 206"
+    },
+    "advantages": [
+      "Dokonalé řemeslné zpracování",
+      "Autorský konstrukční detail",
+      "Monolitická celistvost bez spár"
+    ]
+  },
+  {
+    "id": "bmw-liberec-monierka",
+    "key": "bmw_liberec",
+    "category": "monierka",
+    "category_name": "Moniérková schodiště",
+    "title": "Schodiště s moniérkou v autosalonu BMW v Liberci",
+    "image": "assets/bmw_liberec_realizace.jpg",
+    "desc": "Reprezentativní točité schodiště s plným betonovým zábradlím moniérkou v showroomu autosalonu BMW, navržené pro vysoké zatížení a dynamický pohyb návštěvníků.",
+    "specs": {
+      "Trida betonu": "C 35/45",
+      "Ucel": "Hlavní komunikační dominanta autosalonu",
+      "Uzitne zatizeni": "5,0 kN/m2",
+      "Vyska monierky": "1050 mm",
+      "Povrch": "Jemně satinovaný pohledový beton",
+      "Krocejovy utlum": "Elastomerové ložiskové uložení"
+    },
+    "advantages": [
+      "Dynamické křivky ladící s designem prémiových vozů",
+      "Bezpečná plná zábradelní zídka",
+      "Vysoká nosnost"
+    ]
+  },
+  {
+    "id": "wolfsburg-spirala",
+    "key": "wolfsburg",
+    "category": "monierka",
+    "category_name": "Moniérková schodiště",
+    "title": "Wolfsburg – Spirála s moniérkami po obvodu",
+    "image": "assets/22197729_10213768095426873_1040939103_o.jpg",
+    "desc": "Výjimečná realizace pro zahraničního klienta v německém Wolfsburgu. Schodiště stoupá ve štíhlé spirále s oboustranným nosným betonovým pláštěm.",
+    "specs": {
+      "Trida betonu": "C 35/45",
+      "Konstrukce": "Oboustranná nosná skořepina (moniérka)",
+      "Tloustka plastu": "80 mm",
+      "Uzitne zatizeni": "3,0 kN/m2",
+      "Povrch": "Ocelové bednění, hedvábný matný vosk",
+      "Norma": "DIN 1045 / EN 1992-1-1"
+    },
+    "advantages": [
+      "Mezinárodně oceněný design",
+      "Subtilní tloušťka stěn",
+      "Vlastní zakázková forma na míru"
+    ]
+  },
+  {
+    "id": "prima-lomenice-pobytove-stupne",
+    "key": "prima_lomenice",
+    "category": "lomenicova",
+    "category_name": "Lomenicová schodiště",
+    "title": "Přímá lomenice s pobytovými stupni",
+    "image": "assets/403618165_1467669160464815_303843196072027815_n.jpg",
+    "desc": "Moderní přímočaré schodiště s lomenicovým profilem, jehož spodní stupně jsou velkoryse rozšířeny pro sezení a přirozené propojení s obytným prostorem.",
+    "specs": {
+      "Trida betonu": "C 30/37",
+      "Konstrukce": "Přímočará zubatice bez podstupnicových nosníků",
+      "Sirka ramen": "1200 mm",
+      "Hloubka pobytovych stupnu": "450 mm",
+      "Povrch": "Broušený monolitický beton s penetrací",
+      "Dilatace": "Akustická spára v návaznosti na podlahu"
+    },
+    "advantages": [
+      "Společenská a pobytová funkce schodiště",
+      "Čistá geometrická lomenice",
+      "Maximální stabilita"
+    ]
+  },
+  {
+    "id": "lomenice-u-zrcadlo",
+    "key": "lomenice_u",
+    "category": "lomenicova",
+    "category_name": "Lomenicová schodiště",
+    "title": "Lomenicové U schodiště se stěrkami ARDEX",
+    "image": "assets/05.10.2011-olympes-e510-001.jpg",
+    "desc": "Dvojramenné schodiště tvaru U s pravoúhlým zrcadlem. Celý povrch je upraven designovými cementovými stěrkami ARDEX s ochranným epoxidovým lakem.",
+    "specs": {
+      "Trida betonu": "C 35/45",
+      "Geometrie": "Dvouramenné U s mezipodestou",
+      "Finis": "Cementová stěrka ARDEX + transparentní epoxid",
+      "Uzitne zatizeni": "2,5 kN/m2",
+      "Tloustka zubatice": "100–120 mm",
+      "Udrzba": "Omyvatelný a oděruvzdorný povrch"
+    },
+    "advantages": [
+      "Luxusní sametový finiš",
+      "Odolnost proti otěru a skvrnám",
+      "Vynikne na tmavém pozadí stěn"
+    ]
+  },
+  {
+    "id": "lomenice-loft",
+    "key": "lomenice_loft",
+    "category": "lomenicova",
+    "category_name": "Lomenicová schodiště",
+    "title": "Originální lomenicové schodiště v industriálním loftu",
+    "image": "assets/lomenice_loft_realizace.jpg",
+    "desc": "Odvážná monolitická lomenice do otevřeného loftového prostoru. Přiznaná textura bednění podtrhuje autentickou syrovost materiálu.",
+    "specs": {
+      "Trida betonu": "C 30/37",
+      "Styl": "Autentický industriální beton",
+      "Kotveni": "Spodní základový pas + stropní překlad",
+      "Uzitne zatizeni": "3,0 kN/m2",
+      "Ochrana hran": "Fazetované ocelové lišty",
+      "Akustika": "Tlumicí elastické podložky"
+    },
+    "advantages": [
+      "Dokonalý industriální vzhled",
+      "Vysoká pevnost a životnost",
+      "Vzdušný prostor pod schodištěm"
+    ]
+  },
+  {
+    "id": "csob-radlice-schodiste",
+    "key": "csob_radlice",
+    "category": "plna-deska",
+    "category_name": "Schodiště na plné desce",
+    "title": "ČSOB Centrála Radlice – Monolitické točité schodiště",
+    "image": "assets/11.10.11.-canon-068.jpg",
+    "desc": "Monumentální monolitické točité schodiště na plné nosné betonové desce v centrále ČSOB v Praze Radlicích. Přísné statické a vizuální požadavky bankovní budovy.",
+    "specs": {
+      "Trida betonu": "C 40/50",
+      "Nosny prvek": "Zakřivená plná nosná železobetonová deska",
+      "Uzitne zatizeni": "5,0 kN/m2",
+      "Sirka pruchoziho profilu": "1500 mm",
+      "Statika": "Nelineární 3D model MKP",
+      "Pozarni odolnost": "REI 90"
+    },
+    "advantages": [
+      "Vysoká propustnost osob",
+      "Reprezentativní bankovní standard",
+      "Dlouhodobá bezúdržbovost"
+    ]
+  },
+  {
+    "id": "spirala-sykora-praha",
+    "key": "spirala_sykora",
+    "category": "plna-deska",
+    "category_name": "Schodiště na plné desce",
+    "title": "Spirála požárního schodiště OD Sýkora v Praze",
+    "image": "assets/spirala_sykora_realizace.jpg",
+    "desc": "Venkovní samonosná spirála navržená a realizovaná jako únikové i designové schodiště obchodního domu Sýkora v Praze. Odolné proti povětrnostním vlivům.",
+    "specs": {
+      "Trida betonu": "C 35/45 XF4",
+      "Odolnost": "Vysoká mrazuvzdornost a odolnost vůči solím",
+      "Pozarni trida": "A1 nehořlavý materiál, REI 120",
+      "Tloustka desky": "140 mm",
+      "Protiskluznost": "Pemrlovaný protiskluzový pás na nášlapu",
+      "Vyska ramene": "12 m (vícepodlažní spirála)"
+    },
+    "advantages": [
+      "Plnění přísných norem požární bezpečnosti",
+      "Vysoká životnost v exteriéru",
+      "Elegantní křivka fasády"
+    ]
+  },
+  {
+    "id": "spirala-moderni-vila",
+    "key": "spirala_vila",
+    "category": "plna-deska",
+    "category_name": "Schodiště na plné desce",
+    "title": "Spirála betonového schodiště v moderní vile",
+    "image": "assets/spirala_vila_realizace.jpg",
+    "desc": "Ladná točitá křivka na plné železobetonové desce tvoří přirozené těžiště velkorysé moderní rodinné vily. Hladký povrch ze speciálního ocelového bednění.",
+    "specs": {
+      "Trida betonu": "C 30/37",
+      "Geometrie": "Plynulá spirála s kružnicovým zrcadlem",
+      "Bednici system": "Zakázkové segmentové ocelové formy",
+      "Uzitne zatizeni": "2,5 kN/m2",
+      "Povrch": "Ošetřeno nanokřemičitanovým hydrofobním lakem",
+      "Tloustka desky": "110 mm"
+    },
+    "advantages": [
+      "Minimalistická elegance",
+      "Plynulý krok do patra",
+      "Tichý provoz bez vibrací"
+    ]
+  },
+  {
+    "id": "paterove-schodiste-teak",
+    "key": "paterove_teak",
+    "category": "paterova",
+    "category_name": "Páteřová schodiště",
+    "title": "Páteřové schodiště se stupni z teakového dřeva",
+    "image": "assets/P10101281.jpg",
+    "desc": "Subtilní železobetonový centrální páteřový nosník osazený masivními stupni z teakového dřeva. Ideální pro prostory s vyšší vlhkostí nebo u vnitřního bazénu.",
+    "specs": {
+      "Trida betonu": "C 35/45",
+      "Nosny prvek": "Centrální monolitický páteřový nosník",
+      "Material stupnu": "Barmský teak ošetřený přírodním olejem",
+      "Kotveni stupnu": "Nerezové kotevní trny s pryžovými podložkami",
+      "Uzitne zatizeni": "3,0 kN/m2",
+      "Odolnost": "Vhodné do prostorů s wellness a bazénem"
+    },
+    "advantages": [
+      "Kombinace teplého teaku a chladného betonu",
+      "Maximální propustnost světla",
+      "Vysoká odolnost vůči vlhku"
+    ]
+  },
+  {
+    "id": "paterove-schodiste-j",
+    "key": "paterove_j",
+    "category": "paterova",
+    "category_name": "Páteřová schodiště",
+    "title": "Páteřové schodiště tvaru J v otevřeném prostoru",
+    "image": "assets/P10100111.jpg",
+    "desc": "Atypický půdorys ve tvaru písmene J vyniká v prosvětleném interiéru. Centrální páteřový nosník přenáší ohybové i krouticí momenty do základové patky.",
+    "specs": {
+      "Trida betonu": "C 35/45",
+      "Prurez nosniku": "Proměnný lichoběžníkový monolitický profil",
+      "Uhel zatoceni": "180 stupňů s přímým náběhem",
+      "Uzitne zatizeni": "2,5 kN/m2",
+      "Krouceni": "Dimenzováno na torzní namáhání dle EN 1992",
+      "Vzhled": "Světlý hladký pohledový beton"
+    },
+    "advantages": [
+      "Vynikající využití rohového prostoru",
+      "Sochařský výraz v interiéru",
+      "Bez masivních bočních stěn"
+    ]
+  },
+  {
+    "id": "paterove-schodiste-houslista",
+    "key": "paterove_houslista",
+    "category": "paterova",
+    "category_name": "Páteřová schodiště",
+    "title": "Lomenicově páteřní schodiště s houslistou",
+    "image": "assets/pater_houslista_realizace.jpg",
+    "desc": "Hybridní konstrukce kombinující tuhost páteřního nosníku s lehkostí lomenicových ramen. Akusticky vyladěné těleso vhodné do hudebního salonu.",
+    "specs": {
+      "Trida betonu": "C 30/37",
+      "Konstrukce": "Páteřový nosník integrovaný do lomenicových stupňů",
+      "Vylozeni ramen": "1100 mm",
+      "Uzitne zatizeni": "2,5 kN/m2",
+      "Akustika": "Tlumicí prvky s rezonančním útlumem",
+      "Povrch": "Jemná patina s matným transparentním pečetidlem"
+    },
+    "advantages": [
+      "Unikátní geometrie na pomezí lomenice a páteře",
+      "Vysoký akustický komfort",
+      "Nadčasový design"
+    ]
+  },
+  {
+    "id": "konzolove-schodiste-praha",
+    "key": "konzoly_praha",
+    "category": "konzolova",
+    "category_name": "Konzolová schodiště",
+    "title": "Konzolové schodiště tvaru U v pražské vile",
+    "image": "assets/720776070_4341275792764050_1138265281118536532_n.jpg",
+    "desc": "Levitující betonové stupně kotvené do skryté ocelové nosné konstrukce ve stěně. Čistý minimalistický prostor s maximálním optickým odlehčením.",
+    "specs": {
+      "Trida betonu": "C 35/45",
+      "Kotevni system": "Skrytá svařovaná pouzdra v nosné zdi",
+      "Vylozeni stupne": "1000 mm",
+      "Tloustka stupne": "85 mm",
+      "Prusyp": "Dynamický průhyb L/500 při plném zatížení",
+      "Zkouska": "Individuální statická a rázová zkouška na stavbě"
+    },
+    "advantages": [
+      "Vizuální efekt plovoucích stupňů",
+      "Nezabírá podlahovou plochu",
+      "Přísné statické dimenzování"
+    ]
+  },
+  {
+    "id": "konzolove-schodiste-turnov",
+    "key": "konzoly_turnov",
+    "category": "konzolova",
+    "category_name": "Konzolová schodiště",
+    "title": "Konzolové schodiště tvaru L na Turnovsku",
+    "image": "assets/686935566_1587317286734986_1932263893500164752_n.jpg",
+    "desc": "Jednotlivé monolitické betonové konzoly v půdorysu L pevně vetknuté do železobetonové stěny. Ošetřeno přírodním voskem s hedvábným omakem.",
+    "specs": {
+      "Trida betonu": "C 40/50",
+      "Vetknuti": "Ocelové trny a chemická malta Hilti HIT",
+      "Pevnost v tahu": "Vysoká houževnatost s mikrovýztuží",
+      "Vylozeni": "950 mm",
+      "Povrch": "Nanovosk odpuzující prach a mastnotu",
+      "Uzitne zatizeni": "2,5 kN/m2"
+    },
+    "advantages": [
+      "Žádná podpora pod stupni",
+      "Snadný úklid podlahy",
+      "Špičková architektonická čistota"
+    ]
+  },
+  {
+    "id": "konzolove-schody-galerie",
+    "key": "konzoly_galerie",
+    "category": "konzolova",
+    "category_name": "Konzolová schodiště",
+    "title": "Konzolové schody do mezonetové galerie",
+    "image": "assets/konzoly_galerie_realizace.jpg",
+    "desc": "Subtilní konzolové stupně vedoucí do horní galerie. Vetknutí přímo do obvodového zdiva při rekonstrukci s dodatečným statickým zajištěním.",
+    "specs": {
+      "Trida betonu": "C 35/45",
+      "Aplikace": "Rekonstrukce se starším zdivem",
+      "Zpevneni zdiva": "Železobetonový roznášecí pásek ve stěně",
+      "Vylozeni": "900 mm",
+      "Akustika": "Elastomerové lože tlumící rázy kroků",
+      "Povrch": "Jemný pohledový beton PB2"
+    },
+    "advantages": [
+      "Možnost kotvení i do starého zdiva po posouzení",
+      "Vzdušné propojení pater",
+      "Bezúdržbový beton"
+    ]
+  },
+  {
+    "id": "breclav-smutecni-sin",
+    "key": "breclav_sin",
+    "category": "architektonicke",
+    "category_name": "Atypické konstrukce",
+    "title": "Smuteční síň městského hřbitova Břeclav",
+    "image": "assets/IMG_3938.jpg",
+    "desc": "Monumentální monolitické prvky a obkladové pohledové betony pro smuteční síň v Břeclavi. Dokonalá geometrie spar a sametový povrch.",
+    "specs": {
+      "Trida betonu": "C 35/45 XC4",
+      "Typ realizace": "Monolitické architektonické pulty a stěny",
+      "Bedneni": "Stolové formy s přísnou kontrolou rovinnosti",
+      "Pohledova trida": "PB3 architektonická expozice",
+      "Trvanlivost": "Vysoká odolnost proti stárnutí a degradaci",
+      "Impregnace": "Paropropustný hydrofobizační nátěr"
+    },
+    "advantages": [
+      "Důstojný nadčasový výraz",
+      "Precizní skladba desek a spár",
+      "Dlouhá životnost v exponovaném provozu"
+    ]
+  },
+  {
+    "id": "dvojumyvadlo-beton",
+    "key": "dvojumyvadlo",
+    "category": "umyvadla-interiery",
+    "category_name": "Umyvadla & Design",
+    "title": "Masivní designové dvojumyvadlo z pohledového betonu",
+    "image": "assets/dvojumyvadlo_realizace.jpg",
+    "desc": "Monolitické dvojumyvadlo z vysokohodnotného jemnozrnného betonu UHPC se skrytým štěrbinovým odtokem. Vysoce odolná nanobariéra certifikovaná pro koupelny.",
+    "specs": {
+      "Material": "Vysokopevnostní UHPC beton s mikrovlákny",
+      "Rozmery": "1600 x 500 x 120 mm",
+      "Odtok": "Štěrbinový integrovaný žlábek bez zátky",
+      "Impregnace": "Polyuretanový dvousložkový potravinářský nanolak",
+      "Hmotnost": "cca 85 kg",
+      "Odolnost": "Odolnost proti mýdlu, šamponům a kosmetice"
+    },
+    "advantages": [
+      "Žádné lepené spáry ani plasty",
+      "Snadná údržba beze spár",
+      "Zakázková volba odstínu betonu"
+    ]
+  },
+  {
+    "id": "restaurace-rekovice",
+    "key": "rekovice",
+    "category": "umyvadla-interiery",
+    "category_name": "Umyvadla & Design",
+    "title": "Betonové interiéry a umyvadla restaurace Rekovice",
+    "image": "assets/20160907_1321061.jpg",
+    "desc": "Kompletní dodávka betonových prvků pro oceňovanou restauraci Rekovice v Trojanovicích (Ateliér Kamila Mrvy). Velká dvojumyvadla a barový pult.",
+    "specs": {
+      "Architekt": "Ateliér Kamila Mrvy + arch. Romana Mališ Bílková",
+      "Prvky": "Velká dvojumyvadla, barový pult, odkládací pult pece",
+      "Trida betonu": "C 35/45 s protiskluzovou úpravou",
+      "Hygiena": "Omyvatelný a dezinfikovatelný povrch",
+      "Odolnost": "Vysoká zátěž v gastronomickém provozu",
+      "Faseta": "Jemně zaoblené ergonomické hrany"
+    },
+    "advantages": [
+      "Ověřeno v náročném gastro provozu",
+      "Harmonie s dřevěnými a kamennými prvky",
+      "Autorský originál"
+    ]
+  },
+  {
+    "id": "miska-vaza-srdce",
+    "key": "miska_srdce",
+    "category": "umyvadla-interiery",
+    "category_name": "Umyvadla & Design",
+    "title": "Autorská betonová miska / váza – Srdce 057",
+    "image": "assets/IMG_8484.jpg",
+    "desc": "Ručně odlévaná solitérní betonová miska organického tvaru. Každý kus nese unikátní kresbu vzduchových pórů a přírodní odstín šedého cementu.",
+    "specs": {
+      "Material": "Jemnozrnný vibrovaný cementový kompozit",
+      "Vyroba": "Ruční odlévání do elastické silikonové formy",
+      "Finis": "Přírodní včelí vosk s jemným leštěním",
+      "Pouziti": "Mísa na ovoce, váza na suché aranže, solitér",
+      "Podstavec": "Plstěná tlumicí podložka proti poškrábání nábytku"
+    },
+    "advantages": [
+      "100% ruční řemeslná práce v ČR",
+      "Přírodní ekologická úprava",
+      "Originální dárek i architektonický doplněk"
+    ]
+  },
+  {
+    "id": "kosik-betonovy-055",
+    "key": "kosik",
+    "category": "umyvadla-interiery",
+    "category_name": "Umyvadla & Design",
+    "title": "Designový betonový košík 055",
+    "image": "assets/IMG_8454.jpg",
+    "desc": "Tenkostěnný betonový košík demonstrující mimořádnou tvárnost moderního betonu vyztuženého vlákny. Pevný, a přitom překvapivě lehký.",
+    "specs": {
+      "Material": "UHPC tenkostěnný beton s rozptýlenou výztuží",
+      "Tloustka sten": "8–12 mm",
+      "Odolnost": "Mrazuvzdorný, vhodný i pro venkovní použití",
+      "Udrzba": "Otíratelné vlhkým hadříkem",
+      "Barevnost": "Přírodní šedá / antracit"
+    },
+    "advantages": [
+      "Pevnost skořepiny při minimální tloušťce",
+      "Netradiční využití betonu v interiéru",
+      "Vysoká mechanická odolnost"
+    ]
+  },
+  {
+    "id": "kvetinac-054-monolit",
+    "key": "kvetinac",
+    "category": "umyvadla-interiery",
+    "category_name": "Umyvadla & Design",
+    "title": "Monolitický betonový solitérní květináč 054",
+    "image": "assets/25.jpg",
+    "desc": "Masivní monolitický květináč pro interiéry i terasy. Přirozená akumulace tepla a optimální vlhkostní mikroklima pro kořenový systém rostlin.",
+    "specs": {
+      "Trida betonu": "C 30/37 XF3",
+      "Mrazuvzdornost": "150 cyklů zmrazování dle ČSN 73 1322",
+      "Drenaz": "Spodní odtokový kanálek s filtrační mřížkou",
+      "Tvar": "Čistá kubická geometrie se zkosenou fazetou",
+      "Impregnace": "Vnitřní asfaltový hydroizolační nátěr"
+    },
+    "advantages": [
+      "Nepřevrhne se ani při silném větru",
+      "Chrání kořeny před přehřátím",
+      "Vhodný pro celoroční venkovní instalaci"
+    ]
+  },
+  {
+    "id": "schodiste-podkova-monierka",
+    "key": "podkova",
+    "category": "monierka",
+    "category_name": "Moniérková schodiště",
+    "title": "Schodiště s moniérkou ve tvaru podkovy",
+    "image": "assets/schodiste_podkova_realizace.jpg",
+    "desc": "Ladná půlkruhová podkova s monolitickým betonovým zábradlím z obou stran. Schodiště plynule objímá vnitřní zrcadlo a vytváří monumentální vstup.",
+    "specs": {
+      "Trida betonu": "C 35/45",
+      "Tvar": "Podkovovitý zakřivený půdorys",
+      "Nosne zabradli": "Monolitická betonová skořepina tloušťky 90 mm",
+      "Uzitne zatizeni": "3,5 kN/m2",
+      "Sirka stupne": "1150 mm",
+      "Povrch": "Jemný pohledový beton z pružných překližek"
+    },
+    "advantages": [
+      "Monumentální vstupní dojem",
+      "Samonosná prostorová tuhost",
+      "Bezpečné a pohodlné stoupání"
+    ]
+  }
+]

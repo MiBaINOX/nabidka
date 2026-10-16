@@ -1,0 +1,206 @@
+[
+  {
+    "id": "etics-zatepleni",
+    "category": "etics",
+    "category_name": "Zateplovací systémy",
+    "title": "Kontaktní zateplovací systémy ETICS",
+    "perex": "Kompletní realizace certifikovaných zateplovacích systémů obvodových plášťů budov minerální vatou a polystyrenem EPS.",
+    "partner": "HOCHTIEF CZ a.s. / Společenství vlastníků",
+    "realizace": "Panelový dům ul. Mládí Havířov, ZŠ Frýdek-Místek, ZŠ Havířov, RD Dolní Lutyně a Karviná",
+    "tech_specs": {
+      "Izolační materiály": "Fasádní minerální vata (MW), šedý / bílý EPS 70F a 100F",
+      "Součinitel prostupu tepla": "U = 0,14 až 0,21 W/(m²·K) dle ČSN 73 0540",
+      "Kotvení a výztuž": "Talířové hmoždinky s ocelovým trnem, sklotextilní síťka 160 g/m²",
+      "Finální povrch": "Silikonová / silikátová omítka, marmolitové soklové úpravy",
+      "Platná norma": "ČSN 73 2901 (Provádění vnějších zateplovacích systémů)"
+    },
+    "badge": "Úspora energií"
+  },
+  {
+    "id": "rekonstrukce-bytove-domy",
+    "category": "stavby",
+    "category_name": "Pozemní stavby",
+    "title": "Rekonstrukce a nástavby bytových domů",
+    "perex": "Stavební úpravy nosných i nenosných konstrukcí, nástavby pater, sanace stropů a modernizace společných prostor domů.",
+    "partner": "Ing. Zamyslovský / Bytová družstva",
+    "realizace": "Nástavba dvou pater bytového domu ul. Žákovská Ostrava, BD Kosmonautů",
+    "tech_specs": {
+      "Konstrukční systém": "Nosné zdivo z pórobetonu a keramických tvárnic, ocelové průvlaky",
+      "Stropní konstrukce": "Spřažené železobetonové a dřevěné trámové stropy se záklopem",
+      "Hydroizolace a parozábrany": "Asfaltové modifikované pásy SBS, difuzní membrány",
+      "Akustické parametry": "Kročejová neprůzvučnost L'n,w dle ČSN 73 0532",
+      "Platná norma": "ČSN 73 0035 (Zatížení stavebních konstrukcí)"
+    },
+    "badge": "Hlavní výroba"
+  },
+  {
+    "id": "prumyslove-betonove-patky",
+    "category": "prumysl",
+    "category_name": "Průmyslové stavby",
+    "title": "Železobetonové patky a strojní základy",
+    "perex": "Zakládání a betonáže masivních patek pro výrobní technologie, jeřábové dráhy, lisy a těžké stroje v hutním průmyslu.",
+    "partner": "PRŮMYSLOVÉ MONTÁŽE s.r.o.",
+    "realizace": "Areály Bonatrans, Bekaert, Důl Darkov, Důl ČSM, Teplárna Frýdek-Místek",
+    "tech_specs": {
+      "Třída betonu": "C25/30 až C35/45 se zvýšenou chemickou odolností XA2/XC4",
+      "Výztužná ocel": "Kari sítě a žebírková betonářská ocel B500B",
+      "Kotevní prvky": "Kotevní šrouby třídy 8.8, zalévací vysokopevnostní malty",
+      "Tolerance usazení": "Osová přesnost kotevních bodů ± 2 mm",
+      "Platná norma": "ČSN EN 206+A2 a ČSN EN 1992-1-1 (Eurokód 2)"
+    },
+    "badge": "Těžký průmysl"
+  },
+  {
+    "id": "lestene-prumyslove-podlahy",
+    "category": "prumysl",
+    "category_name": "Průmyslové stavby",
+    "title": "Leštěné průmyslové betonové podlahy",
+    "perex": "Strojně hlazené drátkobetonové podlahy s vysokou mechanickou odolností pro výrobní haly, sklady a dílny.",
+    "partner": "AQM s.r.o. / Průmyslové Montáže",
+    "realizace": "Výrobní haly v Moravskoslezském kraji, areál PM",
+    "tech_specs": {
+      "Materiálová báze": "Konstrukční beton C20/25 až C30/37 s rozptýlenou ocelovou výztuží",
+      "Vsypový materiál": "Korundový / křemičitý vsyp s vytvrzovací pryskyřicí",
+      "Odolnost v obrusu": "Třída A6 až A1,5 dle ČSN EN 13813",
+      "Dilatační spáry": "Řezané spáry 6×6 m tmelené polyuretanovým elastickým tmelem",
+      "Platná norma": "ČSN 74 4505 (Podlahy – Společná ustanovení)"
+    },
+    "badge": "Vysoká zátěž"
+  },
+  {
+    "id": "sportovni-a-verejne-stavby",
+    "category": "verejne",
+    "category_name": "Veřejné & Sportovní",
+    "title": "Stavby a rekonstrukce veřejných areálů",
+    "perex": "Výstavba VIP prostorů, zázemí sportovních hal a rekonstrukce specializovaných zdravotnických provozů.",
+    "partner": "HOCHTIEF CZ a.s. / BESKYDSKÁ STAVEBNÍ a.s. / Obec Stonava",
+    "realizace": "Vítkovický stadion (Skybox, Mixzóna, energokanál), FNO operační sály, Sportovní hala Stonava",
+    "tech_specs": {
+      "Specializace prostor": "Skyboxy stadionu, tiskové mixzóny, čisté prostory FNO",
+      "Instalace a kanály": "Podzemní energokanály, trasování silnoproudu a slaboproudu",
+      "Akustické obklady": "Perforované akustické panely s absorpční vložkou",
+      "Protipožární odolnost": "Příčky a podhledy EI 30 až EI 90 DP1",
+      "Platná norma": "ČSN 73 0802 (Požární bezpečnost staveb)"
+    },
+    "badge": "Prestižní reference"
+  },
+  {
+    "id": "vystavba-rodinnych-domu",
+    "category": "stavby",
+    "category_name": "Pozemní stavby",
+    "title": "Výstavba rodinných domů na klíč",
+    "perex": "Kompletní generální dodávka nízkoenergetických rodinných domů od základové desky až po finální dokončovací práce.",
+    "partner": "Soukromí investoři",
+    "realizace": "Rodinné domy v obcích Stonava, Karviná, Dolní Lutyně, Petrovice u Karviné",
+    "tech_specs": {
+      "Zdivo a příčky": "Keramické broušené bloky Heluz / Porotherm tl. 300-440 mm",
+      "Základová deska": "Železobetonová deska na štěrkovém polštáři s hydroizolací proti radonu",
+      "Střešní konstrukce": "Krov z impregnovaného řeziva, pálená krytina Tondach / plech",
+      "Energetická náročnost": "Průkaz energetické náročnosti budovy PENB třídy A a B",
+      "Platná norma": "ČSN 73 0540-2 (Tepelná ochrana budov)"
+    },
+    "badge": "Kompletní servis"
+  },
+  {
+    "id": "zamkove-dlazby-a-plochy",
+    "category": "venkovni",
+    "category_name": "Venkovní úpravy",
+    "title": "Zámkové dlažby a zpevněné komunikace",
+    "perex": "Strojní i ruční pokládka zátěžových betonových dlažeb pro vjezdy, parkoviště, garážová stání a areálové komunikace.",
+    "partner": "PRŮMYSLOVÉ MONTÁŽE s.r.o. / Soukromí investoři",
+    "realizace": "Areál PM, parkovací stání Karviná (200 m²), vjezdové komunikace Stonava",
+    "tech_specs": {
+      "Dlažební prvky": "Vibrolisované betonové tvarovky tl. 60 mm (chodníky), 80-100 mm (kamiony)",
+      "Podkladní vrstvy": "Štěrkodrť frakce 0/32 a 0/63 s hutněním na Edef2 > 100 MPa",
+      "Ložní vrstva": "Kamenivo frakce 4/8 tl. 30-40 mm",
+      "Odvodnění": "Betonové štěrbinové a liniové žlaby s litinovými rošty D400",
+      "Platná norma": "ČSN 73 6131 (Stavba vozovek – Dlažby)"
+    },
+    "badge": "Dlouhá životnost"
+  },
+  {
+    "id": "sanace-zdiva-a-strechy",
+    "category": "stavby",
+    "category_name": "Pozemní stavby",
+    "title": "Sanace vlhkého zdiva a opravy střech",
+    "perex": "Sanační omítkové systémy, chemické infuzní clony, opravy soklů a kompletní výměny střešních plášťů objektů.",
+    "partner": "ORFA a.s. / Město Rychvald / Farnost Stonava / BM SERVIS a.s.",
+    "realizace": "Skladový areál ORFA, Zdravotní středisko Rychvald, Kostel Stonava, Nerudova Bohumín",
+    "tech_specs": {
+      "Sanační systémy": "Hydrofobní sanační omítky WTA s vysokou porozitou nad 40 %",
+      "Injektáže": "Tlaková chemická clona na bázi silanů a siloxanů",
+      "Střešní pláště": "Falcované plechy, trapézové profily a SBS natavitelné pásy",
+      "Odvodnění střech": "Titanzinkové a lakované žlaby a svody r.š. 330 mm",
+      "Platná norma": "Směrnice WTA 2-9-04/D (Sanační omítkové systémy)"
+    },
+    "badge": "Odborná sanace"
+  },
+  {
+    "id": "inzenyrske-site-teplovody",
+    "category": "prumysl",
+    "category_name": "Průmyslové stavby",
+    "title": "Inženýrské sítě, teplovody a kanalizace",
+    "perex": "Výkopové, stavební a montážní práce pro teplovody, vodovodní řady, plynové a kanalizační přípojky objektů.",
+    "partner": "RWE / PRŮMYSLOVÉ MONTÁŽE s.r.o. / Bytová družstva",
+    "realizace": "Ul. Kounicova teplovod pro RWE, kanalizace bytového domu, přípojky plynu a vody Stonava",
+    "tech_specs": {
+      "Potrubní trasy": "Předizolované potrubí horkovodů a teplovodů, PP a PVC KG kanalizace",
+      "Zemní práce": "Výkopy v pažených i nepažených rýhách, hutněný pískový podsyp a obsyp",
+      "Revizní šachty": "Plastové a betonové revizní šachty DN 400 až DN 1000",
+      "Tlakové zkoušky": "Zkoušky těsnosti vodou a vzduchem dle ČSN EN 1610",
+      "Platná norma": "ČSN EN 1610 (Stavba a zkoušení stok a kanalizačních přípojek)"
+    },
+    "badge": "Technická infrastruktura"
+  },
+  {
+    "id": "rekonstrukce-skol-a-interieru",
+    "category": "verejne",
+    "category_name": "Veřejné & Sportovní",
+    "title": "Rekonstrukce interiérů škol a občanské vybavenosti",
+    "perex": "Modernizace hygienických zařízení, rekonstrukce školních bufetů, schodišť a obkladů v mateřských a základních školách.",
+    "partner": "Obec Stonava / ZŠ a MŠ Chlebovice / HOCHTIEF CZ",
+    "realizace": "MŠ Stonava (koupelny a fasáda), ZŠ Stonava (schodiště, bufety), Sanatorium Klimkovice",
+    "tech_specs": {
+      "Obklady a dlažby": "Protiskluzná slinutá keramika R10/B s chemicky odolnou spárovací hmotou",
+      "Sanitární technika": "Závěsné podomítkové moduly a bezdotykové baterie pro úsporu vody",
+      "Sádrokartonové konstrukce": "Impregnované SDK desky RBI do vlhkých prostor",
+      "Vzduchotechnika": "Nucené odvětrání s rekuperací tepla",
+      "Platná norma": "ČSN 73 6760 (Vnitřní kanalizace) a ČSN 73 0580 (Denní osvětlení)"
+    },
+    "badge": "Občanská vybavenost"
+  },
+  {
+    "id": "demolice-a-zemni-prace",
+    "category": "stavby",
+    "category_name": "Pozemní stavby",
+    "title": "Demoliční práce a odstraňování staveb",
+    "perex": "Kompletní strojní a ruční demolice rodinných domů a průmyslových objektů včetně třídění materiálů a odvozu suti.",
+    "partner": "Soukromí investoři / Průmyslové Montáže",
+    "realizace": "Demolice RD Dolní Lutyně, úpravy areálů v Moravskoslezském kraji",
+    "tech_specs": {
+      "Technologie": "Strojní demolice pásovými rypadly s hydraulickými nůžkami a kladivy",
+      "Odpadové hospodářství": "Třídění sutě na beton, cihlu, ocel a dřevo pro recyklaci",
+      "Bezpečnostní pásma": "Zajištění stability sousedních objektů a záchytných konstrukcí",
+      "Ekologická likvidace": "Protokolární předání odpadů na autorizované skládky a recyklační linky",
+      "Platná norma": "ČSN 73 0038 (Navrhování a posuzování stavebních konstrukcí při demolicích)"
+    },
+    "badge": "Komplexní příprava"
+  },
+  {
+    "id": "oploceni-a-operna-dila",
+    "category": "venkovni",
+    "category_name": "Venkovní úpravy",
+    "title": "Průmyslové oplocení a opěrné zídky",
+    "perex": "Výstavba areálových oplocení, vjezdových bran, opěrných gravitačních zídek z betonových tvárnic a terénních schodišť.",
+    "partner": "PRŮMYSLOVÉ MONTÁŽE s.r.o. / Obec Stonava",
+    "realizace": "Vjezdová brána do areálu PM, opěrné zídky Stonava, oplocení pozemků RD",
+    "tech_specs": {
+      "Plotové systémy": "3D svařované průmyslové panely se žárovým zinkováním a poplastováním",
+      "Vjezdové brány": "Samonosné posuvné brány s elektropohonem a bezpečnostními prvky",
+      "Opěrné zídky": "Suché zdění ze štípaných tvarovek se spřaženou betonovou zálivkou",
+      "Základové pasy": "Nezámrzná hloubka min. 800-1000 mm z prostého betonu C16/20",
+      "Platná norma": "ČSN EN 1997-1 (Eurokód 7 – Navrhování geotechnických konstrukcí)"
+    },
+    "badge": "Areálové zabezpečení"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "slug": "dna-design",
+  "firma": "DNA DESIGN s.r.o.",
+  "ico": "01477595",
+  "obec": "Dolní Dubňany",
+  "okres": "Znojmo",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba a design architektonického betonu / pohledové betony, atypická monolitická schodiště, betonová umyvadla, dřezy a designové interiérové prvky",
+  "archetyp": "Corporate Portal (styl Hakov)",
+  "stary_web": "http://dnadesign.cz",
+  "email": "info@dnadesign.cz",
+  "jazyky": [
+    "CZ",
+    "EN",
+    "SK"
+  ],
+  "prodejni_body": [
+    "Více než 28 let zkušeností v oboru od roku 1997 a přes 2000 unikátních realizací schodišť.",
+    "Kompletní inženýring od 3D zaměření a statiky po výrobu zakázkového bednění a precizní betonáž.",
+    "Prestižní portfolio: Krkonošské muzeum, centrála LASVIT, BMW showroom, ČSOB Radlice.",
+    "Vlastní technologie monolitických zábradlí (moniérka), lomenicových a samonosných spirál.",
+    "Plná vícejazyčnost CZ | EN | SK pro tuzemské architekty i zahraniční privátní investory."
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez platného SSL certifikátu (prohlížeče hlásí varování).",
+    "Absence responzivního viewportu – starý layout se na mobilních zařízeních nezalamuje.",
+    "Zastaralý katalog bez možnosti dynamického vyhledávání, filtrování parametrů či modálních oken.",
+    "Rozpadlé a nedokončené jazykové mutace na starém CMS.",
+    "Chybějící interaktivní mapa sídla a nepřehledné kontaktní vizitky vedení."
+  ],
+  "vylepseni_noveho_webu": [
+    "Responzivní Corporate Portal architektura s bleskovou odezvou na mobilech i velkých displejích.",
+    "Interaktivní katalog s live vyhledáváním a filtrací 24 betonových konstrukcí a designových prvků.",
+    "Detailní technická modální okna s tabulkami tříd betonu, nosností, impregnací a statických parametrů.",
+    "Plnohodnotný trojjazyčný přepínač CZ | EN | SK s 100% překladem navigace i produktových karet.",
+    "Ověřené mapové napojení na Mapy.cz s červeným špendlíkem přesně na oficiálním sídle v Dolních Dubňanech."
+  ],
+  "fakta": {
+    "rok_zalozeni": 1997,
+    "pocet_realizaci": "2000+",
+    "jednatel": "Dominik Eichler",
+    "vyvoj": "Břetislav Eichler",
+    "adresa": "č.p. 62, 671 73 Dolní Dubňany",
+    "spisova_znacka": "Krajský soud v Brně, C 78265"
+  }
+}

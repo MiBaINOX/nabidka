@@ -1,0 +1,49 @@
+{
+  "slug": "betontest",
+  "firma": "BETONTEST, spol. s r.o.",
+  "ico": "25526332",
+  "dic": "CZ25526332",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Akreditovaná zkušební laboratoř stavebních materiálů (ČSN EN ISO/IEC 17025) / zkoušky čerstvého i ztvrdlého betonu, kameniva, malt, potěrů a diagnostika konstrukcí",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://betontest.cz",
+  "email": "betontest@betontest.cz",
+  "telefon": "+420 541 213 187",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Akreditovaná zkušební laboratoř č. 1116 Českým institutem pro akreditaci dle mezinárodní normy ČSN EN ISO/IEC 17025:2018",
+    "Kompletní digitalizace 20 zkušebních postupů do přehledného Swiss Bento Grid katalogu s vyhledáváním dle norem ČSN EN",
+    "Interaktivní technické modální okno s detailními normovými požadavky, zkušebními parametry a tabulkami pro každý postup",
+    "Ověřená personální integrita se jmény jednatelů a zkušebních techniků (Tomáš Skoumal, Martin Pavlík, Tomáš Skoumal ml.)",
+    "Oficiální adresa v Brně-Líšni s přesným červeným špendlíkem Mapy.cz ověřeným v katastru RÚIAN"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené připojení HTTP bez platného SSL/TLS šifrovacího certifikátu",
+    "Chybějící meta viewport – web se na mobilních zařízeních nezobrazuje responzivně a nutí uživatele horizontálně posouvat",
+    "Zastaralá XHTML kostra z roku 2013 s pevným tabulkovým rozvržením",
+    "Nemožnost interaktivního vyhledávání a filtrování mezi desítkami akreditovaných zkušebních metod",
+    "Chybějící moderní interaktivní poptávkový formulář a mapa provozovny"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový koncept Swiss Bento Grid s čistou typografií, jemnými linkami a asymetrickými informačními bloky",
+    "Interaktivní katalog akreditovaných zkušebních metod s fulltextovým vyhledáváním dle norem a kategoriálními filtry",
+    "Plně responzivní modální okno (#techModalBackdrop) s technickými tabulkami a parametry zkoušek (0px overflow na 360px)",
+    "Přesný widget Mapy.cz se zaměřeným červeným špendlíkem na souřadnicích RÚIAN (Trnkova 3083/162, Líšeň, 628 00 Brno)",
+    "Architektura připravená na okamžité rozšíření o vícejazyčné mutace (EN / DE) pro mezinárodní partnery a zahraniční investory",
+    "100% mobilní optimalizace s rychlým načítáním a moderními mikro-interakcemi"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1998,
+    "zkusenosti_let": 34,
+    "akreditace": "ČIA akreditovaná laboratoř č. 1116 dle ČSN EN ISO/IEC 17025",
+    "osvedceni": "Osvědčení o akreditaci č. 281/2019",
+    "stavcert": "Člen STAVCERTu, zájmového sdružení právnických osob",
+    "sidlo": "Trnkova 3083/162, Líšeň, 628 00 Brno",
+    "banka": "Oberbank AG pobočka Brno, č. ú.: 2071103989/8040",
+    "pocet_polozek_katalogu": 20
+  }
+}

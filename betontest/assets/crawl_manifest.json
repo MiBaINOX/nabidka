@@ -1,0 +1,268 @@
+{
+  "url": "http://betontest.cz",
+  "total_pages": 6,
+  "total_images": 61,
+  "pages_crawled": [
+    "http://betontest.cz/",
+    "http://betontest.cz/o-nas",
+    "http://betontest.cz/zkusebni-laborator",
+    "http://betontest.cz/akreditace",
+    "http://betontest.cz/reference",
+    "http://betontest.cz/fotogalerie",
+    "http://betontest.cz/kontakt"
+  ],
+  "menu_categories": [
+    "O nás",
+    "Zkušební laboratoř",
+    "Akreditace",
+    "Reference",
+    "Fotogalerie",
+    "Kontakt"
+  ],
+  "images": [
+    {
+      "file": "logo.gif",
+      "size": 1608
+    },
+    {
+      "file": "betontest-akreditace.png",
+      "size": 235801
+    },
+    {
+      "file": "akreditace.gif",
+      "size": 14977
+    },
+    {
+      "file": "reference.gif",
+      "size": 11510
+    },
+    {
+      "file": "zkusebni-laborator.gif",
+      "size": 11109
+    },
+    {
+      "file": "Header1.jpg",
+      "size": 69533
+    },
+    {
+      "file": "Header2.jpg",
+      "size": 87202
+    },
+    {
+      "file": "Header3.jpg",
+      "size": 73741
+    },
+    {
+      "file": "603.jpg",
+      "size": 115129
+    },
+    {
+      "file": "611.jpg",
+      "size": 199268
+    },
+    {
+      "file": "616.jpg",
+      "size": 145156
+    },
+    {
+      "file": "620.jpg",
+      "size": 142216
+    },
+    {
+      "file": "622.jpg",
+      "size": 86929
+    },
+    {
+      "file": "624.jpg",
+      "size": 186741
+    },
+    {
+      "file": "637.jpg",
+      "size": 114249
+    },
+    {
+      "file": "641.jpg",
+      "size": 121184
+    },
+    {
+      "file": "644.jpg",
+      "size": 160140
+    },
+    {
+      "file": "MCB003.jpg",
+      "size": 231010
+    },
+    {
+      "file": "P1150860.jpg",
+      "size": 142228
+    },
+    {
+      "file": "P1160696.jpg",
+      "size": 252798
+    },
+    {
+      "file": "P1160697.jpg",
+      "size": 348229
+    },
+    {
+      "file": "P2220136.jpg",
+      "size": 169472
+    },
+    {
+      "file": "PC010048.jpg",
+      "size": 210411
+    },
+    {
+      "file": "PC010051.jpg",
+      "size": 232472
+    },
+    {
+      "file": "img000054.jpg",
+      "size": 284274
+    },
+    {
+      "file": "img000095.jpg",
+      "size": 253423
+    },
+    {
+      "file": "0B094711.jpg",
+      "size": 120794
+    },
+    {
+      "file": "20121203_151714.jpg",
+      "size": 110826
+    },
+    {
+      "file": "DSC07210.jpg",
+      "size": 218341
+    },
+    {
+      "file": "IMG_6508.jpg",
+      "size": 82810
+    },
+    {
+      "file": "IVetapa072.jpg",
+      "size": 117046
+    },
+    {
+      "file": "KSCaMZKColas005.jpg",
+      "size": 135412
+    },
+    {
+      "file": "P1020456.jpg",
+      "size": 156683
+    },
+    {
+      "file": "P1020694.jpg",
+      "size": 229226
+    },
+    {
+      "file": "P1070610.jpg",
+      "size": 100835
+    },
+    {
+      "file": "P1140766.jpg",
+      "size": 156486
+    },
+    {
+      "file": "P1150776.jpg",
+      "size": 88697
+    },
+    {
+      "file": "P1150811.jpg",
+      "size": 151022
+    },
+    {
+      "file": "P1160230.jpg",
+      "size": 172221
+    },
+    {
+      "file": "P1160293.jpg",
+      "size": 153860
+    },
+    {
+      "file": "P1160435.jpg",
+      "size": 95553
+    },
+    {
+      "file": "P1160529.jpg",
+      "size": 149902
+    },
+    {
+      "file": "P1160618.jpg",
+      "size": 161424
+    },
+    {
+      "file": "P1170691.jpg",
+      "size": 91944
+    },
+    {
+      "file": "P1190785.jpg",
+      "size": 180676
+    },
+    {
+      "file": "P3070142.jpg",
+      "size": 166703
+    },
+    {
+      "file": "P6290097.jpg",
+      "size": 204668
+    },
+    {
+      "file": "P6290108.jpg",
+      "size": 187822
+    },
+    {
+      "file": "P8220001.jpg",
+      "size": 252993
+    },
+    {
+      "file": "P8300030.jpg",
+      "size": 146856
+    },
+    {
+      "file": "PA170030.jpg",
+      "size": 149234
+    },
+    {
+      "file": "img000016.jpg",
+      "size": 267801
+    },
+    {
+      "file": "img00003.jpg",
+      "size": 251279
+    },
+    {
+      "file": "img00005.jpg",
+      "size": 189358
+    },
+    {
+      "file": "img0000544.jpg",
+      "size": 348971
+    },
+    {
+      "file": "img00007.jpg",
+      "size": 229001
+    },
+    {
+      "file": "img000088.jpg",
+      "size": 253440
+    },
+    {
+      "file": "img00009.jpg",
+      "size": 288596
+    },
+    {
+      "file": "img000131.jpg",
+      "size": 288057
+    },
+    {
+      "file": "img00022.jpg",
+      "size": 221805
+    },
+    {
+      "file": "logo.png",
+      "size": 2833
+    }
+  ]
+}
