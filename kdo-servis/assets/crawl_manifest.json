@@ -1,0 +1,746 @@
+{
+  "total_pages": 82,
+  "pages": [
+    {
+      "url": "http://www.kdoservis.cz",
+      "title": "Úvod"
+    },
+    {
+      "url": "http://www.kdoservis.cz/historie",
+      "title": "Historie | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/soucasnost",
+      "title": "Současnost | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty",
+      "title": "Produkty | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/fotogalerie",
+      "title": "Fotogalerie | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/kontakty",
+      "title": "Kontakty | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/veletrh-coneco-2016",
+      "title": "Veletrh Coneco 2016 | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/veletrh-coneco-2015",
+      "title": "Veletrh Coneco 2015 | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/veletrh-coneco-2014",
+      "title": "Veletrh Coneco 2014 | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/certifikaty",
+      "title": "Certifikáty | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/hlinikovy-sendvic-polepeny-laminatem",
+      "title": "Hliníkový sendvič polepený laminátem | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/nerezove-kabiny",
+      "title": "Nerezové kabiny | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/prosklene-kabiny",
+      "title": "Prosklené kabiny | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/podhledy",
+      "title": "Podhledy | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/povrchy-podlah",
+      "title": "Povrchy podlah | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/ram-protivahy",
+      "title": "Rám protiváhy | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/samomazy",
+      "title": "Samomazy | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/invalidni-sedacky",
+      "title": "Invalidní sedačky | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/madla",
+      "title": "Madla | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/krivky-dveri-bus",
+      "title": "Křivky dveří bus | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/led-svitidla",
+      "title": "LED svítidla | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/led-sady",
+      "title": "LED sady | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/led-osvetleni-nastupiste",
+      "title": "LED osvětlení nástupiště | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/drevene-prepravni-obaly",
+      "title": "Dřevěné přepravní obaly | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/ostatni-doplnky",
+      "title": "Ostatní doplňky | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/cnc-rezani/ ",
+      "title": "CNC řezání | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/cnc-frezovani",
+      "title": "CNC frézování | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/doprava",
+      "title": "Doprava | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/polepovani",
+      "title": "Polepování | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/rekonstrukce-interieru-kabin",
+      "title": "Rekonstrukce interiérů kabin | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/produkty/prodej-vytahovych-komponentu",
+      "title": "Prodej výtahových komponentů | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/brno-bystrc-kubickova",
+      "title": "Brno Bystrc, Kubíčkova | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/plzen-skladova",
+      "title": "Plzeň, Skladová | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/brno-bystrc-cerneho",
+      "title": "Brno Bystrc, Černého | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/praha-vikova",
+      "title": "Praha, Vikova | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/veseli-nad-moravu-cd",
+      "title": "Veselí nad Moravu, ČD | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/kladno-na-ruzovem-poli",
+      "title": "Kladno, Na Růžovém Poli | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/olomouc-hotel-clarion",
+      "title": "Olomouc, Hotel Clarion | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/plzen-hodoninska",
+      "title": "Plzeň, Hodonínská | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/karlovy-vary-lazensky-hotel",
+      "title": "Karlovy Vary, Lázeňský hotel | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/plzen-majakovskeho",
+      "title": "Plzeň, Majakovského | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/kladno-ostravska",
+      "title": "Kladno, Ostravská | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/brno-moravske-namesti",
+      "title": "Brno, Moravské náměstí | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/fotogalerie/page/2",
+      "title": "Fotogalerie | K.D.O. servis - Part 2"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/prerov-u-tenisu",
+      "title": "Přerov, U tenisu | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/bratislava-landaunova",
+      "title": "Bratislava, Landaunova zelená | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/brno-saumanova",
+      "title": "Brno, Šaumanova | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/bratislava-pupavova",
+      "title": "Bratislava, Púpavova | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/prerov-velka-dlazka",
+      "title": "Přerov, Velká Dlážka 500kg | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/prostejov-bohumira-smerala",
+      "title": "Prostějov, Bohumíra Šmerala | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/bratislava-segnerova",
+      "title": "Bratislava, Segnerova | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/brno-vystavni",
+      "title": "Brno, Výstavní | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/brno-cihlarska",
+      "title": "Brno, Cihlářská | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/bratislava-bukovcana",
+      "title": "Bratislava, Bukovčana | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/bratislava-markova",
+      "title": "Bratislava, Markova | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/zlin-budovatelska",
+      "title": "Zlín, Budovatelská | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/fotogalerie/page/3",
+      "title": "Fotogalerie | K.D.O. servis - Part 3"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/otrokovice-hlavni",
+      "title": "Otrokovice, Hlavní | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/olomouc-banka",
+      "title": "Olomouc, banka | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/olomouc-cpi",
+      "title": "Olomouc, CPI | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/brno-stankova",
+      "title": "Brno, Staňkova | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/brno-videnska",
+      "title": "Brno, Vídeňská | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/hranice-pod-lipami",
+      "title": "Hranice, Pod Lipami | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/hranice-hromuvka",
+      "title": "Hranice, Hromůvka | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/teplice-nad-becvou-janacek-b",
+      "title": "Teplice nad Bečvou, Janáček B | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/teplice-nad-becvou-janacek-a",
+      "title": "Teplice nad Bečvou, Janáček A | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/hranice-na-hrazi",
+      "title": "Hranice, Na Hrázi | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/bratislavailjusinova-350",
+      "title": "Bratislava, Iljušinova 320kg | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/bratislavailjusiniva",
+      "title": "Bratislava, Iljušiniva 500kg | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/fotogalerie/page/4",
+      "title": "Fotogalerie | K.D.O. servis - Part 4"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/zlin",
+      "title": "Zlín | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/bratislavaponicana",
+      "title": "Bratislava, Poničana | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/landaunova-bratislava",
+      "title": "Bratislava, Landaunova červená | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/hustopece",
+      "title": "Hustopeče | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/brnonejvyssi-spravni-soud",
+      "title": "Brno, Nejvyšší správní soud | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/trida-svobodyzlin",
+      "title": "Zlín Malenovice, tř. Svobody | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/lazne-darkov",
+      "title": "Darkov, lázně | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/pardubicestrojon",
+      "title": "Chodov | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/olomoucbanka",
+      "title": "Olomouc, banka | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/mesto-budova",
+      "title": "Ostrava, Opavská | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/valasske-mezirici-deza",
+      "title": "Valašské Meziříčí, Masarykova | K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/portfolio-view/ministerstvo-pro-mistni-rozvoj-staromestske-namesti-930-7-praha-1",
+      "title": "Praha, Ministerstvo pro místní rozvoj | K.D.O. servis"
+    }
+  ],
+  "total_images": 82,
+  "images": [
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/02/kdio-e1392579531949.png",
+      "file": "kdio-e1392579531949.png",
+      "alt": "K.D.O. servis"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/03-1198x799.jpg",
+      "file": "03-1198x799.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/08-1198x799.jpg",
+      "file": "08-1198x799.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/vytahy_zeus_mpmr_17-1198x799.jpg",
+      "file": "vytahy_zeus_mpmr_17-1198x799.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2011/07/9-1198x799.jpg",
+      "file": "9-1198x799.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/25-1198x799.jpg",
+      "file": "25-1198x799.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/Praha-Vikova-220x132.jpg",
+      "file": "Praha-Vikova-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/Kladno-obklad-220x132.jpg",
+      "file": "Kladno-obklad-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/Olomouc-Hotel-Clarion-220x132.jpg",
+      "file": "Olomouc-Hotel-Clarion-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/Karlovy-Vary-220x132.jpg",
+      "file": "Karlovy-Vary-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2016/03/baryt.png",
+      "file": "baryt.png",
+      "alt": "Výtahy Baryt"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/02-300x200.jpg",
+      "file": "02-300x200.jpg",
+      "alt": "02"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/03-300x200.jpg",
+      "file": "03-300x200.jpg",
+      "alt": "03"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/04-300x200.jpg",
+      "file": "04-300x200.jpg",
+      "alt": "04"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/05-300x200.jpg",
+      "file": "05-300x200.jpg",
+      "alt": "05"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/06-300x200.jpg",
+      "file": "06-300x200.jpg",
+      "alt": "06"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/07-300x200.jpg",
+      "file": "07-300x200.jpg",
+      "alt": "07"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/08-300x200.jpg",
+      "file": "08-300x200.jpg",
+      "alt": "08"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/09-300x212.jpg",
+      "file": "09-300x212.jpg",
+      "alt": "09"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/01-200x300.jpg",
+      "file": "01-200x300.jpg",
+      "alt": "01"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2015/04/10-200x300.jpg",
+      "file": "10-200x300.jpg",
+      "alt": "10"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/con_06.jpg",
+      "file": "con_06.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/con_04.jpg",
+      "file": "con_04.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2648.jpg",
+      "file": "DSCF2648.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2649.jpg",
+      "file": "DSCF2649.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2641.jpg",
+      "file": "DSCF2641.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2642.jpg",
+      "file": "DSCF2642.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2627.jpg",
+      "file": "DSCF2627.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2629.jpg",
+      "file": "DSCF2629.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2624.jpg",
+      "file": "DSCF2624.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2622.jpg",
+      "file": "DSCF2622.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2620.jpg",
+      "file": "DSCF2620.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/DSCF2617.jpg",
+      "file": "DSCF2617.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2022/09/ES-prohlaseni-o-shode-2-scaled.jpg",
+      "file": "ES-prohlaseni-o-shode-2-scaled.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/EKOKOM.png",
+      "file": "EKOKOM.png",
+      "alt": "EKOKOM"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2022/09/3EC-International-scaled.jpg",
+      "file": "3EC-International-scaled.jpg",
+      "alt": "ISO 9001:2008"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2022/09/TUV-SUD-scaled.jpg",
+      "file": "TUV-SUD-scaled.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2019/05/DSCN5014-1024x768.jpg",
+      "file": "DSCN5014-1024x768.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/W.jpg",
+      "file": "W.jpg",
+      "alt": "Hustopeče"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/foto-001.jpg",
+      "file": "foto-001.jpg",
+      "alt": "foto 001"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/strop1.jpg",
+      "file": "strop1.jpg",
+      "alt": "strop"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/strop.jpg",
+      "file": "strop.jpg",
+      "alt": "strop"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/olomouc.jpg",
+      "file": "olomouc.jpg",
+      "alt": "Olomouc, banka"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/vytahy_zeus_mpmr_17.jpg",
+      "file": "vytahy_zeus_mpmr_17.jpg",
+      "alt": "Ministerstvo pro místní rozvoj, Staroměstské náměstí 930/7, Praha 1"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2011/07/9.jpg",
+      "file": "9.jpg",
+      "alt": "Pardubice,Strojon"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/IMGP7491.jpg",
+      "file": "IMGP7491.jpg",
+      "alt": "IMGP7491"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/foto-016.jpg",
+      "file": "foto-016.jpg",
+      "alt": "foto 016"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/foto-007.jpg",
+      "file": "foto-007.jpg",
+      "alt": "foto 007"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/samomaz.jpg",
+      "file": "samomaz.jpg",
+      "alt": "samomaz"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/madlo.jpg",
+      "file": "madlo.jpg",
+      "alt": "madlo"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/madla.jpg",
+      "file": "madla.jpg",
+      "alt": "madla"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/sada-LED-KIT-S-6200EC+ATEC.jpg",
+      "file": "sada-LED-KIT-S-6200EC_ATEC.jpg",
+      "alt": "sada LED KIT S 6200EC+ATEC"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2019/05/DSCN4988-1024x768.jpg",
+      "file": "DSCN4988-1024x768.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2019/05/DSCN4989-1024x768.jpg",
+      "file": "DSCN4989-1024x768.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/foto-049.jpg",
+      "file": "foto-049.jpg",
+      "alt": "foto 049"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/nerez-1.jpg",
+      "file": "nerez-1.jpg",
+      "alt": "nerez 1"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/nerez-4.jpg",
+      "file": "nerez-4.jpg",
+      "alt": "nerez 4"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/SAM_1487.jpg",
+      "file": "SAM_1487.jpg",
+      "alt": "SAM_1487"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/06/SAM_1484.jpg",
+      "file": "SAM_1484.jpg",
+      "alt": "SAM_1484"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/07/oprava-Olomouc.jpg",
+      "file": "oprava-Olomouc.jpg",
+      "alt": "oprava Olomouc"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/p%C5%99ed_po01-1024x384.png",
+      "file": "p_C5_99ed_po01-1024x384.png",
+      "alt": "PAC Příbram"
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/Praha-Vikova-598x261.jpg",
+      "file": "Praha-Vikova-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/Kladno-obklad-598x261.jpg",
+      "file": "Kladno-obklad-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/Olomouc-Hotel-Clarion-598x261.jpg",
+      "file": "Olomouc-Hotel-Clarion-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2014/03/Karlovy-Vary-598x261.jpg",
+      "file": "Karlovy-Vary-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/09/Bratislava-Segnerova-220x132.jpg",
+      "file": "Bratislava-Segnerova-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/09/Bratislava-Segnerova-598x261.jpg",
+      "file": "Bratislava-Segnerova-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/09/Olomouc-banka-220x132.jpg",
+      "file": "Olomouc-banka-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/09/Olomouc-CPI-220x132.jpg",
+      "file": "Olomouc-CPI-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/07/Hranice-Pod-Lipami-220x132.jpg",
+      "file": "Hranice-Pod-Lipami-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/09/Olomouc-banka-598x261.jpg",
+      "file": "Olomouc-banka-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/09/Olomouc-CPI-598x261.jpg",
+      "file": "Olomouc-CPI-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/07/Hranice-Pod-Lipami-598x261.jpg",
+      "file": "Hranice-Pod-Lipami-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/W-220x132.jpg",
+      "file": "W-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2011/07/9-220x132.jpg",
+      "file": "9-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/olomouc-220x132.jpg",
+      "file": "olomouc-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/IMG_5464-e1368292748842.jpg",
+      "file": "IMG_5464-e1368292748842.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/vytahy_zeus_mpmr_17-220x132.jpg",
+      "file": "vytahy_zeus_mpmr_17-220x132.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/W-598x261.jpg",
+      "file": "W-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2011/07/9-598x261.jpg",
+      "file": "9-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/olomouc-598x261.jpg",
+      "file": "olomouc-598x261.jpg",
+      "alt": ""
+    },
+    {
+      "url": "http://www.kdoservis.cz/wp-content/uploads/2013/05/vytahy_zeus_mpmr_17-598x261.jpg",
+      "file": "vytahy_zeus_mpmr_17-598x261.jpg",
+      "alt": ""
+    }
+  ]
+}

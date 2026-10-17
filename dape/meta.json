@@ -1,0 +1,41 @@
+{
+  "slug": "dape",
+  "firma": "DAPE, spol. s r.o.",
+  "ico": "18826521",
+  "obec": "Tišnov",
+  "okres": "Brno-venkov",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba stavebních materiálů & Termoizolace / Český výrobce parotěsných a termoizolačních reflexních fólií",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://dape.cz",
+  "email": "info@dape.cz",
+  "prodejni_body": [
+    "Vlastní česká výroba parotěsných a termoizolačních reflexních fólií DAPE v Tišnově s tradicí od roku 1992",
+    "Unikátní odrazivost až 95 % sálavého tepla a nahrazení 50 až 70 mm minerální vaty vrstvou pouhé 4 mm",
+    "Plná certifikace CSI Praha dle ČSN EN 13984, Stavební technické osvědčení STO 2026 a zařazení v programu Nová zelená úsporám"
+  ],
+  "vady_stareho_webu": [
+    "Web běží na nezabezpečeném protokolu HTTP bez SSL/TLS šifrování (varování prohlížeče Nezabezpečeno)",
+    "Chybí značka meta viewport – web není responzivní a na chytrých telefonech vyžaduje horizontální posouvání",
+    "Zastaralý katalog bez interaktivního filtrování, kalkulátoru úspor a možnosti moderního vyhledávání",
+    "Nepřehledné stahování certifikátů a technických listů rozptýlené do statických neoptimalizovaných odkazů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní Heavy Industrial / Tech & Precision design v ocelově-antracitovém ladění s hliníkovými a signálními akcenty",
+    "Split-screen Hero sekce s interaktivním nákresem skladby stavby a animovanými čítači ověřených faktů",
+    "Interaktivní kalkulátor úspory tloušťky zateplení a získaného vnitřního objemu dle typu konstrukce a plochy",
+    "Kompletní 14položkový katalog výrobků s technickým modálním oknem (#techModalBackdrop) pro certifikované parametry",
+    "Přehledná sekce ke stažení technických listů, certifikátů STO 2026, ČSN EN 13984 a mapový widget Mapy.cz s červeným špendlíkem"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1992,
+    "sidlo": "Tyršova 1749, 666 01 Tišnov",
+    "obchod": "Martin Peňáz (+420 736 626 013)",
+    "technicka_podpora": "Ing. Darek Skříček (+420 736 626 010)",
+    "certifikace": "STO 2026, ČSN EN 13984, DIN 4102 B1, Nová zelená úsporám",
+    "vyrobky_pocet": 14
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "kdo-servis",
+  "firma": "K.D.O. servis spol. s r.o.",
+  "ico": "25522001",
+  "dic": "CZ25522001",
+  "obec": "Čejkovice",
+  "okres": "Hodonín",
+  "kraj": "Jihomoravský kraj",
+  "adresa": "Na Padělkách 308, 696 15 Čejkovice",
+  "provozovna": "Na Padělkách 308, 696 15 Čejkovice",
+  "obor_plny": "Kovoobrábění & Kovovýroba / Zakázkové kovoobrábění, výroba výtahových kabin METAWELL® + FUNDERMAX®, ocelové konstrukce, potrubní rozvody a technologická montáž",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://kdoservis.cz",
+  "email": "kdo@kdoservis.cz",
+  "email_ucto": "kdo.ucto@kdoservis.cz",
+  "telefon": "+420 737 203 709",
+  "telefon_jednatel": "+420 737 203 709",
+  "jednatel": "Stanislav Čupr",
+  "osloveni": "Vážený pane Čupře,",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Unikátní výroba ultralehkých výtahových kabin METAWELL® s vysokotlakým laminátem FUNDERMAX® – jedni z mála výrobců v celé Evropě",
+    "Kompletní dodávka klecí včetně nosných rámů, protiváhy, certifikovaného LED osvětlení chráněného užitným vzorem a 100% zkušební montáže",
+    "Komplexní kovoobráběcí kapacity: CNC řezání oceli do 30 mm, nerezi do 15 mm, hliníku do 20 mm, přesné tvarové frézování s tolerancí ±0,2 mm a certifikace ISO 9001"
+  ],
+  "vady_stareho_webu": [
+    "Web běžící na nezabezpečeném protokolu HTTP bez SSL šifrování – moderní prohlížeče zobrazují varování 'Nezabezpečeno'",
+    "Chybějící meta tag viewport a nulová optimalizace pro mobilní zařízení (nutnost horizontálního posunu a zvětšování)",
+    "Zastaralý layout z roku 2013 s neefektivní strukturou a absencí strukturovaného B2B technického katalogu",
+    "Chybějící moderní interaktivní prvky pro filtraci sortimentu, zobrazení technických parametrů a rychlou B2B poptávku"
+  ],
+  "vylepseni_noveho_webu": [
+    "Ostrý a úderný design Heavy Industrial s antracitovým podkladem, signální žlutou a technickým fontem Chakra Petch",
+    "Interaktivní technický katalog 16 výrobkových řad a služeb s okamžitou filtrací a modálním oknem technických listů (#techModalBackdrop)",
+    "Přehledné tabulky obráběcích a zámečnických kapacit s plnou mobilní responzivitou a 0px přetečením",
+    "Animované čítače klíčových metrik firmy (od roku 1998, 25 specialistů, 100% kontrolní montáž) s podporou prefers-reduced-motion",
+    "Ověřená adresa v Čejkovicích s přesným Mapy.cz špendlíkem napojeným na katastrální RÚIAN souřadnice",
+    "Moderní responzivní B2B poptávkový formulář s předvýběrem komponent a přímým kontaktem na jednatele Stanislava Čupra"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1998,
+    "pocet_zamestnancu": 25,
+    "pocet_polozek_katalog": 16,
+    "certifikace": [
+      "ČSN EN ISO 9001:2015 (3EC International)",
+      "Inspekce TÜV SÜD",
+      "Užitný vzor ČR na LED osvětlení výtahů",
+      "ES prohlášení o shodě & označení CE",
+      "Systém EKO-KOM"
+    ],
+    "sidlo": "Na Padělkách 308, 696 15 Čejkovice",
+    "gps": {
+      "lat": 48.90947,
+      "lon": 16.93924
+    }
+  }
+}

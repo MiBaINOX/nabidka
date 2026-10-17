@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64">
+  <defs>
+    <linearGradient id="stmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="8" width="48" height="48" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <path d="M28 14 L28 22 M28 42 L28 50 M14 28 L22 28 M42 28 L50 28" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+  <circle cx="28" cy="28" r="10" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+  <circle cx="28" cy="28" r="4" fill="#38bdf8" />
+  <text x="64" y="34" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="26" font-weight="900" fill="#ffffff" letter-spacing="1.5">STM <tspan fill="#38bdf8">SERVIS</tspan></text>
+  <text x="64" y="49" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" fill="#94a3b8" letter-spacing="2.2">TVÁŘECÍ &amp; KOVOOBRÁBĚCÍ STROJE</text>
+</svg>

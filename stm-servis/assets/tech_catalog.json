@@ -1,0 +1,380 @@
+[
+  {
+    "id": "len-63",
+    "title": "Výstředníkový lis LEN 63 C",
+    "category": "lisy-vystrednikove",
+    "category_name": "Výstředníkové lisy",
+    "badge": "Šmeral Trnava",
+    "perex": "Jednobodový výstředníkový lis pro stříhání, děrování, ohýbání a mělké tažení. Poskytujeme generální opravy beranu, uložení klikového hřídele a pneumatické lamelové spojky.",
+    "specs": {
+      "Jmenovitá síla": "630 kN (63 tun)",
+      "Pracovní zdvih": "10 – 100 mm",
+      "Počet zdvihů": "65 / 130 min⁻¹",
+      "Sevření (vzdálenost stůl–beran)": "335 mm",
+      "Upínací plocha stolu": "750 × 500 mm",
+      "Upínací plocha beranu": "450 × 280 mm",
+      "Přestavitelnost beranu": "70 mm",
+      "Příkon hlavního elektromotoru": "5,5 kW",
+      "Hmotnost stroje": "5 850 kg"
+    },
+    "scope": [
+      "Přefrézování, zaškrabání a geometrické vyrovnání vodicích ploch beranu a stolu",
+      "Kompletní přetěsnění a renovace pneumatické spojko-brzdy s novým obložením",
+      "Výměna bronzových pouzder ojnice a hlavních ložisek klikového hřídele",
+      "Instalace bezpečnostního dvoukanálového ventilu Herion a optických závor SICK",
+      "Protokol o měření doběhu a geometrické přesnosti dle ČSN EN 692"
+    ],
+    "standards": [
+      "ČSN EN 692",
+      "ČSN EN ISO 13849-1 (PL e)",
+      "ČSN EN 60204-1"
+    ],
+    "image": "assets/slide1.png"
+  },
+  {
+    "id": "len-40",
+    "title": "Výstředníkový lis LEN 40 C",
+    "category": "lisy-vystrednikove",
+    "category_name": "Výstředníkové lisy",
+    "badge": "Šmeral Trnava",
+    "perex": "Kompaktní výstředníkový lis s naklápěcím nebo pevným stojanem. Vhodný pro rychlé lisovací operace, děrování z pásu a drobnou zámečnickou výrobu.",
+    "specs": {
+      "Jmenovitá síla": "400 kN (40 tun)",
+      "Pracovní zdvih": "8 – 90 mm",
+      "Počet zdvihů": "70 / 140 min⁻¹",
+      "Sevření": "290 mm",
+      "Upínací plocha stolu": "630 × 430 mm",
+      "Přestavení beranu": "60 mm",
+      "Vyložení stojanu": "225 mm",
+      "Příkon elektromotoru": "4,0 kW",
+      "Hmotnost stroje": "4 200 kg"
+    },
+    "scope": [
+      "Mechanická kontrola a renovace klikového ústrojí včetně ojničního čepu",
+      "Instalace centrálního tlakového mazání s monitorováním hladiny oleje",
+      "Nové elektroovládání s bezpečnostním modulem a pedálovým spínačem",
+      "Revize a repase pneumatického vyvažovače beranu",
+      "Nastavení bezpečnostních koncových spínačů vačkového mechanismu"
+    ],
+    "standards": [
+      "ČSN EN 692",
+      "ČSN EN ISO 13849-1",
+      "ČSN EN 60204-1"
+    ],
+    "image": "assets/box01.png"
+  },
+  {
+    "id": "len-100",
+    "title": "Výstředníkový lis LEN 100 C",
+    "category": "lisy-vystrednikove",
+    "category_name": "Výstředníkové lisy",
+    "badge": "Šmeral Trnava",
+    "perex": "Těžký otevřený výstředníkový lis s vysokou tuhostí C-stojanu pro náročné vystřihovací a tvářecí operace s velkým zatížením nástroje.",
+    "specs": {
+      "Jmenovitá síla": "1 000 kN (100 tun)",
+      "Pracovní zdvih": "10 – 125 mm",
+      "Počet zdvihů": "50 / 100 min⁻¹",
+      "Sevření": "385 mm",
+      "Upínací plocha stolu": "900 × 600 mm",
+      "Upínací plocha beranu": "560 × 360 mm",
+      "Přestavení beranu": "80 mm",
+      "Výkon motoru": "7,5 kW",
+      "Hmotnost stroje": "9 800 kg"
+    },
+    "scope": [
+      "Renovace čelního a zadního uložení klikového hřídele z kompozitního bronzu",
+      "Statické a dynamické vyvážení setrvačníku s novými ložisky SKF",
+      "Implementace dotykového operátorského panelu s počítadlem kusů a diagnostikou chyb",
+      "Kompletní výměna rozvodů tlakového vzduchu a fitinků",
+      "Ověření souososti upínacího otvoru v beranu s otvorem ve stole"
+    ],
+    "standards": [
+      "ČSN EN 692",
+      "ČSN EN ISO 13849-1",
+      "ČSN EN 60204-1"
+    ],
+    "image": "assets/slide2.png"
+  },
+  {
+    "id": "le-160",
+    "title": "Jednobodový výstředníkový lis LE 160",
+    "category": "lisy-vystrednikove",
+    "category_name": "Výstředníkové lisy",
+    "badge": "Šmeral / TOS",
+    "perex": "Robustní dílenský lis pro střední a těžké tváření s nastavitelným zdvihem a pneumatickou spojkou. Ideální pro sériovou i kusovou výrobu výlisků.",
+    "specs": {
+      "Jmenovitá síla": "1 600 kN (160 tun)",
+      "Rozsah zdvihu": "16 – 140 mm",
+      "Počet zdvihů": "45 min⁻¹",
+      "Sevření mezi stolem a beranem": "450 mm",
+      "Plocha stolu": "1 000 × 710 mm",
+      "Vyložení beranu": "355 mm",
+      "Přestavitelnost beranu": "100 mm",
+      "Výkon motoru": "11 kW",
+      "Hmotnost stroje": "12 500 kg"
+    },
+    "scope": [
+      "Přefrézování vodicích prismatických lišt a instalace teflon-bronzových kluzných pásků",
+      "Repase hydraulického pojistného polštáře proti přetížení lisu",
+      "Nové elektro rozvaděčové pole s bezpečnostním automatem Pilz",
+      "Montáž předních a zadních optoelektronických závor SICK deTec4",
+      "Provedení revizní zprávy elektrického zařízení a tlakové nádoby"
+    ],
+    "standards": [
+      "ČSN EN 692",
+      "ČSN EN ISO 13849-1 (PL e)",
+      "ČSN EN 60204-1"
+    ],
+    "image": "assets/box2.png"
+  },
+  {
+    "id": "lep-100",
+    "title": "Jednobodový klikový lis LEP 100",
+    "category": "lisy-vystrednikove",
+    "category_name": "Výstředníkové lisy",
+    "badge": "Šmeral Trnava",
+    "perex": "Vysoce stabilní lis s prodlouženým vedením beranu pro přesné vystřihování a tváření s postupovými nástroji. Minimální vůle a dokonalé vedení.",
+    "specs": {
+      "Jmenovitá síla": "1 000 kN (100 tun)",
+      "Pracovní zdvih": "120 mm",
+      "Počet zdvihů": "60 min⁻¹",
+      "Sevření": "400 mm",
+      "Upínací plocha stolu": "800 × 600 mm",
+      "Přestavení beranu": "80 mm",
+      "Výkon pohonu": "7,5 kW",
+      "Hmotnost stroje": "8 200 kg"
+    },
+    "scope": [
+      "Broušení vodicích ploch beranu na magnetické brusce s tolerancí do 0,01 mm",
+      "Výměna bronzové kulové pánve stavěcího šroubu ojnice",
+      "Oprava pneumatického vyvažovacího válce včetně nového těsnění Merkel",
+      "Nová instalace obouručního ovládacího pultu s monitorováním synchronismu",
+      "Nastavení mazacího diagramu centrální pumpy Vogel / Bijur Delimon"
+    ],
+    "standards": [
+      "ČSN EN 692",
+      "ČSN EN 574+A1",
+      "ČSN EN ISO 13849-1"
+    ],
+    "image": "assets/slide3.png"
+  },
+  {
+    "id": "cbj-250",
+    "title": "Hydraulický lis CBJ 250",
+    "category": "lisy-hydraulicke",
+    "category_name": "Hydraulické lisy",
+    "badge": "ŽĎAS",
+    "perex": "Výkonný čtyřsloupový nebo rámový hydraulický lis pro přesné hluboké tažení, rovnání a kalibraci kovových dílů. Přesná regulace lisovací síly a rychlosti.",
+    "specs": {
+      "Jmenovitá síla": "2 500 kN (250 tun)",
+      "Pracovní zdvih beranu": "600 mm",
+      "Maximální sevření": "1 000 mm",
+      "Pracovní plocha stolu": "1 250 × 1 000 mm",
+      "Rychlost rychloposuvu dolů": "160 mm/s",
+      "Pracovní rychlost lisování": "12 – 25 mm/s",
+      "Zpětná rychlost nahoru": "140 mm/s",
+      "Síla spodního přidržovače": "1 000 kN",
+      "Pracovní tlak hydrauliky": "25 MPa (250 bar)",
+      "Hmotnost stroje": "16 500 kg"
+    },
+    "scope": [
+      "Přetěsnění hlavního lisovacího válce průměru 360 mm polyuretanovými manžetami",
+      "Přefrézování a zaškrábání vodících bronzových pouzder na čtyřech sloupech",
+      "Kompletní repase hydraulického agregátu včetně čerpadla Rexroth s proměnným průtokem",
+      "Implementace proporcionálních tlakových ventilů pro přesné křivky lisování",
+      "Filtrace a proplach celého hydraulického okruhu s protokolem o čistotě oleje NAS 1638"
+    ],
+    "standards": [
+      "ČSN EN 693+A2",
+      "ČSN EN ISO 13849-1",
+      "ČSN EN ISO 4413"
+    ],
+    "image": "assets/box3.png"
+  },
+  {
+    "id": "cbj-500",
+    "title": "Těžký hydraulický lis CBJ 500",
+    "category": "lisy-hydraulicke",
+    "category_name": "Hydraulické lisy",
+    "badge": "ŽĎAS",
+    "perex": "Těžkotonážní hydraulický lis konstruovaný pro nejnáročnější zápustkové kování, hluboké tažení rozměrných výlisků a kalibraci silnostěnných svařenců.",
+    "specs": {
+      "Jmenovitá síla": "5 000 kN (500 tun)",
+      "Pracovní zdvih beranu": "800 mm",
+      "Sevření lisu": "1 400 mm",
+      "Rozměry stolu": "1 600 × 1 250 mm",
+      "Pracovní tlak": "32 MPa (320 bar)",
+      "Příkon čerpací stanice": "45 kW",
+      "Síla vyhazovače ve stole": "1 600 kN",
+      "Celková výška nad podlahou": "5 200 mm",
+      "Celková hmotnost": "32 000 kg"
+    },
+    "scope": [
+      "Demontáž pístní tyče, ultrazvuková nedestruktivní defektoskopie NDT",
+      "Přehonování vnitřního povrchu lisovacího válce a nová chromová vrstva pístnice",
+      "Výměna logických blokových ventilů v rozváděčové desce hydrauliky",
+      "Nové PLC řízení Siemens S7-1500 s barevným HMI displejem 12 palců",
+      "Kalibrace tlakových snímačů a tenzometrické měření skutečné síly ve 4 bodech"
+    ],
+    "standards": [
+      "ČSN EN 693+A2",
+      "ČSN EN ISO 13849-1 (PL e)",
+      "ČSN EN ISO 4413"
+    ],
+    "image": "assets/f20014.jpg"
+  },
+  {
+    "id": "pye-250",
+    "title": "Jednosloupový hydraulický lis PYE 250 S",
+    "category": "lisy-hydraulicke",
+    "category_name": "Hydraulické lisy",
+    "badge": "WEMA Zeulenroda",
+    "perex": "Univerzální hydraulický C-lis s vysokým vyložením. Určen pro montážní práce, lisování ložisek a pouzder, rovnání hřídelí a ohýbací operace.",
+    "specs": {
+      "Jmenovitá síla": "2 500 kN (250 tun)",
+      "Zdvih pístu": "500 mm",
+      "Vyložení beranu": "360 mm",
+      "Maximální sevření": "800 mm",
+      "Plocha stolu": "900 × 630 mm",
+      "Rychlost posuvu dolů": "100 mm/s",
+      "Pracovní rychlost": "11 – 20 mm/s",
+      "Příkon čerpadla": "15 kW",
+      "Hmotnost lisu": "7 600 kg"
+    },
+    "scope": [
+      "Kompletní přetěsnění hydraulického válce a servoventilu",
+      "Renovace prismatického vedení beranu s nastavením nulových vůlí",
+      "Instalace digitálního odměřování polohy beranu s přesností 0,05 mm",
+      "Instalace bezpečnostního dvouručního spouštění s antiti-tie-down logikou",
+      "Výměna sacích a tlakových filtrů s indikátorem zanesení"
+    ],
+    "standards": [
+      "ČSN EN 693",
+      "ČSN EN 574",
+      "ČSN EN ISO 13849-1"
+    ],
+    "image": "assets/box4.png"
+  },
+  {
+    "id": "cnta-3150",
+    "title": "Tabulové hydraulické nůžky CNTA 3150/10",
+    "category": "strihani-ohrani",
+    "category_name": "Nůžky a ohraňovací lisy",
+    "badge": "Piesok / Šmeral",
+    "perex": "Robustní hydraulické tabulové nůžky s proměnným úhlem střihu pro čisté a rovinné dělení ocelových plechů bez deformací a zkroucení hran.",
+    "specs": {
+      "Max. tloušťka stříhaného plechu": "10 mm (pevnost 450 MPa)",
+      "Délka střihu": "3 150 mm",
+      "Úhel střihu": "0,5° – 2,5° (nastavitelný)",
+      "Rozsah zadního motorického dorazu": "10 – 1 000 mm",
+      "Počet hydraulických přidržovačů": "16 ks",
+      "Počet střihů za minutu": "8 – 22 min⁻¹",
+      "Příkon hlavního motoru": "18,5 kW",
+      "Hmotnost stroje": "11 800 kg"
+    },
+    "scope": [
+      "Přetočení / broušení všech 4 řezných hran nožů a přesné seřízení mezery mezi noži",
+      "Repase 16 hydraulických přidržovačů plechu včetně nových teflonových pístků",
+      "Generální oprava mechanismu zadního dorazu s kuličkovým šroubem a digitálním odměřováním",
+      "Výměna hydraulických hadic a těsnění rozvaděčového bloku",
+      "Instalace zadní bezpečnostní optické závory pro ochranu prostoru za nůžkami"
+    ],
+    "standards": [
+      "ČSN EN 13985",
+      "ČSN EN ISO 13849-1",
+      "ČSN EN 60204-1"
+    ],
+    "image": "assets/f20017.jpg"
+  },
+  {
+    "id": "nte-2000",
+    "title": "Tabulové mechanické nůžky NTE 2000/4",
+    "category": "strihani-ohrani",
+    "category_name": "Nůžky a ohraňovací lisy",
+    "badge": "TOS / Šmeral",
+    "perex": "Rychloběžné mechanické tabulové nůžky pro dělení tenkých a středně tlustých plechů. Osvědčená spolehlivá konstrukce s mechanickou spojkou a přidržovačem.",
+    "specs": {
+      "Max. tloušťka plechu": "4 mm (ocel 450 MPa)",
+      "Užitná délka střihu": "2 050 mm",
+      "Počet střihů": "40 min⁻¹",
+      "Vyložení v bočnicích": "200 mm",
+      "Rozsah zadního dorazu": "0 – 650 mm",
+      "Příkon elektromotoru": "5,5 kW",
+      "Hmotnost nůžek": "3 450 kg"
+    },
+    "scope": [
+      "Kompletní rozebrání a vyčištění lamelové spojky a mechanické brzdy",
+      "Broušení nožů a nastavení vůle v závislosti na tloušťce stříhaného materiálu",
+      "Vyvložkování kluzných uložení vahadel a excentrického hřídele",
+      "Instalace nového osvětlení linie střihu a bezpečnostního krytí prstů",
+      "Zapojení nového elektrického nožního pedálu s ochranným krytem"
+    ],
+    "standards": [
+      "ČSN EN 13985",
+      "ČSN EN ISO 13849-1",
+      "ČSN EN 60204-1"
+    ],
+    "image": "assets/f20018.jpg"
+  },
+  {
+    "id": "cto-160",
+    "title": "Hydraulický ohraňovací lis CTO 160/3200",
+    "category": "strihani-ohrani",
+    "category_name": "Nůžky a ohraňovací lisy",
+    "badge": "ŽĎAS / TOS",
+    "perex": "Tuhý hydraulický ohraňovací lis s mechanickou synchronizací beranu torzní tyčí. Vhodný pro přesné ohýbání profilů, krabic a plechových dílců.",
+    "specs": {
+      "Jmenovitá lisovací síla": "1 600 kN (160 tun)",
+      "Pracovní délka stolu": "3 200 mm",
+      "Průchod mezi bočnicemi": "2 600 mm",
+      "Pracovní zdvih beranu": "200 mm",
+      "Maximální rozevření": "420 mm",
+      "Vyložení ve stojanech": "300 mm",
+      "Výkon motoru čerpadla": "15 kW",
+      "Hmotnost stroje": "10 500 kg"
+    },
+    "scope": [
+      "Přetěsnění obou synchronních hydraulických válců a kontrola torzní tyče",
+      "Přefrézování upínací drážky pro nástroje Promecam / Euro style",
+      "Modernizace zadního dorazu s krokovým motorem a digitálním zobrazením polohy",
+      "Instalace laserové ochrany prstů v bezprostřední blízkosti ohybu (LaserSafe)",
+      "Kontrola rovnoběžnosti beranu s tolerancí do 0,05 mm po celé délce stolu"
+    ],
+    "standards": [
+      "ČSN EN 12622",
+      "ČSN EN ISO 13849-1 (PL e)",
+      "ČSN EN 60204-1"
+    ],
+    "image": "assets/21_10_200920006.jpg"
+  },
+  {
+    "id": "bezpecnost-modernizace",
+    "title": "Bezpečnostní modernizace ČSN EN ISO 13849-1",
+    "category": "modernizace",
+    "category_name": "Bezpečnostní modernizace",
+    "badge": "Norma ČSN EN ISO 13849",
+    "perex": "Komplexní rekonstrukce elektroinstalace a hydraulických bezpečnostních okruhů starších lisů dle platných legislativních norem EU pro bezpečný provoz.",
+    "specs": {
+      "Úroveň vlastností": "Performance Level PL e / Kat. 4",
+      "Řídicí hardware": "Bezpečnostní PLC Siemens Fail-Safe / Pilz",
+      "Optoelektronická ochrana": "Světelné bezpečnostní závory SICK deTec4 / Fiessler",
+      "Ventilové systémy": "Dvoukanálové ventily Herion / Rexroth s dynamickým monitorováním",
+      "Odměřování polohy": "Rotační inkrementální snímače s nuceným rozpojením",
+      "Měření doběhu": "Certifikované měření doby zastavení pro stanovení bezpečné vzdálenosti"
+    },
+    "scope": [
+      "Vypracování analýzy a posouzení rizik dle ČSN EN ISO 12100 a ČSN EN ISO 13849-1",
+      "Kompletní výroba nového rozvaděče s odděleným silovým a bezpečnostním polem",
+      "Implementace dvouručního ovládání s typem III C dle ČSN EN 574",
+      "Náhrada jednoduchých ventilů spojka-brzda monitorovanými dvojitými ventily",
+      "Vydání ES prohlášení o shodě (označení CE) a revizní zprávy pro inspektorát práce"
+    ],
+    "standards": [
+      "ČSN EN ISO 13849-1",
+      "ČSN EN 692",
+      "ČSN EN 693",
+      "NV 176/2008 Sb."
+    ],
+    "image": "assets/21_10_200920005.jpg"
+  }
+]

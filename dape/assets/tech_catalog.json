@@ -1,0 +1,422 @@
+[
+  {
+    "id": "aba",
+    "name": "DAPE ABA – Termoizolační reflexní parozábrana",
+    "category": "parotesne-folie",
+    "category_name": "Parotěsné a termoizolační fólie",
+    "image": "assets/ABA.png",
+    "badge": "Nejprodávanější 3 v 1",
+    "thickness": "4 mm",
+    "thermal_r": "0,57 m²K/W (1,12 s mezerou)",
+    "diff_sd": "1578 m",
+    "equiv_wool": "50–70 mm minerální vaty",
+    "fire_class": "B1 / B-s1,d0",
+    "short_desc": "Unikátní sendvič 3 v 1: tepelná izolace, reflexní AL vrstva (odraz 95 % tepla) a špičková parozábrana pro šikmé střechy i dřevostavby.",
+    "full_desc": "Tepelná termoizolační fólie DAPE ABA slouží jako vysoce účinná parotěsná ochrana hlavní tepelné izolace střešních konstrukcí a stěn dřevostaveb. Zároveň spolehlivě přerušuje tepelné mosty přes dřevěné krokve a sloupky a odráží až 95 % sálavé složky tepla zpět do vytápěného interiéru. Nahrazuje 50 až 70 mm běžné minerální vaty při tloušťce pouhé 4 mm.",
+    "specs": {
+      "Tloušťka fólie": "4 mm",
+      "Rozměr role": "0,97 × 25 m (24,25 m²)",
+      "Ekvivalentní difuzní tloušťka sd": "1578 m",
+      "Tepelný odpor R bez vzduch. mezery": "0,57 m²·K/W",
+      "Tepelný odpor R se vzduchovou mezerou": "1,12 m²·K/W",
+      "Součinitel prostupu tepla U": "0,778 W/(m²·K)",
+      "Odrazivost sálavého tepla": "až 95 %",
+      "Požární odolnost dle DIN 4102": "třída B1 (ČSN EN 13501-1: B-s1,d0)",
+      "Odolnost proti umělému stárnutí": "Vyhovuje dle ČSN EN 1296",
+      "Ekvivalent minerální vlny": "50 až 70 mm"
+    },
+    "montaz": [
+      "Přichycení sponkami na dřevěný rošt nebo přímo na krokve",
+      "Přelepení sponek systémovou hliníkovou AL páskou DAPE",
+      "Orientace reflexní AL vrstvy do interiéru i exteriéru",
+      "Podélné přeplátování pásů o 3–5 cm se systémovou oboustrannou páskou",
+      "Ukončení u zdiva tmelem DAPE s přesahem 5–7 cm a přítlačnou lištou"
+    ]
+  },
+  {
+    "id": "ab",
+    "name": "DAPE AB – Reflexní parotěsná fólie",
+    "category": "parotesne-folie",
+    "category_name": "Parotěsné a termoizolační fólie",
+    "image": "assets/AB_final.png",
+    "badge": "Osvědčený standard",
+    "thickness": "4 mm",
+    "thermal_r": "0,53 m²K/W (1,08 s mezerou)",
+    "diff_sd": "1378 m",
+    "equiv_wool": "až 50 mm minerální vaty",
+    "fire_class": "B1 / B-s1,d0",
+    "short_desc": "Osvědčená parotěsná fólie s jednostrannou leštěnou reflexní hliníkovou vrstvou pro stěny, podkroví a stropy.",
+    "full_desc": "DAPE AB kombinuje bublinkovou polyetylenovou vrstvu s nakašírovanou leštěnou hliníkovou fólií. Zabraňuje pronikání vodních par do konstrukce krovu a díky odrazu sálavé složky tepla výrazně zvyšuje celkový tepelný odpor střešního pláště.",
+    "specs": {
+      "Tloušťka fólie": "4 mm",
+      "Rozměr role": "0,97 × 25 m (24,25 m²)",
+      "Ekvivalentní difuzní tloušťka sd": "1378 m",
+      "Tepelný odpor R bez vzduch. mezery": "0,53 m²·K/W",
+      "Tepelný odpor R se vzduchovou mezerou": "1,08 m²·K/W",
+      "Součinitel prostupu tepla U": "0,803 W/(m²·K)",
+      "Odrazivost sálavého tepla": "až 95 %",
+      "Požární odolnost dle DIN 4102": "třída B1",
+      "Odolnost proti umělému stárnutí": "Vyhovuje dle ČSN EN 1296"
+    },
+    "montaz": [
+      "Přichycení sponkami na nosný dřevěný rošt či krokve",
+      "Orientace hliníkové vrstvy směrem do vytápěného interiéru",
+      "Přelepení spojů systémovou AL lepicí páskou",
+      "Těsné napojení na navazující zdivo a prostupy tmelem DAPE"
+    ]
+  },
+  {
+    "id": "ab-max",
+    "name": "DAPE AB MAX – Zesílená termoreflexní izolace",
+    "category": "parotesne-folie",
+    "category_name": "Parotěsné a termoizolační fólie",
+    "image": "assets/AB_max.png",
+    "badge": "Zesílená vrstva 7 mm",
+    "thickness": "7 mm",
+    "thermal_r": "0,928 m²K/W (1,47 s mezerou)",
+    "diff_sd": "1578 m",
+    "equiv_wool": "až 75 mm minerální vaty",
+    "fire_class": "B1 / B-s1,d0",
+    "short_desc": "Extra dimenzovaná reflexní parozábrana o tloušťce 7 mm s vysokým tepelným odporem pro nízkoenergetické stavby.",
+    "full_desc": "DAPE AB MAX přináší vyšší vzduchový objem a dvojnásobnou mechanickou pevnost. Je ideální volbou pro střešní pláště s vysokými nároky na tepelný odpor a vzduchotěsnost podle standardů pasivních domů.",
+    "specs": {
+      "Tloušťka fólie": "7 mm",
+      "Rozměr role": "1,00 × 25 m (25 m²)",
+      "Ekvivalentní difuzní tloušťka sd": "1578 m",
+      "Tepelný odpor R bez vzduch. mezery": "0,928 m²·K/W",
+      "Tepelný odpor R se vzduchovou mezerou": "1,470 m²·K/W",
+      "Součinitel prostupu tepla U": "0,611 W/(m²·K)",
+      "Odrazivost sálavého tepla": "až 95 %",
+      "Požární odolnost dle DIN 4102": "třída B1",
+      "Odolnost proti umělému stárnutí": "Vyhovuje dle ČSN EN 1296"
+    },
+    "montaz": [
+      "Montáž sponkami přímo na nosnou konstrukci",
+      "Hliníková reflexní strana směřuje do interiéru",
+      "Přesah pásů minimálně 5 cm s oboustrannou těsnicí páskou",
+      "Přelepení vnějších hran hliníkovou páskou šíře 50 nebo 75 mm"
+    ]
+  },
+  {
+    "id": "ap3",
+    "name": "DAPE AP3 – Termoizolační podlahová fólie",
+    "category": "podlahove-systemy",
+    "category_name": "Podlahové a kročejové systémy",
+    "image": "assets/AP3_final.png",
+    "badge": "Pro podlahové vytápění",
+    "thickness": "3 mm",
+    "thermal_r": "0,42 m²K/W (0,97 s mezerou)",
+    "diff_sd": "1378 m",
+    "equiv_wool": "odraz tepla do potěru",
+    "fire_class": "B1",
+    "short_desc": "Kombinace polyetylenové pěny a AL fólie jako reflexní podklad pod teplovodní i elektrické podlahové topení.",
+    "full_desc": "Izolační pás DAPE AP3 je navržen speciálně pro podlahové konstrukce s podlahovým vytápěním. Leštěná hliníková vrstva odráží tepelné paprsky zpět nahoru do roznášecí betonové nebo anhydritové desky, čímž zkracuje náběh vytápění a šetří energii.",
+    "specs": {
+      "Tloušťka fólie": "3 mm",
+      "Rozměr role": "0,97 × 25 m (24,25 m²)",
+      "Ekvivalentní difuzní tloušťka sd": "1378 m",
+      "Tepelný odpor R bez vzduch. mezery": "0,42 m²·K/W",
+      "Tepelný odpor R se vzduchovou mezerou": "0,97 m²·K/W",
+      "Součinitel prostupu tepla U": "0,881 W/(m²·K)",
+      "Určení": "Podlahové vytápění, plovoucí podlahy",
+      "Požární odolnost": "třída B1",
+      "Chemická odolnost": "Vysoká odolnost vůči zásaditým betonům"
+    },
+    "montaz": [
+      "Rozvinutí na podklad hliníkovou vrstvou směrem nahoru do interiéru",
+      "Kladení jednotlivých pásů na sraz",
+      "Přelepení styčných spojů systémovou AL lepicí páskou",
+      "Vytažení fólie u stěn pro vytvoření obvodové dilatace betonové desky"
+    ]
+  },
+  {
+    "id": "ap5",
+    "name": "DAPE AP5 – Zesílená podlahová a kročejová izolace",
+    "category": "podlahove-systemy",
+    "category_name": "Podlahové a kročejové systémy",
+    "image": "assets/AP5.png",
+    "badge": "Kročejový útlum 5 mm",
+    "thickness": "5 mm",
+    "thermal_r": "0,64 m²K/W (1,06 s mezerou)",
+    "diff_sd": "1378 m",
+    "equiv_wool": "zvýšený útlum hluku",
+    "fire_class": "B1",
+    "short_desc": "Zesílená 5mm podlahová izolace s vynikajícím kročejovým útlumem a reflexním účinkem pro těžké plovoucí podlahy.",
+    "full_desc": "DAPE AP5 je optimální řešení pro mezistropní konstrukce a patra rodinných i bytových domů. Poskytuje nejen tepelnou bariéru pro podlahové topení, ale současně tlumí kročejový hluk a vibrace v nášlapných vrstvách.",
+    "specs": {
+      "Tloušťka fólie": "5 mm",
+      "Rozměr role": "0,97 × 25 m (24,25 m²)",
+      "Ekvivalentní difuzní tloušťka sd": "1378 m",
+      "Tepelný odpor R bez vzduch. mezery": "0,64 m²·K/W",
+      "Tepelný odpor R se vzduchovou mezerou": "1,06 m²·K/W",
+      "Součinitel prostupu tepla U": "0,816 W/(m²·K)",
+      "Kročejový útlum": "Vynikající akustický útlum",
+      "Požární odolnost": "třída B1"
+    },
+    "montaz": [
+      "Položení na suchý a čistý podklad reflexní vrstvou nahoru",
+      "Spoje pásů na sraz a pečlivé přelepení AL páskou",
+      "Ochrana obvodových stěn vytažením fólie nad budoucí výšku potěru",
+      "Přímá pokládka systémových desek podlahového topení"
+    ]
+  },
+  {
+    "id": "polar-eco",
+    "name": "DAPE POLAR ECO – Sendvičová termoizolace 25 mm",
+    "category": "komplexni-systemy",
+    "category_name": "Komplexní sendvičové systémy",
+    "image": "assets/Polar_ECO_final.png",
+    "badge": "R = 3,65 m²K/W",
+    "thickness": "25 mm",
+    "thermal_r": "3,10 m²K/W (3,65 s mezerou)",
+    "diff_sd": "1730 m",
+    "equiv_wool": "nahradí 160 mm vaty",
+    "fire_class": "B1 / B-s1,d0",
+    "short_desc": "Vícevrstvý sendvič o tloušťce 25 mm nahrazující až 16 cm minerální vaty, ideální pro zateplení krovů a dřevostaveb.",
+    "full_desc": "DAPE POLAR ECO představuje ucelený termoizolační systém kombinující pěnové polyetylenové jádro, vzduchové komory a oboustranné leštěné hliníkové reflexní vrstvy. Šetří prostor v podkroví při zachování špičkového tepelného odporu R = 3,65 m²K/W.",
+    "specs": {
+      "Tloušťka fólie": "25 mm",
+      "Rozměr role": "1,00 × 10 m / 5 m (10/5 m²)",
+      "Ekvivalentní difuzní tloušťka sd": "1730 m",
+      "Tepelný odpor R bez vzduch. mezery": "3,10 m²·K/W",
+      "Tepelný odpor R se vzduchovou mezerou": "3,65 m²·K/W",
+      "Součinitel prostupu tepla U": "0,262 W/(m²·K)",
+      "Ekvivalent minerální vaty": "140–160 mm",
+      "Požární odolnost dle DIN 4102": "třída B1"
+    },
+    "montaz": [
+      "Montáž sponkami na dřevěný nosný rošt stěn nebo krovu",
+      "Oboustranná hliníková vrstva chrání v zimě i proti letnímu přehřívání",
+      "Podélné přeplátování 1–3 cm a přelepení parotěsnou páskou 75 mm",
+      "Těsné lepení detailů u obvodového zdiva systémovým tmelem"
+    ]
+  },
+  {
+    "id": "polarplus",
+    "name": "DAPE POLAR+ – Prémiový izolační sendvič 32 mm",
+    "category": "komplexni-systemy",
+    "category_name": "Komplexní sendvičové systémy",
+    "image": "assets/Polar.png",
+    "badge": "Maximální výkon R = 4,15",
+    "thickness": "32 mm",
+    "thermal_r": "3,60 m²K/W (4,15 s mezerou)",
+    "diff_sd": "1730 m",
+    "equiv_wool": "nahradí 200 mm vaty",
+    "fire_class": "B1 / B-s1,d0",
+    "short_desc": "Vlajková loď DAPE pro pasivní a nízkoenergetické stavby s tepelným odporem R = 4,15 m²K/W při tloušťce pouhých 32 mm.",
+    "full_desc": "DAPE POLAR+ je vysoce výkonný sendvičový izolační materiál tvořený vrstvami technické pěny, bublinkových komor a oboustranných hliníkových zrcadel. Nahrazuje až 200 mm klasické vaty bez zatížení krovu a bez zmenšení světlé výšky místnosti.",
+    "specs": {
+      "Tloušťka fólie": "32 mm",
+      "Rozměr role": "1,00 × 10 m / 5 m (10/5 m²)",
+      "Ekvivalentní difuzní tloušťka sd": "1730 m",
+      "Tepelný odpor R bez vzduch. mezery": "3,60 m²·K/W",
+      "Tepelný odpor R se vzduchovou mezerou": "4,15 m²·K/W",
+      "Součinitel prostupu tepla U": "0,231 W/(m²·K)",
+      "Ekvivalent minerální vaty": "až 200 mm",
+      "Požární odolnost": "třída B1"
+    },
+    "montaz": [
+      "Mechanické kotvení na rošt či krokve sponkami",
+      "Spoje pásů přeplátovat o 2–3 cm a přelepit páskou POLAR 75 mm",
+      "Vytvoření uzavřené vzduchové mezery 20–40 mm latěmi",
+      "Přímá montáž sádrokartonového podhledu na laťování"
+    ]
+  },
+  {
+    "id": "arktik",
+    "name": "DAPE ARKTIK – Sendvičová termoizolace 16 mm",
+    "category": "komplexni-systemy",
+    "category_name": "Komplexní sendvičové systémy",
+    "image": "assets/Arktik_final.png",
+    "badge": "Oblíbená volba pro podkroví",
+    "thickness": "16 mm",
+    "thermal_r": "1,60 m²K/W (2,15 s mezerou)",
+    "diff_sd": "1685 m",
+    "equiv_wool": "nahradí 80–100 mm vaty",
+    "fire_class": "B1 / B-s1,d0",
+    "short_desc": "Štíhlá 16mm termoizolace pro podkroví, svislé stěny dřevostaveb a doteplení stávajících objektů.",
+    "full_desc": "DAPE ARKTIK je kompaktní sendvič navržený pro rekonstrukce i novostavby s omezeným prostorem pro izolaci. Výrazně zvyšuje tepelnou stabilitu podkrovních prostor a eliminuje přehřívání v letních měsících.",
+    "specs": {
+      "Tloušťka fólie": "16 mm",
+      "Rozměr role": "1,00 × 10 m / 5 m (10/5 m²)",
+      "Ekvivalentní difuzní tloušťka sd": "1685 m",
+      "Tepelný odpor R bez vzduch. mezery": "1,60 m²·K/W",
+      "Tepelný odpor R se vzduchovou mezerou": "2,15 m²·K/W",
+      "Součinitel prostupu tepla U": "0,432 W/(m²·K)",
+      "Ekvivalent minerální vaty": "80–100 mm",
+      "Požární odolnost": "třída B1"
+    },
+    "montaz": [
+      "Kotvení na rošt nebo krokve pomocí sponek",
+      "Oboustranná reflexní hliníková bariéra",
+      "Spoje přeplátovat o 2 cm a přelepit systémovou páskou 50–75 mm",
+      "Hermetické utěsnění napojení na stěny tmelem DAPE"
+    ]
+  },
+  {
+    "id": "antarktik",
+    "name": "DAPE ANTARKTIK – Termoizolace pro krovy a stěny",
+    "category": "komplexni-systemy",
+    "category_name": "Komplexní sendvičové systémy",
+    "image": "assets/Antarktik_final.jpg",
+    "badge": "Vysoká odolnost R = 2,65",
+    "thickness": "12 mm",
+    "thermal_r": "2,10 m²K/W (2,65 s mezerou)",
+    "diff_sd": "1695 m",
+    "equiv_wool": "nahradí 120 mm vaty",
+    "fire_class": "B1 / B-s1,d0",
+    "short_desc": "Vysoce odolný sendvičový materiál pro zateplení krovů, lehkých obvodových plášťů a dřevostaveb.",
+    "full_desc": "DAPE ANTARKTIK přináší optimální poměr mezi tloušťkou materiálu (12 mm) a tepelným odporem (R = 2,65 m²K/W se vzduchovou mezerou). V kombinaci s fólií ABA dosahuje skladební odpor krovu R > 4,18 m²K/W.",
+    "specs": {
+      "Tloušťka fólie": "12 mm (nominální 10–15 mm)",
+      "Rozměr role": "1,00 × 10 m (10 m²)",
+      "Ekvivalentní difuzní tloušťka sd": "1695 m",
+      "Tepelný odpor R bez vzduch. mezery": "2,10 m²·K/W",
+      "Tepelný odpor R se vzduchovou mezerou": "2,65 m²·K/W",
+      "Součinitel prostupu tepla U": "0,355 W/(m²·K)",
+      "Ekvivalent minerální vaty": "100–120 mm",
+      "Požární odolnost": "třída B1"
+    },
+    "montaz": [
+      "Přichycení sponkami na dřevěný rošt či konstrukci krovu",
+      "Vytvoření vzduchové mezery pomocí laťování",
+      "Spoje pásů přelepit systémovou parotěsnou páskou",
+      "Spolehlivé řešení obvodových detailů systémovým tmelem"
+    ]
+  },
+  {
+    "id": "paska-parotesna-75",
+    "name": "DAPE Parotěsná systémová páska 75 mm × 25 m",
+    "category": "prislusenstvi",
+    "category_name": "Systémové příslušenství",
+    "image": "assets/parotes_75_25.jpg",
+    "badge": "Systémový doplněk",
+    "thickness": "0,08 mm",
+    "thermal_r": "parotěsný přelep",
+    "diff_sd": "vysoká těsnost",
+    "equiv_wool": "hermetický spoj",
+    "fire_class": "B1",
+    "short_desc": "Široká parotěsná lepicí páska 75 mm s extrémní přilnavostí pro bezpečné spoje sendvičů POLAR a ARKTIK.",
+    "full_desc": "Speciálně vyvinutá akrylátová páska šíře 75 mm zaručuje trvalou difuzní nepropustnost v místech podélných a příčných spojů silnějších sendvičových izolací DAPE. Odolává stárnutí, vlhkosti i teplotním výkyvům.",
+    "specs": {
+      "Šířka pásky": "75 mm",
+      "Návin": "25 m",
+      "Typ lepidla": "Vysoce odolný modifikovaný akrylát",
+      "Teplotní rozsah": "-40 °C až +100 °C",
+      "Použití": "Spoje sendvičů POLAR+, POLAR ECO, ARKTIK, ANTARKTIK"
+    },
+    "montaz": [
+      "Aplikace na čistý, bezprašný a suchý povrch fólie",
+      "Důkladné přitlačení stěrkou nebo přítlačným válečkem",
+      "Ideální aplikační teplota od +5 °C"
+    ]
+  },
+  {
+    "id": "paska-al-sto",
+    "name": "DAPE Reflexní hliníková AL páska 50 mm × 100 m",
+    "category": "prislusenstvi",
+    "category_name": "Systémové příslušenství",
+    "image": "assets/AL100-50-1.jpg",
+    "badge": "Návin 100 m",
+    "thickness": "0,05 mm",
+    "thermal_r": "reflexní spoj",
+    "diff_sd": "nepropustné AL",
+    "equiv_wool": "odraz tepla",
+    "fire_class": "nehořlavé AL",
+    "short_desc": "Čistá hliníková samolepicí páska 50 mm pro spolehlivé parotěsné a reflexní přelepení spojů fólií DAPE ABA a AB.",
+    "full_desc": "Reflexní páska z čisté hliníkové fólie s naneseným tepelně odolným lepidlem. Zachovává celistvost reflexní odrazové plochy v celé ploše střešního nebo podlahového pláště a chrání sponky před korozí.",
+    "specs": {
+      "Šířka pásky": "50 mm",
+      "Návin": "100 m (také ve variantě 50 m)",
+      "Materiál nosiče": "Leštěná hliníková fólie",
+      "Odrazivost": "Shodná s hlavní reflexní vrstvou",
+      "Použití": "Spoje a sponky u DAPE ABA, AB, AB MAX, AP3, AP5"
+    },
+    "montaz": [
+      "Přelepení všech mechanických sponek v ploše fólie",
+      "Přelepení podélných a příčných spojů pásů",
+      "Vyhlazení pro dokonalou přilnavost bez vzduchových bublin"
+    ]
+  },
+  {
+    "id": "paska-oboustranna",
+    "name": "DAPE Oboustranná montážní páska 19 mm × 50 m",
+    "category": "prislusenstvi",
+    "category_name": "Systémové příslušenství",
+    "image": "assets/oboustr1.jpg",
+    "badge": "Systémový spoj",
+    "thickness": "0,2 mm",
+    "thermal_r": "vnitřní spoj",
+    "diff_sd": "vysoká těsnost",
+    "equiv_wool": "fixace přeplátování",
+    "fire_class": "B1",
+    "short_desc": "Oboustranně lepicí systémová páska pro vzduchotěsné a parotěsné slepení přesahů pásů parozábrany.",
+    "full_desc": "Vysoce přilnavá oboustranná páska vkládaná do přesahu mezi dva pásy fólie DAPE ABA nebo AB. Zajišťuje primární těsnicí bariéru proti průniku vlhkosti před finálním přelepením hliníkovou páskou.",
+    "specs": {
+      "Šířka pásky": "19 mm",
+      "Návin": "50 m",
+      "Nosič": "Polyesterová mřížka s akrylovým gelem",
+      "Přilnavost": "Extrémní lepivost na AL i PE povrchy"
+    },
+    "montaz": [
+      "Nalepení na spodní pás v místě plánovaného přesahu 3–5 cm",
+      "Stržení krycího lineru a přiložení horního pásu fólie",
+      "Pevné přitlačení po celé délce spoje"
+    ]
+  },
+  {
+    "id": "tmel-dape",
+    "name": "DAPE Systémový těsnicí tmel (kartuše 310 ml)",
+    "category": "prislusenstvi",
+    "category_name": "Systémové příslušenství",
+    "image": "assets/Tmel1.jpg",
+    "badge": "Hermetické utěsnění",
+    "thickness": "trvale pružný",
+    "thermal_r": "vzduchotěsný detail",
+    "diff_sd": "hermetický",
+    "equiv_wool": "napojení na zdivo",
+    "fire_class": "B1",
+    "short_desc": "Trvale plasticko-elastický těsnicí tmel pro vzduchotěsné a parotěsné napojení fólií DAPE na omítky a zdivo.",
+    "full_desc": "Profesionální tmel určený pro hermetické ukončení parozábrany u obvodových stěn, komínů, štítových zdí a střešních oken. Zůstává trvale pružný, nevysychá a spolehlivě kompenzuje stavební dilatace.",
+    "specs": {
+      "Objem balení": "Kartuše 310 ml",
+      "Konzistence": "Nestékavá pasta",
+      "Teplotní stálost": "-20 °C až +80 °C",
+      "Vydatnost": "cca 10–12 běžných metrů z kartuše",
+      "Podklad": "Zdivo, beton, omítka, dřevo, kov"
+    },
+    "montaz": [
+      "Očištění podkladu od prachu a uvolněných částic",
+      "Nanesení housenky tmelu o průměru 6–8 mm na zdivo",
+      "Přiložení fólie DAPE s mírným průhybem (dilatační vlnka)",
+      "Zajištění přítlačnou dřevěnou nebo kovovou lištou"
+    ]
+  },
+  {
+    "id": "paska-difuzni",
+    "name": "DAPE Difuzní páska pro nadkrokevní zateplení 75 mm × 25 m",
+    "category": "prislusenstvi",
+    "category_name": "Systémové příslušenství",
+    "image": "assets/AL50-50-1.jpg",
+    "badge": "Paropropustná",
+    "thickness": "0,15 mm",
+    "thermal_r": "vnější ochrana",
+    "diff_sd": "0,02 m (difuzní)",
+    "equiv_wool": "ochrana proti větru",
+    "fire_class": "B1",
+    "short_desc": "Vysoce paropropustná lepicí páska pro těsnění přesahů pojistných difuzních membrán v nadkrokevním systému.",
+    "full_desc": "Systémová difuzně otevřená páska s polyakrylátovým lepidlem. Zajišťuje větrotěsnost vnější vrstvy střešního pláště a zároveň umožňuje bezpečný odvod zbytkové vlhkosti ven do odvětrávané mezery.",
+    "specs": {
+      "Šířka pásky": "75 mm",
+      "Návin": "25 m",
+      "Paropropustnost": "Difuzně otevřená (sd cca 0,02 m)",
+      "Odolnost vůči UV záření": "3 měsíce přímého slunce",
+      "Použití": "Spoje difuzních membrán a nadkrokevních skladeb"
+    },
+    "montaz": [
+      "Aplikace na čistý povrch difuzní membrány",
+      "Přelepení přesahů a detailů u úžlabí či nároží",
+      "Pevné přitlačení pro zajištění větrotěsnosti"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "target_company": "STM servis s.r.o.",
+  "base_url": "http://stmservis.cz",
+  "total_pages_crawled": 8,
+  "menu_categories": [
+    "O nás",
+    "Služby",
+    "Servis lisů",
+    "Modernizace",
+    "Elektroinstalace",
+    "Reference",
+    "Kontakt"
+  ],
+  "downloaded_images": [
+    "slide1.png",
+    "slide2.png",
+    "slide3.png",
+    "box01.png",
+    "box2.png",
+    "box3.png",
+    "box4.png",
+    "bagr.png",
+    "bg-top.png",
+    "f20014.jpg",
+    "f20017.jpg",
+    "f20018.jpg",
+    "rypadlo3_m.jpg",
+    "21_10_200920006.jpg",
+    "21_10_200920005.jpg"
+  ],
+  "total_images_downloaded": 15
+}

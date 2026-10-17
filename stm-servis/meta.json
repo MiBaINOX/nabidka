@@ -1,0 +1,57 @@
+{
+  "slug": "stm-servis",
+  "firma": "STM servis s.r.o.",
+  "ico": "06025129",
+  "dic": "CZ06025129",
+  "obec": "Tučapy",
+  "okres": "Vyškov",
+  "kraj": "Jihomoravský kraj",
+  "adresa": "č.p. 241, 683 01 Tučapy",
+  "provozovna": "Provazníkova 994/59, 613 00 Brno - Husovice",
+  "obor_plny": "Kovoobráběcí a tvářecí stroje / Komplexní servis, generální opravy, modernizace a montáž tvářecích a kovoobráběcích strojů",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://stmservis.cz",
+  "email": "info@stmservis.cz",
+  "telefon": "+420 776 624 153",
+  "telefon_jednatel": "+420 777 654 438",
+  "jednatel": "Martin Šulc",
+  "osloveni": "Vážený pane Šulci,",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Specializovaný servis a generální opravy lisů Šmeral (LEN, LEP, LE) a hydraulických lisů ŽĎAS (CBJ) a PYE",
+    "Bezpečnostní modernizace elektroinstalace a hydrauliky dle přísných norem ČSN EN ISO 13849-1 s měřením doběhu",
+    "Rychlý výjezd servisního týmu, sklad náhradních dílů a zázemí na Provazníkově v Brně"
+  ],
+  "vady_stareho_webu": [
+    "Web běžící na nezabezpečeném HTTP protokolu bez platného SSL/TLS certifikátu",
+    "Chybějící meta viewport – nulová mobilní optimalizace a nutnost ručního zoomování",
+    "Stará statická HTML kostra s nefunkčním přesměrováním a neaktuální prezentací kapacit",
+    "Absence interaktivního katalogu strojů, technických listů a moderního B2B poptávkového formuláře"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní industriální design Tech & Precision s precizními linkami a skleněným glassmorphismem",
+    "Interaktivní vyhledávací katalog tvářecích strojů s filtračními taby a modálními okny (#techModalBackdrop)",
+    "Kompletní rozměrové a technické tabulky s garancí 0px přetečení na všech typech mobilních zařízení",
+    "Plně responzivní layout optimalizovaný pro servisní techniky i nákupčí v provozech",
+    "Interaktivní B2B poptávkový formulář s předvýběrem stroje a přesnou Mapy.cz integrací s RÚIAN špendlíkem",
+    "Animované čítače parametrů s progresivním vylepšením a respektováním prefers-reduced-motion"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2017,
+    "max_sila_kn": 10000,
+    "pocet_stroju_katalog": 12,
+    "certifikace": [
+      "ČSN EN ISO 13849-1",
+      "ČSN EN 692",
+      "ČSN EN 693",
+      "ČSN EN 60204-1"
+    ],
+    "sidlo": "č.p. 241, 683 01 Tučapy",
+    "gps": {
+      "lat": 49.23537,
+      "lon": 16.9204
+    }
+  }
+}

@@ -1,0 +1,57 @@
+STM servis s.r.o. - Komplexní servis, generální opravy, modernizace a montáž tvářecích a kovoobráběcích strojů
+Sídlo firmy: č.p. 241, 683 01 Tučapy, okres Vyškov, Jihomoravský kraj
+Servisní středisko a díly: Provazníkova 994/59, 613 00 Brno - Husovice
+IČO: 06025129, DIČ: CZ06025129
+Jednatel: Martin Šulc
+Telefon: +420 776 624 153, +420 777 654 438
+E-mail: info@stmservis.cz, web: http://stmservis.cz
+
+PŮVODNÍ STRÁNKY A MENU:
+1. Úvod (index.html)
+Komplexní technický servis tvářecích strojů, výstředníkových lisů, hydraulických lisů, nůžek a ohraňovacích lisů. Náhradní díly, repase hydrauliky a pneumatiky, bezpečnostní modernizace elektroinstalace.
+
+2. O nás (o-nas.html)
+Společnost STM servis s.r.o. navazuje na dlouholetou tradici technických prací a servisu strojních zařízení. Založena v roce 2017 jednatelem Martinem Šulcem. Poskytujeme specializované mechanické, hydraulické a elektroinstalační práce pro průmyslové lisovny a kovovýrobu. Věříme v sílu dobrého jména, proto jsme spolehliví a pečliví. Našim zákazníkům se snažíme ušetřit náklady a flexibilně se přizpůsobujeme provozním požadavkům výrobních závodů v Jihomoravském kraji i po celé ČR.
+
+3. Služby (sluzby.html)
+- Servis a generální opravy tvářecích strojů: výstředníkové lisy Šmeral Trnava (LEN, LEP, LE), hydraulické lisy ŽĎAS (CBJ), PYE Zeulenroda.
+- Tabulové nůžky a ohraňovací lisy: Piesok CNTA, TOS NTE, ŽĎAS CTO.
+- Bezpečnostní elektroinstalace a modernizace řízení: posouzení bezpečnosti a shody dle ČSN EN ISO 13849-1, kategorie 4, PL e, bezpečnostní PLC, optoelektronické ochranné závory SICK a Fiessler, dvouruční spouštění.
+- Hydraulické a pneumatické rozvody: přetěsnění a repase válců, výměna rozváděčů Rexroth, bezpečnostních dvoukanálových ventilů Herion, lisovací agregáty, výroba hadic na míru.
+- Preventivní údržba, revize a diagnostika: měření doběhu lisu, kontrola geometrické přesnosti, rovnoběžnosti beranu a stolu, akustická a vibrační diagnostika.
+- Dodávky náhradních dílů: bronzová pouzdra, spojky, lamely, brzdové obložení, pístní tyče, těsnění, pneumatické ventily.
+
+4. Servis lisů (lisy.html)
+Specializace na výstředníkové a klikové lisy:
+- Výstředníkový lis LEN 40 C (Šmeral Trnava, síla 400 kN, zdvih 8-90 mm, sevření 290 mm)
+- Výstředníkový lis LEN 63 C (Šmeral Trnava, síla 630 kN, zdvih 10-100 mm, sevření 335 mm)
+- Výstředníkový lis LEN 100 C (Šmeral Trnava, síla 1000 kN, zdvih 10-125 mm, sevření 385 mm)
+- Výstředníkový lis LE 160 (Šmeral / TOS, síla 1600 kN, přestavitelný stůl)
+- Výstředníkový lis LE 250 (Šmeral / ŽĎAS, síla 2500 kN, vyvažování beranu)
+- Jednobodový klikový lis LEP 100 (Šmeral Trnava, síla 1000 kN, pneumatická lamelová spojka)
+- Hydraulický lis CBJ 250 (ŽĎAS, lisovací síla 2500 kN, zdvih 600 mm)
+- Hydraulický lis CBJ 500 (ŽĎAS, lisovací síla 5000 kN, zdvih 800 mm)
+- Hydraulický montážní lis PYE 100 S (WEMA Zeulenroda, síla 1000 kN)
+- Hydraulický lis PYE 250 S (WEMA Zeulenroda, síla 2500 kN)
+- Kloubový lis Šmeral LL / LLR 1000 (Šmeral, síla 10000 kN)
+
+5. Modernizace a nůžky (modernizace.html)
+- Tabulové hydraulické nůžky CNTA 3150/10 (Piesok / Šmeral, tloušťka 10 mm, délka 3150 mm)
+- Tabulové mechanické nůžky NTE 2000/4 (TOS / Šmeral, tloušťka 4 mm, délka 2050 mm)
+- Hydraulický ohraňovací lis CTO 160/3200 (ŽĎAS / TOS, síla 1600 kN, délka 3200 mm)
+
+6. Bezpečnostní elektroinstalace (elektro.html)
+- Soulad s normami ČSN EN ISO 13849-1, ČSN EN 60204-1, ČSN EN 692 (mechanické lisy), ČSN EN 693 (hydraulické lisy).
+- Dvoukanálové monitorování spojka-brzda, bezpečnostní ventily Herion, optické závory, bezpečnostní řídicí relé.
+
+7. Reference (reference.html)
+Stovky servisních zásahů v lisovnách po celé Moravě a Čechách, generální opravy lisů LEN 63 a CBJ 250, pravidelné servisní smlouvy pro automotive a strojírenské dodavatele.
+
+8. Kontakt (kontakt.html)
+STM servis s.r.o.
+Sídlo: Tučapy 241, 683 01 Tučapy
+Provozovna / sklad dílů: Provazníkova 994/59, 613 00 Brno - Husovice
+IČO: 06025129, DIČ: CZ06025129
+Jednatel: Martin Šulc
+Telefon: +420 776 624 153, +420 777 654 438
+E-mail: info@stmservis.cz
