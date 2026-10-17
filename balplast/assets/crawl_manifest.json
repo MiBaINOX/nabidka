@@ -1,0 +1,88 @@
+{
+  "total_pages": 15,
+  "pages": [
+    "http://balplast.cz/",
+    "http://balplast.cz/index.php",
+    "http://balplast.cz/index.php?id=profil-firmy",
+    "http://balplast.cz/index.php?id=nabidka",
+    "http://balplast.cz/index.php?id=nabidka-pe-folie",
+    "http://balplast.cz/index.php?id=nabidka-parotesna-folie",
+    "http://balplast.cz/index.php?id=nabidka-bublinkova-folie",
+    "http://balplast.cz/index.php?id=nabidka-stretch-folie",
+    "http://balplast.cz/index.php?id=nabidka-lepici-pasky",
+    "http://balplast.cz/index.php?id=nabidka-pytle-sacky",
+    "http://balplast.cz/index.php?id=nabidka-prekryvaci-plachty",
+    "http://balplast.cz/index.php?id=kontakt",
+    "http://balplast.cz/index.php?id=mapa",
+    "http://balplast.cz/index.php?id=o-eshopu",
+    "http://balplast.cz/index.php?id=katalog-produktu"
+  ],
+  "total_images": 13,
+  "images": [
+    {
+      "url": "http://balplast.cz/img/stretch.jpg",
+      "local_file": "stretch.jpg",
+      "bytes": 19493
+    },
+    {
+      "url": "http://balplast.cz/img/bublinkfolie.jpg",
+      "local_file": "bublinkfolie.jpg",
+      "bytes": 2482
+    },
+    {
+      "url": "http://balplast.cz/img/sacky2.jpg",
+      "local_file": "sacky2.jpg",
+      "bytes": 3693
+    },
+    {
+      "url": "http://balplast.cz/img/certifikat.jpg",
+      "local_file": "certifikat.jpg",
+      "bytes": 79676
+    },
+    {
+      "url": "http://balplast.cz/img/head.jpg",
+      "local_file": "head.jpg",
+      "bytes": 20451
+    },
+    {
+      "url": "http://balplast.cz/img/mapa.jpg",
+      "local_file": "mapa.jpg",
+      "bytes": 54278
+    },
+    {
+      "url": "http://balplast.cz/img/stretch7.jpg",
+      "local_file": "stretch7.jpg",
+      "bytes": 3023
+    },
+    {
+      "url": "http://balplast.cz/img/pasky.jpg",
+      "local_file": "pasky.jpg",
+      "bytes": 25433
+    },
+    {
+      "url": "http://balplast.cz/img/bublinky2.jpg",
+      "local_file": "bublinky2.jpg",
+      "bytes": 23200
+    },
+    {
+      "url": "http://balplast.cz/img/bublinkova.jpg",
+      "local_file": "bublinkova.jpg",
+      "bytes": 3771
+    },
+    {
+      "url": "http://balplast.cz/img/stretch3.jpg",
+      "local_file": "stretch3.jpg",
+      "bytes": 2662
+    },
+    {
+      "url": "http://balplast.cz/img/sacky1.jpg",
+      "local_file": "sacky1.jpg",
+      "bytes": 3683
+    },
+    {
+      "url": "http://balplast.cz/img/foto-uvodni.jpg",
+      "local_file": "foto-uvodni.jpg",
+      "bytes": 23877
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "lakovna-ladna",
+  "firma": "Lakovna Ladná s.r.o.",
+  "ico": "05396883",
+  "obec": "Ladná",
+  "okres": "Břeclav",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Průmyslové povrchové úpravy, nezávislé inspekce PKO a laboratorní zkoušky povlaků",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://lakovna.cz",
+  "email": "vala@lakovna.cz",
+  "prodejni_body": [
+    "Nezávislý dozor a inspekce PKO certifikovaným personálem FROSIO, ČNS a AKI",
+    "Kompletní laboratorní zkoušky povlaků dle norem ČSN EN ISO (odtrhové, mřížkové, rázové, pórovitost)",
+    "Specializace na duplexní systémy (žárový zinek + nátěr) s prodloužením životnosti až 2,5×"
+  ],
+  "vady_stareho_webu": [
+    "Web běží pouze na nezabezpečeném protokolu HTTP bez platného SSL/TLS šifrování",
+    "Absence mobilní responzivity – zastaralá WordPress šablona z roku 2013 s pevnou šířkou",
+    "Rozpadlé interní odkazy na starý vývojový server webx2.forpsi.com",
+    "Špatně čitelné strukturování odborného obsahu a laboratorních zkoušek bez vyhledávání",
+    "Chybí interaktivní katalog měřicí techniky a norem ČSN EN ISO pro průmyslové investory"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Swiss Bento Grid s precizní mřížkou a čistou technickou typografií",
+    "Interaktivní technický katalog laboratorních zkoušek a inspekčních služeb s live vyhledáváním dle ISO norem",
+    "Detailní technické modální okno s kompletními normativními parametry (třídy korozivity C1–CX, životnosti L/M/H/VH)",
+    "100% zachování a zpřehlednění veškerých odborných článků, přístrojového vybavení Elcometer/DeFelsko a referencí",
+    "Plně responzivní layout optimalizovaný pro zobrazení na smartphonech a tabletech přímo v terénu a na stavbách",
+    "Interaktivní mapa areálu v Ladné s ověřeným Mapy.cz špendlíkem dle katastrálních souřadnic RÚIAN"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2016,
+    "adresa": "Mlýnská 459, 691 46 Ladná",
+    "jednatel": "Jaroslav Vála",
+    "telefon": "+420 733 644 181",
+    "certifikace_a_clenstvi": [
+      "FROSIO / ČNS korozní technik",
+      "Asociace korozních inženýrů (AKI)",
+      "The Society for Protective Coatings (SSPC)",
+      "NACE International",
+      "Soudní znalec v oboru strojírenství – povrchové úpravy"
+    ],
+    "vybaveni": [
+      "Elcometer 456 TOP FN",
+      "Elcometer 106 Adhesion Tester",
+      "Elcometer 270 Pinhole Detector",
+      "Elcometer 107 Cross Hatch Cutter",
+      "Konfokální laserový mikroskop OLYMPUS LEXT",
+      "Datalogger COMET D3121",
+      "Bezkontaktní teploměr Greisinger",
+      "Multimetr C401"
+    ],
+    "vyznamne_reference": [
+      "ABB",
+      "SIEMENS",
+      "Škoda Transportation",
+      "ČEZ",
+      "SKANSKA",
+      "Bombardier Transportation",
+      "České Dráhy",
+      "Česká Zbrojovka Uherský Brod",
+      "F.X. MEILLER",
+      "ZOELLER Systems",
+      "SPOLCHEMIE",
+      "SMP CZ"
+    ]
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

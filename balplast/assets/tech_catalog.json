@@ -1,0 +1,178 @@
+[
+  {
+    "id": "pe-hadice-polohadice",
+    "nazev": "LDPE fólie v hadici a polohadici",
+    "kategorie": "pe-folie",
+    "kategorie_nazev": "PE fólie LDPE",
+    "pouziti": "Výroba sáčků, kontinuální průmyslové balení profilů, trubek a dlouhých výrobků.",
+    "tloustka": "0,03 – 0,20 mm (30 – 200 µm)",
+    "sirka": "200 – 2 000 mm",
+    "provedeni": "Rukáv (hadice), polorukáv (polohadice) s bočním lomem",
+    "vlastnosti": "Kluzná i nekluzná úprava, možnost antibloku a UV stabilizace",
+    "recyklace": "100% recyklovatelný polyetylen LDPE",
+    "foto": "assets/foto-uvodni.jpg",
+    "popis": "Polyetylénové hadice a polohadice vyráběné technologií vyfukování z LD-PE. Dodáváme navinuté na dutinkách v návinu dle specifikace zákazníka. Vhodné pro ruční i automatizované balicí linky a zakázkovou výrobu obalů.",
+    "parametry": [
+      {"parametr": "Materiál", "hodnota": "Polyetylen s nízkou hustotou (LD-PE)"},
+      {"parametr": "Šířka návinu", "hodnota": "200 až 2 000 mm"},
+      {"parametr": "Tloušťka fólie", "hodnota": "0,03 až 0,20 mm (30 až 200 µm)"},
+      {"parametr": "Typ návinu", "hodnota": "Hadice (rukáv) / polohadice (řezaná jednostranně)"},
+      {"parametr": "Povrchová úprava", "hodnota": "Kluzná (pro snadné otevírání) / nekluzná (pro fixaci)"},
+      {"parametr": "Zušlechtění", "hodnota": "Antistatika, antiblok, barevné odstíny, UV filtr"}
+    ]
+  },
+  {
+    "id": "pe-plocha-smrstovaci",
+    "nazev": "Plochá PE fólie smršťovací i nesmrštitelná",
+    "kategorie": "pe-folie",
+    "kategorie_nazev": "PE fólie LDPE",
+    "pouziti": "Pevné skupinové balení lahví, plechovek, cihel, keramiky a překrývání palet.",
+    "tloustka": "0,03 – 0,20 mm (30 – 200 µm)",
+    "sirka": "200 – 2 000 mm (při rozložení až 6 000 mm)",
+    "provedeni": "Plochá fólie v návinu na papírových dutinkách",
+    "vlastnosti": "Standardní podélná smrštitelnost cca 60 %, příčná min. 40 %",
+    "recyklace": "100% recyklovatelný PE",
+    "foto": "assets/stretch.jpg",
+    "popis": "Teplem smrštitelná polyetylénová fólie zaručuje pevné a úsporné skupinové fixování výrobků v horkovzdušných tunelech. Nesmrštitelná varianta slouží jako separační vrstva a ochrana před prachem.",
+    "parametry": [
+      {"parametr": "Materiál", "hodnota": "Prvotřídní LDPE granulát"},
+      {"parametr": "Smrštitelnost podélná", "hodnota": "cca 60 % (dle nastavení receptury)"},
+      {"parametr": "Smrštitelnost příčná", "hodnota": "min. 40 %"},
+      {"parametr": "Rozsah tlouštěk", "hodnota": "30 až 200 mikronů"},
+      {"parametr": "Formát dodání", "hodnota": "Role v návinu dle požadavku odběratele"},
+      {"parametr": "Teplotní odolnost", "hodnota": "-40 °C až +80 °C"}
+    ]
+  },
+  {
+    "id": "parotesna-folie",
+    "nazev": "Stavební parotěsná fólie s certifikací",
+    "kategorie": "parotesne-folie",
+    "kategorie_nazev": "Parotěsné fólie",
+    "pouziti": "Parotěsná zábrana v konstrukcích šikmých i plochých střech, obvodových stěn a podlah.",
+    "tloustka": "0,10 – 0,20 mm (100 – 200 µm)",
+    "sirka": "Standardně 2 000 mm a 4 000 mm (skládaná)",
+    "provedeni": "Plochá stavební fólie navinutá v rolích",
+    "vlastnosti": "Mimořádně nízká propustnost vodních par, odolnost proti plísním a louhům",
+    "recyklace": "Ekologicky inertní materiál",
+    "foto": "assets/certifikat.jpg",
+    "popis": "Certifikovaná parotěsná zábrana splňující přísné normy pro moderní stavebnictví. Chrání tepelnou izolaci před pronikáním vlhkosti z interiéru, čímž zamezuje degradaci izolačních vlastností a vzniku plísní.",
+    "parametry": [
+      {"parametr": "Certifikace", "hodnota": "Oficiálně udělený certifikát pro stavebnictví"},
+      {"parametr": "Funkce", "hodnota": "Parotěsná zábrana dle platných norem ČSN"},
+      {"parametr": "Biologická odolnost", "hodnota": "Odolné proti plísním a mikroorganismům"},
+      {"parametr": "Chemická odolnost", "hodnota": "Vysoká odolnost vůči agresivním látkám a parám"},
+      {"parametr": "Spojování", "hodnota": "Doporučeno lepit butylkaučukovou páskou"},
+      {"parametr": "Životnost", "hodnota": "Srovnatelná s životností střešní konstrukce"}
+    ]
+  },
+  {
+    "id": "bublinkova-folie",
+    "nazev": "Bublinková fólie dvouvrstvá",
+    "kategorie": "bublinkove-folie",
+    "kategorie_nazev": "Bublinkové a stretch fólie",
+    "pouziti": "Tlumicí a fixační obal pro křehké předměty, elektroniku, sklo, porcelán a lakované díly.",
+    "tloustka": "Dvouvrstvá konstrukce s uzavřenými vzduchovými polštářky",
+    "sirka": "500 až 1 500 mm (role dle požadavku)",
+    "provedeni": "Hladká nosná fólie + nopková vrstva s bublinkami",
+    "vlastnosti": "Elastická, nenasákavá, nárazuvzdorná, výborný tepelný a zvukový izolant",
+    "recyklace": "100% recyklovatelná LDPE",
+    "foto": "assets/bublinky2.jpg",
+    "popis": "Dvouvrstvá vzduchová bublinková fólie poskytuje spolehlivou ochranu proti vibracím, nárazům a poškrábání povrchů. Lze ji snadno řezat, ohýbat, lepit i svařovat do ochranných sáčků na míru.",
+    "parametry": [
+      {"parametr": "Konstrukce", "hodnota": "2 vrstvy (hladká spodní + bublinková krycí)"},
+      {"parametr": "Průměr bublinky", "hodnota": "Standardní cca 10 mm"},
+      {"parametr": "Výška bublinky", "hodnota": "cca 4 mm"},
+      {"parametr": "Ochrana", "hodnota": "Proti nárazům, otřesům, vlhkosti a prachu"},
+      {"parametr": "Manipulace", "hodnota": "Možnost stříhání, svařování a lepení"},
+      {"parametr": "Ekologie", "hodnota": "Zdravotně nezávadná, bez zápachu"}
+    ]
+  },
+  {
+    "id": "stretch-folie-strojni",
+    "nazev": "Strojní stretch fólie fixační (3vrstvá)",
+    "kategorie": "stretch-folie",
+    "kategorie_nazev": "Bublinkové a stretch fólie",
+    "pouziti": "Paletizace a průtažná fixace zboží na poloautomatických a automatických balicích strojích.",
+    "tloustka": "17 – 30 µm (my)",
+    "sirka": "500 mm",
+    "provedeni": "Strojní role pro ovinovací balicí automaty",
+    "vlastnosti": "Průtažnost až 300 %, vysoká odolnost proti propíchnutí a přetržení",
+    "recyklace": "Plně recyklovatelná LLDPE",
+    "foto": "assets/stretch.jpg",
+    "popis": "Třívrstvá koextrudovaná fixační fólie vyráběná moderní technologií vytlačování a vyfukování. Vyznačuje se vysokou elasticitou a paměťovým efektem, který drží paletovou zásilku pevnou i při náročné přepravě.",
+    "parametry": [
+      {"parametr": "Typ aplikace", "hodnota": "Strojní ovinování palet"},
+      {"parametr": "Šíře role", "hodnota": "500 mm"},
+      {"parametr": "Tloušťka", "hodnota": "17 až 30 µm (standard 20, 23 a 30 µm)"},
+      {"parametr": "Struktura", "hodnota": "3vrstvá koextruze (LLDPE)"},
+      {"parametr": "Vnitřní návin", "hodnota": "Standardní strojní dutinka 76 mm"},
+      {"parametr": "Vlastnosti", "hodnota": "Jednostranná přilnavost, vysoká elasticita"}
+    ]
+  },
+  {
+    "id": "stretch-folie-rucni",
+    "nazev": "Ruční stretch fólie a granát 100 mm",
+    "kategorie": "stretch-folie",
+    "kategorie_nazev": "Bublinkové a stretch fólie",
+    "pouziti": "Ruční fixace kartonů, paletových zásilek a svazování kusového zboží.",
+    "tloustka": "17 – 23 µm (my)",
+    "sirka": "500 mm (standard) / 100 mm (granát)",
+    "provedeni": "Role pro ruční odvíječe (baleno po 6 ks v kartonu)",
+    "vlastnosti": "Okamžitá adheze bez lepidla, lehká manipulace, odolnost proti protržení",
+    "recyklace": "100% recyklovatelná",
+    "foto": "assets/stretch7.jpg",
+    "popis": "Ruční průtažné fólie pro rychlé balení v expedici a skladech. Fólie v šířce 100 mm (tzv. granát) slouží pro přímé a rychlé svazování menších balíků, tyčí, trubek a kusových profilů.",
+    "parametry": [
+      {"parametr": "Šířka fólie", "hodnota": "500 mm (ruční) / 100 mm (granát)"},
+      {"parametr": "Tloušťka materiálu", "hodnota": "17 až 23 my"},
+      {"parametr": "Balení", "hodnota": "6 ks v kartonu (ruční 500 mm)"},
+      {"parametr": "Příslušenství", "hodnota": "Dodáváme včetně plastových ručních odvíječů"},
+      {"parametr": "Ochrana zásilky", "hodnota": "Proti sesunutí, vlhkosti a prachu"},
+      {"parametr": "Hmotnost cívky", "hodnota": "Optimalizováno pro lehkou manuální práci"}
+    ]
+  },
+  {
+    "id": "prumyslove-pytle-sacky",
+    "nazev": "LDPE průmyslové pytle a zakázkové sáčky",
+    "kategorie": "pytle-plachty",
+    "kategorie_nazev": "Pytle a plachty",
+    "pouziti": "Obaly pro sypké hmoty, stavební směsi, textil, kovové díly a paletizační vaky.",
+    "tloustka": "0,03 – 0,20 mm (30 – 200 µm)",
+    "sirka": "Zakázkové rozměry dle potřeb klienta",
+    "provedeni": "Rolované s perforací, volně ložené v kartonech, se záložkami",
+    "vlastnosti": "Pevné sváry, vodotěsnost, vysoká nosnost, kluzná či nekluzná úprava",
+    "recyklace": "100% recyklovatelný LDPE",
+    "foto": "assets/sacky1.jpg",
+    "popis": "Zakázková výroba polyetylenových sáčků a pytlů v libovolných rozměrech a tloušťkách. Vhodné jako paletizační pytle pro přebalování a ochranu výrobků na paletách i pro drobné součástky.",
+    "parametry": [
+      {"parametr": "Materiál", "hodnota": "HD-PE a LD-PE fólie"},
+      {"parametr": "Zhotovení", "hodnota": "Ploché sáčky, s bočními záložkami, rolované"},
+      {"parametr": "Ukončení", "hodnota": "Spodní pevný svár, perforace pro odtrhávání"},
+      {"parametr": "Chemická odolnost", "hodnota": "Výborná odolnost vůči kyselinám a solím"},
+      {"parametr": "Elektroizolace", "hodnota": "Vysoké elektroizolační vlastnosti"},
+      {"parametr": "Barevnost", "hodnota": "Transparentní, modrá, černá, šedá a zakázková"}
+    ]
+  },
+  {
+    "id": "prekryvaci-plachty-pasky",
+    "nazev": "Překrývací plachty a technické lepicí pásky",
+    "kategorie": "pytle-plachty",
+    "kategorie_nazev": "Pytle a plachty",
+    "pouziti": "Prokládání palet, zakrývání při stavebních pracích a profesionální lepení.",
+    "tloustka": "0,03 – 0,15 mm (plachty) / standardní lepicí vrstvy",
+    "sirka": "Plachty až 6 000 mm / Pásky 48 – 50 mm",
+    "provedeni": "Přířezy plachet v návinu + kotouče lepicích pásek",
+    "vlastnosti": "Vodotěsnost, mechanická odolnost, silná adheze pásek",
+    "recyklace": "Ekologicky šetrné balení",
+    "foto": "assets/pasky.jpg",
+    "popis": "Překrývací a podkladní plachty chrání zboží před poškozením a jsou ideální na prokládání palet. Sortiment doplňují technické pásky: krepové maskovací, oboustranně lepicí, butylkaučukové parotěsné a balicí pásky.",
+    "parametry": [
+      {"parametr": "Typy pásek", "hodnota": "Krepová, oboustranná, butylkaučuková, balicí"},
+      {"parametr": "Účel butylu", "hodnota": "Vzduchotěsné napojení parotěsných fólií"},
+      {"parametr": "Plachty", "hodnota": "Ochrana před znečištěním a mechanickým oděrem"},
+      {"parametr": "Použití v praxi", "hodnota": "Stavby, dílny, přeprava palet, sklady"},
+      {"parametr": "Manipulace", "hodnota": "Rychlá aplikace, vysoká přilnavost"},
+      {"parametr": "Skladování", "hodnota": "V suchu při běžných teplotách"}
+    ]
+  }
+]

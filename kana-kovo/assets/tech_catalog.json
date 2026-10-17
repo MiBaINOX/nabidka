@@ -1,0 +1,405 @@
+[
+  {
+    "id": "hermle-b300",
+    "title": "5-osé obráběcí centrum HERMLE B 300",
+    "category": "cnc-stroje",
+    "category_name": "CNC Strojní park",
+    "perex": "Vysoce přesné pětiosé vertikální obráběcí centrum pro kontinuální 5-osé frézování tvarových vložek, forem a prototypů.",
+    "material": "Kalené nástrojové oceli, dural, titan, nerez, plasty",
+    "params": {
+      "Řídicí systém": "Heidenhain iTNC 530",
+      "Rozjezdy v osách (X / Y / Z)": "800 × 600 × 500 mm",
+      "Maximální otáčky vřetene": "15 000 ot/min",
+      "Upínací plocha stolu": "Ø 280 mm (s deskou 370 × 370 mm rozšířeno na Ø 450 mm)",
+      "Maximální hmotnost obrobku": "200 kg",
+      "Provozní prostředí": "Plně klimatizovaná hala se stabilizovanou teplotou"
+    },
+    "image": "assets/hermle-b300-01-0912112620.jpg",
+    "thumb": "assets/hermle-b300-01-0912112620_thumb.jpg",
+    "badge": "5 os kontinuálně"
+  },
+  {
+    "id": "bilz-thermo-grip",
+    "title": "Tepelné upínání nástrojů BILZ Thermo Grip ISG 2200",
+    "category": "cnc-stroje",
+    "category_name": "CNC Strojní park",
+    "perex": "Špičkové indukční zařízení pro tepelné smršťovací upínání monolitních tvrdokovových fréz pro vysokorychlostní HSM obrábění.",
+    "material": "HSS, slinutý karbid (VHM)",
+    "params": {
+      "Typ zařízení": "BILZ Thermo Grip ISG 2200",
+      "Rozsah upínacích průměrů": "3 – 20 mm",
+      "Výhoda technologie": "Minimální obvodové házení (< 0,003 mm), maximální tuhost upnutí",
+      "Vliv na výrobu": "Vynikající kvalita obrobeného povrchu a několikanásobná životnost nástrojů"
+    },
+    "image": "assets/zar02-0912091236_thumb.jpg",
+    "thumb": "assets/zar02-0912091236_thumb.jpg",
+    "badge": "HSM tuhost"
+  },
+  {
+    "id": "blum-formcontrol",
+    "title": "3D metrologie & BLUM FormControl",
+    "category": "cnc-stroje",
+    "category_name": "CNC Strojní park",
+    "perex": "Integrovaný měřicí systém s dotykovou 3D sondou přímo na CNC stroji pro okamžité porovnání reálného obrobku s CAD modelem.",
+    "material": "Všechny opracovávané dílce a formy",
+    "params": {
+      "Software": "BLUM FormControl",
+      "Funkce": "Měření prostorových tvarů a geometrických tolerancí na stroji",
+      "Srovnání s CAD": "Automatické porovnání bodové sítě s originálním 3D modelem",
+      "Výstup pro zákazníka": "Protokol přesnosti a rozměrové kontroly s grafickým znázorněním odchylek"
+    },
+    "image": "assets/mer1-0912104141.jpg",
+    "thumb": "assets/mer1-0912104141_thumb.jpg",
+    "badge": "Kontrola jakosti"
+  },
+  {
+    "id": "cad-cam-delcam",
+    "title": "CAD/CAM pracoviště Delcam PowerMILL",
+    "category": "cnc-stroje",
+    "category_name": "CNC Strojní park",
+    "perex": "Konstrukční a programovací stanice pro přípravu 3D modelů, konstrukci elektrod a generování 3- a 5-osých drah obrábění.",
+    "material": "Digitální CAD/CAM modely",
+    "params": {
+      "Software balík": "PowerShape, PowerMill, FeatureMill (Delcam)",
+      "Podporované formáty": "STEP, STP, IGES, IGS, DXF, DWG, Parasolid",
+      "Programovací strategie": "Vysokorychlostní frézování (HSM), plynulé 5-osé souvislé dráhy",
+      "Technická podpora": "Optimalizace technologičnosti konstrukce dílců"
+    },
+    "image": "assets/prog2-0912102256.jpg",
+    "thumb": "assets/prog2-0912102256_thumb.jpg",
+    "badge": "CAD/CAM 5-os"
+  },
+  {
+    "id": "konvencni-frezky",
+    "title": "Konzolová frézka FB25 & TOS F1J2",
+    "category": "cnc-stroje",
+    "category_name": "CNC Strojní park",
+    "perex": "Konvenční frézovací stroje pro přípravné operace, hrubování polotovarů, zafrézování dosedacích ploch a doplňkové práce.",
+    "material": "Konstrukční a nástrojové oceli, litina, barevné kovy",
+    "params": {
+      "Horizontální frézka FB25": "S vertikální hlavou, rozjezdy 800 × 220 mm",
+      "Maximální výška obrobku": "200 mm",
+      "Páková frézka": "TOS F1J2 pro jemné a rychlé frézařské úkony",
+      "Využití": "Příprava polotovarů pro CNC obrábění a kusová zámečnická výroba"
+    },
+    "image": "assets/img-4766-1005095142.jpg",
+    "thumb": "assets/img-4766-1005095142_thumb.jpg",
+    "badge": "Konvenční frézování"
+  },
+  {
+    "id": "soustruh-sv18ra",
+    "title": "Hrotový soustruh SV 18 RA",
+    "category": "cnc-stroje",
+    "category_name": "CNC Strojní park",
+    "perex": "Osvědčený univerzální hrotový soustruh s vysokou tuhostí a přesností pro výrobu rotačních součástí, čepů a závitů.",
+    "material": "Ocel, nerez, mosaz, bronz, hliník, technické plasty",
+    "params": {
+      "Model stroje": "TOS Trenčín SV 18 RA",
+      "Typ operací": "Podélné a příčné soustružení, vrtání, řezání metrických i palcových závitů",
+      "Příslušenství": "Kleštinové i tříčelisťové upínání, kuželové pravítko",
+      "Využití": "Zakázkové soustružení, vodicí sloupky, pouzdra a rotační nože"
+    },
+    "image": "assets/img-4778-1006110410.jpg",
+    "thumb": "assets/img-4778-1006110410_thumb.jpg",
+    "badge": "Přesné soustružení"
+  },
+  {
+    "id": "bruska-bph20",
+    "title": "Rovinná bruska na plocho BPH 20",
+    "category": "cnc-stroje",
+    "category_name": "CNC Strojní park",
+    "perex": "Přesná rovinná bruska s elektromagnetickou deskou pro broušení kalených vložek, tvárníků a funkčních ploch forem.",
+    "material": "Kalené nástrojové oceli do 62 HRC",
+    "params": {
+      "Typ stroje": "BPH 20 (TOS)",
+      "Upínání": "Magnetická upínací deska s jemným pólováním",
+      "Dosažitelná přesnost": "Tolerance v řádu mikrometrů (IT5), drsnost Ra až 0,2",
+      "Aplikace": "Rovinné broušení dělicích rovin forem a vodicích lišt"
+    },
+    "image": "assets/dil10-0912195616.jpg",
+    "thumb": "assets/dil10-0912195616_thumb.jpg",
+    "badge": "Broušení na plocho"
+  },
+  {
+    "id": "deleni-pilami",
+    "title": "Dělicí centrum (Pegas 280 GSH, Thomas 250, Femi)",
+    "category": "cnc-stroje",
+    "category_name": "CNC Strojní park",
+    "perex": "Sestava výkonných pásových a kotoučových pil pro přesné kolmé i úhlové dělení hutních profilů, tyčí a silnostěnných trubek.",
+    "material": "Ocelové profily, plný materiál, nerez, slitiny Al",
+    "params": {
+      "Pásová pila Pegas popular 280 GSH": "Dělení do průřezu až 200 × 240 mm",
+      "Kotoučová pila Thomas 250 expert": "Dělení do průřezu 50 × 100 mm",
+      "Mobilní pila Femi 781": "Rychlé dělení tyčoviny 20 × 50 mm",
+      "Řezný úhel": "0° až 60° s čistým řezem bez otřepů"
+    },
+    "image": "assets/dil09-0912195546.jpg",
+    "thumb": "assets/dil09-0912195546_thumb.jpg",
+    "badge": "Dělení materiálu"
+  },
+  {
+    "id": "dily-vstrikovaci-formy",
+    "title": "Díly a tvárníky vstřikovacích forem",
+    "category": "formy-vlozky",
+    "category_name": "Formy & Tvarové vložky",
+    "perex": "Kompletní výroba vysoce přesných tvarových dílů vstřikovacích forem pro plastové výlisky z kalených legovaných ocelí.",
+    "material": "Kalená legovaná nástrojová ocel (1.2343, 1.2379, 1.2083)",
+    "params": {
+      "Přesnost obrábění": "Pětiosé kontinuální HSC frézování s tolerancí ± 0,005 mm",
+      "Tepelné zpracování": "Obrábění v měkkém i kaleném stavu (až 56 HRC)",
+      "Kontrola rozměrů": "Dotyková kontrola BLUM s dodáním měrového protokolu",
+      "Aplikace": "Automotive, medicínská technika, elektrotechnické kryty"
+    },
+    "image": "assets/obr1-0912202426.jpg",
+    "thumb": "assets/obr1-0912202426_thumb.jpg",
+    "badge": "Formy & Tvárníky"
+  },
+  {
+    "id": "vyfukovaci-formy-dural",
+    "title": "Vyfukovací formy z duralu a nerezové oceli",
+    "category": "formy-vlozky",
+    "category_name": "Formy & Tvarové vložky",
+    "perex": "Zakázková výroba vyfukovacích forem pro technické lahve, kanystry a dutá tělesa s optimalizovaným chlazením.",
+    "material": "Vysokopevnostní dural (Certal / Alumec), nerezová nástrojová ocel",
+    "params": {
+      "Typ forem": "Vyfukovací formy jedno i vícenásobné",
+      "Chladicí systém": "Integrované vrtané a frézované chladicí kanálky",
+      "Dělicí roviny": "Přesně lícované břity z kalené oceli pro čistý zástřih",
+      "Využití": "Obalová technika, technické nádoby, ostřikovače vozidel"
+    },
+    "image": "assets/dil35-1-0912204135.jpg",
+    "thumb": "assets/dil35-1-0912204135_thumb.jpg",
+    "badge": "Vyfukovací formy"
+  },
+  {
+    "id": "piny-moldmax",
+    "title": "Piny a jádra z měděné slitiny Moldmax",
+    "category": "formy-vlozky",
+    "category_name": "Formy & Tvarové vložky",
+    "perex": "Vysoce vodivé tvarové piny a chladicí vložky ze slitiny beryliové mědi Moldmax pro eliminaci horkých míst a zkrácení cyklu vstřikování.",
+    "material": "Vysoce vodivá slitina Moldmax (CuBeNi)",
+    "params": {
+      "Tepelná vodivost": "Až 4× vyšší než u běžných nástrojových ocelí",
+      "Účinek": "Zkrácení chladicího cyklu formy o 15 až 30 %",
+      "Přesnost": "Mikronové lícování do pouzder formy",
+      "Opracování": "Přesné 5-osé frézování a soustružení na hotovo"
+    },
+    "image": "assets/img-3461-0912201010.jpg",
+    "thumb": "assets/img-3461-0912201010_thumb.jpg",
+    "badge": "Moldmax měď"
+  },
+  {
+    "id": "vlozky-amcoloy",
+    "title": "Tvarové vložky tvárníků z materiálu Amcoloy",
+    "category": "formy-vlozky",
+    "category_name": "Formy & Tvarové vložky",
+    "perex": "Speciální tvarové vložky z hliníkového bronzu Amcoloy s vynikajícími kluznými vlastnostmi a odolností proti zadření.",
+    "material": "Speciální slitina Amcoloy (Al-bronz)",
+    "params": {
+      "Vlastnosti materiálu": "Vysoká tvrdost, nulová náchylnost k zadírání proti oceli",
+      "Využití ve formách": "Kluzné lišty, šikmé kolíky, tvárníky a tvarové vložky",
+      "Obrábění": "Pětiosé frézování komplexních 3D ploch nástroji s proměnlivou šroubovicí"
+    },
+    "image": "assets/img-4764-1005095024.jpg",
+    "thumb": "assets/img-4764-1005095024_thumb.jpg",
+    "badge": "Amcoloy vložky"
+  },
+  {
+    "id": "modifikace-opravy-forem",
+    "title": "Opravy, úpravy a modifikace částí forem",
+    "category": "formy-vlozky",
+    "category_name": "Formy & Tvarové vložky",
+    "perex": "Rychlé úpravy stávajících vstřikovacích i vyfukovacích forem při konstrukčních změnách výlisků nebo renovace opotřebených ploch.",
+    "material": "Kalené nástrojové oceli, navařené partie",
+    "params": {
+      "Rozsah prací": "Dofrézování nových tvarů, úprava vyhazovačů, lícování vložek",
+      "Rychlost zásahu": "Minimalizace odstávek v sériové výrobě zákazníka",
+      "Podpora": "CAD kontrola vůči revidovaným 3D modelům"
+    },
+    "image": "assets/img-3541-0912201510.jpg",
+    "thumb": "assets/img-3541-0912201510_thumb.jpg",
+    "badge": "Servis forem"
+  },
+  {
+    "id": "pripravky-dokoncovaci",
+    "title": "Dokončovací a zakládací přípravky",
+    "category": "formy-vlozky",
+    "category_name": "Formy & Tvarové vložky",
+    "perex": "Výroba tvarových kopyt, usazovacích lůžek a montážních přípravků pro ořezávání a montáž plastových dílců po vyjmutí z formy.",
+    "material": "Konstrukční dural, silon (PA6), teflon (PTFE), texgumoid",
+    "params": {
+      "Konstrukce": "Přesné kopírování negativního tvaru plastového výlisku",
+      "Ochrana povrchu": "Eliminace poškrábání pohledových plastových částí",
+      "Výbava": "Integrované pneumatické či mechanické upínání"
+    },
+    "image": "assets/obr4-0912205140.jpg",
+    "thumb": "assets/obr4-0912205140_thumb.jpg",
+    "badge": "Montážní přípravky"
+  },
+  {
+    "id": "elektrody-edm",
+    "title": "Elektrody pro elektroerozivní hloubení EDM",
+    "category": "prototypy-edm",
+    "category_name": "Prototypy & EDM",
+    "perex": "Návrh a 5-osé frézování tvarových elektrod z elektrolytické mědi a jemnozrnného grafitu pro elektroerozivní hloubicí stroje.",
+    "material": "Elektrolytická měď Cu-ETP, izostatický grafit",
+    "params": {
+      "Příprava modelů": "Generování podsazení elektrod (spark gap) v systému Delcam",
+      "Přesnost tvaru": "Frézování rádiusů od R 0,2 mm na Hermle B 300 s 15 000 ot/min",
+      "Upínání": "Kompatibilní se systémem Erowa / 3R",
+      "Aplikace": "Hloubení hlubokých žeber, ostrých rohů a vnitřních nápisů forem"
+    },
+    "image": "assets/img-4403-0912102938.jpg",
+    "thumb": "assets/img-4403-0912102938_thumb.jpg",
+    "badge": "EDM Elektrody"
+  },
+  {
+    "id": "prototypove-dily-auto",
+    "title": "Prototypové díly pro Automotive a Design",
+    "category": "prototypy-edm",
+    "category_name": "Prototypy & EDM",
+    "perex": "Kusová a malosériová výroba funkčních prototypů pro testování zástavby, aerodynamiky a mechanického namáhání před spuštěním sériové výroby.",
+    "material": "Letecký dural 7075, slitiny hořčíku, nerez, technické plasty, umělé dřevo Ebalta",
+    "params": {
+      "Typy součástí": "Ramena náprav, těhlice, konzoly, držáky motoru, prototypové kryty",
+      "Technologie": "Plynulé pětiosé frézování z jednoho ustavení bez nutnosti složitých přípravků",
+      "Povrchová úprava": "Možnost barevného či tvrdého eloxu, pískování, leštění",
+      "Rychlost dodání": "Expresní prototypování dle 3D CAD dat zákazníka"
+    },
+    "image": "assets/proto01-0912123659.jpg",
+    "thumb": "assets/proto01-0912123659_thumb.jpg",
+    "badge": "Automotive prototypy"
+  },
+  {
+    "id": "kulisy-skrine-dural",
+    "title": "Kulisy řazení a skříně diferenciálů",
+    "category": "prototypy-edm",
+    "category_name": "Prototypy & EDM",
+    "perex": "Vysoce přesné díly převodových a pohonných mechanismů frézované z plného duralového nebo ocelového bloku pro motorsport.",
+    "material": "Dural EN AW-7075 / 6082, zušlechtěná legovaná ocel",
+    "params": {
+      "Složitost dílce": "Vícestranné 5-osé obrábění s tenkostěnnými přepážkami",
+      "Uložení ložisek": "Lícované otvory v toleranci H7 s měřením BLUM sondou",
+      "Hmotnostní optimalizace": "Odlehčovací kapsy s minimální tloušťkou stěny"
+    },
+    "image": "assets/img-9702-1309100253.jpg",
+    "thumb": "assets/img-9702-1309100253_thumb.jpg",
+    "badge": "Motorsport CNC"
+  },
+  {
+    "id": "rotacni-noze-special",
+    "title": "Rotační nože a funkční řezné nástroje",
+    "category": "prototypy-edm",
+    "category_name": "Prototypy & EDM",
+    "perex": "Výroba vysoce zatěžovaných rotačních průmyslových nožů pro dělení fólií, plastů a technických textilií.",
+    "material": "Vysokolegovaná nástrojová ocel (D2 / 1.2379), rychlořezná ocel HSS",
+    "params": {
+      "Tepelné zpracování": "Kalení a popouštění na 60–62 HRC",
+      "Broušení břitu": "Precizní ostří broušené s vysokou trvanlivostí",
+      "Vyvážení": "Statické a dynamické vyvážení pro vysoké provozní otáčky"
+    },
+    "image": "assets/img-4778-1006110410.jpg",
+    "thumb": "assets/img-4778-1006110410_thumb.jpg",
+    "badge": "Řezné nože"
+  },
+  {
+    "id": "zakazkove-dily-nerez",
+    "title": "Přesné díly z nerezové oceli a titanu",
+    "category": "prototypy-edm",
+    "category_name": "Prototypy & EDM",
+    "perex": "Frézování a soustružení korozivzdorných komponent pro potravinářský průmysl, laboratorní aparatury a optiku.",
+    "material": "Nerezová ocel AISI 304, AISI 316L, AISI 316Ti",
+    "params": {
+      "Kvalita povrchu": "Frézováno bez stop po nástroji, leštěno na zrcadlový lesk",
+      "Díly": "Štěrbiny, clony, příruby sání, kryty a speciální ventily",
+      "Čistota zpracování": "Obrábění v odděleném režimu bez kontaminace železnými částicemi"
+    },
+    "image": "assets/img-4427-0912192337.jpg",
+    "thumb": "assets/img-4427-0912192337_thumb.jpg",
+    "badge": "Nerez & Titan"
+  },
+  {
+    "id": "strihani-lisovani-plechu",
+    "title": "Stříhání, ohýbání a tváření plechů",
+    "category": "zamecnicka-vyroba",
+    "category_name": "Zámečnická výroba & Tváření",
+    "perex": "Komplexní zpracování plechů: strojní nůžky, ruční ohýbačky a výstředníkový lis 25 t pro přesné skříňky a panely.",
+    "material": "Ocelové plechy 0,6 – 2,5 mm, nerezové plechy 0,6 – 1,5 mm",
+    "params": {
+      "Strojní nůžky": "Střih plechů do tloušťky 2,5 mm v délce 2 000 mm",
+      "Výstředníkový lis 25 t": "Prostřihování otvorů Ø 4–50 mm, drážkování, ohyby",
+      "Ruční ohýbačky": "Délka až 2 000 mm do tl. 2 mm (ocel) / 1,2 mm (nerez)",
+      "Stáčečka plechu": "Stáčení trub a plášťů od poloměru R 50 mm"
+    },
+    "image": "assets/img-4505-1003181521.jpg",
+    "thumb": "assets/img-4505-1003181521_thumb.jpg",
+    "badge": "Tváření plechů"
+  },
+  {
+    "id": "kondenzatorove-navarovani",
+    "title": "Kondenzátorové navařování hrotovým zážehem",
+    "category": "zamecnicka-vyroba",
+    "category_name": "Zámečnická výroba & Tváření",
+    "perex": "Bleskové navařování svorníků a čepů bez poškození lícové strany plechu. Možnost realizace přímo u zákazníka.",
+    "material": "Ocelové, nerezové a hliníkové plechy",
+    "params": {
+      "Závitové šrouby": "M3 až M8 (nerez, poměděná ocel)",
+      "Hladké čepy": "Průměry Ø 3 až 8 mm",
+      "Závitová pouzdra": "Vnitřní závit M3 až M6",
+      "Zemnicí prvky": "Zemnicí fastony pro elektrotechnické skříně",
+      "Výhoda": "Čistý spoj bez propálení pohledové strany tenkého plechu"
+    },
+    "image": "assets/img-4475-0912082115.jpg",
+    "thumb": "assets/img-4475-0912082115_thumb.jpg",
+    "badge": "Hrotový zážeh"
+  },
+  {
+    "id": "svarovani-co2-tig",
+    "title": "Svařování CO2 (MIG/MAG), TIG a bodové svařování",
+    "category": "zamecnicka-vyroba",
+    "category_name": "Zámečnická výroba & Tváření",
+    "perex": "Certifikované svařovací práce ocelových a nerezových konstrukcí elektrickým obloukem, v ochranné atmosféře a odporovým bodováním.",
+    "material": "Uhlíkové oceli, korozivzdorné nerez oceli, slitiny hliníku",
+    "params": {
+      "Metoda MIG/MAG": "Svařování v ochranné atmosféře CO2 a směsných plynů Ar+CO2",
+      "Metoda TIG / WIG": "Vysoce estetické a těsné sváry tenkostěnných nerezových dílů",
+      "Odporové svařování": "Bodové spojování plechových výlisků bez přídavného materiálu",
+      "Kontrola": "Vizuální a kapilární zkoušky těsnosti svarových spojů"
+    },
+    "image": "assets/img-4459-0912085502.jpg",
+    "thumb": "assets/img-4459-0912085502_thumb.jpg",
+    "badge": "MIG/MAG & TIG"
+  },
+  {
+    "id": "rozvadece-turnikety",
+    "title": "Výroba rozvaděčových skříní a turniketových stojanů",
+    "category": "zamecnicka-vyroba",
+    "category_name": "Zámečnická výroba & Tváření",
+    "perex": "Kompletní výroba plechových skříní, turniketů a antivandalských kamerových krytů včetně povrchových úprav.",
+    "material": "Pozinkovaný plech, nerez, ocel s komaxitem",
+    "params": {
+      "Sortiment": "Rozvaděče, turnikety, skříňky pro elektrotechniku, kamerové držáky",
+      "Povrchové úpravy": "Práškový lak (komaxit), galvanický/žárový zinek, elox, tryskání",
+      "Kompletace": "Osazení panty, zámky, těsněním a montážním příslušenstvím"
+    },
+    "image": "assets/img-4407-0912104539.jpg",
+    "thumb": "assets/img-4407-0912104539_thumb.jpg",
+    "badge": "Finální celky"
+  },
+  {
+    "id": "technicke-plasty-ebalta",
+    "title": "Obrábění technických plastů a pryskyřic Ebalta",
+    "category": "prototypy-edm",
+    "category_name": "Prototypy & EDM",
+    "perex": "Přesné frézování a soustružení konstrukčních polymerů, blokových materiálů a syntetického dřeva pro modelárny.",
+    "material": "POM-C (polyacetal), PA6 (silon), PTFE (teflon), texgumoid, pryskyřice Ebalta",
+    "params": {
+      "Vlastnosti": "Obrábění za sucha i s chlazením bez deformace vlivem tepla",
+      "Přesnost": "Dodržení úzkých tolerancí i na elastických materiálech",
+      "Použití": "Izolační desky, kluzná vedení, kanystry, makety a modely"
+    },
+    "image": "assets/dil32-0912191708.jpg",
+    "thumb": "assets/dil32-0912191708_thumb.jpg",
+    "badge": "Plasty & Ebalta"
+  }
+]

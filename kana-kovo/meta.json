@@ -1,0 +1,35 @@
+{
+  "slug": "kana-kovo",
+  "firma": "Kana - kovo s.r.o.",
+  "ico": "46901981",
+  "obec": "Spytihněv",
+  "okres": "Zlín",
+  "kraj": "Zlínský kraj",
+  "obor_plny": "Přesné 5-osé CNC obrábění, vstřikovací formy a zakázková kovovýroba",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://kana-kovo.cz",
+  "email": "info@kana-kovo.cz",
+  "prodejni_body": [
+    "✓ Kontinuální 5-osé vertikální centrum HERMLE B 300 s Heidenhain iTNC 530",
+    "✓ Indukční tepelné upínání nástrojů BILZ Thermo Grip pro vysokorychlostní HSM obrábění",
+    "✓ Výroba tvarových dílů vstřikovacích forem, elektrod EDM a prototypů od roku 1991"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez SSL certifikátu (varování prohlížeče)",
+    "Chybějící mobilní responzivita (nutnost horizontálního posouvání a zvětšování)",
+    "Zastaralé kódování windows-1250 a archaický tabulkový layout"
+  ],
+  "vylepseni_noveho_webu": [
+    "Plně responzivní architektura s plynulým zobrazením na telefonech i PC",
+    "Interaktivní katalog strojního parku a výrobních programů s technickými modály",
+    "Přesná geolokace areálu s Mapy.cz špendlíkem a přímým kontaktem na technology"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1991,
+    "pocet_stroju": "24+",
+    "adresa": "č.p. 584, 763 64 Spytihněv"
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

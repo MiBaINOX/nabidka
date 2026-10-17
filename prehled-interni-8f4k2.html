@@ -107,7 +107,7 @@
             <div class="filters-group">
                 <select id="districtFilter" class="filter-select" onchange="applyFilters()">
                     <option value="all">Všechny okresy</option>
-                    <option value="Beroun">Beroun</option><option value="Blansko">Blansko</option><option value="Brno-město">Brno-město</option><option value="Brno-venkov">Brno-venkov</option><option value="Břeclav">Břeclav</option><option value="Frýdek-Místek">Frýdek-Místek</option><option value="Hlavní město Praha">Hlavní město Praha</option><option value="Hodonín">Hodonín</option><option value="Jihlava">Jihlava</option><option value="Olomouc">Olomouc</option><option value="Praha">Praha</option><option value="Prostějov">Prostějov</option><option value="Přerov">Přerov</option><option value="Uherské Hradiště">Uherské Hradiště</option><option value="Vyškov">Vyškov</option><option value="Znojmo">Znojmo</option><option value="Šumperk">Šumperk</option>
+                    <option value="Beroun">Beroun</option><option value="Blansko">Blansko</option><option value="Brno-město">Brno-město</option><option value="Brno-venkov">Brno-venkov</option><option value="Břeclav">Břeclav</option><option value="Frýdek-Místek">Frýdek-Místek</option><option value="Hlavní město Praha">Hlavní město Praha</option><option value="Hodonín">Hodonín</option><option value="Jihlava">Jihlava</option><option value="Olomouc">Olomouc</option><option value="Praha">Praha</option><option value="Prostějov">Prostějov</option><option value="Přerov">Přerov</option><option value="Uherské Hradiště">Uherské Hradiště</option><option value="Vyškov">Vyškov</option><option value="Zlín">Zlín</option><option value="Znojmo">Znojmo</option><option value="Šumperk">Šumperk</option>
                 </select>
                 <select id="statusFilter" class="filter-select" onchange="applyFilters()">
                     <option value="all">Všechny stavy</option>
@@ -117,7 +117,7 @@
                     <option value="Zájem">🔥 Zájem</option>
                     <option value="Odmítnuto">❌ Odmítnuto</option>
                 </select>
-                <div class="stats-counter" id="statsCounter">79 firem</div>
+                <div class="stats-counter" id="statsCounter">82 firem</div>
             </div>
         </div>
 
@@ -6833,6 +6833,261 @@ Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného k
 obracím se na Vás přímo jako na vedení společnosti ohledně webových stránek stavbros.cz.
 
 Živá ukázka nového webu: https://mibainox.github.io/nabidka/stavbros/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="05396883" data-okres="Břeclav" data-kraj="Jihomoravský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_lakovna-ladna">
+                <img class="img-preview img-new" src="lakovna-ladna/screenshots/screen_desktop.jpg" alt="Lakovna Ladná s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="lakovna-ladna/screenshots/screen_old.jpg" alt="Lakovna Ladná s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('lakovna-ladna', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('lakovna-ladna', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Průmyslové povrchové úpravy, nezávislé inspekce PKO a laboratorní zkoušky povlaků</span>
+                    <span class="card-ico">IČO: 05396883</span>
+                </div>
+                <h2 class="card-title">Lakovna Ladná s.r.o.</h2>
+                <div class="card-meta">📍 Břeclav (Jihomoravský kraj) • ✉️ vala@lakovna.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Antonín Malinkovič (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>Nezávislý dozor a inspekce PKO certifikovaným personálem FROSIO, ČNS a AKI</span><span>Kompletní laboratorní zkoušky povlaků dle norem ČSN EN ISO (odtrhové, mřížkové, rázové, pórovitost)</span><span>Specializace na duplexní systémy (žárový zinek + nátěr) s prodloužením životnosti až 2,5×</span>
+                </div>
+                <div class="card-visit-stat" id="stat_lakovna-ladna" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('05396883', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="lakovna-ladna/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://lakovna.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_lakovna-ladna.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('05396883', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('05396883', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('05396883', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_05396883" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Návrh modernizace webové prezentace a technický audit – Lakovna Ladná s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">vala@lakovna.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_lakovna-ladna.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('05396883', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Malinkoviči,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky lakovna.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/lakovna-ladna/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</div>
+                </div>
+                <textarea id="email_text_05396883" style="display:none;">Vážený pane Malinkoviči,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky lakovna.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/lakovna-ladna/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</textarea>
+                <input type="hidden" id="email_to_05396883" value="vala@lakovna.cz">
+                <input type="hidden" id="email_sub_05396883" value="Návrh modernizace webové prezentace a technický audit – Lakovna Ladná s.r.o.">
+                <input type="hidden" id="email_teaser_05396883" value="Vážený pane Malinkoviči,
+obracím se na Vás přímo jako na vedení společnosti ohledně webových stránek lakovna.cz.
+
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/lakovna-ladna/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="26284961" data-okres="Zlín" data-kraj="Zlínský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_balplast">
+                <img class="img-preview img-new" src="balplast/screenshots/screen_desktop.jpg" alt="BALPLAST s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="balplast/screenshots/screen_old.jpg" alt="BALPLAST s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('balplast', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('balplast', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Výroba plastů & Obalové materiály / Výrobce polyetylenových fólií z LDPE (hadice, polohadice, ploché fólie), parotěsné stavební fólie, bublinkové a stretch fólie, průmyslové LDPE pytle, sáčky a překrývací plachty pro stavebnictví a průmysl</span>
+                    <span class="card-ico">IČO: 26284961</span>
+                </div>
+                <h2 class="card-title">BALPLAST s.r.o.</h2>
+                <div class="card-meta">📍 Zlín (Zlínský kraj) • ✉️ info@balplast.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Radek Skapálek (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>Kompletní technická digitalizace výrobního programu polyetylenových fólií (hadice, polohadice, smršťovací fólie) s garantovanou tloušťkou 30–200 µm</span><span>Přehledná prezentace certifikované stavební parotěsné fólie a systému managementu jakosti dle ČSN EN ISO 9001:2001</span><span>Interaktivní technický katalog LDPE materiálů s živým vyhledáváním a modálním oknem pro specifikaci šíří (až 6 000 mm), smrštitelnosti a aditiv</span>
+                </div>
+                <div class="card-visit-stat" id="stat_balplast" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('26284961', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="balplast/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://balplast.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_balplast.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('26284961', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('26284961', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('26284961', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_26284961" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Návrh modernizace webové prezentace a technický audit – BALPLAST s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">info@balplast.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_balplast.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('26284961', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Skapálku,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky balplast.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/balplast/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</div>
+                </div>
+                <textarea id="email_text_26284961" style="display:none;">Vážený pane Skapálku,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky balplast.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/balplast/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</textarea>
+                <input type="hidden" id="email_to_26284961" value="info@balplast.cz">
+                <input type="hidden" id="email_sub_26284961" value="Návrh modernizace webové prezentace a technický audit – BALPLAST s.r.o.">
+                <input type="hidden" id="email_teaser_26284961" value="Vážený pane Skapálku,
+obracím se na Vás přímo jako na vedení společnosti ohledně webových stránek balplast.cz.
+
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/balplast/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="46901981" data-okres="Zlín" data-kraj="Zlínský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_kana-kovo">
+                <img class="img-preview img-new" src="kana-kovo/screenshots/screen_desktop.jpg" alt="Kana - kovo s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="kana-kovo/screenshots/screen_old.jpg" alt="Kana - kovo s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('kana-kovo', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('kana-kovo', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Přesné 5-osé CNC obrábění, vstřikovací formy a zakázková kovovýroba</span>
+                    <span class="card-ico">IČO: 46901981</span>
+                </div>
+                <h2 class="card-title">Kana - kovo s.r.o.</h2>
+                <div class="card-meta">📍 Zlín (Zlínský kraj) • ✉️ info@kana-kovo.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Otakar Kvapil (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>✓ Kontinuální 5-osé vertikální centrum HERMLE B 300 s Heidenhain iTNC 530</span><span>✓ Indukční tepelné upínání nástrojů BILZ Thermo Grip pro vysokorychlostní HSM obrábění</span><span>✓ Výroba tvarových dílů vstřikovacích forem, elektrod EDM a prototypů od roku 1991</span>
+                </div>
+                <div class="card-visit-stat" id="stat_kana-kovo" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('46901981', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="kana-kovo/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://kana-kovo.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_kana-kovo.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('46901981', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('46901981', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('46901981', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_46901981" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Návrh modernizace webové prezentace a technický audit – Kana - kovo s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">info@kana-kovo.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_kana-kovo.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('46901981', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Kvapile,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky kana-kovo.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/kana-kovo/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</div>
+                </div>
+                <textarea id="email_text_46901981" style="display:none;">Vážený pane Kvapile,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky kana-kovo.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/kana-kovo/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</textarea>
+                <input type="hidden" id="email_to_46901981" value="info@kana-kovo.cz">
+                <input type="hidden" id="email_sub_46901981" value="Návrh modernizace webové prezentace a technický audit – Kana - kovo s.r.o.">
+                <input type="hidden" id="email_teaser_46901981" value="Vážený pane Kvapile,
+obracím se na Vás přímo jako na vedení společnosti ohledně webových stránek kana-kovo.cz.
+
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/kana-kovo/?ref=nabidka
 
 (Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
             </div>

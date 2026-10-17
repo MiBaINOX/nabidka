@@ -1,0 +1,49 @@
+{
+  "slug": "balplast",
+  "firma": "BALPLAST s.r.o.",
+  "ico": "26284961",
+  "dic": "CZ26284961",
+  "obec": "Napajedla",
+  "okres": "Zlín",
+  "kraj": "Zlínský kraj",
+  "obor_plny": "Výroba plastů & Obalové materiály / Výrobce polyetylenových fólií z LDPE (hadice, polohadice, ploché fólie), parotěsné stavební fólie, bublinkové a stretch fólie, průmyslové LDPE pytle, sáčky a překrývací plachty pro stavebnictví a průmysl",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://balplast.cz",
+  "email": "info@balplast.cz",
+  "telefon": "+420 572 543 694",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Kompletní technická digitalizace výrobního programu polyetylenových fólií (hadice, polohadice, smršťovací fólie) s garantovanou tloušťkou 30–200 µm",
+    "Přehledná prezentace certifikované stavební parotěsné fólie a systému managementu jakosti dle ČSN EN ISO 9001:2001",
+    "Interaktivní technický katalog LDPE materiálů s živým vyhledáváním a modálním oknem pro specifikaci šíří (až 6 000 mm), smrštitelnosti a aditiv",
+    "Ověřená kontaktní transparentnost: fakturační sídlo v Napajedlech, expediční sklad Staré Město a přímé spojení na vedení společnosti",
+    "100% responzivní mobilní zobrazení s Mapy.cz widgetem a přesným RÚIAN špendlíkem"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez platného SSL/TLS šifrovacího certifikátu",
+    "Absence značky meta viewport – fixní šířka 757 px vyžadující horizontální posun a zoomování na mobilních telefonech",
+    "Zastaralé kódování a statický layout z roku 2003 s rozpadající se diakritikou v moderních prohlížečích",
+    "Nefunkční sekce e-shopu a katalogu produktů (ve stavu 've výstavbě' více než 15 let)",
+    "Chybějící interaktivní mapa sídla a nepřehledné rozdělení kontaktů mezi Napajedla a Staré Město"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Tech & Precision s čistou technickou paletou, precizními linkami a přepínacími záložkami výrobních kategorií",
+    "Interaktivní katalog fólií s živým filtrem, vyhledáváním a detailním modálním oknem (#techModalBackdrop)",
+    "Dynamický poptávkový formulář s předvýběrem typu materiálu a ověřenou responzivitou",
+    "Přesný Mapy.cz widget s červeným špendlíkem dle katastrálních souřadnic RÚIAN pro Napajedla",
+    "Připravenost pro zahraniční trhy s exportním potenciálem na Slovensko a do DACH regionu",
+    "0px horizontální přetečení a špičková rychlost načítání bez zbytečných závislostí"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2002,
+    "zkusenosti_let": 24,
+    "sidlo": "Kollárova 34, 763 61 Napajedla",
+    "sklad": "Areál firmy Zevos, 686 03 Staré Město",
+    "certifikace": "ČSN EN ISO 9001:2001",
+    "vedeni": "Luděk Červenka (+420 777 612 722), Jiří Jurásek (+420 777 077 323)",
+    "sortiment": "LDPE hadice a polohadice, ploché fólie, parotěsné fólie, bublinkové fólie, stretch fólie, LDPE pytle a sáčky, lepicí pásky",
+    "pocet_polozek_katalogu": 8
+  }
+}
