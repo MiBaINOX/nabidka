@@ -1,0 +1,507 @@
+[
+  {
+    "id": "vnitrni-box-classic",
+    "category": "boxy-vnitrni",
+    "category_name": "Vnitřní boxy pro koně",
+    "name": "Vnitřní box pro koně – Model Classic",
+    "short_desc": "Standardní rozebíratelný vnitřní box pro ustájení koní v již postavených objektech.",
+    "image": "assets/1.jpg",
+    "cad_image": "assets/1.png",
+    "specs": {
+      "Šířka": "3,5 m",
+      "Délka": "3,5 m",
+      "Výška": "2,2 m",
+      "Užitná plocha": "12,25 m²",
+      "Konstrukce": "Masivní ocelová, plně rozebíratelná",
+      "Antikorozní úprava": "Žárové zinkování",
+      "Výplň stěn": "Dřevěné fošny (pero-drážka)",
+      "Dveře": "Posuvné křídlo s bezpečným zámkem"
+    },
+    "features": [
+      "Plně rozebíratelná konstrukce vhodná pro montáž do stávající stáje",
+      "Žárově zinkovaná ocel odolná vůči agresivnímu stájovému prostředí",
+      "Kvalitní dřevěná výplň s možností rychlé výměny jednotlivých fošen",
+      "Rozměry i dispoziční řešení lze upravit dle přání zákazníka"
+    ],
+    "description": "Vnitřní box pro koně model Classic představuje osvědčený základ stájového programu METAL RYSPOL. Je zhotoven z masivních ocelových profilů s žárovým zinkováním, které spolehlivě odolává vlhkosti a čpavku ve stáji. Dřevěná výplň zajišťuje tepelný komfort i akustickou pohodu zvířat."
+  },
+  {
+    "id": "vnitrni-box-amsterdam",
+    "category": "boxy-vnitrni",
+    "category_name": "Vnitřní boxy pro koně",
+    "name": "Vnitřní box pro koně – Model Amsterdam",
+    "short_desc": "Elegantní stájový box s jemným mřížováním a otočnou krmnou klapkou.",
+    "image": "assets/2.jpg",
+    "cad_image": "assets/2.png",
+    "specs": {
+      "Šířka": "3,5 m",
+      "Délka": "3,5 m",
+      "Výška": "2,2 m",
+      "Užitná plocha": "12,25 m²",
+      "Konstrukce": "Svařovaný ocelový rám, rozebíratelný",
+      "Antikorozní úprava": "Žárové zinkování",
+      "Výplň": "Hoblované masivní dřevo",
+      "Prvky výbavy": "Otočná krmná klapka, mřížová horní část"
+    },
+    "features": [
+      "Integrovaná otočná krmná klapka pro bezpečné krmení z uličky",
+      "Optimální rozteč svislých mříží zabraňující zaklínění kopyta",
+      "Dlouhá životnost díky certifikovanému žárovému zinku",
+      "Možnost volby dřeviny (modřín, borovice, dub)"
+    ],
+    "description": "Model Amsterdam kombinuje tradiční stájovou architekturu s moderními bezpečnostními prvky. Horní mřížová část poskytuje koni přirozený výhled do uličky, zatímco spodní plné dřevěné bednění chrání před průvanem."
+  },
+  {
+    "id": "vnitrni-box-madrid",
+    "category": "boxy-vnitrni",
+    "category_name": "Vnitřní boxy pro koně",
+    "name": "Vnitřní box pro koně – Model Madrid",
+    "short_desc": "Zesílený vnitřní box s obloukovým horním profilem pro reprezentativní stáje a chovné hřebce.",
+    "image": "assets/3.jpg",
+    "cad_image": "assets/3.png",
+    "specs": {
+      "Šířka": "3,5 m",
+      "Délka": "3,5 m",
+      "Výška": "2,2 m",
+      "Užitná plocha": "12,25 m²",
+      "Konstrukce": "Zesílená ocel s dekorativním obloukem",
+      "Antikorozní úprava": "Žárový zinek / možnost komaxitu",
+      "Výplň": "Tvrdé masivní dřevěné fošny",
+      "Bezpečnost": "Zapuštěné kování bez ostrých hran"
+    },
+    "features": [
+      "Reprezentativní obloukový design čelní stěny",
+      "Mimořádná tuhost konstrukce vhodná pro temperamentní koně",
+      "Snadná montáž na zpevněný stájový podklad",
+      "Variabilní umístění dveří a krmného žlabu"
+    ],
+    "description": "Model Madrid je určen pro chovatele, kteří kladou důraz na špičkovou estetiku a maximální pevnost. Obloukové linie čelních stěn dodávají stájím vzdušný a honosný vzhled při zachování absolutní stability."
+  },
+  {
+    "id": "vnitrni-box-paris",
+    "category": "boxy-vnitrni",
+    "category_name": "Vnitřní boxy pro koně",
+    "name": "Vnitřní box pro koně – Model Paris",
+    "short_desc": "Francouzský styl s nízkou čelní stěnou pro maximální kontakt zvířete s ošetřovatelem.",
+    "image": "assets/4.jpg",
+    "cad_image": "assets/4.png",
+    "specs": {
+      "Šířka": "3,5 m",
+      "Délka": "3,5 m",
+      "Výška": "2,2 m (snížené čelo)",
+      "Užitná plocha": "12,25 m²",
+      "Konstrukce": "Ocelová konstrukce s otevřenou čelní sekcí",
+      "Antikorozní úprava": "Žárové zinkování",
+      "Výplň": "Hoblované pero-drážkové dřevo",
+      "Dveře": "Křídlové nebo posuvné s pojistkou"
+    },
+    "features": [
+      "Otevřená čelní partie umožňující koni přirozený kontakt s okolím",
+      "Pevné sloupky s kotvením do podlahy i obvodového zdiva",
+      "Bezpečné uzamykání ovladatelné jednou rukou",
+      "Výroba na míru dle rozměrů stávající budovy"
+    ],
+    "description": "Model Paris podporuje přirozenou zvědavost a pohodu koní díky otevřenému hornímu průhledu. Vhodný zejména pro sportovní a rekreační koně vyžadující stálý vizuální kontakt s děním ve stáji."
+  },
+  {
+    "id": "vnitrni-box-london",
+    "category": "boxy-vnitrni",
+    "category_name": "Vnitřní boxy pro koně",
+    "name": "Vnitřní box pro koně – Model London",
+    "short_desc": "Klasický britský stájový profil s robustním vodorovným rámem a posuvnými dveřmi.",
+    "image": "assets/5.jpg",
+    "cad_image": "assets/5.png",
+    "specs": {
+      "Šířka": "3,5 m",
+      "Délka": "3,5 m",
+      "Výška": "2,2 m",
+      "Užitná plocha": "12,25 m²",
+      "Konstrukce": "Jakový ocelový profil 50×50 mm",
+      "Antikorozní úprava": "Žárový zinek ČSN EN ISO 1461",
+      "Výplň": "Tlakově ošetřené dřevěné profily",
+      "Dveřní pojezd": "Kuličková ložiska s tichým chodem"
+    },
+    "features": [
+      "Tichý a spolehlivý pojezdový systém horního zavěšení dveří",
+      "Hladké vedení bez spodní vodicí lišty pro snadné vyklízení mrvy",
+      "Vysoká mechanická odolnost proti okopu",
+      "Vyrobeno ze silnostěnných českých ocelových profilů"
+    ],
+    "description": "Stájový box model London vyniká čistou funkčností a minimálními nároky na údržbu. Horní ložiskové zavěšení dveří zajišťuje hladký pojezd i při usazování stájového prachu a podestýlky."
+  },
+  {
+    "id": "vnitrni-box-hannover",
+    "category": "boxy-vnitrni",
+    "category_name": "Vnitřní boxy pro koně",
+    "name": "Vnitřní box pro koně – Model Hannover",
+    "short_desc": "Německý standard bezpečnosti se zvýšenou mřížovou stěnou pro chovné stanice.",
+    "image": "assets/6.jpg",
+    "cad_image": "assets/6.png",
+    "specs": {
+      "Šířka": "3,5 m",
+      "Délka": "3,5 m",
+      "Výška": "2,2 m",
+      "Užitná plocha": "12,25 m²",
+      "Konstrukce": "Zesílená ocel, husté mřížování",
+      "Antikorozní úprava": "Žárové zinkování",
+      "Výplň": "Vysoce odolné tvrdé dřevo",
+      "Větrání": "Štěrbinové větrání pod podlahovým prahem"
+    },
+    "features": [
+      "Husté svislé mřížování chránící sousedící koně před kontaktem",
+      "Zesílené sloupky eliminující jakékoliv vibrace a hluk",
+      "Antikorozní zinkování zaručující desetiletí provozu bez rzi",
+      "Možnost zabudování napáječky s ochranným krytem"
+    ],
+    "description": "Model Hannover splňuje přísné požadavky na bezpečnost a ochranu koní v intenzivních chovných a jezdeckých areálech. Masivní mřížování zajišťuje dostatečnou cirkulaci čerstvého vzduchu."
+  },
+  {
+    "id": "vnitrni-box-berlin",
+    "category": "boxy-vnitrni",
+    "category_name": "Vnitřní boxy pro koně",
+    "name": "Vnitřní box pro koně – Model Berlin",
+    "short_desc": "Moderní industriální design s rovnou čelní linií a integrovanou servisní brankou.",
+    "image": "assets/7.jpg",
+    "cad_image": "assets/7.png",
+    "specs": {
+      "Šířka": "3,5 m",
+      "Délka": "3,5 m",
+      "Výška": "2,2 m",
+      "Užitná plocha": "12,25 m²",
+      "Konstrukce": "Robustní ocelový rám s příčnou výztuhou",
+      "Antikorozní úprava": "Žárové zinkování",
+      "Výplň": "Dřevěné desky 40 mm",
+      "Doplňky": "Držák na sedlo, uzdečku a liz"
+    },
+    "features": [
+      "Kompaktní geometrie šetřící prostor stájové chodby",
+      "Možnost vyklopení celé čelní stěny pro strojní vyklízení traktorem",
+      "Pevné spojovací prvky z nerezové a pozinkované oceli",
+      "100% česká zakázková výroba ve Tvrdonicích"
+    ],
+    "description": "Vnitřní box Berlin představuje ideální řešení pro stáje s možností mechanizovaného čištění. Otevíratelné či otočné čelní stěny výrazně urychlují každodenní obsluhu a manipulaci se zvířaty."
+  },
+  {
+    "id": "vnitrni-box-individual",
+    "category": "boxy-vnitrni",
+    "category_name": "Vnitřní boxy pro koně",
+    "name": "Individuální vnitřní box pro koně na míru",
+    "short_desc": "Zakázkové provedení stájového boxu dle specifických rozměrů a požadavků klienta.",
+    "image": "assets/8.png",
+    "cad_image": "assets/9.png",
+    "specs": {
+      "Šířka": "Dle zaměření (např. 3 až 6 m)",
+      "Délka": "Dle dispozice stavby",
+      "Výška": "Libovolná dle světlosti objektu",
+      "Materiál rámu": "Ocelové profily dle statického výpočtu",
+      "Úprava": "Žárový zinek / Komaxit / Nátěr",
+      "Dveře": "Posuvné, křídlové, skládací",
+      "Výplně": "Dřevo (borovice, dub, modřín) / Plastové recykláty"
+    },
+    "features": [
+      "Přesné zaměření na místě u zákazníka a 3D konstrukční návrh",
+      "Řešení atypických úhlů, sloupů, klenbových stájí a historických objektů",
+      "Kombinace dřeva, kovu a bezpečnostního skla dle architektury",
+      "Kompletní dodávka včetně montáže našimi zámečníky"
+    ],
+    "description": "Pokud vaše stáj neodpovídá typizovaným rozměrům, vyrobíme pro vás vnitřní boxy přesně na centimetr. Přizpůsobíme se nosným sloupům, klenebním obloukům i specifickým nárokům na chov pony či velkých plemen."
+  },
+  {
+    "id": "venkovni-box-1kun",
+    "category": "boxy-venkovni",
+    "category_name": "Venkovní boxy pro koně",
+    "name": "Venkovní box pro jednoho koně",
+    "short_desc": "Samostatně stojící zateplený či nezateplený venkovní box s pultovou střechou.",
+    "image": "assets/1a.jpg",
+    "cad_image": "assets/box1.png",
+    "specs": {
+      "Šířka": "3,5 m",
+      "Délka": "3,5 m",
+      "Výška": "3,0 m",
+      "Plocha pro koně": "12,25 m²",
+      "Základ": "Zpevněná plocha (betonová deska / dlažba)",
+      "Střešní krytina": "Pozinkovaný trapézový plech s přesahem",
+      "Konstrukce": "Montovaná žárově zinkovaná ocel",
+      "Dveře": "Dělené stájové dveře (horní a spodní křídlo)"
+    },
+    "features": [
+      "Kompletně rozebíratelná stavba umožňující budoucí přemístění",
+      "Odolnost vůči povětrnostním vlivům, větru a sněhovému zatížení",
+      "Dělené dveře umožňující větrání horním křídlem",
+      "Ochrana dřeva proti okusu ocelovými lemovacími profily"
+    ],
+    "description": "Venkovní box pro jednoho koně je ideálním řešením pro individuální ustájení na pastvině či u rodinného domu. Nevyžaduje složité stavební povolení a díky rozebíratelné konstrukci jej lze kdykoliv přestěhovat."
+  },
+  {
+    "id": "venkovni-box-senik",
+    "category": "boxy-venkovni",
+    "category_name": "Venkovní boxy pro koně",
+    "name": "Venkovní box jednořadý se seníkem",
+    "short_desc": "Kombinovaný modul stájového boxu a krytého skladu sena a krmiva.",
+    "image": "assets/2a.jpg",
+    "cad_image": "assets/box2.png",
+    "specs": {
+      "Šířka": "10,5 m (celková fronta)",
+      "Délka": "3,5 m",
+      "Výška": "3,2 m",
+      "Plocha stání": "12,25 m² na box",
+      "Sklad sena": "Samostatný uzavíratelný či otevřený prostor",
+      "Konstrukce": "Ocelová konstrukce z jeklů, žárový zinek",
+      "Střecha": "Trapézový plech s antikondenzační vrstvou",
+      "Podlaha": "Montáž na beton / panely / obrubníky"
+    },
+    "features": [
+      "Krmivo a podestýlka chráněny před deštěm přímo u stání",
+      "Úspora času při každodenním krmení a péči o koně",
+      "Masivní zavětrování zajišťující stabilitu i v otevřené krajině",
+      "Možnost osazení okapovým systémem pro svod dešťové vody"
+    ],
+    "description": "Tato sestava spojuje obytný box pro koně s praktickým seníkem v jednom celistvém zastřešeném objektu. Chovatel má veškeré balíky sena, slámy a nářadí suché a po ruce bez nutnosti docházení do vzdálené stodoly."
+  },
+  {
+    "id": "venkovni-box-jednorady",
+    "category": "boxy-venkovni",
+    "category_name": "Venkovní boxy pro koně",
+    "name": "Venkovní box pro koně – Jednořadý",
+    "short_desc": "Víceboxová jednořadá stáj pro chovná centra a jízdárny s předním přesahem střechy.",
+    "image": "assets/3a.jpg",
+    "cad_image": "assets/box3.png",
+    "specs": {
+      "Šířka": "10,5 m (3 boxy vedle sebe)",
+      "Délka": "3,5 m",
+      "Výška": "3,8 m",
+      "Plocha na koně": "12,25 m² (celkem 36,75 m²)",
+      "Přesah střechy": "1,2 až 1,5 m přední kryté zápraží",
+      "Konstrukce": "Silnostěnná žárově zinkovaná ocel",
+      "Dělicí příčky": "Kombinace dřeva a horní bezpečnostní mříže",
+      "Kotvení": "Chemické kotvy do betonového pasu"
+    },
+    "features": [
+      "Modulární systém umožňující napojení dalších boxů do nekonečné řady",
+      "Krytý přední chodník chránící ošetřovatele i koně před deštěm",
+      "Vyjímatelné mezistěny pro vytvoření porodního boxu pro klisnu",
+      "Vysoká světlá výška zajišťující výborné klima bez přehřívání v létě"
+    ],
+    "description": "Jednořadá venkovní stáj METAL RYSPOL představuje standard profesionálních jezdeckých klubů. Přední přesah střechy vytváří kryté zápraží pro čištění koní a podávání krmiva i za nepříznivého počasí."
+  },
+  {
+    "id": "venkovni-box-rohovy",
+    "category": "boxy-venkovni",
+    "category_name": "Venkovní boxy pro koně",
+    "name": "Venkovní box pro koně – Rohový (L-profil)",
+    "short_desc": "Rohové uspořádání stájí pro optimální využití hospodářského dvora.",
+    "image": "assets/6.jpg",
+    "cad_image": "assets/box4.png",
+    "specs": {
+      "Šířka": "15 m",
+      "Délka": "14 m",
+      "Výška": "3,2 m",
+      "Dispozice": "L-tvar (rohové napojení boxů)",
+      "Kapacita": "4 až 6 koní + rohová sedlovna",
+      "Ochrana": "Žárově zinkovaná ocel dle norem ČÚZK / ARES",
+      "Výplně": "Borovicové nebo modřínové fošny",
+      "Odvodnění": "Kompletní okapový systém"
+    },
+    "features": [
+      "Chytré využití rohu pozemku s uzavřeným chráněným dvorkem",
+      "V rohovém segmentu vzniká ideální prostor pro teplou sedlovnu či sklad",
+      "Přirozené závětří vnitřního rohu chránící zvířata před větrem",
+      "Pevné spojovací úhly eliminující kroucení konstrukce"
+    ],
+    "description": "Rohová venkovní stáj METAL RYSPOL řeší nedostatek místa v areálu a vytváří přirozeně chráněný vnitřní prostor. V rohovém spoji lze zřídit uzamykatelnou sedlovnu, šatnu pro jezdce nebo krmírnu."
+  },
+  {
+    "id": "venkovni-box-dvourady",
+    "category": "boxy-venkovni",
+    "category_name": "Venkovní boxy pro koně",
+    "name": "Venkovní stáj dvouřadá s centrální uličkou",
+    "short_desc": "Plnohodnotná montovaná stájová budova se dvěma řadami boxů a krytou chodbou.",
+    "image": "assets/7.jpg",
+    "cad_image": "assets/box5.png",
+    "specs": {
+      "Šířka": "10,0 m",
+      "Délka": "10,5 m (nebo násobky 3,5 m)",
+      "Výška hřebene": "5,0 m",
+      "Centrální ulička": "Šířka 3,0 m pro průjezd traktoru a techniky",
+      "Kapacita modulu": "6 koní (3 + 3 boxy naproti sobě)",
+      "Vrata": "Dvoukřídlá posuvná vrata na obou čelech uličky",
+      "Střecha": "Sedlová se střešním hřebenovým světlíkem"
+    },
+    "features": [
+      "Kompletní stájový dům bez nutnosti zděné stavby",
+      "Široká středová ulička umožňující bezpečný pohyb i mechanizaci",
+      "Hřebenové odvětrání pro odvod stájových plynů a vlhka",
+      "Snadná montáž na betonové základové pásy či desku"
+    ],
+    "description": "Dvouřadá venkovní stáj představuje vrchol naší nabídky stájových technologií. Poskytuje veškeré pohodlí zděné stáje, avšak s rychlostí realizace v řádu týdnů a nesrovnatelně nižšími pořizovacími náklady."
+  },
+  {
+    "id": "venkovni-box-individual",
+    "category": "boxy-venkovni",
+    "category_name": "Venkovní boxy pro koně",
+    "name": "Individuální venkovní boxy a pastvinové přístřešky",
+    "short_desc": "Zakázkové venkovní stáje, otevřené pastvinové přístřešky a paddockové boxy.",
+    "image": "assets/8.jpg",
+    "cad_image": "assets/box6.png",
+    "specs": {
+      "Rozměry": "Dle projektu a požadavků chovu",
+      "Provedení": "Zcela otevřené, polouzavřené nebo boxové",
+      "Zastřešení": "Pultové, sedlové, obloukové",
+      "Zavětrování": "Zavětrovací ocelová táhla a kříže",
+      "Výplně": "Dřevo / plech / síťovina proti větru",
+      "Montáž": "Tvrdonice a celá ČR i SR / export Německo"
+    },
+    "features": [
+      "Volně přístupné pastvinové přístřešky pro celoroční volný odchov",
+      "Možnost vybudování přilehlých výběhů (paddocků) přímo z boxu",
+      "Dimenzování na extrémní sněhové i větrné oblasti",
+      "Dlouhá životnost bez nutnosti pravidelného natírání oceli"
+    ],
+    "description": "Pro chovatele vyznávající celoroční pastevní odchov vyrábíme otevřené přístřešky a individuální venkovní sestavy. Zvířata mají volný přístup k suchému krytému ležení a ochraně před hmyzem a deštěm."
+  },
+  {
+    "id": "paleni-plazmou-cnc",
+    "category": "kovovyroba",
+    "category_name": "Kovovýroba a technologie",
+    "name": "Tvarové dělení materiálu CNC plazmou",
+    "short_desc": "Přesné pálení plechů a výpalků řízené PC na automatu ES-320 v sílách 1 až 25 mm.",
+    "image": "assets/paleni-plazmou-uvodni.jpg",
+    "cad_image": "assets/plazma-mini.jpg",
+    "specs": {
+      "Pálící stroj": "Automat ES-320 s PC řízením",
+      "Pracovní šířka stolu": "1 500 mm",
+      "Pracovní délka stolu": "3 000 mm",
+      "Tloušťka materiálu": "1 – 25 mm",
+      "Dělené materiály": "Konstrukční ocel, nerez, hliník, mosaz",
+      "Přesnost řezu": "Dle normy ČSN EN ISO 9013",
+      "Stav dodávky": "Očištěné bez otřepů a zápalů"
+    },
+    "features": [
+      "Tradice tvarového pálení plazmou již od roku 1998",
+      "Dělení pravidelných geometrických tvarů i složitých atypických křivek",
+      "Výpalky dodáváme 100% očištěné a připravené k okamžité montáži či sváření",
+      "Zpracování výkresové dokumentace z formátů DXF, DWG i papírových předloh"
+    ],
+    "description": "Naše pracoviště CNC plazmového pálení je vybaveno automatem ES-320 s pracovní plochou 1500 × 3000 mm. Umožňuje rychlé a hospodárné řezání dílů pro strojírenství, stavební konstrukce a zemědělské stroje v sílách do 25 mm."
+  },
+  {
+    "id": "deleni-materialu-pily",
+    "category": "kovovyroba",
+    "category_name": "Kovovýroba a technologie",
+    "name": "Dělení materiálu profilového i plošného",
+    "short_desc": "Dělení tyčí, profilů a trubek do průměru ø 200 mm a střih plechů elektrickými nůžkami.",
+    "image": "assets/deleni-materialu-uvodni.jpg",
+    "cad_image": "assets/mini-pila.jpg",
+    "specs": {
+      "Max. průměr řezu": "ø 200 mm",
+      "Strojní vybavení": "Kotoučová pila s automatickým podavačem, pásové pily",
+      "Stříhání plechů": "Tabulové elektrické nůžky",
+      "Stříhání profilů": "Profilové elektrické nůžky",
+      "Dělený sortiment": "Jekly, nosníky I/U/HEB, trubky, kruhová ocel, pásovina",
+      "Tolerance řezu": "Vysoká přesnost úhlů i délek"
+    },
+    "features": [
+      "Automatické podávání tyčového materiálu pro efektivní sériové řezání",
+      "Úhlové řezy pod libovolným úhlem pro přesné svařence rámů",
+      "Čisté hrany bez tepelného ovlivnění materiálu",
+      "Velkokapacitní dělení pro stavební i zámečnické firmy"
+    ],
+    "description": "Poskytujeme komplexní služby v dělení materiálu. Široké strojní vybavení kotoučových a pásových pil s automatickým podavačem nám umožňuje rychle řezat jak jednotlivé zakázky, tak velké série profilů do průměru 200 mm."
+  },
+  {
+    "id": "lisovani-kovu-len",
+    "category": "kovovyroba",
+    "category_name": "Kovovýroba a technologie",
+    "name": "Lisování a tváření na lisech řady LEN",
+    "short_desc": "Lisařské práce na střižných a tvářecích strojích do síly materiálu až 15 mm.",
+    "image": "assets/lisovani-uvodni.jpg",
+    "cad_image": "assets/lisovani-mini.jpg",
+    "specs": {
+      "Typ lisů": "Výstředníkové lisy řady LEN",
+      "Max. síla materiálu": "Až do 15 mm",
+      "Zpracovávané kovy": "Ocel, mosaz, bronz, měď, hliník",
+      "Operace": "Stříhání, děrování, ohýbání, tažení, kalibrování",
+      "Nástroje": "Vlastní i zákaznické střižné a lisovací nástroje",
+      "Následné operace": "Možnost odmaštění, zinkování a montáže"
+    },
+    "features": [
+      "Výstředníkové lisy LEN s vysokou spolehlivostí a přesností chodu",
+      "Zpracování široké škály kovů včetně barevných (měď, mosaz, bronz)",
+      "Sériové i malosériové lisování montážních patek, spojek a držáků",
+      "Následná povrchová úprava přímo v naší kooperaci"
+    ],
+    "description": "Provádíme veškeré lisařské a střižné práce na výstředníkových lisech LEN. Zpracováváme výlisky pro elektrotechnický, automobilový a stavební průmysl s garancí přesnosti a stálosti parametrů."
+  },
+  {
+    "id": "ocelove-konstrukce-haly",
+    "category": "kovovyroba",
+    "category_name": "Kovovýroba a technologie",
+    "name": "Ocelové konstrukce a montované haly",
+    "short_desc": "Výroba a montáž montovaných ocelových hal, skladových přístřešků do 300 m² a schodišť.",
+    "image": "assets/ocelove-konstrukce-uvodni.jpg",
+    "cad_image": "assets/mini-konstrukce.jpg",
+    "specs": {
+      "Rozloha objektů": "Haly a přístřešky do 300 m²",
+      "Typ konstrukce": "Lehká ocelová, svařovaná i šroubovaná",
+      "Sortiment výrobků": "Haly, přístřešky, schodiště, mříže, zástěny, vrata",
+      "Povrchová ochrana": "Žárové zinkování pro namáhané a venkovní stavby",
+      "Montáž": "Kompletní montáž na klíč na staveništi zákazníka",
+      "Normy": "Výroba dle platných norem pro ocelové konstrukce"
+    },
+    "features": [
+      "Kompletní realizace od návrhu přes výrobu až po osazení a opláštění",
+      "Lehká šroubovaná konstrukce zkracující dobu montáže na minimum",
+      "Pozinkované provedení odolné povětrnostním vlivům a agresivnímu klimatu",
+      "Zakázková schodiště, bezpečnostní mříže na okna a dveře, zástěny"
+    ],
+    "description": "Specializujeme se na menší ocelové montované haly a přístřešky do 300 m² plochy. Konstrukce jsou navrženy pro snadnou montáž na základové patky nebo desku, s volitelným opláštěním trapézovým plechem či PUR panely."
+  },
+  {
+    "id": "zakazkova-zamecnicka-vyroba",
+    "category": "kovovyroba",
+    "category_name": "Kovovýroba a technologie",
+    "name": "Zakázková zámečnická a sériová výroba",
+    "short_desc": "Brány s pohonem, průmyslová vrata, ploty, zábradlí a dílce pro OTIS Escalators.",
+    "image": "assets/zakazkova-vyroba-uvodni.jpg",
+    "cad_image": "assets/zakazkova-mini.jpg",
+    "specs": {
+      "Praxe v oboru": "Od roku 1994 (přes 30 let zkušeností)",
+      "Výrobní plocha": "1 500 m² vlastních prostor ve Tvrdonicích",
+      "Portfolio výrobků": "Pojezdové brány, vrata, zábradlí, točitá schodiště, poklopy",
+      "Průmyslové reference": "Komponenty pro OTIS Escalators a zahraniční partnery",
+      "Materiály": "Ocel, nerez, kombinace se dřevem a sklem",
+      "Reklamace": "Dlouhodobě nulová míra reklamací od založení firmy"
+    },
+    "features": [
+      "Pojezdové a samonosné brány s přípravou na dálkové ovládání",
+      "Průmyslová i domovní vrata, ocelové dveře s dřevěnou výplní",
+      "Šachtové poklopy pro vodovody, plynové uzávěry, boxy na kola",
+      "Spolehlivý dodavatel přesných dílců pro nadnárodní strojírenské lídry"
+    ],
+    "description": "Již od roku 1994 poskytujeme precizní zakázkovou i sériovou kovovýrobu. Vyrábíme brány s elektrickými pohony, bezpečnostní mříže, designová schodiště i vysoce přesné komponenty pro eskalátory OTIS."
+  },
+  {
+    "id": "povrchove-upravy-zinkovani",
+    "category": "kovovyroba",
+    "category_name": "Kovovýroba a technologie",
+    "name": "Antikorozní povrchové úpravy kovů",
+    "short_desc": "Žárové a galvanické zinkování, práškové lakování (komaxit) a průmyslové nátěry.",
+    "image": "assets/povrch-uvodni.jpg",
+    "cad_image": "assets/povrch-mini.jpg",
+    "specs": {
+      "Žárové zinkování": "Ponorem dle ČSN EN ISO 1461 pro maximální životnost",
+      "Galvanické zinkování": "Elektrolytické pro přesné spojovací a lisované díly",
+      "Práškové lakování": "Komaxit dle vzorníku RAL (fasádní a interiérové odstíny)",
+      "Syntetické nátěry": "Základní antikorozní nátěr + vrchní lak (mat / lesk)",
+      "Kontrola jakosti": "Prověřování tloušťky povlaku a přilnavosti",
+      "Určení": "Do interiéru, venkovního prostředí i agresivních stájí"
+    },
+    "features": [
+      "Téměř jakákoliv povrchová úprava dle technologického předpisu klienta",
+      "Žárový zinek chrání dutiny trubek a profilů zevnitř i zvenčí",
+      "Estetické barevné řešení komaxitem v libovolném odstínu vzorníku RAL",
+      "Dodávka hotového finálního výrobku bez nutnosti dalších úprav"
+    ],
+    "description": "Kvalitní povrchová úprava je klíčem k desítkám let spolehlivé služby ocelových výrobků. Zajistíme žárové zinkování s vytvořením slitiny železa a zinku, moderní práškové lakování komaxitem nebo klasické syntetické nástřiky."
+  }
+]

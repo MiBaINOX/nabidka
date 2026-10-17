@@ -1,0 +1,752 @@
+{
+  "pages": [
+    {
+      "url": "http://metalryspol.cz",
+      "page": "index.php",
+      "title": "Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/index.php",
+      "page": "index.php",
+      "title": "Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/boxy-pro-kone.php",
+      "page": "boxy-pro-kone.php",
+      "title": "Boxy pro koně - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/vnitrni-boxy-pro-kone.php",
+      "page": "vnitrni-boxy-pro-kone.php",
+      "title": "Vnitřní boxy pro koně - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/venkovni-boxy-pro-kone.php",
+      "page": "venkovni-boxy-pro-kone.php",
+      "title": "Venkovní boxy pro koně - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/ocelove-konstrukce.php",
+      "page": "ocelove-konstrukce.php",
+      "title": "Ocelové konstrukce - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/deleni-materialu.php",
+      "page": "deleni-materialu.php",
+      "title": "Dělení materiálu - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/paleni-plazmou.php",
+      "page": "paleni-plazmou.php",
+      "title": "Pálení plazmou - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/lisovani.php",
+      "page": "lisovani.php",
+      "title": "Lisování - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/povrchova-uprava.php",
+      "page": "povrchova-uprava.php",
+      "title": "Povrchová úprava - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/fotogalerie.php",
+      "page": "fotogalerie.php",
+      "title": "Fotogalerie - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/kontakt.php",
+      "page": "kontakt.php",
+      "title": "Kontakt - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/de/index.php",
+      "page": "de/index.php",
+      "title": ""
+    },
+    {
+      "url": "http://metalryspol.cz/zakazkova-vyroba.php",
+      "page": "zakazkova-vyroba.php",
+      "title": "Zakázková výroba - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/vnitrni-box1.php",
+      "page": "vnitrni-box1.php",
+      "title": "Vnitřní box pro koně - model Classic - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/vnitrni-box2.php",
+      "page": "vnitrni-box2.php",
+      "title": "Vnitřní box pro koně - model Amsterdam - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/vnitrni-box3.php",
+      "page": "vnitrni-box3.php",
+      "title": "Vnitřní box pro koně - model Madrid - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/vnitrni-box4.php",
+      "page": "vnitrni-box4.php",
+      "title": "Vnitřní box pro koně - model Paris - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/vnitrni-box5.php",
+      "page": "vnitrni-box5.php",
+      "title": "Vnitřní box pro koně - model London - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/vnitrni-box6.php",
+      "page": "vnitrni-box6.php",
+      "title": "Vnitřní box pro koně - model Hannover - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/vnitrni-box7.php",
+      "page": "vnitrni-box7.php",
+      "title": "Vnitřní box pro koně - model Berlin - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/vnitrni-box-individual.php",
+      "page": "vnitrni-box-individual.php",
+      "title": "Vnitřní boxy pro koně - individuální box - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/box1.php",
+      "page": "box1.php",
+      "title": "Box pro jednoho koně - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/box2.php",
+      "page": "box2.php",
+      "title": "Box pro koně - jednořadý se seníkem - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/box3.php",
+      "page": "box3.php",
+      "title": "Box pro koně - jednořadý - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/box4.php",
+      "page": "box4.php",
+      "title": "Box pro koně - rohový - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/box5.php",
+      "page": "box5.php",
+      "title": "Box pro koně - dvouřadý - Metal Ryspol s.r.o."
+    },
+    {
+      "url": "http://metalryspol.cz/box-individual.php",
+      "page": "box-individual.php",
+      "title": "Boxy pro koně - individuální box - Metal Ryspol s.r.o."
+    }
+  ],
+  "images": [
+    {
+      "filename": "ceska-vlajka.png",
+      "url": "http://metalryspol.cz/obrazky/ceska-vlajka.png",
+      "bytes": 1316,
+      "alt": "Česky"
+    },
+    {
+      "filename": "nemecka-vlajka.png",
+      "url": "http://metalryspol.cz/obrazky/nemecka-vlajka.png",
+      "bytes": 1055,
+      "alt": "Deutsch"
+    },
+    {
+      "filename": "logo.png",
+      "url": "http://metalryspol.cz/obrazky/logo.png",
+      "bytes": 17206,
+      "alt": "Metal Ryspol s.r.o."
+    },
+    {
+      "filename": "mobil.png",
+      "url": "http://metalryspol.cz/obrazky/mobil.png",
+      "bytes": 5067,
+      "alt": ""
+    },
+    {
+      "filename": "index-uvodni.jpg",
+      "url": "http://metalryspol.cz/obrazky/index-uvodni.jpg",
+      "bytes": 56849,
+      "alt": ""
+    },
+    {
+      "filename": "banner.png",
+      "url": "http://metalryspol.cz/obrazky/banner.png",
+      "bytes": 41020,
+      "alt": ""
+    },
+    {
+      "filename": "kdo-jsme.jpg",
+      "url": "http://metalryspol.cz/obrazky/kdo-jsme.jpg",
+      "bytes": 9087,
+      "alt": ""
+    },
+    {
+      "filename": "co-delame.jpg",
+      "url": "http://metalryspol.cz/obrazky/co-delame.jpg",
+      "bytes": 13255,
+      "alt": ""
+    },
+    {
+      "filename": "proc-my.jpg",
+      "url": "http://metalryspol.cz/obrazky/proc-my.jpg",
+      "bytes": 10602,
+      "alt": ""
+    },
+    {
+      "filename": "fotogalerie-footer.png",
+      "url": "http://metalryspol.cz/obrazky/fotogalerie-footer.png",
+      "bytes": 22468,
+      "alt": ""
+    },
+    {
+      "filename": "kone-footer.png",
+      "url": "http://metalryspol.cz/obrazky/kone-footer.png",
+      "bytes": 22546,
+      "alt": ""
+    },
+    {
+      "filename": "boxy-uvodni.jpg",
+      "url": "http://metalryspol.cz/obrazky/boxy-uvodni.jpg",
+      "bytes": 48777,
+      "alt": ""
+    },
+    {
+      "filename": "3.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/3.png",
+      "bytes": 7460,
+      "alt": "model classic"
+    },
+    {
+      "filename": "venkovni.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/venkovni.png",
+      "bytes": 8717,
+      "alt": "model classic"
+    },
+    {
+      "filename": "1a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/1a.jpg",
+      "bytes": 334592,
+      "alt": ""
+    },
+    {
+      "filename": "2a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/2a.jpg",
+      "bytes": 243782,
+      "alt": ""
+    },
+    {
+      "filename": "3a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/3a.jpg",
+      "bytes": 377280,
+      "alt": ""
+    },
+    {
+      "filename": "4a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/4a.jpg",
+      "bytes": 11441,
+      "alt": ""
+    },
+    {
+      "filename": "5a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/5a.jpg",
+      "bytes": 11924,
+      "alt": ""
+    },
+    {
+      "filename": "6a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/6a.jpg",
+      "bytes": 13279,
+      "alt": ""
+    },
+    {
+      "filename": "7a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/7a.jpg",
+      "bytes": 12089,
+      "alt": ""
+    },
+    {
+      "filename": "8a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/8a.jpg",
+      "bytes": 13696,
+      "alt": ""
+    },
+    {
+      "filename": "9a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/9a.jpg",
+      "bytes": 11258,
+      "alt": ""
+    },
+    {
+      "filename": "10a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/10a.jpg",
+      "bytes": 12900,
+      "alt": ""
+    },
+    {
+      "filename": "11a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/11a.jpg",
+      "bytes": 8794,
+      "alt": ""
+    },
+    {
+      "filename": "12a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/12a.jpg",
+      "bytes": 9197,
+      "alt": ""
+    },
+    {
+      "filename": "13a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/13a.jpg",
+      "bytes": 11954,
+      "alt": ""
+    },
+    {
+      "filename": "14a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/14a.jpg",
+      "bytes": 11243,
+      "alt": ""
+    },
+    {
+      "filename": "15a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/15a.jpg",
+      "bytes": 10535,
+      "alt": ""
+    },
+    {
+      "filename": "16a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/16a.jpg",
+      "bytes": 13156,
+      "alt": ""
+    },
+    {
+      "filename": "17a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/17a.jpg",
+      "bytes": 11175,
+      "alt": ""
+    },
+    {
+      "filename": "18a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/18a.jpg",
+      "bytes": 10531,
+      "alt": ""
+    },
+    {
+      "filename": "19a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/19a.jpg",
+      "bytes": 11078,
+      "alt": ""
+    },
+    {
+      "filename": "20a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/20a.jpg",
+      "bytes": 9679,
+      "alt": ""
+    },
+    {
+      "filename": "21a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/21a.jpg",
+      "bytes": 9837,
+      "alt": ""
+    },
+    {
+      "filename": "22a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/22a.jpg",
+      "bytes": 9630,
+      "alt": ""
+    },
+    {
+      "filename": "23a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/23a.jpg",
+      "bytes": 9040,
+      "alt": ""
+    },
+    {
+      "filename": "24a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/24a.jpg",
+      "bytes": 9340,
+      "alt": ""
+    },
+    {
+      "filename": "25a.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/25a.jpg",
+      "bytes": 10065,
+      "alt": ""
+    },
+    {
+      "filename": "1.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/1.jpg",
+      "bytes": 277361,
+      "alt": ""
+    },
+    {
+      "filename": "2.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/2.jpg",
+      "bytes": 223841,
+      "alt": ""
+    },
+    {
+      "filename": "3b.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/3b.jpg",
+      "bytes": 11849,
+      "alt": ""
+    },
+    {
+      "filename": "1.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/1.png",
+      "bytes": 4253,
+      "alt": "model classic"
+    },
+    {
+      "filename": "2.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/2.png",
+      "bytes": 6166,
+      "alt": "model classic"
+    },
+    {
+      "filename": "4.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/4.png",
+      "bytes": 8493,
+      "alt": "model classic"
+    },
+    {
+      "filename": "5.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/5.png",
+      "bytes": 7923,
+      "alt": "model classic"
+    },
+    {
+      "filename": "6.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/6.png",
+      "bytes": 7300,
+      "alt": "model classic"
+    },
+    {
+      "filename": "7.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/7.png",
+      "bytes": 4540,
+      "alt": "model classic"
+    },
+    {
+      "filename": "8.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/8.png",
+      "bytes": 12347,
+      "alt": "model classic"
+    },
+    {
+      "filename": "6.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/6.jpg",
+      "bytes": 275729,
+      "alt": ""
+    },
+    {
+      "filename": "7.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/7.jpg",
+      "bytes": 245737,
+      "alt": ""
+    },
+    {
+      "filename": "8.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/8.jpg",
+      "bytes": 291638,
+      "alt": ""
+    },
+    {
+      "filename": "9.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/9.jpg",
+      "bytes": 215492,
+      "alt": ""
+    },
+    {
+      "filename": "10.jpg",
+      "url": "http://metalryspol.cz/galerie/boxy-pro-kone/10.jpg",
+      "bytes": 240133,
+      "alt": ""
+    },
+    {
+      "filename": "box1.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/box1.png",
+      "bytes": 5169,
+      "alt": "model classic"
+    },
+    {
+      "filename": "box2.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/box2.png",
+      "bytes": 4338,
+      "alt": "model classic"
+    },
+    {
+      "filename": "box3.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/box3.png",
+      "bytes": 5238,
+      "alt": "model classic"
+    },
+    {
+      "filename": "box4.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/box4.png",
+      "bytes": 7229,
+      "alt": "model classic"
+    },
+    {
+      "filename": "box5.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/box5.png",
+      "bytes": 8853,
+      "alt": "model classic"
+    },
+    {
+      "filename": "box6.png",
+      "url": "http://metalryspol.cz/obrazky/ikonky/box6.png",
+      "bytes": 11723,
+      "alt": "model classic"
+    },
+    {
+      "filename": "ocelove-konstrukce-uvodni.jpg",
+      "url": "http://metalryspol.cz/obrazky/ocelove-konstrukce-uvodni.jpg",
+      "bytes": 56519,
+      "alt": ""
+    },
+    {
+      "filename": "mini-konstrukce.jpg",
+      "url": "http://metalryspol.cz/obrazky/mini-konstrukce.jpg",
+      "bytes": 15536,
+      "alt": "ocelove konstrukce"
+    },
+    {
+      "filename": "3.jpg",
+      "url": "http://metalryspol.cz/galerie/ocelove-konstrukce/3.jpg",
+      "bytes": 118821,
+      "alt": ""
+    },
+    {
+      "filename": "4.jpg",
+      "url": "http://metalryspol.cz/galerie/ocelove-konstrukce/4.jpg",
+      "bytes": 118814,
+      "alt": ""
+    },
+    {
+      "filename": "5.jpg",
+      "url": "http://metalryspol.cz/galerie/ocelove-konstrukce/5.jpg",
+      "bytes": 96861,
+      "alt": ""
+    },
+    {
+      "filename": "deleni-materialu-uvodni.jpg",
+      "url": "http://metalryspol.cz/obrazky/deleni-materialu-uvodni.jpg",
+      "bytes": 61060,
+      "alt": ""
+    },
+    {
+      "filename": "mini-pila.jpg",
+      "url": "http://metalryspol.cz/obrazky/mini-pila.jpg",
+      "bytes": 16981,
+      "alt": "deleni materialu"
+    },
+    {
+      "filename": "paleni-plazmou-uvodni.jpg",
+      "url": "http://metalryspol.cz/obrazky/paleni-plazmou-uvodni.jpg",
+      "bytes": 85227,
+      "alt": ""
+    },
+    {
+      "filename": "plazma-mini.jpg",
+      "url": "http://metalryspol.cz/obrazky/plazma-mini.jpg",
+      "bytes": 15862,
+      "alt": "plazma"
+    },
+    {
+      "filename": "lisovani-uvodni.jpg",
+      "url": "http://metalryspol.cz/obrazky/lisovani-uvodni.jpg",
+      "bytes": 60474,
+      "alt": ""
+    },
+    {
+      "filename": "lisovani-mini.jpg",
+      "url": "http://metalryspol.cz/obrazky/lisovani-mini.jpg",
+      "bytes": 17417,
+      "alt": "lisovani"
+    },
+    {
+      "filename": "2-mini.jpg",
+      "url": "http://metalryspol.cz/galerie/lisovani/2-mini.jpg",
+      "bytes": 8151,
+      "alt": ""
+    },
+    {
+      "filename": "povrch-uvodni.jpg",
+      "url": "http://metalryspol.cz/obrazky/povrch-uvodni.jpg",
+      "bytes": 85770,
+      "alt": ""
+    },
+    {
+      "filename": "povrch-mini.jpg",
+      "url": "http://metalryspol.cz/obrazky/povrch-mini.jpg",
+      "bytes": 17205,
+      "alt": "povrchova uprava"
+    },
+    {
+      "filename": "foto-uvodni.jpg",
+      "url": "http://metalryspol.cz/obrazky/foto-uvodni.jpg",
+      "bytes": 175617,
+      "alt": ""
+    },
+    {
+      "filename": "1mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/1mini.jpg",
+      "bytes": 14056,
+      "alt": ""
+    },
+    {
+      "filename": "2mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/2mini.jpg",
+      "bytes": 12298,
+      "alt": ""
+    },
+    {
+      "filename": "3mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/3mini.jpg",
+      "bytes": 14701,
+      "alt": ""
+    },
+    {
+      "filename": "4mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/4mini.jpg",
+      "bytes": 15941,
+      "alt": ""
+    },
+    {
+      "filename": "5mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/5mini.jpg",
+      "bytes": 13076,
+      "alt": ""
+    },
+    {
+      "filename": "6mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/6mini.jpg",
+      "bytes": 13565,
+      "alt": ""
+    },
+    {
+      "filename": "7mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/7mini.jpg",
+      "bytes": 12483,
+      "alt": ""
+    },
+    {
+      "filename": "8mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/8mini.jpg",
+      "bytes": 10367,
+      "alt": ""
+    },
+    {
+      "filename": "9mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/9mini.jpg",
+      "bytes": 10536,
+      "alt": ""
+    },
+    {
+      "filename": "10mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/10mini.jpg",
+      "bytes": 11685,
+      "alt": ""
+    },
+    {
+      "filename": "11mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/11mini.jpg",
+      "bytes": 13364,
+      "alt": ""
+    },
+    {
+      "filename": "12mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/12mini.jpg",
+      "bytes": 13184,
+      "alt": ""
+    },
+    {
+      "filename": "13mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/13mini.jpg",
+      "bytes": 14411,
+      "alt": ""
+    },
+    {
+      "filename": "14mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/14mini.jpg",
+      "bytes": 15455,
+      "alt": ""
+    },
+    {
+      "filename": "15mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/15mini.jpg",
+      "bytes": 15514,
+      "alt": ""
+    },
+    {
+      "filename": "16mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/16mini.jpg",
+      "bytes": 15326,
+      "alt": ""
+    },
+    {
+      "filename": "17mini.jpg",
+      "url": "http://metalryspol.cz/galerie/fotogalerie/17mini.jpg",
+      "bytes": 15284,
+      "alt": ""
+    },
+    {
+      "filename": "vystavba.jpg",
+      "url": "http://metalryspol.cz/de/vystavba.jpg",
+      "bytes": 15750,
+      "alt": "under construction"
+    },
+    {
+      "filename": "zakazkova-vyroba-uvodni.jpg",
+      "url": "http://metalryspol.cz/obrazky/zakazkova-vyroba-uvodni.jpg",
+      "bytes": 75061,
+      "alt": ""
+    },
+    {
+      "filename": "zakazkova-mini.jpg",
+      "url": "http://metalryspol.cz/obrazky/zakazkova-mini.jpg",
+      "bytes": 11352,
+      "alt": "plazma"
+    },
+    {
+      "filename": "11.jpg",
+      "url": "http://metalryspol.cz/galerie/zakazkova-vyroba/11.jpg",
+      "bytes": 99986,
+      "alt": ""
+    },
+    {
+      "filename": "9.png",
+      "url": "http://metalryspol.cz/galerie/vnitrni-box1/9.png",
+      "bytes": 195372,
+      "alt": ""
+    },
+    {
+      "filename": "10.png",
+      "url": "http://metalryspol.cz/galerie/vnitrni-box1/10.png",
+      "bytes": 98339,
+      "alt": ""
+    },
+    {
+      "filename": "pdf-banner.png",
+      "url": "http://metalryspol.cz/obrazky/pdf-banner.png",
+      "bytes": 8105,
+      "alt": ""
+    }
+  ],
+  "menu_categories": [
+    "Boxy pro koně",
+    "Vnitřní boxy",
+    "Venkovní boxy",
+    "Ocelové konstrukce",
+    "Dělení materiálu",
+    "Pálení plazmou",
+    "Lisování",
+    "Povrchová úprava",
+    "Zakázková výroba",
+    "Kontakt"
+  ]
+}

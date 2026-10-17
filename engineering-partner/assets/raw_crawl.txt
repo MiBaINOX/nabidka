@@ -1,0 +1,691 @@
+=== PAGE: index.html ===
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="cs"><head>
+  
+  <meta content="text/html; charset=windows-1250" http-equiv="content-type">
+  <title>Engineering Partner</title>
+
+  
+  
+  <link rel="stylesheet" href="assets/styles.css" type="text/css">
+
+  
+  <link rel="shortcut icon" href="favicon.ico">
+
+  
+  <meta content="Ing. Jiří Krbeček" name="author">
+
+  
+  <meta content="Hlavní stránka" name="description">
+
+</head><body style="height: 150px; background-color: rgb(204, 204, 204);">
+<div style="width: 850px; margin-right: auto; margin-left: auto; height: 1000px; padding-top: 10px; background-color: white;" id="sheet" align="left">
+<div style="margin-right: auto; margin-left: auto; width: 830px; height: 970px; background-color: rgb(204, 204, 204);" id="page">
+<div style="width: 170px; height: 50px; float: left; text-align: left;" id="logo"><a href="index.html"><img src="assets/EP_Logo_Color_54x18mm_FinalExport.png" style="border: 0px solid ; width: 138px; height: 42px;" alt="ENGINEERING PARTNER"></a></div>
+<div style="height: 50px; text-align: right; background-color: white;" id="header" class="designbar"><br>
+OD NÁVRHU PO SERVIS</div>
+<div style="float: left; background-color: rgb(204, 204, 204); margin-top: 5px; height: 910px; width: 170px;" id="Menu">
+<div style="float: left; background-color: white; margin-top: 0px; height: 30px; width: 170px;" center=""><a href="index.html"><img src="assets/vlajkaCR.jpg" style="border: 0px solid ; width: 52px; height: 30px;" alt="CZ"></a><img src="assets/vlajkaENG.jpg" alt="ENG" height="30" width="52"><img src="assets/vlajkaDE.jpg" alt="DE" height="30" width="52"></div>
+<div style="float: left; background-color: white; margin-top: 5px; padding-top: 15px; height: 860px; width: 170px;" id="Menu">
+<h4><strong><span class="style3">&gt;</span>
+<a href="index.html">&nbsp;Úvod</a></strong></h4>
+<h4><strong><span class="style3">&gt;</span>
+<a href="ocelove_konstrukce.html">&nbsp;Ocelové konstrukce</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="produkty.html">&nbsp;Produkty</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="servis.html">&nbsp;Servis</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="realizace.html">&nbsp;Realizace</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="firma.html">&nbsp;Firma</a></strong></h4>
+</div>
+</div>
+<div style="padding: 10px; background-color: white; margin-top: 5px; margin-left: 175px; height: 890px; width: 635px;" id="Text"><strong><span class="style3">ENGINEERING
+PARTNER</span></strong><br>
+<br>
+<span class="body">Jsme dodavatelé strojírenských
+řešení&nbsp;pro zákazníky různých
+oborů průmyslu.<br>
+Nabízíme naše dlouholeté zkušenosti a znalosti v oblasti strojírenství.<br>
+<br>
+Dokážeme řešit vaše problémy týkající se:<br>
+</span>
+<ul style="list-style-type: circle;">
+  <span class="body"></span>
+  <li><span class="body"><a href="ocelove_konstrukce.html">svařovaných ocelových konstrukcí dle ČSN EN 1090-2 a ČSN EN ISO 3834:2</a></span></li>
+  <li><span class="body"><a href="produkty.html">vašich
+výrobků</a></span></li>
+  <li><span class="body"><a href="produkty.html">náhradních
+dílů</a></span></li>
+  <li><span class="body"><a href="produkty.html">jednoúčelových
+zařízení</a></span></li>
+  <li><span class="body"><a href="produkty.html">výrobních
+linek a jejich
+částí</a></span></li>
+  <li><span class="body"><a href="servis.html">servisu
+výrobních zařízení</a></span></li>
+  <li><span class="body"><a href="servis.html">zajištění
+výrobního provozu</a></span></li>
+</ul>
+<span class="body"></span><br>
+<strong><span class="style3">NAŠE FILOZOFIE</span></strong><br>
+Zaměřujeme se především na kvalitu naší práce a našich výrobků.<br>
+Každému projektu se pečlivě věnujeme, ať jde o drobný náhradní díl,
+nebo složité výrobní zařízení.<br>
+Naší prioritou je&nbsp;vaše spokojenost.<br>
+<br>
+<br>
+<strong><span class="style3">OD NÁVRHU PO SERVIS</span></strong>
+<br>
+&nbsp;- navrhneme vám řešení na míru, dle vašich požadavků<br>
+&nbsp;- vše vám detailně&nbsp;představíme a vysvětlíme<br>
+&nbsp;- vyrobíme, dodáme, zprovozníme, předáme<br>
+&nbsp;- zajistíme servis zařízení<br>
+<br>
+<img src="assets/BizCycle.png" style="width: 545px; height: 160px;" alt=""><br>
+<br>
+<br>
+<strong><span class="style3"><br>
+KDY&nbsp;NÁS
+KONTAKTOVAT?<br>
+</span></strong>... hledáte řešení vašeho problému<br>
+... potřebujete náhradní díl<br>
+... chcete zvýšit životnost náhradního dílu<br>
+... chcete zlepšit výkon stroje<br>
+... potřebujete doplnit stávající výrobní linku novou operací<br>
+... potřebujete jedno i víceúčelové strojní zařízení<br>
+... potřebujete zajistit specifické strojírenské práce přímo ve vašem
+provozu<br>
+<br>
+<strong><span class="style3"><br>
+</span></strong></div>
+</div>
+<div style="float: left; background-color: white; margin-top: 5px; height: 20px; margin-left: 10px; width: 830px; text-align: center; padding-top: 3px;" id="Zapati"><span class="style5">ENGINEERING
+PARTNER, Ing. Jiří Krbeček, Lazecká 393/70a, 779 00 Olomouc</span>
+</div>
+</div>
+
+</body></html>
+
+=== PAGE: ocelove_konstrukce.html ===
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="cs"><head>
+
+
+  
+  <meta content="text/html; charset=windows-1250" http-equiv="content-type"><title>Engineering Partner - Svařování ocelových konstrukcí</title>
+  
+
+  
+  
+  <link rel="stylesheet" href="assets/styles.css" type="text/css">
+
+  
+  <link rel="shortcut icon" href="favicon.ico"></head><body style="height: 150px; background-color: rgb(204, 204, 204);">
+<div style="width: 850px; margin-right: auto; margin-left: auto; height: 1000px; padding-top: 10px; background-color: white;" id="sheet" align="left">
+<div style="margin-right: auto; margin-left: auto; width: 830px; height: 970px; background-color: rgb(204, 204, 204);" id="page">
+<div style="width: 170px; height: 50px; float: left; text-align: left;" id="logo"><a href="index.html"><img style="border: 0px solid ; width: 138px; height: 42px;" src="assets/EP_Logo_Color_54x18mm_FinalExport.png" alt="ENGINEERING PARTNER"></a></div>
+<div style="height: 50px; text-align: right; background-color: white;" id="header" class="designbar"><br>
+OD NÁVRHU PO SERVIS</div>
+<div style="float: left; background-color: rgb(204, 204, 204); margin-top: 5px; height: 910px; width: 170px;" id="Menu">
+<div style="float: left; background-color: white; margin-top: 0px; height: 30px; width: 170px;" center=""><a href="index.html"><img style="border: 0px solid ; width: 52px; height: 30px;" src="assets/vlajkaCR.jpg" alt="CZ"></a><img src="assets/vlajkaENG.jpg" alt="ENG" height="30" width="52"><img src="assets/vlajkaDE.jpg" alt="DE" height="30" width="52"></div>
+<div style="float: left; background-color: white; margin-top: 5px; padding-top: 15px; height: 860px; width: 170px;" id="Menu">
+<h4><strong><span class="style3">&gt;</span>
+<a href="index.html">&nbsp;Úvod</a></strong></h4>
+<h4><strong><span class="style3">&gt;</span>
+<a href="ocelove_konstrukce.html">&nbsp;Ocelové konstrukce</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="produkty.html">&nbsp;Produkty</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="servis.html">&nbsp;Servis</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="realizace.html">&nbsp;Realizace</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="firma.html">&nbsp;Firma</a></strong></h4>
+</div>
+</div>
+<div style="padding: 10px; background-color: white; margin-top: 5px; margin-left: 175px; height: 890px; width: 635px;" id="Text"><strong><span class="style3">SVAŘOVÁNÍ OCELOVÝCH KONSTRUKCÍ - NABÍDKA</span></strong><br>
+<br>
+<br>
+<span class="body"></span><strong><span class="style3">NABÍDKA</span></strong><br>
+<span class="body"><br>
+Vyrábíme široké spektrum rozebiratelných i nerozebiratelných
+svařovaných ocelových konstrukcí od menších svařenců až po velké
+sestavy o hmotnosti několika tun.<br>
+Svařování konstrukcí provádíme dle ČSN EN 1090-2 a ČSN EN ISO 3834-2.<br>
+<br>
+</span><strong><span class="style3"><br>
+PROVÁDÍME A ZAJIŠŤUJEME KOMPLETNÍ PROCES DODÁVKY</span></strong><span class="body"></span><br>
+<ul style="list-style-type: circle;">
+<li>tvorba návrhové, konstrukční a výrobní dokumentace</li>
+  <li>pevnostní výpočty se statickou zprávou</li>
+  <li>výrobu ocelových konstrukcí</li>
+  <li>povrchovou úpravu dle požadavku zákazníka</li>
+  <li>dodání / dopravu konstrukcí</li>
+  <li>montáž konstrukcí<br>
+  </li>
+</ul>
+<strong><span class="style3"><br>
+TYPICKÉ TECHNOLOGICKÉ ČI STAVEBNÍ KONSTRUKCE</span></strong><br>
+<ul style="list-style-type: circle;">
+  <li>ocelové svařované konstrukce (dle požadavku zákazníka)</li>
+  <li>nosné konstrukce zařízení</li>
+  <li>pochozí plošiny pro obsluhu strojů a zařízení</li>
+  <li>pochozí lávky</li>
+  <li>schodiště</li>
+  <li>zábradlí</li>
+  <li>svařence dopravníků</li>
+  <li>věže a stožáry</li>
+  <li>přístavby</li>
+</ul>
+<strong><span class="style3"><br>
+POUŽÍVANÉ MATERIÁLY</span></strong><br>
+<ul style="list-style-type: circle;">
+  <li>uhlíkové oceli</li>
+  <li>nerezové oceli</li>
+  <li>hliník<br>
+  </li>
+</ul>
+<br>
+<strong><span class="style3">POVRCHOVÁ ÚPRAVA</span></strong><br>
+<ul style="list-style-type: circle;">
+  <li>nátěr či lakování barvou zvoleného RAL odstínu (případně ČSN odstínu)</li>
+  <li>žárové zinkování (případně galvanické zinkování)</li>
+<li>lakování práškovou barvou - komaxitování<br>
+</li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<strong><span class="style3"></span></strong><br>
+</div>
+</div>
+<div style="float: left; background-color: white; margin-top: 5px; height: 20px; margin-left: 10px; width: 830px; text-align: center; padding-top: 3px;" id="Zapati"><span class="style5">ENGINEERING
+PARTNER, Ing. Jiří Krbeček, Lazecká 393/70a, 779 00 Olomouc</span>
+</div>
+</div>
+
+</body></html>
+
+=== PAGE: produkty.html ===
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="cs"><head>
+  
+  <meta content="text/html; charset=windows-1250" http-equiv="content-type">
+  <title>Engineering Partner - Produkty</title>
+
+  
+  
+  <link rel="stylesheet" href="assets/styles.css" type="text/css">
+
+  
+  <link rel="shortcut icon" href="favicon.ico">
+
+</head><body style="height: 150px; background-color: rgb(204, 204, 204);">
+<div style="width: 850px; margin-right: auto; margin-left: auto; height: 1000px; padding-top: 10px; background-color: white;" id="sheet" align="left">
+<div style="margin-right: auto; margin-left: auto; width: 830px; height: 970px; background-color: rgb(204, 204, 204);" id="page">
+<div style="width: 170px; height: 50px; float: left; text-align: left;" id="logo"><a href="index.html"><img style="border: 0px solid ; width: 138px; height: 42px;" src="assets/EP_Logo_Color_54x18mm_FinalExport.png" alt="ENGINEERING PARTNER"></a></div>
+<div style="height: 50px; text-align: right; background-color: white;" id="header" class="designbar"><br>
+OD NÁVRHU PO SERVIS</div>
+<div style="float: left; background-color: rgb(204, 204, 204); margin-top: 5px; height: 910px; width: 170px;" id="Menu">
+<div style="float: left; background-color: white; margin-top: 0px; height: 30px; width: 170px;" center=""><a href="index.html"><img style="border: 0px solid ; width: 52px; height: 30px;" src="assets/vlajkaCR.jpg" alt="CZ"></a><img src="assets/vlajkaENG.jpg" alt="ENG" height="30" width="52"><img src="assets/vlajkaDE.jpg" alt="DE" height="30" width="52"></div>
+<div style="float: left; background-color: white; margin-top: 5px; padding-top: 15px; height: 860px; width: 170px;" id="Menu">
+<h4><strong><span class="style3">&gt;</span>
+<a href="index.html">&nbsp;Úvod</a></strong></h4>
+<h4><strong><span class="style3">&gt;</span>
+<a href="ocelove_konstrukce.html">&nbsp;Ocelové konstrukce</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="produkty.html">&nbsp;Produkty</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="servis.html">&nbsp;Servis</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="realizace.html">&nbsp;Realizace</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="firma.html">&nbsp;Firma</a></strong></h4>
+</div>
+</div>
+<div style="padding: 10px; background-color: white; margin-top: 5px; margin-left: 175px; height: 890px; width: 635px;" id="Text"><strong><span class="style3">PRODUKTY
+- NABÍDKA</span></strong><br>
+<br>
+<br>
+<span class="body"></span><strong><span class="style3">VÝROBKY</span></strong><br>
+<ul style="list-style-type: circle;">
+  <li>celý výrobek</li>
+  <li>jedna či více operací výrobku</li>
+</ul>
+<strong><span class="style3"><br>
+NÁHRADNÍ DÍLY</span></strong><br>
+<ul style="list-style-type: circle;">
+  <li>opotřebený náhradní díl</li>
+  <ul>
+    <li>oprava stávajícího&nbsp;dílu</li>
+  </ul>
+  <ul>
+    <li>vyrobení nového dílu</li>
+  </ul>
+  <ul>
+    <li>výměna&nbsp;dílu na stroji</li>
+  </ul>
+  <li>inovace a funkčnost náhradního dílu</li>
+  <ul>
+    <li>úprava tvaru, rozměrů a materiálu dílu</li>
+  </ul>
+  <ul>
+    <li>zvýšení životnosti dílu</li>
+  </ul>
+</ul>
+<br>
+<strong><span class="style3">VÝROBNÍ LINKY</span></strong><br>
+<ul style="list-style-type: circle;">
+  <li>stávající výrobní linka</li>
+  <ul>
+    <li>renovace stávající výrobní linky</li>
+  </ul>
+  <ul>
+    <li>inovace stávající výrobní linky</li>
+  </ul>
+  <ul>
+    <li>rozšíření stávající výrobní linky o nové operace</li>
+  </ul>
+  <li>nová výrobní linka</li>
+  <ul>
+    <li>samostatná výrobní linka</li>
+    <li>výrobní linka začleněná do stávajících výrobních operací</li>
+  </ul>
+</ul>
+<br>
+<strong><span class="style3">JEDNOÚČELOVÉ ZAŘÍZENÍ</span></strong><br>
+<ul style="list-style-type: circle;">
+  <li>stávající jednoúčelové zařízení</li>
+  <ul>
+    <li>oprava&nbsp;stávajícího zařízení</li>
+  </ul>
+  <ul>
+    <li>renovace stávajícího zařízení</li>
+  </ul>
+  <ul>
+    <li>úprava stávajícího zařízení</li>
+  </ul>
+  <ul>
+    <li>rozšíření (upgrade) stávajícího zařízení</li>
+  </ul>
+  <li>výroba nového jednoúčelového zařízení</li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<strong><span class="style3"></span></strong><br>
+</div>
+</div>
+<div style="float: left; background-color: white; margin-top: 5px; height: 20px; margin-left: 10px; width: 830px; text-align: center; padding-top: 3px;" id="Zapati"><span class="style5">ENGINEERING
+PARTNER, Ing. Jiří Krbeček, Lazecká 393/70a, 779 00 Olomouc</span>
+</div>
+</div>
+
+</body></html>
+
+=== PAGE: servis.html ===
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="cs"><head>
+  
+  <meta content="text/html; charset=windows-1250" http-equiv="content-type">
+  <title>Engineering Partner - Servis</title>
+
+  
+  
+  <link rel="stylesheet" href="assets/styles.css" type="text/css">
+
+  
+  <link rel="shortcut icon" href="favicon.ico">
+
+</head><body style="height: 150px; background-color: rgb(204, 204, 204);">
+<div style="width: 850px; margin-right: auto; margin-left: auto; height: 1000px; padding-top: 10px; background-color: white;" id="sheet" align="left">
+<div style="margin-right: auto; margin-left: auto; width: 830px; height: 970px; background-color: rgb(204, 204, 204);" id="page">
+<div style="width: 170px; height: 50px; float: left; text-align: left;" id="logo"><a href="index.html"><img style="border: 0px solid ; width: 138px; height: 42px;" src="assets/EP_Logo_Color_54x18mm_FinalExport.png" alt="ENGINEERING PARTNER"></a></div>
+<div style="height: 50px; text-align: right; background-color: white;" id="header" class="designbar"><br>
+OD NÁVRHU PO SERVIS</div>
+<div style="float: left; background-color: rgb(204, 204, 204); margin-top: 5px; height: 910px; width: 170px;" id="Menu">
+<div style="float: left; background-color: white; margin-top: 0px; height: 30px; width: 170px;" center=""><a href="index.html"><img style="border: 0px solid ; width: 52px; height: 30px;" src="assets/vlajkaCR.jpg" alt="CZ"></a><img src="assets/vlajkaENG.jpg" alt="ENG" height="30" width="52"><img src="assets/vlajkaDE.jpg" alt="DE" height="30" width="52"></div>
+<div style="float: left; background-color: white; margin-top: 5px; padding-top: 15px; height: 860px; width: 170px;" id="Menu">
+<h4><strong><span class="style3">&gt;</span>
+<a href="index.html">&nbsp;Úvod</a></strong></h4>
+<h4><strong><span class="style3">&gt;</span>
+<a href="ocelove_konstrukce.html">&nbsp;Ocelové konstrukce</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="produkty.html">&nbsp;Produkty</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="servis.html">&nbsp;Servis</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="realizace.html">&nbsp;Realizace</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="firma.html">&nbsp;Firma</a></strong></h4>
+</div>
+</div>
+<div style="padding: 10px; background-color: white; margin-top: 5px; margin-left: 175px; height: 890px; width: 635px;" id="Text"><strong><span class="style3">SERVIS
+- NABÍDKA</span></strong><br>
+<br>
+<br>
+<strong><span class="style3">ZAJIŠTĚNÍ PROVOZU</span></strong><br>
+<ul style="list-style-type: circle;">
+  <li>poruchy strojů a zařízení</li>
+  <ul>
+    <li>zjišťování závady stroje/zařízení</li>
+    <li>návrh opravy a časového plánu</li>
+    <li>oprava závady</li>
+  </ul>
+  <li>údržba dle&nbsp;servisního plánu</li>
+  <ul>
+    <li>možnost vypracování servisního plánu</li>
+    <li>zajišťění údržby dle servisního plánu</li>
+  </ul>
+</ul>
+<strong><span class="style3"><br>
+<br>
+PRÁCE U ZÁKAZNÍKA</span></strong><br>
+<ul style="list-style-type: circle;">
+  <li>strojní mechanika a zámečnické práce</li>
+  <ul>
+    <li>jednorázové práce dle požadavku zákazníka</li>
+    <li>dlouhodobé činnosti dle požadavku zákazníka</li>
+  </ul>
+</ul>
+<br>
+</div>
+</div>
+<div style="float: left; background-color: white; margin-top: 5px; height: 20px; margin-left: 10px; width: 830px; text-align: center; padding-top: 3px;" id="Zapati"><span class="style5">ENGINEERING
+PARTNER, Ing. Jiří Krbeček, Lazecká 393/70a, 779 00 Olomouc</span>
+</div>
+</div>
+
+</body></html>
+
+=== PAGE: realizace.html ===
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="cs"><head>
+  
+  <meta content="text/html; charset=windows-1250" http-equiv="content-type">
+  <title>Engineering Partner - Realizace</title>
+
+  
+  
+  <link rel="stylesheet" href="assets/styles.css" type="text/css">
+
+  
+  <link rel="shortcut icon" href="favicon.ico">
+
+</head><body style="height: 150px; background-color: rgb(204, 204, 204);">
+<div style="width: 850px; margin-right: auto; margin-left: auto; height: 4000px; padding-top: 10px; background-color: white;" id="sheet" align="left">
+<div style="margin-right: auto; margin-left: auto; width: 830px; height: 3970px; background-color: rgb(204, 204, 204);" id="page">
+<div style="width: 170px; height: 50px; float: left; text-align: left;" id="logo"><a href="index.html"><img src="assets/EP_Logo_Color_54x18mm_FinalExport.png" style="border: 0px solid ; width: 138px; height: 42px;" alt="ENGINEERING PARTNER"></a></div>
+<div style="height: 50px; text-align: right; background-color: white;" id="header" class="designbar"><br>
+OD NÁVRHU PO SERVIS</div>
+<div style="float: left; background-color: rgb(204, 204, 204); margin-top: 5px; height: 3910px; width: 170px;" id="Menu">
+<div style="float: left; background-color: white; margin-top: 0px; height: 30px; width: 170px;" center=""><a href="index.html"><img src="assets/vlajkaCR.jpg" style="border: 0px solid ; width: 52px; height: 30px;" alt="CZ"></a><img src="assets/vlajkaENG.jpg" alt="ENG" height="30" width="52"><img src="assets/vlajkaDE.jpg" alt="DE" height="30" width="52"></div>
+<div style="float: left; background-color: white; margin-top: 5px; padding-top: 15px; height: 3860px; width: 170px;" id="Menu">
+<h4><strong><span class="style3">&gt;</span>
+<a href="index.html">&nbsp;Úvod</a></strong></h4>
+<h4><strong><span class="style3">&gt;</span>
+<a href="ocelove_konstrukce.html">&nbsp;Ocelové konstrukce</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="produkty.html">&nbsp;Produkty</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="servis.html">&nbsp;Servis</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="realizace.html">&nbsp;Realizace</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="firma.html">&nbsp;Firma</a></strong></h4>
+</div>
+</div>
+<div style="padding: 10px; background-color: white; margin-top: 5px; margin-left: 175px; height: 3890px; width: 635px;" id="Text"><strong><span class="style3">REALIZACE
+- UKÁZKY</span></strong><br>
+<br>
+<br>
+<strong></strong><strong><span class="style3">DESIGN
+- KONCEPT</span></strong>
+<table style="text-align: left; background-color: rgb(230, 239, 255); width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: bottom;"><img src="assets/Design_01_2.png" alt=""></td>
+      <td><img src="assets/Design_02_1.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Počáteční fáze inovace opotřebeného náhradního dílu</td>
+      <td>Prvotní hrubé náčrtky zdvihacího zařízení</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: bottom;"><img src="assets/Design_03_3.png" style="width: 280px; height: 229px;" alt="Design vačky"><br>
+      </td>
+      <td style="vertical-align: bottom;"><img src="assets/Design_04_1.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Design vačky</td>
+      <td>Studie pneumatické rozvodové skříně</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: bottom;"><img src="assets/Design_06_2.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/Design_05_1.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Design krytu řemenového rozvodu</td>
+      <td>FEM výpočet nosníku zdvihacího zařízení</td>
+    </tr>
+  </tbody>
+</table>
+&nbsp;&nbsp;<br>
+<strong><span class="style3"><br>
+<br>
+NÁHRADNÍ DÍLY</span></strong><br>
+<table style="text-align: left; background-color: rgb(230, 239, 255); width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: bottom;"><img src="assets/SparePart_02_3.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/SparePart_03_1.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Přesný, leštěný a tvarově složitý mosazný díl</td>
+      <td>Pryžokovový díl s vysokou odolností proti otěru</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: bottom;"><img src="assets/SparePart_01_3.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/SparePart_04_2.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Ocelové pevnostní kolo pro přenos kroutícího momentu</td>
+      <td>Maltézský kříž z vysokopevnostního plastu</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<br>
+<strong><span class="style3">BEZPČNOSTNÍ A SKLADOVACÍ PRVKY</span></strong><br>
+<table style="text-align: left; background-color: rgb(230, 239, 255); width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: bottom;"><img src="assets/Safety_01_1.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/Safety_02_2.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Zakrytování a odhlučnění vývěvy</td>
+      <td>Bezpečnostní pletiva a zábrany</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: bottom;"><img src="assets/Safety_03_1.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/Safety_04_1.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Přemostění dopravníku lávkou</td>
+      <td>Regály pro skladování barev</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: bottom;"><img src="assets/Safety_05_1.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/Safety_06_1.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Skladovací police na zábradlí stroje</td>
+      <td>Boxy pro zavěšování materiálu</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<strong><span class="style3"><br>
+ČÁSTI STROJŮ A VÝROBNÍCH LINEK</span></strong><br>
+<table style="text-align: left; background-color: rgb(230, 239, 255); width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td><img src="assets/Segment_01_0.png" alt=""></td>
+      <td><img src="assets/Segment_02_0.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Odpružená válečková dráha dopravníku</td>
+      <td>Přítlačný dopravník s lomenou dráhou</td>
+    </tr>
+    <tr>
+      <td><img src="assets/Segment_03_1.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/Segment_04_0.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Pneumatický mechanismus&nbsp;dopravníku s elektronickým
+řízením</td>
+      <td>Otočná jeřábová hlava</td>
+    </tr>
+    <tr>
+      <td><img src="assets/Segment_05_3.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/Segment_06_0.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Variabilní pásový dopravník s elektronickým řízením</td>
+      <td>Pásový dopravník s elektronickým řízením</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<br>
+<strong><span class="style3">SAMOSTATNÉ STROJE A ZAŘÍZENÍ</span></strong><br>
+<table style="text-align: left; background-color: rgb(230, 239, 255); width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td><img src="assets/Separate_01_0.png" alt=""></td>
+      <td><img src="assets/Separate_02_0.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Plošina s mechanismem automatického nakláněním</td>
+      <td>Radlice na sníh pro připojení na VZV</td>
+    </tr>
+    <tr>
+      <td><img src="assets/Separate_03_0.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/Separate_04_0.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Elektricky ovládaný jeřáb s otočným ramenem</td>
+      <td>Zdvihací vozík s manuálním pohonem</td>
+    </tr>
+    <tr>
+      <td><img src="assets/Separate_05_1.png" alt=""></td>
+      <td style="vertical-align: bottom;"><img src="assets/Separate_06_0.png" alt=""></td>
+    </tr>
+    <tr>
+      <td>Hydraulická nůžková plošina</td>
+      <td>Plošinové zdvihací zařízení (mechanismus)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div style="float: left; background-color: white; margin-top: 5px; height: 20px; margin-left: 10px; width: 830px; text-align: center; padding-top: 3px;" id="Zapati"><span class="style5">ENGINEERING
+PARTNER, Ing. Jiří Krbeček, Lazecká 393/70a, 779 00 Olomouc</span>
+</div>
+</div>
+
+</body></html>
+
+=== PAGE: firma.html ===
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="cs"><head>
+  
+  <meta content="text/html; charset=windows-1250" http-equiv="content-type">
+  <title>Engineering Partner - Firma</title>
+
+  
+  
+  <link rel="stylesheet" href="assets/styles.css" type="text/css">
+
+  
+  <link rel="shortcut icon" href="favicon.ico">
+
+</head><body style="height: 150px; background-color: rgb(204, 204, 204);">
+<div style="width: 850px; margin-right: auto; margin-left: auto; height: 1000px; padding-top: 10px; background-color: white;" id="sheet" align="left">
+<div style="margin-right: auto; margin-left: auto; width: 830px; height: 970px; background-color: rgb(204, 204, 204);" id="page">
+<div style="width: 170px; height: 50px; float: left; text-align: left;" id="logo"><a href="index.html"><img src="assets/EP_Logo_Color_54x18mm_FinalExport.png" style="border: 0px solid ; width: 138px; height: 42px;" alt="ENGINEERING PARTNER"></a></div>
+<div style="height: 50px; text-align: right; background-color: white;" id="header" class="designbar"><br>
+OD NÁVRHU PO SERVIS</div>
+<div style="float: left; background-color: rgb(204, 204, 204); margin-top: 5px; height: 910px; width: 170px;" id="Menu">
+<div style="float: left; background-color: white; margin-top: 0px; height: 30px; width: 170px;" center=""><a href="index.html"><img src="assets/vlajkaCR.jpg" style="border: 0px solid ; width: 52px; height: 30px;" alt="CZ"></a><img src="assets/vlajkaENG.jpg" alt="ENG" height="30" width="52"><img src="assets/vlajkaDE.jpg" alt="DE" height="30" width="52"></div>
+<div style="float: left; background-color: white; margin-top: 5px; padding-top: 15px; height: 860px; width: 170px;" id="Menu">
+<h4><strong><span class="style3">&gt;</span>
+<a href="index.html">&nbsp;Úvod</a></strong></h4>
+<h4><strong><span class="style3">&gt;</span>
+<a href="ocelove_konstrukce.html">&nbsp;Ocelové konstrukce</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="produkty.html">&nbsp;Produkty</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="servis.html">&nbsp;Servis</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="realizace.html">&nbsp;Realizace</a></strong></h4>
+<h4><strong><span class="style3"> &gt;</span>
+<a href="firma.html">&nbsp;Firma</a></strong></h4>
+</div>
+</div>
+<div style="padding: 10px; background-color: white; margin-top: 5px; margin-left: 175px; height: 890px; width: 635px;" id="Text"><strong><span class="style3"></span></strong><strong><span class="style3">FIRMA</span></strong> <span class="body"><br>
+<br>
+Ing. Jiří Krbeček<br>
+Urxova 461/13<br>
+779 00 Olomouc<br>
+IČ: 69991090<br>
+Fyzická osoba zapsaná v Živnostenském rejstříku od 12.1.2000<br>
+S.z.: S-SMOL/298925/2019/OZIVN, vedená u Magistrát města Olomouce<br>
+</span><span class="body">
+DIČ: CZ7407305378</span><br>
+<span class="body">
+Č.ú.: 184229490/0600<br>
+<br>
+</span><strong><span class="style3">KONTAKT</span></strong><img src="assets/sidlo.png" style="border: 0px solid ; width: 255px; height: 191px; float: right;" alt="Mapa" align="right"><br>
+<span class="body">Provozovna:<br>
+Řepčínská 35/86</span><br>
+<span class="body">
+areál firmy Moravské železárny, a.s.</span><br>
+<span class="body">
+779 00 Olomouc - Řepčín<br>
+IČP: 1012994091<br>
+<br>
+telefon: +420 777 257 199<br>
+email: info@engineeringpartner.cz<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=%211m14%211m12%211m3%211d557.9580601794225%212d17.23212050876149%213d49.611144324201916%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%215e1%213m2%211scs%212sus%214v1577295235950%215m2%211scs%212sus" style="border: 0pt none ;" allowfullscreen="" frameborder="0" height="450" width="600">
+</iframe></span></div>
+</div>
+<div style="float: left; background-color: white; margin-top: 5px; height: 20px; margin-left: 10px; width: 830px; text-align: center; padding-top: 3px;" id="Zapati"><span class="style5">ENGINEERING
+PARTNER, Ing. Jiří Krbeček, Lazecká 393/70a, 779 00 Olomouc</span>
+</div>
+</div>
+
+</body></html>
+

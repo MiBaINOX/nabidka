@@ -1,0 +1,47 @@
+{
+  "slug": "metal-ryspol",
+  "firma": "METAL RYSPOL s.r.o.",
+  "ico": "26313693",
+  "obec": "Tvrdonice",
+  "okres": "Břeclav",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Zakázková kovovýroba, CNC pálení plazmou, lisování, dělení materiálu, montované ocelové konstrukce a výroba vnitřních i venkovních boxů pro koně a stájových technologií",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://metalryspol.cz",
+  "email": "metalryspol@seznam.cz",
+  "telefon": "+420 721 367 179",
+  "prodejni_body": [
+    "Tradiční česká kovovýroba založená 4. ledna 1994 s vlastním areálem 1 500 m² ve Tvrdonicích u Břeclavi",
+    "Vlajkový program vnitřních i venkovních boxů pro koně – 8 vnitřních modelů a 6 venkovních sestav s certifikovaným žárovým zinkováním ČSN EN ISO 1461",
+    "Vlastní CNC plazmové pálící centrum ES-320 (stůl 1 500 × 3 000 mm, síla plechu 1–25 mm) s dodáním 100% obroušených výpalků bez otřepů",
+    "Komplexní strojní park: výstředníkové lisy LEN (do síly 15 mm), kotoučové pily s aut. podáváním do ø 200 mm a elektrické nůžky",
+    "Výroba montovaných ocelových hal a skladových přístřešků do 300 m² včetně schodišť, mříží a bran",
+    "Prověřené mezinárodní reference: dlouholetý dodavatel přesných komponentů pro OTIS Escalators a přímé obchodní zastoupení v Německu"
+  ],
+  "vady_stareho_webu": [
+    "Absence responzivity a meta viewportu – web se na mobilních zařízeních zobrazoval jako zmenšená nepřehledná tabulka s nutností zoomování",
+    "Zastaralé kódování Windows-1250 v kombinaci s UTF-8 hlavičkami vedoucí k chybnému zobrazení české diakritiky",
+    "Zastaralý tabulkový layout z roku 2009 bez moderní struktury a vizuální hierarchie",
+    "Absence zabezpečeného HTTPS protokolu způsobující bezpečnostní varování v prohlížečích",
+    "Statický katalog bez možnosti interaktivního vyhledávání a filtrování mezi desítkami typů stájových boxů a strojírenských kapacit"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Swiss Bento Grid s čistou typografií, jemnými linkami a přehlednými technologickými dlaždicemi",
+    "100% responzivní mobilní layout s nulovým přetečením (0px overflow) na všech typech displejů včetně chytrých telefonů",
+    "Interaktivní katalog 20 výrobků a výrobních kapacit s okamžitým fulltextovým vyhledáváním a filtrováním dle kategorií",
+    "Technické modální okno (#techModalBackdrop) s kompletními rozměrovými tabulkami a specifikacemi bez zkracování obsahu",
+    "Progresivní čítače klíčových faktů firmy a scroll-reveal animace pro poutavý a profesionální dojem",
+    "Ověřená geolokace s interaktivní mapou Mapy.cz s přesným červeným špendlíkem výrobního areálu ve Tvrdonicích",
+    "Zvýraznění klíčových osob – jednatel Jan Janulík a německý obchodní zástupce Ing. Zbyněk Prokop"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1994,
+    "areal_plocha": "1 500 m²",
+    "max_sila_plazmy": "25 mm",
+    "max_plocha_hal": "300 m²",
+    "pocet_polozek_katalogu": 20,
+    "reklamace": "0 reklamací",
+    "reference": "OTIS Escalators",
+    "adresa": "Slovácká 683, 691 53 Tvrdonice"
+  }
+}

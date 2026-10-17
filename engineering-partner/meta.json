@@ -1,0 +1,81 @@
+{
+  "slug": "engineering-partner",
+  "firma": "Engineering Partner s.r.o.",
+  "ico": "09700668",
+  "dic": "CZ7407305378",
+  "obec": "Olomouc",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Strojírenská výroba & Ocelové konstrukce / Svařované ocelové konstrukce dle ČSN EN 1090-2 a ČSN EN ISO 3834-2, zakázková výroba náhradních dílů, jednoúčelových zařízení, výrobních linek a jejich částí, servis a montáž průmyslových technologií",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://engineeringpartner.cz",
+  "email": "info@engineeringpartner.cz",
+  "telefon": "+420 777 257 199",
+  "jednatel": "Ing. Jiří Krbeček",
+  "adresa_provozovna": "Řepčínská 35/86, areál Moravské železárny, a.s., 779 00 Olomouc - Řepčín",
+  "adresa_sidlo": "Urxova 461/13, 779 00 Olomouc",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Svařované ocelové konstrukce certifikované dle ČSN EN 1090-2 (třídy provádění EXC1 až EXC3) a ČSN EN ISO 3834-2",
+    "Kompletní inženýrský cyklus od návrhu po servis: 3D CAD modely, statické zprávy a FEM pevnostní výpočty metodou konečných prvků",
+    "Vlastní výrobní zázemí v areálu Moravských železáren v Olomouci – Řepčíně s tradicí a praxí od roku 2000 (24+ let zkušeností)",
+    "Zakázková výroba jednoúčelových strojů, manipulátorů, vyklápěcích plošin a sloupových jeřábů",
+    "Modernizace a renovace výrobních linek, pásových a válečkových dopravníkových tratí s integrací PLC a pneumatiky Festo",
+    "Přesné náhradní díly s optimalizací tvaru pro prodloužení životnosti (ozubená kola 42CrMo4, díly z technického plastu POM-C, pryžokov)",
+    "Průmyslový zámečnický servis a montáže technologických uzlů přímo u zákazníka po celé ČR"
+  ],
+  "vady_stareho_webu": [
+    "Web běží pouze na nezabezpečeném protokolu HTTP bez šifrování HTTPS (prohlížeče zobrazují varování 'Nezabezpečeno')",
+    "Absence značky viewport a kompletní chybějící mobilní responzivita (stránka se na telefonech zobrazuje zmenšená a vyžaduje horizontální posun a zoomování)",
+    "Zastaralé kódování Windows-1250 způsobující riziko rozsypané diakritiky v moderních prohlížečích",
+    "Pevný tabulkový layout z počátku 20. století (HTML 4.01) s nulovou podporou moderních UX standardů",
+    "Statická a nepřehledná fotogalerie bez možnosti filtrování, technických specifikací nebo interaktivního detailu realizací",
+    "Nefunkční jazykové přepínače – vlaječky na webu byly pouze statickými obrázky bez skutečných jazykových verzí"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní technický design-systém Tech & Precision s precizní typografií, tmavým industriálním podkladem a jemným glassmorphismem",
+    "Přepínací taby výrobních oborů v horní Hero sekci pro okamžitou orientaci průmyslového zákazníka",
+    "Interaktivní katalog všech 28 realizací s živým filtrováním dle kategorií, fulltextovým vyhledáváním a čítačem položek",
+    "Detailní technické modální okno (#techModalBackdrop) s normami, parametry a tabulkou vlastností každého výrobku",
+    "Stoprocentní mobilní optimalizace s nulovým horizontálním přetečením (0px overflow) na displejích od 360 px",
+    "Přesná geolokace Mapy.cz s červeným špendlíkem zaměřeným na výrobní areál v Moravských železárnách v Olomouci",
+    "Animované čítače praxe a realizací založené výhradně na reálných faktech firmy (24+ let praxe, 28+ realizací, EXC3)",
+    "Architektura připravená na okamžité rozšíření o vícejazyčné mutace EN / DE pro zahraniční odběratele"
+  ],
+  "fakta": {
+    "rok_zahajeni_praxe": 2000,
+    "rok_zalozeni_sro": 2020,
+    "pocet_zdokumentovanych_realizaci": 28,
+    "vyrobni_normy": [
+      "ČSN EN 1090-2 (EXC1–EXC3)",
+      "ČSN EN ISO 3834-2",
+      "ČSN EN ISO 12100",
+      "ČSN EN 13155",
+      "ČSN EN 1570-1",
+      "ČSN EN 619",
+      "ČSN EN 13001"
+    ],
+    "materialy": [
+      "Ocel S235JR až S355J2+N",
+      "Nerezová ocel AISI 304 / AISI 316",
+      "Hliníkové slitiny",
+      "Slitiny mědi (mosaz CuZn39Pb3)",
+      "Zušlechtěná ocel 42CrMo4",
+      "Technický plast POM-C",
+      "Otěruvzdorná ocel Hardox"
+    ],
+    "povrchove_upravy": [
+      "Žárové zinkování dle ČSN EN ISO 1461",
+      "Galvanické zinkování",
+      "Průmyslové nátěrové systémy C3–C5 dle ISO 12944",
+      "Práškové lakování (komaxit dle vzorníku RAL)"
+    ],
+    "gps_provozovna": {
+      "lat": 49.61478,
+      "lon": 17.22688,
+      "adresa": "Řepčínská 35/86, Řepčín, 779 00 Olomouc"
+    }
+  }
+}

@@ -1,0 +1,1044 @@
+{
+  "slug": "lima-okna",
+  "source_url": "http://limaokna.cz",
+  "crawled_pages_count": 55,
+  "crawled_urls": [
+    "https://www.limaokna.cz",
+    "https://www.limaokna.cz/o-nas",
+    "https://www.limaokna.cz/plastova-okna",
+    "https://www.limaokna.cz/plastova-okna/profily",
+    "https://www.limaokna.cz/plastova-okna/kovani-a-kliky",
+    "https://www.limaokna.cz/plastova-okna/typy-oken",
+    "https://www.limaokna.cz/plastova-okna/skla-a-meziskelni-mrizky",
+    "https://www.limaokna.cz/plastova-okna/barevna-provedeni",
+    "https://www.limaokna.cz/plastova-okna/technicka-knihovna-softline",
+    "https://www.limaokna.cz/plastove-dvere",
+    "https://www.limaokna.cz/plastove-dvere/profily-dveri",
+    "https://www.limaokna.cz/plastove-dvere/typy-vstupnich-dveri",
+    "https://www.limaokna.cz/plastove-dvere/typy-balkonovych-dveri",
+    "https://www.limaokna.cz/plastove-dvere/zdvizne-posuvne-dvere-hst",
+    "https://www.limaokna.cz/dverni-vyplne",
+    "https://www.limaokna.cz/dverni-vyplne/designove-sklenene-vyplne",
+    "https://www.limaokna.cz/plastove-dvere/kovani-a-kliky-dveri",
+    "https://www.limaokna.cz/plastove-dvere/skla-vitraze-a-mrizky",
+    "https://www.limaokna.cz/plastove-dvere/skla-a-meziskelni-mrizky-dveri",
+    "https://www.limaokna.cz/plastove-dvere/doplnky-vstupnich-dveri",
+    "https://www.limaokna.cz/aluconnect",
+    "https://www.limaokna.cz/materialy",
+    "https://www.limaokna.cz/stante-se-nasim-odberatelem",
+    "https://www.limaokna.cz/kontakty",
+    "https://www.limaokna.cz/aktuality",
+    "https://www.limaokna.cz/mapa-stranek",
+    "https://www.limaokna.cz/ke-stazeni/pro-partnery",
+    "https://www.limaokna.cz/rss",
+    "https://www.limaokna.cz/stahnout/144",
+    "https://www.limaokna.cz/dverni-vyplne/gava-plast",
+    "https://www.limaokna.cz/dverni-vyplne/vp-trend",
+    "https://www.limaokna.cz/plastove-dvere/barevna-provedeni-dveri",
+    "https://www.limaokna.cz/stahnout/149",
+    "https://www.limaokna.cz/stahnout/1",
+    "https://www.limaokna.cz/ke-stazeni/viewer/80",
+    "https://www.limaokna.cz/ke-stazeni/viewer/77",
+    "https://www.limaokna.cz/ke-stazeni",
+    "https://www.limaokna.cz/ke-stazeni/dokumenty",
+    "https://www.limaokna.cz/obecne",
+    "https://www.limaokna.cz/rozcestnik",
+    "https://www.limaokna.cz/ke-stazeni/pro-partnery#",
+    "https://www.limaokna.cz/rss.php?rss=text",
+    "https://www.limaokna.cz/rss.php?rss=gallery",
+    "https://www.limaokna.cz/rss.php?rss=guestbook",
+    "https://www.limaokna.cz/rss.php?rss=comments",
+    "https://www.limaokna.cz/rss.php?rss=news",
+    "https://www.limaokna.cz/stahnout/80",
+    "https://www.limaokna.cz/stahnout/77",
+    "https://www.limaokna.cz/ke-stazeni/viewer/149",
+    "https://www.limaokna.cz/ke-stazeni/viewer/1",
+    "https://www.limaokna.cz/stahnout/60",
+    "https://www.limaokna.cz/ke-stazeni/viewer/60",
+    "https://www.limaokna.cz/stahnout/61",
+    "https://www.limaokna.cz/ke-stazeni/viewer/61",
+    "https://www.limaokna.cz/"
+  ],
+  "menu_categories": [
+    "Plastová okna",
+    "Plastové dveře",
+    "Zdvižně posuvné dveře HST",
+    "AluConnect",
+    "Profily",
+    "O nás",
+    "Kontakty"
+  ],
+  "downloaded_images_count": 194,
+  "downloaded_images": [
+    {
+      "url": "https://www.limaokna.cz/images/ic/magnifier.png?ver=20241119",
+      "local_file": "magnifier.png",
+      "alt": "magnifier"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/no.png?ver=20241119",
+      "local_file": "no.png",
+      "alt": "no"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/aktuality/0/9_2.jpg",
+      "local_file": "9_2.jpg",
+      "alt": "images/big/aktuality/0/9_2.jpg"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/aktuality/0/8_2.jpg?v=1",
+      "local_file": "8_2.jpg",
+      "alt": "images/big/aktuality/0/8_2.jpg?v=1"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/aktuality/0/7_2.jpg?v=1",
+      "local_file": "7_2.jpg",
+      "alt": "images/big/aktuality/0/7_2.jpg?v=1"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/documents_text.png?ver=20241119",
+      "local_file": "documents_text.png",
+      "alt": "documents_text"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/logoveka__150.jpg",
+      "local_file": "logoveka__150.jpg",
+      "alt": "Veka"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/zaruceneco__150.gif",
+      "local_file": "zaruceneco__150.gif",
+      "alt": "Český výrobek"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/kvalita-tridy-a__150.jpg",
+      "local_file": "kvalita-tridy-a__150.jpg",
+      "alt": "Razítko kvality"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/veka.png",
+      "local_file": "veka.png",
+      "alt": "Veka"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/feed.png?ver=20241119",
+      "local_file": "feed.png",
+      "alt": "RSS"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/print.png?ver=20241119",
+      "local_file": "print.png",
+      "alt": "Vytisknout stránku"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/zarucene-ceska-okna.jpg",
+      "local_file": "zarucene-ceska-okna.jpg",
+      "alt": "Zaručeně česká okna"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/detail-svaru__150.jpg",
+      "local_file": "detail-svaru__150.jpg",
+      "alt": "Detail sváru"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/vyroba.jpg",
+      "local_file": "vyroba.jpg",
+      "alt": "Výroba"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/doprava1.jpg",
+      "local_file": "doprava1.jpg",
+      "alt": "Doprava"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/dodavka.jpg",
+      "local_file": "dodavka.jpg",
+      "alt": "O nás"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/osvedceni-plastove-dvere-70__150.jpg",
+      "local_file": "osvedceni-plastove-dvere-70__150.jpg",
+      "alt": "Certifikát"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/osvedceni-plastove-dvere-82__150.jpg",
+      "local_file": "osvedceni-plastove-dvere-82__150.jpg",
+      "alt": "Certifikát"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/osvedceni-plastove-okna-a-balkon-dvere-70__150.jpg",
+      "local_file": "osvedceni-plastove-okna-a-balkon-dvere-70__150.jpg",
+      "alt": "Certifikát"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/osvedceni-plastove-okna-a-balkon-dvere-82__150.jpg",
+      "local_file": "osvedceni-plastove-okna-a-balkon-dvere-82__150.jpg",
+      "alt": "Certifikát"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/certifikat01__150.jpg",
+      "local_file": "certifikat01__150.jpg",
+      "alt": "Certifikát"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/certifikat02__150.jpg",
+      "local_file": "certifikat02__150.jpg",
+      "alt": "Certifikát"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/certifikat03__150.jpg",
+      "local_file": "certifikat03__150.jpg",
+      "alt": "Certifikát"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/certifikat04__150.jpg",
+      "local_file": "certifikat04__150.jpg",
+      "alt": "Certifikát"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/zkusebna.jpg",
+      "local_file": "zkusebna.jpg",
+      "alt": "Zkušebna"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/logoveka.jpg",
+      "local_file": "logoveka.jpg",
+      "alt": "Logo VEKA"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/zaruceneco.gif",
+      "local_file": "zaruceneco.gif",
+      "alt": "Český výrobek"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/kvalita-tridy-a.jpg",
+      "local_file": "kvalita-tridy-a.jpg",
+      "alt": "Kvalita třídy A"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/o-nas/partner-veka.jpg",
+      "local_file": "partner-veka.jpg",
+      "alt": "Partner Veka"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/vychozi/eu-banner.jpg",
+      "local_file": "eu-banner.jpg",
+      "alt": "EU banner"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/profily/pic8__150.jpg",
+      "local_file": "pic8__150.jpg",
+      "alt": "Plastová okna"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/profily/pic9__150.jpg",
+      "local_file": "pic9__150.jpg",
+      "alt": "Plastová okna"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/profily/softline-82-ad-dvojsklo.jpg",
+      "local_file": "softline-82-ad-dvojsklo.jpg",
+      "alt": "Softline 82 AD dvojsklo"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/profily/softline-82-ad-trosklo.jpg",
+      "local_file": "softline-82-ad-trosklo.jpg",
+      "alt": "Softline 82 AD trosklo"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/okenni-kovani-kliky-2.gif",
+      "local_file": "okenni-kovani-kliky-2.gif",
+      "alt": "Kování"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/okenni-kovani-kliky-p1.jpg",
+      "local_file": "okenni-kovani-kliky-p1.jpg",
+      "alt": "detail závěsů bílého okna"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/okenni-kovani-kliky-p2.jpg",
+      "local_file": "okenni-kovani-kliky-p2.jpg",
+      "alt": "detail závěsů hnědého okna"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/01.jpg",
+      "local_file": "01.jpg",
+      "alt": "Bezpečnostní kování"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/02.jpg",
+      "local_file": "02.jpg",
+      "alt": "Bezpečnostní kování"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/secustik1.jpg",
+      "local_file": "secustik1.jpg",
+      "alt": "Bezpečnostní klika HOPPE Secustik"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/secustik2.jpg",
+      "local_file": "secustik2.jpg",
+      "alt": "Bezpečnostní klika HOPPE Secustik"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/kov_okna1.jpg",
+      "local_file": "kov_okna1.jpg",
+      "alt": "Bílá standardní"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/kov_okna2.jpg",
+      "local_file": "kov_okna2.jpg",
+      "alt": "bílá, uzamykatelná"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/kov_okna3.jpg",
+      "local_file": "kov_okna3.jpg",
+      "alt": "bronz, standardní"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/kovani-kliky/kov_okna4.jpg",
+      "local_file": "kov_okna4.jpg",
+      "alt": "bronz, uzamykatelná"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/okna-typy.gif",
+      "local_file": "okna-typy.gif",
+      "alt": "Typy oken"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/sklo3.gif",
+      "local_file": "sklo3.gif",
+      "alt": "Skla"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/skla.jpg",
+      "local_file": "skla.jpg",
+      "alt": "Teplý distanční rámeček"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/sklo.gif",
+      "local_file": "sklo.gif",
+      "alt": "Druhy skel"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/kura.jpg",
+      "local_file": "kura.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/krizet.jpg",
+      "local_file": "krizet.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/silvit.jpg",
+      "local_file": "silvit.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/delta.jpg",
+      "local_file": "delta.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/madeira.jpg",
+      "local_file": "madeira.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/grepi.jpg",
+      "local_file": "grepi.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/chinchila.jpg",
+      "local_file": "chinchila.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/mrizka.jpg",
+      "local_file": "mrizka.jpg",
+      "alt": "Meziskelní mřížky"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/barevna-provedeni/b_bila.jpg",
+      "local_file": "b_bila.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/barevna-provedeni/b_zdub.jpg",
+      "local_file": "b_zdub.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/barevna-provedeni/b_orech.jpg",
+      "local_file": "b_orech.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/barevna-provedeni/b_tdub.jpg",
+      "local_file": "b_tdub.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/barevna-provedeni/b_mahagon.jpg",
+      "local_file": "b_mahagon.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/barevna-provedeni/b_palisandr.jpg",
+      "local_file": "b_palisandr.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/barevna-provedeni/paleta-odstinu-dekoracnich-folii-veka.jpg",
+      "local_file": "paleta-odstinu-dekoracnich-folii-veka.jpg",
+      "alt": "Paleta odstínů dekoračních fólií VEKA"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/barevna-provedeni/barevna-provedeni.jpg",
+      "local_file": "barevna-provedeni.jpg",
+      "alt": "Barevná provedení"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/technicke-knihovny/veka-softline-82-ad.jpg",
+      "local_file": "veka-softline-82-ad.jpg",
+      "alt": "veka-softline-82-ad.jpg"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/technicke-knihovny/veka-softline-82-md.jpg",
+      "local_file": "veka-softline-82-md.jpg",
+      "alt": "veka-softline-82-md.jpg"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/dverni-kridlo-3-8-mm-s-posuvkou.jpg",
+      "local_file": "dverni-kridlo-3-8-mm-s-posuvkou.jpg",
+      "alt": "Dveřní křídlo"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/dvere-typy-2021.png",
+      "local_file": "dvere-typy-2021.png",
+      "alt": "Typy dveří"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/dvere-svetliky.gif",
+      "local_file": "dvere-svetliky.gif",
+      "alt": "Kombinace s bočními a horními světlíky"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/balkon-dvere-typy.gif",
+      "local_file": "balkon-dvere-typy.gif",
+      "alt": "Typy plastových balkónových dveří a kombinace s okny"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/vekaslide/vekaslide.jpg",
+      "local_file": "vekaslide.jpg",
+      "alt": "Vekaslide"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/vekaslide/vekaslide2.jpg",
+      "local_file": "vekaslide2.jpg",
+      "alt": "Vekaslide"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/vekaslide/vekaslide3.jpg",
+      "local_file": "vekaslide3.jpg",
+      "alt": "Vekaslide"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/01w_1776856220_square.jpg",
+      "local_file": "01w_1776856220_square.jpg",
+      "alt": "01A"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/01k_1776856219_square.jpg",
+      "local_file": "01k_1776856219_square.jpg",
+      "alt": "01B"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/02w_1776856224_square.jpg",
+      "local_file": "02w_1776856224_square.jpg",
+      "alt": "02A"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/02k_1776856222_square.jpg",
+      "local_file": "02k_1776856222_square.jpg",
+      "alt": "02B"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/03w_1776856228_square.jpg",
+      "local_file": "03w_1776856228_square.jpg",
+      "alt": "03A"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/03k_1776856226_square.jpg",
+      "local_file": "03k_1776856226_square.jpg",
+      "alt": "03B"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/04w_1776856232_square.jpg",
+      "local_file": "04w_1776856232_square.jpg",
+      "alt": "04A"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/04k_1776856229_square.jpg",
+      "local_file": "04k_1776856229_square.jpg",
+      "alt": "04B"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/05w_1776856235_square.jpg",
+      "local_file": "05w_1776856235_square.jpg",
+      "alt": "05A"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/05k_1776856233_square.jpg",
+      "local_file": "05k_1776856233_square.jpg",
+      "alt": "05B"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/06w_1776856238_square.jpg",
+      "local_file": "06w_1776856238_square.jpg",
+      "alt": "06A"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/06k_1776856237_square.jpg",
+      "local_file": "06k_1776856237_square.jpg",
+      "alt": "06B"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/07w_1776856242_square.jpg",
+      "local_file": "07w_1776856242_square.jpg",
+      "alt": "07A"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/07k_1776856240_square.jpg",
+      "local_file": "07k_1776856240_square.jpg",
+      "alt": "07B"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/08w_1776856245_square.jpg",
+      "local_file": "08w_1776856245_square.jpg",
+      "alt": "Vlastní návrh"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//designove-sklenene-vyplne/08k_1776856243_square.jpg",
+      "local_file": "08k_1776856243_square.jpg",
+      "alt": "Vlastní návrh"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/i_29.jpg",
+      "local_file": "i_29.jpg",
+      "alt": "Kování"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/i_40.jpg",
+      "local_file": "i_40.jpg",
+      "alt": "Zámek"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/i_41.jpg",
+      "local_file": "i_41.jpg",
+      "alt": "Zámek"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/i_42.jpg",
+      "local_file": "i_42.jpg",
+      "alt": "Dveřní závěsy"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/klika-bila-new.jpg",
+      "local_file": "klika-bila-new.jpg",
+      "alt": "klika bílá standard bezpečnostní"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/klika-stribrna-new.jpg",
+      "local_file": "klika-stribrna-new.jpg",
+      "alt": "klika stříbrná standard bezpečnostní"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/klika-bronzova-new.jpg",
+      "local_file": "klika-bronzova-new.jpg",
+      "alt": "klika bronz standard bezpečnostní"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/koule-bila-new.jpg",
+      "local_file": "koule-bila-new.jpg",
+      "alt": "koule bílá standard bezpečnostní"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/koule-stribrna-new.jpg",
+      "local_file": "koule-stribrna-new.jpg",
+      "alt": "koule stříbrná standard bezpečnostní"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/koule-bronzova-new.jpg",
+      "local_file": "koule-bronzova-new.jpg",
+      "alt": "koule bronz standard bezpečnostní"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/kovani-kliky/madlo-p.jpg",
+      "local_file": "madlo-p.jpg",
+      "alt": "madlo P standard bezpečnostní"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/chinchila.jpg",
+      "local_file": "chinchila.jpg",
+      "alt": "chinchila"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/krizet.jpg",
+      "local_file": "krizet.jpg",
+      "alt": "krizet (listral)"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/altdeutsch.jpg",
+      "local_file": "altdeutsch.jpg",
+      "alt": "altdeutsch"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/silvit.jpg",
+      "local_file": "silvit.jpg",
+      "alt": "silvit"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/kura.jpg",
+      "local_file": "kura.jpg",
+      "alt": "kůra čirá"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/delta.jpg",
+      "local_file": "delta.jpg",
+      "alt": "delta"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/delta_mat.jpg",
+      "local_file": "delta_mat.jpg",
+      "alt": "delta mat"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/madeira.jpg",
+      "local_file": "madeira.jpg",
+      "alt": "madeira"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/grepi.jpg",
+      "local_file": "grepi.jpg",
+      "alt": "grepi (arena)"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/linea.jpg",
+      "local_file": "linea.jpg",
+      "alt": "linea"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/colora.jpg",
+      "local_file": "colora.jpg",
+      "alt": "colora"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/crystal.jpg",
+      "local_file": "crystal.jpg",
+      "alt": "crystal"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/finesa.jpg",
+      "local_file": "finesa.jpg",
+      "alt": "finesa"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/skla-mrizky/fussing.jpg",
+      "local_file": "fussing.jpg",
+      "alt": "fussing"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/skla-mrizky/kura_bronz.jpg",
+      "local_file": "kura_bronz.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/doplnky/madlo.jpg",
+      "local_file": "madlo.jpg",
+      "alt": "madlo"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/doplnky/stavec.jpg",
+      "local_file": "stavec.jpg",
+      "alt": "dveřní stavěč"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/doplnky/elzamek.jpg",
+      "local_file": "elzamek.jpg",
+      "alt": "elektrický zámek"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/doplnky/samozavirac.jpg",
+      "local_file": "samozavirac.jpg",
+      "alt": "samozavírač"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/doplnky/kukatko.jpg",
+      "local_file": "kukatko.jpg",
+      "alt": "kukátko (bronz)"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/doplnky/kukatko_chrom.jpg",
+      "local_file": "kukatko_chrom.jpg",
+      "alt": "kukátko (chrom)"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/doplnky/vhoz_bily.gif",
+      "local_file": "vhoz_bily.gif",
+      "alt": "poštovní vhoz (bílý)"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/doplnky/vhoz_zlaty.gif",
+      "local_file": "vhoz_zlaty.gif",
+      "alt": "poštovní vhoz (zlatý)"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/aluconnect/aluconnect-09.png",
+      "local_file": "aluconnect-09.png",
+      "alt": "VEKA AluConnect"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/aluconnect/aluconnect-02__550.jpg",
+      "local_file": "aluconnect-02__550.jpg",
+      "alt": "AluConnect"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastova-okna/aluconnect/aluconnect-01.jpg",
+      "local_file": "aluconnect-01.jpg",
+      "alt": "aluconnect-01.jpg"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//aluconnect/aluconnect-03_1730463444_square.jpg",
+      "local_file": "aluconnect-03_1730463444_square.jpg",
+      "alt": "AluConnect"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//aluconnect/aluconnect-04_1730463445_square.jpg",
+      "local_file": "aluconnect-04_1730463445_square.jpg",
+      "alt": "AluConnect"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//aluconnect/aluconnect-05_1730463445_square.jpg",
+      "local_file": "aluconnect-05_1730463445_square.jpg",
+      "alt": "AluConnect"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//aluconnect/aluconnect-06_1730463445_square.jpg",
+      "local_file": "aluconnect-06_1730463445_square.jpg",
+      "alt": "AluConnect"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//aluconnect/aluconnect-07_1730463445_square.jpg",
+      "local_file": "aluconnect-07_1730463445_square.jpg",
+      "alt": "AluConnect"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//aluconnect/aluconnect-08_1730463445_square.jpg",
+      "local_file": "aluconnect-08_1730463445_square.jpg",
+      "alt": "AluConnect"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/galerie//aluconnect/aluconnect-10_1730463445_square.jpg",
+      "local_file": "aluconnect-10_1730463445_square.jpg",
+      "alt": "AluConnect"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/pic_kovani.jpg",
+      "local_file": "pic_kovani.jpg",
+      "alt": "Kování"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/pic_kovani2.gif",
+      "local_file": "pic_kovani2.gif",
+      "alt": "Kování"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/sklo3.gif",
+      "local_file": "sklo3.gif",
+      "alt": "Sklo"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/skla.jpg",
+      "local_file": "skla.jpg",
+      "alt": "Skla"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/sklo.gif",
+      "local_file": "sklo.gif",
+      "alt": "Dvojsklo"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/kura.jpg",
+      "local_file": "kura.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/krizet.jpg",
+      "local_file": "krizet.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/silvit.jpg",
+      "local_file": "silvit.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/delta.jpg",
+      "local_file": "delta.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/madeira.jpg",
+      "local_file": "madeira.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/grepi.jpg",
+      "local_file": "grepi.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/chinchila.jpg",
+      "local_file": "chinchila.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/materialy/pic_okna_mrize.gif",
+      "local_file": "pic_okna_mrize.gif",
+      "alt": "Meziskelní mřížky"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/alert.png?ver=20241119",
+      "local_file": "alert.png",
+      "alt": "alert"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/lock.png",
+      "local_file": "lock.png",
+      "alt": "lock.png"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/inf.png",
+      "local_file": "inf.png",
+      "alt": "inf.png"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/aktuality/0/6_2.jpg",
+      "local_file": "6_2.jpg",
+      "alt": "images/big/aktuality/0/6_2.jpg"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/aktuality/0/5_2.jpg?v=1",
+      "local_file": "5_2.jpg",
+      "alt": "images/big/aktuality/0/5_2.jpg?v=1"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/aktuality/0/4_2.jpg?v=1",
+      "local_file": "4_2.jpg",
+      "alt": "images/big/aktuality/0/4_2.jpg?v=1"
+    },
+    {
+      "url": "https://www.limaokna.cz/aktuality",
+      "local_file": "img_163.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/aktuality/0/2_2.jpg",
+      "local_file": "2_2.jpg",
+      "alt": "images/big/aktuality/0/2_2.jpg"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/aktuality/0/1_2.jpg?v=1",
+      "local_file": "1_2.jpg",
+      "alt": "images/big/aktuality/0/1_2.jpg?v=1"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/home.png?ver=20241119",
+      "local_file": "home.png",
+      "alt": "home"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/folder_zipper.png?ver=20241119",
+      "local_file": "folder_zipper.png",
+      "alt": "folder_zipper"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/key.png?ver=20241119",
+      "local_file": "key.png",
+      "alt": "Obsah je chráněn heslem"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/folder_open_document_text.png?ver=20241119",
+      "local_file": "folder_open_document_text.png",
+      "alt": "folder_open_document_text"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava_logo.png",
+      "local_file": "gava_logo.png",
+      "alt": "Gava Plast logo"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-500-irish.jpg",
+      "local_file": "gava-500-irish.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-681.jpg",
+      "local_file": "gava-681.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-701.jpg",
+      "local_file": "gava-701.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-754.jpg",
+      "local_file": "gava-754.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-761.jpg",
+      "local_file": "gava-761.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-762l.jpg",
+      "local_file": "gava-762l.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-763.jpg",
+      "local_file": "gava-763.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-775.jpg",
+      "local_file": "gava-775.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-902.jpg",
+      "local_file": "gava-902.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-903.jpg",
+      "local_file": "gava-903.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-907-alaba-inv.jpg",
+      "local_file": "gava-907-alaba-inv.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-912.jpg",
+      "local_file": "gava-912.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-913l.jpg",
+      "local_file": "gava-913l.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-914.jpg",
+      "local_file": "gava-914.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-916.jpg",
+      "local_file": "gava-916.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-917l.jpg",
+      "local_file": "gava-917l.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-919l.jpg",
+      "local_file": "gava-919l.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-929l.jpg",
+      "local_file": "gava-929l.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-953l.jpg",
+      "local_file": "gava-953l.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-990.jpg",
+      "local_file": "gava-990.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-990-anthrazit.jpg",
+      "local_file": "gava-990-anthrazit.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/gava-plast/gava-995.jpg",
+      "local_file": "gava-995.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/vp-trend/vp-trend-vyplne__850.jpg",
+      "local_file": "vp-trend-vyplne__850.jpg",
+      "alt": "VP Trend"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/clanky/plastove-dvere/vp-trend/vp-trend-vyplne-2__850.jpg",
+      "local_file": "vp-trend-vyplne-2__850.jpg",
+      "alt": "VP Trend"
+    },
+    {
+      "url": "https://www.limaokna.cz/soubory/dokumenty/obrazek.png",
+      "local_file": "obrazek.png",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/soubory/dokumenty/bez-nazvu1.jpg",
+      "local_file": "bez-nazvu1.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://www.limaokna.cz/images/ic/folder.png?ver=20241119",
+      "local_file": "folder.png",
+      "alt": "folder"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/text/0/32_2.jpg",
+      "local_file": "32_2.jpg",
+      "alt": "Staňte se naším odběratelem"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/text/0/3_2.jpg?ver=1",
+      "local_file": "3_2.jpg",
+      "alt": "O nás"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/text/0/4_2.jpg?ver=1",
+      "local_file": "4_2.jpg",
+      "alt": "Materiály"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/text/0/5_2.jpg?ver=1",
+      "local_file": "5_2.jpg",
+      "alt": "Kontakty"
+    },
+    {
+      "url": "https://www.limaokna.cz/images/big/text/0/1_2.jpg?ver=2",
+      "local_file": "1_2.jpg",
+      "alt": "LIMA okna"
+    }
+  ]
+}

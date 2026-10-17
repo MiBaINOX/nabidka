@@ -1,0 +1,53 @@
+{
+  "slug": "lima-okna",
+  "firma": "LIMA okna s.r.o.",
+  "ico": "29186633",
+  "dic": "CZ29186633",
+  "obec": "Hodonín",
+  "cast_obce": "Hodonín",
+  "ulice": "U Elektrárny 3030/1",
+  "psc": "695 01",
+  "okres": "Hodonín",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Výroba a montáž oken a dveří / Výrobce plastových a hliníkových oken, vchodových i balkonových dveří, posuvných HS portálů z profilových systémů VEKA Softline 82 a Softline 76, celoobvodového kování MACO Multi-Matic a izolačních trojskel",
+  "archetyp": "Corporate Portal",
+  "stary_web": "http://limaokna.cz",
+  "email": "info@limaokna.cz",
+  "telefon": "+420 518 670 700",
+  "vady_stareho_webu": [
+    "Nezabezpečené připojení pouze přes HTTP bez SSL/TLS šifrování (moderní prohlížeče označují web jako Nebezpečný)",
+    "Absence značky meta viewport – web není responzivní a na chytrých telefonech vyžaduje nepohodlné zoomování a horizontální posun",
+    "Zastaralý fixní layout redakčního systému CalmCube z let 2010–2014 s drobným písmem a nepřehlednou strukturou",
+    "Technická knihovna a parametry profilů byly skryty za nefunkčními skripty bez možnosti pohodlného filtrování a porovnání"
+  ],
+  "vylepseni_noveho_webu": [
+    "Reprezentativní korporátní portál ve stylu Hakov s horní lištou certifikátů a přehlednou navigací",
+    "Interaktivní katalog 8 profilových řad oken, dveří, HST portálů a AluConnect s živým vyhledáváním a filtrem kategorií",
+    "Technická modální okna (#techModalBackdrop) s kompletními tabulkami parametrů (stavební hloubka, komory, Uw, Ug, Uf, kování MACO)",
+    "Moderní sekce technologie ContourLine s neviditelným detailem svaru a prezentací CNC výroby Pressta-Eisele",
+    "100% mobilní responzivita s 0px přetečením na všech zařízeních, zoom-on-hover a plynulými animacemi",
+    "Ověřená adresa výrobního závodu s interaktivním Mapy.cz špendlíkem a kontakty na pobočky Hodonín, Boskovice a Praha"
+  ],
+  "prodejni_body": [
+    "Ryzí český výrobce s vlastní moderní CNC výrobou na 2 automatizovaných linkách v Hodoníně od roku 2009",
+    "Použití výhradně německých 7komorových profilů VEKA nejvyšší třídy A dle DIN EN 12608 s tloušťkou stěn 3,0 mm",
+    "Inovativní technologie ContourLine se skrytým rohovým svarem profilů bez nutnosti retušování perem",
+    "Prvotřídní rakouské celoobvodové kování MACO Multi-Matic s mikroventilací, zvedačem křídla a bezpečnostními čepy",
+    "Izolační trojskla českých výrobců AKUTERM a IZOS plněná argonem s teplým nerezovým distančním rámečkem (Uw až 0,73 W/m²K)",
+    "Vlastní vozový park pro bezplatný a bezpečný závoz zakázek odběratelům po celé ČR"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2009,
+    "vyrobni_areal": "U Elektrárny 3030/1, 695 01 Hodonín",
+    "vyrobni_linky": "2 moderní linky s CNC automatizací Pressta - Eisele ČS s.r.o.",
+    "klicova_technologie": "ContourLine pro svařování profilů se skrytým detailem svaru",
+    "profilovy_partner": "VEKA AG (třída A dle DIN EN 12608 / RAL GKF, ISO 9001)",
+    "kovani": "Celoobvodové kování MACO Multi-Matic s mikroventilací + vícebodové zámky GU-SECURY Automatic",
+    "zaskleni": "Izolační dvojskla a trojskla AKUTERM a IZOS s teplým rámečkem (Ug = 0,5 až 1,1 W/m²K)",
+    "certifikace": "Zkušebna stavebně truhlářských výrobků Zlín (CSI a.s.), Zaručeně česká okna, CE prohlášení o shodě",
+    "pobocky": "Výrobní závod Hodonín, vzorková prodejna Štefánikova Hodonín, obchodní zastoupení Boskovice, zastoupení Praha"
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}
