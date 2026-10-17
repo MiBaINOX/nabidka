@@ -1,0 +1,41 @@
+{
+  "slug": "sverten",
+  "firma": "SVERTEN s.r.o.",
+  "ico": "03070662",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Stavební stínicí technika / Výroba, dodávka a montáž venkovní stínicí techniky (venkovní hliníkové žaluzie Z90, C80, předokenní rolety, screenové rolety a textilní clony, kazetové markýzy, sítě proti hmyzu, motorizace Somfy)",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://sverten.cz",
+  "email": "dostal@sverten.cz",
+  "prodejni_body": [
+    "Kompletní dodávka a odborná montáž venkovní stínicí techniky v Brně a Jihomoravském kraji s tradicí od roku 2014",
+    "Špičkové venkovní žaluzie Z90 a C80, zateplené předokenní rolety a větruodolné ZIP screeny s motorizací Somfy io-homecontrol",
+    "Nejvyšší třída větruodolnosti 6 dle ČSN EN 13659 (do 90–120 km/h) a snížení nákladů na chlazení až o 71 %"
+  ],
+  "vady_stareho_webu": [
+    "Web běží na nezabezpečeném protokolu HTTP bez SSL/TLS šifrování (prohlížeč zobrazuje varování Nezabezpečeno)",
+    "Absence meta viewport – web není responzivní a na chytrých telefonech vyžaduje horizontální posun a zoomování",
+    "Zastaralý jednostránkový inPage layout z roku 2014 bez interaktivního katalogu, technických specifikací a konfigurátoru",
+    "Chybějící podrobné technické parametry lamel, tříd větruodolnosti ČSN EN a možností inteligentního řízení Somfy"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní Swiss Bento Grid design s čistým světlým pozadím, asymetrickým rozvržením a jemnými oddělovacími linkami",
+    "Interaktivní katalog 6 certifikovaných systémů stínění s filtrováním a technickým modálním oknem (#techModalBackdrop)",
+    "Oborový konfigurátor a průvodce výběrem optimálního stínění dle typu objektu, priorit a způsobu ovládání",
+    "Přehledová porovnávací matice parametrů lamel, rozměrů, úspor a norem ČSN EN 13659 s responzivním wrapperem",
+    "Ověřená adresa sídla v Brně-Husovicích s Mapy.cz widgetem a přesným červeným špendlíkem dle RÚIAN"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2014,
+    "sidlo": "Skryjova 1606/8, Husovice, 614 00 Brno",
+    "jednatel": "Vladimír Dostál (+420 737 256 063)",
+    "spisova_znacka": "C 83522 vedená u Krajského soudu v Brně",
+    "certifikace": "ČSN EN 13659 (třída větru 6), ČSN EN 13561, Somfy io-homecontrol",
+    "pocet_systemu": 6
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

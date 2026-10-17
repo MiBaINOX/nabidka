@@ -1,0 +1,49 @@
+{
+  "slug": "schubert-elpremo",
+  "firma": "Schubert & Elpremo, spol. s r.o.",
+  "ico": "04844777",
+  "obec": "Javorník",
+  "okres": "Jeseník",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Elektrotechnická výroba & Kabelová konfekce / Zakázková výroba kabelových svazků, kabelová konfekce, stříhání a odplášťování vodičů, lisování kontaktů (krimpování), pájení, montáž elektrotechnických modulů a rozvaděčů pro strojírenství a automotive, elektrické testování na testerech CableEye a Cirris, certifikace ISO 9001.",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://schubert-elpremo.cz",
+  "email": "info@schubert-elpremo.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Výroba kabelových svazků a kabelová konfekce v Javorníku dle normy IPC/WHMA A-620",
+    "Automatické stříhání, odplášťování vodičů 0,08 až 35 mm² a strojní krimpování kontaktů",
+    "100% výstupní elektrická kontrola zapojení na testerech CableEye a Cirris s protokolem",
+    "Zakázková výroba rozvaděčů nízkého napětí do 4000 A včetně kusových zkoušek a CE",
+    "Inženýring a projektování v moderním CAE systému EPLAN Electric P8",
+    "Zavedený certifikovaný systém řízení jakosti dle ČSN EN ISO 9001:2016"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez platného SSL/TLS certifikátu",
+    "Chybějící meta viewport – web se nezobrazuje responzivně na mobilních telefonech",
+    "Zastaralý tabulkový layout z počátku tisíciletí s kódováním windows-1250",
+    "Absence interaktivního katalogu technologií a parametrů strojního parku",
+    "Chybějící fotogalerie reálné výroby a zkušebního pracoviště",
+    "Nefunkční nebo zastaralý kontaktní formulář bez validací"
+  ],
+  "vylepseni_noveho_webu": [
+    "Designový archetyp Editorial & Story s autentickým vyprávěním tradice v Javorníku",
+    "Interaktivní katalog 12 výrobních a technologických kapacit s vyhledáváním a filtry",
+    "Detailní technické modální okno s parametry, normami IPC/ČSN EN a tabulkami",
+    "100% mobilní responzivita s nulovým přetečením na všech zařízeních od 360 px",
+    "Autentické velkoformátové fotografie z provozu a interaktivní časová osa rozvoje",
+    "Plovoucí statistické boxy, animované čítače z reálných dat firmy a scroll animace",
+    "Ověřená adresa Puškinova 16 s přesným červeným špendlíkem Mapy.cz přes RÚIAN"
+  ],
+  "fakta": {
+    "rok_fúze": 2016,
+    "tradice_let": "30+",
+    "certifikace": "ISO 9001:2016, IPC/WHMA A-620",
+    "merici_body": 256,
+    "pruřezy_vodičů": "0,08 až 35 mm²",
+    "sidlo": "Puškinova 16, 790 70 Javorník",
+    "vedeni": "Vladimír Kočí, Vladimír Schubert"
+  }
+}

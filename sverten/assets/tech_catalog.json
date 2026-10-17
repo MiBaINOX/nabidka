@@ -1,0 +1,190 @@
+[
+  {
+    "id": "zaluzie-z90",
+    "name": "Venkovní hliníková žaluzie Z90",
+    "category": "venkovni-zaluzie",
+    "category_name": "Venkovní žaluzie",
+    "image": "assets/4293.jpg",
+    "badge": "Vlajková loď – Nejvyšší odolnost",
+    "slat_shape": "Profil Z (90 mm)",
+    "wind_class": "Třída 6 dle ČSN EN 13659",
+    "energy_saving": "Až 71 % úspory nákladů na chlazení",
+    "short_desc": "Technologický etalon venkovního stínění. Lamely ve tvaru písmene Z s vlisovaným pryžovým těsněním zaručují téměř dokonalé zatemnění a mimořádně tichý chod.",
+    "full_desc": "Venkovní žaluzie Z90 představuje nejžádanější typ exteriérového stínění pro moderní rodinné domy, vily i administrativní budovy. Lamely o šířce 90 mm mají prolamovaný profil ve tvaru písmene Z se zapresovaným tlumicím profilem, který eliminuje rezonance při nárazech větru. Při dovření do sebe lamely těsně zapadají a vytváří kompaktní plochu s minimálním průsvitem světla. Systém efektivně odráží sluneční paprsky ještě před dopadem na okenní tabuli, čímž výrazně snižuje teplotu v interiéru bez nutnosti energeticky náročné klimatizace.",
+    "specs": {
+      "Šířka lamely": "90 mm (hliníková slitina tl. 0,42 mm)",
+      "Tvar lamely": "Profil Z s vlisovaným těsnicím profilem",
+      "Maximální šířka": "5 000 mm",
+      "Maximální výška": "5 000 mm",
+      "Maximální plocha": "16 m² (při motorickém pohonu)",
+      "Odolnost proti větru": "Třída 6 dle ČSN EN 13659 (až 90 km/h)",
+      "Koeficient stínění Fc": "0,08 (redukce tepelného zisku o 92 %)",
+      "Vodicí lišty": "Extrudovaný hliník 20×20 mm s kartáčkem",
+      "Horní profil": "Pozinkovaný ocelový plech 56×58 mm",
+      "Motorizace": "Somfy io-homecontrol s integrovanou detekcí překážek"
+    },
+    "features": [
+      "Vlisované pryžové těsnění pro maximální akustický komfort a dokonalé dovírání",
+      "Plynulé plynulé naklápění lamel v rozsahu 0° až 90° pro přesnou regulaci světla",
+      "Ochrana nábytku a podlah před blednutím působením UV záření",
+      "Kompatibilita s chytrou domácností Somfy TaHoma a větrnými sensory Eolis",
+      "Široká paleta 24 standardních odstínů RAL a eloxovaných povrchů"
+    ]
+  },
+  {
+    "id": "zaluzie-c80",
+    "name": "Venkovní hliníková žaluzie C80",
+    "category": "venkovni-zaluzie",
+    "category_name": "Venkovní žaluzie",
+    "image": "assets/4294.jpg",
+    "badge": "Designová klasika s oblými tvary",
+    "slat_shape": "Profil C (80 mm)",
+    "wind_class": "Třída 4 dle ČSN EN 13659",
+    "energy_saving": "Až 68 % úspory energie",
+    "short_desc": "Oblíbená žaluzie s elegantním zaobleným tvarem lamel ve tvaru písmene C. Nabízí možnost plynulého oboustranného naklápění pro perfektní distribuci denního světla.",
+    "full_desc": "Exteriérová žaluzie C80 se vyznačuje jemným a elegantním vzhledem díky oblému profilu lamel. Zahnuté okraje lamel zajišťují vysokou tvarovou stálost a stabilitu i při větších šířkách oken. Významnou předností systému C80 je schopnost oboustranného naklápění lamel, což umožňuje směrovat odražené světlo na strop a přirozeně prosvětlit hlubší části místnosti bez nepříjemného oslnění obrazovek či monitorů.",
+    "specs": {
+      "Šířka lamely": "80 mm (válcovaný hliník se zaobleným lemem)",
+      "Tvar lamely": "Zaoblený profil C se záhybem",
+      "Maximální šířka": "5 000 mm",
+      "Maximální výška": "4 500 mm",
+      "Maximální plocha": "14 m²",
+      "Odolnost proti větru": "Třída 4 dle ČSN EN 13659 (do 60 km/h)",
+      "Naklápění lamel": "Oboustranné naklápění 180°",
+      "Vedení žaluzie": "Hliníkové vodicí lišty nebo poplastované lanko Ø 3,2 mm",
+      "Krycí plechy": "Hliníkové ohybané plechy tl. 1,5 až 2,0 mm",
+      "Pohon": "Elektromotor Somfy 230 V nebo manuální klika"
+    },
+    "features": [
+      "Oboustranné naklápění pro optimální difuzní osvětlení pracovních ploch",
+      "Zaoblené hrany lamel šetrné k textilním páskám a vodícím prvkům",
+      "Možnost vedení v ocelovém lanku pro subtilní architektonický vzhled",
+      "Spolehlivý chod a dlouhá životnost komponent odolných vůči korozi",
+      "Dodávka včetně zaomítacích či přiznaných krycích schránek"
+    ]
+  },
+  {
+    "id": "rolety-predokenni",
+    "name": "Předokenní hliníková roleta s PUR výplní",
+    "category": "predokenni-rolety",
+    "category_name": "Předokenní rolety",
+    "image": "assets/4296.jpg",
+    "badge": "Tepelná & Zvuková izolace",
+    "slat_shape": "Dvoustěnná lamela AL 39/45",
+    "wind_class": "Třída 6 dle ČSN EN 13659",
+    "energy_saving": "Snížení tepelných ztrát v zimě až o 25 %",
+    "short_desc": "Robustní roletový systém s dvouplášťovou hliníkovou lamelou vyplněnou polyuretanovou pěnou. Poskytuje komplexní ochranu proti chladu, hluku i nevítaným návštěvníkům.",
+    "full_desc": "Předokenní hliníkové rolety představují nepřekonatelnou tepelnou bariéru pro chladné měsíce i horká léta. Vzduchový polštář mezi staženou roletou a sklem okna vytváří dodatečnou izolační vrstvu, která výrazně snižuje prostup tepla. Lamely jsou vyplněny hustou PUR pěnou bez obsahu freonů, což zajišťuje vynikající akustický útlum (až 10 dB). Speciální protizdvihové pružiny v horním boxu brání násilnému nadzvednutí pancíře zvenčí, čímž zásadně zvyšují bezpečnost objektu.",
+    "specs": {
+      "Výška lamely": "39 mm nebo 45 mm (krycí výška)",
+      "Výplň lamel": "Vysokohustotní polyuretanová PUR pěna bez CFC",
+      "Maximální šířka": "3 000 mm (pro profil 39 mm) / 3 700 mm (pro 45 mm)",
+      "Maximální výška": "3 500 mm",
+      "Akustický útlum": "až 10 dB (ČSN EN ISO 717-1)",
+      "Tepelný odpor": "ΔR = 0,22 m²·K/W",
+      "Provedení boxu": "Zkosený 45°, půlkulatý nebo podomítkový zaomítací box",
+      "Zabezpečení": "Automatické protizdvihové pružiny / aretace",
+      "Pohon": "Motor Somfy s funkcí rozpoznání překážek a přimrznutí"
+    },
+    "features": [
+      "Znatelná úspora nákladů na vytápění v zimním období a chlazení v létě",
+      "Vysoká mechanická odolnost proti vloupání a vandalizmu",
+      "Účinná zvuková izolace proti hluku z frekventovaných silnic a ulic",
+      "Možnost integrovat rolovací síť proti hmyzu přímo do jednoho boxu",
+      "Dlouhá životnost díky práškovému lakování v certifikaci Qualicoat"
+    ]
+  },
+  {
+    "id": "screen-zip",
+    "name": "Screenová textilní clona ZIP Screen",
+    "category": "screenove-rolety",
+    "category_name": "Screenové rolety",
+    "image": "assets/4297.jpg",
+    "badge": "Odolnost větru do 120 km/h",
+    "slat_shape": "ZIP zámek ve vodítku",
+    "wind_class": "Třída 6 dle ČSN EN 13659",
+    "energy_saving": "Filtrace až 95 % sluneční energie",
+    "short_desc": "Moderní venkovní látková clona s technologií ZIP zámku v bočních lištách. Zadrží sluneční teplo, odolá prudkému vichru a zachová přirozený výhled do zahrady.",
+    "full_desc": "ZIP Screen rolety patří mezi nejmodernější architektonická řešení velkých prosklených ploch a moderních pasivních domů. Textilie je po celé své výšce opatřena speciálním zipem, který se pevně pohybuje v drážce hliníkové vodicí lišty. Díky tomu je tkanina dokonale napnutá po celé ploše a systém bezpečně snese nárazy větru o rychlosti až 120 km/h. Prémiové tkaniny Serge a Soltis kombinují skelné nebo polyesterové jádro s PVC nánosem, čímž pohlcují až 95 % tepelného záření a přitom umožňují příjemný kontakt s okolím.",
+    "specs": {
+      "Technologie vedení": "Uzavřený ZIP zámek ve vodítku s nerezovými tlumicími pery",
+      "Použité tkaniny": "Serge 600 (skelné vlákno/PVC) / Soltis 92 (předepjatý polyester)",
+      "Maximální šířka": "6 000 mm",
+      "Maximální výška": "5 000 mm",
+      "Maximální plocha": "18 m² na jeden modul",
+      "Odolnost proti větru": "Až 120 km/h (extrémní větrová třída 6)",
+      "Faktor stínění": "Filtrace 90–97 % slunečního záření a UV paprsků",
+      "Rozměr boxu": "Kompaktní hliníkový box 95 mm / 125 mm",
+      "Spodní zátěžová lišta": "Extrudovaný hliník se skrytým ocelovým závažím",
+      "Ovládání": "Rádiový motor Somfy io s automatickou korekcí napnutí látky"
+    },
+    "features": [
+      "Extrémní stabilita ve větru – nevypadává z vodítek ani při silném vichru",
+      "Funguje současně jako spolehlivá bariéra proti obtížnému hmyzu",
+      "Zachovává výhled z interiéru ven a eliminuje skleníkový efekt",
+      "Kompaktní box vhodný pro dodatečnou montáž i skrytou fasádní integraci",
+      "Stálobarevné a nehořlavé tkaniny odolné proti vodě i plísním"
+    ]
+  },
+  {
+    "id": "markyzy-kazetove",
+    "name": "Kazetová terasová markýza",
+    "category": "markyzy",
+    "category_name": "Markýzy",
+    "image": "assets/4298.jpg",
+    "badge": "Celohliníková ochrana látky",
+    "slat_shape": "Kloubová ramena Flyer",
+    "wind_class": "Třída 2–3 dle ČSN EN 13561",
+    "energy_saving": "Stínění teras a velkých prosklení",
+    "short_desc": "Prémiová celokazetová markýza pro zastínění teras, balkonů a venkovních posezení. Při zatažení je látka i skládací ramena hermeticky uzavřena v elegantním hliníkovém pouzdře.",
+    "full_desc": "Celokazetová markýza SVERTEN je ideálním řešením pro komfortní pobyt na terase i v nejteplejších letních dnech. Konstrukce z tlakově litého a extrudovaného hliníku poskytuje nekompromisní pevnost. Vysoce odolná kloubová ramena jsou vybavena speciálními ocelovými řetězy Flyer pro rovnoměrné a silné napnutí potahu. V zataženém stavu těsnicí profil kazety kompletně izoluje látku i pohon před deštěm, sněhem, prachem a UV zářením, což několikanásobně prodlužuje životnost celé soustavy.",
+    "specs": {
+      "Konstrukce": "Extrudovaná celouzavřená hliníková kazeta se stříškou",
+      "Typ ramen": "Kloubová hliníková ramena s nerezovým řetězem Flyer",
+      "Maximální šířka": "6 500 mm (až 12 000 mm při spřažení)",
+      "Maximální výsuv": "3 500 mm",
+      "Nastavitelný sklon": "Plynule nastavitelný úhel 5° až 40°",
+      "Potahová látka": "100% akrylátová tkanina s teflonovou nano-impregnací",
+      "Vodotěsnost potahu": "Vodní sloupec > 350 mm (ochrana proti letnímu dešti)",
+      "Povrchová úprava": "Práškový lak IGP / Tiger s vysokou odolností proti otěru",
+      "Ovládání a senzory": "Motor Somfy s dálkovým ovladačem a otřesovým čidlem 3D Eolis"
+    },
+    "features": [
+      "Hermetické uzavření kazety chrání látku před nepřízní počasí po celý rok",
+      "Špičková nano-ochrana potahu odpuzuje vodu, mastnotu a prachové částice",
+      "Bezdrátový otřesový senzor Somfy automaticky zatáhne markýzu při nebezpečném větru",
+      "Volitelný integrovaný LED světelný pás v ramenou s regulací intenzity",
+      "Montáž na stěnu, strop nebo na krokve krovu"
+    ]
+  },
+  {
+    "id": "site-proti-hmyzu",
+    "name": "Okenní a dveřní sítě proti hmyzu",
+    "category": "site-proti-hmyzu",
+    "category_name": "Sítě proti hmyzu",
+    "image": "assets/4299.jpg",
+    "badge": "Montáž bez vrtání do rámu",
+    "slat_shape": "Hliníkový rám 25×10 mm",
+    "wind_class": "Odolné sklovláknité pletivo",
+    "energy_saving": "Přirozené noční větrání bez hmyzu",
+    "short_desc": "Spolehlivá mechanická ochrana oken a balkonových dveří. Vyrobena z extrudovaných hliníkových profilů a téměř neviditelné sklovláknité síťoviny potažené PVC vrstvou.",
+    "full_desc": "Hliníkové sítě proti hmyzu SVERTEN zajišťují bezstarostné větrání po celou letní sezónu bez použití chemických repelentů. Okenní sítě jsou vybaveny lemem s těsnicím kartáčkem a k rámu okna se upevňují pomocí nerezových otočných držáků bez nutnosti jakéhokoliv vrtání do okenního profilu – záruka na okna zůstává plně zachována. Pro balkonové a terasové dveře dodáváme křídlové sítě se samozavíracími panty a magnetickou aretací nebo moderní plisé sítě s nízkým bezbariérovým přechodovým profilem.",
+    "specs": {
+      "Profil rámu": "Extrudovaný hliník 25×10 mm (okenní) / 45×20 mm (dveřní)",
+      "Typ síťoviny": "Skleněné vlákno potažené PVC vrstvou s vysokou průhledností",
+      "Velikost ok": "1,2 × 1,2 mm (zadrží komáry, mouchy, vosy i drobný hmyz)",
+      "Barevné provedení pletiva": "Šedá (antracitová) nebo černá pro minimální optickou znatelnost",
+      "Rohové spojky": "Vnitřní hliníkové lisované rohy pro maximální tuhost a pravoúhlost",
+      "Uchycení okenní sítě": "Nerezové otočné háčky s různou hloubkou odsazení (0–25 mm)",
+      "Dveřní provedení": "Samozavírací panty s pružinou a spodní okopová lišta",
+      "Odolnost materiálu": "UV stabilní, nepodléhá hnilobě, korozi ani teplotním deformacím"
+    },
+    "features": [
+      "Snadná instalace a sejmutí z interiéru bez vrtání a poškození okenních rámů",
+      "Vysoká propustnost denního světla a čerstvého vzduchu do místnosti",
+      "Sklovláknité pletivo odolné vůči povětrnostním vlivům a drápkům domácích mazlíčků",
+      "Přesná výroba na míru každému typu plastových, dřevěných i hliníkových oken",
+      "Barevné sladění rámů s dekorem oken (včetně dřevodekorů Renolit)"
+    ]
+  }
+]

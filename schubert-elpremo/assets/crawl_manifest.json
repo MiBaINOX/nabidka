@@ -1,0 +1,33 @@
+{
+  "slug": "schubert-elpremo",
+  "base_url": "http://www.schubert-elpremo.cz",
+  "pages_crawled": [
+    {
+      "url": "http://www.schubert-elpremo.cz/",
+      "title": "Home",
+      "length": 628
+    },
+    {
+      "url": "http://www.schubert-elpremo.cz/nasesluzby/",
+      "title": "Naše služby",
+      "length": 491
+    },
+    {
+      "url": "http://www.schubert-elpremo.cz/kontakt/",
+      "title": "Kontakt",
+      "length": 681
+    },
+    {
+      "url": "http://www.schubert-elpremo.cz/napistenam/",
+      "title": "Napište nám",
+      "length": 399
+    }
+  ],
+  "menu_categories": [
+    "Home",
+    "Naše služby",
+    "Kontakt",
+    "Napište nám"
+  ],
+  "images_downloaded": []
+}

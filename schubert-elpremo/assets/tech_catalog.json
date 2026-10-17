@@ -1,0 +1,218 @@
+[
+  {
+    "id": "tech-svazky",
+    "name": "Zakázková výroba kabelových svazků",
+    "category": "kabelova-konfekce",
+    "category_name": "Kabelová konfekce",
+    "norma": "IPC/WHMA A-620",
+    "parametr": "Vodiče 0,08 až 35 mm²",
+    "short_desc": "Kompletní výroba kabelových svazků pro strojírenství, automatizaci i kolejová vozidla dle normy IPC/WHMA A-620.",
+    "detail_desc": "Realizujeme malosériovou i velkosériovou kabelovou konfekci od jednoduchých propojovacích vodičů až po komplexní rozvětvené kabelové formy chráněné bužírkami, opletem a ochrannými hadicemi. Výroba probíhá v kontrolovaném provozu v Javorníku.",
+    "specs": {
+      "Výrobní norma": "IPC/WHMA A-620 třída 2 a 3",
+      "Průřezy vodičů": "0,08 mm² až 35 mm²",
+      "Typy vodičů": "PVC, teflon (PTFE), silikon, PUR, bezhalogenové (HFFR)",
+      "Ochranné návleky": "Smršťovací bužírky, textilní oplet, vlnité chráničky",
+      "Kontrola jakosti": "100% elektrický test kontinuity a izolačních stavů"
+    },
+    "image": "assets/zakazkove_oddeleni.jpg"
+  },
+  {
+    "id": "tech-strihani",
+    "name": "Automatizované stříhání a odplášťování",
+    "category": "kabelova-konfekce",
+    "category_name": "Kabelová konfekce",
+    "norma": "ČSN EN 60204-1",
+    "parametr": "Délková přesnost ±0,2 mm",
+    "short_desc": "Přesné dělení, odplášťování a odizolování jednožilových i vícežilových kabelů s vysokou opakovatelností.",
+    "detail_desc": "Využíváme přesné poloautomatické a automatické odizolovací a střihací stroje s rotačními noži, které zaručují čistý řez bez poškození jemných pramenů lanka. Zpracováváme ploché i kulaté kabely s proměnlivou geometrií.",
+    "specs": {
+      "Strojní kapacita": "Automatické střihací a odizolovací centrum",
+      "Délkový rozsah": "Od 20 mm do 100 metrů",
+      "Délková přesnost": "±0,2 mm v závislosti na typu pláště",
+      "Zpracovávané materiály": "Jednožilová lanka, stíněné kabely, koaxiální kabely",
+      "Značení vodičů": "Potisk termotransferem, štítkování, návlečky"
+    },
+    "image": "assets/blok9.jpg"
+  },
+  {
+    "id": "tech-krimpovani",
+    "name": "Strojní krimpování a lisování kontaktů",
+    "category": "kabelova-konfekce",
+    "category_name": "Kabelová konfekce",
+    "norma": "ČSN EN 60352-2",
+    "parametr": "Tahové zkoušky do 1000 N",
+    "short_desc": "Lisování dutinek, fastonů, oček i precizních pinů s průběžným měřením výšky krimpování a tahovými zkouškami.",
+    "detail_desc": "Krimpování kontaktů provádíme pomocí stolních lisů s přesnými aplikátory. Každá série podléhá kalibrovaným tahovým zkouškám spojů podle normy ČSN EN 60352-2 a optické kontrole správného zalisování žíly i izolace.",
+    "specs": {
+      "Typy kontaktů": "Dutinky, fastony, kabelová oka, piny MOLEX, TE, JST",
+      "Kontrola lisování": "Měření výšky zalisování (crimp height) mikrometrem",
+      "Tahové zkoušky": "Kalibrovaný trhací přístroj do 1000 N",
+      "Aplikátory": "Rychlovýměnné mini-aplikátory pro páskové kontakty",
+      "Norma spojů": "ČSN EN 60352-2 (nepájené krimpované spoje)"
+    },
+    "image": "assets/blok11.jpg"
+  },
+  {
+    "id": "tech-pajeni",
+    "name": "Pájení a zakončování plochých vodičů",
+    "category": "kabelova-konfekce",
+    "category_name": "Kabelová konfekce",
+    "norma": "IPC J-STD-001",
+    "parametr": "Bezolovnaté i olovnaté pájení",
+    "short_desc": "Ruční a poloautomatické pájení konektorů, senzorů a plochých páskových kabelů technologií IDC.",
+    "detail_desc": "Zajišťujeme precizní pájení konektorů kruhových i obdélníkových typů, pájení vodičů na DPS a montáž samořezných konektorů na ploché ribbon kabely. Všichni operátoři jsou pravidelně školeni v normách pájení IPC.",
+    "specs": {
+      "Pájecí stanice": "Teplotně řízené stanice s ESD ochranou",
+      "Slitiny": "Bezolovnaté slitiny (RoHS) i specifické slitiny pro průmysl",
+      "Ploché kabely": "IDC lisování pro rozteče 1,27 mm a 2,54 mm",
+      "ESD ochrana": "Vyhrazená pracoviště dle ČSN EN 61340-5-1",
+      "Kontrola": "Mikroskopická kontrola kvality pájených spojů"
+    },
+    "image": "assets/blok12.jpg"
+  },
+  {
+    "id": "tech-testovani",
+    "name": "Elektrické testování CableEye & Cirris",
+    "category": "kontrola-jakosti",
+    "category_name": "Kontrola a jakost",
+    "norma": "ČSN EN 60300 / ISO 9001",
+    "parametr": "Až 256 testovacích bodů",
+    "short_desc": "100% výstupní testování zapojení, zkratů, odporu vodičů a dielektrické pevnosti s protokolem o zkoušce.",
+    "detail_desc": "Žádný kabelový svazek neopustí provoz v Javorníku bez počítačem řízeného testu. Testery CableEye a Cirris ověřují kontinuitu obvodů, záměny vodičů, vysokonapěťovou izolaci a přechodové odpory s automatickým tiskem zkušebního protokolu.",
+    "specs": {
+      "Testovací zařízení": "Analyzátory CAMI CableEye a testery Cirris",
+      "Kapacita bodů": "Až 256 programovatelných testovacích kanálů",
+      "Testované parametry": "Kontinuita, izolační odpor, zkraty, odpor vedení",
+      "Vysokonapěťový test": "Hipot test dielektrika do 1500 V DC",
+      "Protokolování": "Digitální archivace výsledků a štítek s QR/čárovým kódem"
+    },
+    "image": "assets/blok13.jpg"
+  },
+  {
+    "id": "tech-moduly",
+    "name": "Montáž elektrotechnických modulů",
+    "category": "elektro-vyroba",
+    "category_name": "Elektrovýroba",
+    "norma": "ČSN EN 61439-1",
+    "parametr": "Mechanická i elektro kompletace",
+    "short_desc": "Kompletace přístrojových panelů, osazování svorkovnicových skříněk a mechanická montáž podsestav.",
+    "detail_desc": "Zajišťujeme ucelenou elektromechanickou montáž – od mechanické přípravy hliníkových i ocelových skříněk přes osazení přístroji, senzory a sběrnicemi až po kompletní vydrátování a zapojení.",
+    "specs": {
+      "Komponenty": "Skříňky Rittal, Hensel, Schneider Electric, Spelsberg",
+      "Montážní operace": "Mechanické opracování, osazení DIN lišt, kabelové průchodky",
+      "Krytí sestav": "IP20 až IP66 dle specifikace zákazníka",
+      "Integrace": "Zapojení napájecích zdrojů, jističů, relé a I/O modulů",
+      "Značení": "Značení vodičů a přístrojů dle projektového schématu"
+    },
+    "image": "assets/blok15.jpg"
+  },
+  {
+    "id": "tech-rozvadece",
+    "name": "Výroba rozvaděčů nízkého napětí",
+    "category": "elektro-vyroba",
+    "category_name": "Elektrovýroba",
+    "norma": "ČSN EN 61439-1/-2",
+    "parametr": "Jmenovitý proud do 4000 A",
+    "short_desc": "Zakázková výroba průmyslových, domovních a distribučních rozvaděčů NN včetně kusových zkoušek a certifikace.",
+    "detail_desc": "Vyrábíme typově ověřené rozvaděče nízkého napětí pro výrobní provozy, energetiku, administrativní budovy i technologické celky. Každý rozvaděč je opatřen výrobním štítkem, protokolem o kusové zkoušce a ES prohlášením o shodě.",
+    "specs": {
+      "Norma": "ČSN EN 61439-1 ed. 2, ČSN EN 61439-2",
+      "Typy skříní": "Nástěnné, skříňové řadové i pultové provedení",
+      "Vnitřní forma": "Forma 1 až Forma 4b oddělení funkčních jednotek",
+      "Dokumentace": "Výrobní štítek, osvědčení o kusové zkoušce, protokol CE",
+      "Zkoušky": "Měření izolačních odporů, zkouška přiloženým napětím"
+    },
+    "image": "assets/vyroba_rozvadecu.jpg"
+  },
+  {
+    "id": "tech-automatizace",
+    "name": "Průmyslová automatizace a řídicí systémy",
+    "category": "elektro-vyroba",
+    "category_name": "Elektrovýroba",
+    "norma": "ČSN EN 61131 / ČSN EN ISO 13849",
+    "parametr": "Systémy Siemens, Schneider, Omron",
+    "short_desc": "Programování PLC automatů, vývoj vizualizací SCADA/HMI a komplexní automatizace výrobních technologií.",
+    "detail_desc": "Dodáváme ucelená řešení řízení strojů a linek. Provádíme návrh řídicího algoritmu, programování PLC, vývoj operátorských panelů, parametrizaci frekvenčních měničů i integraci bezpečnostních okruhů dle platných bezpečnostních norem.",
+    "specs": {
+      "Řídicí systémy": "Siemens SIMATIC S7-1200 / S7-1500, Schneider Modicon",
+      "Komunikace": "PROFINET, PROFIBUS, Modbus TCP/RTU, IO-Link",
+      "Bezpečnost strojů": "Bezpečnostní relé a F-CPU dle ČSN EN ISO 13849-1 (PL e)",
+      "Pohony": "Frekvenční měniče, servopohony, krokové motory",
+      "Vizualizace": "HMI panely Siemens Comfort, webové rozhraní SCADA"
+    },
+    "image": "assets/automatizace.jpg"
+  },
+  {
+    "id": "tech-montaze",
+    "name": "Elektromontáže v průmyslu a halách",
+    "category": "montaze-servis",
+    "category_name": "Montáže a servis",
+    "norma": "ČSN 33 2000",
+    "parametr": "Silnoproud i slaboproud",
+    "short_desc": "Montáže kabelových tras, technologických rozvodů, osvětlení a připojování strojních zařízení.",
+    "detail_desc": "Disponujeme zkušeným týmem certifikovaných elektrotechniků dle NV 194/2022 Sb. (dříve vyhl. 50/1978 Sb.). Realizujeme nosné kabelové žlaby, pokládku silových a signálových kabelů a napojování výrobních technologií.",
+    "specs": {
+      "Kabelové trasy": "Drátěné, plechové i žebříkové kabelové lávky",
+      "Pracovníci": "Kvalifikace elektrotechniků dle NV 194/2022 Sb.",
+      "Osvětlení": "Průmyslová LED svítidla s inteligentním řízením DALI",
+      "Technologie": "Připojování obráběcích strojů, lisů, jeřábových drah",
+      "Revize": "Výchozí i pravidelné revizní zprávy elektroinstalace"
+    },
+    "image": "assets/montaz.jpg"
+  },
+  {
+    "id": "tech-servis",
+    "name": "Údržba, elektroservis a revize",
+    "category": "montaze-servis",
+    "category_name": "Montáže a servis",
+    "norma": "ČSN 33 1500",
+    "parametr": "Pohotovostní i plánovaný servis",
+    "short_desc": "Pravidelný servis elektroinstalací, diagnostika termokamerou, revizní zprávy a odstraňování závad.",
+    "detail_desc": "Nabízíme smluvní preventivní údržbu pro výrobní podniky v regionu Jesenicka a Olomouckého kraje. Provádíme termovizní měření oteplení spojů, kontrolu dotažení svorek a revize elektrických zařízení i hromosvodů.",
+    "specs": {
+      "Diagnostika": "Měření oteplení termokamerou Fluke, revizní přístroje",
+      "Revize": "Výchozí a periodické revize dle ČSN 33 1500 a ČSN EN 62305",
+      "Údržba": "Profylaxe rozvaděčů, výměna stykačů, čištění a kontrola",
+      "Lokalita": "Javorník, Jeseník, Šumperk, Olomouc a celý region",
+      "Dostupnost": "Flexibilní zásahy při výpadcích technologie"
+    },
+    "image": "assets/udrzba_servis.jpg"
+  },
+  {
+    "id": "tech-elektrarny",
+    "name": "Fotovoltaické elektrárny a OZE",
+    "category": "montaze-servis",
+    "category_name": "Montáže a servis",
+    "norma": "ČSN 33 2000 (FVE)",
+    "parametr": "Komerční i průmyslové instalace",
+    "short_desc": "Výstavba a připojení fotovoltaických elektráren pro výrobní haly, areály a komerční objekty.",
+    "detail_desc": "Komplexní realizace střešních fotovoltaických systémů pro podnikové snížení energetické náročnosti. Zajišťujeme projekci, dodávku střídačů, bateriových úložišť a integraci do stávající rozvodné sítě podniku.",
+    "specs": {
+      "Typy instalací": "Trapézové a falcované střechy, ploché střechy s přitížením",
+      "Střídače": "Průmyslové hybridní a síťové střídače (SMA, Fronius, Sungrow)",
+      "Ochrany": "Přepěťové ochrany SPD typ 1+2, požární vypínače",
+      "Bateriová úložiště": "Vysokonapěťové akumulační systémy pro peak shaving",
+      "Připojení": "Koordinace s distributorem ČEZ Distribuce a uvedení do provozu"
+    },
+    "image": "assets/elektrarny.jpg"
+  },
+  {
+    "id": "tech-projekce",
+    "name": "Elektroprojekce a inženýring EPLAN",
+    "category": "elektro-vyroba",
+    "category_name": "Elektrovýroba",
+    "norma": "ČSN EN 61082 / ČSN EN ISO 9001",
+    "parametr": "EPLAN Electric P8, AutoCAD",
+    "short_desc": "Zpracování kompletní projektové dokumentace silnoproudu, slaboproudu a MaR ve všech stupních.",
+    "detail_desc": "Vlastní projekční kancelář zpracovává projektovou dokumentaci od úvodní studie přes dokumentaci pro stavební povolení až po detailní prováděcí projekty rozvaděčů a kabelových tras v moderním CAE systému EPLAN.",
+    "specs": {
+      "Software": "EPLAN Electric P8, AutoCAD Electrical, ProgeCAD",
+      "Stupně projektu": "Studie, DSP, DPS, dokumentace skutečného provedení",
+      "Výstupy": "Schémata zapojení, kusovníky materiálu, svorkovnice, kabelové listy",
+      "Inženýring": "Autorský dozor, koordinace profesí, technická podpora",
+      "Archivace": "Kompletní digitální archiv v PDF i nativních datech"
+    },
+    "image": "assets/projekce.jpg"
+  }
+]

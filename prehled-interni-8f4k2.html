@@ -107,7 +107,7 @@
             <div class="filters-group">
                 <select id="districtFilter" class="filter-select" onchange="applyFilters()">
                     <option value="all">Všechny okresy</option>
-                    <option value="Beroun">Beroun</option><option value="Blansko">Blansko</option><option value="Brno-město">Brno-město</option><option value="Brno-venkov">Brno-venkov</option><option value="Břeclav">Břeclav</option><option value="Frýdek-Místek">Frýdek-Místek</option><option value="Hlavní město Praha">Hlavní město Praha</option><option value="Hodonín">Hodonín</option><option value="Jihlava">Jihlava</option><option value="Olomouc">Olomouc</option><option value="Praha">Praha</option><option value="Prostějov">Prostějov</option><option value="Přerov">Přerov</option><option value="Uherské Hradiště">Uherské Hradiště</option><option value="Vyškov">Vyškov</option><option value="Zlín">Zlín</option><option value="Znojmo">Znojmo</option><option value="Šumperk">Šumperk</option>
+                    <option value="Beroun">Beroun</option><option value="Blansko">Blansko</option><option value="Brno-město">Brno-město</option><option value="Brno-venkov">Brno-venkov</option><option value="Břeclav">Břeclav</option><option value="Frýdek-Místek">Frýdek-Místek</option><option value="Hlavní město Praha">Hlavní město Praha</option><option value="Hodonín">Hodonín</option><option value="Jeseník">Jeseník</option><option value="Jihlava">Jihlava</option><option value="Olomouc">Olomouc</option><option value="Praha">Praha</option><option value="Prostějov">Prostějov</option><option value="Přerov">Přerov</option><option value="Uherské Hradiště">Uherské Hradiště</option><option value="Vyškov">Vyškov</option><option value="Zlín">Zlín</option><option value="Znojmo">Znojmo</option><option value="Šumperk">Šumperk</option>
                 </select>
                 <select id="statusFilter" class="filter-select" onchange="applyFilters()">
                     <option value="all">Všechny stavy</option>
@@ -117,7 +117,7 @@
                     <option value="Zájem">🔥 Zájem</option>
                     <option value="Odmítnuto">❌ Odmítnuto</option>
                 </select>
-                <div class="stats-counter" id="statsCounter">85 firem</div>
+                <div class="stats-counter" id="statsCounter">88 firem</div>
             </div>
         </div>
 
@@ -7343,6 +7343,261 @@ Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného k
 obracím se na Vás přímo jako na vedení společnosti ohledně webových stránek stmservis.cz.
 
 Živá ukázka nového webu: https://mibainox.github.io/nabidka/stm-servis/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="25519671" data-okres="Vyškov" data-kraj="Jihomoravský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_rostex">
+                <img class="img-preview img-new" src="rostex/screenshots/screen_desktop.jpg" alt="ROSTEX VYŠKOV, s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="rostex/screenshots/screen_old.jpg" alt="ROSTEX VYŠKOV, s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('rostex', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('rostex', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Kovoobrábění & Zámečnictví / Tradiční český výrobce bezpečnostního a dveřního kování (kování na vchodové a interiérové dveře, panikové kování dle ČSN EN 1125, bezpečnostní kování tříd RC 2 až RC 4 dle ČSN EN 1627, nerezové kliky, madla, rozteče 72, 90, 92 mm, zakázková kovovýroba)</span>
+                    <span class="card-ico">IČO: 25519671</span>
+                </div>
+                <h2 class="card-title">ROSTEX VYŠKOV, s.r.o.</h2>
+                <div class="card-meta">📍 Vyškov (Jihomoravský kraj) • ✉️ rostex@rostex.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Václav Hanák (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ | EN</span>
+                    <span>100 let ryzí strojírenské tradice ve Vyškově – výroba stavebního kování nepřetržitě od roku 1925</span><span>Maximální bezpečnostní třída RC 4 dle ČSN EN 1627 s certifikací Národního bezpečnostního úřadu (NBÚ) pro utajované skutečnosti</span><span>Špičkový moderní strojní park Trumpf (laser TruLaser 3530, kombinované centrum TruMatic 7000 a CNC lisy TruBend 5170)</span>
+                </div>
+                <div class="card-visit-stat" id="stat_rostex" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('25519671', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="rostex/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://rostex.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_rostex.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('25519671', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('25519671', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('25519671', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_25519671" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Návrh modernizace webové prezentace a technický audit – ROSTEX VYŠKOV, s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">rostex@rostex.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_rostex.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('25519671', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Hanáku,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky rostex.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/rostex/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</div>
+                </div>
+                <textarea id="email_text_25519671" style="display:none;">Vážený pane Hanáku,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky rostex.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/rostex/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</textarea>
+                <input type="hidden" id="email_to_25519671" value="rostex@rostex.cz">
+                <input type="hidden" id="email_sub_25519671" value="Návrh modernizace webové prezentace a technický audit – ROSTEX VYŠKOV, s.r.o.">
+                <input type="hidden" id="email_teaser_25519671" value="Vážený pane Hanáku,
+obracím se na Vás přímo jako na vedení společnosti ohledně webových stránek rostex.cz.
+
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/rostex/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="03070662" data-okres="Brno-město" data-kraj="Jihomoravský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_sverten">
+                <img class="img-preview img-new" src="sverten/screenshots/screen_desktop.jpg" alt="SVERTEN s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="sverten/screenshots/screen_old.jpg" alt="SVERTEN s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('sverten', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('sverten', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Stavební stínicí technika / Výroba, dodávka a montáž venkovní stínicí techniky (venkovní hliníkové žaluzie Z90, C80, předokenní rolety, screenové rolety a textilní clony, kazetové markýzy, sítě proti hmyzu, motorizace Somfy)</span>
+                    <span class="card-ico">IČO: 03070662</span>
+                </div>
+                <h2 class="card-title">SVERTEN s.r.o.</h2>
+                <div class="card-meta">📍 Brno-město (Jihomoravský kraj) • ✉️ dostal@sverten.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Vladimír Dostál (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>Kompletní dodávka a odborná montáž venkovní stínicí techniky v Brně a Jihomoravském kraji s tradicí od roku 2014</span><span>Špičkové venkovní žaluzie Z90 a C80, zateplené předokenní rolety a větruodolné ZIP screeny s motorizací Somfy io-homecontrol</span><span>Nejvyšší třída větruodolnosti 6 dle ČSN EN 13659 (do 90–120 km/h) a snížení nákladů na chlazení až o 71 %</span>
+                </div>
+                <div class="card-visit-stat" id="stat_sverten" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('03070662', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="sverten/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://sverten.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_sverten.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('03070662', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('03070662', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('03070662', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_03070662" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Návrh modernizace webové prezentace a technický audit – SVERTEN s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">dostal@sverten.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_sverten.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('03070662', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Dostále,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky sverten.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/sverten/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</div>
+                </div>
+                <textarea id="email_text_03070662" style="display:none;">Vážený pane Dostále,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky sverten.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/sverten/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</textarea>
+                <input type="hidden" id="email_to_03070662" value="dostal@sverten.cz">
+                <input type="hidden" id="email_sub_03070662" value="Návrh modernizace webové prezentace a technický audit – SVERTEN s.r.o.">
+                <input type="hidden" id="email_teaser_03070662" value="Vážený pane Dostále,
+obracím se na Vás přímo jako na vedení společnosti ohledně webových stránek sverten.cz.
+
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/sverten/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="04844777" data-okres="Jeseník" data-kraj="Olomoucký kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_schubert-elpremo">
+                <img class="img-preview img-new" src="schubert-elpremo/screenshots/screen_desktop.jpg" alt="Schubert & Elpremo, spol. s r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="schubert-elpremo/screenshots/screen_old.jpg" alt="Schubert & Elpremo, spol. s r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('schubert-elpremo', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('schubert-elpremo', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Elektrotechnická výroba & Kabelová konfekce / Zakázková výroba kabelových svazků, kabelová konfekce, stříhání a odplášťování vodičů, lisování kontaktů (krimpování), pájení, montáž elektrotechnických modulů a rozvaděčů pro strojírenství a automotive, elektrické testování na testerech CableEye a Cirris, certifikace ISO 9001.</span>
+                    <span class="card-ico">IČO: 04844777</span>
+                </div>
+                <h2 class="card-title">Schubert & Elpremo, spol. s r.o.</h2>
+                <div class="card-meta">📍 Jeseník (Olomoucký kraj) • ✉️ info@schubert-elpremo.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Vladimír Schubert (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>Výroba kabelových svazků a kabelová konfekce v Javorníku dle normy IPC/WHMA A-620</span><span>Automatické stříhání, odplášťování vodičů 0,08 až 35 mm² a strojní krimpování kontaktů</span><span>100% výstupní elektrická kontrola zapojení na testerech CableEye a Cirris s protokolem</span>
+                </div>
+                <div class="card-visit-stat" id="stat_schubert-elpremo" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('04844777', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="schubert-elpremo/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://schubert-elpremo.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_schubert-elpremo.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('04844777', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('04844777', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('04844777', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_04844777" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Návrh modernizace webové prezentace a technický audit – Schubert &amp; Elpremo, spol. s r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">info@schubert-elpremo.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_schubert-elpremo.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('04844777', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Schuberte,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky schubert-elpremo.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/schubert-elpremo/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</div>
+                </div>
+                <textarea id="email_text_04844777" style="display:none;">Vážený pane Schuberte,
+obracím se na Vás přímo jako na vedení společnosti.
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky schubert-elpremo.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+Než Vám jen teoreticky popisovat, co by se dalo zlepšit, připravili jsme pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/schubert-elpremo/?ref=nabidka
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+Ukázka je z naší strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsme Vám zaslali jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudeme kontaktovat.</textarea>
+                <input type="hidden" id="email_to_04844777" value="info@schubert-elpremo.cz">
+                <input type="hidden" id="email_sub_04844777" value="Návrh modernizace webové prezentace a technický audit – Schubert &amp; Elpremo, spol. s r.o.">
+                <input type="hidden" id="email_teaser_04844777" value="Vážený pane Schuberte,
+obracím se na Vás přímo jako na vedení společnosti ohledně webových stránek schubert-elpremo.cz.
+
+Živá ukázka nového webu: https://mibainox.github.io/nabidka/schubert-elpremo/?ref=nabidka
 
 (Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
             </div>

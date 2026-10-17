@@ -1,0 +1,51 @@
+{
+  "slug": "rostex",
+  "firma": "ROSTEX VYŠKOV, s.r.o.",
+  "ico": "25519671",
+  "dic": "CZ25519671",
+  "obec": "Vyškov",
+  "cast_obce": "Vyškov-Město",
+  "ulice": "Dědická 190/17",
+  "psc": "682 01",
+  "okres": "Vyškov",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Kovoobrábění & Zámečnictví / Tradiční český výrobce bezpečnostního a dveřního kování (kování na vchodové a interiérové dveře, panikové kování dle ČSN EN 1125, bezpečnostní kování tříd RC 2 až RC 4 dle ČSN EN 1627, nerezové kliky, madla, rozteče 72, 90, 92 mm, zakázková kovovýroba)",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://rostex.cz",
+  "email": "rostex@rostex.cz",
+  "telefon": "+420 517 316 111",
+  "vady_stareho_webu": [
+    "Absence mobilní responzivity – web zcela postrádá meta viewport a na telefonech i tabletech vyžaduje neustálé zoomování a horizontální posun",
+    "Zastaralé kódování Windows-1250 s rizikem rozpadu diakritiky v moderních prohlížečích a vyhledávačích",
+    "Nezabezpečené připojení pouze přes nešifrovaný protokol HTTP, před kterým prohlížeče varují červeným bezpečnostním upozorněním",
+    "Statická a těžkopádná prezentace stovek výrobků bez možnosti interaktivního filtrování podle roztečí a bezpečnostních tříd RC"
+  ],
+  "vylepseni_noveho_webu": [
+    "Průmyslový Heavy Industrial design s antracitovým technickým pozadím, signální žlutou a split-screen Hero sekcí 50/50",
+    "Interaktivní konfigurátor a katalog kování s rychlým fulltextovým vyhledáváním a filtrem roztečí (72, 90, 92 mm)",
+    "Technická modální okna (#techModalBackdrop) s kompletními normami ČSN EN 1627, ČSN EN 1906, certifikací NBÚ a požární odolností",
+    "100% vícejazyčnost (CZ | EN) s okamžitým dynamickým přepínáním rozhraní a všech technických parametrů",
+    "Samostatná sekce technických katalogů a certifikátů NBÚ ke stažení pro projektanty, architekty a zámečníky",
+    "Ověřená GPS poloha závodu s interaktivním Mapy.cz špendlíkem a přímými kontakty na vedení a obchodní ředitele"
+  ],
+  "prodejni_body": [
+    "100 let ryzí strojírenské tradice ve Vyškově – výroba stavebního kování nepřetržitě od roku 1925",
+    "Maximální bezpečnostní třída RC 4 dle ČSN EN 1627 s certifikací Národního bezpečnostního úřadu (NBÚ) pro utajované skutečnosti",
+    "Špičkový moderní strojní park Trumpf (laser TruLaser 3530, kombinované centrum TruMatic 7000 a CNC lisy TruBend 5170)",
+    "Vlastní průmyslová galvanovna pro niklování, dekorativní a tvrdé chromování a galvanické zinkování"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1925,
+    "tradice_let": 100,
+    "max_bezpecnostni_trida": "RC 4 dle ČSN EN 1627",
+    "zkusebni_cykly": "200 000 cyklů dle EN 1125 a EN 179",
+    "podnikova_prodejna": "Brněnská 11/a, 682 01 Vyškov",
+    "vedeni": "Ing. Václav Hanák (Generální ředitel), Ing. Ondrej Horemuž (Obchodní ředitel)",
+    "strojni_park": "Trumpf TruLaser 3530, TruMatic 7000, TruBend 5170, Darley EHP 80 CL / 50 CL",
+    "normy": "ČSN EN 1627, ČSN EN 1906, ČSN EN 1125, ČSN EN 179, ČSN EN ISO 9001:2016"
+  },
+  "jazyky": [
+    "CZ",
+    "EN"
+  ]
+}
