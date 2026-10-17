@@ -1,0 +1,386 @@
+[
+  {
+    "id": "1",
+    "category": "rypadla",
+    "title": "Pásové rypadlo NEUSON 50Z3",
+    "perex": "Kompaktní pásový minibagr s nulovým přesahem zádě (Zero Tail) pro precizní výkopové práce i ve stísněném prostoru.",
+    "image": "assets/foto08.jpg",
+    "badge": "Pásová rypadla",
+    "specs": {
+      "Hmotnost stroje": "cca 5 000 kg",
+      "Hloubkový dosah": "až 3 800 mm",
+      "Typ podvozku": "Gumové pásy šetrné k povrchům",
+      "Příslušenství": "Podkopové lžíce 30, 50, 80 cm, hydraulická svahovací lžíce",
+      "Využití": "Výkopy základů, inženýrské sítě, terénní úpravy kolem budov"
+    },
+    "description": "Kompaktní pásové rypadlo NEUSON 50Z3 vyniká koncepcí nulového přesahu zádě přes pásy. Umožňuje bezpečné hloubení a výkopy těsně podél zdí a oplocení bez rizika kolize. Vybaveno hydraulickým rychloupínačem a naklápěcí svahovací lžící."
+  },
+  {
+    "id": "2",
+    "category": "rypadla",
+    "title": "Traktorbagr HIDROMEK HMK 102B",
+    "perex": "Univerzální kolový rypadlonakladač 4x4 s vysokým výkonem pro těžké zemní práce a nakládání sypkých hmot.",
+    "image": "assets/foto10.jpg",
+    "badge": "Traktorbagry",
+    "specs": {
+      "Hmotnost stroje": "9 100 kg",
+      "Dosah podkopu": "5 800 mm (teleskopické rameno)",
+      "Objem čelní lžíce": "1,1 m³ (rozevírací klapačka 6v1)",
+      "Pohon a řízení": "Pohon všech 4 kol (4x4), krabí chod",
+      "Využití": "Skrývky ornice, hloubení základů, nakládání zeminy na nákladní vozy"
+    },
+    "description": "Moderní traktorbagr HIDROMEK 102B kombinuje silný čelní nakladač s víceúčelovou lžící a hloubkový podkop s teleskopickým výsuvem. Zajišťuje kompletní realizaci zakázek od prvotního výkopu po nakládku a finální úklid."
+  },
+  {
+    "id": "3",
+    "category": "rypadla",
+    "title": "Traktorbagr JCB 3CX / NEWHOLLAND",
+    "perex": "Osvědčené rypadlonakladače světových značek JCB a NewHolland pro pozemní, inženýrské a silniční stavitelství.",
+    "image": "assets/foto01.jpg",
+    "badge": "Traktorbagry",
+    "specs": {
+      "Hmotnost stroje": "cca 8 500 kg",
+      "Dosah podkopu": "5 460 mm",
+      "Výbava ramene": "Teleskop, hydraulické bourací kladivo",
+      "Příslušenství": "Paletizační vidle, podkopové a svahovací lžíce",
+      "Využití": "Hloubení rýh pro inženýrské sítě, terénní úpravy, zimní údržba"
+    },
+    "description": "Traktorbagry JCB a NEWHOLLAND v našem strojním parku představují pilíř pro stavební zakázky všeho druhu. Díky obratnosti a široké paletě lžic spolehlivě zvládnou jak výkopy rýh, tak přesuny paletovaného materiálu."
+  },
+  {
+    "id": "4",
+    "category": "rypadla",
+    "title": "Kolové rypadlo ATLAS & HYDREMA",
+    "perex": "Těžká kolová rypadla s demoličním kladivem a velkoobjemovou lžící 1,3 m³ pro demoliční a recyklační práce.",
+    "image": "assets/foto12.jpg",
+    "badge": "Kolová rypadla",
+    "specs": {
+      "Objem lžíce": "1,3 m³",
+      "Demoliční výbava": "Těžké hydraulické bourací kladivo ATLAS",
+      "Stabilizace": "Hydraulické podpěrné patky a přední radlice",
+      "Podvozek": "Kolový 4x4 pro rychlý přesun po zpevněných plochách",
+      "Využití": "Demolice staveb, rozbíjení betonu, těžba a nakládka sutě"
+    },
+    "description": "Kolová rypadla ATLAS a HYDREMA nasazujeme především při demolicích průmyslových i zděných objektů, recyklaci stavebního odpadu a velkoobjemových zemních pracích. Masivní hydraulické kladivo snadno rozdrtí i armovaný beton."
+  },
+  {
+    "id": "5",
+    "category": "rypadla",
+    "title": "Pásové minibagry KUBOTA & AX",
+    "perex": "Flexibilní kompaktní rypadla na pryžových pásech pro práce v úzkých prostorech, zahradách a dvorech.",
+    "image": "assets/foto08.jpg",
+    "badge": "Pásová rypadla",
+    "specs": {
+      "Hmotnostní třída": "1,5 až 3,5 tuny",
+      "Šířka průjezdu": "od 990 mm (průjezd i úzkou brankou)",
+      "Hloubkový dosah": "2 200 až 3 100 mm",
+      "Vybavení": "Mimoosé kopání, svahovka, lžíce 25, 40, 60 cm",
+      "Využití": "Výkopy pro bazény, jímky, kabely, drenáže kolem rodinných domů"
+    },
+    "description": "Minibagry KUBOTA a AX umožňují provádět výkopy v bezprostřední blízkosti rodinných domů, v zahradách a na nepřístupných parcelách bez poškození okolního terénu a dlažeb."
+  },
+  {
+    "id": "6",
+    "category": "nakladace",
+    "title": "Smykový kolový nakladač LOCUST 1203",
+    "perex": "Výkonný slovenský smykový nakladač WAY Industry pro přesuny hmot, terénní rovnání a manipulaci ve stísněném prostoru.",
+    "image": "assets/foto13.jpg",
+    "badge": "Smykové nakladače",
+    "specs": {
+      "Jmenovitá nosnost": "1 200 kg",
+      "Provozní hmotnost": "3 300 kg",
+      "Poloměr otáčení": "Otáčení na místě (360°)",
+      "Příslušenství": "Hladká lžíce, zubová lžíce, paletizační vidle",
+      "Využití": "Příprava podloží, navážení štěrku, nakládka kontejnerů, rovnání ploch"
+    },
+    "description": "LOCUST 1203 patří k nejvýkonnějším smykovým nakladačům ve své třídě. S nosností 1 200 kg a hydraulickým vyrovnáváním lžíce zvládá rychlé plnění kontejnerů a precizní srovnání podkladních vrstev před betonáží či dlážděním."
+  },
+  {
+    "id": "7",
+    "category": "nakladace",
+    "title": "Smykový nakladač UNC 752",
+    "perex": "Osvědčený univerzální nakladač s vysokou obratností pro stavební a zahradní úpravy menšího rozsahu.",
+    "image": "assets/foto13.jpg",
+    "badge": "Smykové nakladače",
+    "specs": {
+      "Jmenovitá nosnost": "750 kg",
+      "Provozní hmotnost": "cca 2 800 kg",
+      "Průjezdná výška": "cca 2 050 mm",
+      "Výbava": "Základní stavební lžíce, paletizační vidle",
+      "Využití": "Úklidové práce na stavbách, převoz písku a zeminy, manipulace s paletami"
+    },
+    "description": "Kompaktní nakladač UNC 752 vyniká jednoduchou obsluhou a spolehlivostí. Ideální pro vnitrobloky, městské rekonstrukce i rozhrnování zeminy po dokončení hrubých stavebních prací."
+  },
+  {
+    "id": "8",
+    "category": "doprava",
+    "title": "Kontejnerový automobil AVIA D-Line (3,5t - 5t)",
+    "perex": "Rychlý a obratný kontejnerový nosič pro odvoz odpadu ze stísněných ulic měst a zahradních parcel.",
+    "image": "assets/foto11.jpg",
+    "badge": "Kontejnerová doprava",
+    "specs": {
+      "Užitečná nosnost": "3,5 až 5,0 tun",
+      "Typ nástavby": "Jednoramenný hydraulický nosič kontejnerů",
+      "Kontejnerové vany": "Maloobjemové na suť (3-5 m³), velkoobjemové na odpad (8 m³)",
+      "Dovoz materiálů": "Štěrky, písky, recykláty, beton, zemina",
+      "Využití": "Odvoz sutí z rekonstrukcí bytů, přistavení kontejneru na víkend"
+    },
+    "description": "Vozidla AVIA D-Line s kontejnerovým natahovákem jsou ideální volbou pro odvoz stavebních odpadů a dovoz sypkých materiálů v Olomouci a okolí. Nízká celková hmotnost nepoškozuje příjezdové komunikace ani zámkovou dlažbu."
+  },
+  {
+    "id": "9",
+    "category": "doprava",
+    "title": "Kontejnerový automobil MAN (7t)",
+    "perex": "Střední nosič kontejnerů s vysokou nosností 7 tun pro efektivní svoz těžkých stavebních materiálů.",
+    "image": "assets/foto11.jpg",
+    "badge": "Kontejnerová doprava",
+    "specs": {
+      "Užitečná nosnost": "7 000 kg",
+      "Natahovací síla": "Hydraulický hákový natahovák",
+      "Kapacita kontejnerů": "Vany na suť, valníkové kontejnery pro přepravu mechanizace",
+      "Dostupnost": "Areál Přáslavice s rychlým výjezdem po Olomouckém kraji",
+      "Využití": "Přeprava těžké suti, zeminy ze skrývek a převoz vibrační techniky"
+    },
+    "description": "Kontejnerový nosič MAN představuje zlatou střední cestu mezi obratností Avie a tonáží těžkých nákladních vozů. Zajišťuje plynulý odvoz zeminy přímo od pracujících bagrů."
+  },
+  {
+    "id": "10",
+    "category": "doprava",
+    "title": "Těžká kontejnerová doprava LIAZ (8t - 13t)",
+    "perex": "Robustní velkoobjemové kontejnerové soupravy pro náročné průmyslové a demoliční zakázky.",
+    "image": "assets/foto02.jpg",
+    "badge": "Kontejnerová doprava",
+    "specs": {
+      "Užitečná nosnost": "8 až 13 tun",
+      "Typy kontejnerů": "Velkoobjemové velkokapacitní vany na suť a recykláty",
+      "Podvozek": "Odolné šasi s vysokou průchodností terénem",
+      "Likvidace odpadů": "Zajištění uložení na skládku nebo recyklační dvůr",
+      "Využití": "Hromadné demolice budov, odtěžení velkých objemů zeminy"
+    },
+    "description": "Pro rozsáhlé výkopové a demoliční práce disponujeme těžkými nosiči kontejnerů LIAZ s nosností až 13 tun. Umožňují rychlý odvoz desítek tun materiálu denně s minimálními prostoji strojů na stavbě."
+  },
+  {
+    "id": "11",
+    "category": "doprava",
+    "title": "Sklápěcí vozy LIAZ MTS & TATRA 815",
+    "perex": "Osvědčené terénní sklápěče pro masivní přesuny zemin, písků a kameniva přímo v náročném terénu staveniště.",
+    "image": "assets/foto02.jpg",
+    "badge": "Nákladní autodoprava",
+    "specs": {
+      "Přepravní kapacita": "10 až 14 tun nákladu",
+      "Pohon náprav": "4x4 a 6x6 s uzávěrkami diferenciálů",
+      "Vyklápění": "Třístranný sklápěč (S3) pro flexibilní vykládku",
+      "Terénní prostupnost": "Nezávisle výkyvné polonápravy pro těžké bláto i kamenitý podklad",
+      "Využití": "Zásobování staveb pískem, drceným kamenivem a odvoz skrývek"
+    },
+    "description": "Těžké sklápěče Tatra a LIAZ tvoří páteř hromadné dopravy sypkých hmot. Zvládnou pohyb v nezpevněném bahnitém terénu i plně naložené, což je neocenitelné při zakládání staveb a budování komunikací."
+  },
+  {
+    "id": "12",
+    "category": "doprava",
+    "title": "Mobilní jeřáb ČKD AD 20",
+    "perex": "Automobilový teleskopický jeřáb s nosností 20 tun pro montáže konstrukcí a manipulaci s těžkými břemeny.",
+    "image": "assets/foto10.jpg",
+    "badge": "Speciální technika",
+    "specs": {
+      "Maximální nosnost": "20 000 kg",
+      "Délka výložníku": "Čtyřdílný teleskop s dosahem až 21,3 m",
+      "Podvozek": "Tatra 815 6x6 pro snadný příjezd na staveniště",
+      "Bezpečnost": "Elektronický indikátor přetížení a bezpečné zvedání",
+      "Využití": "Usazování prefabrikovaných nosníků, jímek, vykládka těžkých strojů"
+    },
+    "description": "Jeřáb ČKD AD 20 na podvozku Tatra 815 zajišťuje zdvihací práce při stavbě hal, usazování betonových jímek, montážích ocelových skeletů a přesunech stavebních buněk."
+  },
+  {
+    "id": "13",
+    "category": "hutneni",
+    "title": "Zeminový vibrační válec AMMANN",
+    "perex": "Těžký zeminový válec s vysokou hutnicí silou pro zpevnění podloží silnic, dálnic a průmyslových ploch.",
+    "image": "assets/foto09.jpg",
+    "badge": "Hutnicí technika",
+    "specs": {
+      "Provozní hmotnost": "cca 7 500 až 12 000 kg",
+      "Šířka běhounu": "cca 1 700 - 2 100 mm",
+      "Hutnicí účinek": "Dvoustupňová vibrace s nastavitelnou amplitudou",
+      "Běhoun": "Hladký běhoun pro štěrky a písky, možnost ježkového segmentu",
+      "Využití": "Hutnění těles komunikací, parkovišť a základových plání hal"
+    },
+    "description": "Samojízdný vibrační válec AMMANN garantuje dosažení požadované únosnosti podloží a deformačního modulu. Je nezbytným pomocníkem při výstavbě komunikací a zpevněných ploch."
+  },
+  {
+    "id": "14",
+    "category": "hutneni",
+    "title": "Ručně vedený tandemový válec AMMANN",
+    "perex": "Kompaktní dvoububnový válec pro precizní hutnění v úzkých uličkách, na chodnících a kolem obrubníků.",
+    "image": "assets/foto09.jpg",
+    "badge": "Hutnicí technika",
+    "specs": {
+      "Provozní hmotnost": "cca 750 kg",
+      "Pohon": "Plně hydrostatický pohon obou běhounů",
+      "Šířka běhounu": "650 mm",
+      "Vybavení": "Kropení běhounů pro práci s živicí (asfaltem)",
+      "Využití": "Chodníky, cyklostezky, úzké rýhy inženýrských sítí, asfaltování"
+    },
+    "description": "Ručně vedený válec AMMANN kombinuje kompaktní rozměry s vysokým plošným výkonem. Dvojitá vibrace a čistý hydrostatický pojezd zajišťují rovný povrch bez poškození přilehlých staveb."
+  },
+  {
+    "id": "15",
+    "category": "hutneni",
+    "title": "Vibrační desky a pěchy AMMANN",
+    "perex": "Profesionální reverzní desky a pěchy (dusadla) pro hutnění výkopů, štěrkových loží a základových spár.",
+    "image": "assets/foto09.jpg",
+    "badge": "Hutnicí technika",
+    "specs": {
+      "Vibrační desky": "Hmotnosti 150 kg až 400 kg s hydraulickým reverzem",
+      "Vibrační pěchy": "Dusadla 68 kg s vysokou úderovou energií",
+      "Hloubkový účinek": "Prohutnění vrstvy až do 60 cm (dle typu materiálu)",
+      "Příslušenství": "Tlumicí plastové podložky pro hutnění zámkové dlažby",
+      "Využití": "Zásypy potrubí a kabelů, lože pod dlažby, zpevnění podlah"
+    },
+    "description": "Hutnicí technika AMMANN představuje špičku v oboru. Desky a pěchy nasazujeme při každé realizaci inženýrských sítí a základů, aby bylo vyloučeno pozdější sedání povrchů."
+  },
+  {
+    "id": "16",
+    "category": "bourani",
+    "title": "Bourací a vrtací kladiva HILTI (TE 56 & TE 905)",
+    "perex": "Výkonná demoliční technika HILTI pro bourání betonu, sekání zdiva a jádrové vrtání prostupů.",
+    "image": "assets/foto04.jpg",
+    "badge": "Bourací technika",
+    "specs": {
+      "Model HILTI TE 905": "Těžké bourací kladivo s energií úderu 30 Joule",
+      "Model HILTI TE 56": "Kombinované vrtací a sekací kladivo s upínáním SDS-max",
+      "Výbava": "Tlumení vibrací AVR pro bezpečnou obsluhu, široká škála doplňků",
+      "Nástroje": "Samoostřící špičáky, široké sekáče, vrtací korunky",
+      "Využití": "Odstraňování betonových patek, bourání příček, otvory pro trubky"
+    },
+    "description": "Špičková bourací kladiva HILTI umožňují rychlé a kontrolované rozbourání betonových i cihelných konstrukcí v místech, kam se nedostane těžká mechanizace."
+  },
+  {
+    "id": "17",
+    "category": "bourani",
+    "title": "Řezačky spár betonu a živice (malá & velká)",
+    "perex": "Motorové podlahové řezačky s diamantovými kotouči pro čistý a rovný řez vozovek i průmyslových podlah.",
+    "image": "assets/foto04.jpg",
+    "badge": "Řezací technika",
+    "specs": {
+      "Hloubka řezu": "až 170 mm v jednom průchodu",
+      "Kotouče": "Diamantové kotouče na vyzrálý armovaný beton i živičné povrchy",
+      "Chlazení": "Integrovaná vodní nádrž pro bezprašný mokrý řez",
+      "Konstrukce": "Pevný pojezdový rám s vodícím ukazatelem linie řezu",
+      "Využití": "Vyřezání rýh pro kanalizace v asfaltu, dilatační spáry podlah"
+    },
+    "description": "Řezačky spár používáme před zahájením výkopů v komunikacích a dvorech. Přesné zaříznutí zabraňuje trhání okolního asfaltu a zaručuje následné čisté napojení nového povrchu."
+  },
+  {
+    "id": "18",
+    "category": "bourani",
+    "title": "Zemní vrtací souprava (pr. 120 a 300 mm)",
+    "perex": "Mechanizované spirálové vrtáky pro rychlé zhotovení přesných děr pro sloupky plotů a kotevní patky.",
+    "image": "assets/foto04.jpg",
+    "badge": "Vrtací technika",
+    "specs": {
+      "Průměry vrtáků": "120 mm a 300 mm",
+      "Hloubka vrtání": "standardně do 1,2 až 1,5 m",
+      "Pohon": "Hydraulický pohon z mechanizace nebo motorová vrtací jednotka",
+      "Spirála": "Vynášecí spirálový břit s výměnnými noži do tvrdé půdy",
+      "Využití": "Výstavba oplocení areálů, základové patky dřevostaveb, výsadba dřevin"
+    },
+    "description": "Zemní vrták umožňuje bleskové vyvrtání desítek přesných děr pro sloupky plotů nebo patky základů během jediného dne bez namáhavého ručního kopání."
+  },
+  {
+    "id": "19",
+    "category": "energie",
+    "title": "Elektrocentrály ČKD (50 kVA) & HONDA (6,5 kVA)",
+    "perex": "Mobilní dieselové a benzínové generátory pro stoprocentní energetickou soběstačnost každé stavby.",
+    "image": "assets/foto04.jpg",
+    "badge": "Zázemí staveniště",
+    "specs": {
+      "Jednotka ČKD": "Třífázová dieselová centrála 50 kVA (400V / 230V na podvozku)",
+      "Jednotka HONDA": "Přenosný benzínový generátor 6,5 kVA se stabilizací napětí AVR",
+      "Výstupy": "Průmyslové zásuvky 32A, 16A (400V) i standardní 230V",
+      "Provoz": "Vysokoobjemové nádrže pro celodenní nepřetržitý běh",
+      "Využití": "Napájení stavebních jeřábů, svářeček, čerpadel a osvětlení"
+    },
+    "description": "Elektrocentrály zajišťují plynulý chod stavebních prací na zelené louce i při haváriích rozvodné sítě. Silná 50 kVA centrála ČKD utáhne celé staveniště včetně těžkých svářeček a jeřábu."
+  },
+  {
+    "id": "20",
+    "category": "energie",
+    "title": "Kalová čerpadla KDF a HCP (230V / 400V)",
+    "perex": "Ponorná kalová čerpadla s otevřeným oběžným kolem pro odčerpávání znečištěné vody z výkopů.",
+    "image": "assets/foto04.jpg",
+    "badge": "Zázemí staveniště",
+    "specs": {
+      "Napájení": "230 V (mobilní) i 400 V (vysokovýkonná)",
+      "Průchodnost oběžného kola": "Schopnost čerpat bahnitou vodu a písek",
+      "Příslušenství": "Požární a kalové hadice se spojkami Storz (C52 / B75)",
+      "Ovládání": "Plovákový spínač pro automatické hlídání hladiny",
+      "Využití": "Odvodnění stavebních jam po dešti, čištění jímek a studní"
+    },
+    "description": "Spolehlivá čerpadla KDF a HCP udržují stavební jámy a výkopy v suchu i při vysoké hladině podzemní vody či průtržích mračen, což umožňuje nepřerušené betonování základů."
+  },
+  {
+    "id": "21",
+    "category": "sluzby",
+    "title": "Strojní zemní a výkopové práce",
+    "perex": "Kompletní výkopy pro pozemní, dopravní, průmyslové a inženýrské stavitelství vlastní moderní technikou.",
+    "image": "assets/foto01.jpg",
+    "badge": "Stavební práce",
+    "specs": {
+      "Rozsah": "Základy domů, inženýrské sítě, retenční nádrže, bazény, jímky",
+      "Přesnost": "Laserová nivelace terénu a hloubek výkopů",
+      "Obsluha": "Zkušení a odborně proškolení strojníci s dlouholetou praxí",
+      "Zázemí": "Vlastní areál v Přáslavicích u Olomouce",
+      "Záruka": "Profesionální provedení dle projektové dokumentace"
+    },
+    "description": "Zajišťujeme kompletní zemní práce od skrývky ornice až po finální hloubení základových pasů a rýh pro inženýrské sítě (voda, plyn, kanalizace, elektro). Práce realizujeme výhradně vlastní technikou s garancí přesnosti."
+  },
+  {
+    "id": "22",
+    "category": "sluzby",
+    "title": "Demolice objektů a recyklace sutě",
+    "perex": "Bourací práce průmyslových i obytných objektů včetně drcení, třídění sutě a prodeje kvalitních recyklátů.",
+    "image": "assets/foto03.jpg",
+    "badge": "Demolice a recyklace",
+    "specs": {
+      "Technologie": "Hydraulická demoliční kladiva, nůžky a velkoobjemové lžíce",
+      "Ekologie": "Recyklace zemin, betonu a cihelných sutí přímo v depu",
+      "Prodej recyklátů": "Drcený betonový a cihelný recyklát různých frakcí",
+      "Odpadové hospodářství": "Zajištění řádné evidence odpadů a uložení na skládku",
+      "Objekty": "Rodinné domy, hospodářská stavení, průmyslové haly"
+    },
+    "description": "Provádíme bezpečné demolice staveb včetně kompletního odvozu a ekologické likvidace sutí. Ve vlastním depu materiál drtíme a třídíme na certifikované stavební recykláty vhodné pro podklady cest a zásypy."
+  },
+  {
+    "id": "23",
+    "category": "sluzby",
+    "title": "Terénní úpravy a zpevněné plochy",
+    "perex": "Hrubé i jemné modelace terénu, svahování, úpravy podloží a výstavba komunikací a parkovišť.",
+    "image": "assets/foto06.jpg",
+    "badge": "Stavební práce",
+    "specs": {
+      "Činnosti": "Rovnání a svahování terénu, skrývky, rozprostření ornice",
+      "Komunikace": "Výstavba zpevněných ploch, vjezdů, cest a parkovacích stání",
+      "Prvky": "Osazení silničních a chodníkových obrubníků, příprava pod dlažby",
+      "Hutnění": "Vibrační válce a reverzní desky AMMANN pro zaručenou nosnost",
+      "Lokalita": "Olomouc, Přáslavice a celý Olomoucký kraj"
+    },
+    "description": "Realizujeme terénní úpravy svažitých i rovinatých pozemků, přípravu ploch pod průmyslové haly i modelace zahrad. Připravujeme podloží pro komunikace s důrazem na precizní zhutnění a správný odtok srážkových vod."
+  },
+  {
+    "id": "24",
+    "category": "sluzby",
+    "title": "Kontejnerový servis a odvoz odpadu",
+    "perex": "Pronájem kontejnerových van od 3,5t do 13t s přistavením a okamžitým odvozem sutí, zemin a odpadů.",
+    "image": "assets/foto11.jpg",
+    "badge": "Kontejnerová doprava",
+    "specs": {
+      "Kontejnery": "Maloobjemové vany na suť (3-5 t) i velkoobjemové (až 13 t)",
+      "Vozidla": "Avia D-Line, MAN a LIAZ se spolehlivými natahováky",
+      "Materiály": "Odvoz sutí, zeminy, betonu, větví i dovoz písku a štěrku",
+      "Rychlost": "Pružné přistavení v dohodnutý čas v Olomouci a okolí",
+      "Flexibilita": "Možnost krátkodobého i dlouhodobého pronájmu kontejneru"
+    },
+    "description": "Nabízíme spolehlivou kontejnerovou dopravu pro soukromé stavebníky i velké stavební firmy. Kontejner přistavíme na požadované místo, po naplnění odvezeme a postaráme se o zákonnou likvidaci odpadu."
+  }
+]

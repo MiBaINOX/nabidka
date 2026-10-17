@@ -1,0 +1,54 @@
+{
+  "slug": "waltr-stroje",
+  "firma": "WALTR STROJE s.r.o.",
+  "ico": "27812138",
+  "dic": "CZ27812138",
+  "obec": "Přáslavice",
+  "adresa": "Přáslavice 15, 783 54 Přáslavice",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "jazyky": [
+    "CZ"
+  ],
+  "obor_plny": "Stavební stroje, zemní a demoliční práce / Půjčovna stavebních strojů a těžké techniky (kolová a pásová rypadla, smykové nakladače Bobcat/Caterpillar/Locust, traktorbagry JCB a Hidromek, vibrační technika a hutnicí pěchy AMMANN, kontejnerová doprava a nákladní automobily pro odvoz suti a zeminy)",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://waltrstroje.cz",
+  "email": "waltrstroje@email.cz",
+  "telefon_jednatel": "+420 775 048 300",
+  "telefon_dispecink": "+420 775 068 300",
+  "kontaktni_osoba": "Ludvík Chodil, jednatel společnosti",
+  "prodejni_body": [
+    "Vlastní areál depa mechanizace v Přáslavicích (7 km od Olomouce) s kompletním dílenským a servisním zázemím",
+    "Komplexní realizace zemních a výkopových prací pro inženýrské, pozemní i dopravní stavitelství",
+    "Široký strojní park čítající 24+ jednotek techniky (pásová i kolová rypadla, smykové nakladače, traktorbagry JCB a Hidromek)",
+    "Kontejnerová autodoprava vozidly Avia, MAN a LIAZ s nosností od 3,5t do 13t pro odvoz sutí i dovoz materiálů",
+    "Ekologická recyklace stavebních odpadů, drcení a prodej certifikovaných recyklátů",
+    "Zkušení a odborně proškolení strojníci s dlouholetou praxí na stavbách po celé Moravě"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený provoz na zastaralém protokolu HTTP bez šifrování SSL/TLS (prohlížeče varují před návštěvou)",
+    "Absence mobilní responzivity a viewportu – fixní šířka 775px nutící uživatele na telefonech k nepřehlednému přibližování a posunu",
+    "Zastaralé kódování Windows-1250 způsobující rozpad diakritiky v moderních prohlížečích",
+    "Nefunkční sekce ceníku s textem 'Nový ceník připravujeme' bez možnosti interaktivní poptávky",
+    "Chybějící interaktivní katalog techniky, parametrů strojů a nosností kontejnerů",
+    "Nefunkční navigační mapa v kontaktech (pouze statický obrázek ze starého plánu)"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní technický design archetypu Tech & Precision v ocelovo-žluté industriální paletě",
+    "Interaktivní katalog 24 strojů a stavebních služeb s živým fulltextovým vyhledáváním a kategoriemi",
+    "Technické modální okno (#techModalBackdrop) s detailními parametry, hloubkovými dosahy a objemy lžic",
+    "Ověřená adresa depa Přáslavice s přesným červeným špendlíkem Mapy.cz a přímým odkazem na navigaci",
+    "Optimalizovaný poptávkový formulář s výběrem oboru prací a požadovaného termínu",
+    "100% mobilní responzivita s nulovým přetečením (0px overflow) na všech typech displejů",
+    "Kompletní zachování identity, reálných fotografií a zero anonymity (přímý kontakt na jednatele a dispečink)"
+  ],
+  "fakta": {
+    "rok_zalozeni": "2007",
+    "depo": "Přáslavice 15, 783 54 Přáslavice",
+    "vzdalenost_olomouc": "7 km",
+    "pocet_stroju": "24+",
+    "max_tonaz_kontejneru": "13 t",
+    "ks_soud": "Krajský soud v Ostravě, oddíl C, vložka 30373",
+    "bankovni_ucet": "216549350/0300 (ČSOB Olomouc)"
+  }
+}

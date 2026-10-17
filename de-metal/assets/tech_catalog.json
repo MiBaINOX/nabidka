@@ -1,0 +1,331 @@
+[
+  {
+    "id": "item-1",
+    "nazev": "Díly pro nábytek a stolařské polotovary",
+    "kategorie": "drevo",
+    "kategorie_nazev": "Dřevařská výroba",
+    "perex": "Precizní stolařská výroba masivních polotovarů pro nábytkářský průmysl, masivní čela a boky kuchyňských zásuvek, dveřní prahy, kostry a nohy z masivu.",
+    "obrazek": "assets/drevo_drevene_vyrobky.jpg",
+    "parametry": {
+      "Dřeviny": "Buk, Dub, Smrk (dle specifikace)",
+      "Typy výrobků": "Čela a boky zásuvek, dveřní prahy, kostry k sedacím soupravám a křeslům, masivní nohy",
+      "Stav dodávky": "Smontované i nesmontované, připravené k povrchové úpravě či očalounění",
+      "Vlhkost materiálu": "8–10 % (komorově sušeno)",
+      "Opracování": "Přesné formátování, broušení, profilování, vrtání otvorů na kolíky",
+      "Certifikace": "FSC C-o-C (Chain of Custody)"
+    },
+    "tabulka": [
+      {"Polotovar": "Zásuvkové díly (čela/boky)", "Dřevina": "Buk masiv", "Tloušťka": "14–18 mm", "Opracování": "Drážka, pero, broušeno"},
+      {"Polotovar": "Dveřní prahy", "Dřevina": "Buk pařený", "Tloušťka": "20–35 mm", "Opracování": "Zaoblení hran, lak/přírodní"},
+      {"Polotovar": "Nábytkové kostry", "Dřevina": "Smrk / Buk", "Tloušťka": "Dle výkresu", "Opracování": "Pevnostní čepování a lepení"},
+      {"Polotovar": "Stolové a židlové nohy", "Dřevina": "Buk / Dub", "Tloušťka": "40–90 mm", "Opracování": "Čtyřstranně hoblované, broušené"}
+    ]
+  },
+  {
+    "id": "item-2",
+    "nazev": "Díly a polotovary pro dřevěné hračky",
+    "kategorie": "drevo",
+    "kategorie_nazev": "Dřevařská výroba",
+    "perex": "Dlouhodobě vyráběný sortiment dřevěných dílů a polotovarů pro certifikované výrobce dřevěných hraček ze zdravotně nezávadného tvrdého dřeva.",
+    "obrazek": "assets/drevo_drevene_vyrobky_1.jpg",
+    "parametry": {
+      "Dřeviny": "Výběrový buk, javor (třída jakosti A/A)",
+      "Standard": "Zdravotní nezávadnost a bezpečnost pro dětské hračky dle EN 71",
+      "Opracování": "Jemné kalibrované broušení, rádiusové srážení všech hran",
+      "Výrobní tolerance": "±0,2 mm pro bezpečné lícování a montáž",
+      "Původ dřeva": "100% udržitelný certifikovaný lesní fond FSC",
+      "Zakázková výroba": "Dle výkresové a technické dokumentace odběratele"
+    },
+    "tabulka": [
+      {"Komponent": "Stavebnicové kostky a hranolky", "Materiál": "Buk jakost A", "Rozměry": "20–60 mm", "Úprava": "Broušeno R2"},
+      {"Komponent": "Kulatina a kolíky", "Materiál": "Bukové dřevo", "Průměr": "8–35 mm", "Úprava": "Kalibrováno"},
+      {"Komponent": "Tvarové dílce a výřezy", "Materiál": "Buk / Javor", "Tloušťka": "10–30 mm", "Úprava": "CNC frézování"}
+    ]
+  },
+  {
+    "id": "item-3",
+    "nazev": "Ekologické dřevěné brikety (Ekobrikety)",
+    "kategorie": "drevo",
+    "kategorie_nazev": "Dřevařská výroba",
+    "perex": "Vysoce výhřevný typ z čistého bukového dřeva bez chemických pojiv. Vynikající výhřevnost, dlouhá doba hoření a minimální popelnatost.",
+    "obrazek": "assets/drevo_brikety_1.jpg",
+    "parametry": {
+      "Surovina": "100% čistá buková dřevní hmota (piliny a hobliny)",
+      "Tvar brikety": "Kvádr se zaoblenými hranami",
+      "Rozměry brikety": "Výška 10 cm × šířka 5 cm",
+      "Výhřevnost": "cca 18,5 – 19,5 MJ/kg",
+      "Obsah popela": "< 0,7 % (lze využít jako minerální hnojivo)",
+      "Vlhkost": "Méně než 8 %",
+      "Maloodběratelské balení": "10 ks v PE fólii = 1 balení (hmotnost 10 kg)",
+      "Velkoodběratelské balení": "Paleta 1000 kg (100 balení po 10 kg, ovinuto stretch fólií a páskováno)",
+      "Kamionové odběry": "Zahraniční export (komunikace v EN a DE), možnost privátní etikety pro hobby markety"
+    },
+    "tabulka": [
+      {"Vlastnost": "Výhřevnost", "Hodnota": "18,5 – 19,5 MJ/kg", "Poznámka": "Srovnatelné s kvalitním hnědým uhlím"},
+      {"Vlastnost": "Zbytkový popel", "Hodnota": "max. 0,65 %", "Poznámka": "Čisté ekologické hnojivo"},
+      {"Vlastnost": "Vlhkost při lisování", "Hodnota": "pod 8 %", "Poznámka": "Vysokotlaké hydraulické lisování bez lepidel"},
+      {"Vlastnost": "Objemová hmotnost", "Hodnota": "> 1,12 kg/dm³", "Poznámka": "Dlouhá stabilní doba žhnutí"}
+    ]
+  },
+  {
+    "id": "item-4",
+    "nazev": "Dřevěné hranolky a přesné přířezy",
+    "kategorie": "drevo",
+    "kategorie_nazev": "Dřevařská výroba",
+    "perex": "Výroba na moderních automatických linkách ve výběrové jakosti. Variabilní délky a šířky, zakázkové zpracování na přesný termín.",
+    "obrazek": "assets/drevo_hranolky_1.jpg",
+    "parametry": {
+      "Základní rozměry": "Průřezy 0,8 – 80 mm (dle specifikace zákazníka)",
+      "Dřeviny": "Buk, Dub, Smrk, Borovice",
+      "Dostupné úpravy": "Hoblování, broušení, čtyřstranné frézování, drážkování, vrtání",
+      "Délková variabilita": "Přesné kapování na požadovaný rozměr",
+      "Přejímka jakosti": "Optické a mechanické třídění před expedicí"
+    },
+    "tabulka": [
+      {"Typ přířezu": "Jemné profilové lišty", "Rozměry průřezu": "0,8 – 15 mm", "Délky": "Do 2 500 mm", "Použití": "Interiéry, modely, rámy"},
+      {"Typ přířezu": "Truhlářské hranolky", "Rozměry průřezu": "16 – 50 mm", "Délky": "Do 4 000 mm", "Použití": "Nábytkářská výroba"},
+      {"Typ přířezu": "Konstrukční přířezy", "Rozměry průřezu": "50 – 80 mm", "Délky": "Do 4 000 mm", "Použití": "Nosné prvky a kostry"}
+    ]
+  },
+  {
+    "id": "item-5",
+    "nazev": "Stavební a truhlářské hranoly a latě",
+    "kategorie": "drevo",
+    "kategorie_nazev": "Dřevařská výroba",
+    "perex": "Stavební a truhlářské hranoly a latě skladem i na zakázku. Možnost ochranné vakuo-tlakové nebo máčené impregnace a výroba plotových prken.",
+    "obrazek": "assets/drevo_hranolky_2.jpg",
+    "parametry": {
+      "Skladové hranoly": "80 × 80 mm, 100 × 100 mm, 100 × 120 mm a další rozměry na zakázku",
+      "Stavební latě": "Smrkové i jiné, v různých stupních opracování (hrubé, hoblované)",
+      "Oplocení": "Prkna a trámky pro ploty a oplocení v zakázkových délkách",
+      "Ochrana dřeva": "Možnost průmyslové impregnace proti houbám, plísním a dřevokaznému hmyzu",
+      "Výrobní závod": "Pilařský provoz Dětřichov n. Bystřicí a Beňuš"
+    },
+    "tabulka": [
+      {"Sortiment": "Hranol 80 × 80 mm", "Dřevina": "Smrk / Borovice", "Délky": "3 – 6 m", "Impregnace": "Na přání (zelená/hnědá)"},
+      {"Sortiment": "Hranol 100 × 100 mm", "Dřevina": "Smrk masiv", "Délky": "3 – 6 m", "Impregnace": "Možná"},
+      {"Sortiment": "Hranol 100 × 120 mm", "Dřevina": "Smrk masiv", "Délky": "3 – 6 m", "Impregnace": "Možná"},
+      {"Sortiment": "Střešní latě 40 × 60 mm", "Dřevina": "Smrk jakost I.", "Délky": "4 – 5 m", "Impregnace": "Impregnováno"}
+    ]
+  },
+  {
+    "id": "item-6",
+    "nazev": "Cinkovaná lepená spárovka masiv",
+    "kategorie": "drevo",
+    "kategorie_nazev": "Dřevařská výroba",
+    "perex": "Vysoce stabilní cinkovaná lepená spárovka vyráběná na nejmodernější strojní lince. Ideální pro schodišťové stupně, stoly, nábytek a desky.",
+    "obrazek": "assets/drevo_sparovka_1.jpg",
+    "parametry": {
+      "Dřeviny": "Buková, Borová, Smrková, Dubová",
+      "Délky desek": "2 000 – 5 000 mm",
+      "Dostupné tloušťky": "18, 20, 27, 30, 40 mm (případně dle přání)",
+      "Typ spoje": "Cinkovaný zubový spoj (finger-joint) pro maximální tvarovou stálost",
+      "Lepidlo": "Vodovzdorné disperzní lepidlo třídy D3 / D4",
+      "Broušení": "Oboustranně kalibrováno brusivem zrnitosti P100–P120",
+      "Vlhkost": "8 ± 2 %"
+    },
+    "tabulka": [
+      {"Dřevina": "Buk pařený cink", "Tloušťky": "20, 27, 40 mm", "Délky": "Až 5 000 mm", "Jakost": "A/B (nábytkářská)"},
+      {"Dřevina": "Dub evropský cink", "Tloušťky": "20, 40 mm", "Délky": "Až 4 500 mm", "Jakost": "A/B (schodišťová)"},
+      {"Dřevina": "Smrk severský cink", "Tloušťky": "18, 27, 40 mm", "Délky": "Až 5 000 mm", "Jakost": "A/B"},
+      {"Dřevina": "Borovice lesní cink", "Tloušťky": "18, 27 mm", "Délky": "Až 4 000 mm", "Jakost": "A/B"}
+    ]
+  },
+  {
+    "id": "item-7",
+    "nazev": "Truhlářské a stavební řezivo (Sušené a pařené)",
+    "kategorie": "drevo",
+    "kategorie_nazev": "Dřevařská výroba",
+    "perex": "Široká nabídka sušeného, pařeného i vzduchosuchého řeziva z listnatých i jehličnatých dřevin. Vlastní pilařské kapacity a moderní sušárny.",
+    "obrazek": "assets/drevo_rezivo_1.jpg",
+    "parametry": {
+      "Měsíční pořez": "2 500 – 4 000 m³ řeziva",
+      "Kapacita sušení": "1 500 – 2 000 m³ sušeného řeziva měsíčně",
+      "Sortiment dřevin": "Buk, Dub, Smrk, Borovice, Javor, Jasan, Olše, Třešeň",
+      "Tloušťky": "20 – 80 mm",
+      "Délky": "3 000 – 4 000 mm",
+      "Úprava": "Omítané, neomítané, pařené (buk), sušené na 8–10 % nebo vzduchosuché",
+      "Certifikát": "FSC C-o-C 100% z udržitelných lesů"
+    },
+    "tabulka": [
+      {"Dřevina": "Buk řezivo (pařené/nepařené)", "Tloušťka": "26, 32, 50, 60 mm", "Délka": "3 – 4 m", "Stav": "Sušené 8–10 %"},
+      {"Dřevina": "Dub řezivo truhlářské", "Tloušťka": "30, 50, 65 mm", "Délka": "3 – 4 m", "Stav": "Sušené / vzduchosuché"},
+      {"Dřevina": "Smrk / Borovice", "Tloušťka": "24, 30, 40, 50 mm", "Délka": "4 m", "Stav": "Sušené 12–14 % / čerstvé"},
+      {"Dřevina": "Javor, Jasan, Třešeň", "Tloušťka": "32, 50 mm", "Délka": "3 m", "Stav": "Výběrová jakost I."}
+    ]
+  },
+  {
+    "id": "item-8",
+    "nazev": "Základní feroslitiny (FeMn, FeCr, FeSi, FeSiMn)",
+    "kategorie": "hutni",
+    "kategorie_nazev": "Hutní materiály a slévárenství",
+    "perex": "Volně ložené a balené základní feroslitiny pro dezoxidaci a legování ocelí a litin. Certifikované dodávky z vlastních skladů v Uničově.",
+    "obrazek": "assets/hutni_feroslitiny_1.jpg",
+    "parametry": {
+      "Feromangan (FeMn)": "Jakosti LC (nízkouhlíkatý), MC (středněuhlíkatý), HC (vysokouhlíkatý)",
+      "Ferochrom (FeCr)": "Jakosti LC, MC, HC",
+      "Ferosilicium (FeSi)": "Jakosti s obsahem křemíku 75 %, 65 %, 45 %",
+      "Ferosilikonmangan (FeSiMn)": "Standardní slévárenská jakost",
+      "Balení": "Volně ložené, velkoobjemové Big Bagy po 1 tuně",
+      "Certifikace": "ISO 9001:2008 / SGS"
+    },
+    "tabulka": [
+      {"Materiál": "Feromangan FeMn HC", "Složení Mn": "75–80 %", "Složení C": "6,0–8,0 %", "Složení Si": "max. 1,5 %"},
+      {"Materiál": "Feromangan FeMn LC", "Složení Mn": "80–85 %", "Složení C": "max. 0,2 %", "Složení Si": "max. 1,0 %"},
+      {"Materiál": "Ferosilicium FeSi 75", "Složení Si": "74–80 %", "Složení Al": "max. 1,5 %", "Složení C": "max. 0,15 %"},
+      {"Materiál": "Ferosilikonmangan FeSiMn", "Složení Mn": "65–70 %", "Složení Si": "16–20 %", "Složení C": "max. 2,0 %"}
+    ]
+  },
+  {
+    "id": "item-9",
+    "nazev": "Ušlechtilé feroslitiny (FeMo, FeV, FeTi, FeNb, FeW, FeB)",
+    "kategorie": "hutni",
+    "kategorie_nazev": "Hutní materiály a slévárenství",
+    "perex": "Vysoce jakostní legovací feroslitiny pro výrobu nástrojových, korozivzdorných a žárupevných ocelí a speciálních litinových odlitků.",
+    "obrazek": "assets/hutni_feroslitiny_2.jpg",
+    "parametry": {
+      "Feromolybden (FeMo)": "Obsah Mo 60–70 %, nízký obsah mědi a síry",
+      "Ferovanad (FeV)": "Obsah V 50 % nebo 80 %",
+      "Ferotitan (FeTi)": "Jakosti FeTi 35 % a FeTi 70 %",
+      "Feroniob (FeNb)": "Obsah Nb 60–70 %",
+      "Další prvky": "Ferowolfram (FeW), Ferobor (FeB), Ferofosfor (FeP)",
+      "Kusovost": "Dle požadavku tavebního předpisu (např. 5–30 mm, 10–50 mm)",
+      "Balení": "Sudy 250 kg, Big Bag 1 t, pytle 25 kg na paletě"
+    },
+    "tabulka": [
+      {"Slitina": "Feromolybden FeMo 65", "Hlavní prvek": "Mo 65–70 %", "Uhlík C": "max. 0,10 %", "Kusovost": "10–50 mm"},
+      {"Slitina": "Ferovanad FeV 80", "Hlavní prvek": "V 78–82 %", "Uhlík C": "max. 0,30 %", "Kusovost": "5–30 mm"},
+      {"Slitina": "Ferotitan FeTi 70", "Hlavní prvek": "Ti 68–75 %", "Uhlík C": "max. 0,20 %", "Kusovost": "10–50 mm"},
+      {"Slitina": "Feroniob FeNb 65", "Hlavní prvek": "Nb 60–68 %", "Uhlík C": "max. 0,20 %", "Kusovost": "10–50 mm"}
+    ]
+  },
+  {
+    "id": "item-10",
+    "nazev": "Dezoxydační a křemíkaté feroslitiny",
+    "kategorie": "hutni",
+    "kategorie_nazev": "Hutní materiály a slévárenství",
+    "perex": "Komplexní feroslitiny určené k hluboké dezoxidaci oceli, modifikaci vměstků a přesnému legování křemíkem a vápníkem.",
+    "obrazek": "assets/hutni_feroslitiny_3.jpg",
+    "parametry": {
+      "Sortiment": "Ferohliník (FeAl), Ferosilikokalcium (FeSiCa), Ferosilikonzirkon (FeSiZr), Ferosilikonmagnesium (FeSiMg), Ferosilikostroncium (FeSiSr)",
+      "Účel": "Redukce kyslíku v tavenině, eliminace pórů, zlepšení tekutosti",
+      "Zpracování": "Kusové materiály nebo plněné profily",
+      "Jakostní kontrola": "Atest ke každé dodávce dle EN 10204 3.1"
+    },
+    "tabulka": [
+      {"Materiál": "FeSiCa (Silikokalcium)", "Obsah Si": "55–65 %", "Obsah Ca": "28–32 %", "Použití": "Dezoxidace a odsíření"},
+      {"Materiál": "FeAl (Ferohliník)", "Obsah Al": "30–50 %", "Obsah Fe": "zbytek", "Použití": "Hluboké uklidnění oceli"},
+      {"Materiál": "FeSiZr (Silikozirkon)", "Obsah Si": "70–75 %", "Obsah Zr": "2,0–3,5 %", "Použití": "Zjemnění zrna"},
+      {"Materiál": "FeSiSr (Silikostroncium)", "Obsah Si": "70–75 %", "Obsah Sr": "0,6–1,2 %", "Použití": "Potlačení bílého tuhnutí"}
+    ]
+  },
+  {
+    "id": "item-11",
+    "nazev": "Speciální a nitridované feroslitiny",
+    "kategorie": "hutni",
+    "kategorie_nazev": "Hutní materiály a slévárenství",
+    "perex": "Technologické speciality pro moderní metalurgii: fero-nikl-magnezium, nitridované slitiny pro legování dusíkem a materiály s ultra nízkým dusíkem.",
+    "obrazek": "assets/hutni_uvod_1.jpg",
+    "parametry": {
+      "Fero-nikl-magnezium (FeNiMg)": "Slitina s vysokým obsahem Ni pro nodulizaci a legování",
+      "Nitridované feroslitiny": "Garantovaný obsah dusíku N 5 – 9 % (např. nitridovaný FeCr, FeMn)",
+      "Nízkodusíkové materiály": "Garantovaný maximální obsah dusíku N max. 0,04 % pro čisté oceli",
+      "Balení": "Ocelové sudy nebo Big Bag s vnitřní vzduchotěsnou vložkou"
+    },
+    "tabulka": [
+      {"Slitina": "FeNiMg", "Obsah Ni": "30–65 %", "Obsah Mg": "15–16 %", "CeMM": "0–1 %"},
+      {"Slitina": "Nitridovaný FeCr", "Obsah Cr": "60–65 %", "Obsah N": "5,0–8,5 %", "Uhlík C": "max. 0,08 %"},
+      {"Slitina": "Nitridovaný FeMn", "Obsah Mn": "70–76 %", "Obsah N": "4,5–6,5 %", "Uhlík C": "max. 1,5 %"},
+      {"Slitina": "Nízkodusíkový FeSi", "Obsah Si": "75 %", "Obsah N": "max. 0,04 %", "Al": "max. 0,5 %"}
+    ]
+  },
+  {
+    "id": "item-12",
+    "nazev": "Čisté průmyslové kovy (LME certifikace)",
+    "kategorie": "hutni",
+    "kategorie_nazev": "Hutní materiály a slévárenství",
+    "perex": "Špičkové čisté kovy v primární kvalitě nakupované z burzy London Metal Exchange (LME) pro slévárny hliníku, bronzu, oceli a chemický průmysl.",
+    "obrazek": "assets/hutni_uvod_2.jpg",
+    "parametry": {
+      "Nikl (Ni)": "Čistota 99,8 % (nákup LME, katody, pelety, brikety)",
+      "Chrom (Cr)": "Čistota 99 % jakost H4 (kusový kov)",
+      "Mangan (Mn)": "Čistota 99 % (kusový kov, elektrolytické vločky, brikety)",
+      "Molybden (Mo)": "97 % kov-brikety nebo 55 % koncentrát (brikety, polštářky, pelety)",
+      "Kobalt (Co)": "Čistota 98 % (jakost low / high)",
+      "Křemík kovový (Si)": "Čistota 99 % (jakost 4-4-1 a 5-5-3)"
+    },
+    "tabulka": [
+      {"Kov": "Nikl katodový / pelety", "Čistota": "min. 99,8 %", "Standard": "LME certifikace", "Balení": "Sudy / palety"},
+      {"Kov": "Chrom kovový H4", "Čistota": "min. 99,0 %", "Standard": "Průmyslová jakost", "Balení": "Sudy 250 kg"},
+      {"Kov": "Mangan elektrolytický", "Čistota": "min. 99,7 %", "Forma": "Vločky / brikety", "Balení": "Big Bag 1 t"},
+      {"Kov": "Křemík chemický/hutní", "Čistota": "min. 98,5–99,2 %", "Jakost": "4-4-1 / 5-5-3", "Balení": "Big Bag 1 t"}
+    ]
+  },
+  {
+    "id": "item-13",
+    "nazev": "Slévárenská očkovadla a modifikátory (FeSiMg, NiMg, FeSiZr, FeSiSr, FeSiBa)",
+    "kategorie": "hutni",
+    "kategorie_nazev": "Hutní materiály a slévárenství",
+    "perex": "Kompletní portfolio očkovadel a modifikátorů pro výrobu tvárné a šedé litiny. Dlouhodobé přímé partnerství s výrobci, dodávky dle chemické analýzy odběratele.",
+    "obrazek": "assets/hutni_uvod_3.jpg",
+    "parametry": {
+      "Modifikátory FeSiMg": "Jakosti FeSiMg 4, FeSiMg 5, FeSiMg 6, FeSiMg 9",
+      "Modifikátory NiMg": "R FeNiMg (Ni max 65 %, Mg 15–16 %), R NiMg (Ni 82–84 %, Mg 15–16 %)",
+      "Očkovadla FeSiZr": "RZ 25 (Si 70–75 %, Zr 2,0–2,8 %), RC 1",
+      "Očkovadla FeSiZrMn": "RZM 55, RZM 33 (s obsahem Zr a Mn pro náročné odlitky)",
+      "Očkovadla FeSiSr": "R Sr 71 (Si 70–75 %, Sr 0,6–1,0 %, Al max 0,5 %)",
+      "Očkovadla FeSiBa": "RB 25, RB 5, RB 10, RB 1 (s obsahem baria 0,5–11,0 % pro potlačení fade-out efektu)",
+      "Dostupná kusovost": "1–6 mm, 2–5 mm, 2–30 mm, 5–35 mm (dle způsobu dávkování do proudu kovu nebo pánve)",
+      "Balení": "Big Bag po 1 tuně, papírové pytle po 25 kg, ocelové sudy po 250 kg"
+    },
+    "tabulka": [
+      {"Typ": "FeSiMg 5", "Si": "45–48 %", "Al": "0,8–1,0 %", "Ca": "0,8–1,2 %", "Mg": "5,2–5,8 %", "CeMM": "1,0–1,3 %"},
+      {"Typ": "FeSiMg 6", "Si": "45–48 %", "Al": "0,8–1,0 %", "Ca": "0,8–1,2 %", "Mg": "5,9–6,5 %", "CeMM": "0,7–0,9 %"},
+      {"Typ": "RZ 25 (FeSiZr)", "Si": "70–75 %", "Al": "1,2–1,7 %", "Ca": "0,8–1,2 %", "Zr": "2,0–2,8 %", "Účel": "Zjemnění eutektických zrn"},
+      {"Typ": "R Sr 71 (FeSiSr)", "Si": "70–75 %", "Al": "max 0,5 %", "Ca": "max 0,1 %", "Sr": "0,6–1,0 %", "Účel": "Šedá litina s tenkými stěnami"},
+      {"Typ": "RB 10 (FeSiBa)", "Si": "63–67 %", "Al": "1,3–1,7 %", "Ca": "1,5–2,0 %", "Ba": "9,0–11,0 %", "Účel": "Dlouhá doba účinku očkování"}
+    ]
+  },
+  {
+    "id": "item-14",
+    "nazev": "Ocelové plechy pro strojírenství a konstrukce",
+    "kategorie": "hutni",
+    "kategorie_nazev": "Hutní materiály a slévárenství",
+    "perex": "Dodávky jakostních tlustých i tenkých konstrukčních ocelových plechů pro dlouhodobé partnery, ocelárny a strojírenské výrobce.",
+    "obrazek": "assets/2.jpg",
+    "parametry": {
+      "Tloušťky": "6 – 50 mm",
+      "Šířky": "1 200 – 2 500 mm",
+      "Délky": "2 000 – 4 000 mm",
+      "Konstrukční jakosti": "S235JR, S355J2, S355K2 (dle EN 10025-2)",
+      "Dodací podmínky": "Včetně hutních atestů EN 10204 3.1, dělení na míru"
+    },
+    "tabulka": [
+      {"Formát plechu": "Tloušťka 6–12 mm", "Šířka": "1 200–2 000 mm", "Délka": "2 000–3 000 mm", "Jakost": "S235 / S355"},
+      {"Formát plechu": "Tloušťka 15–30 mm", "Šířka": "1 500–2 500 mm", "Délka": "3 000–4 000 mm", "Jakost": "S355J2+N"},
+      {"Formát plechu": "Tloušťka 35–50 mm", "Šířka": "1 500–2 500 mm", "Délka": "2 000–4 000 mm", "Jakost": "S355J2 / S355K2"}
+    ]
+  },
+  {
+    "id": "item-15",
+    "nazev": "Surové železo a metalurgická ruda",
+    "kategorie": "hutni",
+    "kategorie_nazev": "Hutní materiály a slévárenství",
+    "perex": "Dodávky certifikovaného surového železa pro slévárny šedé i tvárné litiny a ocelářského surového železa dle přísných technických specifikací.",
+    "obrazek": "assets/1.jpg",
+    "parametry": {
+      "Slévárenské surové železo (Foundry pig iron)": "Dle State Standard 4832-95",
+      "Základní ocelářské železo (Basic pig iron)": "Dle State Standard 805-95",
+      "Nodulární surové železo (Nodular pig iron)": "Dle Technical Specification 14-128-D-15-07",
+      "Semi-nodulární železo (Semi-nodular pig iron)": "Dle Technical Specification 14-128-D-8-07",
+      "Slévárenské tvárné železo": "Basic/foundry grade nodular pig iron dle TS 14-128-D-16-07",
+      "Logistika": "Přímé železniční a kamionové dodávky na sklad a k zákazníkovi"
+    },
+    "tabulka": [
+      {"Druh železa": "Foundry pig iron", "Norma": "State Standard 4832-95", "Obsah C": "3,8–4,4 %", "Obsah Si": "1,5–3,5 %"},
+      {"Druh železa": "Basic pig iron", "Norma": "State Standard 805-95", "Obsah C": "4,0–4,5 %", "Obsah Si": "max. 1,0 %"},
+      {"Druh železa": "Nodular pig iron", "Norma": "TS 14-128-D-15-07", "Obsah Ti": "max. 0,025 %", "Obsah Mn": "max. 0,10 %"},
+      {"Druh železa": "Semi-nodular pig iron", "Norma": "TS 14-128-D-8-07", "Obsah Ti": "max. 0,040 %", "Obsah Mn": "max. 0,20 %"}
+    ]
+  }
+]

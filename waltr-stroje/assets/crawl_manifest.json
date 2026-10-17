@@ -1,0 +1,146 @@
+{
+  "url": "http://waltrstroje.cz/",
+  "pages_crawled": [
+    {
+      "page": "index.html",
+      "url": "http://waltrstroje.cz/index.html",
+      "status": 200,
+      "length": 4182
+    },
+    {
+      "page": "sluzby.html",
+      "url": "http://waltrstroje.cz/sluzby.html",
+      "status": 200,
+      "length": 2588
+    },
+    {
+      "page": "sluzby1.html",
+      "url": "http://waltrstroje.cz/sluzby1.html",
+      "status": 200,
+      "length": 3261
+    },
+    {
+      "page": "sluzby2.html",
+      "url": "http://waltrstroje.cz/sluzby2.html",
+      "status": 200,
+      "length": 3469
+    },
+    {
+      "page": "cenik.html",
+      "url": "http://waltrstroje.cz/cenik.html",
+      "status": 200,
+      "length": 5405
+    },
+    {
+      "page": "galerie.html",
+      "url": "http://waltrstroje.cz/galerie.html",
+      "status": 200,
+      "length": 3604
+    },
+    {
+      "page": "kontakt.html",
+      "url": "http://waltrstroje.cz/kontakt.html",
+      "status": 200,
+      "length": 3453
+    }
+  ],
+  "images_downloaded": [
+    {
+      "name": "komix01.jpg",
+      "url": "http://waltrstroje.cz/pics/komix01.jpg",
+      "size": 117020,
+      "source_page": "sluzby.html"
+    },
+    {
+      "name": "komix02.jpg",
+      "url": "http://waltrstroje.cz/pics/komix02.jpg",
+      "size": 114460,
+      "source_page": "sluzby.html"
+    },
+    {
+      "name": "foto01.jpg",
+      "url": "http://waltrstroje.cz/pics/foto01.jpg",
+      "size": 416283,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto02.jpg",
+      "url": "http://waltrstroje.cz/pics/foto02.jpg",
+      "size": 253914,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto03.jpg",
+      "url": "http://waltrstroje.cz/pics/foto03.jpg",
+      "size": 252092,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto04.jpg",
+      "url": "http://waltrstroje.cz/pics/foto04.jpg",
+      "size": 210389,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto06.jpg",
+      "url": "http://waltrstroje.cz/pics/foto06.jpg",
+      "size": 201820,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto07.jpg",
+      "url": "http://waltrstroje.cz/pics/foto07.jpg",
+      "size": 213286,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto08.jpg",
+      "url": "http://waltrstroje.cz/pics/foto08.jpg",
+      "size": 156043,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto09.jpg",
+      "url": "http://waltrstroje.cz/pics/foto09.jpg",
+      "size": 156648,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto10.jpg",
+      "url": "http://waltrstroje.cz/pics/foto10.jpg",
+      "size": 247401,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto11.jpg",
+      "url": "http://waltrstroje.cz/pics/foto11.jpg",
+      "size": 257251,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto12.jpg",
+      "url": "http://waltrstroje.cz/pics/foto12.jpg",
+      "size": 279487,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "foto13.jpg",
+      "url": "http://waltrstroje.cz/pics/foto13.jpg",
+      "size": 310522,
+      "source_page": "galerie.html"
+    },
+    {
+      "name": "map.jpg",
+      "url": "http://waltrstroje.cz/images/map.jpg",
+      "size": 34381,
+      "source_page": "kontakt.html"
+    }
+  ],
+  "menu_categories": [
+    "Úvod",
+    "Služby",
+    "Strojní park",
+    "Galerie",
+    "Kontakt"
+  ]
+}

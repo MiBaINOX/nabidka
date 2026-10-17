@@ -1,0 +1,55 @@
+{
+  "slug": "de-metal",
+  "firma": "De-Metal a.s.",
+  "ico": "06198317",
+  "dic": "CZ06198317",
+  "obec": "Uničov",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "adresa": "Stromořadí 421, 783 91 Uničov",
+  "obor_plny": "Dřevařská a strojírenská výroba / Výroba dřevěných dílů pro nábytkářský průmysl a hračky, přířezy a hranolky, ekologické brikety, FSC certifikace (C-o-C) & Obchodní a technologické dodávky pro slévárny a ocelárny (feroslitiny, surové železo, očkovadla, kovy, plechy), certifikace ISO 9001",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://demetal.cz",
+  "email": "demetal@demetal.cz",
+  "telefon": "+420 603 465 956",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Akciová společnost s tradicí od roku 1998 založená Ing. Pavlem Nezvalem se 4 vlastními provozy v ČR a na Slovensku",
+    "Ucelený dřevařský řetězec: pilařské závody Dětřichov a Beňuš (SK) s měsíčním pořezem 2 500 – 4 000 m³ kulatiny a sušárnami 1 500 – 2 000 m³",
+    "Stolařská výroba v Uničově: masivní nábytkové polotovary (čela, boky zásuvek, prahy, kostry křesel, lepené nohy) a díly pro dřevěné hračky",
+    "100% cirkulární bezodpadová produkce: hydraulicky lisované čisté bukové ekobrikety (18,5–19,5 MJ/kg, popel pod 0,7 %) pro tuzemský i zahraniční kamionový export",
+    "Kompletní sortiment feroslitin: základní (FeMn, FeSi, FeCr, FeSiMn), ušlechtilé (FeMo, FeV, FeTi, FeNb, FeW) i speciální nitridované feroslitiny",
+    "Slévárenská očkovadla a modifikátory (FeSiMg 4/5/6/9, NiMg, FeSiZr, FeSiSr, FeSiBa) i čisté kovy z LME (Nikl 99,8 %, Chrom, Mangan, Molybden)",
+    "Dvojí certifikovaná záruka: mezinárodní lesní certifikace FSC® C-o-C nepřetržitě od roku 2010 a certifikát jakosti ISO 9001:2008 auditovaný společností SGS"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený provoz na protokolu HTTP bez šifrování SSL/TLS, vedoucí k bezpečnostním hlášením prohlížečů o nezabezpečeném webu",
+    "Archaický redakční systém WordPress ze staré verze Artisteer layoutu s fixní šířkou 1 000 px bez mobilní responzivity",
+    "Nutnost ručního posouvání a zoomování na mobilních telefonech způsobující odchod potenciálních obchodních partnerů",
+    "Chybějící interaktivní vyhledávání v bohatém sortimentu dřevěných dílců, feroslitin a očkovadel",
+    "Zastaralá vizuální prezentace neodpovídající významu a výrobním kapacitám prosperující akciové společnosti se čtyřmi výrobními závody"
+  ],
+  "vylepseni_noveho_webu": [
+    "Originální designový archetyp Editorial & Story s autentickou fotodokumentací dřevovýroby i metalurgických surovin",
+    "100% responzivní mobilní zobrazení s nulovým přetečením (0px overflow) na všech typech zařízení od kompaktních telefonů po 4K monitory",
+    "Interaktivní katalog všech 15 klíčových produktových řad s okamžitým fulltextovým vyhledáváním a přepínáním divizí",
+    "Technické modální okno (#techModalBackdrop) s kompletními chemickými analýzami, rozměrovými tabulkami a normami",
+    "Vertikální časová osa rekapitulující více než 26letý růst společnosti od roku 1998, založení s.r.o., transformaci na a.s. až po současný export",
+    "Ověřená adresa a geolokace se špendlíkem Mapy.cz zaměřeným na centrální sídlo Stromořadí 421 v Uničově dle RÚIAN",
+    "Prezentace klíčových statutárních osob (Ing. Pavel Nezval, Simona Nezvalová) a přímých kontaktů na obchodní i výrobní úseky bez anonymity"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1998,
+    "rok_as": 2010,
+    "pocet_provozu": 4,
+    "provozy": "Uničov (truhlárna + feroslitiny), Dětřichov nad Bystřicí (pila), Beňuš SK (pila FSC)",
+    "mesicni_porez": "2 500 – 4 000 m³",
+    "kapacita_suseni": "1 500 – 2 000 m³",
+    "vyhrevnost_briket": "18,5 – 19,5 MJ/kg",
+    "certifikace": "FSC® C-o-C, ISO 9001:2008 (SGS)",
+    "pocet_polozek_katalogu": 15,
+    "adresa": "Stromořadí 421, 783 91 Uničov"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "stavbros",
+  "firma": "STAVBROS, s.r.o.",
+  "ico": "46977490",
+  "dic": "CZ46977490",
+  "obec": "Brodek u Prostějova",
+  "okres": "Prostějov",
+  "kraj": "Olomoucký kraj",
+  "adresa": "V Pivovaře 111, 798 07 Brodek u Prostějova",
+  "obor_plny": "Pozemní stavitelství, občanská vybavenost, rekonstrukce a renovace budov, zateplovací systémy ETICS",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://stavbros.cz",
+  "email": "stavbros@stavbros.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Tradiční jihomoravský a hanácký stavitel s nepřetržitou historií od roku 1992",
+    "Vlastní stabilní zázemí se 60+ kmenovými pracovníky – garance termínů a kvality bez závislosti na agenturních subdodávkách",
+    "Komplexní vybavení od zemních strojů, nákladní dopravy až po vlastní systémové lešení a skladové kapacity",
+    "Bohaté reference od rekonstrukcí památkových a veřejných budov až po moderní zateplení fasád ETICS a novostavby"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené připojení HTTP bez platného SSL/TLS certifikátu (prohlížeče varují před nebezpečným webem)",
+    "Absence responzivního zobrazení pro chytré telefony a tablety (chybí meta viewport, nutnost neustálého zoomování na mobilu)",
+    "Zastaralý fixní layout s tabulkovou strukturou z 90. let, který nereprezentuje stavební firmu se 60+ kmenovými pracovníky",
+    "Nemožnost interaktivního filtrování a vyhledávání v bohatém portfoliu 24 referenčních staveb",
+    "Chybějící interaktivní mapa areálu s přímou navigací pro dodavatele materiálu a stavební partnery"
+  ],
+  "vylepseni_noveho_webu": [
+    "Responzivní moderní design Heavy Industrial optimalizovaný pro zobrazení na mobilech, tabletech i desktopu",
+    "Interaktivní katalog 24 referenčních staveb s živým filtrováním podle oboru a vyhledáváním",
+    "Detailní technické modální okno pro každou stavbu s parametry konstrukcí, zateplovacích systémů ETICS dle ČSN 73 0540 a fotogalerií",
+    "Ověřená interaktivní mapa areálu Mapy.cz s přesným červeným špendlíkem výrobního a skladového areálu v Brodku u Prostějova",
+    "Strukturované představení týmu, stavbyvedoucích a kmenových kapacit firmy pro zvýšení důvěryhodnosti u veřejných i soukromých investorů"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1992,
+    "pocet_let_na_trhu": 32,
+    "pocet_kmenovych_pracovniku": 60,
+    "pocet_stavebnich_delniku": 48,
+    "pocet_mistru": 5,
+    "pocet_stavbyvedoucich": 2,
+    "pocet_zverejnenych_staveb": 24,
+    "sidlo": "V Pivovaře 111, 798 07 Brodek u Prostějova",
+    "vybaveni": "Vlastní zemní stroje, nákladní doprava, stavební výtahy a vrátky, systémové fasádní lešení a skladový areál"
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 76" width="340" height="76" fill="none">
+  <defs>
+    <linearGradient id="dmWoodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="dmSteelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(4, 8)">
+    <polygon points="20,0 40,12 40,36 20,48 0,36 0,12" fill="url(#dmSteelGrad)" stroke="#1E293B" stroke-width="1.5"/>
+    <polygon points="40,12 60,0 60,24 40,36" fill="url(#dmWoodGrad)"/>
+    <polygon points="40,36 60,24 60,48 40,60 20,48" fill="#92400E"/>
+    <path d="M12 24 L28 16 L28 32 L12 40 Z" fill="#475569" opacity="0.4"/>
+    <circle cx="40" cy="24" r="5" fill="#F8FAFC" stroke="#B45309" stroke-width="2"/>
+  </g>
+  
+  <text x="78" y="38" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="28" font-weight="900" letter-spacing="0.5" fill="#0F172A">
+    DE-METAL
+    <tspan font-size="16" font-weight="700" fill="#B45309"> a.s.</tspan>
+  </text>
+  
+  <text x="79" y="55" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="9" font-weight="700" letter-spacing="1.8" fill="#64748B">
+    DŘEVOVÝROBA &amp; HUTNÍ MATERIÁLY
+  </text>
+</svg>

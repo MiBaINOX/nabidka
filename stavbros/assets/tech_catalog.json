@@ -1,0 +1,574 @@
+[
+  {
+    "id": "stavba-26",
+    "title": "Stavební úpravy víceúčelového objektu Kučerov, II. etapa – Komunitní centrum, Obecní úřad",
+    "category": "Občanská a veřejná vybavenost",
+    "location": "Kučerov (okres Vyškov)",
+    "description": "Proběhla kompletní rekonstrukce vnitřních a vnějších prostorů stávající budovy, která v minulosti sloužila jako pohostinství a holičství.  Účelem obnovy bylo vybudování víceúčelového objektu obce. Objekt je dispozičně rozdělen na části:",
+    "specs": {
+      "misto": "Kučerov (okres Vyškov)",
+      "kategorie": "Občanská a veřejná vybavenost",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "charakter_praci": "Rekonstrukce a modernizace vnitřních i vnějších prostor, sanace konstrukcí"
+    },
+    "photos": [
+      "max_1569242817.jpg",
+      "max_1569242822.jpg",
+      "max_1569242829.jpg",
+      "min_1569242817.jpg",
+      "min_1569242822.jpg",
+      "min_1569242829.jpg"
+    ],
+    "primary_photo": "max_1569242817.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/26-stavebni-upravy-viceuceloveho-objektu-kucerov--ii-etapa-–-komunitni-centrum--obecni-urad.htm"
+  },
+  {
+    "id": "stavba-25",
+    "title": "Rozšíření kapacity a odborné učebny ZŠ Vřesovice",
+    "category": "Školské a vzdělávací budovy",
+    "location": "Vřesovice (okres Prostějov)",
+    "description": "Jedná se o barokní komplex, který má svou historickou hodnotu. V budově se nachází základní škola, která byla zrekonstruována a rozšířena. Objekt A (původní fara) – návaznost na spojovací chodby - bourání zdí, osazení dveří - spojovací krček 1 mezi objektem A a B - včetně hydraulické plošiny - ocelová nosná konstrukce, prosklení, ocelové venkovní schodiště Objekt B – 1.NP - podkroví - demontáž krovu, obnovení krovu úpravy podkroví - okna, zateplení, instalace Objekt C – 1.NP- obslužné místnosti -sanace zdiva, úprava oken a dveří, nová prosklená vstupní hala, se schodištěm, propojení s objektem D - 2.NP- demontáž krovu a části stropu, nástavba - ocelová nosná konstrukce, zděná nosná konstrukce, výplňové zdivo, opláštění - spojovací krček 2 mezi objekty A a C -ocelová konstrukce, prosklení Objekt D - Orlovna – nová konstrukce průchozí chodby, propojovací nové dveře",
+    "specs": {
+      "misto": "Vřesovice (okres Prostějov)",
+      "kategorie": "Školské a vzdělávací budovy",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "zateplovaci_system": "Kontaktní zateplovací systém ETICS s minerální vatou / EPS dle ČSN 73 0540",
+      "charakter_praci": "Rekonstrukce a modernizace vnitřních i vnějších prostor, sanace konstrukcí",
+      "typ_vyuziti": "Vzdělávací a školská infrastruktura"
+    },
+    "photos": [
+      "max_1569242535.jpg",
+      "max_1569242544.jpg",
+      "max_1569242552.jpg",
+      "max_1569242566.jpg",
+      "max_1569242573.jpg",
+      "max_1569242588.jpg",
+      "min_1569242535.jpg",
+      "min_1569242544.jpg",
+      "min_1569242552.jpg",
+      "min_1569242566.jpg",
+      "min_1569242573.jpg",
+      "min_1569242588.jpg"
+    ],
+    "primary_photo": "max_1569242535.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/25-rozsireni-kapacity-a-odborne-ucebny-zs-vresovice.htm"
+  },
+  {
+    "id": "stavba-24",
+    "title": "Odborné učebny ZŠ Nezamyslice",
+    "category": "Školské a vzdělávací budovy",
+    "location": "Nezamyslice (okres Prostějov)",
+    "description": "Předmětem díla bylo provedení stavebních úprav v budově B stávajícího objektu ZŠ v Nezamyslicích. Především se jednalo o výměnu podlahové krytiny v celém rozsahu budovy B, výměně montovaných příček mezi učebnami, výměna podhledu, který byl v nevyhovujícím stavu včetně elektroinstalace.",
+    "specs": {
+      "misto": "Nezamyslice (okres Prostějov)",
+      "kategorie": "Školské a vzdělávací budovy",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "typ_vyuziti": "Vzdělávací a školská infrastruktura"
+    },
+    "photos": [
+      "max_1569242311.jpg",
+      "max_1569242298.jpg",
+      "max_1569242320.jpg",
+      "max_1569242333.jpg",
+      "min_1569242311.jpg",
+      "min_1569242298.jpg",
+      "min_1569242320.jpg",
+      "min_1569242333.jpg"
+    ],
+    "primary_photo": "max_1569242311.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/24-odborne-ucebny-zs-nezamyslice.htm"
+  },
+  {
+    "id": "stavba-23",
+    "title": "Revitalizace nivy toku Brodečka",
+    "category": "Průmyslové a speciální stavby",
+    "location": "Brodek u Prostějova",
+    "description": "Předmětem zakázky byla realizace stavebních prací a souvisejících dodávek při vybudování menších vodních ploch – vodních tůní a obnově napouštěcího zařízení bývalého mlýnského na vodním toku Brodečka v katastru obce Otaslavice.",
+    "specs": {
+      "misto": "Brodek u Prostějova",
+      "kategorie": "Průmyslové a speciální stavby",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1548946733.jpg",
+      "max_1548946741.jpg",
+      "max_1548946745.jpg",
+      "min_1548946733.jpg",
+      "min_1548946741.jpg",
+      "min_1548946745.jpg"
+    ],
+    "primary_photo": "max_1548946733.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/23-revitalizace-nivy-toku-brodecka.htm"
+  },
+  {
+    "id": "stavba-22",
+    "title": "Lesní správa Hlubočky",
+    "category": "Průmyslové a speciální stavby",
+    "location": "Hlubočky (okres Olomouc)",
+    "description": "Demolice a následná novostavba objektu, který slouží pro administrativní účely. Součástí stavby byla výstavba hospodářské budovy s chladírnou pro ulovenou zvěř. Součástí technologie objektu byla ČOV, úpravna vody, požární nádrž, zasakovací objekt a kotel na štěpku s podavačem (Hargassner 30kW)",
+    "specs": {
+      "misto": "Hlubočky (okres Olomouc)",
+      "kategorie": "Průmyslové a speciální stavby",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1548943819.jpg",
+      "max_1548943824.jpg",
+      "max_1548943830.jpg",
+      "max_1548943841.jpg",
+      "max_1548943866.jpg",
+      "max_1548943873.jpg",
+      "max_1548943884.jpg",
+      "max_1548943889.jpg",
+      "max_1548943899.jpg",
+      "min_1548943819.jpg",
+      "min_1548943824.jpg",
+      "min_1548943830.jpg",
+      "min_1548943841.jpg",
+      "min_1548943866.jpg",
+      "min_1548943873.jpg",
+      "min_1548943884.jpg",
+      "min_1548943889.jpg",
+      "min_1548943899.jpg"
+    ],
+    "primary_photo": "max_1548943819.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/22-lesni-sprava-hlubocky.htm"
+  },
+  {
+    "id": "stavba-21",
+    "title": "Bezbariérový MěÚ Rousínov",
+    "category": "Občanská a veřejná vybavenost",
+    "location": "Rousínov (okres Vyškov)",
+    "description": "Předmětem zakázky je kompletní rekonstrukce vnitřních prostorů MěÚ Rousínov. Stavba řeší vestavbu výtahu pro propojení všech výškových úrovní podlaží objektu, dispoziční úpravy v rámci kanceláří, chodeb a sociálního zařízení v 1. a 2.NP v budově MěÚ Rousínov, Sušilovo nám. 84/56.",
+    "specs": {
+      "misto": "Rousínov (okres Vyškov)",
+      "kategorie": "Občanská a veřejná vybavenost",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "charakter_praci": "Rekonstrukce a modernizace vnitřních i vnějších prostor, sanace konstrukcí"
+    },
+    "photos": [
+      "max_1548943052.jpg",
+      "max_1548943059.jpg",
+      "max_1548943066.jpg",
+      "max_1548943073.jpg",
+      "max_1548943080.jpg",
+      "max_1548943088.jpg",
+      "max_1548943109.jpg",
+      "min_1548943052.jpg",
+      "min_1548943059.jpg",
+      "min_1548943066.jpg",
+      "min_1548943073.jpg",
+      "min_1548943080.jpg",
+      "min_1548943088.jpg",
+      "min_1548943109.jpg"
+    ],
+    "primary_photo": "max_1548943052.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/21-bezbarierovy-meu-rousinov.htm"
+  },
+  {
+    "id": "stavba-20",
+    "title": "Náměšť n. Hané - stavební úpravy hřbitovní zdi",
+    "category": "Historické a památkové objekty",
+    "location": "Náměšť na Hané (okres Olomouc)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Náměšť na Hané (okres Olomouc)",
+      "kategorie": "Historické a památkové objekty",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "charakter_praci": "Rekonstrukce a modernizace vnitřních i vnějších prostor, sanace konstrukcí"
+    },
+    "photos": [
+      "max_1548942104.jpg",
+      "max_1548942114.jpg",
+      "min_1548942104.jpg",
+      "min_1548942114.jpg"
+    ],
+    "primary_photo": "max_1548942104.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/20-namest-n-hane---stavebni-upravy-hrbitovni-zdi.htm"
+  },
+  {
+    "id": "stavba-19",
+    "title": "Rekonstrukce hasičské zbrojnice - Náměšť n. Hané",
+    "category": "Občanská a veřejná vybavenost",
+    "location": "Náměšť na Hané (okres Olomouc)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Náměšť na Hané (okres Olomouc)",
+      "kategorie": "Občanská a veřejná vybavenost",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "charakter_praci": "Rekonstrukce a modernizace vnitřních i vnějších prostor, sanace konstrukcí",
+      "vyuziti": "Objekt IZS / Hasičská zbrojnice pro výjezdovou techniku"
+    },
+    "photos": [
+      "max_1548941397.jpg",
+      "max_1548941415.jpg",
+      "max_1548941430.jpg",
+      "max_1548941464.jpg",
+      "max_1548941481.jpg",
+      "min_1548941397.jpg",
+      "min_1548941415.jpg",
+      "min_1548941430.jpg",
+      "min_1548941464.jpg",
+      "min_1548941481.jpg"
+    ],
+    "primary_photo": "max_1548941397.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/19-rekonstrukce-hasicske-zbrojnice---namest-n-hane.htm"
+  },
+  {
+    "id": "stavba-18",
+    "title": "ZD Senice na Hané - snížení energetické náročnosti",
+    "category": "Průmyslové a speciální stavby",
+    "location": "Senice na Hané (okres Olomouc)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Senice na Hané (okres Olomouc)",
+      "kategorie": "Průmyslové a speciální stavby",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "zateplovaci_system": "Kontaktní zateplovací systém ETICS s minerální vatou / EPS dle ČSN 73 0540"
+    },
+    "photos": [
+      "max_1548940890.jpg",
+      "max_1548940898.jpg",
+      "max_1548940903.jpg",
+      "min_1548940890.jpg",
+      "min_1548940898.jpg",
+      "min_1548940903.jpg"
+    ],
+    "primary_photo": "max_1548940890.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/18-zd-senice-na-hane---snizeni-energeticke-narocnosti.htm"
+  },
+  {
+    "id": "stavba-17",
+    "title": "Rekonstrukce a přístavba ZŠ Nezamyslice",
+    "category": "Školské a vzdělávací budovy",
+    "location": "Nezamyslice (okres Prostějov)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Nezamyslice (okres Prostějov)",
+      "kategorie": "Školské a vzdělávací budovy",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "charakter_praci": "Rekonstrukce a modernizace vnitřních i vnějších prostor, sanace konstrukcí"
+    },
+    "photos": [
+      "max_1548940787.jpg",
+      "max_1548940796.jpg",
+      "max_1548940802.jpg",
+      "min_1548940787.jpg",
+      "min_1548940796.jpg",
+      "min_1548940802.jpg"
+    ],
+    "primary_photo": "max_1548940787.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/17-rekonstrukce-a-pristavba-zs-nezamyslice.htm"
+  },
+  {
+    "id": "stavba-16",
+    "title": "RD Slatinice",
+    "category": "Rezidenční a bytová výstavba",
+    "location": "Slatinice (okres Olomouc)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Slatinice (okres Olomouc)",
+      "kategorie": "Rezidenční a bytová výstavba",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1548940034.jpg",
+      "max_1548940040.jpg",
+      "min_1548940034.jpg",
+      "min_1548940040.jpg"
+    ],
+    "primary_photo": "max_1548940034.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/16-rd-slatinice.htm"
+  },
+  {
+    "id": "stavba-15",
+    "title": "Regionální muzeum v Dobromilicích",
+    "category": "Historické a památkové objekty",
+    "location": "Brodek u Prostějova a okolí",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Brodek u Prostějova a okolí",
+      "kategorie": "Historické a památkové objekty",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1548939853.jpg",
+      "max_1548939862.jpg",
+      "max_1548939882.jpg",
+      "min_1548939853.jpg",
+      "min_1548939862.jpg",
+      "min_1548939882.jpg"
+    ],
+    "primary_photo": "max_1548939853.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/15-regionalni-muzeum-v-dobromilicich.htm"
+  },
+  {
+    "id": "stavba-14",
+    "title": "Hasičská zbrojnice - Děrné",
+    "category": "Občanská a veřejná vybavenost",
+    "location": "Děrné (Fulnek, okres Nový Jičín)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Děrné (Fulnek, okres Nový Jičín)",
+      "kategorie": "Občanská a veřejná vybavenost",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "vyuziti": "Objekt IZS / Hasičská zbrojnice pro výjezdovou techniku"
+    },
+    "photos": [
+      "max_1548939779.jpg",
+      "min_1548939779.jpg"
+    ],
+    "primary_photo": "max_1548939779.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/14-hasicska-zbrojnice---derne.htm"
+  },
+  {
+    "id": "stavba-13",
+    "title": "Česká Třebová - DEPO POŠTY",
+    "category": "Průmyslové a speciální stavby",
+    "location": "Česká Třebová (okres Ústí nad Orlicí)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Česká Třebová (okres Ústí nad Orlicí)",
+      "kategorie": "Průmyslové a speciální stavby",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1548939638.jpg",
+      "max_1548939685.jpg",
+      "max_1548939669.jpg",
+      "min_1548939638.jpg",
+      "min_1548939685.jpg",
+      "min_1548939669.jpg"
+    ],
+    "primary_photo": "max_1548939638.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/13-ceska-trebova---depo-posty.htm"
+  },
+  {
+    "id": "stavba-12",
+    "title": "KODUS Dřevnovice",
+    "category": "Občanská a veřejná vybavenost",
+    "location": "Dřevnovice (okres Prostějov)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Dřevnovice (okres Prostějov)",
+      "kategorie": "Občanská a veřejná vybavenost",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1548939531.jpg",
+      "max_1548939539.jpg",
+      "min_1548939531.jpg",
+      "min_1548939539.jpg"
+    ],
+    "primary_photo": "max_1548939531.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/12-kodus-drevnovice.htm"
+  },
+  {
+    "id": "stavba-11",
+    "title": "Oprava víceúčelová budovy - Bohdalice 118",
+    "category": "Občanská a veřejná vybavenost",
+    "location": "Bohdalice (okres Vyškov)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Bohdalice (okres Vyškov)",
+      "kategorie": "Občanská a veřejná vybavenost",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "charakter_praci": "Rekonstrukce a modernizace vnitřních i vnějších prostor, sanace konstrukcí"
+    },
+    "photos": [
+      "max_1548939271.jpg",
+      "max_1548939306.jpg",
+      "min_1548939271.jpg",
+      "min_1548939306.jpg"
+    ],
+    "primary_photo": "max_1548939271.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/11-oprava-viceucelova-budovy---bohdalice-118.htm"
+  },
+  {
+    "id": "stavba-9",
+    "title": "Dům Hradební ul. Prostějov",
+    "category": "Rezidenční a bytová výstavba",
+    "location": "Prostějov",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Prostějov",
+      "kategorie": "Rezidenční a bytová výstavba",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1457819381.jpg",
+      "max_1457819389.jpg",
+      "min_1457819381.jpg",
+      "min_1457819389.jpg"
+    ],
+    "primary_photo": "max_1457819381.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/9-dum-hradebni-ul-prostejov.htm"
+  },
+  {
+    "id": "stavba-8",
+    "title": "Dům Olomoucká ul. Prostějov",
+    "category": "Rezidenční a bytová výstavba",
+    "location": "Prostějov",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Prostějov",
+      "kategorie": "Rezidenční a bytová výstavba",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1457819282.jpg",
+      "min_1457819282.jpg"
+    ],
+    "primary_photo": "max_1457819282.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/8-dum-olomoucka-ul-prostejov.htm"
+  },
+  {
+    "id": "stavba-7",
+    "title": "Základní škola Brodek u Prostějova",
+    "category": "Školské a vzdělávací budovy",
+    "location": "Prostějov",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Prostějov",
+      "kategorie": "Školské a vzdělávací budovy",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS",
+      "typ_vyuziti": "Vzdělávací a školská infrastruktura"
+    },
+    "photos": [
+      "max_1457818869.jpg",
+      "min_1457818869.jpg"
+    ],
+    "primary_photo": "max_1457818869.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/7-zakladni-skola-brodek-u-prostejova.htm"
+  },
+  {
+    "id": "stavba-6",
+    "title": "DPS Brobek u Prostějova",
+    "category": "Občanská a veřejná vybavenost",
+    "location": "Prostějov",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Prostějov",
+      "kategorie": "Občanská a veřejná vybavenost",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1457818566.jpg",
+      "min_1457818566.jpg"
+    ],
+    "primary_photo": "max_1457818566.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/6-dps-brobek-u-prostejova.htm"
+  },
+  {
+    "id": "stavba-4",
+    "title": "Dům Kostelecká ul. Prostějov",
+    "category": "Rezidenční a bytová výstavba",
+    "location": "Prostějov",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Prostějov",
+      "kategorie": "Rezidenční a bytová výstavba",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1457818445.jpg",
+      "min_1457818445.jpg"
+    ],
+    "primary_photo": "max_1457818445.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/4-dum-kostelecka-ul-prostejov.htm"
+  },
+  {
+    "id": "stavba-3",
+    "title": "Rodinný dům Kobeřice",
+    "category": "Rezidenční a bytová výstavba",
+    "location": "Kobeřice (okres Prostějov)",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Kobeřice (okres Prostějov)",
+      "kategorie": "Rezidenční a bytová výstavba",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1457818317.jpg",
+      "max_1457818324.jpg",
+      "max_1457818335.jpg",
+      "max_1457818341.jpg",
+      "max_1457818346.jpg",
+      "min_1457818317.jpg",
+      "min_1457818324.jpg",
+      "min_1457818335.jpg",
+      "min_1457818341.jpg",
+      "min_1457818346.jpg"
+    ],
+    "primary_photo": "max_1457818317.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/3-rodinny-dum-koberice.htm"
+  },
+  {
+    "id": "stavba-2",
+    "title": "Dům Olomoucká ul. PV",
+    "category": "Rezidenční a bytová výstavba",
+    "location": "Brodek u Prostějova a okolí",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Brodek u Prostějova a okolí",
+      "kategorie": "Rezidenční a bytová výstavba",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1457818086.jpg",
+      "max_1457818096.jpg",
+      "max_1457818195.jpg",
+      "min_1457818086.jpg",
+      "min_1457818096.jpg",
+      "min_1457818195.jpg"
+    ],
+    "primary_photo": "max_1457818086.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/2-dum-olomoucka-ul-pv.htm"
+  },
+  {
+    "id": "stavba-1",
+    "title": "Rodinný dům Brodek u Prostějova",
+    "category": "Rezidenční a bytová výstavba",
+    "location": "Prostějov",
+    "description": "Kompletní realizace stavebních a rekonstrukčních prací kmenovými kapacitami společnosti STAVBROS, s.r.o. v souladu s příslušnými normami ČSN a technologickými předpisy.",
+    "specs": {
+      "misto": "Prostějov",
+      "kategorie": "Rezidenční a bytová výstavba",
+      "technologie": "Kompletní stavební realizace kmenovými pracovníky STAVBROS, s.r.o.",
+      "norma": "ČSN EN / ČSN 73 0540 (Tepelná ochrana budov) / certifikace ETICS"
+    },
+    "photos": [
+      "max_1457816508.jpg",
+      "max_1457816500.jpg",
+      "max_1457816495.jpg",
+      "min_1457816508.jpg",
+      "min_1457816500.jpg",
+      "min_1457816495.jpg"
+    ],
+    "primary_photo": "max_1457816508.jpg",
+    "url_origin": "http://www.stavbros.cz/reference/1-rodinny-dum-brodek-u-prostejova.htm"
+  }
+]
