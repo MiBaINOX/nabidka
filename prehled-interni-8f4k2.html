@@ -8155,12 +8155,10 @@ Při procházení firem v našem regionu a okolí jsem narazil na Vaše současn
             const txtArea = document.getElementById('email_text_' + ico);
             const toInput = document.getElementById('email_to_' + ico);
             const subInput = document.getElementById('email_sub_' + ico);
-            const teaserInput = document.getElementById('email_teaser_' + ico);
 
             const fullText = txtArea ? txtArea.value : '';
             const to = toInput ? toInput.value : '';
             const subject = subInput ? subInput.value : '';
-            const teaser = teaserInput ? teaserInput.value : '';
 
             if (fullText && navigator.clipboard) {
                 navigator.clipboard.writeText(fullText).catch(e => {
@@ -8177,15 +8175,14 @@ Při procházení firem v našem regionu a okolí jsem narazil na Vaše současn
 
             const toast = document.getElementById('toast');
             if (toast) {
-                toast.innerHTML = '📋 <strong>Plný text e-mailu zkopírován do schránky!</strong><br>V novém okně Gmailu stačí stisknout <strong>Ctrl+V</strong> a přiložit PDF.';
+                toast.innerHTML = '📋 <strong>Text e-mailu byl zkopírován do schránky!</strong><br>V novém okně Gmailu stačí stisknout <strong>Ctrl+V</strong> (nad Váš podpis) a přiložit PDF.';
                 toast.classList.add('show');
                 setTimeout(() => toast.classList.remove('show'), 4000);
             }
 
             const gmailUrl = 'https://mail.google.com/mail/u/mibainox@gmail.com/?view=cm&fs=1' +
                 '&to=' + encodeURIComponent(to) +
-                '&su=' + encodeURIComponent(subject) +
-                '&body=' + encodeURIComponent(teaser);
+                '&su=' + encodeURIComponent(subject);
 
             window.open(gmailUrl, '_blank');
         }
