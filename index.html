@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow, noarchive">
-    <title>Studio Moderní Web | Zakázková tvorba a modernizace firemních webů</title>
+    <title>MiBa INOX WEBS | Zakázková tvorba a modernizace firemních webů</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
@@ -623,9 +623,9 @@
 
     <header class="navbar">
         <div class="container nav-wrapper">
-            <a href="#" class="logo">
-                <div class="logo-icon">W</div>
-                <span class="logo-text">Studio Moderní Web</span>
+            <a href="#uvod" class="logo">
+                <div class="logo-icon">M</div>
+                <span class="logo-text">MiBa INOX WEBS</span>
             </a>
             <ul class="nav-menu">
                 <li><a href="#sluzby" class="nav-link">Služby</a></li>
@@ -638,7 +638,7 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="uvod">
             <div class="container">
                 <div class="hero-badge">
                     <span class="hero-badge-dot"></span>
@@ -831,28 +831,35 @@
                 <div class="contact-grid">
                     <div class="contact-info">
                         <div class="contact-card">
-                            <h3>Studio Moderní Web</h3>
-                            <p>Specializujeme se na zakázkový vývoj a modernizaci firemních webových prezentací s důrazem na výkon a návratnost investice.</p>
+                            <h3>MiBa INOX WEBS</h3>
+                            <p>Specializujeme se na zakázkový vývoj a modernizaci firemních webových prezentací s důrazem na výkon, přehlednost a návratnost investice.</p>
                             <div class="contact-details">
                                 <div class="contact-item">
                                     <div class="contact-item-icon">📍</div>
                                     <div>
                                         <strong>Působnost</strong><br>
-                                        Moravskoslezský kraj & celá ČR
+                                        Olomouc & celá ČR
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-item-icon">📞</div>
+                                    <div>
+                                        <strong>Telefon</strong><br>
+                                        <a href="tel:+420604692808" style="color:var(--text-main); text-decoration:none;">+420 604 692 808</a>
                                     </div>
                                 </div>
                                 <div class="contact-item">
                                     <div class="contact-item-icon">✉️</div>
                                     <div>
                                         <strong>E-mail</strong><br>
-                                        info@moderniweb.cz
+                                        <a href="mailto:mibainox@gmail.com" style="color:var(--text-main); text-decoration:none;">mibainox@gmail.com</a>
                                     </div>
                                 </div>
                                 <div class="contact-item">
                                     <div class="contact-item-icon">⏱️</div>
                                     <div>
                                         <strong>Dostupnost</strong><br>
-                                        Pondělí – Pátek: 8:00 – 17:00
+                                        Pondělí – Pátek: 8:00 – 18:00
                                     </div>
                                 </div>
                             </div>
@@ -883,9 +890,12 @@
                                 <label for="message" class="form-label">Představa o&nbsp;projektu / Zpráva *</label>
                                 <textarea id="message" class="form-textarea" placeholder="Popište stručně vaše požadavky, zaměření firmy nebo co od nového webu očekáváte..." required></textarea>
                             </div>
-                            <button type="submit" class="submit-btn">Odeslat nezávaznou poptávku</button>
+                            <button type="submit" class="submit-btn" id="submitBtn">Odeslat nezávaznou poptávku</button>
                             <div id="formAlert" class="form-alert">
                                 Děkujeme za vaši poptávku. Zprávu jsme v pořádku přijali a budeme vás kontaktovat do 24 hodin.
+                            </div>
+                            <div id="formError" class="form-alert" style="display:none; background: rgba(239, 68, 68, 0.12); border-color: rgba(239, 68, 68, 0.3); color: #F87171;">
+                                Omlouváme se, při odesílání došlo k chybě. Kontaktujte nás prosím přímo na <a href="mailto:mibainox@gmail.com" style="color:#F8FAFC; text-decoration:underline;">mibainox@gmail.com</a>.
                             </div>
                         </form>
                     </div>
@@ -896,19 +906,86 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Studio Moderní Web. Profesionální tvorba a modernizace firemních webů. Všechna práva vyhrazena.</p>
+            <p>&copy; 2026 MiBa INOX WEBS. Profesionální tvorba a modernizace firemních webů. Všechna práva vyhrazena.</p>
         </div>
     </footer>
 
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        document.getElementById('contactForm').addEventListener('submit', async function(e) {
             e.preventDefault();
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
-            if (name && email && message) {
-                document.getElementById('formAlert').style.display = 'block';
+            var btn = document.getElementById('submitBtn');
+            var alertSuccess = document.getElementById('formAlert');
+            var alertError = document.getElementById('formError');
+            var originalText = btn.textContent;
+
+            var name = document.getElementById('name').value.trim();
+            var email = document.getElementById('email').value.trim();
+            var phone = document.getElementById('phone').value.trim();
+            var currentWeb = document.getElementById('current_web').value.trim();
+            var message = document.getElementById('message').value.trim();
+
+            if (!email || !email.includes('@')) {
+                return;
+            }
+
+            btn.disabled = true;
+            btn.textContent = 'Odesílám...';
+            alertSuccess.style.display = 'none';
+            if (alertError) alertError.style.display = 'none';
+
+            var domainDetails = [];
+            if (currentWeb) domainDetails.push('Web: ' + currentWeb);
+            if (name) domainDetails.push('Jméno/Firma: ' + name);
+            if (phone) domainDetails.push('Tel: ' + phone);
+            if (message) domainDetails.push('Zpráva: ' + message);
+            var domainSummary = domainDetails.join(' | ');
+
+            var payload = {
+                action: 'web_lead',
+                email: email,
+                domain: domainSummary || currentWeb || 'Poptávka z webu nabidka.mibainox.cz',
+                name: name,
+                phone: phone,
+                current_web: currentWeb,
+                message: message
+            };
+
+            var sent = false;
+
+            try {
+                var res = await fetch('https://mibainox.cz/api/web-lead', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                if (res.ok) {
+                    var data = await res.json();
+                    if (data && data.success) {
+                        sent = true;
+                    }
+                }
+            } catch (err) {}
+
+            if (!sent) {
+                try {
+                    await fetch('https://script.google.com/macros/s/AKfycbymOvW19SMzJ5CT9diTaXNiIp6AnPzKrdRwi5mWGONVG13cHu5mCkyTibde7A0Fv8hy/exec', {
+                        method: 'POST',
+                        mode: 'no-cors',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                    sent = true;
+                } catch (err2) {}
+            }
+
+            btn.disabled = false;
+            btn.textContent = originalText;
+
+            if (sent) {
+                alertSuccess.style.display = 'block';
                 document.getElementById('contactForm').reset();
+            } else {
+                if (alertError) alertError.style.display = 'block';
             }
         });
     </script>
