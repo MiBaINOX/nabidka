@@ -1,0 +1,749 @@
+{
+  "total_pages": 11,
+  "pages": [
+    "http://stemakokna.cz",
+    "http://stemakokna.cz/drevena_okna.html",
+    "http://stemakokna.cz/hlinikova_okna.html",
+    "http://stemakokna.cz/index.html",
+    "http://stemakokna.cz/kontakt.php",
+    "http://stemakokna.cz/plastova_okna.html",
+    "http://stemakokna.cz/profily_dvere.html",
+    "http://stemakokna.cz/profily_okna.html",
+    "http://stemakokna.cz/reference.html",
+    "http://stemakokna.cz/spolecnost.html",
+    "http://stemakokna.cz/zimni_zahrady.html"
+  ],
+  "total_images_found": 144,
+  "downloaded_images_count": 144,
+  "downloaded_images": [
+    {
+      "url": "http://stemakokna.cz/foto/f1.jpg",
+      "file": "img/f1.jpg",
+      "size": 29866
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f10.jpg",
+      "file": "img/f10.jpg",
+      "size": 15262
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f10v.jpg",
+      "file": "img/f10v.jpg",
+      "size": 265834
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f11.jpg",
+      "file": "img/f11.jpg",
+      "size": 16899
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f11v.jpg",
+      "file": "img/f11v.jpg",
+      "size": 258840
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f12.jpg",
+      "file": "img/f12.jpg",
+      "size": 18936
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f12v.jpg",
+      "file": "img/f12v.jpg",
+      "size": 277506
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f13.jpg",
+      "file": "img/f13.jpg",
+      "size": 19607
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f13v.jpg",
+      "file": "img/f13v.jpg",
+      "size": 267501
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f14.jpg",
+      "file": "img/f14.jpg",
+      "size": 21543
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f14v.jpg",
+      "file": "img/f14v.jpg",
+      "size": 293721
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f15.jpg",
+      "file": "img/f15.jpg",
+      "size": 21661
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f15v.jpg",
+      "file": "img/f15v.jpg",
+      "size": 264728
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f16.jpg",
+      "file": "img/f16.jpg",
+      "size": 16776
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f16v.jpg",
+      "file": "img/f16v.jpg",
+      "size": 235218
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f17.jpg",
+      "file": "img/f17.jpg",
+      "size": 9362
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f17v.jpg",
+      "file": "img/f17v.jpg",
+      "size": 183257
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f18.jpg",
+      "file": "img/f18.jpg",
+      "size": 20271
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f18v.jpg",
+      "file": "img/f18v.jpg",
+      "size": 277492
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f19.jpg",
+      "file": "img/f19.jpg",
+      "size": 18580
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f19v.jpg",
+      "file": "img/f19v.jpg",
+      "size": 269740
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f1v.jpg",
+      "file": "img/f1v.jpg",
+      "size": 475049
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f2.jpg",
+      "file": "img/f2.jpg",
+      "size": 23526
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f20.jpg",
+      "file": "img/f20.jpg",
+      "size": 16297
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f20v.jpg",
+      "file": "img/f20v.jpg",
+      "size": 189551
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f21.jpg",
+      "file": "img/f21.jpg",
+      "size": 14758
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f21v.jpg",
+      "file": "img/f21v.jpg",
+      "size": 186808
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f22.jpg",
+      "file": "img/f22.jpg",
+      "size": 15692
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f22v.jpg",
+      "file": "img/f22v.jpg",
+      "size": 181056
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f23.jpg",
+      "file": "img/f23.jpg",
+      "size": 27858
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f23v.jpg",
+      "file": "img/f23v.jpg",
+      "size": 363134
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f24.jpg",
+      "file": "img/f24.jpg",
+      "size": 20284
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f24v.jpg",
+      "file": "img/f24v.jpg",
+      "size": 323866
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f25.jpg",
+      "file": "img/f25.jpg",
+      "size": 16190
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f25v.jpg",
+      "file": "img/f25v.jpg",
+      "size": 238772
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f26.jpg",
+      "file": "img/f26.jpg",
+      "size": 14379
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f26v.jpg",
+      "file": "img/f26v.jpg",
+      "size": 195628
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f27.jpg",
+      "file": "img/f27.jpg",
+      "size": 23819
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f27v.jpg",
+      "file": "img/f27v.jpg",
+      "size": 367596
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f28.jpg",
+      "file": "img/f28.jpg",
+      "size": 20103
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f28v.jpg",
+      "file": "img/f28v.jpg",
+      "size": 341332
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f29.jpg",
+      "file": "img/f29.jpg",
+      "size": 19542
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f29v.jpg",
+      "file": "img/f29v.jpg",
+      "size": 334202
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f2v.jpg",
+      "file": "img/f2v.jpg",
+      "size": 355774
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f3.jpg",
+      "file": "img/f3.jpg",
+      "size": 18161
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f31.jpg",
+      "file": "img/f31.jpg",
+      "size": 20833
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f31v.jpg",
+      "file": "img/f31v.jpg",
+      "size": 329427
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f32.jpg",
+      "file": "img/f32.jpg",
+      "size": 16308
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f32v.jpg",
+      "file": "img/f32v.jpg",
+      "size": 259337
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f34.jpg",
+      "file": "img/f34.jpg",
+      "size": 19207
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f34v.jpg",
+      "file": "img/f34v.jpg",
+      "size": 316355
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f38.jpg",
+      "file": "img/f38.jpg",
+      "size": 18412
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f38v.jpg",
+      "file": "img/f38v.jpg",
+      "size": 297062
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f39.jpg",
+      "file": "img/f39.jpg",
+      "size": 17927
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f39v.jpg",
+      "file": "img/f39v.jpg",
+      "size": 261767
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f3v.jpg",
+      "file": "img/f3v.jpg",
+      "size": 284002
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f4.jpg",
+      "file": "img/f4.jpg",
+      "size": 18101
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f40.jpg",
+      "file": "img/f40.jpg",
+      "size": 18390
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f40v.jpg",
+      "file": "img/f40v.jpg",
+      "size": 271642
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f41.jpg",
+      "file": "img/f41.jpg",
+      "size": 20127
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f41v.jpg",
+      "file": "img/f41v.jpg",
+      "size": 165351
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f42.jpg",
+      "file": "img/f42.jpg",
+      "size": 17305
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f42v.jpg",
+      "file": "img/f42v.jpg",
+      "size": 136969
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f43.jpg",
+      "file": "img/f43.jpg",
+      "size": 18355
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f43v.jpg",
+      "file": "img/f43v.jpg",
+      "size": 152963
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f44.jpg",
+      "file": "img/f44.jpg",
+      "size": 24050
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f44v.jpg",
+      "file": "img/f44v.jpg",
+      "size": 269201
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f45.jpg",
+      "file": "img/f45.jpg",
+      "size": 24591
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f45v.jpg",
+      "file": "img/f45v.jpg",
+      "size": 266541
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f46.jpg",
+      "file": "img/f46.jpg",
+      "size": 22275
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f46v.jpg",
+      "file": "img/f46v.jpg",
+      "size": 248779
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f47.jpg",
+      "file": "img/f47.jpg",
+      "size": 20063
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f47v.jpg",
+      "file": "img/f47v.jpg",
+      "size": 222090
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f48.jpg",
+      "file": "img/f48.jpg",
+      "size": 14745
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f48v.jpg",
+      "file": "img/f48v.jpg",
+      "size": 146843
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f49.jpg",
+      "file": "img/f49.jpg",
+      "size": 23028
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f49v.jpg",
+      "file": "img/f49v.jpg",
+      "size": 266255
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f4v.jpg",
+      "file": "img/f4v.jpg",
+      "size": 268546
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f5.jpg",
+      "file": "img/f5.jpg",
+      "size": 19265
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f51.jpg",
+      "file": "img/f51.jpg",
+      "size": 22400
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f51v.jpg",
+      "file": "img/f51v.jpg",
+      "size": 266387
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f52.jpg",
+      "file": "img/f52.jpg",
+      "size": 6576
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f52v.jpg",
+      "file": "img/f52v.jpg",
+      "size": 91352
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f53.jpg",
+      "file": "img/f53.jpg",
+      "size": 8273
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f53v.jpg",
+      "file": "img/f53v.jpg",
+      "size": 109118
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f54.jpg",
+      "file": "img/f54.jpg",
+      "size": 7337
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f54v.jpg",
+      "file": "img/f54v.jpg",
+      "size": 110475
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f55.jpg",
+      "file": "img/f55.jpg",
+      "size": 8078
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f55v.jpg",
+      "file": "img/f55v.jpg",
+      "size": 88549
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f56.jpg",
+      "file": "img/f56.jpg",
+      "size": 10110
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f56v.jpg",
+      "file": "img/f56v.jpg",
+      "size": 169882
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f57.jpg",
+      "file": "img/f57.jpg",
+      "size": 14864
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f57v.jpg",
+      "file": "img/f57v.jpg",
+      "size": 165276
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f58.jpg",
+      "file": "img/f58.jpg",
+      "size": 16135
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f58v.jpg",
+      "file": "img/f58v.jpg",
+      "size": 201024
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f59.jpg",
+      "file": "img/f59.jpg",
+      "size": 18901
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f59v.jpg",
+      "file": "img/f59v.jpg",
+      "size": 229953
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f5v.jpg",
+      "file": "img/f5v.jpg",
+      "size": 338056
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f6.jpg",
+      "file": "img/f6.jpg",
+      "size": 27003
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f6v.jpg",
+      "file": "img/f6v.jpg",
+      "size": 413963
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f7.jpg",
+      "file": "img/f7.jpg",
+      "size": 26407
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f7v.jpg",
+      "file": "img/f7v.jpg",
+      "size": 388919
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f8.jpg",
+      "file": "img/f8.jpg",
+      "size": 20441
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f8v.jpg",
+      "file": "img/f8v.jpg",
+      "size": 313389
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f9.jpg",
+      "file": "img/f9.jpg",
+      "size": 18683
+    },
+    {
+      "url": "http://stemakokna.cz/foto/f9v.jpg",
+      "file": "img/f9v.jpg",
+      "size": 270243
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce1.jpg",
+      "file": "img/akce1.jpg",
+      "size": 296768
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce10.jpg",
+      "file": "img/akce10.jpg",
+      "size": 239993
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce2.jpg",
+      "file": "img/akce2.jpg",
+      "size": 263959
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce3.jpg",
+      "file": "img/akce3.jpg",
+      "size": 306852
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce4.jpg",
+      "file": "img/akce4.jpg",
+      "size": 287949
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce5.jpg",
+      "file": "img/akce5.jpg",
+      "size": 318645
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce6.jpg",
+      "file": "img/akce6.jpg",
+      "size": 365230
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce7.jpg",
+      "file": "img/akce7.jpg",
+      "size": 306336
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce8.jpg",
+      "file": "img/akce8.jpg",
+      "size": 323894
+    },
+    {
+      "url": "http://stemakokna.cz/img/akce9.jpg",
+      "file": "img/akce9.jpg",
+      "size": 317744
+    },
+    {
+      "url": "http://stemakokna.cz/img/deceuninck.jpg",
+      "file": "img/deceuninck.jpg",
+      "size": 7445
+    },
+    {
+      "url": "http://stemakokna.cz/img/deok.jpg",
+      "file": "img/deok.jpg",
+      "size": 52055
+    },
+    {
+      "url": "http://stemakokna.cz/img/drevo.png",
+      "file": "img/drevo.png",
+      "size": 37455
+    },
+    {
+      "url": "http://stemakokna.cz/img/drevo_dvere.jpg",
+      "file": "img/drevo_dvere.jpg",
+      "size": 32291
+    },
+    {
+      "url": "http://stemakokna.cz/img/eok46.jpg",
+      "file": "img/eok46.jpg",
+      "size": 26998
+    },
+    {
+      "url": "http://stemakokna.cz/img/eok68.jpg",
+      "file": "img/eok68.jpg",
+      "size": 50607
+    },
+    {
+      "url": "http://stemakokna.cz/img/eok78.jpg",
+      "file": "img/eok78.jpg",
+      "size": 53027
+    },
+    {
+      "url": "http://stemakokna.cz/img/eok88.jpg",
+      "file": "img/eok88.jpg",
+      "size": 53054
+    },
+    {
+      "url": "http://stemakokna.cz/img/eok_barvy.jpg",
+      "file": "img/eok_barvy.jpg",
+      "size": 202111
+    },
+    {
+      "url": "http://stemakokna.cz/img/eok_barvy1.jpg",
+      "file": "img/eok_barvy1.jpg",
+      "size": 66933
+    },
+    {
+      "url": "http://stemakokna.cz/img/hlinik.png",
+      "file": "img/hlinik.png",
+      "size": 31382
+    },
+    {
+      "url": "http://stemakokna.cz/img/hlinik_dvere.jpg",
+      "file": "img/hlinik_dvere.jpg",
+      "size": 20630
+    },
+    {
+      "url": "http://stemakokna.cz/img/ho45.jpg",
+      "file": "img/ho45.jpg",
+      "size": 25194
+    },
+    {
+      "url": "http://stemakokna.cz/img/ho70.jpg",
+      "file": "img/ho70.jpg",
+      "size": 35044
+    },
+    {
+      "url": "http://stemakokna.cz/img/ho86.jpg",
+      "file": "img/ho86.jpg",
+      "size": 35326
+    },
+    {
+      "url": "http://stemakokna.cz/img/inoutic.jpg",
+      "file": "img/inoutic.jpg",
+      "size": 9279
+    },
+    {
+      "url": "http://stemakokna.cz/img/interier_dvere.jpg",
+      "file": "img/interier_dvere.jpg",
+      "size": 31748
+    },
+    {
+      "url": "http://stemakokna.cz/img/logo.gif",
+      "file": "img/logo.gif",
+      "size": 4089
+    },
+    {
+      "url": "http://stemakokna.cz/img/plast.png",
+      "file": "img/plast.png",
+      "size": 29808
+    },
+    {
+      "url": "http://stemakokna.cz/img/plast_barvy.jpg",
+      "file": "img/plast_barvy.jpg",
+      "size": 290089
+    },
+    {
+      "url": "http://stemakokna.cz/img/plast_barvy1.jpg",
+      "file": "img/plast_barvy1.jpg",
+      "size": 98254
+    },
+    {
+      "url": "http://stemakokna.cz/img/plast_dvere.jpg",
+      "file": "img/plast_dvere.jpg",
+      "size": 18511
+    },
+    {
+      "url": "http://stemakokna.cz/img/po71.jpg",
+      "file": "img/po71.jpg",
+      "size": 45166
+    },
+    {
+      "url": "http://stemakokna.cz/img/po76.jpg",
+      "file": "img/po76.jpg",
+      "size": 43349
+    },
+    {
+      "url": "http://stemakokna.cz/img/po84.jpg",
+      "file": "img/po84.jpg",
+      "size": 46616
+    },
+    {
+      "url": "http://stemakokna.cz/img/ral.png",
+      "file": "img/ral.png",
+      "size": 131072
+    },
+    {
+      "url": "http://stemakokna.cz/img/stemak_okna.jpg",
+      "file": "img/stemak_okna.jpg",
+      "size": 599931
+    },
+    {
+      "url": "http://stemakokna.cz/img/vice.jpg",
+      "file": "img/vice.jpg",
+      "size": 1885
+    }
+  ],
+  "menu_categories": [
+    "Úvod",
+    "Okna",
+    "Dveře",
+    "Zimní zahrady",
+    "Reference",
+    "O společnosti",
+    "Kontakt"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "almacontrol",
+  "firma": "ALMAcontrol, s.r.o.",
+  "ico": "03984681",
+  "dic": "CZ03984681",
+  "obec": "Brno",
+  "cast_obce": "Žabovřesky",
+  "ulice": "Tábor 3097/37",
+  "psc": "616 00",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Pozemní stavitelství & Speciální technologie / Čisté prostory a validace (Cleanrooms dle ČSN EN ISO 14644), laminární boxy, HVAC filtrace, měření integrity HEPA filtrů, mikrobiologická kontrola, zkušebnictví a validace čistých prostor pro farmacii, optoelektroniku a zdravotnictví",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://almacontrol.cz",
+  "email": "info@almacontrol.cz",
+  "telefon": "+420 603 212 571",
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení pouze přes HTTP bez SSL/TLS šifrování (moderní prohlížeče varují před nebezpečným webem)",
+    "Absence responzivity a meta viewport značky – layout je fixní a na smartphonech vyžaduje zoomování a horizontální posun",
+    "Zastaralý systém inPage od Banan.cz s prázdnými podstránkami u klíčových služeb a nefunkčním RSS skriptem",
+    "Absence moderního katalogu metodik a norem ČSN EN ISO pro farmaceutické audity a nemocniční lékárny"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní sterilní hi-tech vzhled Tech & Precision s čistou laboratorní estetikou a glassmorphism prvky",
+    "Interaktivní katalog 14 validačních a zkušebních služeb s okamžitým vyhledáváním a přepínáním oborových záložek",
+    "Technické modální okno (#techModalBackdrop) s normami ČSN EN ISO 14644, DIN 12980, EN 1822 a tabulkami parametrů",
+    "100% mobilní responzivita s 0px přetečením na všech zařízeních a plynulými scroll-reveal animacemi",
+    "Ověřené sídlo s interaktivním Mapy.cz widgetem s červeným špendlíkem a přímým kontaktem na jednatele"
+  ],
+  "prodejni_body": [
+    "Založeno v roce 2015 v Brně s výhradně českým kapitálem a nezávislou zkušební autoritou",
+    "Komplexní validace čistých prostor od ISO Class 1 do ISO Class 9 a GMP tříd A až D pro farmacii a operační sály",
+    "Specializace na podtlakové izolátory pro přípravu a ředění cytostatik (CTS) v nemocničních lékárnách",
+    "Aerosolové zkoušky integrity koncových HEPA/ULPA filtrů (DOP test) kalibrovanou fotometrickou aparaturou",
+    "Dlouhodobé partnerství s předními výrobci panelových systémů pro čisté prostory DencoHappel a Steel Form"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2015,
+    "sidlo": "Tábor 3097/37, Žabovřesky, 616 00 Brno",
+    "spisova_znacka": "C 87654 vedená u Krajského soudu v Brně",
+    "jednatel": "Marián Uchytil",
+    "normy_mereni": "ČSN EN ISO 14644-1 až 3, ČSN EN 12469, DIN 12980, ČSN EN 1822, SÚKL VYR-32",
+    "merici_vybaveni": "Laserový čítač částic TSI AeroTrak, aerosolový fotometr ATI 2i, generátor DEHS, diferenční mikromanometry, průtokoměrný zvon TSI AccuBalance",
+    "zahranicni_trhy": "Česká republika, Německo, Maďarsko, Polsko"
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

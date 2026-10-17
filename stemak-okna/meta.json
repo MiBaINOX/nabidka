@@ -1,0 +1,57 @@
+{
+  "slug": "stemak-okna",
+  "firma": "STEMAK OKNA s.r.o.",
+  "ico": "04171101",
+  "obec": "Znojmo",
+  "okres": "Znojmo",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Specializované stavební práce & Výroba / Plastová okna, dřevěná eurookna, hliníkové profilové systémy, vchodové dveře, posuvné HS portály, hliníkové a dřevěné zimní zahrady, stínicí technika",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://stemakokna.cz",
+  "email": "kalab@stemak.cz",
+  "telefon": "+420 736 611 611",
+  "kontaktni_osoba": "Michal Kaláb, jednatel",
+  "adresa": "Pražská 1539/7, 669 02 Znojmo",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Tradice od roku 1991 s více než 33 lety nepřetržité řemeslné a výrobní praxe",
+    "Ucelené portfolio profilových řad z plastu Inoutic, dřeva IV68–IV88 i hliníku Aluprof",
+    "Špičkové koeficienty prostupu tepla Uw od 0,72 W/m²K splňující pasivní domy",
+    "Certifikace pro dotační tituly Nová zelená úsporám a normy ČSN EN 14351-1 a DIN 68121",
+    "Zkušenosti s rozsáhlými rezidenčními celky (45 rodinných domů Přímětice) i zakázkami v Rakousku",
+    "Specializovaná výroba a statické dimenzování celoročních obytných zimních zahrad na klíč"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez platného SSL/TLS certifikátu",
+    "Chybějící meta viewport značka – web není optimalizován pro mobilní zařízení a vyžaduje horizontální posouvání",
+    "Statická a nepřehledná struktura bez možnosti rychlého filtrování materiálů a technických parametrů",
+    "Archaický designový layout z roku 2015 s malými náhledy a chybějící interaktivitou",
+    "Nefunkční vyhledávání v sortimentu a absence přímého srovnání izolačních parametrů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Swiss Bento Grid s čistou typografií a vysokým kontrastem",
+    "100% mobilní responzivita s 0px horizontálním přetečením na všech zařízeních od 360 px",
+    "Interaktivní technologický katalog 15 profilových řad s okamžitým vyhledáváním a filtrací podle úrovně izolace",
+    "Detailní technické modální okno (#techModalBackdrop) s přehlednými tabulkami specifikací a přímým stažením PDF prospektů",
+    "Animované čítače a ukazatele vycházející ze skutečné historie a faktů společnosti (od 1991, 45 domů Přímětice, 25 stálých montážníků)",
+    "Ověřená adresa sídla Pražská 1539/7 s přesným Mapy.cz špendlíkem dle RÚIAN",
+    "Personalizovaná kontaktní vizitka jednatele Michala Kalába s přímým voláním a poptávkovým formulářem na míru"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1991,
+    "roky_na_trhu": 33,
+    "pocet_domu_primetice": 45,
+    "pocet_profilovych_rad": 15,
+    "pocet_pracovniku": 25,
+    "jednatel": "Michal Kaláb",
+    "hlavni_partneri": [
+      "Inoutic (Deceuninck)",
+      "Aluprof",
+      "ROTO Frank",
+      "Adler",
+      "Aluron Gemini"
+    ]
+  }
+}

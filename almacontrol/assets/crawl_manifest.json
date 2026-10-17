@@ -1,0 +1,57 @@
+{
+  "slug": "almacontrol",
+  "base_url": "http://almacontrol.cz/",
+  "pages_crawled_count": 10,
+  "pages": [
+    "http://almacontrol.cz/",
+    "http://almacontrol.cz/o-nas.html",
+    "http://almacontrol.cz/validace-cistych-prostor.html",
+    "http://almacontrol.cz/validace-izolatoru.html",
+    "http://almacontrol.cz/validace-laminarnich-boxu.html",
+    "http://almacontrol.cz/opravy-a-upravy-cp.html",
+    "http://almacontrol.cz/revize.html",
+    "http://almacontrol.cz/poradenstvi.html",
+    "http://almacontrol.cz/reference.html",
+    "http://almacontrol.cz/kontakt.html"
+  ],
+  "images_count": 5,
+  "images": [
+    {
+      "url": "http://almacontrol.cz/userFiles/slider/slide1.jpg",
+      "filename": "slide1.jpg",
+      "size": 301309
+    },
+    {
+      "url": "http://almacontrol.cz/userFiles/slider/slide2.jpg",
+      "filename": "slide2.jpg",
+      "size": 306523
+    },
+    {
+      "url": "http://almacontrol.cz/userFiles/slider/slide3.jpg",
+      "filename": "slide3.jpg",
+      "size": 302565
+    },
+    {
+      "url": "http://almacontrol.cz/userFiles/img/img-1.jpg",
+      "filename": "img-1.jpg",
+      "size": 41596
+    },
+    {
+      "url": "http://almacontrol.cz/userFiles/system/logo.png",
+      "filename": "logo.png",
+      "size": 8020
+    }
+  ],
+  "menu_categories": [
+    "Úvod",
+    "O nás",
+    "Validace čistých prostor",
+    "Validace izolátorů",
+    "Validace laminárních boxů",
+    "Opravy a úpravy ČP",
+    "Revize",
+    "Poradenství",
+    "Reference",
+    "Kontakt"
+  ]
+}

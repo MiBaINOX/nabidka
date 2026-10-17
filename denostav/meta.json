@@ -1,0 +1,51 @@
+{
+  "slug": "denostav",
+  "firma": "DENOSTAV s.r.o.",
+  "ico": "03467830",
+  "dic": "CZ03467830",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "adresa": "Kluchova 266/40, Nový Lískovec, 634 00 Brno",
+  "obor_plny": "Pozemní stavitelství / Komplexní stavební činnost, generální dodávky staveb, rekonstrukce rodinných a bytových domů, zateplovací systémy fasád ETICS, zednické, obkladačské a sádrokartonářské práce",
+  "archetyp": "EDITORIAL & STORY",
+  "stary_web": "http://denostav.cz",
+  "email": "info@denostav.cz",
+  "telefon": "+420 604 755 467",
+  "jednatel": "Ing. Pavel Odstrčil",
+  "rok_zalozeni": 2014,
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Tradiční brněnská stavební společnost s více než 10 lety zkušeností na trhu od roku 2014",
+    "Generální dodávky pozemní a občanské výstavby i komplexní rekonstrukce bytového fondu na klíč",
+    "Certifikované zateplovací systémy fasád ETICS dle ČSN 73 0540-2 pro výrazné úspory energií",
+    "Kompletní koordinace specializovaných profesí (elektro-MaR, ZTI, ÚT) pod jednotným vedením",
+    "Přímé dodávky certifikovaných materiálů předních českých i evropských výrobců bez prostředníků"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené připojení přes zastaralý protokol HTTP bez platného SSL/TLS certifikátu",
+    "Chybějící meta viewport tag způsobující nečitelnost a nutnost vodorovného posunu na mobilních telefonech",
+    "Archaický fixní layout z roku 2014 omezující prezentaci kvalitních referenčních staveb",
+    "Absence interaktivního katalogu technologií, norem ČSN a specifikací materiálů pro investory",
+    "Chybějící moderní interaktivní mapa sídla společnosti s přesným špendlíkem a navigačním tlačítkem"
+  ],
+  "vylepseni_noveho_webu": [
+    "Autorský designový koncept Editorial & Story s velkými autentickými fotografiemi a teplou barevnou paletou",
+    "Plně responzivní layout optimalizovaný pro chytré telefony, tablety i velkoformátové monitory (0px overflow)",
+    "Interaktivní katalog stavebních technologií a referencí s okamžitým vyhledáváním a filtrací kategorií",
+    "Detailní technická modální okna s přesnými parametry, normami ČSN a certifikacemi ETICS",
+    "Vertikální časová osa rekapitulující více než dekádu rozvoje společnosti a klíčové oborové milníky",
+    "Ověřená mapa Mapy.cz s přesným červeným špendlíkem sídla v Brně a přímým navigačním odkazem",
+    "Přehledný poptávkový formulář s výběrem stavebních technologií a garancí reakce do 24 hodin"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2014,
+    "sidlo": "Kluchova 266/40, Nový Lískovec, 634 00 Brno",
+    "jednatel": "Ing. Pavel Odstrčil",
+    "pocet_realizaci": "150+",
+    "certifikace": "ETICS ETAG 004, ČSN 73 0540-2, ČSN EN 520, ČSN 73 0810",
+    "profese": "Generální dodávky, zateplení fasád, sádrokartony, elektro-MaR, ZTI, ÚT"
+  }
+}

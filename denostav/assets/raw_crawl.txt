@@ -1,0 +1,645 @@
+=== HOMEPAGE (http://denostav.cz) ===
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="stavební společnost Brno, Denostav, rekonstrukce bytu, rekonstrukce, koupelny, kanceláře, demoliční práce, stavební materiál" />
+  <meta name="description" content="DENOSTAV s.r.o. je stavební společnost sídlící v Brně, která se specializuje na rekonstrukce bytových jednotek, kanceláří, koupelen, aj." />
+  <meta name="robots" content="all,follow" />
+  <meta http-equiv="content-language" content="cs" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="cache-control" content="no-cache, must-revalidate" />
+  <meta http-equiv="expires" content="0" />
+  <title>DENOSTAV s.r.o. | stavební společnost Brno</title>
+  <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="./css/style.css?1" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+ <script type="text/javascript" src="./js/jquery/jquery-1.8.2.min.js"></script>
+ <script type="text/javascript" src="./js/jquery.easing.min.js"></script>
+
+<script type="text/javascript" src="./js/scroll.js"></script>
+
+</head>
+
+<body>
+<a class="goontop" href="#header">Nahoru</a>
+ 
+  
+  <div id="header">
+  <div class="obal">
+  
+  <div class="fcontact">
+	<span class="tel">+420 604 755 467</span>
+	<span class="mail"><a href="mailto:info@denostav.cz">info@denostav.cz</a></span>
+  </div>
+
+	<a title="Stavební společnost DENOSTAV s.r.o." href="http://www.denostav.cz/" class="logo"><img src="./img/denostav_logo.png" alt="DENOSTAV s.r.o. - stavební společnost" height="120"/></a>
+   
+  </div>
+  </div>
+  
+ <div id="menu">
+ <div class="obal">
+	<ul>
+		<li><a href="#onas">O nás</a></li>
+		<li class="sep">|</li>
+		<li><a href="#nabidka">Nabídka</a></li>
+		<li class="sep">|</li>
+		<li><a href="#kontaktujtenas">Kontakt</a></li>
+	</ul>
+ </div>
+ </div>
+ 
+  <div id="content">
+ <div class="obal">
+
+<h2 id="onas">O naší společnosti</h2>
+
+<p><strong>DENOSTAV s.r.o.</strong> je stavební společností.</p>
+
+<p style="margin-top:18px;">Hlavní prioritou společnosti <strong>DENOSTAV s.r.o.</strong> je dosažení nejvyšší kvality námi nabízených prací a&nbsp;služeb ve stanoveném termínu, zajištění individuálního a&nbsp;kvalifikovaného přístupu k našim zákazníkům a jejich přáním.</p>
+
+<p><span id="nabidka">Těšíme se na spolupráci!</span></p>
+
+
+<div class="sekce">Nabídka</div>
+
+<div class="sluzby">
+	<div class="blok">
+		<h4>Opravy bytového fondu</h4>
+		<p>Realizujeme kompletní rekonstrukce bytového fondu domů, včetně potřebných profesí elektro-MaR, ZTI, ÚT formou  „na klíč“
+		</p>
+	</div>
+	
+	<div class="blok sec">
+		<h4>Demoliční práce</h4>
+		<p>Naše společnost provádí veškeré bourací práce menšího rozsahu včetně odstranění suti. Zákazníkovi tak nabízíme kompletní služby: od konzultací, přes provádění projektu až k&nbsp;vlastní realizaci díla.</p>
+	</div>
+	
+	<div class="blok stav">
+		<h4>Pozemní a&nbsp;inženýrské stavby</h4>
+		<p>Komplexní dodávky v&nbsp;oblasti průmyslové, inženýrské, bytové a&nbsp;občanské výstavby</p>
+	</div>
+	
+	<div class="blok ter last">
+		<h4>Stavební materiál</h4>
+		<p>Denostav s.r.o. zajistí kompletní dodávku stavebního materiálu, montáží, úklidu sutě a&nbsp;celého staveniště. Naši dodavatelé jsou jedničkou na českém i&nbsp;zahraničním trhu.</p>
+	</div>
+	
+	<div class="cleaner"></div>
+</div>
+
+
+<div class="sekce" id="kontaktujtenas">Kontakt</div>
+
+
+<div class="cleaner"></div>
+</div>
+ </div>
+ 
+<div id="kontakt">
+<div class="obal">
+
+<p>V případě, že zvažujete kompletní nebo i částečnou rekonstrukci bytu, domu nebo firemních prostor (administrativních nebo i výrobních) či máte zájem o jiné stavební práce a úpravy,
+a máte zájem o  bližší informace nebo setkání, kontaktujte nás.</p>
+
+<div class="cleaner"></div>
+
+
+<p class="other">
+<span class="tel big">+420 604 755 467</span><br />
+<span class="mail big"><a href="mailto:info@denostav.cz">info@denostav.cz</a></span>
+</p>
+
+<p class="osoba other">
+DENOSTAV s.r.o.<br />
+Jednatel společnosti: Ing. Pavel Odstrčil<br />
+Sídlo firmy: Kluchova 266/40, 634 00 Brno<br />
+IČ: 034 67 830<br />
+DIČ: CZ03467830
+</p>
+
+</div> 
+</div> 
+   
+  <div class="footer">
+	<div class="obal">
+	
+  <table><tr>
+  
+  <td class="ad">
+<a class="logof"><img src="./img/denostav_logo1.png" alt="DENOSTAV s.r.o. - stavební společnost" height="80"/></a>
+</td>
+  
+<td class="ct">
+DENOSTAV s.r.o.<br />
+Kluchova 266/40<br />
+634 00 Brno<br />
+tel.: +420 604 755 467<br />
+<a href="mailto:info@denostav.cz">info@denostav.cz</a></td>
+
+<td class="addr"><a href="http://www.denostav.cz/">www.denostav.cz</a></td>
+  
+  </tr></table>
+  
+	</div>
+  </div>
+ 
+<script>
+var $document = $(document),
+    $element = $('.goontop'),
+    className = 'show';
+
+$document.scroll(function() {
+  if ($document.scrollTop() >= 250) {
+    // user scrolled 50 pixels or more;
+    // do stuff
+    $element.addClass(className);
+  } else {
+    $element.removeClass(className);
+  }
+});
+</script>
+  </body>
+</html>
+
+=== CSS (http://denostav.cz/css/style.css) ===
+/*@font-face {
+    font-family: 'tregular';
+    src: url('titillium-regular-webfont.eot');
+    src: url('titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-regular-webfont.woff2') format('woff2'),
+         url('titillium-regular-webfont.woff') format('woff'),
+         url('titillium-regular-webfont.ttf') format('truetype'),
+         url('titillium-regular-webfont.svg#titilliumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'tbold';
+    src: url('titillium-bold-webfont.eot');
+    src: url('titillium-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-bold-webfont.woff2') format('woff2'),
+         url('titillium-bold-webfont.woff') format('woff'),
+         url('titillium-bold-webfont.ttf') format('truetype'),
+         url('titillium-bold-webfont.svg#titillium_bdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tthin';
+    src: url('titillium-thin-webfont.eot');
+    src: url('titillium-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-thin-webfont.woff2') format('woff2'),
+         url('titillium-thin-webfont.woff') format('woff'),
+         url('titillium-thin-webfont.ttf') format('truetype'),
+         url('titillium-thin-webfont.svg#titilliumthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tlight';
+    src: url('titillium-light-webfont.eot');
+    src: url('titillium-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-light-webfont.woff2') format('woff2'),
+         url('titillium-light-webfont.woff') format('woff'),
+         url('titillium-light-webfont.ttf') format('truetype'),
+         url('titillium-light-webfont.svg#titilliumlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+/* STYLE */
+html{
+padding: 0px;
+}
+a, p a, li a, td a{
+color: #fff;
+text-decoration:underline;
+}
+b, strong {
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+.goontop{
+display: none;
+background: #FFF;
+border-radius: 16px;
+-webkit-border-radius: 16px;
+color: #6D6D6D;
+text-align: center;
+font-size: 18px;
+position: fixed;
+bottom: 2%;
+right: 2%;
+cursor: pointer;
+z-index: 1001;
+width: 70px;
+height: 42px;
+padding-top: 17px;
+text-decoration: none;
+}
+.goontop.show{
+display: block;
+}
+.none{
+text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+}
+
+ol,ul{
+margin: 20px 0 20px 30px;
+}
+.text{
+padding: 0 29px;
+}
+.text ul li{
+list-style: square;
+}
+
+
+.obsah table{
+width: 100%;
+}
+.obsah table td{
+border: 1px solid #DFDFDF;
+padding: 10px;
+text-align: left;
+}
+
+
+body {
+    font-size: 14px;
+    font-family: 'Raleway', Calibri, Arial;
+    font-weight: normal;
+    margin: 0;
+	padding: 0;
+	height: auto;
+	text-align: center;
+	line-height: 170%;
+	position: relative;
+    background: url(../img/bg.png) repeat;
+}
+
+.hidden{
+height: 0px;
+overflow:hidden;
+visibility:hidden;
+}
+
+.animated{
+transition: 1s ease;
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-ms-transition: 1s ease;
+}
+
+
+.cleaner {
+  clear:both !important;
+  display: block !important;
+  float: none !important;
+  height: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+}
+h1{
+color: #FFF;
+font-size: 30px;
+display: block;
+margin: 24px 0 0 0;
+font-weight: normal;
+}
+h1 em{
+width: 22px;
+height: 22px;
+background: url(../img/dot.png) no-repeat;
+display: inline-block;
+margin: 0px 5px;
+}
+
+h2{
+display: block;
+color: #414141;
+padding: 40px 0px 37px 0px;
+font-size: 60px;
+text-align: center;
+line-height: 110%;
+font-weight: normal;
+}
+
+
+h3{
+display: block;
+color: #FFF;
+margin: 34px 0 0px 0;
+font-size: 39px;
+font-style: italic;
+font-weight: normal;
+}
+
+h4{
+font: 22px 'Raleway';
+text-decoration: underline;
+color: #414141;
+background: url(../img/s1.png) no-repeat center top;
+padding-top: 109px;
+height: 70px;
+}
+.sec h4{
+background: url(../img/s2.png) no-repeat center top;
+}
+.stav h4{
+background: url(../img/s4.png) no-repeat center top;
+}
+.ter h4{
+background: url(../img/s3.png) no-repeat center top;
+}
+
+#menu{
+background: #1a3242;
+height: 69px;
+width: 100%;
+margin-top: 12px;
+}
+
+#menu ul{
+height: 69px;
+width: 100%;
+margin: 0px;
+}
+
+#menu ul li{
+display: inline-block;
+height: 69px;
+padding-top: 22px;
+}
+#menu ul li a{
+font-size: 22px;
+text-transform: uppercase;
+color: #fff;
+text-decoration: none;
+/*font-family: 'tlight';*/
+}
+#menu ul li a:hover{
+color: #D8D8D8;
+}
+#menu ul li.sep{
+font-size: 22px;
+color: #fff;
+margin: 0 70px;
+}
+
+.fcontact{
+position: absolute;
+right: 0px;
+top: 44px;
+width: 200px;
+}
+
+.kontaktright{
+text-align: right;
+color: #FFF;
+font-size: 27px;
+line-height: 120%;
+text-shadow: 0px 1px 0px #464646;
+margin: 19px 0px;
+}
+.kontaktright a{
+color: #fff;
+font-size: 27px;
+}
+#kontakt{
+background: #1a3242;
+height: 612px;
+margin-top: -10px;
+padding-top: 40px;
+}
+#kontakt p{
+/*font: 22px 'tlight';*/
+font-size: 22px;
+color: #fff;
+line-height: 180%;
+}
+#header{
+width: 100%;
+height: 170px;
+background: #005e91;
+}
+
+
+.obal{
+width: 1000px;
+margin: 0 auto 0 auto;
+position: relative;
+height: auto;
+}
+
+.logo{
+display: block;
+width: 90px;
+padding-top: 21px;
+/*margin: 0px auto 0px auto;*/
+}
+
+
+#content{
+text-align: center;
+width: 100%;
+margin-bottom: 35px;
+}
+#content p{
+color: #414141;
+font-size: 26px;
+line-height: 170%;
+/*font-weight: normal;
+font-family: 'tthin';*/
+}
+#content p strong {
+font-family: 'Raleway';
+font-weight: 700;
+}
+#content p span{
+font-size: 42px;
+display: inline-block;
+margin: 30px 0 0 0;
+/*font-family: 'tlight';*/
+color: #5A5A5A;
+}
+
+.sekce{
+/*background: url(../img/sekce.png) no-repeat 20px 0;
+width: 297px;*/
+height: 50px;
+margin: 40px auto 20px auto;
+color: #414141;
+font-size: 60px;
+padding-top: 50px;
+}
+
+.galerie{
+float: left;
+margin-left: 25px;
+}
+
+.mapa{
+float: right;
+margin: 75px 55px 0 0;
+}
+.osoba{
+/*font-size: 28px !important;*/
+margin-top: 60px !important;
+line-height: 140% !important;
+}
+.blok{
+width: 205px;
+    height: auto;
+    margin-right: 60px;
+    float: left;
+}
+.blok.last{
+margin-right: 0px;
+}
+.blok p{
+text-align: center;
+font-size: 16px !important;
+color: #616161 !important;
+/*margin-top: 25px;*/
+padding: 0px 12px;
+font-family: 'Raleway' !important;
+font-weight: normal !important;
+}
+.footer p{
+font-size: 13px;
+}
+
+p.kontakt-nadpis{
+font-size: 42px !important;
+float: left;
+width: 285px;
+text-align: right;
+color: #fff;
+padding-top: 51px;
+margin-right: 47px;
+}
+
+.footer .obal{
+background: none;
+}
+.footer.top{
+margin-bottom: 25px;
+}
+
+p.kontakt{
+font-size: 32px !important;
+float: left;
+text-align: left !important;
+line-height: 160%;
+color: #fff;
+padding-top: 19px;
+}
+
+span.mail{
+background: url(../img/icon1.png) no-repeat;
+background-position: 7px -41px;
+padding-left: 51px;
+margin-top: 5px;
+text-align:left;
+height: 30px;
+display: inline-block;
+}
+span.mail.big{
+background: url(../img/icon-big.png) no-repeat;
+background-position: 2px -60px;
+padding-left: 65px;
+height: 45px;
+}
+.other{
+text-align: left;
+margin-top: 80px;
+}
+span.mail.big a{
+font-size: 30px;
+}
+span.mail a{
+color: #fff;
+font-size: 16px;
+}
+span.tel{
+background: url(../img/icon1.png) no-repeat;
+background-position: 7px 0px;
+padding-left: 45px;
+text-align:left;
+height: 30px;
+display: inline-block;
+font-size: 16px;
+color: #fff;
+}
+span.tel.big{
+background: url(../img/icon-big.png) no-repeat;
+background-position: 3px 0px;
+font-size: 30px;
+padding-left: 65px;
+height: 55px;
+}
+
+#header span.mail a, #header span.tel {
+	color: #cac8b9;
+}
+
+.footer{
+width: 100%;
+clear: both;
+background: #132633;
+height: 149px;
+margin-top: 0px;
+padding-top: 15px;
+}
+.footer table{
+width: 945px;
+height: 138px;
+}
+.footer table td{
+color: #fff;
+vertical-align: middle;
+}
+.footer table td.ct{
+font-size: 16px;
+line-height: 125%;
+text-align: center;
+}
+table td.addr a{
+font-size: 28px;
+text-decoration: underline;
+}
+table td.addr{
+text-align: right;
+}
+.footer table td.ct a{
+color: #fff;
+}
+.footer table td.ad{
+font-size: 13px;
+line-height: 125%;
+text-align: left;
+width: 340px;
+}
+.footer table td.name{
+font-size: 40px;
+}

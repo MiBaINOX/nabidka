@@ -1,0 +1,716 @@
+[
+  {
+    "id": "val-cleanroom-iso",
+    "name": "Validace čistých prostor dle ČSN EN ISO 14644",
+    "category": "cleanroom",
+    "category_title": "Čisté prostory ISO 14644",
+    "norm": "ČSN EN ISO 14644-1, ISO 14644-2, GMP / SVP",
+    "method": "Optická částicová analýza a měření aerodynamických parametrů",
+    "equipment": "Laserový čítač částic TSI AeroTrak, mikromanometr, anemometr",
+    "description": "Komplexní klasifikace a zkoušení čistých prostor pro farmacii, optoelektroniku a zdravotnická pracoviště. Stanovení tříd čistoty ISO Class 1 až 9 v klidovém (at-rest) i provozním (operational) stavu.",
+    "scope": "ISO Class 1 až ISO Class 9 / GMP třídy A, B, C, D",
+    "features": [
+      "Klasifikace koncentrace polétavých částic dle ISO 14644-1",
+      "Měření v klidovém i provozním stavu technologie",
+      "Validace pro farmaceutickou výrobu a nemocniční lékárny",
+      "Vypracování akreditovaného validačního protokolu"
+    ],
+    "table": {
+      "headers": [
+        "Parametr / Zkouška",
+        "Norma / Metodika",
+        "Přístrojové vybavení",
+        "Kritérium shody"
+      ],
+      "rows": [
+        [
+          "Klasifikace čistoty ovzduší",
+          "ČSN EN ISO 14644-1",
+          "Laserový čítač TSI AeroTrak",
+          "Limitní počet částic dle ISO třídy"
+        ],
+        [
+          "Tlakový spád mezi prostory",
+          "ČSN EN ISO 14644-3",
+          "Digitální mikromanometr",
+          "Kaskáda 10 až 15 Pa"
+        ],
+        [
+          "Intenzita výměny vzduchu",
+          "ČSN EN 12599",
+          "Průtokoměrný zvon AccuBalance",
+          "Dle projektové násobnosti (15-60 h⁻¹)"
+        ],
+        [
+          "Doba zotavení (Recovery test)",
+          "ČSN EN ISO 14644-3",
+          "Aerosolový generátor + čítač",
+          "Návrat do třídy čistoty do 15 min"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-particle-count",
+    "name": "Měření koncentrace aerosolových částic",
+    "category": "cleanroom",
+    "category_title": "Čisté prostory ISO 14644",
+    "norm": "ČSN EN ISO 14644-1:2016",
+    "method": "Izokinetické vzorkování a optická laserová detekce",
+    "equipment": "Kalibrovaný optický částicový čítač TSI s průtokem 28,3 l/min (1 CFM)",
+    "description": "Přesné stanovení koncentrace pevných a kapalných částic vznášejících se v ovzduší čistého prostoru. Měření frakcí od 0,1 µm do 5,0 µm s diskontinuálním i kontinuálním záznamem a statistickým vyhodnocením 95% UCL.",
+    "scope": "Frakce částic 0,1 µm, 0,3 µm, 0,5 µm, 1,0 µm a 5,0 µm",
+    "features": [
+      "Kalibrovaný přístrojový park s návazností na etalony",
+      "Automatické vyhodnocení statistického limitu 95% UCL",
+      "Izokinetické sondy pro laminární i turbulentní proudění",
+      "Zpracování protokolů přímo pro audity SÚKL a inspekce"
+    ],
+    "table": {
+      "headers": [
+        "Frakce částic",
+        "ISO Class 5 (GMP A/B klid)",
+        "ISO Class 7 (GMP C)",
+        "ISO Class 8 (GMP D)"
+      ],
+      "rows": [
+        [
+          "Částice ≥ 0,5 µm / m³",
+          "max. 3 520 částic",
+          "max. 352 000 částic",
+          "max. 3 520 000 částic"
+        ],
+        [
+          "Částice ≥ 1,0 µm / m³",
+          "max. 832 částic",
+          "max. 83 200 částic",
+          "max. 832 000 částic"
+        ],
+        [
+          "Částice ≥ 5,0 µm / m³",
+          "max. 29 částic",
+          "max. 2 900 částic",
+          "max. 29 000 částic"
+        ],
+        [
+          "Vzorkovaný objem",
+          "min. 1 m³ na bod",
+          "dle plochy místnosti",
+          "statistická síť měřicích bodů"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-recovery-time",
+    "name": "Zkouška doby zotavení (Recovery Time Test)",
+    "category": "cleanroom",
+    "category_title": "Čisté prostory ISO 14644",
+    "norm": "ČSN EN ISO 14644-3, GMP Annex 1",
+    "method": "Aerosolová zátěž 100x nad limit a měření křivky dekontaminace",
+    "equipment": "Aerosolový generátor DEHS, rychlý čítač částic s frekvencí 10 s",
+    "description": "Stanovení schopnosti vzduchotechnického systému čistého prostoru eliminovat náhlou kontaminaci. Prostor je zatížen aerosolovou mlhou na stonásobek cílové koncentrace a měří se čas potřebný k návratu do normálu.",
+    "scope": "Prostory s turbulentním větráním tříd ISO 5 až ISO 8 (GMP B, C, D)",
+    "features": [
+      "Ověření účinnosti provětrávání a eliminace stagnujících zón",
+      "Kvantifikace poměru 100:1 dekontaminační křivky",
+      "Klíčový ukazatel pro farmaceutické provozy a operační sály",
+      "Grafický záznam poklesu koncentrace částic v čase"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Požadavek normy",
+        "Měřená hodnota",
+        "Vyhodnocení"
+      ],
+      "rows": [
+        [
+          "Poměr zotavení",
+          "100 : 1 pokles koncentrace",
+          "Aerosol DEHS / Emery",
+          "Splněno"
+        ],
+        [
+          "Doba zotavení (t0,01)",
+          "Typicky < 15 až 20 minut",
+          "Průběžná registrace po 10 s",
+          "Dle GMP Annex 1"
+        ],
+        [
+          "Způsob proudění",
+          "Turbulentní / vířivé",
+          "Vyústky s vířivým výtokem",
+          "Ověřeno"
+        ],
+        [
+          "Protokol o zkoušce",
+          "Dle ISO 14644-3 metodika B.13",
+          "Časový graf poklesu částic",
+          "Schváleno pro SÚKL"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-pressure-diff",
+    "name": "Měření přetlakových spádů a těsnosti",
+    "category": "cleanroom",
+    "category_title": "Čisté prostory ISO 14644",
+    "norm": "ČSN EN ISO 14644-3, ČSN EN 12599",
+    "method": "Diferenční mikromanometrie a těsnostní zkoušky",
+    "equipment": "Digitální piezoelektrický mikromanometr s rozlišením 0,1 Pa",
+    "description": "Kontrola a přesné seřízení tlakového gradientu mezi čistými prostory, propustmi a okolním prostředím. Přetlak zabraňuje vnikání nefiltrovaného vzduchu z méně čistých zón, u podtlakových prostor chrání obsluhu.",
+    "scope": "Tlakové spády 5 Pa až 50 Pa mezi jednotlivými zónami",
+    "features": [
+      "Prevence křížové kontaminace mezi místnostmi",
+      "Kontrola materiálových a personálních propustí",
+      "Měření dynamického tlaku při otevření / zavření dveří",
+      "Ověření stability regulace vzduchotechnických klapek"
+    ],
+    "table": {
+      "headers": [
+        "Zóna / Místnost",
+        "Tlakový režim",
+        "Doporučený spád",
+        "Tolerance"
+      ],
+      "rows": [
+        [
+          "Čistá výrobní místnost (GMP A/B)",
+          "Přetlakový",
+          "+30 až +45 Pa",
+          "± 2 Pa"
+        ],
+        [
+          "Předmístnost / Personální propust",
+          "Kaskádový přetlak",
+          "+15 až +20 Pa",
+          "± 2 Pa"
+        ],
+        [
+          "Přípravna cytostatik (CTS)",
+          "Podtlakový režim",
+          "-15 až -30 Pa",
+          "± 2 Pa"
+        ],
+        [
+          "Těsnost stavebních spár a prostupů",
+          "Beztlaková vizualizace",
+          "Nulový průsak",
+          "Vizuální ověření"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-isolator-cts",
+    "name": "Validace podtlakových izolátorů pro cytostatika",
+    "category": "laminar",
+    "category_title": "Laminární boxy a izolátory",
+    "norm": "ČSN EN ISO 14644-7, DIN 12980, SÚKL VYR-32",
+    "method": "Tlaková zkouška těsnosti pláště, integrita filtrů a částicový audit",
+    "equipment": "Tlakoměrný systém poklesu tlaku, fotometr ATI 2i, čítač částic",
+    "description": "Kompletní validační servis podtlakových izolátorových technologií v nemocničních lékárnách a onkologických centrech (přípravny cytostatických infuzí). Zajištění 100% ochrany personálu před toxickými látkami a sterility léčiva.",
+    "scope": "Nemocniční lékárny, ředírny cytostatik, radiofarmaka",
+    "features": [
+      "Test těsnosti pracovního prostoru dle ISO 10648-2",
+      "Zkouška integrity pracovních rukavic a manžet",
+      "Integrita přívodních a odtahových HEPA/ULPA filtrů",
+      "Ověření laminárního proudění a laminární clony"
+    ],
+    "table": {
+      "headers": [
+        "Validační zkouška",
+        "Zkušební norma",
+        "Metodika měření",
+        "Limitní kritérium"
+      ],
+      "rows": [
+        [
+          "Těsnost pláště izolátoru",
+          "ISO 10648-2 Třída 2",
+          "Metoda poklesu tlaku za 1 h",
+          "Únik < 0,5 % objemu/hod"
+        ],
+        [
+          "Integrita HEPA filtrů H14",
+          "ČSN EN ISO 14644-3",
+          "Aerosolový test DEHS",
+          "Penetrace filtru < 0,01 %"
+        ],
+        [
+          "Třída čistoty uvnitř boxu",
+          "ISO 14644-1 / GMP A",
+          "Laserový čítač částic",
+          "0 částic ≥ 5 µm v klidu"
+        ],
+        [
+          "Rychlost laminárního proudění",
+          "DIN 12980",
+          "Anemometrická mříž",
+          "0,45 m/s ± 10 %"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-laminar-biohazard",
+    "name": "Validace biohazard laminárních boxů třídy II",
+    "category": "laminar",
+    "category_title": "Laminární boxy a izolátory",
+    "norm": "ČSN EN 12469, ČSN EN ISO 14644-1",
+    "method": "Měření vstupní a laminární rychlosti, aerosolový test bariéry",
+    "equipment": "Kalibrovaný termoanemometr, aerosolový fotometr, kouřový stopovač",
+    "description": "Pravidelná kontrola a vystavení validačního certifikátu pro mikrobiologické bezpečnostní boxy třídy II. Měření rychlosti nasávání do čelní štěrbiny (inflow) i rychlosti vertikálního laminárního splachování (downflow).",
+    "scope": "Mikrobiologické, virologické a biochemické laboratoře",
+    "features": [
+      "Měření rychlosti nasávaného vzduchu (inflow ≥ 0,40 m/s)",
+      "Měření laminárního vertikálního proudění (downflow 0,25–0,50 m/s)",
+      "Zkouška stability vzduchové clony kouřovou zkouškou",
+      "Audit alarmových systémů (výška čelního skla, průtok)"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Požadavek ČSN EN 12469",
+        "Typická naměřená hodnota",
+        "Stav shody"
+      ],
+      "rows": [
+        [
+          "Rychlost vstupního proudění (Inflow)",
+          "min. 0,40 m/s",
+          "0,48 m/s",
+          "Vyhovuje"
+        ],
+        [
+          "Rychlost laminárního proudu (Downflow)",
+          "0,25 až 0,50 m/s",
+          "0,36 m/s",
+          "Vyhovuje"
+        ],
+        [
+          "Integrita HEPA filtru H14",
+          "Penetrace < 0,005 %",
+          "0,001 %",
+          "Vyhovuje"
+        ],
+        [
+          "Třída čistoty pracovního prostoru",
+          "ČSN EN ISO 14644-1",
+          "ISO Class 5 (GMP A)",
+          "Vyhovuje"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-laminar-horizontal",
+    "name": "Validace čistých laminárních stolů a boxů",
+    "category": "laminar",
+    "category_title": "Laminární boxy a izolátory",
+    "norm": "ČSN EN ISO 14644-1, ISO 14644-3",
+    "method": "Multi-bodové měření rychlosti proudění a koncentrace částic",
+    "equipment": "Termický anemometr s maticí čidel, laserový čítač částic",
+    "description": "Validace horizontálních a vertikálních čistých laminárních boxů pro ochranu produktu při výrobě mikroelektroniky, optiky a sterilní přípravě. Kontrola rovnoměrnosti rychlostního pole a zamezení přisávání z okolí.",
+    "scope": "Výroba polovodičů, jemná mechanika, tkáňové kultury",
+    "features": [
+      "Homogenita rychlosti proudění s odchylkou do ± 20 %",
+      "Okamžitá detekce poškození filtrační tkaniny",
+      "Kontrola hladiny hluku a osvětlení pracovní plochy",
+      "Vydání certifikátu způsobilosti pro audit jakosti"
+    ],
+    "table": {
+      "headers": [
+        "Kontrolovaná položka",
+        "Normativní hodnota",
+        "Měřicí přístroj",
+        "Frekvence kontroly"
+      ],
+      "rows": [
+        [
+          "Rychlost laminárního vzduchu",
+          "0,45 m/s ± 20 %",
+          "Lopatkový termoanemometr",
+          "1x ročně / po výměně filtru"
+        ],
+        [
+          "Počet částic ≥ 0,5 µm",
+          "ISO Class 5 (< 3 520 / m³)",
+          "Laserový čítač TSI",
+          "1x ročně"
+        ],
+        [
+          "Intenzita osvětlení plochy",
+          "min. 750 Lux",
+          "Digitální luxmetr",
+          "Při validaci"
+        ],
+        [
+          "Hladina akustického tlaku",
+          "max. 65 dB(A)",
+          "Zvukoměr třídy 1",
+          "Při validaci"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-hepa-integrity",
+    "name": "Zkouška integrity koncových HEPA/ULPA filtrů",
+    "category": "hepa-hvac",
+    "category_title": "HVAC filtrace a HEPA",
+    "norm": "ČSN EN ISO 14644-3:2020, ČSN EN 1822",
+    "method": "Generování zkušebního aerosolu DEHS a skenování fotometrickou sondou",
+    "equipment": "Aerosolový generátor Topas, lineární fotometr ATI 2i se skenovací sondou",
+    "description": "Zkouška těsnosti a neporušenosti koncových vysoce účinných filtrů HEPA (třídy H13, H14) a ULPA (U15) instalovaných v podhledech čistých prostor a boxech. Odhaluje mikrotrhliny v médiu, netěsnosti rámu a těsnění.",
+    "scope": "Koncové filtrační stropy, nástěnné boxy, laminarizátory",
+    "features": [
+      "Skenování 100 % plochy filtračního média i obvodového těsnění",
+      "Detekce lokálních netěsností překračujících 0,01 % penetrace",
+      "Okamžitá oprava drobných defektů certifikovaným tmelem",
+      "Protokol s přesnou lokalizací a rozměry každého filtru"
+    ],
+    "table": {
+      "headers": [
+        "Třída filtru dle EN 1822",
+        "Účinnost filtrace (MPPS)",
+        "Povolená penetrace (Lokální)",
+        "Zkušební aerosol"
+      ],
+      "rows": [
+        [
+          "HEPA H13",
+          "≥ 99,95 %",
+          "max. 0,25 %",
+          "DEHS / Emery 3004"
+        ],
+        [
+          "HEPA H14",
+          "≥ 99,995 %",
+          "max. 0,010 %",
+          "DEHS / Emery 3004"
+        ],
+        [
+          "ULPA U15",
+          "≥ 99,9995 %",
+          "max. 0,001 %",
+          "DEHS / Emery 3004"
+        ],
+        [
+          "Těsnění rámu filtru",
+          "Mechanické / gelové",
+          "0,000 % (bez průsaku)",
+          "Fotometrické skenování"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-air-flow-velocity",
+    "name": "Měření rychlosti proudění a násobnosti výměny",
+    "category": "hepa-hvac",
+    "category_title": "HVAC filtrace a HEPA",
+    "norm": "ČSN EN ISO 14644-3, ČSN EN 12599",
+    "method": "Přímé měření objemového průtoku vyrovnávacím zvonem a anemometrií",
+    "equipment": "Průtokoměrný zvon TSI AccuBalance, vícedutinové sondy",
+    "description": "Stanovení skutečného objemu přiváděného a odváděného vzduchu (m³/h) pro každou vyústku a celou místnost. Výpočet násobnosti výměny vzduchu za hodinu (n/h) a kontrola vyvážení vzduchotechnické soustavy.",
+    "scope": "Vzduchotechnické jednotky HVAC, čisté prostory, operační sály",
+    "features": [
+      "Měření objemových průtoků přímou metodou na difuzorech",
+      "Kalkulace intenzity větrání v závislosti na kubatuře místnosti",
+      "Seřízení regulačních prvků pro dosažení projektových parametrů",
+      "Verifikace rovnotlakého / přetlakového režimu celého areálu"
+    ],
+    "table": {
+      "headers": [
+        "Typ prostoru",
+        "Doporučená násobnost výměny",
+        "Typ proudění",
+        "Požadavek na filtraci"
+      ],
+      "rows": [
+        [
+          "Operační sály (Superčistá zóna)",
+          "25 až 35 výměn/h",
+          "Vertikální laminární pole",
+          "HEPA H14 koncový strop"
+        ],
+        [
+          "Přípravny sterilních léků (GMP B)",
+          "30 až 50 výměn/h",
+          "Turbulentní vířivé",
+          "HEPA H14 v difuzorech"
+        ],
+        [
+          "Čisté výrobní haly (ISO Class 7)",
+          "20 až 30 výměn/h",
+          "Smíšené / vířivé",
+          "HEPA H13"
+        ],
+        [
+          "Běžné laboratorní provozy",
+          "10 až 15 výměn/h",
+          "Turbulentní",
+          "Filtry ePM1 80% (F9)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-smoke-pattern",
+    "name": "Vizualizace proudění vzduchu kouřovými stopovači",
+    "category": "hepa-hvac",
+    "category_title": "HVAC filtrace a HEPA",
+    "norm": "ČSN EN ISO 14644-3:2020, VDI 2083",
+    "method": "Ultrazvukový vyvíječ čisté vodní mlhy (DI-Water Fogger) a HD záznam",
+    "equipment": "Vyvíječ neutrální aerosolové mlhy z deionizované vody, optické lasery",
+    "description": "Experimentální vizualizace směrů proudění vzduchu v kritických zónách čistých prostor a uvnitř laminárních boxů. Odhaluje víření vzduchu, nežádoucí zpětné proudění a netěsnosti v krytech přístrojů.",
+    "scope": "Kritické pracovní plochy, plnicí linky, laminární clonění",
+    "features": [
+      "Čistá aerosolová mlha nezanechávající žádná chemická rezidua",
+      "Průkaz stability laminární clony při pohybu personálu",
+      "Kompletní videozáznam a fotodokumentace do zprávy o validaci",
+      "Klíčový požadavek mezinárodních auditorů FDA a SÚKL"
+    ],
+    "table": {
+      "headers": [
+        "Zkoumaná zóna",
+        "Cíl vizualizace",
+        "Typ kouřového stopovače",
+        "Kritérium přijatelnosti"
+      ],
+      "rows": [
+        [
+          "Pracovní plocha boxu",
+          "Důkaz laminarity toku",
+          "DI-Water ultrazvuková mlha",
+          "Jednosměrné proudění bez vírů"
+        ],
+        [
+          "Vstupní štěrbina (clona)",
+          "Ověření vtoku vzduchu dovnitř",
+          "Aerosolový stopovač",
+          "Žádný únik aerosolu ven"
+        ],
+        [
+          "Materiálová propust",
+          "Oddělení sousedních tlaků",
+          "Neutrální aerosol",
+          "Laminární splachování materiálu"
+        ],
+        [
+          "Přechod mezi zónami A/B",
+          "Směr toku při otevření dveří",
+          "Kouřová trubička",
+          "Tok z čistší do méně čisté zóny"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-cp-reconstruction",
+    "name": "Opravy, dispoziční úpravy a servis ČP",
+    "category": "servis-lab",
+    "category_title": "Opravy ČP a laboratorní technologie",
+    "norm": "ČSN EN ISO 14644-4, GMP",
+    "method": "Stavebně-technické zásahy, panely DencoHappel a Steel Form",
+    "equipment": "Speciální nářadí pro čisté prostory, beztřískové technologie montáže",
+    "description": "Realizace rekonstrukcí, úprav dispozic a servisních zásahů v provozovaných čistých prostorech. Výměna poškozených stěnových a podhledových panelů, montáž nových personálních a materiálových propustí a dveří.",
+    "scope": "Stávající medicínské, nemocniční a průmyslové čisté prostory",
+    "features": [
+      "Spolupráce s výrobci panelových systémů DencoHappel a Steel Form",
+      "Provádění prací za minimalizace odstávky čistého provozu",
+      "Přetěsnění spár silikonovými tmely pro čisté prostory",
+      "Následná okamžitá revalidace po ukončení stavebních úprav"
+    ],
+    "table": {
+      "headers": [
+        "Typ servisního zásahu",
+        "Použité materiály",
+        "Záruka funkčnosti",
+        "Revalidace"
+      ],
+      "rows": [
+        [
+          "Výměna stěnových panelů",
+          "Sendvičové panely Steel Form",
+          "Dlouhodobá odolnost dezinfekci",
+          "Zkouška integrity a částic"
+        ],
+        [
+          "Úprava vzduchotechnických tras",
+          "Nerezové a pozinkované potrubí",
+          "Třída těsnosti C a D",
+          "Měření tlaků a průtoků"
+        ],
+        [
+          "Instalace personální propusti",
+          "Interlockový systém dveří",
+          "Elektronické blokování",
+          "Tlaková kaskáda a zotavení"
+        ],
+        [
+          "Těsnění a silikonování spár",
+          "Fungicidní sterilní tmely",
+          "Odolnost UV záření a H2O2",
+          "Kontrola celistvosti"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-hepa-replacement",
+    "name": "Servisní výměna a přetěsnění HEPA filtrů",
+    "category": "servis-lab",
+    "category_title": "Opravy ČP a laboratorní technologie",
+    "norm": "ČSN EN 1822, ČSN EN ISO 14644-3",
+    "method": "Odborná demontáž, dezinfekce, vsazení nového filtru a kontrola sedla",
+    "equipment": "Momentové klíče pro rovnoměrný přítlak, kontrolní manometr, fotometr",
+    "description": "Komplexní servisní výměna koncových HEPA a ULPA filtrů po dosažení tlakové ztráty nebo mechanickém poškození. Odborné usazení nového filtru s garancí nulového obtoku těsnění a následný DOP test na místě.",
+    "scope": "Všechny typy čistých prostorů, digestorů a laminárních boxů",
+    "features": [
+      "Dodávka certifikovaných filtrů předních evropských výrobců",
+      "Bezpečná likvidace použitých filtračních vložek",
+      "Kontrola a vyrovnání dosedacích ploch filtračních skříní",
+      "Protokol o zkoušce těsnosti vystavený bezprostředně po montáži"
+    ],
+    "table": {
+      "headers": [
+        "Fáze výměny",
+        "Popis operace",
+        "Použité komponenty",
+        "Kontrolní měření"
+      ],
+      "rows": [
+        [
+          "Příprava a demontáž",
+          "Odpojení ventilátoru, šetrné vyjmutí",
+          "Ochranné pytle (systém BIBO)",
+          "Vizuální prohlídka komory"
+        ],
+        [
+          "Sanitace rámu",
+          "Čištění a dezinfekce dosedací plochy",
+          "Isopropanol 70% / H2O2",
+          "Kontrola geometrie rámu"
+        ],
+        [
+          "Montáž nového filtru",
+          "Rovnoměrné dotažení přítlačných pacek",
+          "Filtry H14 s kontinuálním těsněním",
+          "Kontrola stlačení těsnění"
+        ],
+        [
+          "Přejímací test",
+          "Zkouška aerosolovým stopovačem",
+          "Aerosol DEHS + fotometr ATI 2i",
+          "Zkouška integrity filtru"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-lab-cytostatics",
+    "name": "Speciální sortiment pro přípravny cytostatik",
+    "category": "servis-lab",
+    "category_title": "Opravy ČP a laboratorní technologie",
+    "norm": "ČSN EN 374, ČSN EN 455, certifikace SRN",
+    "method": "Dodávka certifikovaného spotřebního materiálu pro onkologické lékárny",
+    "equipment": "Chemicky odolné rukavice, sterilní obleky, absorpční rohože",
+    "description": "Dodávky unikátního certifikovaného sortimentu pro ředírny (přípravny) cytostatických léčiv. Zajištění ochranných pomůcek nejvyšší kategorie s garancí odolnosti proti průsaku agresivních onkologických preparátů.",
+    "scope": "Nemocniční lékárny, onkologická centra, přípravny infuzí",
+    "features": [
+      "Speciální chemicky odolné rukavice s prodlouženou manžetou",
+      "Jednorázové sterilní obleky splňující evropské normy",
+      "Absorpční a dekontaminační podložky pro úklid rozlití cytostatik",
+      "Veškeré produkty s certifikáty vydanými převážně v SRN"
+    ],
+    "table": {
+      "headers": [
+        "Položka sortimentu",
+        "Materiál / Vlastnost",
+        "Norma / Certifikát",
+        "Účel použití"
+      ],
+      "rows": [
+        [
+          "Cytostatické rukavice",
+          "Extra silný nitril s vysokou bariérou",
+          "EN 374-3 (odolnost chemikáliím)",
+          "Ochrana rukou při ředění CTS"
+        ],
+        [
+          "Sterilní jednorázové obleky",
+          "Mikroporézní antistatická tkanina",
+          "Typ 4/5/6 pro biologická rizika",
+          "Ochrana obsluhy a čistoty prostoru"
+        ],
+        [
+          "Absorpční čisticí podložky",
+          "Vysokosavé polymerní jádro s fólií",
+          "Certifikováno v SRN",
+          "Záchyt kapek při manipulaci s CTS"
+        ],
+        [
+          "Dekontaminační rohože",
+          "Lepivý vícevrstvý povrch",
+          "Antibakteriální úprava",
+          "Záchyt částic na vstupech do ČP"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "val-lab-equipment",
+    "name": "Dodávka laboratorních přístrojů a technologií",
+    "category": "servis-lab",
+    "category_title": "Opravy ČP a laboratorní technologie",
+    "norm": "ČSN EN 61010-1, ISO 9001",
+    "method": "Kompletní vystrojení laboratoří a dodávky spotřebního materiálu",
+    "equipment": "Magnetické míchačky, vortexy, třepačky, homogenizátory",
+    "description": "Dodávky běžného i speciálního spotřebního laboratorního materiálu (laboratorní sklo, plastik, chemikálie) a drobných přístrojů pro homogenizaci, míchání a tepelné zpracování vzorků včetně laboratorního nábytku.",
+    "scope": "Klinické, výzkumné a průmyslové zkušební laboratoře",
+    "features": [
+      "Kompletní sortiment laboratorního skla, plastů a činidel",
+      "Kvalitní přístrojové vybavení pro měření fyzikálních veličin",
+      "Ergonomický laboratorní nábytek odolný chemikáliím",
+      "Záruční a pozáruční servis zajištěný vyškolenými techniky"
+    ],
+    "table": {
+      "headers": [
+        "Kategorie vybavení",
+        "Příklady dodávaných přístrojů",
+        "Materiálové provedení",
+        "Servisní podpora"
+      ],
+      "rows": [
+        [
+          "Drobné laboratorní přístroje",
+          "Magnetické míchačky, vortexy, třepačky",
+          "Chemicky odolné šasi",
+          "Přímo týmem servisních techniků"
+        ],
+        [
+          "Homogenizace a temperace",
+          "Homogenizátory vzorků, vodní lázně",
+          "Nerezová ocel AISI 316L",
+          "Záruční i pozáruční servis"
+        ],
+        [
+          "Spotřební laboratorní materiál",
+          "Laboratorní sklo, plastové zkumavky",
+          "Borosilikátové sklo 3.3, PP",
+          "Průběžné skladové dodávky"
+        ],
+        [
+          "Laboratorní nábytek",
+          "Stoly, digestoře, skříně na chemikálie",
+          "Odolné melaminové a nerez povrchy",
+          "Montáž na klíč dle dispozic"
+        ]
+      ]
+    }
+  }
+]

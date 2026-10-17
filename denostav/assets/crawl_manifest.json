@@ -1,0 +1,25 @@
+{
+  "site_url": "http://denostav.cz",
+  "pages_crawled": 1,
+  "subpages": [
+    "#onas",
+    "#nabidka",
+    "#kontaktujtenas"
+  ],
+  "menu_categories": [
+    "O nás",
+    "Nabídka",
+    "Kontakt"
+  ],
+  "downloaded_images": [
+    "bg.png",
+    "denostav_logo.png",
+    "denostav_logo1.png",
+    "icon-big.png",
+    "icon1.png",
+    "s1.png",
+    "s2.png",
+    "s3.png",
+    "s4.png"
+  ]
+}

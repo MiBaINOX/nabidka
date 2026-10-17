@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#0F172A" rx="8"/>
+  <rect x="40" y="100" width="90" height="100" fill="#B45309" rx="2"/>
+  <text x="85" y="155" font-family="monospace" font-size="10" fill="#FEF3C7" text-anchor="middle">NOSNÁ ZEĎ</text>
+  <rect x="130" y="100" width="15" height="100" fill="#64748B"/>
+  <rect x="145" y="100" width="130" height="100" fill="#FDE047" opacity="0.9"/>
+  <text x="210" y="155" font-family="monospace" font-size="11" fill="#000" font-weight="bold" text-anchor="middle">EPS / MINERÁL</text>
+  <rect x="275" y="100" width="10" height="100" fill="#0284C7"/>
+  <rect x="285" y="100" width="15" height="100" fill="#F59E0B"/>
+  <circle cx="210" cy="125" r="8" fill="#94A3B8" stroke="#EF4444" stroke-width="2"/>
+  <text x="200" y="45" font-family="monospace" font-size="14" fill="#F59E0B" font-weight="bold" text-anchor="middle">ČSN EN 13499 | ZATEPLENÍ ETICS</text>
+  <rect x="100" y="58" width="200" height="20" rx="4" fill="#1E293B" stroke="#F59E0B" stroke-width="1"/>
+  <text x="200" y="72" font-family="monospace" font-size="10" fill="#F59E0B" text-anchor="middle">λ = 0.031 – 0.039 W/(m·K)</text>
+</svg>
