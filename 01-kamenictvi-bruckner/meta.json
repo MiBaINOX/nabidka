@@ -1,0 +1,38 @@
+{
+  "slug": "01-kamenictvi-bruckner",
+  "firma": "Kamenosochařství Miloš Brückner",
+  "ico": "11567384",
+  "obec": "Olomouc",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Kamenosochařství a pomníková architektura",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://kamenictvi-bruckner.cz",
+  "email": "kamenictvi.bruckner@email.cz",
+  "prodejni_body": [
+    "Tradice kamenosochařství od roku 1990 přímo u Ústředního hřbitova v Olomouci",
+    "Vlastní výrobní hala a sklad 19 druhů ušlechtilých přírodních žul",
+    "Ruční sekání, tryskání písma i pískované motivy včetně zlacení 24kt zlatem",
+    "Návrh pomníku a cenová kalkulace pro každého zákazníka zdarma"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez SSL certifikátu (varování prohlížeče)",
+    "Absence mobilní responzivity (nutnost ručního posouvání a zoomu na telefonu)",
+    "Zastaralý tabulkový layout z roku 2005",
+    "Chybějící interaktivní katalog a moderní poptávkový formulář"
+  ],
+  "vylepseni_noveho_webu": [
+    "Kompletní fotokatalog se 198 autentickými fotografiemi pomníků a provozu",
+    "Interaktivní vzorník 19 druhů žul a 11 typů písma a motivů",
+    "Plně responzivní moderní design optimalizovaný pro chytré telefony",
+    "Rychlý poptávkový formulář s výběrem kategorie pomníku a materiálu"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "zamestnanci": "8",
+    "sidlo": "tř. Míru 100, 779 00 Olomouc"
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

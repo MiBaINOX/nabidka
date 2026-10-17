@@ -1,0 +1,38 @@
+{
+  "slug": "05-pradelnaspacil",
+  "firma": "Prádelna a čistírna Spáčil",
+  "ico": "13615474",
+  "obec": "Šternberk",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Průmyslové prádelenské služby a hygienická chemo-termodezinfekce",
+  "archetyp": "Corporate Portal",
+  "stary_web": "http://pradelnaspacil.cz",
+  "email": "pradelna@pradelnaspacil.cz",
+  "prodejni_body": [
+    "Dva moderní výrobní závody (Šternberk a Zábřeh) garantující 100% zastupitelnost bez výpadku",
+    "Průmyslové žehlicí a skládací linky JENSEN a KANNEGIESSER",
+    "Certifikace TZÚ a značka QZ – Zaručená kvalita pro zdravotnictví a potravinářství",
+    "Kompletní rental servis a svoz prádla vlastním vozovým parkem"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez SSL certifikátu",
+    "Zastaralý fixní tabulkový layout bez mobilní responzivity",
+    "Nečitelné malé náhledy certifikátů TZÚ a fotografií",
+    "Chybějící online B2B konfigurátor poptávky praní a svozu prádla"
+  ],
+  "vylepseni_noveho_webu": [
+    "66 autentických fotografií strojního parku v přehledném katalogu",
+    "Interaktivní rozcestník služeb pro nemocnice, hotely i průmyslové provozy",
+    "Přehledné technologické tabulky a hygienické standardy",
+    "Strukturovaný poptávkový formulář pro rychlou specifikaci svozu prádla"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1992,
+    "zamestnanci": "25+",
+    "sidlo": "Vinná 2092/6, 785 01 Šternberk"
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}
