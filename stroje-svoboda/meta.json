@@ -1,0 +1,47 @@
+{
+  "slug": "stroje-svoboda",
+  "firma": "STROJE SVOBODA s.r.o.",
+  "ico": "27669980",
+  "obec": "Blansko",
+  "okres": "Blansko",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Kovoobráběcí a tvářecí stroje / Prodej, servis, generální opravy a modernizace průmyslových obráběcích strojů (hrotové a CNC soustruhy, konzolové i nástrojařské frézky, horizontální vyvrtávačky, rovinné a hrotové brusky, výstředníkové a hydraulické lisy, tabulové nůžky, ohraňovací lisy)",
+  "archetyp": "0 - Heavy Industrial",
+  "stary_web": "http://strojesvoboda.cz",
+  "email": "obchod@strojesvoboda.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "20 let zkušeností na trhu obráběcích a tvářecích strojů (založeno 2006)",
+    "Vlastní skladové a předváděcí haly v tradičním strojírenském areálu ADAST Blansko (1 500 m²)",
+    "100% garance předvedení funkčnosti všech skladových strojů pod proudem",
+    "Kompletní technické zázemí pro nakládku těžkých strojů (jeřábová nosnost až 20 tun)",
+    "Zajištění servisu, zaškrabávání loží a modernizace řídicích systémů CNC (Siemens, Heidenhain)"
+  ],
+  "vady_stareho_webu": [
+    "Web provozován na nezabezpečeném protokolu HTTP bez platného SSL/TLS certifikátu",
+    "Archaické kódování Windows-1250 způsobující rozpad diakritiky v moderních prohlížečích",
+    "Absence viewportu – web není optimalizován pro mobilní telefony a vyžaduje horizontální posun a zoomování",
+    "Zastaralý tabulkový PHP layout z roku 2006 s neintuitivní filtrací a nepřehlednou strukturou katalogu",
+    "Chybějící interaktivní vyhledávání a absence přímého poptávkového systému u technických parametrů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní Heavy Industrial designový archetyp reflektující strojírenský obor s vysokým kontrastem",
+    "100% responzivní design optimalizovaný pro chytré telefony, tablety i pracovní stanice",
+    "Interaktivní katalog 24+ strojů s fulltextovým vyhledáváním a okamžitou filtrací kategorií",
+    "Detailní technické modální okno s kompletními tabulkami rozjezdů os, otáček, kuželů a výkonů",
+    "Ověřená poloha areálu s přesným špendlíkem Mapy.cz a přímé napojení poptávkového formuláře na konkrétní stroje",
+    "Možnost okamžitého rozšíření pro zahraniční partnery: Nová architektura webu je plně připravena na spuštění cizojazyčných mutací (EN / DE / PL) pro vaše zahraniční odběratele."
+  ],
+  "fakta": {
+    "rok_zalozeni": 2006,
+    "plocha_hal": "1 500 m²",
+    "jerabova_nosnost": "20 tun",
+    "pocet_stroju_skladem": "24+",
+    "adresa_arealu": "Svitavská 2397, 678 01 Blansko",
+    "jednatel": "Karel Svoboda",
+    "telefon": "+420 608 860 497",
+    "email": "obchod@strojesvoboda.cz"
+  }
+}

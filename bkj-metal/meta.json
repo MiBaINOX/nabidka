@@ -1,0 +1,48 @@
+{
+  "slug": "bkj-metal",
+  "firma": "BKJ METAL s.r.o.",
+  "ico": "27719189",
+  "obec": "Blansko",
+  "okres": "Blansko",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Kovoobrábění a kovovýroba / Komplexní kovovýroba, zakázkové zámečnictví, svařování v ochranné atmosféře (MIG/MAG, TIG), dodávky hutního a spojovacího materiálu, svářecí techniky, polykarbonátových desek a vzduchotechnických prvků.",
+  "archetyp": "Tech & Precision (poslední číslice IČO 9)",
+  "stary_web": "http://bkjmetal.cz",
+  "email": "info@bkjmetal.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Komplexní kovovýrobní zázemí a zámečnická výroba od roku 2007",
+    "Certifikované svařování v ochranné atmosféře MIG/MAG a TIG dle EN ISO 3834",
+    "Sklad hutního materiálu s možností okamžitého dělení na míru v Blansku",
+    "Autorizovaný prodej české svářecí techniky Kühtreiber a Omicron",
+    "Kompletní sortiment polykarbonátů Macrolon, trapézových desek Ondex a montáž přístřešků",
+    "Dlouhodobá spolupráce s lídry stavebnictví: Metrostav a.s. a STRABAG a.s."
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený provoz na starém protokolu HTTP bez SSL šifrování",
+    "Zastaralý tabulkový layout s fixní šířkou 970 px a chybějící meta viewport – web se na mobilních zařízeních nezobrazuje responzivně a vyžaduje horizontální posouvání a lupu",
+    "Zastaralé kódování Windows-1250 způsobující rozpad diakritiky v moderních prohlížečích",
+    "Nepřehledné textové seznamy bez interaktivního vyhledávání a technických parametrů",
+    "Statická fotogalerie s malými náhledy a chybějící moderní prezentace výrobních kapacit"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Tech & Precision s čistým tmavým technickým rozhraním, ostrými liniemi a glassmorphism kartami",
+    "100% responzivní layout optimalizovaný pro chytré telefony, tablety i velká desktopová rozlišení (0px přetečení)",
+    "Interaktivní kapacitní katalog všech 34 výrobních a obchodních položek s živým vyhledáváním a filtrací divizí",
+    "Technické modální okno (#techModalBackdrop) pro každou položku s normami ČSN EN, jakostmi oceli a rozměrovými řadami",
+    "Interaktivní přepínač výrobních divizí přímo v horní části webu pro bleskovou orientaci nákupčích a stavbyvedoucích",
+    "Ověřená adresa provozovny v Blansku a Mapy.cz widget s červeným špendlíkem dle katastrálních souřadnic RÚIAN",
+    "Plynulé scroll-reveal animace, zoom-on-hover u reálných fotek a animovaná počítadla úspěšných let a kapacit",
+    "💡 Možnost okamžitého rozšíření pro zahraniční partnery: Nová architektura webu je plně připravena na spuštění cizojazyčných mutací (EN / DE / PL) pro vaše zahraniční odběratele."
+  ],
+  "fakta": {
+    "rok_zalozeni": 2007,
+    "sidlo": "Rožmitálova 772/34, 678 01 Blansko",
+    "telefon": "516 419 090",
+    "jednatel": "Jiří Jokeš",
+    "prodejni_doba": "Po–Pá 7:30–12:00, 13:00–16:30",
+    "pocet_polozek_katalogu": 34
+  }
+}

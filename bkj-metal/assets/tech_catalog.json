@@ -1,0 +1,954 @@
+[
+  {
+    "id": "kovovyroba-montaze",
+    "title": "Komplexní kovovýroba a montáže",
+    "division": "Kovovýroba & Svařování",
+    "division_slug": "kovovyroba",
+    "perex": "Zakázková kovovýroba od technické přípravy a dělení materiálu až po finální montáž ocelových konstrukcí a technologických celků.",
+    "standards": "ČSN EN 1090-2, ISO 9001",
+    "image": "assets/pa300459.jpg",
+    "specs": [
+      {
+        "param": "Výrobní kapacity",
+        "val": "Kusová, malosériová i velkosériová zámečnická výroba"
+      },
+      {
+        "param": "Zpracovávané materiály",
+        "val": "Konstrukční oceli, nerezové oceli, hliníkové slitiny"
+      },
+      {
+        "param": "Typy výrobků",
+        "val": "Ocelové konstrukce, rámy strojů, nosné prvky, technologické palety"
+      },
+      {
+        "param": "Montážní rádius",
+        "val": "Blansko, Brno a okolí, realizace po celém území ČR"
+      }
+    ],
+    "description": "Zajišťujeme kompletní realizaci zámečnických a kovovýrobních zakázek pro firemní i privátní investory. Vycházíme z dodané výkresové dokumentace nebo navrhneme optimální konstrukční řešení. Spolupracujeme s předními stavebními firmami jako Metrostav a.s. či STRABAG a.s."
+  },
+  {
+    "id": "svarovani-mig-mag-tig",
+    "title": "Svařování MIG/MAG & TIG v ochranné atmosféře",
+    "division": "Kovovýroba & Svařování",
+    "division_slug": "kovovyroba",
+    "perex": "Profesionální svařování konstrukčních ocelí, nerezi i neželezných kovů metodami 135 (MAG), 131 (MIG) a 141 (WIG/TIG).",
+    "standards": "ČSN EN ISO 3834, EN ISO 4063, EN ISO 9606-1",
+    "image": "assets/p1080005.jpg",
+    "specs": [
+      {
+        "param": "Metoda MIG / MAG",
+        "val": "EN ISO 4063-131 / 135 v ochranné atmosféře CO2 / směs Ar+CO2"
+      },
+      {
+        "param": "Metoda TIG / WIG",
+        "val": "EN ISO 4063-141 s netavící se wolframovou elektrodou v čistém argonu"
+      },
+      {
+        "param": "Základní materiály",
+        "val": "Uhlíkové oceli jakostí S235 až S355, korozivzdorné oceli, hliník"
+      },
+      {
+        "param": "Kontrola jakosti",
+        "val": "Vizuální kontrola (VT), kapilární penetrační zkoušky (PT)"
+      }
+    ],
+    "description": "Disponujeme moderním vybavením pro svařování v ochranné atmosféře. Naši zkušení svářeči realizují náročné tlakové, nosné i estetické pohledové svary s garantovanou průvarovou hloubkou a minimálním vneseným teplem."
+  },
+  {
+    "id": "zakazkove-zamecnictvi",
+    "title": "Stavební a průmyslové zámečnictví",
+    "division": "Kovovýroba & Svařování",
+    "division_slug": "kovovyroba",
+    "perex": "Výroba a montáž ocelových schodišť, zábradlí, pojezdových vrat, plotových polí, mříží a krytů technologických zařízení.",
+    "standards": "ČSN 74 3305, ČSN 73 4130",
+    "image": "assets/pa100150.jpg",
+    "specs": [
+      {
+        "param": "Schodiště a lávky",
+        "val": "Přímá, točitá, lomená, schodnice z U-profilů, pororošty"
+      },
+      {
+        "param": "Zábradlí a balkony",
+        "val": "Ocelové i nerezové sloupky, výplně tahokov, sklo, polykarbonát"
+      },
+      {
+        "param": "Vrata a brány",
+        "val": "Křídlové i samonosné posuvné brány včetně přípravy na pohony"
+      },
+      {
+        "param": "Povrchová úprava",
+        "val": "Žárové zinkování dle EN ISO 1461, práškové lakování (komaxit)"
+      }
+    ],
+    "description": "Vyrábíme široké spektrum prvků stavebního zámečnictví pro bytové domy, průmyslové haly i rodinné domy. Důraz klademe na statickou tuhost, dlouhou životnost a přesnou montáž na stavbě."
+  },
+  {
+    "id": "deleni-materialu",
+    "title": "Přesné dělení a krácení materiálu",
+    "division": "Kovovýroba & Svařování",
+    "division_slug": "kovovyroba",
+    "perex": "Dělení ocelových profilů, trubek, tyčí a nosníků na pásových pilách dle zadaných rozměrů zákazníka s minimální tolerancí.",
+    "standards": "ČSN ISO 2768-mK",
+    "image": "assets/pa100151.jpg",
+    "specs": [
+      {
+        "param": "Technologie dělení",
+        "val": "Vysoce přesné pásové pily s chlazením emulzí"
+      },
+      {
+        "param": "Úhlové řezy",
+        "val": "Přímé dělení 90° i úhlové řezy v rozsahu -45° až +60°"
+      },
+      {
+        "param": "Max. průřez",
+        "val": "Až do profilu 300 mm pro nosníky a trubky"
+      },
+      {
+        "param": "Doplňkové služby",
+        "val": "Odjehlení hran, balení do svazků, paletizace, expedice"
+      }
+    ],
+    "description": "Veškerý zakoupený i dodaný hutní materiál nařežeme na požadované výrobní délky. Šetříme váš čas i výrobní kapacity – odcházíte s materiálem připraveným přímo pro svařování nebo montáž."
+  },
+  {
+    "id": "valcovane-profily-nosniky",
+    "title": "Ocelové válcované profily a nosníky",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Široký skladový sortiment konstrukčních nosníků IPE, IPN, HEA, HEB a UPN pro nosné stavební a zámečnické konstrukce.",
+    "standards": "ČSN EN 10025-2, EN 10034, EN 10279",
+    "image": "assets/hutni-material.jpg",
+    "specs": [
+      {
+        "param": "Typy profilů",
+        "val": "IPE (80–300), IPN (80–240), HEA/HEB (100–260), UPN/UPE (50–240)"
+      },
+      {
+        "param": "Jakosti oceli",
+        "val": "S235JR (1.0038), S355J2 (1.0577)"
+      },
+      {
+        "param": "Výrobní délky",
+        "val": "Standardní tyče 6 m a 12 m, dělení na míru"
+      },
+      {
+        "param": "Atestace",
+        "val": "Inspekční certifikát EN 10204 typ 3.1 na vyžádání"
+      }
+    ],
+    "description": "Dodáváme nosníky pro průmyslové haly, nástavby, překlady a těžké ocelové konstrukce. Nabízíme možnost okamžitého nařezání a nakládky v našem areálu v Blansku."
+  },
+  {
+    "id": "ocel-plocha-ctvercova",
+    "title": "Ocel plochá, čtyřhranná a šestihranná",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Tažená i válcovaná plochá a tyčová ocel pro strojírenství, kování, zámečnictví a výrobu přírub.",
+    "standards": "ČSN EN 10058, ČSN EN 10059, DIN 174",
+    "image": "assets/p4140260.jpg",
+    "specs": [
+      {
+        "param": "Rozměrová řada ploché oceli",
+        "val": "Šířky 20 až 150 mm, tloušťky 3 až 30 mm"
+      },
+      {
+        "param": "Čtyřhranná ocel (čtverce)",
+        "val": "Profily 8x8 až 50x50 mm"
+      },
+      {
+        "param": "Jakost materiálu",
+        "val": "S235JR, C45, 11 373, 11 523"
+      },
+      {
+        "param": "Stav povrchu",
+        "val": "Válcováno za tepla / taženo za studena (h9/h11)"
+      }
+    ],
+    "description": "Klíčový materiál pro každou dílnu a kovovýrobu. Využití pro spojovací pásy, kotevní desky, výztuhy, tělesa přípravků a opracované dílce."
+  },
+  {
+    "id": "tyce-kruhove-betonarska-ocel",
+    "title": "Tyče kruhové a žebírková betonářská ocel",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Kruhové ocelové tyče pro obrábění a žebírková ocel (roxory) včetně distančních prvků pro armování železobetonu.",
+    "standards": "ČSN EN 10060, ČSN 42 0139, DIN 488",
+    "image": "assets/dsc00314.jpg",
+    "specs": [
+      {
+        "param": "Kulatiny tažené a válcované",
+        "val": "Průměry d = 6 mm až d = 120 mm"
+      },
+      {
+        "param": "Betonářská žebírková ocel",
+        "val": "B500B / 10 505 v průměrech 6, 8, 10, 12, 14, 16 a 20 mm"
+      },
+      {
+        "param": "Kari sítě",
+        "val": "Formáty 2x3 m, oka 100x100 a 150x150 mm, dráty 4 až 8 mm"
+      },
+      {
+        "param": "Jakosti oceli",
+        "val": "11 373, 11 523, C45, B500B"
+      }
+    ],
+    "description": "Dodáváme plné tyče pro soustružení a frézování i kompletní armovací ocel pro základové pasy, desky a monolitické betonové konstrukce."
+  },
+  {
+    "id": "trubky-ocelove-konstrukcni",
+    "title": "Ocelové trubky bezešvé a svařované",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Kruhové trubky konstrukční, závitové a bezešvé pro tlakové rozvody, konstrukce zábradlí a potrubní vedení.",
+    "standards": "ČSN EN 10219-1/2, ČSN EN 10255, EN 10216",
+    "image": "assets/pa300460.jpg",
+    "specs": [
+      {
+        "param": "Konstrukční svařované",
+        "val": "Vnější průměry 17,2 mm až 219,1 mm, stěny 1,5 až 6,3 mm"
+      },
+      {
+        "param": "Závitové běžné trubky",
+        "val": "Rozměry 3/8 palce až 4 palce (černé i pozinkované)"
+      },
+      {
+        "param": "Bezešvé přesné trubky",
+        "val": "Tlakové a kotlové trubky pro náročné instalace"
+      },
+      {
+        "param": "Délky a úpravy",
+        "val": "Výrobní délky 6 m, možnost přesného krácení"
+      }
+    ],
+    "description": "Trubky pro zámečnické výrobky, technologické rozvody médií, rámy a dopravníky. Zajišťujeme rovněž kompatibilní varná kolena a záslepky."
+  },
+  {
+    "id": "plechy-ocelove-slzickove",
+    "title": "Ocelové plechy hladké, slzičkové a pozinkované",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Plechy válcované za tepla i za studena, pozinkované tabule a protiskluzové slzičkové plechy na podesty a rampy.",
+    "standards": "ČSN EN 10051, ČSN EN 10025-2, DIN 59220",
+    "image": "assets/dsc00363.jpg",
+    "specs": [
+      {
+        "param": "Plechy válcované za tepla",
+        "val": "Tloušťky 2,0 až 30 mm, formáty 1000x2000, 1250x2500, 1500x3000 mm"
+      },
+      {
+        "param": "Plechy za studena (DC01)",
+        "val": "Tloušťky 0,5 až 2,5 mm, hladký povrch vhodný pro lakování"
+      },
+      {
+        "param": "Slzičkový plech (protiskluz)",
+        "val": "Vzor čočka / slza, tloušťky 3/4.5 mm až 8/9.5 mm"
+      },
+      {
+        "param": "Pozinkované plechy (DX51D+Z)",
+        "val": "Odolné proti korozi, tloušťky 0,55 až 3,0 mm"
+      }
+    ],
+    "description": "Dodávky tabulí i formátování plechů. Slzičkové plechy jsou ideální pro pochozí lávky, schodišťové stupně a kryty šachet v průmyslu."
+  },
+  {
+    "id": "tenkostenne-profily-jekly",
+    "title": "Tenkostěnné uzavřené profily – jekly",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Čtvercové a obdélníkové duté profily (jekly) pro rámy, ploty, lehké ocelové konstrukce a montované haly.",
+    "standards": "ČSN EN 10219-1/2, ČSN EN 10305-5",
+    "image": "assets/p1080002.jpg",
+    "specs": [
+      {
+        "param": "Čtvercové jekly",
+        "val": "Od 15x15x1,5 mm až po 150x150x6 mm"
+      },
+      {
+        "param": "Obdélníkové jekly",
+        "val": "Od 20x10x1,5 mm až po 160x80x6 mm"
+      },
+      {
+        "param": "Jakost oceli",
+        "val": "S235JRH, S275J0H, S355J2H"
+      },
+      {
+        "param": "Příslušenství",
+        "val": "Kompatibilní plastové i kovové narážecí záslepky"
+      }
+    ],
+    "description": "Základní stavební kámen každé moderní zámečnické dílny. Přesná geometrie, čistý povrch vhodný pro svařování a povrchové úpravy."
+  },
+  {
+    "id": "varna-kolena-potrubni-dily",
+    "title": "Varná kolena, redukce a potrubní tvarovky",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Hladká ocelová varná kolena 90° a 45°, klenutá dna a koncentrické redukce pro potrubní rozvody.",
+    "standards": "ČSN EN 10253-1/2, DIN 2605",
+    "image": "assets/pa020036.jpg",
+    "specs": [
+      {
+        "param": "Varná kolena 90°",
+        "val": "Rádius 3D / 5D, průměry od DN 15 (21,3 mm) do DN 200 (219,1 mm)"
+      },
+      {
+        "param": "Materiálové provedení",
+        "val": "Uhlíková ocel P235GH, S235, nerezová ocel 1.4301"
+      },
+      {
+        "param": "Klenutá dna a záslepky",
+        "val": "Pro ukončení trubek a tlakových nádob dle DIN 28011"
+      },
+      {
+        "param": "Redukce a T-kusy",
+        "val": "Koncentrické i excentrické svařované přechody"
+      }
+    ],
+    "description": "Nezbytné prvky pro montáž potrubních tras, vytápění, odtahů spalin i svařovaných konstrukcí s oblými přechody."
+  },
+  {
+    "id": "pletiva-draty-napinaky",
+    "title": "Plotová pletiva, vázací dráty a napínáky",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Kompletní oplocenkový sortiment – čtyřhranná pletiva, napínací a vázací dráty, napínací strojky a sloupky.",
+    "standards": "ČSN EN 10223-4, ČSN EN 10244-2",
+    "image": "assets/pb160218.jpg",
+    "specs": [
+      {
+        "param": "Pletiva pletená",
+        "val": "Pozinkovaná i poplastovaná (PVC zelená/antracit), výšky 100 až 200 cm"
+      },
+      {
+        "param": "Dráty napínací a vázací",
+        "val": "Průměry 1,4 mm až 3,5 mm v návinech 25, 50 a 100 m"
+      },
+      {
+        "param": "Příslušenství oplocení",
+        "val": "Napínáky se západkou, objímky, vodicí spony, plotové sloupky a vzpěry"
+      },
+      {
+        "param": "Životnost",
+        "val": "Díky kvalitnímu zinkování a UV stabilnímu plastu přes 20 let"
+      }
+    ],
+    "description": "Dodáváme ucelené systémy pro oplocení průmyslových areálů, stavebních parcel, zahrad i sportovních ploch."
+  },
+  {
+    "id": "ocelova-lanka-nerez-pozink",
+    "title": "Ocelová lanka pozinkovaná i nerezová",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Konstrukční a vázací ocelová lanka standardních konstrukcí včetně lanových svorek, očnic a napínačů.",
+    "standards": "ČSN EN 12385-4, DIN 3055, DIN 3060",
+    "image": "assets/pa080039.jpg",
+    "specs": [
+      {
+        "param": "Konstrukce lan",
+        "val": "1x19 (tuhé), 6x7+FC (středně ohebné), 6x19+FC (vysoce ohebné)"
+      },
+      {
+        "param": "Průměry lan",
+        "val": "Od 1,0 mm do 16,0 mm"
+      },
+      {
+        "param": "Materiál",
+        "val": "Žárově zinkovaná ocel třídy 1770/1960 N/mm2, nerez AISI 304/316"
+      },
+      {
+        "param": "Lanové příslušenství",
+        "val": "Lanové svorky DIN 741, očnice DIN 6899, napínací šrouby DIN 1480"
+      }
+    ],
+    "description": "Lanka pro zavěšování technologií, vzduchotechniky, zábradlové výplně, napínací konstrukce a kotvení stožárů."
+  },
+  {
+    "id": "plastove-ucpavky-profilu",
+    "title": "Plastové ucpávky a krytky jeklů a trubek",
+    "division": "Hutní materiál",
+    "division_slug": "hutni",
+    "perex": "Vnitřní narážecí a vnější nasouvací krytky pro uzavření profilů proti vnikání nečistot a vody.",
+    "standards": "DIN EN ISO 9001, UV stabilizovaný PE",
+    "image": "assets/pc210225.jpg",
+    "specs": [
+      {
+        "param": "Pro jekly čtvercové",
+        "val": "Rozměry 15x15 mm až 120x120 mm s lamelami pro různé síly stěny"
+      },
+      {
+        "param": "Pro jekly obdélníkové",
+        "val": "Rozměry 20x10 mm až 120x60 mm"
+      },
+      {
+        "param": "Pro trubky kruhové",
+        "val": "Průměry d = 16 mm až d = 114 mm"
+      },
+      {
+        "param": "Materiál a barva",
+        "val": "Černý polyethylen (PE) odolný vůči UV záření a mrazu"
+      }
+    ],
+    "description": "Profesionální zakončení nábytkových, zámečnických a plotových profilů. Chrání proti korozi zevnitř a zabraňuje poranění o ostré hrany."
+  },
+  {
+    "id": "zavitove-tyce-pevnostni",
+    "title": "Závitové tyče pevnostní a nerezové",
+    "division": "Spojovací materiál",
+    "division_slug": "spojovaci",
+    "perex": "Metrické závitové tyče v délkách 1 m, 2 m a 3 m v pevnostech 4.8, 8.8, 10.9 a nerezovém provedení A2/A4.",
+    "standards": "DIN 975, DIN 976-1, ČSN 02 1101",
+    "image": "assets/spojovaci-material.jpg",
+    "specs": [
+      {
+        "param": "Rozměrová řada",
+        "val": "Závity M4 až M36"
+      },
+      {
+        "param": "Pevnostní třídy",
+        "val": "4.8 (standard), 8.8 (vysokopevnostní), 10.9, nerez A2-70 / A4-80"
+      },
+      {
+        "param": "Povrchová úprava",
+        "val": "Bez úpravy (černé), galvanický zinek bílý / žlutý, žárový zinek"
+      },
+      {
+        "param": "Doplňky",
+        "val": "Prodloužené spojovací matice DIN 6334"
+      }
+    ],
+    "description": "Ideální pro chemické i mechanické kotvení ocelových patek, zavěšení vzduchotechniky, potrubních tras a stropních podhledů."
+  },
+  {
+    "id": "srouby-matice-podlozky",
+    "title": "Šrouby se šestihrannou hlavou, matice a podložky",
+    "division": "Spojovací materiál",
+    "division_slug": "spojovaci",
+    "perex": "Kompletní portfolio metrického spojovacího materiálu pro strojírenství, ocelové konstrukce a dílnu.",
+    "standards": "DIN 933 (plný závit), DIN 931 (dřík), DIN 934, DIN 125A",
+    "image": "assets/naradi-2.jpg",
+    "specs": [
+      {
+        "param": "Pevnostní třídy",
+        "val": "5.6, 8.8, 10.9, nerezová ocel A2/A4"
+      },
+      {
+        "param": "Typy matic",
+        "val": "Standardní šestihranné DIN 934, samojistné s polyamidem DIN 985, kloboukové DIN 1587"
+      },
+      {
+        "param": "Podložky",
+        "val": "Ploché DIN 125, pružné DIN 127, velkoplošné DIN 9021"
+      },
+      {
+        "param": "Skladová dostupnost",
+        "val": "Tisíce položek trvale skladem na prodejně v Blansku"
+      }
+    ],
+    "description": "Šrouby dodáváme v kusovém množství pro kutily i ve velkých baleních pro výrobní závody s garancí přesnosti závitů a certifikace jakosti."
+  },
+  {
+    "id": "vruty-nyty-samorezy",
+    "title": "Stavební vruty, trhací nýty a samořezné šrouby",
+    "division": "Spojovací materiál",
+    "division_slug": "spojovaci",
+    "perex": "Univerzální vruty do dřeva se zápustnou hlavou TORX, tex-šrouby do plechu a trhací nýty pro rychlé spojování.",
+    "standards": "DIN 7504, DIN 7337, ČSN EN 14592",
+    "image": "assets/naradi-1.jpg",
+    "specs": [
+      {
+        "param": "Vruty do dřeva",
+        "val": "Drážka TORX (TX), částečný i plný závit, žlutý i bílý zinek"
+      },
+      {
+        "param": "Samořezné šrouby TEX",
+        "val": "S vrtací špičkou pro spojování plechů do tloušťky 6 mm bez předvrtání"
+      },
+      {
+        "param": "Trhací nýty",
+        "val": "Materiálové kombinace Al/ocel, ocel/ocel, nerez/nerez, průměry 3,0 až 6,4 mm"
+      },
+      {
+        "param": "Fasádní šrouby",
+        "val": "S těsnicí EPDM podložkou pro trapézové a sendvičové plechy"
+      }
+    ],
+    "description": "Spojovací materiál určený pro suchou výstavbu, montáže dřevostaveb, pokrývačské a klempířské práce i zámečnickou výrobu."
+  },
+  {
+    "id": "fischer-kotevni-technika",
+    "title": "Kotevní technika FISCHER a chemická malta",
+    "division": "Spojovací materiál",
+    "division_slug": "spojovaci",
+    "perex": "Profesionální kotvení v betonu, zdivu i dutých cihlách. Ocelové svorníkové kotvy, rámové hmoždinky a chemické ampule.",
+    "standards": "ETA certifikace pro beton a zdivo, DIN EN ISO 9001",
+    "image": "assets/spojovaci-material-nahled.jpg",
+    "specs": [
+      {
+        "param": "Chemické malty FISCHER",
+        "val": "Vinylesterové a polyesterové dvousložkové pryskyřice FIS V / FIS P"
+      },
+      {
+        "param": "Svorníkové kotvy (FBN II / FAZ II)",
+        "val": "Vysoce únosné průvlečné kotvy pro beton bez trhlin i s trhlinami"
+      },
+      {
+        "param": "Rámové hmoždinky SXRL / SXR",
+        "val": "Prodloužená kotevní zóna pro děrované cihly a pórobeton"
+      },
+      {
+        "param": "Příslušenství",
+        "val": "Vytlačovací pistole, směšovací špičky, sítka do dutých materiálů"
+      }
+    ],
+    "description": "Jsme autorizovaným distributorem renomované značky FISCHER. Zajišťujeme spolehlivé kotevní systémy pro montáže ocelových patek, přístřešků a zábradlí."
+  },
+  {
+    "id": "komurkove-desky-macrolon",
+    "title": "Komůrkové polykarbonátové desky Macrolon",
+    "division": "Polykarbonáty",
+    "division_slug": "polykarbonat",
+    "perex": "Extrudované dutinkové desky s jednostrannou nebo oboustrannou UV ochranou pro tepelně izolační nerozbitné prosklení.",
+    "standards": "ČSN EN 16153, požární klasifikace B-s1,d0",
+    "image": "assets/polykarbonat.jpg",
+    "specs": [
+      {
+        "param": "Tloušťky desek",
+        "val": "4, 6, 8, 10, 16, 20, 25, 32 a 40 mm"
+      },
+      {
+        "param": "Barevné odstíny",
+        "val": "Čirý (vysoká propustnost světla), bronz (kouřový), opál (mléčný)"
+      },
+      {
+        "param": "Struktura komůrek",
+        "val": "1-komorové (2 stěny), 2-komorové (3 stěny), X-struktura, 7-stěnné"
+      },
+      {
+        "param": "Záruka a odolnost",
+        "val": "10 let záruka na stálost optických a mechanických vlastností"
+      }
+    ],
+    "description": "Nejpoužívanější materiál pro zastřešení pergol, světlíků, zimních zahrad a průmyslových hal. Vyniká lehkostí, houževnatostí a výborným tepelným odporem."
+  },
+  {
+    "id": "plne-polykarbonatove-desky",
+    "title": "Plné polykarbonátové desky (polykarbonátové sklo)",
+    "division": "Polykarbonáty",
+    "division_slug": "polykarbonat",
+    "perex": "Monolitické desky s optickou čistotou běžného skla a 250x vyšší rázovou houževnatostí – prakticky nerozbitné.",
+    "standards": "DIN EN ISO 11963, ČSN EN 356 (bezpečnostní zasklení)",
+    "image": "assets/polykarbonat-nahled.jpg",
+    "specs": [
+      {
+        "param": "Tloušťky materiálu",
+        "val": "2, 3, 4, 5, 6, 8, 10 a 12 mm"
+      },
+      {
+        "param": "Formátování",
+        "val": "Dělení na přesný rozměr na vertikální a horizontální formátovací pile"
+      },
+      {
+        "param": "UV stabilizace",
+        "val": "Oboustranná koextrudovaná UV ochrana pro venkovní použití"
+      },
+      {
+        "param": "Aplikace",
+        "val": "Kryty a štíty obráběcích strojů, bezpečnostní prosklení, výplně zábradlí"
+      }
+    ],
+    "description": "Kombinace absolutní bezpečnosti a průhlednosti. Ideální řešení pro ochranné kryty lisů, soustruhů a frézek i pro lodžiová zábradlí a mantinely."
+  },
+  {
+    "id": "ondex-trapezove-vlnite-desky",
+    "title": "Trapézové a vlnité desky ONDEX z tvrzeného PVC",
+    "division": "Polykarbonáty",
+    "division_slug": "polykarbonat",
+    "perex": "Biaxiálně orientované PVC desky s vysokou rázovou houževnatostí, odolností proti krupobití a chemickým vlivům.",
+    "standards": "ČSN EN 1013, certifikace odolnosti proti kroupám",
+    "image": "assets/p3020010.jpg",
+    "specs": [
+      {
+        "param": "Profily desek",
+        "val": "Vlna 70/18 mm, trapéz 70/18 mm, jemná vlna 76/18 mm"
+      },
+      {
+        "param": "Barevné varianty",
+        "val": "Čirá, kouřová, bronzová, žlutá, neprůhledná šedá"
+      },
+      {
+        "param": "Přednosti ONDEX",
+        "val": "Díky patentované biaxiální orientaci nekřehne a odolává prudkému krupobití"
+      },
+      {
+        "param": "Použití",
+        "val": "Zastřešení přístřešků pro auta, zahradních pergol, zemědělských stájí a skladů"
+      }
+    ],
+    "description": "Cenově dostupné a spolehlivé řešení zastřešení s dlouhou životností. Snadná montáž na dřevěné i ocelové latě pomocí distančních podložek a šroubů."
+  },
+  {
+    "id": "zamkove-panely-profily-prislusenstvi",
+    "title": "Zámkové panely, hliníkové profily a příslušenství",
+    "division": "Polykarbonáty",
+    "division_slug": "polykarbonat",
+    "perex": "Kompletní montážní systém pro polykarbonáty – Al přítlačné lišty, EPDM těsnění, ukončovací U-profily a paropropustné pásky.",
+    "standards": "ČSN EN 755-9, EPDM odolnost DIN 7863",
+    "image": "assets/prodejna-nahled.jpg",
+    "specs": [
+      {
+        "param": "Spojovací a přítlačné lišty",
+        "val": "Hliníkové profily Al se středovým EPDM pryžovým těsněním"
+      },
+      {
+        "param": "Ukončovací profily",
+        "val": "Al profily tvaru U s okapničkou pro odvod kondenzátu"
+      },
+      {
+        "param": "Paropropustné pásky",
+        "val": "Filtrační pásky AntiDust zabraňující tvorbě řas a vnikání prachu do komůrek"
+      },
+      {
+        "param": "Těsnicí prvky",
+        "val": "Neutrální silikony na polykarbonát, EPDM podkladní pryže šířky 60 mm"
+      }
+    ],
+    "description": "Správné montážní příslušenství je klíčem k bezproblémové funkci polykarbonátového zastřešení bez zamlžování a zatékání."
+  },
+  {
+    "id": "montaz-pristresku-skleniku",
+    "title": "Zakázková výroba a montáž přístřešků a světlíků",
+    "division": "Polykarbonáty",
+    "division_slug": "polykarbonat",
+    "perex": "Dodávka přístřešků, světlíků, zimních zahrad, krytů lodžií a světlíků na klíč od ocelové konstrukce po zasklení.",
+    "standards": "ČSN EN 1090-2, ČSN EN 16153",
+    "image": "assets/p4140260.jpg",
+    "specs": [
+      {
+        "param": "Typy realizací",
+        "val": "Přístřešky pro auta (carporty), vstupy do budov, spojovací krčky, světlíky"
+      },
+      {
+        "param": "Nosná konstrukce",
+        "val": "Ocelová konstrukce z jeklů žárově zinkovaná nebo komaxitovaná"
+      },
+      {
+        "param": "Zasklení",
+        "val": "Komůrkový polykarbonát Macrolon nebo plný polykarbonát dle požadavku"
+      },
+      {
+        "param": "Servis",
+        "val": "Zaměření, výkresová dokumentace, výroba v dílně, rychlá čistá montáž"
+      }
+    ],
+    "description": "Kombinujeme naše zámečnické zázemí s odbornou montáží polykarbonátu. Získáte ucelené řešení od jediného spolehlivého dodavatele."
+  },
+  {
+    "id": "svareci-stroje-kuhtreiber-omicron",
+    "title": "Svářecí technika Kühtreiber a Omicron",
+    "division": "Svářečská technika",
+    "division_slug": "svareci",
+    "perex": "Autorizovaný prodej a poradenství pro české svářecí zdroje Kühtreiber a Omicron – invertory MMA, TIG i poloautomaty MIG/MAG.",
+    "standards": "ČSN EN 60974-1, CE certifikace",
+    "image": "assets/svareci-technika-1.jpg",
+    "specs": [
+      {
+        "param": "Svařovací invertory (MMA/TIG)",
+        "val": "Kompaktní lehké zdroje řady KITin a GAMA s funkcemi Hot Start, Arc Force, Anti Stick"
+      },
+      {
+        "param": "Poloautomaty MIG/MAG",
+        "val": "Průmyslové svářečky řad KIT a OMI s měděným vinutím a 4-kladkovým podavačem"
+      },
+      {
+        "param": "Příznivé ceny & záruka",
+        "val": "Oficiální zastoupení českých výrobců, záruční i pozáruční podpora"
+      },
+      {
+        "param": "Předvedení a servis",
+        "val": "Odborné zaškolení obsluhy a předvedení strojů přímo na prodejně"
+      }
+    ],
+    "description": "Špičková svářecí technika prověřená v nejnáročnějších průmyslových provozech. Poradíme s výběrem optimálního stroje pro vaši dílnu i výrobu."
+  },
+  {
+    "id": "plasmove-stroj-deleni-kovu",
+    "title": "Plasmové řezací stroje pro dělení kovů",
+    "division": "Svářečská technika",
+    "division_slug": "svareci",
+    "perex": "Vysokovýkonné plasmové invertory pro rychlé a čisté řezání všech elektricky vodivých materiálů stlačeným vzduchem.",
+    "standards": "ČSN EN 60974-1, EN ISO 9013",
+    "image": "assets/svareci-material-1.jpg",
+    "specs": [
+      {
+        "param": "Dělené materiály",
+        "val": "Uhlíková ocel, nerezová ocel, hliník, měď, mosaz"
+      },
+      {
+        "param": "Kvalitní řez",
+        "val": "Dělicí řezy do tloušťky materiálu až 25 mm, propal až 15 mm"
+      },
+      {
+        "param": "Pracovní médium",
+        "val": "Běžný stlačený vzduch z dílenského kompresoru"
+      },
+      {
+        "param": "Spotřební díly",
+        "val": "Trvale skladem elektrody, dýzy, víčka a kroužky hořáků"
+      }
+    ],
+    "description": "Ekonomická alternativa k laserovému pálení pro kusovou a údržbářskou činnost. Minimální teplotní deformace a čistá hrana řezu."
+  },
+  {
+    "id": "autogen-gce-pb-soupravy",
+    "title": "Autogenní technika GCE a PB ohřívací soupravy",
+    "division": "Svářečská technika",
+    "division_slug": "svareci",
+    "perex": "Originální autogenní hořáky, řezáky, suché předlohy a redukční ventily tradičního českého výrobce GCE Chotěboř.",
+    "standards": "ČSN EN ISO 5172, EN ISO 2503",
+    "image": "assets/svareci-technika-1-nahled.jpg",
+    "specs": [
+      {
+        "param": "Řezací a svařovací nástavce",
+        "val": "Řada GCE U7 a X511, řezací trysky na acetylen i propan-butan"
+      },
+      {
+        "param": "Redukční ventily",
+        "val": "Pro kyslík, acetylen, CO2, argon, směsné plyny a dusík s manometry"
+      },
+      {
+        "param": "Bezpečnostní prvky",
+        "val": "Suché předlohy a pojistky proti zpětnému šlehnutí do hadic i hořáku"
+      },
+      {
+        "param": "PB soupravy",
+        "val": "Izolatérské a nahřívací hořáky na propan-butan pro stavební práce"
+      }
+    ],
+    "description": "Bezpečná a spolehlivá technika pro řezání plamenem, svařování a rovnání konstrukcí. Dodáváme rovněž certifikované hadice Semperit."
+  },
+  {
+    "id": "samostmivaci-svarecske-kukly",
+    "title": "Samostmívací kukly, svářečské štíty a kukly",
+    "division": "Svářečská technika",
+    "division_slug": "svareci",
+    "perex": "Profesionální ochrana zraku při svařování – samostmívací kazety s technologií reálných barev (True Color) a klasické štíty.",
+    "standards": "ČSN EN 379, ČSN EN 175, optická třída 1/1/1/1",
+    "image": "assets/ochranne-pomucky.jpg",
+    "specs": [
+      {
+        "param": "Stupeň zatmavení",
+        "val": "DIN 4/9-13 plynule regulovatelný zvenčí nebo zevnitř"
+      },
+      {
+        "param": "Rychlost zatmění",
+        "val": "Méně než 0,00004 s (1/25 000 s), 4 optické senzory oblouku"
+      },
+      {
+        "param": "Režim broušení (Grind)",
+        "val": "Přepínač pro broušení bez nutnosti sundávat kuklu z hlavy"
+      },
+      {
+        "param": "Příslušenství",
+        "val": "Vnější i vnitřní náhradní polykarbonátové ochranné folie, potní pásky"
+      }
+    ],
+    "description": "Klíčový prvek ochrany zdraví každého svářeče. Zajišťuje dokonalý přehled o svarové lázni a nulovou únavu očí během celé směny."
+  },
+  {
+    "id": "svareci-draty-elektrody",
+    "title": "Svařovací dráty, elektrody, pájky a tavidla",
+    "division": "Svářečská technika",
+    "division_slug": "svareci",
+    "perex": "Kompletní přídavné materiály pro svařování – obalené elektrody bazické i rutilové, svařovací dráty SG2 a trubičkové dráty.",
+    "standards": "ČSN EN ISO 2560-A, ČSN EN ISO 14341-A",
+    "image": "assets/svareci-material-1-nahled.jpg",
+    "specs": [
+      {
+        "param": "Obalené elektrody",
+        "val": "Bazické E-B 121 (OK 48.00), rutilové E-R 117, nerezové a návarové"
+      },
+      {
+        "param": "Dráty pro MIG/MAG",
+        "val": "Poměděné i nepoměděné dráty G3Si1 / SG2 na cívkách K300 (15 kg) a D200 (5 kg)"
+      },
+      {
+        "param": "Dráty pro TIG",
+        "val": "Tyče délky 1000 mm pro nelegované oceli, nerez AISI 308L/316L, hliník AlSi5"
+      },
+      {
+        "param": "Pájení",
+        "val": "Stříbrné a mosazné pájky, tavidla a pájecí pasty"
+      }
+    ],
+    "description": "Spolehlivý přídavný materiál zaručující bezpórové svary vysoké pevnosti s hladkou kresbou housenky a snadnou odstranitelností strusky."
+  },
+  {
+    "id": "svareci-chemie-prislusenstvi",
+    "title": "Svařovací chemie, separační kapaliny a spreje",
+    "division": "Svářečská technika",
+    "division_slug": "svareci",
+    "perex": "Separační spreje proti ulpívání kuliček, penetrační kapaliny pro kapilární zkoušky svarů, mořicí pasty na nerez.",
+    "standards": "ČSN EN ISO 3452-1 (penetrační zkoušení), REACH certifikace",
+    "image": "assets/brusivo-1.jpg",
+    "specs": [
+      {
+        "param": "Separační spreje na hořáky",
+        "val": "Bezsilikonové spreje a pasty proti napékání kuliček do hubice"
+      },
+      {
+        "param": "Kapilární defektoskopie",
+        "val": "Čistič, červený penetrant a bílý vývojka pro odhalení trhlin ve svarech"
+      },
+      {
+        "param": "Moření a pasivace nerezi",
+        "val": "Mořicí pasty a gely pro odstranění náběhových barev po svařování"
+      },
+      {
+        "param": "Doplňky",
+        "val": "Chladicí kapaliny do kapalinou chlazených hořáků, popisovače svarů"
+      }
+    ],
+    "description": "Chemie nezbytná pro čistou a efektivní práci ve svařovně. Šetří čas potřebný na následné broušení a čištění hotových svařenců."
+  },
+  {
+    "id": "kompresory-rozvody-rilsan",
+    "title": "Kompresory a rozvody stlačeného vzduchu RILSAN",
+    "division": "Vzduchotechnika & Nářadí",
+    "division_slug": "vzduchotechnika",
+    "perex": "Pístové dílenské kompresory, tlakové spínače Condor, spirálové hadice a modulární trubkový rozvodný systém RILSAN.",
+    "standards": "ČSN EN 1012-1, tlaková třída PN 16",
+    "image": "assets/vzduchotechnika.jpg",
+    "specs": [
+      {
+        "param": "Kompresory",
+        "val": "Pístové kompresory s tlakovou nádobou 24 až 500 litrů, sací výkon 150 až 800 l/min"
+      },
+      {
+        "param": "Systém RILSAN",
+        "val": "Polyamidové rychlozástrčkové trubky a spojky pro rychlou montáž rozvodů vzduchu"
+      },
+      {
+        "param": "Tlakové hadice",
+        "val": "Polyuretanové spirálové hadice, pryžové hadice s textilním opletem"
+      },
+      {
+        "param": "Tlakové spínače",
+        "val": "Spolehlivé spínače Condor s odlehčovacím ventilem a motorovým jističem"
+      }
+    ],
+    "description": "Zajistíme kompletní dodávku technologií pro stlačený vzduch od zdroje přes úpravu vzduchu až po koncové spotřebiče na pracovišti."
+  },
+  {
+    "id": "pneumaticke-naradi-pistole",
+    "title": "Pneumatické pistole, manometry a příslušenství",
+    "division": "Vzduchotechnika & Nářadí",
+    "division_slug": "vzduchotechnika",
+    "perex": "Ofukovací, stříkací, pískovací a hušticí pistole, údržbové jednotky filtrace a přimazávání, rychlospojky.",
+    "standards": "ČSN EN 837-1 (tlakoměry), DIN ISO 4414",
+    "image": "assets/vzduchotechnika-nahled.jpg",
+    "specs": [
+      {
+        "param": "Údržbové jednotky",
+        "val": "Filtr s regulátorem tlaku a mlhovým přimazávačem oleje pro ochranu pneu nářadí"
+      },
+      {
+        "param": "Pracovní pistole",
+        "val": "Ofukovací pistole, pískovací pistole se spodní nádobkou, pneu stříkací pistole"
+      },
+      {
+        "param": "Hustiče pneumatik",
+        "val": "Cejchované pneuhustiče s manometrem pro pneuservisy a dílny"
+      },
+      {
+        "param": "Rychlospojky a vsuvky",
+        "val": "Standardní německý profil DN 7,2 mosazné i ocelové provedení"
+      }
+    ],
+    "description": "Spolehlivé pneumatické prvky pro každodenní práci v dílně. Zaručují těsnost spojů, stabilní provozní tlak a minimální tlakové ztráty."
+  },
+  {
+    "id": "brusivo-klingspor-tyrolit-carborundum",
+    "title": "Profesionální brusivo Klingspor, Tyrolit a Carborundum",
+    "division": "Vzduchotechnika & Nářadí",
+    "division_slug": "brusivo",
+    "perex": "Řezné a brusné kotouče, lamelové talíře, diamantové kotouče a technické frézy renomovaných evropských značek.",
+    "standards": "EN 12413 (bezpečnost brusiva), oSa certifikace",
+    "image": "assets/brusivo-2.jpg",
+    "specs": [
+      {
+        "param": "Řezné a brusné kotouče",
+        "val": "Do úhlových brusek d = 115, 125, 150 a 230 mm (tenké řezné kotouče 1,0 mm)"
+      },
+      {
+        "param": "Lamelové talíře",
+        "val": "Zirkonové i keramické plátno pro broušení oceli a nerezi s vysokým úběrem"
+      },
+      {
+        "param": "Diamantové kotouče",
+        "val": "Pro řezání betonu, armovaného betonu, cihel, obkladů a kamene"
+      },
+      {
+        "param": "Výrobci",
+        "val": "Klingspor, Tyrolit, Lukas, Grinding, Carborundum Benátky n. J., ALICO Kolín"
+      }
+    ],
+    "description": "Kvalitní brusivo znamená vyšší rychlost práce, menší únavu obsluhy a výrazně nižší náklady na jeden řez či svarový obrus."
+  },
+  {
+    "id": "elektricke-rucni-naradi-stroje",
+    "title": "Elektrické ruční nářadí NAREX, PROTOOL, FERM a PROMA",
+    "division": "Vzduchotechnika & Nářadí",
+    "division_slug": "naradi",
+    "perex": "Obchodní zastoupení profesionálního dílenského nářadí – úhlové brusky, vrtačky, kladiva, stolní pily a obráběcí stroje.",
+    "standards": "ČSN EN 62841, CE certifikace",
+    "image": "assets/naradi-1-nahled.jpg",
+    "specs": [
+      {
+        "param": "Profesionální řada NAREX / HITACHI",
+        "val": "Vysoce odolné úhlové brusky, aku šroubováky a vrtací kladiva pro denní nasazení"
+      },
+      {
+        "param": "Stolní a dílenské stroje PROMA",
+        "val": "Sloupové vrtačky, pásové pily na kov, stolní brusky, ohýbačky"
+      },
+      {
+        "param": "Značky PROMA – FERM – WORX",
+        "val": "Kompletní záruční a servisní zázemí, příznivé ceny pro živnostníky"
+      },
+      {
+        "param": "Dílenské železářské zboží",
+        "val": "Vrtáky SDS, HSS-Co do nerezi, závitníky, GOLA sady, momentové klíče"
+      }
+    ],
+    "description": "Kompletní vybavení pro zámečnické a montážní provozy. Široký sortiment spotřebního materiálu a nářadí skladem přímo na prodejně v Blansku."
+  },
+  {
+    "id": "komplexni-ochranne-pracovni-pomucky",
+    "title": "Komplexní osobní ochranné pracovní pomůcky (OOPP)",
+    "division": "Vzduchotechnika & Nářadí",
+    "division_slug": "ochranne-pomucky",
+    "perex": "Certifikovaná ochrana sluchu, zraku, dýchacích cest i celého těla – svářečské zástěry, rukavice, brýle a respirátory.",
+    "standards": "ČSN EN ISO 11611 (svářečské oděvy), EN 388, EN 166",
+    "image": "assets/ochranne-pomucky-nahled.jpg",
+    "specs": [
+      {
+        "param": "Svářečská ochrana těla",
+        "val": "Kožené hovězinové zástěry, svářečské rukávníky, gamaše a odolné rukavice TIG/MIG"
+      },
+      {
+        "param": "Ochrana dýchacích cest",
+        "val": "Respirátory FFP2 a FFP3 s ventilkem, filtrační ventilační jednotky"
+      },
+      {
+        "param": "Ochrana zraku a sluchu",
+        "val": "Ochranné brýle s UV a IR filtrem, mušlové chrániče sluchu, zátkové tlumiče"
+      },
+      {
+        "param": "Pracovní oděvy a obuv",
+        "val": "Pracovní montérkové soupravy, bezpečnostní obuv S1P/S3 s ocelovou špicí"
+      }
+    ],
+    "description": "Bezpečnost práce na prvním místě. Nabízíme prověřený sortiment tuzemských i zahraničních značek splňující nejpřísnější evropské normy BOZP."
+  }
+]

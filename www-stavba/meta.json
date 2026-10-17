@@ -1,0 +1,45 @@
+{
+  "slug": "www-stavba",
+  "firma": "WWW STAVBA s.r.o.",
+  "ico": "25509942",
+  "obec": "Nový Šaldorf-Sedlešovice",
+  "okres": "Znojmo",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Pozemní stavitelství & Dřevostavby / Výroba a výstavba montovaných nízkoenergetických rodinných domů systémem FORT",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://wwwstavba.cz",
+  "email": "info@wwwstavba.cz",
+  "jednatel": "Ing. František Suchý, MUDr. Naděžda Suchá",
+  "prodejni_body": [
+    "✓ 28+ let tradice ve výstavbě nízkoenergetických domů (založeno 1997)",
+    "✓ Vlastní certifikovaný konstrukční systém FORT s tepelným odporem stěn R = 7,01 m²·K/W",
+    "✓ Více než 1 000 dokončených staveb a rodinných domů po celé České republice",
+    "✓ Kompletní realizace na klíč: projekt na míru, základová deska i vyřízení stavebního povolení"
+  ],
+  "vady_stareho_webu": [
+    "Absence šifrovaného HTTPS protokolu (prohlížeče zobrazují varování Nezabezpečeno)",
+    "Chybějící meta viewport – web není responzivní a na mobilních telefonech vyžaduje nepohodlné zoomování",
+    "Zastaralé kódování windows-1250 způsobující chyby diakritiky",
+    "Archaický statický HTML layout z počátku 2000. let s nefunkčními podstránkami (např. chyba 404 u kontakt.htm)"
+  ],
+  "vylepseni_noveho_webu": [
+    "Čistý architektonický design Swiss Bento Grid s asymetrickým rozvržením a precizní typografií",
+    "Interaktivní katalog a konfigurátor rodinných domů řady FORT s živým filtrem dispozic a podlažnosti",
+    "Detailní technické modální okno (#techModalBackdrop) s rozpisem místností, výměr a technických skladeb",
+    "Plně responzivní layout optimalizovaný pro všechny smartphony i tablety (0px přetečení na 360px)",
+    "Ověřená interaktivní mapa Mapy.cz s přesným červeným špendlíkem sídla v Novém Šaldorfu",
+    "Plynulé scroll-reveal animace a interaktivní zoom-on-hover efekty na reálných fotografiích realizací",
+    "Přímý poptávkový formulář pro nezávaznou studii a zaslání katalogu"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1997,
+    "dokoncene_projekty": 1000,
+    "tepelny_odpor_steny": "7,01 m²·K/W",
+    "tloustka_steny": "36,5 cm",
+    "okna": "Tritherm EKOSUN 90 osmikomorová (Uw = 0,75 W/m²K)",
+    "sidlo": "Dyjská č.ev. 777, Nový Šaldorf, 671 81 Nový Šaldorf-Sedlešovice",
+    "telefony": ["608 712 532", "776 295 122"],
+    "typy_staveb": 4000
+  },
+  "jazyky": ["CZ"]
+}

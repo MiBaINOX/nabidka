@@ -1,0 +1,399 @@
+[
+  {
+    "id": "fort-zahrada",
+    "title": "FORT Zahrada",
+    "category": "rekreacni",
+    "category_label": "Rekreační a zahradní",
+    "disposition": "2+kk",
+    "floor_area": "25,40 m²",
+    "built_area": "32,00 m²",
+    "short_desc": "Montovaný dům systému FORT navržený pro celoroční rekreaci, zahradní bydlení či vejminek s kompletním sociálním i kuchyňským zázemím.",
+    "image": "assets/zahrada.jpg",
+    "plan_image": "assets/1.gif",
+    "norma": "ČSN EN 1995-1-1 (Eurokód 5)",
+    "specs": {
+      "Dispozice": "2+kk (přízemní)",
+      "Užitná plocha": "25,40 m²",
+      "Zastavěná plocha": "32,00 m²",
+      "Tepelný odpor stěn": "R = 7,01 m²·K/W",
+      "Tloušťka obvodové stěny": "36,5 cm",
+      "Okenní výplně": "Tritherm EKOSUN 90 (Uw = 0,75 W/m²K)",
+      "Fasádní systém": "Silikonová omítka Weber Terranova Pas Silikon",
+      "Konstrukce": "Certifikovaný sendvičový systém FORT"
+    },
+    "rooms": [
+      {"ozn": "1", "nazev": "Sociální zařízení (koupelna + WC)", "plocha": "1,80 m²"},
+      {"ozn": "2", "nazev": "Kuchyňská linka", "plocha": "1,80 bm"},
+      {"ozn": "3", "nazev": "Společenský obytný prostor", "plocha": "13,30 m²"},
+      {"ozn": "4", "nazev": "Ložnice", "plocha": "10,30 m²"}
+    ],
+    "features": [
+      "Plnohodnotný nízkoenergetický standard stěn FORT",
+      "Rychlá suchá montáž během několika týdnů",
+      "Vynikající tepelná izolace pro celoroční obývání",
+      "Kompaktní půdorys vhodný i pro menší stavební parcely"
+    ]
+  },
+  {
+    "id": "fort-prizemi-1",
+    "title": "FORT Přízemí I (Standart I)",
+    "category": "prizemni",
+    "category_label": "Přízemní bungalovy",
+    "disposition": "4+kk",
+    "floor_area": "73,21 m²",
+    "built_area": "88,50 m²",
+    "short_desc": "Oblíbený nízkoenergetický přízemní bungalov se třemi ložnicemi, světlým obývacím pokojem s výstupem na terasu a technickým zázemím.",
+    "image": "assets/standart.jpg",
+    "plan_image": "assets/st1.gif",
+    "norma": "ČSN 73 0540-2",
+    "specs": {
+      "Dispozice": "4+kk (bezbariérový)",
+      "Užitná plocha": "73,21 m²",
+      "Zastavěná plocha": "88,50 m²",
+      "Tepelný odpor stěn": "R = 7,01 m²·K/W",
+      "Tloušťka obvodové stěny": "36,5 cm",
+      "Okenní výplně": "Tritherm EKOSUN 90 (Uw = 0,75 W/m²K)",
+      "Vnitřní příčky": "Systém KNAUF a RIGIPS s malbou TELURIA",
+      "Střešní krytina": "FILKO s pozinkovaným klempířským systémem"
+    },
+    "rooms": [
+      {"ozn": "1", "nazev": "Koupelna + WC", "plocha": "4,53 m²"},
+      {"ozn": "2", "nazev": "Předsíň", "plocha": "3,63 m²"},
+      {"ozn": "4", "nazev": "Hospodářská / technická místnost", "plocha": "2,25 m²"},
+      {"ozn": "5", "nazev": "Ložnice I", "plocha": "10,88 m²"},
+      {"ozn": "6", "nazev": "Kuchyňský kout", "plocha": "9,92 m²"},
+      {"ozn": "7", "nazev": "Obývací pokoj", "plocha": "21,16 m²"},
+      {"ozn": "8", "nazev": "Ložnice II", "plocha": "8,84 m²"},
+      {"ozn": "9", "nazev": "Ložnice III", "plocha": "12,00 m²"}
+    ],
+    "features": [
+      "Bezbariérové dispoziční uspořádání pro čtyřčlennou rodinu",
+      "Tři oddělené neprůchozí pokoje",
+      "Špičkový tepelný odpor stěn R = 7,01 m²·K/W",
+      "Prostorný obývací prostor přímo propojený se zahradou"
+    ]
+  },
+  {
+    "id": "fort-prizemi-2",
+    "title": "FORT Přízemí II (Standart II)",
+    "category": "prizemni",
+    "category_label": "Přízemní bungalovy",
+    "disposition": "4+1",
+    "floor_area": "94,09 m²",
+    "built_area": "112,00 m²",
+    "short_desc": "Komfortní přízemní bungalov 4+1 se samostatnou velkou kuchyní 15,4 m², obývacím pokojem přes 26 m², dvěma toaletami a šatní komorou.",
+    "image": "assets/standart.jpg",
+    "plan_image": "assets/II.gif",
+    "norma": "ČSN 73 0540-2",
+    "specs": {
+      "Dispozice": "4+1 (oddělená kuchyně)",
+      "Užitná plocha": "94,09 m²",
+      "Zastavěná plocha": "112,00 m²",
+      "Tepelný odpor stěn": "R = 7,01 m²·K/W",
+      "Tloušťka obvodové stěny": "36,5 cm",
+      "Sanita a armatury": "Vana Ariston 160, baterie keramické, bojler 120 l",
+      "Vnitřní dveře": "Masonite s obložkovými zárubněmi buk/dub",
+      "Podlahy": "HyperFloor laminát / keramická dlažba"
+    },
+    "rooms": [
+      {"ozn": "1", "nazev": "Předsíň", "plocha": "2,97 m²"},
+      {"ozn": "2", "nazev": "Koupelna + WC", "plocha": "7,84 m²"},
+      {"ozn": "3", "nazev": "Samostatné WC", "plocha": "1,40 m²"},
+      {"ozn": "4", "nazev": "Komora / šatna", "plocha": "1,30 m²"},
+      {"ozn": "5", "nazev": "Hospodářská místnost", "plocha": "3,23 m²"},
+      {"ozn": "6", "nazev": "Ložnice I", "plocha": "11,65 m²"},
+      {"ozn": "7", "nazev": "Obývací pokoj", "plocha": "26,47 m²"},
+      {"ozn": "8", "nazev": "Kuchyňský kout / jídelna", "plocha": "15,42 m²"},
+      {"ozn": "9", "nazev": "Ložnice II", "plocha": "12,25 m²"},
+      {"ozn": "10", "nazev": "Ložnice III", "plocha": "11,58 m²"}
+    ],
+    "features": [
+      "Oddělená prostorná kuchyň s jídelním zázemím",
+      "Dvě toalety a rozlehlá koupelna téměř 8 m²",
+      "Vestavěná komora a hospodářská místnost",
+      "Nízkoenergetická obvodová konstrukce FORT"
+    ]
+  },
+  {
+    "id": "fort-prizemi-3",
+    "title": "FORT Přízemí III (Standart III)",
+    "category": "prizemni",
+    "category_label": "Přízemní bungalovy",
+    "disposition": "4+1",
+    "floor_area": "103,52 m²",
+    "built_area": "122,40 m²",
+    "short_desc": "Prostorný rodinný dům přesahující 103 m² užitné plochy. Nabízí tři nadstandardní ložnice kolem 15 m² a obývací pokoj 28,13 m².",
+    "image": "assets/standart.jpg",
+    "plan_image": "assets/st3.gif",
+    "norma": "ČSN 73 0540-2",
+    "specs": {
+      "Dispozice": "4+1 (komfortní)",
+      "Užitná plocha": "103,52 m²",
+      "Zastavěná plocha": "122,40 m²",
+      "Tepelný odpor stěn": "R = 7,01 m²·K/W",
+      "Tloušťka obvodové stěny": "36,5 cm",
+      "Okenní výplně": "Tritherm EKOSUN 90 osmikomorová (Uw = 0,75 W/m²K)",
+      "Elektroinstalace": "Měděné rozvody, přístroje ABB, rozvaděče F&G",
+      "Fasáda": "Silikonová omítka Weber Terranova"
+    },
+    "rooms": [
+      {"ozn": "1", "nazev": "Předsíň", "plocha": "4,63 m²"},
+      {"ozn": "2", "nazev": "Koupelna + WC", "plocha": "5,50 m²"},
+      {"ozn": "3", "nazev": "Samostatné WC", "plocha": "1,71 m²"},
+      {"ozn": "4", "nazev": "Hospodářská místnost", "plocha": "2,99 m²"},
+      {"ozn": "5", "nazev": "Ložnice I", "plocha": "15,75 m²"},
+      {"ozn": "6", "nazev": "Ložnice II", "plocha": "15,75 m²"},
+      {"ozn": "7", "nazev": "Obývací pokoj", "plocha": "28,13 m²"},
+      {"ozn": "8", "nazev": "Kuchyň s jídelnou", "plocha": "14,53 m²"},
+      {"ozn": "9", "nazev": "Ložnice III", "plocha": "14,53 m²"}
+    ],
+    "features": [
+      "Tři rozměrné ložnice o ploše 14,5 až 15,75 m²",
+      "Samostatná toaleta a velkorysá koupelna",
+      "Vysoký akustický komfort vnitřních konstrukcí",
+      "Užitná plocha přes 103 m² v čisté jednopodlažní linii"
+    ]
+  },
+  {
+    "id": "fort-prizemi-4",
+    "title": "FORT Přízemí IV (Standart IV s garáží)",
+    "category": "prizemni",
+    "category_label": "Přízemní bungalovy",
+    "disposition": "4+kk + garáž",
+    "floor_area": "127,43 m²",
+    "built_area": "150,00 m²",
+    "short_desc": "Reprezentativní přízemní dům s integrovanou garáží 20 m², obývacím pokojem přes 32 m² a monumentálními ložnicemi o výměře 21,56 m².",
+    "image": "assets/standart.jpg",
+    "plan_image": "assets/st4.gif",
+    "norma": "ČSN 73 0540-2",
+    "specs": {
+      "Dispozice": "4+kk s integrovanou garáží",
+      "Užitná plocha": "127,43 m² (včetně garáže 20 m²)",
+      "Zastavěná plocha": "150,00 m²",
+      "Tepelný odpor stěn": "R = 7,01 m²·K/W",
+      "Garážové stání": "4×5 m (20 m²)",
+      "Okna": "Tritherm EKOSUN 90 trojsklo (Ug = 0,5 W/m²K)",
+      "Příčky a stropy": "KNAUF / RIGIPS protipožární a akustické sádrokartony",
+      "Základová konstrukce": "Železobetonová monolitická deska s hydroizolací"
+    },
+    "rooms": [
+      {"ozn": "1", "nazev": "Předsíň", "plocha": "6,00 m²"},
+      {"ozn": "2", "nazev": "Hospodářská místnost", "plocha": "1,90 m²"},
+      {"ozn": "3", "nazev": "Samostatné WC", "plocha": "1,71 m²"},
+      {"ozn": "4", "nazev": "Koupelna + WC", "plocha": "6,10 m²"},
+      {"ozn": "5", "nazev": "Ložnice I", "plocha": "21,56 m²"},
+      {"ozn": "6", "nazev": "Ložnice II", "plocha": "21,56 m²"},
+      {"ozn": "7", "nazev": "Obývací pokoj", "plocha": "32,10 m²"},
+      {"ozn": "8", "nazev": "Kuchyňský kout", "plocha": "6,70 m²"},
+      {"ozn": "9", "nazev": "Ložnice III", "plocha": "9,80 m²"},
+      {"ozn": "10", "nazev": "Integrovaná garáž", "plocha": "20,00 m²"}
+    ],
+    "features": [
+      "Integrovaná vytápěná garáž 20 m² přístupná suchou nohou",
+      "Nadstandardní ložnice přes 21 m² pro vestavný nábytek",
+      "Obývací pokoj přes 32 m² s francouzskými okny",
+      "Tepelně-izolačně optimalizovaný spoj obytné zóny a garáže"
+    ]
+  },
+  {
+    "id": "fort-prizemi-5",
+    "title": "FORT Přízemí V (Standart V s velkou garáží)",
+    "category": "prizemni",
+    "category_label": "Přízemní bungalovy",
+    "disposition": "4+kk + garáž 30 m²",
+    "floor_area": "141,13 m²",
+    "built_area": "165,00 m²",
+    "short_desc": "Špičkový model přízemní řady s velkou garáží a dílnou 30 m², společenskou zónou téměř 38 m² s kuchyňským barem a velkými ložnicemi.",
+    "image": "assets/standart.jpg",
+    "plan_image": "assets/st5.gif",
+    "norma": "ČSN 73 0540-2",
+    "specs": {
+      "Dispozice": "4+kk s velkou garáží a dílnou",
+      "Užitná plocha": "141,13 m² (včetně garáže 30 m²)",
+      "Zastavěná plocha": "165,00 m²",
+      "Tepelný odpor stěn": "R = 7,01 m²·K/W",
+      "Rozměr garáže": "30,00 m² (pro vůz, motocykl i dílnu)",
+      "Izolační trojsklo": "Tritherm EKOSUN 90 (Uw = 0,75 W/m²K)",
+      "Zateplovací plášť": "Terranova Weber silikon Pas Silikon",
+      "Vytápění": "Nízkoteplotní elektrické konvektory / podlahové vytápění"
+    },
+    "rooms": [
+      {"ozn": "1", "nazev": "Předsíň", "plocha": "6,00 m²"},
+      {"ozn": "2", "nazev": "Hospodářská místnost", "plocha": "1,90 m²"},
+      {"ozn": "3", "nazev": "Samostatné WC", "plocha": "1,71 m²"},
+      {"ozn": "4", "nazev": "Koupelna + WC", "plocha": "6,10 m²"},
+      {"ozn": "5", "nazev": "Ložnice I", "plocha": "21,56 m²"},
+      {"ozn": "6", "nazev": "Ložnice II", "plocha": "21,56 m²"},
+      {"ozn": "7", "nazev": "Obývací pokoj", "plocha": "37,60 m²"},
+      {"ozn": "8", "nazev": "Kuchyň s barem", "plocha": "6,70 m²"},
+      {"ozn": "9", "nazev": "Ložnice III", "plocha": "8,00 m²"},
+      {"ozn": "10", "nazev": "Garáž a domácí dílna", "plocha": "30,00 m²"}
+    ],
+    "features": [
+      "Velkorysé garážové stání 30 m² pro automobil i kutilskou dílnu",
+      "Rozlehlý obývací prostor 37,6 m² s barovým pultem",
+      "Dvě ložnice s výměrou 21,56 m²",
+      "Kompletní nízkoenergetická obálka stavby systému FORT"
+    ]
+  },
+  {
+    "id": "fort-podkrovi-a",
+    "title": "FORT Podkroví (Varianta A)",
+    "category": "patrovy",
+    "category_label": "Patrové s podkrovím",
+    "disposition": "5+1",
+    "floor_area": "135,69 m²",
+    "built_area": "82,00 m²",
+    "short_desc": "Klasický dvoupodlažní rodinný dům se sedlovou střechou a obytným podkrovím. Nabízí 5 pokojů, samostatnou kuchyň, 2 koupelny a galerii.",
+    "image": "assets/podkrovi1.jpg",
+    "plan_image": "assets/podkrovi1.gif",
+    "norma": "ČSN EN 1995-1-1",
+    "specs": {
+      "Dispozice": "5+1 (dvoupodlažní dům)",
+      "Užitná plocha": "135,69 m² (1.NP 70,85 m² + 2.NP 64,84 m²)",
+      "Zastavěná plocha": "82,00 m²",
+      "Tepelný odpor stěn": "R = 7,01 m²·K/W",
+      "Izolace podkroví": "Vysokoobjemová minerální izolace v krovu",
+      "Počet podlaží": "2 (přízemí + obytné podkroví)",
+      "Sanita": "Koupelna s WC v 1.NP i v 2.NP",
+      "Dveře": "Vstupní Quebec bezpečnostní Fe+PUR, vnitřní Masonite"
+    },
+    "rooms": [
+      {"ozn": "1.1", "nazev": "Předsíň (1.NP)", "plocha": "9,75 m²"},
+      {"ozn": "1.2", "nazev": "Koupelna + WC (1.NP)", "plocha": "3,36 m²"},
+      {"ozn": "1.3", "nazev": "Hospodářská místnost (1.NP)", "plocha": "4,31 m²"},
+      {"ozn": "1.4", "nazev": "Ložnice I (1.NP)", "plocha": "15,36 m²"},
+      {"ozn": "1.5", "nazev": "Obývací pokoj (1.NP)", "plocha": "20,79 m²"},
+      {"ozn": "1.6", "nazev": "Kuchyň s jídelnou (1.NP)", "plocha": "20,79 m²"},
+      {"ozn": "2.1", "nazev": "Galerie se schodištěm (2.NP)", "plocha": "15,90 m²"},
+      {"ozn": "2.2", "nazev": "Koupelna + WC (2.NP)", "plocha": "8,12 m²"},
+      {"ozn": "2.3", "nazev": "Ložnice II (2.NP)", "plocha": "13,30 m²"},
+      {"ozn": "2.4", "nazev": "Ložnice III (2.NP)", "plocha": "13,76 m²"},
+      {"ozn": "2.5", "nazev": "Ložnice IV (2.NP)", "plocha": "13,76 m²"}
+    ],
+    "features": [
+      "Plnohodnotných 5 pokojů a oddělená kuchyně s jídelnou",
+      "Dvě kompletní koupelny pro komfort rodiny",
+      "Kompaktní zastavěná plocha pouze 82 m²",
+      "Ideální poměr obytné plochy k zastavěné ploše pozemku"
+    ]
+  },
+  {
+    "id": "fort-podkrovi-b",
+    "title": "FORT Podkroví (Varianta B)",
+    "category": "patrovy",
+    "category_label": "Patrové s podkrovím",
+    "disposition": "4+kk",
+    "floor_area": "123,63 m²",
+    "built_area": "72,00 m²",
+    "short_desc": "Moderní dvoupodlažní dům s obrovskou otevřenou obývací halou 45,12 m² v přízemí a třemi ložnicemi s koupelnou v klidovém podkroví.",
+    "image": "assets/podkrovi1.jpg",
+    "plan_image": "assets/podkrovi3.gif",
+    "norma": "ČSN EN 1995-1-1",
+    "specs": {
+      "Dispozice": "4+kk (otevřený loftový koncept)",
+      "Užitná plocha": "123,63 m² (1.NP 58,79 m² + 2.NP 64,84 m²)",
+      "Zastavěná plocha": "72,00 m²",
+      "Tepelný odpor stěn": "R = 7,01 m²·K/W",
+      "Centrální prostor": "Obývací hala 45,12 m²",
+      "Okna": "Tritherm EKOSUN 90 osmikomorová (Uw = 0,75 W/m²K)",
+      "Konstrukce krovu": "Dřevěné vazníky s krytinou FILKO",
+      "Hygienické zázemí": "Sociální zařízení v obou podlažích"
+    },
+    "rooms": [
+      {"ozn": "1.1", "nazev": "Předsíň (1.NP)", "plocha": "6,00 m²"},
+      {"ozn": "1.2", "nazev": "Koupelna + WC (1.NP)", "plocha": "3,36 m²"},
+      {"ozn": "1.3", "nazev": "Hospodářská místnost (1.NP)", "plocha": "4,31 m²"},
+      {"ozn": "1.4", "nazev": "Obývací hala (1.NP)", "plocha": "45,12 m²"},
+      {"ozn": "1.5", "nazev": "Kuchyňský kout (1.NP)", "plocha": "12,48 m²"},
+      {"ozn": "2.1", "nazev": "Galerie se schodištěm (2.NP)", "plocha": "15,90 m²"},
+      {"ozn": "2.2", "nazev": "Koupelna + WC (2.NP)", "plocha": "8,12 m²"},
+      {"ozn": "2.3", "nazev": "Ložnice II (2.NP)", "plocha": "13,30 m²"},
+      {"ozn": "2.4", "nazev": "Ložnice III (2.NP)", "plocha": "13,76 m²"},
+      {"ozn": "2.5", "nazev": "Ložnice IV (2.NP)", "plocha": "13,76 m²"}
+    ],
+    "features": [
+      "Velkolepý otevřený společenský prostor přes 45 m²",
+      "Čisté funkční rozdělení na denní a noční zónu",
+      "Zastavěná plocha pouhých 72 m²",
+      "Výtečná energetická bilance celé dvoupodlažní stavby"
+    ]
+  },
+  {
+    "id": "fort-mansarda",
+    "title": "FORT Mansarda",
+    "category": "patrovy",
+    "category_label": "Patrové s podkrovím",
+    "disposition": "4+kk s balkonem",
+    "floor_area": "106,10 m²",
+    "built_area": "62,00 m²",
+    "short_desc": "Reprezentativní rodinný dům s mansardovou střechou maximalizující využitelný prostor horního patra bez šikmin, s balkonem 6,8 m² a ložnicí 21 m².",
+    "image": "assets/mansardaab.jpg",
+    "plan_image": "assets/man11.gif",
+    "norma": "ČSN 73 0540-2",
+    "specs": {
+      "Dispozice": "4+kk s balkonem",
+      "Užitná plocha": "106,10 m² (1.NP 51,68 m² + 2.NP 54,42 m²)",
+      "Zastavěná plocha": "62,00 m²",
+      "Plocha balkonu": "6,80 m²",
+      "Tepelný odpor stěn": "R = 7,01 m²·K/W",
+      "Střešní profil": "Mansardový krov s plnou výškou stropů v patře",
+      "Okenní výplně": "Tritherm EKOSUN 90 (Uw = 0,75 W/m²K)",
+      "Fasáda": "Zateplovací systém Terranova Weber Pas Silikon"
+    },
+    "rooms": [
+      {"ozn": "1.1", "nazev": "Předsíň (1.NP)", "plocha": "5,35 m²"},
+      {"ozn": "1.2", "nazev": "Hospodářská místnost (1.NP)", "plocha": "2,88 m²"},
+      {"ozn": "1.3", "nazev": "Samostatné WC (1.NP)", "plocha": "1,28 m²"},
+      {"ozn": "1.4", "nazev": "Koupelna (1.NP)", "plocha": "5,22 m²"},
+      {"ozn": "1.5", "nazev": "Kuchyňský kout (1.NP)", "plocha": "4,20 m²"},
+      {"ozn": "1.6", "nazev": "Obývací hala (1.NP)", "plocha": "32,75 m²"},
+      {"ozn": "2.1", "nazev": "Chodba se schodištěm (2.NP)", "plocha": "5,10 m²"},
+      {"ozn": "2.2", "nazev": "Ložnice I (2.NP)", "plocha": "21,15 m²"},
+      {"ozn": "2.3", "nazev": "Ložnice II (2.NP)", "plocha": "8,95 m²"},
+      {"ozn": "2.4", "nazev": "Ložnice III (2.NP)", "plocha": "12,42 m²"},
+      {"ozn": "2.5", "nazev": "Vyhlídkový balkon (2.NP)", "plocha": "6,80 m²"}
+    ],
+    "features": [
+      "Mansardová střecha eliminující omezující podkrovní šikminy",
+      "Prostorný vyhlídkový balkon 6,80 m²",
+      "Dominantní ložnice přes 21 m² v patře",
+      "Optimální využití pozemku se zastavěnou plochou 62 m²"
+    ]
+  },
+  {
+    "id": "fort-individual",
+    "title": "FORT Individuální projekt",
+    "category": "individualni",
+    "category_label": "Individuální stavby",
+    "disposition": "Individuální dispozice na míru",
+    "floor_area": "Dle zadání klienta (50 až 500+ m²)",
+    "built_area": "Dle projektové studie",
+    "short_desc": "Zakázková výstavba montovaného nízkoenergetického rodinného domu, rezidence, penzionu či provozovny přesně podle vašich architektonických představ.",
+    "image": "assets/hp1.jpg",
+    "plan_image": "assets/1c.gif",
+    "norma": "ČSN 73 0035 / ČSN 73 0540-2",
+    "specs": {
+      "Dispozice": "Zcela volitelná dle požadavků investora",
+      "Rozsah podlaží": "Až 4 nadzemní podlaží systémem FORT",
+      "Konstrukční rozpony": "Variabilní bez nosných vnitřních omezení",
+      "Stavební řízení": "Zpracování projektu a vyřízení povolení",
+      "Forma dodávky": "Hrubá stavba nebo kompletní dům na klíč",
+      "Certifikace stěn": "Tepelný odpor stěn R = 7,01 m²·K/W",
+      "Základová deska": "Monolitická železobetonová deska na míru pozemku",
+      "Záruční servis": "Dlouhodobá garance na konstrukční systém"
+    },
+    "rooms": [
+      {"ozn": "IND.1", "nazev": "Architektonická studie a 3D vizualizace", "plocha": "Dle přání klienta"},
+      {"ozn": "IND.2", "nazev": "Kompletní projektová dokumentace pro stavební řízení", "plocha": "V ceně projektu"},
+      {"ozn": "IND.3", "nazev": "Statické a tepelně-technické výpočty stěn FORT", "plocha": "Certifikováno"},
+      {"ozn": "IND.4", "nazev": "Vyřízení stavebního povolení a inženýring", "plocha": "Kompletní servis"}
+    ],
+    "features": [
+      "Absolutní architektonická volnost tvaru střech i půdorysu",
+      "Výstavba až do 4 nadzemních podlaží certifikovaným systémem",
+      "Možnost dodávky hrubé stavby nebo kompletní stavby na klíč",
+      "Více než 28 let zkušeností a 1000+ dokončených staveb po celé ČR"
+    ]
+  }
+]

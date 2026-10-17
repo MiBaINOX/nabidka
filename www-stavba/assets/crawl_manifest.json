@@ -1,0 +1,162 @@
+{
+  "total_pages": 12,
+  "pages": [
+    "http://wwwstavba.cz/",
+    "http://wwwstavba.cz/index.htm",
+    "http://wwwstavba.cz/zahrada.htm",
+    "http://wwwstavba.cz/standart.htm",
+    "http://wwwstavba.cz/dumsnu.htm",
+    "http://wwwstavba.cz/mansarda.htm",
+    "http://wwwstavba.cz/specifikace.htm",
+    "http://wwwstavba.cz/fort.htm",
+    "http://wwwstavba.cz/mail.htm",
+    "http://wwwstavba.cz/dopis.htm",
+    "http://wwwstavba.cz/cookies.htm",
+    "http://wwwstavba.cz/pouceni.htm"
+  ],
+  "total_media_found": 33,
+  "total_media_downloaded": 33,
+  "downloaded_files": {
+    "mansardaab.jpg": {
+      "url": "http://wwwstavba.cz/mansardaab.jpg",
+      "size": 112646
+    },
+    "domcek.jpg": {
+      "url": "http://wwwstavba.cz/domcek.jpg",
+      "size": 15775
+    },
+    "podkrovi3.gif": {
+      "url": "http://wwwstavba.cz/podkrovi3.gif",
+      "size": 115961
+    },
+    "dumnu.jpg": {
+      "url": "http://wwwstavba.cz/dumnu.jpg",
+      "size": 20125
+    },
+    "1b.gif": {
+      "url": "http://wwwstavba.cz/1b.gif",
+      "size": 35879
+    },
+    "II.gif": {
+      "url": "http://wwwstavba.cz/II.gif",
+      "size": 39621
+    },
+    "fortik.gif": {
+      "url": "http://wwwstavba.cz/fortik.gif",
+      "size": 728
+    },
+    "1c.gif": {
+      "url": "http://wwwstavba.cz/1c.gif",
+      "size": 42156
+    },
+    "podkrovi1.jpg": {
+      "url": "http://wwwstavba.cz/podkrovi1.jpg",
+      "size": 115380
+    },
+    "kolo.gif": {
+      "url": "http://wwwstavba.cz/kolo.gif",
+      "size": 313
+    },
+    "podkrovi2.gif": {
+      "url": "http://wwwstavba.cz/podkrovi2.gif",
+      "size": 93531
+    },
+    "fort.gif": {
+      "url": "http://wwwstavba.cz/fort.gif",
+      "size": 1302
+    },
+    "logo-supernew.jpg": {
+      "url": "http://wwwstavba.cz/logo-supernew.jpg",
+      "size": 38028
+    },
+    "st1.gif": {
+      "url": "http://wwwstavba.cz/st1.gif",
+      "size": 61796
+    },
+    "zahrada.jpg": {
+      "url": "http://wwwstavba.cz/zahrada.jpg",
+      "size": 9274
+    },
+    "domek.gif": {
+      "url": "http://wwwstavba.cz/domek.gif",
+      "size": 16912
+    },
+    "hp1.jpg": {
+      "url": "http://wwwstavba.cz/hp1.jpg",
+      "size": 328083
+    },
+    "man22.gif": {
+      "url": "http://wwwstavba.cz/man22.gif",
+      "size": 73878
+    },
+    "st4.gif": {
+      "url": "http://wwwstavba.cz/st4.gif",
+      "size": 44612
+    },
+    "podkrovi1.gif": {
+      "url": "http://wwwstavba.cz/podkrovi1.gif",
+      "size": 80960
+    },
+    "mansardav.gif": {
+      "url": "http://wwwstavba.cz/mansardav.gif",
+      "size": 83220
+    },
+    "liska1.jpg": {
+      "url": "http://wwwstavba.cz/liska1.jpg",
+      "size": 16267
+    },
+    "standart.jpg": {
+      "url": "http://wwwstavba.cz/standart.jpg",
+      "size": 117040
+    },
+    "st3.gif": {
+      "url": "http://wwwstavba.cz/st3.gif",
+      "size": 63370
+    },
+    "podkrovi.gif": {
+      "url": "http://wwwstavba.cz/podkrovi.gif",
+      "size": 63617
+    },
+    "st5.gif": {
+      "url": "http://wwwstavba.cz/st5.gif",
+      "size": 47449
+    },
+    "mansarda2.gif": {
+      "url": "http://wwwstavba.cz/mansarda2.gif",
+      "size": 49060
+    },
+    "man11.gif": {
+      "url": "http://wwwstavba.cz/man11.gif",
+      "size": 77560
+    },
+    "fotozahr.jpg": {
+      "url": "http://wwwstavba.cz/fotozahr.jpg",
+      "size": 21766
+    },
+    "1.gif": {
+      "url": "http://wwwstavba.cz/1.gif",
+      "size": 28515
+    },
+    "sipka.gif": {
+      "url": "http://wwwstavba.cz/sipka.gif",
+      "size": 1394
+    },
+    "fotka.jpg": {
+      "url": "http://wwwstavba.cz/fotka.jpg",
+      "size": 45319
+    },
+    "podkrov.jpg": {
+      "url": "http://wwwstavba.cz/podkrov.jpg",
+      "size": 20983
+    }
+  },
+  "menu_categories": [
+    "FORT Zahrada",
+    "FORT Přízemí",
+    "FORT Podkroví",
+    "FORT Mansarda",
+    "Popis domu- specifikace",
+    "Systém FORT",
+    "Kde nás najdete"
+  ]
+}

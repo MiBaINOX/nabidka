@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BKJ METAL s.r.o. | Komplexní kovovýroba, svařování a hutní materiál Blansko</title>
+  <meta name="description" content="Komplexní kovovýroba, zakázkové zámečnictví, svařování MIG/MAG/TIG, prodej hutního materiálu, polykarbonátů a svářecí techniky v Blansku.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="../ping-config.js"></script>
+</head>
+<body>
+
+  <div class="nabidka-bar" id="nabidkaBar">
+    <div class="container nabidka-bar-inner">
+      <span class="nabidka-tag">B2B NÁVRH MODERNIZACE</span>
+      <span class="nabidka-text">Interaktivní technologický prototyp pro <strong>BKJ METAL s.r.o. (BKJ METAL WELD)</strong> &bull; Blansko</span>
+      <a href="#kontakt" class="nabidka-bar-btn">Poptat výrobu</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#uvod" class="header-brand" aria-label="BKJ METAL - Návrat na úvod">
+        <img src="assets/logo_trans.png" alt="BKJ METAL s.r.o." class="header-logo" width="160" height="82">
+      </a>
+      <nav class="site-nav" id="siteNav">
+        <a href="#uvod" class="nav-link">O nás</a>
+        <a href="#divize" class="nav-link">Divize</a>
+        <a href="#katalog" class="nav-link">Kapacitní katalog</a>
+        <a href="#reference" class="nav-link">Reference</a>
+        <a href="#galerie" class="nav-link">Galerie</a>
+        <a href="#kontakt" class="nav-link">Kontakt</a>
+        <a href="#poptavka" class="btn btn-primary btn-sm nav-cta">Poptávkový formulář</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Otevřít navigaci">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-tech" id="uvod">
+      <div class="hero-tech-grid-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span class="pulse-dot"></span>
+          <span>Průmyslová kovovýroba &bull; Zakázkové zámečnictví &bull; Dodávky materiálů od roku 2007</span>
+        </div>
+        <h1 class="hero-title reveal">
+          Komplexní kovovýroba, precizní svařování a certifikovaný hutní materiál
+        </h1>
+        <p class="hero-perex reveal">
+          Zajišťujeme kompletní servis pro firmy i soukromé investory – od dělení materiálu a zakázkového zámečnictví přes certifikované svařování MIG/MAG a TIG až po dodávky ocelových profilů, trubek, polykarbonátových desek, svářecí techniky a vzduchotechniky.
+        </p>
+
+        <div class="hero-cta-group reveal">
+          <a href="#katalog" class="btn btn-primary">Prohlédnout kapacity a sortiment</a>
+          <a href="#kontakt" class="btn btn-outline">Kontaktovat provozovnu</a>
+          <a href="tel:+420516419090" class="btn btn-ghost">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            516 419 090
+          </a>
+        </div>
+
+        <div class="hero-divisions-bar reveal">
+          <span class="divisions-bar-label">Rychlý přechod do divizí:</span>
+          <div class="divisions-pills">
+            <button type="button" class="div-pill" onclick="filterCatalogByDivision('kovovyroba')">Kovovýroba & Svařování</button>
+            <button type="button" class="div-pill" onclick="filterCatalogByDivision('hutni')">Hutní materiál</button>
+            <button type="button" class="div-pill" onclick="filterCatalogByDivision('spojovaci')">Spojovací materiál</button>
+            <button type="button" class="div-pill" onclick="filterCatalogByDivision('polykarbonat')">Polykarbonát</button>
+            <button type="button" class="div-pill" onclick="filterCatalogByDivision('svareci')">Svářecí technika a materiál</button>
+            <button type="button" class="div-pill" onclick="filterCatalogByDivision('vzduchotechnika')">Vzduchotechnika</button>
+            <button type="button" class="div-pill" onclick="filterCatalogByDivision('brusivo')">Brusivo</button>
+            <button type="button" class="div-pill" onclick="filterCatalogByDivision('naradi')">Nářadí</button>
+            <button type="button" class="div-pill" onclick="filterCatalogByDivision('ochranne-pomucky')">Ochranné pomůcky</button>
+          </div>
+        </div>
+
+        <div class="hero-stats-grid reveal">
+          <div class="stat-card">
+            <div class="stat-num-row">
+              <span class="counter" data-target="2007">2007</span>
+            </div>
+            <div class="stat-label">Rok založení a zápisu do OR</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num-row">
+              <span class="counter" data-target="19">19</span>
+              <span class="stat-suffix">+</span>
+            </div>
+            <div class="stat-label">Let zkušeností v oboru kovovýroby</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num-row">
+              <span class="counter" data-target="34">34</span>
+            </div>
+            <div class="stat-label">Divizních kapacit a skupin sortimentu</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num-row">
+              <span class="counter" data-target="100">100</span>
+              <span class="stat-suffix">%</span>
+            </div>
+            <div class="stat-label">Pokrytí zakázek v Blansku, Brně i celé ČR</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-divisions" id="divize">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Výrobní a obchodní divize</span>
+          <h2 class="section-title">Komplexní zázemí pod jednou střechou v Blansku</h2>
+          <p class="section-subtitle">
+            Propojujeme vlastní zámečnickou dílnu se specializovanou maloobchodní i velkoobchodní prodejnou technických materiálů a nářadí. Co nemáme skladem – obratem objednáme a dovezeme přímo na stavbu či do vaší dílny.
+          </p>
+        </div>
+
+        <div class="divisions-grid reveal">
+          <div class="division-card">
+            <div class="div-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+            </div>
+            <h3>Kovovýroba & Zakázkové zámečnictví</h3>
+            <p>Výroba ocelových konstrukcí, schodišť, zábradlí, pojezdových vrat, mříží a technologických rámů dle výkresů zákazníka včetně odborné montáže.</p>
+            <ul class="div-features">
+              <li>Dělení materiálu na pásových pilách</li>
+              <li>Montáže Blansko, Brno a celá ČR</li>
+              <li>Spolupráce se stavebními lídry (Metrostav, STRABAG)</li>
+            </ul>
+          </div>
+
+          <div class="division-card">
+            <div class="div-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line></svg>
+            </div>
+            <h3>Svařování v ochranné atmosféře</h3>
+            <p>Profesionální svařování ocelí, nerezi i hliníku metodami MIG/MAG a TIG. Vizuální i kapilární zkoušky svarů, vysoká pevnost a čistá kresba housenky.</p>
+            <ul class="div-features">
+              <li>Metody MAG (135), MIG (131) a TIG (141)</li>
+              <li>České invertory Kühtreiber a Omicron</li>
+              <li>Tlakové, nosné i estetické pohledové svary</li>
+            </ul>
+          </div>
+
+          <div class="division-card">
+            <div class="div-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+            </div>
+            <h3>Hutní a spojovací materiál</h3>
+            <p>Prodej a dělení ocelových profilů IPE, HEA, jeklů, trubek, plechů, varných kolen, kotevní techniky FISCHER a metrických šroubů.</p>
+            <ul class="div-features">
+              <li>Krácení na míru přímo při odběru</li>
+              <li>Jakosti S235JR, S355J2, 11 373, 11 523</li>
+              <li>Vlastní skladové zásoby v Blansku</li>
+            </ul>
+          </div>
+
+          <div class="division-card">
+            <div class="div-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3zM3 9h18M3 15h18M9 3v18M15 3v18"></path></svg>
+            </div>
+            <h3>Polykarbonátové materiály & Přístřešky</h3>
+            <p>Dutinkový polykarbonát Macrolon, plné desky, trapézové PVC Ondex, spojovací hliníkové profily a výroba přístřešků a světlíků na klíč.</p>
+            <ul class="div-features">
+              <li>Tepelně izolační komůrkové desky 4–40 mm</li>
+              <li>Formátování a řezání na přesné rozměry</li>
+              <li>Kompletní systém Al lišt a EPDM těsnění</li>
+            </ul>
+          </div>
+
+          <div class="division-card">
+            <div class="div-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h3>Svářecí technika & Materiál</h3>
+            <p>Svařovací zdroje, plasmové stroje, autogenní technika GCE, elektrody, svařovací dráty SG2, samostmívací kukly a svařovací chemie.</p>
+            <ul class="div-features">
+              <li>Oficiální zastoupení Kühtreiber a Omicron</li>
+              <li>Autogen GCE a PB soupravy pro ohřev</li>
+              <li>Odborné technické poradenství a servis</li>
+            </ul>
+          </div>
+
+          <div class="division-card">
+            <div class="div-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.21 15.89A10 10 0 1 1 8 2.83M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+            </div>
+            <h3>Vzduchotechnika, Nářadí & Ochrana</h3>
+            <p>Pístové kompresory, rozvody RILSAN, pneu nářadí, brusivo Klingspor a Tyrolit, ruční stroje PROMA, NAREX a komplexní ochranné pomůcky.</p>
+            <ul class="div-features">
+              <li>Rychlozástrčkový rozvod stlačeného vzduchu</li>
+              <li>Kotouče do úhlových brusek a diamantové kotouče</li>
+              <li>OOPP – kukly, respirátory, svářečské oděvy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-catalog" id="katalog">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Interaktivní kapacitní databáze</span>
+          <h2 class="section-title">Katalog výrobních kapacit, hutního sortimentu a techniky</h2>
+          <p class="section-subtitle">
+            Přehled všech 34 výrobních technologií, materiálových skupin a sortimentních řad. Kliknutím na libovolnou kartu zobrazíte detailní technické parametry dle norem ČSN EN.
+          </p>
+        </div>
+
+        <div class="catalog-controls reveal">
+          <div class="catalog-search-wrap">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="catalogSearch" placeholder="Filtrovat materiál, normu ČSN EN, jekl, elektrodu, polykarbonát..." oninput="handleCatalogSearch()">
+          </div>
+
+          <div class="filter-tabs">
+            <button type="button" class="filter-tab active" data-filter="all" onclick="filterCatalogTab('all')">Všechny kapacity (34)</button>
+            <button type="button" class="filter-tab" data-filter="kovovyroba" onclick="filterCatalogTab('kovovyroba')">Kovovýroba & Svařování</button>
+            <button type="button" class="filter-tab" data-filter="hutni" onclick="filterCatalogTab('hutni')">Hutní materiál</button>
+            <button type="button" class="filter-tab" data-filter="spojovaci" onclick="filterCatalogTab('spojovaci')">Spojovací materiál</button>
+            <button type="button" class="filter-tab" data-filter="polykarbonat" onclick="filterCatalogTab('polykarbonat')">Polykarbonát</button>
+            <button type="button" class="filter-tab" data-filter="svareci" onclick="filterCatalogTab('svareci')">Svářecí technika a materiál</button>
+            <button type="button" class="filter-tab" data-filter="vzduchotechnika" onclick="filterCatalogTab('vzduchotechnika')">Vzduchotechnika</button>
+            <button type="button" class="filter-tab" data-filter="brusivo" onclick="filterCatalogTab('brusivo')">Brusivo</button>
+            <button type="button" class="filter-tab" data-filter="naradi" onclick="filterCatalogTab('naradi')">Nářadí</button>
+            <button type="button" class="filter-tab" data-filter="ochranne-pomucky" onclick="filterCatalogTab('ochranne-pomucky')">Ochranné pomůcky</button>
+          </div>
+
+          <div class="catalog-counter-row">
+            <span>Aktivní položky: <strong id="searchCounter" class="search-counter">34</strong> z 34 kapacit</span>
+          </div>
+        </div>
+
+        <div class="catalog-grid" id="catalogGrid">
+        <article class="catalog-item-card" data-id="kovovyroba-montaze" data-division="kovovyroba">
+          <div class="item-img-wrap">
+            <img src="assets/pa300459.jpg" alt="Komplexní kovovýroba a montáže" class="item-img" loading="lazy">
+            <span class="item-division-badge">Kovovýroba & Svařování</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 1090-2, ISO 9001</div>
+            <h3 class="item-title">Komplexní kovovýroba a montáže</h3>
+            <p class="item-perex">Zakázková kovovýroba od technické přípravy a dělení materiálu až po finální montáž ocelových konstrukcí a technologických celků.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Výrobní kapacity:</span> <span class="spec-v">Kusová, malosériová i velkosériová zámečnická výroba</span></div><div class="spec-pill"><span class="spec-k">Zpracovávané materiály:</span> <span class="spec-v">Konstrukční oceli, nerezové oceli, hliníkové slitiny</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('kovovyroba-montaze')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="svarovani-mig-mag-tig" data-division="kovovyroba">
+          <div class="item-img-wrap">
+            <img src="assets/p1080005.jpg" alt="Svařování MIG/MAG & TIG v ochranné atmosféře" class="item-img" loading="lazy">
+            <span class="item-division-badge">Kovovýroba & Svařování</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN ISO 3834, EN ISO 4063, EN ISO 9606-1</div>
+            <h3 class="item-title">Svařování MIG/MAG & TIG v ochranné atmosféře</h3>
+            <p class="item-perex">Profesionální svařování konstrukčních ocelí, nerezi i neželezných kovů metodami 135 (MAG), 131 (MIG) a 141 (WIG/TIG).</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Metoda MIG / MAG:</span> <span class="spec-v">EN ISO 4063-131 / 135 v ochranné atmosféře CO2 / směs Ar+CO2</span></div><div class="spec-pill"><span class="spec-k">Metoda TIG / WIG:</span> <span class="spec-v">EN ISO 4063-141 s netavící se wolframovou elektrodou v čistém argonu</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('svarovani-mig-mag-tig')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="zakazkove-zamecnictvi" data-division="kovovyroba">
+          <div class="item-img-wrap">
+            <img src="assets/pa100150.jpg" alt="Stavební a průmyslové zámečnictví" class="item-img" loading="lazy">
+            <span class="item-division-badge">Kovovýroba & Svařování</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN 74 3305, ČSN 73 4130</div>
+            <h3 class="item-title">Stavební a průmyslové zámečnictví</h3>
+            <p class="item-perex">Výroba a montáž ocelových schodišť, zábradlí, pojezdových vrat, plotových polí, mříží a krytů technologických zařízení.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Schodiště a lávky:</span> <span class="spec-v">Přímá, točitá, lomená, schodnice z U-profilů, pororošty</span></div><div class="spec-pill"><span class="spec-k">Zábradlí a balkony:</span> <span class="spec-v">Ocelové i nerezové sloupky, výplně tahokov, sklo, polykarbonát</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('zakazkove-zamecnictvi')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="deleni-materialu" data-division="kovovyroba">
+          <div class="item-img-wrap">
+            <img src="assets/pa100151.jpg" alt="Přesné dělení a krácení materiálu" class="item-img" loading="lazy">
+            <span class="item-division-badge">Kovovýroba & Svařování</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN ISO 2768-mK</div>
+            <h3 class="item-title">Přesné dělení a krácení materiálu</h3>
+            <p class="item-perex">Dělení ocelových profilů, trubek, tyčí a nosníků na pásových pilách dle zadaných rozměrů zákazníka s minimální tolerancí.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Technologie dělení:</span> <span class="spec-v">Vysoce přesné pásové pily s chlazením emulzí</span></div><div class="spec-pill"><span class="spec-k">Úhlové řezy:</span> <span class="spec-v">Přímé dělení 90° i úhlové řezy v rozsahu -45° až +60°</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('deleni-materialu')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="valcovane-profily-nosniky" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/hutni-material.jpg" alt="Ocelové válcované profily a nosníky" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 10025-2, EN 10034, EN 10279</div>
+            <h3 class="item-title">Ocelové válcované profily a nosníky</h3>
+            <p class="item-perex">Široký skladový sortiment konstrukčních nosníků IPE, IPN, HEA, HEB a UPN pro nosné stavební a zámečnické konstrukce.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Typy profilů:</span> <span class="spec-v">IPE (80–300), IPN (80–240), HEA/HEB (100–260), UPN/UPE (50–240)</span></div><div class="spec-pill"><span class="spec-k">Jakosti oceli:</span> <span class="spec-v">S235JR (1.0038), S355J2 (1.0577)</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('valcovane-profily-nosniky')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="ocel-plocha-ctvercova" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/p4140260.jpg" alt="Ocel plochá, čtyřhranná a šestihranná" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 10058, ČSN EN 10059, DIN 174</div>
+            <h3 class="item-title">Ocel plochá, čtyřhranná a šestihranná</h3>
+            <p class="item-perex">Tažená i válcovaná plochá a tyčová ocel pro strojírenství, kování, zámečnictví a výrobu přírub.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Rozměrová řada ploché oceli:</span> <span class="spec-v">Šířky 20 až 150 mm, tloušťky 3 až 30 mm</span></div><div class="spec-pill"><span class="spec-k">Čtyřhranná ocel (čtverce):</span> <span class="spec-v">Profily 8x8 až 50x50 mm</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('ocel-plocha-ctvercova')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="tyce-kruhove-betonarska-ocel" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/dsc00314.jpg" alt="Tyče kruhové a žebírková betonářská ocel" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 10060, ČSN 42 0139, DIN 488</div>
+            <h3 class="item-title">Tyče kruhové a žebírková betonářská ocel</h3>
+            <p class="item-perex">Kruhové ocelové tyče pro obrábění a žebírková ocel (roxory) včetně distančních prvků pro armování železobetonu.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Kulatiny tažené a válcované:</span> <span class="spec-v">Průměry d = 6 mm až d = 120 mm</span></div><div class="spec-pill"><span class="spec-k">Betonářská žebírková ocel:</span> <span class="spec-v">B500B / 10 505 v průměrech 6, 8, 10, 12, 14, 16 a 20 mm</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('tyce-kruhove-betonarska-ocel')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="trubky-ocelove-konstrukcni" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/pa300460.jpg" alt="Ocelové trubky bezešvé a svařované" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 10219-1/2, ČSN EN 10255, EN 10216</div>
+            <h3 class="item-title">Ocelové trubky bezešvé a svařované</h3>
+            <p class="item-perex">Kruhové trubky konstrukční, závitové a bezešvé pro tlakové rozvody, konstrukce zábradlí a potrubní vedení.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Konstrukční svařované:</span> <span class="spec-v">Vnější průměry 17,2 mm až 219,1 mm, stěny 1,5 až 6,3 mm</span></div><div class="spec-pill"><span class="spec-k">Závitové běžné trubky:</span> <span class="spec-v">Rozměry 3/8 palce až 4 palce (černé i pozinkované)</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('trubky-ocelove-konstrukcni')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="plechy-ocelove-slzickove" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/dsc00363.jpg" alt="Ocelové plechy hladké, slzičkové a pozinkované" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 10051, ČSN EN 10025-2, DIN 59220</div>
+            <h3 class="item-title">Ocelové plechy hladké, slzičkové a pozinkované</h3>
+            <p class="item-perex">Plechy válcované za tepla i za studena, pozinkované tabule a protiskluzové slzičkové plechy na podesty a rampy.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Plechy válcované za tepla:</span> <span class="spec-v">Tloušťky 2,0 až 30 mm, formáty 1000x2000, 1250x2500, 1500x3000 mm</span></div><div class="spec-pill"><span class="spec-k">Plechy za studena (DC01):</span> <span class="spec-v">Tloušťky 0,5 až 2,5 mm, hladký povrch vhodný pro lakování</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('plechy-ocelove-slzickove')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="tenkostenne-profily-jekly" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/p1080002.jpg" alt="Tenkostěnné uzavřené profily – jekly" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 10219-1/2, ČSN EN 10305-5</div>
+            <h3 class="item-title">Tenkostěnné uzavřené profily – jekly</h3>
+            <p class="item-perex">Čtvercové a obdélníkové duté profily (jekly) pro rámy, ploty, lehké ocelové konstrukce a montované haly.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Čtvercové jekly:</span> <span class="spec-v">Od 15x15x1,5 mm až po 150x150x6 mm</span></div><div class="spec-pill"><span class="spec-k">Obdélníkové jekly:</span> <span class="spec-v">Od 20x10x1,5 mm až po 160x80x6 mm</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('tenkostenne-profily-jekly')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="varna-kolena-potrubni-dily" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/pa020036.jpg" alt="Varná kolena, redukce a potrubní tvarovky" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 10253-1/2, DIN 2605</div>
+            <h3 class="item-title">Varná kolena, redukce a potrubní tvarovky</h3>
+            <p class="item-perex">Hladká ocelová varná kolena 90° a 45°, klenutá dna a koncentrické redukce pro potrubní rozvody.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Varná kolena 90°:</span> <span class="spec-v">Rádius 3D / 5D, průměry od DN 15 (21,3 mm) do DN 200 (219,1 mm)</span></div><div class="spec-pill"><span class="spec-k">Materiálové provedení:</span> <span class="spec-v">Uhlíková ocel P235GH, S235, nerezová ocel 1.4301</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('varna-kolena-potrubni-dily')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="pletiva-draty-napinaky" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/pb160218.jpg" alt="Plotová pletiva, vázací dráty a napínáky" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 10223-4, ČSN EN 10244-2</div>
+            <h3 class="item-title">Plotová pletiva, vázací dráty a napínáky</h3>
+            <p class="item-perex">Kompletní oplocenkový sortiment – čtyřhranná pletiva, napínací a vázací dráty, napínací strojky a sloupky.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Pletiva pletená:</span> <span class="spec-v">Pozinkovaná i poplastovaná (PVC zelená/antracit), výšky 100 až 200 cm</span></div><div class="spec-pill"><span class="spec-k">Dráty napínací a vázací:</span> <span class="spec-v">Průměry 1,4 mm až 3,5 mm v návinech 25, 50 a 100 m</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('pletiva-draty-napinaky')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="ocelova-lanka-nerez-pozink" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/pa080039.jpg" alt="Ocelová lanka pozinkovaná i nerezová" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 12385-4, DIN 3055, DIN 3060</div>
+            <h3 class="item-title">Ocelová lanka pozinkovaná i nerezová</h3>
+            <p class="item-perex">Konstrukční a vázací ocelová lanka standardních konstrukcí včetně lanových svorek, očnic a napínačů.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Konstrukce lan:</span> <span class="spec-v">1x19 (tuhé), 6x7+FC (středně ohebné), 6x19+FC (vysoce ohebné)</span></div><div class="spec-pill"><span class="spec-k">Průměry lan:</span> <span class="spec-v">Od 1,0 mm do 16,0 mm</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('ocelova-lanka-nerez-pozink')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="plastove-ucpavky-profilu" data-division="hutni">
+          <div class="item-img-wrap">
+            <img src="assets/pc210225.jpg" alt="Plastové ucpávky a krytky jeklů a trubek" class="item-img" loading="lazy">
+            <span class="item-division-badge">Hutní materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">DIN EN ISO 9001, UV stabilizovaný PE</div>
+            <h3 class="item-title">Plastové ucpávky a krytky jeklů a trubek</h3>
+            <p class="item-perex">Vnitřní narážecí a vnější nasouvací krytky pro uzavření profilů proti vnikání nečistot a vody.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Pro jekly čtvercové:</span> <span class="spec-v">Rozměry 15x15 mm až 120x120 mm s lamelami pro různé síly stěny</span></div><div class="spec-pill"><span class="spec-k">Pro jekly obdélníkové:</span> <span class="spec-v">Rozměry 20x10 mm až 120x60 mm</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('plastove-ucpavky-profilu')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="zavitove-tyce-pevnostni" data-division="spojovaci">
+          <div class="item-img-wrap">
+            <img src="assets/spojovaci-material.jpg" alt="Závitové tyče pevnostní a nerezové" class="item-img" loading="lazy">
+            <span class="item-division-badge">Spojovací materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">DIN 975, DIN 976-1, ČSN 02 1101</div>
+            <h3 class="item-title">Závitové tyče pevnostní a nerezové</h3>
+            <p class="item-perex">Metrické závitové tyče v délkách 1 m, 2 m a 3 m v pevnostech 4.8, 8.8, 10.9 a nerezovém provedení A2/A4.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Rozměrová řada:</span> <span class="spec-v">Závity M4 až M36</span></div><div class="spec-pill"><span class="spec-k">Pevnostní třídy:</span> <span class="spec-v">4.8 (standard), 8.8 (vysokopevnostní), 10.9, nerez A2-70 / A4-80</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('zavitove-tyce-pevnostni')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="srouby-matice-podlozky" data-division="spojovaci">
+          <div class="item-img-wrap">
+            <img src="assets/naradi-2.jpg" alt="Šrouby se šestihrannou hlavou, matice a podložky" class="item-img" loading="lazy">
+            <span class="item-division-badge">Spojovací materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">DIN 933 (plný závit), DIN 931 (dřík), DIN 934, DIN 125A</div>
+            <h3 class="item-title">Šrouby se šestihrannou hlavou, matice a podložky</h3>
+            <p class="item-perex">Kompletní portfolio metrického spojovacího materiálu pro strojírenství, ocelové konstrukce a dílnu.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Pevnostní třídy:</span> <span class="spec-v">5.6, 8.8, 10.9, nerezová ocel A2/A4</span></div><div class="spec-pill"><span class="spec-k">Typy matic:</span> <span class="spec-v">Standardní šestihranné DIN 934, samojistné s polyamidem DIN 985, kloboukové DIN 1587</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('srouby-matice-podlozky')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="vruty-nyty-samorezy" data-division="spojovaci">
+          <div class="item-img-wrap">
+            <img src="assets/naradi-1.jpg" alt="Stavební vruty, trhací nýty a samořezné šrouby" class="item-img" loading="lazy">
+            <span class="item-division-badge">Spojovací materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">DIN 7504, DIN 7337, ČSN EN 14592</div>
+            <h3 class="item-title">Stavební vruty, trhací nýty a samořezné šrouby</h3>
+            <p class="item-perex">Univerzální vruty do dřeva se zápustnou hlavou TORX, tex-šrouby do plechu a trhací nýty pro rychlé spojování.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Vruty do dřeva:</span> <span class="spec-v">Drážka TORX (TX), částečný i plný závit, žlutý i bílý zinek</span></div><div class="spec-pill"><span class="spec-k">Samořezné šrouby TEX:</span> <span class="spec-v">S vrtací špičkou pro spojování plechů do tloušťky 6 mm bez předvrtání</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('vruty-nyty-samorezy')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="fischer-kotevni-technika" data-division="spojovaci">
+          <div class="item-img-wrap">
+            <img src="assets/spojovaci-material-nahled.jpg" alt="Kotevní technika FISCHER a chemická malta" class="item-img" loading="lazy">
+            <span class="item-division-badge">Spojovací materiál</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ETA certifikace pro beton a zdivo, DIN EN ISO 9001</div>
+            <h3 class="item-title">Kotevní technika FISCHER a chemická malta</h3>
+            <p class="item-perex">Profesionální kotvení v betonu, zdivu i dutých cihlách. Ocelové svorníkové kotvy, rámové hmoždinky a chemické ampule.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Chemické malty FISCHER:</span> <span class="spec-v">Vinylesterové a polyesterové dvousložkové pryskyřice FIS V / FIS P</span></div><div class="spec-pill"><span class="spec-k">Svorníkové kotvy (FBN II / FAZ II):</span> <span class="spec-v">Vysoce únosné průvlečné kotvy pro beton bez trhlin i s trhlinami</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('fischer-kotevni-technika')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="komurkove-desky-macrolon" data-division="polykarbonat">
+          <div class="item-img-wrap">
+            <img src="assets/polykarbonat.jpg" alt="Komůrkové polykarbonátové desky Macrolon" class="item-img" loading="lazy">
+            <span class="item-division-badge">Polykarbonáty</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 16153, požární klasifikace B-s1,d0</div>
+            <h3 class="item-title">Komůrkové polykarbonátové desky Macrolon</h3>
+            <p class="item-perex">Extrudované dutinkové desky s jednostrannou nebo oboustrannou UV ochranou pro tepelně izolační nerozbitné prosklení.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Tloušťky desek:</span> <span class="spec-v">4, 6, 8, 10, 16, 20, 25, 32 a 40 mm</span></div><div class="spec-pill"><span class="spec-k">Barevné odstíny:</span> <span class="spec-v">Čirý (vysoká propustnost světla), bronz (kouřový), opál (mléčný)</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('komurkove-desky-macrolon')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="plne-polykarbonatove-desky" data-division="polykarbonat">
+          <div class="item-img-wrap">
+            <img src="assets/polykarbonat-nahled.jpg" alt="Plné polykarbonátové desky (polykarbonátové sklo)" class="item-img" loading="lazy">
+            <span class="item-division-badge">Polykarbonáty</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">DIN EN ISO 11963, ČSN EN 356 (bezpečnostní zasklení)</div>
+            <h3 class="item-title">Plné polykarbonátové desky (polykarbonátové sklo)</h3>
+            <p class="item-perex">Monolitické desky s optickou čistotou běžného skla a 250x vyšší rázovou houževnatostí – prakticky nerozbitné.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Tloušťky materiálu:</span> <span class="spec-v">2, 3, 4, 5, 6, 8, 10 a 12 mm</span></div><div class="spec-pill"><span class="spec-k">Formátování:</span> <span class="spec-v">Dělení na přesný rozměr na vertikální a horizontální formátovací pile</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('plne-polykarbonatove-desky')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="ondex-trapezove-vlnite-desky" data-division="polykarbonat">
+          <div class="item-img-wrap">
+            <img src="assets/p3020010.jpg" alt="Trapézové a vlnité desky ONDEX z tvrzeného PVC" class="item-img" loading="lazy">
+            <span class="item-division-badge">Polykarbonáty</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 1013, certifikace odolnosti proti kroupám</div>
+            <h3 class="item-title">Trapézové a vlnité desky ONDEX z tvrzeného PVC</h3>
+            <p class="item-perex">Biaxiálně orientované PVC desky s vysokou rázovou houževnatostí, odolností proti krupobití a chemickým vlivům.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Profily desek:</span> <span class="spec-v">Vlna 70/18 mm, trapéz 70/18 mm, jemná vlna 76/18 mm</span></div><div class="spec-pill"><span class="spec-k">Barevné varianty:</span> <span class="spec-v">Čirá, kouřová, bronzová, žlutá, neprůhledná šedá</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('ondex-trapezove-vlnite-desky')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="zamkove-panely-profily-prislusenstvi" data-division="polykarbonat">
+          <div class="item-img-wrap">
+            <img src="assets/prodejna-nahled.jpg" alt="Zámkové panely, hliníkové profily a příslušenství" class="item-img" loading="lazy">
+            <span class="item-division-badge">Polykarbonáty</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 755-9, EPDM odolnost DIN 7863</div>
+            <h3 class="item-title">Zámkové panely, hliníkové profily a příslušenství</h3>
+            <p class="item-perex">Kompletní montážní systém pro polykarbonáty – Al přítlačné lišty, EPDM těsnění, ukončovací U-profily a paropropustné pásky.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Spojovací a přítlačné lišty:</span> <span class="spec-v">Hliníkové profily Al se středovým EPDM pryžovým těsněním</span></div><div class="spec-pill"><span class="spec-k">Ukončovací profily:</span> <span class="spec-v">Al profily tvaru U s okapničkou pro odvod kondenzátu</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('zamkove-panely-profily-prislusenstvi')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="montaz-pristresku-skleniku" data-division="polykarbonat">
+          <div class="item-img-wrap">
+            <img src="assets/p4140260.jpg" alt="Zakázková výroba a montáž přístřešků a světlíků" class="item-img" loading="lazy">
+            <span class="item-division-badge">Polykarbonáty</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 1090-2, ČSN EN 16153</div>
+            <h3 class="item-title">Zakázková výroba a montáž přístřešků a světlíků</h3>
+            <p class="item-perex">Dodávka přístřešků, světlíků, zimních zahrad, krytů lodžií a světlíků na klíč od ocelové konstrukce po zasklení.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Typy realizací:</span> <span class="spec-v">Přístřešky pro auta (carporty), vstupy do budov, spojovací krčky, světlíky</span></div><div class="spec-pill"><span class="spec-k">Nosná konstrukce:</span> <span class="spec-v">Ocelová konstrukce z jeklů žárově zinkovaná nebo komaxitovaná</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('montaz-pristresku-skleniku')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="svareci-stroje-kuhtreiber-omicron" data-division="svareci">
+          <div class="item-img-wrap">
+            <img src="assets/svareci-technika-1.jpg" alt="Svářecí technika Kühtreiber a Omicron" class="item-img" loading="lazy">
+            <span class="item-division-badge">Svářečská technika</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 60974-1, CE certifikace</div>
+            <h3 class="item-title">Svářecí technika Kühtreiber a Omicron</h3>
+            <p class="item-perex">Autorizovaný prodej a poradenství pro české svářecí zdroje Kühtreiber a Omicron – invertory MMA, TIG i poloautomaty MIG/MAG.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Svařovací invertory (MMA/TIG):</span> <span class="spec-v">Kompaktní lehké zdroje řady KITin a GAMA s funkcemi Hot Start, Arc Force, Anti Stick</span></div><div class="spec-pill"><span class="spec-k">Poloautomaty MIG/MAG:</span> <span class="spec-v">Průmyslové svářečky řad KIT a OMI s měděným vinutím a 4-kladkovým podavačem</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('svareci-stroje-kuhtreiber-omicron')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="plasmove-stroj-deleni-kovu" data-division="svareci">
+          <div class="item-img-wrap">
+            <img src="assets/svareci-material-1.jpg" alt="Plasmové řezací stroje pro dělení kovů" class="item-img" loading="lazy">
+            <span class="item-division-badge">Svářečská technika</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 60974-1, EN ISO 9013</div>
+            <h3 class="item-title">Plasmové řezací stroje pro dělení kovů</h3>
+            <p class="item-perex">Vysokovýkonné plasmové invertory pro rychlé a čisté řezání všech elektricky vodivých materiálů stlačeným vzduchem.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Dělené materiály:</span> <span class="spec-v">Uhlíková ocel, nerezová ocel, hliník, měď, mosaz</span></div><div class="spec-pill"><span class="spec-k">Kvalitní řez:</span> <span class="spec-v">Dělicí řezy do tloušťky materiálu až 25 mm, propal až 15 mm</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('plasmove-stroj-deleni-kovu')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="autogen-gce-pb-soupravy" data-division="svareci">
+          <div class="item-img-wrap">
+            <img src="assets/svareci-technika-1-nahled.jpg" alt="Autogenní technika GCE a PB ohřívací soupravy" class="item-img" loading="lazy">
+            <span class="item-division-badge">Svářečská technika</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN ISO 5172, EN ISO 2503</div>
+            <h3 class="item-title">Autogenní technika GCE a PB ohřívací soupravy</h3>
+            <p class="item-perex">Originální autogenní hořáky, řezáky, suché předlohy a redukční ventily tradičního českého výrobce GCE Chotěboř.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Řezací a svařovací nástavce:</span> <span class="spec-v">Řada GCE U7 a X511, řezací trysky na acetylen i propan-butan</span></div><div class="spec-pill"><span class="spec-k">Redukční ventily:</span> <span class="spec-v">Pro kyslík, acetylen, CO2, argon, směsné plyny a dusík s manometry</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('autogen-gce-pb-soupravy')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="samostmivaci-svarecske-kukly" data-division="svareci">
+          <div class="item-img-wrap">
+            <img src="assets/ochranne-pomucky.jpg" alt="Samostmívací kukly, svářečské štíty a kukly" class="item-img" loading="lazy">
+            <span class="item-division-badge">Svářečská technika</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 379, ČSN EN 175, optická třída 1/1/1/1</div>
+            <h3 class="item-title">Samostmívací kukly, svářečské štíty a kukly</h3>
+            <p class="item-perex">Profesionální ochrana zraku při svařování – samostmívací kazety s technologií reálných barev (True Color) a klasické štíty.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Stupeň zatmavení:</span> <span class="spec-v">DIN 4/9-13 plynule regulovatelný zvenčí nebo zevnitř</span></div><div class="spec-pill"><span class="spec-k">Rychlost zatmění:</span> <span class="spec-v">Méně než 0,00004 s (1/25 000 s), 4 optické senzory oblouku</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('samostmivaci-svarecske-kukly')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="svareci-draty-elektrody" data-division="svareci">
+          <div class="item-img-wrap">
+            <img src="assets/svareci-material-1-nahled.jpg" alt="Svařovací dráty, elektrody, pájky a tavidla" class="item-img" loading="lazy">
+            <span class="item-division-badge">Svářečská technika</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN ISO 2560-A, ČSN EN ISO 14341-A</div>
+            <h3 class="item-title">Svařovací dráty, elektrody, pájky a tavidla</h3>
+            <p class="item-perex">Kompletní přídavné materiály pro svařování – obalené elektrody bazické i rutilové, svařovací dráty SG2 a trubičkové dráty.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Obalené elektrody:</span> <span class="spec-v">Bazické E-B 121 (OK 48.00), rutilové E-R 117, nerezové a návarové</span></div><div class="spec-pill"><span class="spec-k">Dráty pro MIG/MAG:</span> <span class="spec-v">Poměděné i nepoměděné dráty G3Si1 / SG2 na cívkách K300 (15 kg) a D200 (5 kg)</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('svareci-draty-elektrody')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="svareci-chemie-prislusenstvi" data-division="svareci">
+          <div class="item-img-wrap">
+            <img src="assets/brusivo-1.jpg" alt="Svařovací chemie, separační kapaliny a spreje" class="item-img" loading="lazy">
+            <span class="item-division-badge">Svářečská technika</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN ISO 3452-1 (penetrační zkoušení), REACH certifikace</div>
+            <h3 class="item-title">Svařovací chemie, separační kapaliny a spreje</h3>
+            <p class="item-perex">Separační spreje proti ulpívání kuliček, penetrační kapaliny pro kapilární zkoušky svarů, mořicí pasty na nerez.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Separační spreje na hořáky:</span> <span class="spec-v">Bezsilikonové spreje a pasty proti napékání kuliček do hubice</span></div><div class="spec-pill"><span class="spec-k">Kapilární defektoskopie:</span> <span class="spec-v">Čistič, červený penetrant a bílý vývojka pro odhalení trhlin ve svarech</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('svareci-chemie-prislusenstvi')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="kompresory-rozvody-rilsan" data-division="vzduchotechnika">
+          <div class="item-img-wrap">
+            <img src="assets/vzduchotechnika.jpg" alt="Kompresory a rozvody stlačeného vzduchu RILSAN" class="item-img" loading="lazy">
+            <span class="item-division-badge">Vzduchotechnika & Nářadí</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 1012-1, tlaková třída PN 16</div>
+            <h3 class="item-title">Kompresory a rozvody stlačeného vzduchu RILSAN</h3>
+            <p class="item-perex">Pístové dílenské kompresory, tlakové spínače Condor, spirálové hadice a modulární trubkový rozvodný systém RILSAN.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Kompresory:</span> <span class="spec-v">Pístové kompresory s tlakovou nádobou 24 až 500 litrů, sací výkon 150 až 800 l/min</span></div><div class="spec-pill"><span class="spec-k">Systém RILSAN:</span> <span class="spec-v">Polyamidové rychlozástrčkové trubky a spojky pro rychlou montáž rozvodů vzduchu</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('kompresory-rozvody-rilsan')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="pneumaticke-naradi-pistole" data-division="vzduchotechnika">
+          <div class="item-img-wrap">
+            <img src="assets/vzduchotechnika-nahled.jpg" alt="Pneumatické pistole, manometry a příslušenství" class="item-img" loading="lazy">
+            <span class="item-division-badge">Vzduchotechnika & Nářadí</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 837-1 (tlakoměry), DIN ISO 4414</div>
+            <h3 class="item-title">Pneumatické pistole, manometry a příslušenství</h3>
+            <p class="item-perex">Ofukovací, stříkací, pískovací a hušticí pistole, údržbové jednotky filtrace a přimazávání, rychlospojky.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Údržbové jednotky:</span> <span class="spec-v">Filtr s regulátorem tlaku a mlhovým přimazávačem oleje pro ochranu pneu nářadí</span></div><div class="spec-pill"><span class="spec-k">Pracovní pistole:</span> <span class="spec-v">Ofukovací pistole, pískovací pistole se spodní nádobkou, pneu stříkací pistole</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('pneumaticke-naradi-pistole')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="brusivo-klingspor-tyrolit-carborundum" data-division="brusivo">
+          <div class="item-img-wrap">
+            <img src="assets/brusivo-2.jpg" alt="Profesionální brusivo Klingspor, Tyrolit a Carborundum" class="item-img" loading="lazy">
+            <span class="item-division-badge">Vzduchotechnika & Nářadí</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">EN 12413 (bezpečnost brusiva), oSa certifikace</div>
+            <h3 class="item-title">Profesionální brusivo Klingspor, Tyrolit a Carborundum</h3>
+            <p class="item-perex">Řezné a brusné kotouče, lamelové talíře, diamantové kotouče a technické frézy renomovaných evropských značek.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Řezné a brusné kotouče:</span> <span class="spec-v">Do úhlových brusek d = 115, 125, 150 a 230 mm (tenké řezné kotouče 1,0 mm)</span></div><div class="spec-pill"><span class="spec-k">Lamelové talíře:</span> <span class="spec-v">Zirkonové i keramické plátno pro broušení oceli a nerezi s vysokým úběrem</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('brusivo-klingspor-tyrolit-carborundum')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="elektricke-rucni-naradi-stroje" data-division="naradi">
+          <div class="item-img-wrap">
+            <img src="assets/naradi-1-nahled.jpg" alt="Elektrické ruční nářadí NAREX, PROTOOL, FERM a PROMA" class="item-img" loading="lazy">
+            <span class="item-division-badge">Vzduchotechnika & Nářadí</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN 62841, CE certifikace</div>
+            <h3 class="item-title">Elektrické ruční nářadí NAREX, PROTOOL, FERM a PROMA</h3>
+            <p class="item-perex">Obchodní zastoupení profesionálního dílenského nářadí – úhlové brusky, vrtačky, kladiva, stolní pily a obráběcí stroje.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Profesionální řada NAREX / HITACHI:</span> <span class="spec-v">Vysoce odolné úhlové brusky, aku šroubováky a vrtací kladiva pro denní nasazení</span></div><div class="spec-pill"><span class="spec-k">Stolní a dílenské stroje PROMA:</span> <span class="spec-v">Sloupové vrtačky, pásové pily na kov, stolní brusky, ohýbačky</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('elektricke-rucni-naradi-stroje')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog-item-card" data-id="komplexni-ochranne-pracovni-pomucky" data-division="ochranne-pomucky">
+          <div class="item-img-wrap">
+            <img src="assets/ochranne-pomucky-nahled.jpg" alt="Komplexní osobní ochranné pracovní pomůcky (OOPP)" class="item-img" loading="lazy">
+            <span class="item-division-badge">Vzduchotechnika & Nářadí</span>
+          </div>
+          <div class="item-body">
+            <div class="item-standard">ČSN EN ISO 11611 (svářečské oděvy), EN 388, EN 166</div>
+            <h3 class="item-title">Komplexní osobní ochranné pracovní pomůcky (OOPP)</h3>
+            <p class="item-perex">Certifikovaná ochrana sluchu, zraku, dýchacích cest i celého těla – svářečské zástěry, rukavice, brýle a respirátory.</p>
+            <div class="item-specs-preview">
+              <div class="spec-pill"><span class="spec-k">Svářečská ochrana těla:</span> <span class="spec-v">Kožené hovězinové zástěry, svářečské rukávníky, gamaše a odolné rukavice TIG/MIG</span></div><div class="spec-pill"><span class="spec-k">Ochrana dýchacích cest:</span> <span class="spec-v">Respirátory FFP2 a FFP3 s ventilkem, filtrační ventilační jednotky</span></div>
+            </div>
+            <div class="item-actions">
+              <button type="button" class="btn btn-detail" onclick="openTechDetail('komplexni-ochranne-pracovni-pomucky')">Technické parametry &rarr;</button>
+            </div>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-references" id="reference">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Prověřené reference</span>
+          <h2 class="section-title">Dlouhodobá spolupráce s lídry stavebnictví a průmyslu</h2>
+          <p class="section-subtitle">
+            V oblasti stavebního zámečnictví, montáží ocelových konstrukcí a spolehlivých dodávek materiálu nám důvěřují významné stavební a strojírenské podniky.
+          </p>
+        </div>
+
+        <div class="references-badges-grid reveal">
+          <div class="ref-badge">
+            <span class="ref-name">Metrostav a.s.</span>
+            <span class="ref-desc">Stavební zámečnictví a kovovýroba</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">STRABAG a.s.</span>
+            <span class="ref-desc">Dodávky a zámečnické montáže</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">VRBA s.r.o.</span>
+            <span class="ref-desc">Ocelové konstrukce a hutní materiál</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">VAPIS BOSKOVICE, spol. s r.o.</span>
+            <span class="ref-desc">Dlouhodobý odběr materiálů</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">TBG BETONMIX a.s.</span>
+            <span class="ref-desc">Technologické zámečnické díly</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">Mlékárna Otinoves s.r.o.</span>
+            <span class="ref-desc">Nerezové prvky a údržba provozu</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">SILNICE BRNO, spol. s r.o.</span>
+            <span class="ref-desc">Silniční zámečnické konstrukce</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">STESYS, s.r.o.</span>
+            <span class="ref-desc">Kovovýrobní technologické celky</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">Letostav, spol. s r.o.</span>
+            <span class="ref-desc">Stavební ocelové prvky</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">H3 Inženýrské stavby spol. s r.o.</span>
+            <span class="ref-desc">Mostní a inženýrské zámečnictví</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">AB KOMPONENTY s.r.o.</span>
+            <span class="ref-desc">Strojírenská spolupráce</span>
+          </div>
+          <div class="ref-badge">
+            <span class="ref-name">S.M.K., a.s. Skalní mlýn</span>
+            <span class="ref-desc">Zakázkové zámečnictví v regionu</span>
+          </div>
+        </div>
+
+        <div class="reference-quote-box reveal">
+          <div class="quote-text">
+            „S firmou BKJ METAL spolupracujeme dlouhodobě. Oceňujeme především rychlé dělení profilů na přesné míry, spolehlivost při dodávkách hutního i spojovacího materiálu a flexibilitu při řešení specifických zámečnických detailů na stavbách.“
+          </div>
+          <div class="quote-author">
+            <strong>Dlouhodobý partner ze stavebního sektoru</strong>
+            <span>Realizace staveb v Jihomoravském kraji a ČR</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-gallery" id="galerie">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Reálné fotky z provozu</span>
+          <h2 class="section-title">Fotogalerie výrobny, prodejny a realizovaných děl</h2>
+          <p class="section-subtitle">
+            Nahlédněte do našeho areálu v Blansku a prohlédněte si ukázky svařování, zámečnických prací a sortimentu na prodejně.
+          </p>
+        </div>
+
+        <div class="gallery-grid reveal">
+          <div class="gallery-item">
+            <img src="assets/prodejna.jpg" alt="Prodejna a zázemí BKJ METAL Blansko" loading="lazy">
+            <div class="gallery-caption">Prodejna a skladové zázemí Rožmitálova 34</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/p1080005.jpg" alt="Svařování v ochranné atmosféře TIG a MIG" loading="lazy">
+            <div class="gallery-caption">Svařování ocelových konstrukcí v ochranné atmosféře</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/pa300459.jpg" alt="Zámečnické svařence a konstrukce" loading="lazy">
+            <div class="gallery-caption">Svařené rámy a technologické dílce</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/pa100150.jpg" alt="Výroba a montáž zábradlí" loading="lazy">
+            <div class="gallery-caption">Zakázková výroba ocelových zábradlí a lávek</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/pa100151.jpg" alt="Příprava a řezání materiálu na pásové pile" loading="lazy">
+            <div class="gallery-caption">Přesné dělení nosníků a profilů na pásových pilách</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/p4140260.jpg" alt="Zastřešení z polykarbonátu a ocelová konstrukce" loading="lazy">
+            <div class="gallery-caption">Výroba a montáž přístřešků s polykarbonátem</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/dsc00314.jpg" alt="Sklad hutního materiálu a tyčí" loading="lazy">
+            <div class="gallery-caption">Sklad tyčové a kruhové oceli v Blansku</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/hutni-material.jpg" alt="Ocelové profily a nosníky" loading="lazy">
+            <div class="gallery-caption">Sortiment válcovaných ocelových profilů</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact" id="kontakt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-kicker">Přímý kontakt & Kde nás najdete</span>
+          <h2 class="section-title">Navštivte naši provozovnu nebo odešlete poptávku</h2>
+          <p class="section-subtitle">
+            Rádi vám zpracujeme nezávaznou nabídku na kovovýrobu, nadělíme materiál či doporučíme vhodnou svářečku a nářadí.
+          </p>
+        </div>
+
+        <div class="contact-split-grid reveal">
+          <div class="contact-info-panel">
+            <div class="company-card">
+              <h3>BKJ METAL s.r.o.</h3>
+              <p class="company-sub">Společnost pro kovovýrobu, svařování a dodávky materiálů (BKJ METAL WELD)</p>
+              
+              <div class="info-row">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="info-text">
+                  <strong>Sídlo a prodejna:</strong>
+                  <span>Rožmitálova 772/34, 678 01 Blansko</span>
+                </div>
+              </div>
+
+              <div class="info-row">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="info-text">
+                  <strong>Telefon:</strong>
+                  <a href="tel:+420516419090" class="contact-link">516 419 090</a>
+                </div>
+              </div>
+
+              <div class="info-row">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="info-text">
+                  <strong>E-mail:</strong>
+                  <a href="mailto:info@bkjmetal.cz" class="contact-link">info@bkjmetal.cz</a>
+                </div>
+              </div>
+
+              <div class="info-row">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div class="info-text">
+                  <strong>Prodejní doba:</strong>
+                  <span>Pondělí – Pátek: 7:30–12:00, 13:00–16:30</span>
+                </div>
+              </div>
+
+              <div class="legal-box">
+                <div class="legal-item"><strong>IČO:</strong> 27719189</div>
+                <div class="legal-item"><strong>DIČ:</strong> CZ27719189</div>
+                <div class="legal-item"><strong>Jednatel:</strong> Jiří Jokeš</div>
+                <div class="legal-item">Zápis v OR: Krajský soud v Brně, oddíl C, vložka 54406</div>
+              </div>
+            </div>
+
+            <form class="quick-inquiry-form" id="poptavka" onsubmit="handleInquirySubmit(event)">
+              <h4>Rychlý poptávkový formulář</h4>
+              <div class="form-group">
+                <label for="formName">Jméno a příjmení / Firma *</label>
+                <input type="text" id="formName" required placeholder="Vaše jméno nebo název společnosti">
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="formPhone">Telefon *</label>
+                  <input type="tel" id="formPhone" required placeholder="+420 ...">
+                </div>
+                <div class="form-group">
+                  <label for="formEmail">E-mail *</label>
+                  <input type="email" id="formEmail" required placeholder="jmeno@firma.cz">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="formDivision">Zvolte oblast poptávky *</label>
+                <select id="formDivision" required>
+                  <option value="kovovyroba">Zakázková kovovýroba a montáže</option>
+                  <option value="svarovani">Svařování MIG/MAG a TIG</option>
+                  <option value="hutni">Hutní materiál a dělení</option>
+                  <option value="spojovaci">Spojovací a kotevní materiál</option>
+                  <option value="polykarbonat">Polykarbonáty a přístřešky</option>
+                  <option value="svareci-technika">Svářecí technika a příslušenství</option>
+                  <option value="vzduchotechnika">Vzduchotechnika a rozvody</option>
+                  <option value="naradi-brusivo">Nářadí, brusivo a ochranné pomůcky</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="formMessage">Specifikace poptávky / Rozměry / Dotaz *</label>
+                <textarea id="formMessage" rows="4" required placeholder="Uveďte požadované množství, rozměry profilů nebo popis zámečnického dílu..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Odeslat nezávaznou poptávku</button>
+              <div id="formSuccess" class="form-success-msg" style="display:none;">Děkujeme! Poptávka byla úspěšně zaznamenána. Brzy se vám ozveme.</div>
+            </form>
+          </div>
+
+          <div class="contact-map-panel">
+            <div class="map-wrapper">
+              <iframe src="https://frame.mapy.cz/zakladni?x=16.64016&y=49.36053&z=16&source=coor&id=16.64016%2C49.36053" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" title="Mapa areálu BKJ METAL Blansko"></iframe>
+            </div>
+            <div class="map-actions">
+              <a href="https://mapy.cz/zakladni?x=16.64016&y=49.36053&z=16&source=coor&id=16.64016%2C49.36053" target="_blank" rel="noopener" class="btn btn-outline btn-block">
+                Zobrazit na Mapy.cz s červeným špendlíkem &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col footer-col-brand">
+        <a href="#uvod" class="footer-brand" aria-label="BKJ METAL - Zpět nahoru">
+          <img src="assets/logo_trans.png" alt="BKJ METAL s.r.o." class="footer-logo" width="140" height="72">
+        </a>
+        <p class="footer-desc">
+          Komplexní kovovýroba, zakázkové zámečnictví, svařování v ochranné atmosféře a prodej hutního materiálu, polykarbonátů a svářecí techniky v Blansku.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Sortiment a služby</h4>
+        <ul class="footer-links">
+          <li><a href="#katalog" onclick="filterCatalogByDivision('kovovyroba')">Kovovýroba & Svařování</a></li>
+          <li><a href="#katalog" onclick="filterCatalogByDivision('hutni')">Hutní a spojovací materiál</a></li>
+          <li><a href="#katalog" onclick="filterCatalogByDivision('polykarbonat')">Polykarbonát</a></li>
+          <li><a href="#katalog" onclick="filterCatalogByDivision('svareci')">Svářecí technika a materiál</a></li>
+          <li><a href="#katalog" onclick="filterCatalogByDivision('brusivo')">Brusivo</a></li>
+          <li><a href="#katalog" onclick="filterCatalogByDivision('naradi')">Nářadí</a></li>
+          <li><a href="#katalog" onclick="filterCatalogByDivision('vzduchotechnika')">Vzduchotechnika</a></li>
+          <li><a href="#katalog" onclick="filterCatalogByDivision('ochranne-pomucky')">Ochranné pomůcky</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Rychlá navigace</h4>
+        <ul class="footer-links">
+          <li><a href="#uvod">O nás</a></li>
+          <li><a href="#divize">Výrobní divize</a></li>
+          <li><a href="#katalog">Kapacitní katalog</a></li>
+          <li><a href="#reference">Reference</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontaktní adresa</h4>
+        <p class="footer-contact-p">
+          <strong>BKJ METAL s.r.o.</strong><br>
+          Rožmitálova 772/34<br>
+          678 01 Blansko<br>
+          Tel.: <a href="tel:+420516419090">516 419 090</a><br>
+          E-mail: <a href="mailto:info@bkjmetal.cz">info@bkjmetal.cz</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="footer-copy">
+        &copy; 2007–2026 BKJ METAL s.r.o. (BKJ METAL WELD) &bull; Všechna práva vyhrazena.
+      </div>
+      <div class="footer-meta">
+        IČO: 27719189 &bull; DIČ: CZ27719189 &bull; Blansko
+      </div>
+    </div>
+  </footer>
+
+  <div id="techModalBackdrop" class="tech-modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="modalItemTitle">
+    <div class="tech-modal-window">
+      <button id="techModalClose" class="tech-modal-close" aria-label="Zavřít technický detail" onclick="closeTechModal()">&times;</button>
+      <div class="tech-modal-content" id="techModalContent">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
