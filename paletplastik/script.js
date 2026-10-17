@@ -287,8 +287,11 @@ const counters = document.querySelectorAll(".stat-number");
 const counterObserver = new IntersectionObserver((entries, observer) => {
 entries.forEach(entry => {
 if (entry.isIntersecting) {
+observer.unobserve(entry.target);
+if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 const target = parseInt(entry.target.dataset.target, 10);
 let current = 0;
+entry.target.textContent = '0';
 const step = Math.max(1, Math.floor(target / 40));
 const timer = setInterval(() => {
 current += step;

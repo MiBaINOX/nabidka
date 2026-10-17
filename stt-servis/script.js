@@ -394,8 +394,11 @@ document.addEventListener('DOMContentLoaded', function () {
   const counters = document.querySelectorAll('.counter');
   let countersStarted = false;
   function startCounters() {
+    if (countersStarted) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     counters.forEach(function (counter) {
       const target = parseInt(counter.getAttribute('data-target'), 10) || 0;
+      counter.textContent = '0';
       const duration = 1600;
       const stepTime = 25;
       const steps = Math.ceil(duration / stepTime);

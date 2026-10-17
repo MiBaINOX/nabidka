@@ -192,10 +192,13 @@
   var observer = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
       if (entry.isIntersecting) {
+        observer.unobserve(entry.target);
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
         var el = entry.target;
         var target = parseInt(el.getAttribute('data-target'), 10);
         var count = 0;
         var inc = Math.max(1, Math.ceil(target / speed));
+        el.textContent = '0';
         var timer = setInterval(function () {
           count += inc;
           if (count >= target) {

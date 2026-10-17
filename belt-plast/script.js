@@ -199,9 +199,11 @@ document.addEventListener('DOMContentLoaded', function () {
   function animateCounters() {
     if (countersAnimated) return;
     countersAnimated = true;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     document.querySelectorAll('.counter-val').forEach(function (counter) {
       const target = parseInt(counter.getAttribute('data-target'), 10);
+      counter.textContent = '0';
       const duration = 1600;
       const start = 0;
       const startTime = performance.now();

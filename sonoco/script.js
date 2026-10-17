@@ -39,8 +39,10 @@ let countersStarted = false;
 function initCounters() {
 if (countersStarted) return;
 countersStarted = true;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 document.querySelectorAll('.counter').forEach(cnt => {
 const target = parseInt(cnt.getAttribute('data-target'), 10);
+        cnt.textContent = '0';
 const duration = 1500;
 const stepTime = 30;
 const totalSteps = duration / stepTime;

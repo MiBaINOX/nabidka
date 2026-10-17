@@ -24,8 +24,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const counterObserver = new IntersectionObserver(function (entries, observer) {
     entries.forEach(function (entry) {
       if (entry.isIntersecting) {
+        observer.unobserve(entry.target);
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
         const target = parseInt(entry.target.getAttribute("data-target"), 10);
         let start = 0;
+        entry.target.textContent = '0';
         const duration = 1200;
         const stepTime = 20;
         const totalSteps = duration / stepTime;

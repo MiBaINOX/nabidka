@@ -196,8 +196,11 @@ document.addEventListener('DOMContentLoaded', () => {
       entries.forEach(entry => {
         if (entry.isIntersecting && !countersStarted) {
           countersStarted = true;
+          statsObserver.unobserve(entry.target);
+          if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
           statNumbers.forEach(num => {
             const target = parseInt(num.getAttribute('data-target') || '0', 10);
+            num.textContent = '0';
             const duration = 1500;
             const startTime = performance.now();
             function updateCounter(currentTime) {

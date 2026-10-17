@@ -313,8 +313,10 @@ document.addEventListener('DOMContentLoaded', () => {
   let countersStarted = false;
 
   function runCounters() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     counters.forEach(counter => {
       const target = parseInt(counter.getAttribute('data-target'), 10) || 0;
+      counter.textContent = '0';
       const duration = 1600;
       const start = 0;
       const startTime = performance.now();

@@ -41,8 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting && !countersStarted) {
                 countersStarted = true;
+                counterObserver.unobserve(entry.target);
+                if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
                 counters.forEach(counter => {
                     const target = parseInt(counter.getAttribute('data-target'), 10);
+                    counter.textContent = '0';
                     const duration = 1600;
                     const stepTime = 20;
                     const steps = duration / stepTime;

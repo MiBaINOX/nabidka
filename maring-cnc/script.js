@@ -204,6 +204,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const counterObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
+        observer.unobserve(entry.target);
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
           const el = entry.target;
           const target = parseInt(el.getAttribute("data-target"), 10);
           if (!isNaN(target)) {

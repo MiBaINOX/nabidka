@@ -73,9 +73,11 @@
   function startCounters() {
     if (countersStarted) return;
     countersStarted = true;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     counters.forEach(function (counter) {
       var target = parseInt(counter.getAttribute('data-target'), 10) || 0;
+      counter.textContent = '0';
       var current = 0;
       var step = Math.max(1, Math.floor(target / 40));
       if (target > 1900) {

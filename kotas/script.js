@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function runCounters() {
+        if (window.matchMedia(\'(prefers-reduced-motion: reduce)\').matches) return;
         document.querySelectorAll('.stat-counter').forEach(counter => {
             const target = parseInt(counter.getAttribute('data-target'), 10);
             const duration = 1600;

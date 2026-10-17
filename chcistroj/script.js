@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function runCounters() {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
         document.querySelectorAll('.stat-num').forEach(counter => {
             const target = parseFloat(counter.getAttribute('data-target'));
             const suffix = counter.getAttribute('data-suffix') || '';
@@ -51,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     counter.textContent = target + suffix;
                 }
             }
+            counter.textContent = (isYear ? \'1990\' : \'0\') + suffix;
             requestAnimationFrame(update);
         });
     }

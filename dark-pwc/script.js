@@ -475,11 +475,13 @@ document.addEventListener('DOMContentLoaded', function () {
   var countersStarted = false;
 
   function runCounters() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     counterElements.forEach(function (el) {
       var target = parseInt(el.getAttribute('data-counter-target'), 10);
       var prefix = el.getAttribute('data-counter-prefix') || '';
       var suffix = el.getAttribute('data-counter-suffix') || '';
       if (isNaN(target)) return;
+      el.textContent = prefix + '0' + suffix;
 
       var current = 0;
       var duration = 1400;

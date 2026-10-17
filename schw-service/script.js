@@ -87,22 +87,27 @@ function initCounters() {
         entries.forEach(entry => {
             if (entry.isIntersecting && !started) {
                 started = true;
+                observer.unobserve(entry.target);
+                if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
                 counters.forEach(counter => {
-                    const target = parseInt(counter.getAttribute('data-target'), 10);
+                    const target = parseInt(counter.getAttribute('data-target') || counter.textContent, 10);
+                    if (isNaN(target)) return;
+                    counter.textContent = '0';
                     const duration = 1600;
-                    const stepTime = 20;
-                    const steps = duration / stepTime;
-                    const inc = target / steps;
-                    let current = 0;
-                    const timer = setInterval(() => {
-                        current += inc;
-                        if (current >= target) {
-                            counter.textContent = target;
-                            clearInterval(timer);
+                    const startTime = performance.now();
+                    function update(now) {
+                        const elapsed = now - startTime;
+                        const progress = Math.min(elapsed / duration, 1);
+                        const easeOut = 1 - Math.pow(1 - progress, 3);
+                        const current = Math.floor(easeOut * target);
+                        if (progress < 1) {
+                            counter.textContent = current;
+                            requestAnimationFrame(update);
                         } else {
-                            counter.textContent = Math.floor(current);
+                            counter.textContent = target;
                         }
-                    }, stepTime);
+                    }
+                    requestAnimationFrame(update);
                 });
             }
         });

@@ -214,10 +214,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const obs = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
+          observer.unobserve(entry.target);
+          if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
           const el = entry.target;
           const target = parseInt(el.getAttribute("data-target"), 10);
           let current = 0;
           const step = Math.max(1, Math.ceil(target / 40));
+          el.innerText = '0';
           const timer = setInterval(() => {
             current += step;
             if (current >= target) {

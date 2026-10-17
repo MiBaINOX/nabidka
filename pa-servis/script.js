@@ -49,11 +49,13 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function startPaCounters(scope) {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const counters = scope.querySelectorAll ? scope.querySelectorAll(".counter") : [scope];
     counters.forEach(counter => {
         if (counter.dataset.counted) return;
         counter.dataset.counted = "true";
         const target = parseInt(counter.dataset.target, 10);
+        counter.textContent = '0';
         const duration = 1600;
         const stepTime = 30;
         const steps = duration / stepTime;

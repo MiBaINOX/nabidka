@@ -387,9 +387,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const statsObserver = new IntersectionObserver(function (entries, observer) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
+          statsObserver.unobserve(entry.target);
+          if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
           const el = entry.target;
           const targetNum = parseInt(el.getAttribute('data-target'), 10);
           if (!isNaN(targetNum)) {
+            el.textContent = '0';
             let start = 0;
             const duration = 1200;
             const stepTime = 20;

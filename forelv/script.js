@@ -78,9 +78,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function runCounters() {
     if (countersStarted) return;
     countersStarted = true;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     if (window.location.search.indexOf('ref=capture') !== -1) return;
     counters.forEach(function(counter) {
       var target = parseInt(counter.getAttribute('data-target'), 10) || 0;
+      counter.textContent = '0';
       var duration = 1600;
       var start = 0;
       var startTime = null;

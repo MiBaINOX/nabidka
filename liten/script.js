@@ -148,8 +148,10 @@ document.addEventListener("DOMContentLoaded", () => {
   let countersAnimated = false;
   function animateCounters() {
     if (countersAnimated) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     counterElements.forEach(el => {
       const target = parseInt(el.getAttribute("data-count"), 10);
+      counter.textContent = '0';
       const duration = 1200;
       const stepTime = 20;
       const steps = duration / stepTime;

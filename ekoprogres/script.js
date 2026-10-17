@@ -140,9 +140,11 @@
   function runCounters() {
     if (countersDone) return;
     countersDone = true;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     counters.forEach(function (c) {
       var target = parseInt(c.getAttribute('data-target'), 10) || 0;
+      c.textContent = '0';
       var cur = 0;
       var step = Math.max(1, Math.floor(target / 40));
       if (target > 1900 && target < 2050) {

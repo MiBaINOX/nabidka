@@ -46,9 +46,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function animateCounters() {
     if (statsTriggered) return;
     statsTriggered = true;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     statValues.forEach(function(el) {
       const target = parseInt(el.getAttribute('data-target'), 10);
+      el.textContent = '0';
       let current = 0;
       const stepTime = Math.max(20, Math.floor(1500 / target));
       const timer = setInterval(function() {

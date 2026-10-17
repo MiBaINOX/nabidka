@@ -28,10 +28,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function runCounters() {
+        if (window.matchMedia(\'(prefers-reduced-motion: reduce)\').matches) return;
         document.querySelectorAll('.stat-number').forEach(function (el) {
             var target = parseInt(el.getAttribute('data-target'), 10);
             var current = 0;
             var step = Math.max(1, Math.floor(target / 40));
+            el.textContent = '0';
             var interval = setInterval(function () {
                 current += step;
                 if (current >= target) {

@@ -189,11 +189,12 @@ function initCounters() {
         entries.forEach(function(entry) {
             if (entry.isIntersecting) {
                 var el = entry.target;
-                var target = parseInt(el.getAttribute('data-count'), 10);
+                obs.unobserve(el);
+                if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+                var target = parseInt(el.getAttribute('data-count') || el.getAttribute('data-target') || el.textContent, 10);
                 if (!isNaN(target)) {
                     animateNumber(el, target);
                 }
-                obs.unobserve(el);
             }
         });
     }, { threshold: 0.3 });
@@ -204,18 +205,23 @@ function initCounters() {
 }
 
 function animateNumber(el, target) {
-    var current = 0;
-    var step = Math.ceil(target / 40);
-    var timer = setInterval(function() {
-        current += step;
-        if (current >= target) {
-            current = target;
-            clearInterval(timer);
-            el.textContent = target + '+';
+    el.textContent = '0';
+    var duration = 1400;
+    var startTime = performance.now();
+    var hasPlus = target > 25;
+    function update(now) {
+        var elapsed = now - startTime;
+        var progress = Math.min(elapsed / duration, 1);
+        var easeOut = 1 - Math.pow(1 - progress, 3);
+        var current = Math.floor(easeOut * target);
+        if (progress < 1) {
+            el.textContent = current + (hasPlus ? '+' : '');
+            requestAnimationFrame(update);
         } else {
-            el.textContent = current + '+';
+            el.textContent = target + (hasPlus ? '+' : '');
         }
-    }, 25);
+    }
+    requestAnimationFrame(update);
 }
 
 function initPing() {

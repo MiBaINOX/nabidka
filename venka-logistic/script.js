@@ -301,9 +301,11 @@ let animated = false;
 
 function animateCounters() {
 if (animated) return;
+if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 statNumbers.forEach(function(num) {
 const target = parseInt(num.getAttribute("data-target"), 10);
 if (!target) return;
+num.textContent = '0';
 let current = 0;
 const step = Math.max(1, Math.floor(target / 40));
 const timer = setInterval(function() {

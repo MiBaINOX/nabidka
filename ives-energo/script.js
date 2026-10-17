@@ -36,8 +36,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var statCards = document.querySelectorAll('.stat-num');
   function animateStats() {
     if (statsAnimated) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     statCards.forEach(function(stat) {
       var target = parseInt(stat.getAttribute('data-target'), 10) || 0;
+      stat.textContent = '0';
       var current = 0;
       var step = Math.max(1, Math.floor(target / 30));
       var timer = setInterval(function() {

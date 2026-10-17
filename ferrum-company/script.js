@@ -43,8 +43,10 @@
 
   function runCounters() {
     if (countersDone) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     counters.forEach(function (c) {
       var target = parseInt(c.getAttribute('data-target'), 10);
+      c.textContent = '0';
       var current = 0;
       var increment = Math.max(1, Math.ceil(target / 35));
       var timer = setInterval(function () {

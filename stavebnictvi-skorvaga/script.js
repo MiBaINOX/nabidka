@@ -43,8 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const countObserver = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting && !counted) {
                 counted = true;
+                countObserver.unobserve(statSection);
+                if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
                 document.querySelectorAll('.stat-counter').forEach(cnt => {
                     const target = parseInt(cnt.getAttribute('data-target'), 10);
+                    cnt.textContent = '0';
                     let current = 0;
                     const step = Math.max(1, Math.ceil(target / 40));
                     const timer = setInterval(() => {

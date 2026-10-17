@@ -421,9 +421,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function runCounters() {
     if (countersStarted) return;
     countersStarted = true;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     counters.forEach(function(counter) {
       var target = parseInt(counter.getAttribute('data-counter-target'), 10) || 0;
+      counter.textContent = '0';
       var duration = 1500;
       var start = 0;
       var startTime = null;

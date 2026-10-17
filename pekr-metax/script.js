@@ -57,8 +57,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const counters = document.querySelectorAll('.counter');
   let countersDone = false;
   function runCounters() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     counters.forEach(function (c) {
       const target = parseInt(c.getAttribute('data-target'), 10) || 0;
+      c.textContent = '0';
       const duration = 1400;
       const step = 25;
       const steps = Math.ceil(duration / step);

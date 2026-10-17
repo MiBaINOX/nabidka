@@ -667,7 +667,9 @@ document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 function runCounter(counterEl) {
 if (!counterEl || counterEl.dataset.started) return;
 counterEl.dataset.started = 'true';
+if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 const target = parseInt(counterEl.getAttribute('data-target'), 10);
+counterEl.textContent = '0';
 const duration = 1400;
 const stepTime = 30;
 const totalSteps = duration / stepTime;

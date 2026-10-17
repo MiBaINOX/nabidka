@@ -169,8 +169,10 @@ document.addEventListener("DOMContentLoaded", function () {
   function startCounters() {
     if (countersStarted) return;
     countersStarted = true;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     counters.forEach(function (counter) {
       const target = parseFloat(counter.getAttribute("data-target")) || 0;
+      counter.textContent = '0';
       const duration = 1200;
       const stepTime = 30;
       const steps = duration / stepTime;

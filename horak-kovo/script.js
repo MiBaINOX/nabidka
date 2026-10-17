@@ -216,6 +216,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function animateCounters() {
         if (statsAnimated) return;
         statsAnimated = true;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
         statNums.forEach(function (el) {
             const target = parseInt(el.getAttribute('data-target'), 10);
             if (isNaN(target)) return;

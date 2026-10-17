@@ -250,9 +250,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const counterObserver = new IntersectionObserver((entries, obs) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
+observer.unobserve(entry.target);
+if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
         const target = parseInt(entry.target.getAttribute('data-target'), 10);
         if (!isNaN(target)) {
           let current = 0;
+entry.target.textContent = '0';
           const step = Math.max(1, Math.floor(target / 40));
           const timer = setInterval(() => {
             current += step;

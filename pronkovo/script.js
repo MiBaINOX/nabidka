@@ -489,7 +489,10 @@ function initCounters() {
   const obs = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
+        observer.unobserve(entry.target);
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
         const el = entry.target;
+        el.textContent = '0';
         const target = parseInt(el.getAttribute('data-target') || '0', 10);
         let start = 0;
         const duration = 1200;

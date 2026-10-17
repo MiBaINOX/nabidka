@@ -226,8 +226,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const statObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
+          observer.unobserve(entry.target);
+          if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
           const target = parseInt(entry.target.getAttribute('data-target'), 10);
           if (!isNaN(target)) {
+            entry.target.textContent = '0';
             let current = 0;
             const duration = 1500;
             const stepTime = 30;
