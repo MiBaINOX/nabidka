@@ -1,0 +1,32 @@
+{
+  "slug": "wakelift",
+  "firma": "WAKELIFT s.r.o.",
+  "ico": "04679016",
+  "url": "http://wakelift.cz",
+  "pages_count": 1,
+  "photos_count": 15,
+  "menu_categories": [
+    "O vleku",
+    "Technologie",
+    "Parametry",
+    "Reference",
+    "Kontakt"
+  ],
+  "images": [
+    "wakelift-banner.jpg",
+    "wakelift-pavel-trcala-ride.jpg",
+    "wakelift-mast.jpg",
+    "wakelift-mast-sky.jpg",
+    "wakelift-turn.jpg",
+    "wakelift-lenght.jpg",
+    "wakelift-transport.jpg",
+    "wakelift-installation.jpg",
+    "wakelift-mast-rider.jpg",
+    "wakelift-beginner.jpg",
+    "wakelift-pavel-trcala-raley.jpg",
+    "wakelift-grab.jpg",
+    "wakelift-paint.jpg",
+    "wakelift-carrier.jpg",
+    "video-thumb.jpg"
+  ]
+}

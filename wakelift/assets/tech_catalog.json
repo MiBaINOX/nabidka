@@ -1,0 +1,166 @@
+[
+  {
+    "id": "pohonna_stanice",
+    "title": "Kapotovaná pohonná stanice",
+    "category": "Pohon a elektromechanika",
+    "image": "assets/wakelift-paint.jpg",
+    "short_desc": "Uzavřená kapotovaná stanice s elektromotorem 7,5 kW (380 V), frekvenčním měničem a plynulou regulací.",
+    "full_desc": "Jako jediný výrobce na trhu poskytuje WAKELIFT plně kapotovanou pohonnou i vratnou stanici s nadčasovým aerodynamickým designem chránícím veškerou mechaniku a elektroniku před povětrnostními vlivy. Stanice je vybavena frekvenčním měničem pro hladký rozjezd od 0 km/h do 40 km/h.",
+    "specs": [
+      {
+        "param": "Výkon motoru",
+        "val": "7,5 kW"
+      },
+      {
+        "param": "Napájení",
+        "val": "380 V / 50 Hz"
+      },
+      {
+        "param": "Rychlost pojezdu",
+        "val": "0 až 40 km/h"
+      },
+      {
+        "param": "Konstrukční provedení",
+        "val": "Plně kapotovaná skříň"
+      },
+      {
+        "param": "Povrchová úprava",
+        "val": "Žárový zinek / práškový lak"
+      }
+    ]
+  },
+  {
+    "id": "vratna_stanice",
+    "title": "Kapotovaná vratná stanice",
+    "category": "Mechanika a napínání",
+    "image": "assets/wakelift-turn.jpg",
+    "short_desc": "Vratná stanice s možností pevného kotvení v základní výbavě nebo napínání protizávažím pro delší tratě.",
+    "full_desc": "Robustní vratná stanice s velkoryse dimenzovanou lanovnicí pro minimální opotřebení tažného lana. V základní ceně nabízí pevné kotvení, pro delší dráhy (až 250 metrů) je připraven systém dopínání protizávažím s hydraulickým nebo gravitačním mechanismem.",
+    "specs": [
+      {
+        "param": "Typ kotvení",
+        "val": "Pevné kotvení / dopínání protizávažím"
+      },
+      {
+        "param": "Délka dráhy",
+        "val": "100 až 250 metrů"
+      },
+      {
+        "param": "Uložení ložisek",
+        "val": "Průmyslová bezúdržbová pouzdra"
+      },
+      {
+        "param": "Ochrana mechanismu",
+        "val": "Kapotáž s odvodem kondenzátu"
+      }
+    ]
+  },
+  {
+    "id": "sloupy_konstrukce",
+    "title": "Segmentové ocelové sloupy ve tvaru A",
+    "category": "Nosná konstrukce",
+    "image": "assets/wakelift-mast.jpg",
+    "short_desc": "Modulární sloupy výšky 3 až 9 metrů v dílech po 2 a 3 metrech, umožňující ruční transport a montáž.",
+    "full_desc": "Základem vleku jsou robustní ocelové sloupy ve tvaru A. Jsou konstruovány ze segmentů o délce 2 nebo 3 metry, což umožňuje variabilní výšku (3 až 9 m) podle terénu a hladiny vody. Všechny díly lze přenášet ručně a přepravovat běžným osobním automobilem či přívěsným vozíkem.",
+    "specs": [
+      {
+        "param": "Výška sloupů",
+        "val": "3 až 9 metrů"
+      },
+      {
+        "param": "Délka segmentů",
+        "val": "2 metry nebo 3 metry"
+      },
+      {
+        "param": "Geometrie",
+        "val": "A-sloup s vysokou torzní tuhostí"
+      },
+      {
+        "param": "Materiál",
+        "val": "Konstrukční ocel dle ČSN EN 1993"
+      },
+      {
+        "param": "Instalace",
+        "val": "Možná i bez těžké mechanizace"
+      }
+    ]
+  },
+  {
+    "id": "pojezdovy_unasec",
+    "title": "Unašeč s elektronickým snímáním polohy",
+    "category": "Bezpečnost a monitoring",
+    "image": "assets/wakelift-carrier.jpg",
+    "short_desc": "Bezpečný pojezdový unašeč s elektronickými i mechanickými koncovými dorazy a dálkovým monitoringem.",
+    "full_desc": "Patentově chráněný pojezdový unašeč se senzory přesné polohy na lanové dráze. Zajišťuje bezpečné zpomalení před stanicí a okamžité zastavení při jakémkoliv vychýlení či pádu jezdce. Počítač zaznamenává veškeré jízdy a poskytuje kontrolu obsluhy i dálkový přehled přes mobil.",
+    "specs": [
+      {
+        "param": "Dorazový systém",
+        "val": "Elektronické i mechanické dorazy"
+      },
+      {
+        "param": "Detekce polohy",
+        "val": "Průmyslové indukční a optické snímače"
+      },
+      {
+        "param": "Kapacita",
+        "val": "1 jezdec s individuálním řízením"
+      },
+      {
+        "param": "Bezpečnostní limit",
+        "val": "Okamžité nouzové zastavení do 1,5 m"
+      }
+    ]
+  },
+  {
+    "id": "rizeni_reverzace",
+    "title": "Automatické i manuální PLC řízení",
+    "category": "Řízení a software",
+    "image": "assets/wakelift-installation.jpg",
+    "short_desc": "Flexibilní přepínání mezi plně automatickou reverzací pro plynulou jízdu a manuálním módem pro trénink triků.",
+    "full_desc": "Řídicí rozvaděč umožňuje obsluze během sekundy přepínat mezi automatickým režimem reverzace (jezdec jezdí tam a zpět bez přerušení a bez časového omezení) a manuálním řízením (pro výuku začátečníků či nácvik konkrétních překážek a triků s okamžitým zastavením).",
+    "specs": [
+      {
+        "param": "Režimy provozu",
+        "val": "Automatická reverzace / Manuální joystick"
+      },
+      {
+        "param": "Počítačový dohled",
+        "val": "Statistiky jízd, monitorování zátěže"
+      },
+      {
+        "param": "Dálkový přístup",
+        "val": "Možnost správy přes mobilní aplikaci"
+      },
+      {
+        "param": "Krytí rozvaděče",
+        "val": "IP65 pro venkovní použití"
+      }
+    ]
+  },
+  {
+    "id": "lana_kotveni",
+    "title": "Vysokopevnostní lana a kotevní systém",
+    "category": "Lana a základy",
+    "image": "assets/wakelift-lenght.jpg",
+    "short_desc": "Speciální tažné lano 8 mm nebo 9 mm a flexibilní kotvení do betonových základů nebo prefabrikovaných panelů.",
+    "full_desc": "Systém využívá ocelová lana o průměru 8 mm nebo 9 mm s vysokou mezí pevnosti v tahu a odolností proti povětrnostním vlivům a vodě. Kotvení sloupů se provádí buď do betonových patek v břehu, nebo pomocí betonových zátěží a panelů, což usnadňuje instalaci v chráněných krajinných oblastech.",
+    "specs": [
+      {
+        "param": "Průměr lana",
+        "val": "8 mm nebo 9 mm"
+      },
+      {
+        "param": "Typ lana",
+        "val": "Vysokopevnostní pozinkované / syntetické jádro"
+      },
+      {
+        "param": "Kotvení",
+        "val": "Betonové základy nebo panely"
+      },
+      {
+        "param": "Doporučená délka",
+        "val": "100 až 200 metrů (max. 250 m)"
+      }
+    ]
+  }
+]

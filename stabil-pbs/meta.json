@@ -1,0 +1,54 @@
+{
+  "slug": "stabil-pbs",
+  "firma": "STABIL PBS s.r.o.",
+  "ico": "02468573",
+  "dic": "CZ02468573",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "adresa": "Tuřanka 1222/115, Slatina, 627 00 Brno",
+  "telefon": "+420 731 042 532",
+  "telefon_pevna": "+420 532 123 023",
+  "email": "stabilpbs@stabilpbs.cz",
+  "stary_web": "http://stabilpbs.cz",
+  "obor_plny": "Požární bezpečnost staveb (PBS), stabilní hasicí zařízení (SHZ), elektrická požární signalizace (EPS), protipožární ucpávky a odvod kouře a tepla (ZOKT)",
+  "archetyp": "Swiss Bento Grid",
+  "jazyky": ["CZ"],
+  "prodejni_body": [
+    "Více než 20 let specializované praxe v požární bezpečnosti staveb na slovenském i českém trhu (od 2003 / v ČR od 2013)",
+    "Referenční portfolio kritické infrastruktury: Atomové elektrárny Jaslovské Bohunice V1 a V2, ropné zásobníky Transpetrol, automobilka PSA Trnava a Slovnaft",
+    "Komplexní cyklus od projekce PBŘ, přes dodávku a certifikovanou montáž až po záruční servis a zákonné revize PBZ",
+    "Partnerství se světovými technologickými lídry: LPG Extinción, Siemens Building Technologies, ESSER by Honeywell, GEZE, Rolland Sprinklers a G+H Montage",
+    "Nový moderní Swiss Bento Grid web s interaktivním technickým katalogem systémů, vyhledáváním dle norem ČSN EN a přímou kalkulací poptávky"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené HTTP spojení bez platného SSL/TLS certifikátu (moderní prohlížeče varují před rizikem)",
+    "Chybějící meta viewport a nulová mobilní responzivita (na chytrých telefonech a tabletech vyžaduje horizontální scrollování a přibližování prsty)",
+    "Archaický tabulkový layout z roku 2013 s pevnou šířkou 800 px",
+    "Absence moderního katalogu technických listů a norem ČSN EN 1366 / ČSN EN 12845 pro projektanty a stavbyvedoucí",
+    "Statický nepřehledný seznam referencí bez interaktivního filtrování dle typu technologie (SHZ / EPS / ZOKT / Pasivní PBS)"
+  ],
+  "vylepseni_noveho_webu": [
+    "Responzivní Swiss Bento Grid design s bleskovou rychlostí načtení a optimalizací pro mobilní telefony i 4K monitory",
+    "Interaktivní technický katalog 12 systémů požární ochrany s filtrováním dle technologií a modálním oknem pro technické parametry",
+    "Dynamické vyhledávání a filtrování referencí rozdělených na kritickou energetiku, průmysl, logistiku a občanské stavby",
+    "Přímý interaktivní poptávkový formulář s výběrem kategorie PBZ a specifikací objektu",
+    "Ověřená geografická lokalizace areálu ve Slatině s interaktivní Mapy.cz mapou a oficiálním červeným špendlíkem RÚIAN"
+  ],
+  "fakta": {
+    "rok_zalozeni_cr": 2013,
+    "praxe_let": 20,
+    "systemu_v_katalogu": 12,
+    "pocet_partneru": 8,
+    "pocet_referenci": 35,
+    "jednatele": [
+      "Václav Mikula",
+      "Tibor Stano",
+      "Peter Okoličányi"
+    ],
+    "gps": {
+      "lat": 49.16852,
+      "lon": 16.67898
+    }
+  }
+}

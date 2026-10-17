@@ -1,0 +1,26 @@
+{
+  "company": "AG Engineering s.r.o.",
+  "ico": "02507498",
+  "web": "http://agengineering.cz",
+  "menu_categories": [
+    "O firmě",
+    "Služby",
+    "Reference",
+    "Kontakt"
+  ],
+  "pages_crawled_count": 4,
+  "pages": [
+    "http://agengineering.cz/#o-firme",
+    "http://agengineering.cz/#sluzby",
+    "http://agengineering.cz/#reference",
+    "http://agengineering.cz/#kontakt"
+  ],
+  "images_count": 5,
+  "downloaded_assets": [
+    "ag-engineering-logo.png",
+    "ales-grosek-kolaudace-staveb-brno-top.png",
+    "ales-grosek-kolaudace-staveb-brno-bottom.png",
+    "bottom-line-photo.png",
+    "img-noise-361x370.png"
+  ]
+}

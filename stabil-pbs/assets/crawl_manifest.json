@@ -1,0 +1,84 @@
+{
+  "slug": "stabil-pbs",
+  "base_url": "http://stabilpbs.cz",
+  "pages_crawled_count": 12,
+  "pages": [
+    {
+      "url": "http://stabilpbs.cz",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz/index.php",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz?page=uvod",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz?page=produkty",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz?page=partneri",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz?page=reference",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz?page=kontakty",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz/index.php?page=uvod",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz/index.php?page=produkty",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz/index.php?page=partneri",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz/index.php?page=reference",
+      "title": "STABIL PBS s.r.o."
+    },
+    {
+      "url": "http://stabilpbs.cz/index.php?page=kontakty",
+      "title": "STABIL PBS s.r.o."
+    }
+  ],
+  "menu_categories": [
+    "Produkty",
+    "Partneři",
+    "Reference",
+    "Kontakty"
+  ],
+  "images_count": 4,
+  "images": [
+    {
+      "url": "http://stabilpbs.cz/images/copy.gif",
+      "filename": "copy.gif",
+      "size": 618
+    },
+    {
+      "url": "http://stabilpbs.cz/images/areal_slatina.jpg",
+      "filename": "areal_slatina.jpg",
+      "size": 354009
+    },
+    {
+      "url": "http://stabilpbs.cz/images/arrow.gif",
+      "filename": "arrow.gif",
+      "size": 52
+    },
+    {
+      "url": "http://stabilpbs.cz/images/banner_pbs.png",
+      "filename": "banner_pbs.png",
+      "size": 147935
+    }
+  ]
+}

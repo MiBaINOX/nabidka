@@ -1,0 +1,277 @@
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+
+<TITLE>:: WAKELIFT :: VÝROBCE VLEKŮ NA VODNÍ LYŽOVÁNÍ A WAKEBOARDING</TITLE>
+
+<HTML>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+
+<meta name="keywords" content=wakeboard, vodné lyžovanie, cable wakeboarding, vodnolyžarské vleky, pavel trčala>
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+
+</head>
+
+<style>
+a:link    {color: black}
+a:visited    {color: black}
+a:active    {color: red}
+a:hover  {font-weight: bold; text-decoration: none}
+img	{border:0px;} 
+body {background-image:url("../images/pozadi.jpg"); background-repeat:no-repeat; background-position:center top; background-attachment:fixed} 
+</style>
+
+<style>
+a:link    {color: black}
+a:visited    {color: black}
+a:active    {color: red}
+a:hover  {font-weight: bold; text-decoration: none}
+</style>
+
+<CENTER>
+
+<TABLE width=904 cols=1 cellSpacing=0 cellPadding=10 border=0>
+
+<TR>
+<TD width=884 bgcolor="#FFFF00" ALIGN="center">
+
+<P><IMG SRC="../images/wakelift-banner.jpg" height=124 width=884 border=0></p>
+
+</TD>
+</TR>
+</TABLE>
+
+<TABLE>
+<TR>
+
+<TD WIDTH="904" HEIGHT="10" VALIGN="top" ALIGN="center">
+
+</TD>
+</TR>
+</TABLE>
+
+<TABLE width=904 cols=1 cellSpacing=0 cellPadding=10 border=0>
+
+<TR>
+<TD width=884 bgcolor="#FFFF00" ALIGN="left">
+
+<FONT face="Arial" SIZE="2" COLOR="black" ALIGN="center">
+
+<P><B>PODÍVEJTE SE NA VIDEO O VLEKU WAKELIFT</B></p>
+
+<iframe width="884" height="497" src="https://www.youtube.com/embed/pPAuF4NsIxE" frameborder="0" allowfullscreen></iframe>
+
+</TD>
+</TR>
+</TABLE>
+
+<TABLE>
+<TR>
+<TD WIDTH="904" HEIGHT="10"></TD>
+</TR>
+</TABLE>
+
+<TABLE width=904 cols=1 cellSpacing=0 cellPadding=10 border=0>
+
+<TR>
+<TD WIDTH="884" VALIGN="top" ALIGN="left" bgcolor="#FFFF00">
+
+<FONT face="Arial" SIZE="2" COLOR="black" ALIGN="LEFT">
+
+<P><B>PRO KOHO JSOU URČENÉ VLEKY WAKELIFT</B></p>
+
+<P>Firma WAKELIFT je prvním moravským vyrobcem vleků na vodní lyžování a wakeboarding.  Jako jediný výrobce na trhu poskytujeme kapotovanou pohonnou i vratnou stanici a nadčasový design.</p> 
+
+<IMG SRC="../images/wakelift-pavel-trcala-ride.jpg" height=508 width=884 border=0>
+
+<P>Specializujeme sa na dvousloupový systém, který je vhodný pro nově budované areály, nebo jako doplněk k existujícím oběžníkovým vlekům.</p>
+
+<IMG SRC="../images/wakelift-mast.jpg" height=508 width=884 border=0>
+
+</FONT>
+</TR>
+</TD>
+</TABLE>
+
+<TABLE>
+<TR>
+<TD WIDTH="904" HEIGHT="10"></TD>
+</TR>
+</TABLE>
+
+<TABLE width=904 cols=1 cellSpacing=0 cellPadding=10 border=0>
+
+<TR>
+<TD WIDTH="904" HEIGHT="8" VALIGN="top" ALIGN="left" bgcolor="#FFFF00">
+
+<FONT face="Arial" SIZE="2" COLOR="black" ALIGN="left">
+
+<P><B>DVOUSLOUPOVÝ VARIABILNÍ SYSTÉM</B></p>
+
+<P>Základem vleku WAKELIFT jsou sloupy ve tvaru A ukotvené do betonových zátěží.  Tyto sloupy jsou dodávány v segmentech délky dva nebo tři metry, aby umožnily instalaci v různých terénech.</p>  
+
+<IMG SRC="../images/wakelift-mast-sky.jpg" width=884 border=0>
+
+<P>Všechny díly vleku je možné transportovat ručně.  Doporučená délka dráhy je sto až dvě stě metrů.  Jako jediní na trhu nabízíme pevné kotvení v základní ceně vleku.</p>
+
+<IMG SRC="../images/wakelift-turn.jpg" width=884 border=0>
+
+<P>Pro delší vleky je možné instalovat napínání protizátěží.</p>
+
+<IMG SRC="../images/wakelift-lenght.jpg" height=508 width=884 border=0></A>
+
+<P>Vlek je kompletně rozebiratelný.  Transport vleku je možné provést osobním vozidlem.</p>
+
+<IMG SRC="../images/wakelift-transport.jpg" height=542 width=884 border=0></A>
+
+<P>V obtížně dostupných lokacích může být instalace vleku provedena bez mechanizace.</p>
+
+<IMG SRC="../images/wakelift-installation.jpg" height=508 width=884 border=0></A>
+
+<P>Ovládání reverzace vleku může být automatické nebo manuální.  Obě varianty jsou standartní výbavou vleku a obsluha může flexibilně přepínat mezi automatickým a manuálním provozem.  Jezdec tak může jezdit bez přestávky a bez časového omezení.</p>
+
+<IMG SRC="../images/wakelift-mast-rider.jpg" width=884 border=0></A>
+
+</FONT>
+</TR>
+</TD>
+</TABLE>
+
+<TABLE>
+<TR>
+<TD WIDTH="904" HEIGHT="10"></TD>
+</TR>
+</TABLE>
+
+<TABLE width=904 cols=1 cellSpacing=0 cellPadding=10 border=0>
+
+<TR>
+<TD WIDTH="904" HEIGHT="8" VALIGN="top" ALIGN="left" bgcolor="#FFFF00">
+
+<FONT face="Arial" SIZE="2" COLOR="black" ALIGN="LEFT">
+
+<P><B>VÝHODY OPROTI OBĚŽNÍKOVÉMU VLEKU</B></p>
+
+<P>Oproti klasickému obdélníkovému vleku je rozjezd tohoto liniového vleku pozvolný a tudíž vhodný i pro naprosté začátečníky.</p> 
+
+<IMG SRC="../images/wakelift-beginner.jpg" height=508 width=884 border=0></A>
+
+<P>Vlek si mohou užít i zkušení jezdci, protože díky individuální jízdě mohou pilovat triky.</p> 
+
+<IMG SRC="../images/wakelift-pavel-trcala-raley.jpg" height=508 width=884 border=0></A>
+
+<P>Při pádu jezdce je možné vlek okamžitě zastavit a jezdec tak může pokračovat v jízdě nebo v trénování skoků.</p> 
+
+<IMG SRC="../images/wakelift-grab.jpg" width=884 border=0></A>
+
+</FONT>
+</TR>
+</TD>
+</TABLE>
+
+<TABLE>
+<TR>
+<TD WIDTH="904" HEIGHT="10"></TD>
+</TR>
+</TABLE>
+
+<TABLE width=904 cols=1 cellSpacing=0 cellPadding=10 border=0>
+
+<TR>
+<TD WIDTH="904" HEIGHT="8" VALIGN="top" ALIGN="left" bgcolor="#FFFF00">
+
+<FONT face="Arial" SIZE="2" COLOR="black" ALIGN="LEFT">
+ 
+<P><B>MECHANICKÁ A ELEKTRONICKÁ KVALITA</B></p> 
+
+<P>Veškeré části, které jsou ve styku s vodou, jsou pozinkovány.  Vlek může být celý v pozinku, nebo může být nalakován v barvě dle přání zákazníka.</p>
+
+<IMG SRC="../images/wakelift-paint.jpg" height=508 width=884 border=0></A>
+
+<P>Vlek je vybaven systémem snímání polohy unašeče a elektronickými a mechanickými dorazy.  Počítač vleku může monitorovat používání vleku během dne a kontrolovat obsluhu.  Na přání klienta je možné dodat také sledování provozu vleku dálkově přes mobilní aplikace.</p>
+
+<IMG SRC="../images/wakelift-carrier.jpg" height=508 width=884 border=0></A>
+
+</FONT>
+</TR>
+</TD>
+</TABLE>
+
+<TABLE>
+<TR>
+<TD WIDTH="904" HEIGHT="10"></TD>
+</TR>
+</TABLE>
+
+<TABLE width=904 cols=1 cellSpacing=0 cellPadding=10 border=0>
+
+<TR>
+<TD WIDTH="904" HEIGHT="8" VALIGN="top" ALIGN="left" bgcolor="#FFFF00">
+
+<FONT face="Arial" SIZE="2" COLOR="black" ALIGN="LEFT">
+
+<P><B>PARAMETRY VLEKU</B></p>
+
+<P>Systém:  Dvousloupový
+<br>Délka:  100 až 250 metrů
+<br>Výška sloupů:  3 až 9 metrů
+<br>Rychlost:  0 až 40 km/h
+<br>Výkon motoru:  7,5 kW
+<br>Napájení:  380 V 
+<br>Počet jezdců:  1
+<br>Tažné lano:  8 mm nebo 9 mm
+<br>Ukotvení:  Betonové základy nebo panely
+</p>
+
+</FONT>
+</TR>
+</TD>
+</TABLE>
+
+<TABLE>
+<TR>
+<TD WIDTH="904" HEIGHT="10"></TD>
+</TR>
+</TABLE>
+
+<TABLE width=904 cols=1 cellSpacing=0 cellPadding=10 border=0>
+
+<TR>
+<TD WIDTH="904" HEIGHT="8" VALIGN="top" ALIGN="left" bgcolor="#FFFF00">
+
+<FONT face="Arial" SIZE="2" COLOR="black" ALIGN="LEFT">
+
+<P><B>VÝROBCE</B></p>
+
+<p>Brněnská firma WAKELIFT s.r.o. se zabývá výrobou vleků pro vodní lyžování a wakeboarding.  Na přání klienta může firma vlek dopravit, nainstalovat, zprovoznit.  Firma poskytuje také servis vleků.</p>
+
+<p>WAKELIFT s.r.o.
+<br>Veveří 17
+<br>Brno
+<br>602 00
+</p> 
+
+<p>Kontakt:  Pavel Trčala 
+<br>Email: pavel@trcala.com
+<br>Telefon: +420 737 449 818
+</p> 
+
+</FONT>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+
+
+
+
+
+
+
+
+
+
+

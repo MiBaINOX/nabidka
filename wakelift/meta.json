@@ -1,0 +1,54 @@
+{
+  "slug": "wakelift",
+  "firma": "WAKELIFT s.r.o.",
+  "ico": "04679016",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Strojírenská výroba / Výrobce dvoulanových vleků na vodní lyžování a wakeboarding, kapotované pohonné a vratné stanice, ocelové sloupy, frekvenční měniče a PLC řízení",
+  "archetyp": "6 (Editorial & Story)",
+  "stary_web": "http://wakelift.cz",
+  "email": "pavel@trcala.com",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "První moravský výrobce liniových dvoulanových vleků pro vodní lyžování a wakeboarding",
+    "Unikátní aerodynamická kapotáž pohonné i vratné stanice chránící motor 7,5 kW a mechaniku",
+    "Stavebnicové A-sloupy výšky 3 až 9 m ze segmentů po 2 a 3 m – transport osobním autem a ruční montáž",
+    "Duální řízení s automatickou reverzací i manuálním módem pro okamžité zastavení při pádu jezdce",
+    "Statická a bezpečnostní certifikace ocelových konstrukcí dle normy ČSN EN 1993",
+    "Kompletní dodávka na klíč od českého reprezentanta Pavla Trčaly včetně montáže a servisu"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez SSL/TLS šifrování",
+    "Zastaralé kódování Windows-1250 způsobující rozpad diakritiky v moderních prohlížečích",
+    "Absence meta viewportu – web není optimalizován pro mobilní telefony a vyžaduje horizontální scrollování",
+    "Archaický tabulkový layout z 90. let s fixní šířkou a kontrastně nevhodným žlutým pozadím",
+    "Nefunkční odkazy na podstránky a chybějící interaktivní přehled technických parametrů podsestav",
+    "Chybějící zabezpečený poptávkový formulář a mapa sídla"
+  ],
+  "vylepseni_noveho_webu": [
+    "Responzivní Editorial & Story design přizpůsobený pro chytré telefony, tablety i 4K displeje",
+    "Interaktivní katalog 6 strojírenských komponent vleku s živým vyhledáváním a filtrem kategorií",
+    "Detailní technické modální okno (#techModalBackdrop) s rozměry, výkony a normami ČSN EN 1993",
+    "Plynulé scroll-reveal animace a zoom-on-hover efekty u reálných fotek z realizací",
+    "Animované čítače klíčových faktů (rok založení 2016, délka dráhy až 250 m, rychlost 40 km/h)",
+    "Integrovaná interaktivní mapa Mapy.cz s přesným červeným špendlíkem sídla firmy v Brně",
+    "Přehledný poptávkový formulář s validací a přímé kontakty na jednatele Pavla Trčalu"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2016,
+    "delka_drahy": "100 až 250 metrů",
+    "vyska_sloupu": "3 až 9 metrů",
+    "rychlost": "0 až 40 km/h",
+    "vykon_motoru": "7,5 kW",
+    "napajeni": "380 V / 50 Hz",
+    "pocet_jezdcu": 1,
+    "tazne_lano": "8 mm nebo 9 mm",
+    "ukotveni": "Betonové základy nebo panely",
+    "adresa": "Veveří 464/17, Veveří, 602 00 Brno",
+    "telefon": "+420 737 449 818",
+    "jednatel": "Pavel Trčala"
+  }
+}

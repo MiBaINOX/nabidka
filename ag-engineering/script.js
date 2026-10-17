@@ -1,0 +1,222 @@
+const TECH_CATALOG = {"fve-rosice": {"id": "fve-rosice", "name": "Fotovoltaická elektrárna Rosice 2,44 MWp", "category": "Průmysl & Energetika", "category_slug": "prumysl", "image": "assets/projects/fve_rosice.svg", "short_desc": "Velkokapacitní pozemní fotovoltaická elektrárna s napojením na distribuční soustavu VN, inženýring a řízení projektu.", "location": "Rosice u Brna", "client": "Raiffeisenbank AT / investiční fond", "stage": "Řízení projektu, inženýring, koordinace VN sítí", "volume": "200 mil. Kč", "standards": "ČSN EN 62446, ČSN EN 50549, ČSN EN 62305", "specs": {"Instalovaný výkon": "2,44 MWp (monokrystalické FV panely)", "Stupeň řízení": "Kompletní projektový inženýring a dozor stavby", "Přípojka a trafostanice": "Kabelové vedení 22 kV a blokové transformátory", "Povolovací proces": "Územní rozhodnutí, stavební povolení, licence ERÚ", "Inženýrský software": "AutoCAD Civil, PV*SOL, RTS výkaz výměr"}}, "fve-tabor": {"id": "fve-tabor", "name": "Fotovoltaická elektrárna Tábor 2,1 MWp", "category": "Průmysl & Energetika", "category_slug": "prumysl", "image": "assets/projects/fve_tabor.svg", "short_desc": "Průmyslová solární elektrárna o výkonu 2,1 MWp včetně inženýrských sítí a předávací stanice pro mezinárodního investora.", "location": "Tábor – Čekanice", "client": "Raiffeisenbank AT", "stage": "Řízení projektu, inženýrská činnost a koordinace", "volume": "160 mil. Kč", "standards": "ČSN EN 62305 (Ochrana před bleskem), ČSN EN 50549", "specs": {"Instalovaný výkon": "2,10 MWp polní fotovoltaický park", "Stavební řešení": "Zarážené ocelové nosné konstrukce pro střídače", "Inženýrská agenda": "Zastupování před DOSS a energetickými správci", "Kolaudace": "Zajištění komplexního vyzkoušení a kolaudačního souhlasu", "Dokumentace": "DÚR, DSP, realizační koordinace stavby"}}, "klecany-obytny-soubor": {"id": "klecany-obytny-soubor", "name": "Obytný soubor Klecany u Prahy", "category": "Rezidenční výstavba", "category_slug": "rezidence", "image": "assets/projects/klecany.svg", "short_desc": "Rozsáhlý rezidenční obytný komplex bytových domů a související technické infrastruktury na severním okraji Prahy.", "location": "Klecany u Prahy", "client": "PZ Development a.s.", "stage": "Komplexní projektová dokumentace všech stupňů", "volume": "150 mil. Kč", "standards": "ČSN 73 4301 (Obytné budovy), ČSN EN 1992 (Betonové konstrukce)", "specs": {"Kapacita souboru": "Vícepodlažní bytové domy s podzemním parkováním", "Infrastruktura": "Komunikace, retenční nádrže, vodovod, kanalizace, elektro", "Stupně dokumentace": "Studie, DÚR, DSP, DPS a položkové rozpočty RTS", "Konstrukční systém": "Monolitický železobeton v kombinaci s keramickým zdivem", "Software": "AutoCAD Architecture, RTS Stavitel+"}}, "studnice-rd-soubor": {"id": "studnice-rd-soubor", "name": "Projekt výstavby rodinných domů Studnice", "category": "Rezidenční výstavba", "category_slug": "rezidence", "image": "assets/projects/studnice.svg", "short_desc": "Urbanistický koncept a projektová dokumentace výstavby desítek samostatných i řadových rodinných domů včetně inženýrských sítí.", "location": "Studnice u Vyškova", "client": "PZ Development a.s.", "stage": "Projektová dokumentace a inženýrská činnost", "volume": "60 mil. Kč", "standards": "ČSN 73 4301, ČSN 73 6110 (Projektování místních komunikací)", "specs": {"Rozsah celku": "Urbanistická zóna rodinných domů s kompletními sítěmi", "Přípojky": "Vodovodní řad, dešťová a splašková kanalizace, STL plynovod", "Inženýring": "Územní řízení a stavební povolení pro celý areál", "Dopravní napojení": "Místní obslužné komunikace, chodníky a veřejné osvětlení", "Rozpočty": "Detailní položkový výkaz výměr RTS pro tendr dodavatele"}}, "saunia-letmo": {"id": "saunia-letmo", "name": "Saunový svět Saunia OC Letmo Brno", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/saunia.svg", "short_desc": "Exkluzivní wellness a saunový svět v nejvyšších patrech obchodního centra v centru Brna s náročnými technologiemi.", "location": "Brno – OC Letmo (naproti Hlavnímu nádraží)", "client": "PZ Projekt a.s. / Saunia s.r.o.", "stage": "Inženýrská činnost a Technický dozor investora (TDI)", "volume": "45 mil. Kč", "standards": "ČSN 73 0833 (Požární bezpečnost), ČSN EN 15288 (Bazény a wellness)", "specs": {"Podlahová plocha": "1 200 m² saunových kabin, ochlazovacích bazénů a relax zón", "Technologie": "Vzduchotechnické jednotky, rekuperace, úprava bazénové vody", "Statické úpravy": "Zesílení stropních konstrukcí pro bazény a ochlazovací vany", "Výkon TDI": "Denní kontrola stavebních a technologických montáží na staveništi", "Kolaudace": "Hygienické schválení KHS a úspěšný kolaudační souhlas"}}, "ifm-centrum": {"id": "ifm-centrum", "name": "IFM Centrum Brno – polyfunkční komplex", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/ifm_centrum.svg", "short_desc": "Výstavba polyfunkčního administrativně-obchodního centra s parkovacími kapacitami a zázemím pro firemní klientelu.", "location": "Brno", "client": "IFM Group a.s.", "stage": "Projektový management, inženýring a TDI", "volume": "40 mil. Kč", "standards": "ČSN 73 0804, ČSN 73 0540 (Tepelná ochrana budov)", "specs": {"Užitná plocha": "3 500 m² administrativních a komerčních ploch", "Konstrukce": "Železobetonový monolitický skelet s proskleným pláštěm", "Správní řízení": "Územní řízení, stavební povolení a koordinace přeložek sítí", "Výběr dodavatele": "Zpracování tendrové dokumentace a kontrola rozpočtů", "Technický dozor": "Systematická kontrola armatur, betonáže a hydroizolací"}}, "eurotrucks-bites": {"id": "eurotrucks-bites", "name": "Sídlo a servisní středisko Eurotrucks Velká Bíteš", "category": "Průmysl & Energetika", "category_slug": "prumysl", "image": "assets/projects/eurotrucks.svg", "short_desc": "Moderní servisní centrum nákladních automobilů s administrativní budovou a zpevněnými odstavnými plochami pro těžkou techniku.", "location": "Velká Bíteš (exit D1)", "client": "Eurotrucks s.r.o.", "stage": "Komplexní inženýrská činnost a autorský dozor", "volume": "25 mil. Kč", "standards": "ČSN 73 6059 (Servisy a čerpací stanice), ČSN EN 1993", "specs": {"Konstrukce haly": "Ocelový skelet s jeřábovou dráhou a montážními jámami", "Zpevněné plochy": "Drátkobetonové a asfaltové plochy s vysokou únosností", "Ekologické stavby": "Odlučovače ropných látek (ORL) a lapoly", "Povolovací proces": "Zajištění EIA, územního rozhodnutí a stavebního povolení", "Dozor stavby": "Kontrola nosných ocelových konstrukcí a opláštění"}}, "pz-velka-bites": {"id": "pz-velka-bites", "name": "Průmyslová zóna Velká Bíteš & plynovod", "category": "Průmysl & Energetika", "category_slug": "prumysl", "image": "assets/projects/pz_bites.svg", "short_desc": "Příprava území, zasíťování průmyslové zóny a vybudování vysokotlakého plynovodu s regulační stanicí VTL/STL.", "location": "Velká Bíteš", "client": "PZ Development a.s.", "stage": "Inženýrská činnost, koordinace sítí a DOSS", "volume": "Investiční celek zóny", "standards": "ČSN EN 12007 (Plynárenská infrastruktura), TPG 702 01", "specs": {"Plynofikace zóny": "VTL plynovodní přípojka a regulační stanice plynu", "Koordinace sítí": "Souběhy vodovodu, splaškové kanalizace a optických kabelů", "Majetkoprávní agenda": "Věcná břemena a vyjádření desítek dotčených vlastníků", "Dozor investora": "Kontrola tlakových zkoušek a svářečských prací", "Výsledek": "Úspěšné uvedení průmyslové zóny do plného provozu"}}, "az-tower-jednotka": {"id": "az-tower-jednotka", "name": "AZ Tower Brno – Obchodní jednotka (nejvyšší budova ČR)", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/az_tower.svg", "short_desc": "Projektová dokumentace, inženýring a dozor nad vestavbou prémiové obchodní jednotky v dominantě města Brna (výška 111 m).", "location": "Brno – Štýřice, AZ Tower", "client": "AZ Tower a.s.", "stage": "Projektová dokumentace, inženýring, TDI", "volume": "Reprezentativní retail", "standards": "ČSN 73 0810 (Požární bezpečnost výškových staveb)", "specs": {"Objekt": "AZ Tower (nejvyšší mrakodrap České republiky, 111 m)", "Rozsah prací": "Fit-out komerčních prostor, rozvody VZT, chlazení, elektro", "Statická koordinace": "Posouzení kotvení do monolitických stropů mrakodrapu", "Povolení": "Souhlas s provedením ohlášené stavby a kolaudační souhlas", "TDI dozor": "Kontrola bezpečnosti práce a koordinace s facility managementem"}}, "fb-bohunice": {"id": "fb-bohunice", "name": "Obchodní prostory FB Bohunice", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/fb_bohunice.svg", "short_desc": "Kompletní projektová příprava, inženýring a technický dozor moderních komerčních a retailových prostor v Brně-Bohunicích.", "location": "Brno – Bohunice", "client": "Point4U s.r.o.", "stage": "Projektová dokumentace, inženýring, TDI", "volume": "10 mil. Kč", "standards": "ČSN EN 12464 (Osvětlení pracovišť), ČSN 73 0802", "specs": {"Funkční využití": "Prodejní plocha, kancelářské zázemí a skladové prostory", "Technické rozvody": "Klimatizace VRV, LED osvětlení, slaboproudé datové rozvody", "Inženýring": "Kompletní jednání se stavebním úřadem Brno-Bohunice", "Výkon TDI": "Dozor nad zhotovitelem, přejímka zakrytých konstrukcí", "Kolaudace": "Závěrečná kontrolní prohlídka a vydání kolaudace"}}, "veverska-bityska-rd": {"id": "veverska-bityska-rd", "name": "Výstavba 3 rodinných domů Veverská Bítýška", "category": "Rezidenční výstavba", "category_slug": "rezidence", "image": "assets/projects/veverska_bityska.svg", "short_desc": "Projektová dokumentace a inženýring pro trojici moderních nízkoenergetických rodinných domů ve svažitém terénu.", "location": "Veverská Bítýška", "client": "Soukromý investor", "stage": "Projektová dokumentace a inženýrská činnost", "volume": "10 mil. Kč", "standards": "ČSN 73 0540-2 (Tepelná ochrana budov), ČSN EN 1996 (Zděné kce)", "specs": {"Architektura": "Třípodlažní objekty s plochou střechou zasazené do svahu", "Založení": "Stupňovité pasy v kombinaci s mikropilotami", "Inženýrské sítě": "Prodloužení vodovodu a splaškové kanalizace v ulici", "Povolení stavby": "Územní souhlas a stavební povolení", "Energetika": "Průkaz energetické náročnosti budovy PENB tř. A/B"}}, "fitinn-letmo": {"id": "fitinn-letmo", "name": "Fitness centrum FITINN OC Letmo Brno", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/fitinn.svg", "short_desc": "Inženýrská činnost a technický dozor při výstavbě velkoplošného fitness studia mezinárodního řetězce FITINN.", "location": "Brno – OC Letmo", "client": "PZ Projekt a.s. / FITINN Holding", "stage": "Inženýrská činnost a Technický dozor TDI", "volume": "7 mil. Kč", "standards": "ČSN EN 12193 (Osvětlení sportovišť), ČSN 73 0833", "specs": {"Plocha fitness": "950 m² kardio zóna, posilovna a šatnové bloky", "Akustika": "Antivibrační podlahové vrstvy pro tlumení dynamických rázů činek", "Klimatizace": "Vysokokapacitní větrací soustava s přesnou regulací vlhkosti", "Kontrolní činnost": "Pravidelné kontrolní dny a přejímky instalačních tras", "Termín": "Rychlá realizace v rekordním termínu před otevřením centra"}}, "lukovany-rd": {"id": "lukovany-rd", "name": "Novostavba rodinné vily Lukovany", "category": "Rezidenční výstavba", "category_slug": "rezidence", "image": "assets/projects/lukovany.svg", "short_desc": "Kompletní projektová dokumentace, inženýring a stavební dozor nadstandardního rodinného domu s bazénem a garáží.", "location": "Lukovany u Brna", "client": "Soukromý investor", "stage": "Projektová dokumentace, inženýring, TDI", "volume": "5,8 mil. Kč", "standards": "ČSN 73 4301, ČSN EN 1992, ČSN 73 0802", "specs": {"Konstrukce": "Broušené cihelné bloky Porotherm, monolitické stropy", "Vytápění a OZE": "Tepelné čerpadlo země-voda a podlahové vytápění", "Výkresy": "DÚR, DSP, prováděcí detaily DPS a položkový rozpočet RTS", "Dozor TDI": "Přejímky armatur základů, stropních desek a krovu", "Kolaudace": "Zajištění bezchybné kolaudace pro užívání stavby"}}, "marenka-rozhledna": {"id": "marenka-rozhledna", "name": "Vyhlídková věž a rozhledna Mařenka Štěměchy", "category": "Veřejné & Sportovní stavby", "category_slug": "verejne", "image": "assets/projects/marenka.svg", "short_desc": "Technický dozor investora nad unikátní dřevostavbou vyhlídkové věže s ocelovým točitým schodištěm na nejvyšším vrcholu Třebíčska (31 m).", "location": "Štěměchy – vrch Mařenka (okres Třebíč)", "client": "Svazek obcí Podhůří Mařenky / veřejná zakázka", "stage": "Technický dozor investora (TDI)", "volume": "5 mil. Kč", "standards": "ČSN EN 1995 (Eurokód 5: Dřevěné konstrukce), ČSN EN 1993", "specs": {"Výška rozhledny": "31 metrů s vyhlídkovou plošinou ve výšce 28 m", "Konstrukce": "Trojboký jehlan z lepeného modřínového dřeva a ocelových táhel", "Založení": "Železobetonová trojúhelníková základová deska s mikropilotami", "Kontrolní činnost": "Kontrola jakosti lepených spojů, kotvení a nátěrových systémů", "Výsledek": "Oceněná dominanta regionu, otevřena pro širokou veřejnost"}}, "h-park-brno": {"id": "h-park-brno", "name": "Administrativní a obchodní park H-Park Brno", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/h_park.svg", "short_desc": "Inženýrská činnost a stavební dozor nad rozsáhlými terénními úpravami a přípravou území obchodního parku na Heršpické ulici.", "location": "Brno – Heršpická", "client": "Raiffeisenbank CZ", "stage": "Inženýrská činnost a Technický dozor TDI", "volume": "Investiční příprava areálu", "standards": "ČSN 73 6133 (Zemní práce), ČSN EN 1997 (Geotechnika)", "specs": {"Lokalita": "Heršpická jižní rozvojová zóna Brna", "Rozsah zemních prací": "Hrubé terénní úpravy, sanace podloží a zpevnění svahů", "Opěrné zdi": "Úhlové železobetonové a gabionové opěrné stěny", "Inženýring": "Koordinace s městem Brnem a správci hlavních řadů", "Výkon dozoru": "Geodetická kontrola kubatur zemních prací a hutnění"}}, "maximus-resort": {"id": "maximus-resort", "name": "Wellness hotel Maximus Resort Brno", "category": "Veřejné & Sportovní stavby", "category_slug": "verejne", "image": "assets/projects/maximus.svg", "short_desc": "Komplexní inženýrská činnost při rozšiřování hotelového a wellness resortu v chráněné rekreační oblasti Brněnské přehrady.", "location": "Brno – Kníničky (Brněnská přehrada)", "client": "Maximus Resort a.s.", "stage": "Inženýrská činnost a koordinace s dotčenými orgány", "volume": "Významný cestovní ruch", "standards": "ČSN 73 0833, CHKO a ochrana přírody Brněnské přehrady", "specs": {"Charakter stavby": "Luxusní čtyřhvězdičkový wellness hotel s termálními bazény", "Legislativní proces": "Zajištění stanovisek Odboru životního prostředí a Povodí Moravy", "Inženýring": "Územní a stavební řízení pro nové ubytovací pavilony", "Infrastruktura": "Kapacitní parkoviště a napojení na čistírnu odpadních vod", "Spolupráce": "Dlouhodobá partnerská spolupráce s vedením resortu"}}, "nesa-sport": {"id": "nesa-sport", "name": "Sportovní areál NESA Maximus Brno", "category": "Veřejné & Sportovní stavby", "category_slug": "verejne", "image": "assets/projects/nesa.svg", "short_desc": "Inženýrská příprava a koordinace výstavby sportovního centra s venkovními tenisovými dvorci a krytými kurty.", "location": "Brno – Podlesí / Kníničky", "client": "Maximus Resort a.s.", "stage": "Inženýrská činnost a legislativní příprava stavby", "volume": "Sportovní infrastruktura", "standards": "ČSN 73 0802, ČSN EN 12193", "specs": {"Dispozice": "Víceúčelové sportoviště, zázemí šaten a klubovna", "Povrchy kurtů": "Umělý trávník s pískovým vsypem a antukové dvorce", "Osvětlení": "Osvětlovací stožáry s nízkým světelným smogem", "Povolení": "Územní souhlas a stavební povolení pro sportovní areál", "Koordinace": "Zajištění bezproblémového začlenění do lesoparku"}}, "bites-autobusove-nadrazi": {"id": "bites-autobusove-nadrazi", "name": "Autobusové nádraží Velká Bíteš", "category": "Veřejné & Sportovní stavby", "category_slug": "verejne", "image": "assets/projects/autobusove_nadrazi.svg", "short_desc": "Kompletní inženýrská činnost pro výstavbu moderního autobusového terminálu s přestupními ostrovy a odbavovací budovou.", "location": "Velká Bíteš", "client": "IFM Group a.s.", "stage": "Inženýrská činnost, koordinace dopravních orgánů", "volume": "Dopravní infrastruktura", "standards": "ČSN 73 6425-1 (Autobusová nádraží), ČSN 73 6110", "specs": {"Funkce": "Centrální přestupní uzel příměstské a dálkové autobusové dopravy", "Nástupiště": "Zastřešená bezbariérová nástupiště s vodicími liniemi pro nevidomé", "Dopravní policie": "Projednání s Policií ČR a Odborem dopravy Kraje Vysočina", "Inženýring": "Územní řízení, stavební povolení a kolaudace", "Bezpečnost": "Kamerový systém a inteligentní informační tabule odjezdů"}}, "lidl-slavkov": {"id": "lidl-slavkov", "name": "Prodejna a obchodní centrum Lidl Slavkov u Brna", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/lidl.svg", "short_desc": "Projektová dokumentace retailové prodejny mezinárodního řetězce Lidl včetně parkoviště pro 120 automobilů a napojení na silnici I/50.", "location": "Slavkov u Brna", "client": "IFM Group a.s. / Lidl ČR", "stage": "Projektová dokumentace a inženýring", "volume": "Komerční retail", "standards": "ČSN 73 0804, ČSN 73 6056 (Odstavné a parkovací plochy)", "specs": {"Prodejní plocha": "1 400 m² moderního prodejního sálu", "Konstrukční systém": "Prefabrikovaný železobetonový skelet s lehkým střešním pláštěm", "Dopravní napojení": "Okružní křižovatka a napojení na komunikaci I/50", "Technologie": "Využití odpadního tepla z chlazení pro vytápění objektu", "Stupně projektu": "Dokumentace pro územní řízení (DÚR) a stavební povolení (DSP)"}}, "billa-breclav": {"id": "billa-breclav", "name": "Supermarket Billa Břeclav", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/billa.svg", "short_desc": "Projektová dokumentace novostavby supermarketu Billa s expediční rampou a zázemím čerstvých potravin.", "location": "Břeclav", "client": "IFM Group a.s. / Billa ČR", "stage": "Projektová dokumentace stavby", "volume": "Retailový supermarket", "standards": "ČSN 73 0804, hygienické normy pro prodej potravin", "specs": {"Typ objektu": "Samostatně stojící jednopodlažní obchodní pavilon", "Konstrukce": "Ocelový skelet s opláštěním ze sendvičových panelů", "Zázemí": "Chladicí a mrazicí boxy, pekárna, sociální zařízení personálu", "Parkování": "Zákaznické parkoviště s vsakováním dešťových vod", "Projektové fáze": "DSP, podklady pro výběr dodavatele stavby"}}, "stopshop-opava": {"id": "stopshop-opava", "name": "Nákupní park Stopshop Opava", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/stopshop.svg", "short_desc": "Projektová dokumentace velkokapacitního nákupního parku řetězce Stopshop s více než desítkou samostatných obchodních jednotek.", "location": "Opava", "client": "IFM Group a.s. / Immofinanz", "stage": "Projektová dokumentace stavby", "volume": "Retail park", "standards": "ČSN 73 0804, ČSN EN 1993, ČSN EN 1992", "specs": {"Koncepce": "Přízemní retail park ve tvaru L s přímými vstupy z parkoviště", "Plocha centra": "Přes 6 500 m² nájemních prodejních ploch", "Statika": "Prefabrikované železobetonové sloupy s ocelovými střešními vazníky", "Přípojky": "Centrální trafostanice, retenční nádrž a lapoly pro parkoviště", "Projekt": "Komplexní architektonicko-stavební řešení pro povolovací proces"}}, "dorm-brno": {"id": "dorm-brno", "name": "Polyfunkční objekt DORM Brno – příprava a demolice", "category": "Komerční & Rezidenční", "category_slug": "rezidence", "image": "assets/projects/dorm.svg", "short_desc": "Projektová dokumentace bouracích prací, statického zajištění sousedních historických objektů a přípravy staveniště pro rezidenční projekt DORM.", "location": "Brno – střed", "client": "PSJ a.s.", "stage": "Projektová dokumentace demolic a inženýring", "volume": "Příprava výstavby", "standards": "ČSN 73 0038 (Navrhování a posuzování stavebních konstrukcí při demolicích)", "specs": {"Lokalita": "Hustá městská zástavba v širším centru Brna", "Specifikum": "Demolice vícepodlažních objektů v těsném kontaktu s okolními budovami", "Statické zajištění": "Zápory, mikropiloty a podchycení základů sousedních štítů", "Povolení demolice": "Získání demoličního výměru a koordinace s památkáři NPÚ", "Odpadové hospodářství": "Projekt recyklace sutí a ekologické likvidace odpadu"}}, "cacovice-sklad": {"id": "cacovice-sklad", "name": "Skladový areál a průmyslová hala Brno – Cacovice", "category": "Průmysl & Energetika", "category_slug": "prumysl", "image": "assets/projects/cacovice.svg", "short_desc": "Projektová dokumentace a inženýring pro novostavbu zateplené ocelové skladové haly s administrativním vestavkem a kamionovým dvorem.", "location": "Brno – Cacovice", "client": "Soukromý investor", "stage": "Projektová dokumentace, inženýring", "volume": "Průmyslová stavba", "standards": "ČSN 73 0804, ČSN EN 1993-1-1", "specs": {"Konstrukce": "Rámová ocelová konstrukce o rozponu 24 m bez vnitřních podpor", "Opláštění": "Stěnové a střešní PUR panely s vysokým tepelným odporem", "Logistika": "Hydraulické nakládací můstky pro kamiony a sekční vrata", "Povolovací proces": "Územní rozhodnutí a stavební povolení", "Rozpočet": "Položkový výkaz výměr RTS pro výběrové řízení generálního dodavatele"}}, "cinemas-5d-sit": {"id": "cinemas-5d-sit", "name": "Síť multikin 5D v nákupních centrech ČR a SR", "category": "Komerční & Retail", "category_slug": "komerce", "image": "assets/projects/cinemas_5d.svg", "short_desc": "Projektová dokumentace a inženýring vestaveb 5D kin v největších obchodních centrech (Praha Hostivař a Krakov, Bratislava Avion, Košice Aupark, Žilina Mirage, Zlín).", "location": "Praha, Bratislava, Košice, Žilina, Teplice, Zlín", "client": "XD Technologie & Finance s.r.o.", "stage": "Projektová dokumentace vestaveb a inženýring", "volume": "15+ mil. Kč celkem", "standards": "ČSN 73 0831 (Shromažďovací prostory), dynamické zatížení plošin", "specs": {"Lokality": "OC Hostivař Praha, OC Krakov Praha, OC Avion Bratislava, OC Aupark Košice", "Technologie": "Pohyblivé hydraulické sedačkové platformy a prostorové 5D efekty", "Akustika": "Vícenásobné zvukotěsné předstěny a podhledy proti průzvučnosti", "Statické ověření": "Posouzení dynamického kmitání stropních desek nákupních center", "Inženýring": "Povolení vestaveb u stavebních úřadů v ČR i na Slovensku"}}};
+
+document.addEventListener('DOMContentLoaded', () => {
+  initCounters();
+  initDisciplineTabs();
+  initCatalog();
+  initModal();
+  initMobileNav();
+  initRefDetection();
+});
+
+function initCounters() {
+  const counters = document.querySelectorAll('.counter[data-target]');
+  if (!counters.length) return;
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.getAttribute('data-target') || el.textContent, 10);
+        if (isNaN(target)) return;
+
+        el.textContent = '0';
+        const duration = 1400;
+        const startTime = performance.now();
+
+        function updateCounter(currentTime) {
+          const elapsed = currentTime - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          const easeOut = 1 - Math.pow(1 - progress, 3);
+          const currentVal = Math.floor(easeOut * target);
+
+          el.textContent = currentVal;
+
+          if (progress < 1) {
+            requestAnimationFrame(updateCounter);
+          } else {
+            el.textContent = target;
+          }
+        }
+
+        requestAnimationFrame(updateCounter);
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  counters.forEach(c => observer.observe(c));
+}
+
+function initDisciplineTabs() {
+  const tabs = document.querySelectorAll('.discipline-tab');
+  const panels = document.querySelectorAll('.disc-panel');
+  if (!tabs.length || !panels.length) return;
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const targetId = tab.getAttribute('data-tab');
+      tabs.forEach(t => t.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+
+      tab.classList.add('active');
+      const targetPanel = document.getElementById(targetId);
+      if (targetPanel) {
+        targetPanel.classList.add('active');
+      }
+    });
+  });
+}
+
+function initCatalog() {
+  const searchInput = document.getElementById('catalogSearch');
+  const filterTabs = document.querySelectorAll('.filter-tab');
+  const counterEl = document.getElementById('searchCounter');
+  const cards = document.querySelectorAll('.cat-card');
+
+  let activeCategory = 'all';
+  let searchTerm = '';
+
+  function filterCards() {
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const cat = card.getAttribute('data-cat') || '';
+      const name = card.getAttribute('data-name') || '';
+      const client = card.getAttribute('data-client') || '';
+      const loc = card.getAttribute('data-loc') || '';
+
+      const matchCat = (activeCategory === 'all' || cat === activeCategory);
+      const matchSearch = (!searchTerm || name.includes(searchTerm) || client.includes(searchTerm) || loc.includes(searchTerm));
+
+      if (matchCat && matchSearch) {
+        card.style.display = 'flex';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    if (counterEl) {
+      counterEl.textContent = visibleCount;
+    }
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchTerm = e.target.value.trim().toLowerCase();
+      filterCards();
+    });
+  }
+
+  filterTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      filterTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      activeCategory = tab.getAttribute('data-filter') || 'all';
+      filterCards();
+    });
+  });
+}
+
+function initModal() {
+  const backdrop = document.getElementById('techModalBackdrop');
+  const closeBtn = document.getElementById('techModalClose');
+  const secondaryCloseBtn = document.getElementById('modalCloseSecondary');
+  const inquireBtn = document.getElementById('modalInquireBtn');
+
+  if (!backdrop) return;
+
+  function closeModal() {
+    backdrop.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  function openModal(id) {
+    const data = TECH_CATALOG[id];
+    if (!data) return;
+
+    document.getElementById('modalCategory').textContent = data.category || 'Inženýrský projekt';
+    document.getElementById('modalVolume').textContent = data.volume || '';
+    document.getElementById('modalTitle').textContent = data.name || '';
+    document.getElementById('modalDesc').textContent = data.short_desc || '';
+    document.getElementById('modalLocation').textContent = data.location || '';
+    document.getElementById('modalClient').textContent = data.client || '';
+    document.getElementById('modalStage').textContent = data.stage || '';
+    document.getElementById('modalStandards').textContent = data.standards || '';
+
+    const tbody = document.getElementById('modalSpecsTbody');
+    if (tbody) {
+      tbody.innerHTML = '';
+      if (data.specs) {
+        Object.entries(data.specs).forEach(([key, val]) => {
+          const tr = document.createElement('tr');
+          const tdKey = document.createElement('td');
+          tdKey.textContent = key;
+          const tdVal = document.createElement('td');
+          tdVal.textContent = val;
+          tr.appendChild(tdKey);
+          tr.appendChild(tdVal);
+          tbody.appendChild(tr);
+        });
+      }
+    }
+
+    backdrop.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  document.querySelectorAll('[data-open-tech], [data-target-id]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const id = btn.getAttribute('data-open-tech') || btn.getAttribute('data-target-id');
+      openModal(id);
+    });
+  });
+
+  if (closeBtn) closeBtn.addEventListener('click', closeModal);
+  if (secondaryCloseBtn) secondaryCloseBtn.addEventListener('click', closeModal);
+  if (inquireBtn) inquireBtn.addEventListener('click', closeModal);
+
+  backdrop.addEventListener('click', (e) => {
+    if (e.target === backdrop) {
+      closeModal();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && backdrop.classList.contains('active')) {
+      closeModal();
+    }
+  });
+}
+
+function initMobileNav() {
+  const toggle = document.getElementById('navToggle');
+  const nav = document.getElementById('mainNav');
+  if (!toggle || !nav) return;
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('active');
+    });
+  });
+}
+
+function initRefDetection() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('ref') === 'nabidka') {
+    const header = document.querySelector('.site-header');
+    if (header) {
+      header.classList.add('ref-nabidka');
+    }
+  }
+}

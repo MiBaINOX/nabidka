@@ -1,0 +1,69 @@
+{
+  "slug": "ag-engineering",
+  "firma": "AG Engineering s.r.o.",
+  "ico": "02507498",
+  "obec": "Brno",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Komplexní inženýrská a projektová činnost ve výstavbě, statika a dynamika stavebních konstrukcí, projektová dokumentace všech stupňů (DÚR, DSP, DPS), autorský a technický dozor investora (TDI)",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://agengineering.cz",
+  "email": "info@agengineering.cz",
+  "telefon": "+420 604 387 623",
+  "adresa": "Chvalovka 1342/13, Bystrc, 635 00 Brno",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Komplexní inženýrská a projekční činnost ve výstavbě ve všech fázích: od výběru a přípravy pozemku přes studie, DÚR, DSP, DPS až po úspěšnou kolaudaci",
+    "Bohaté portfolio 182 ověřených stavebních realizací v celkovém objemu stovek milionů Kč (včetně AZ Tower Brno, fotovoltaických parků 2,44 MWp a retailových center)",
+    "Nezávislý a autorizovaný Technický dozor investora (TDI) s denní kontrolou kvality, přejímkami zakrytých konstrukcí a prověřováním fakturací",
+    "Osobní autorizované vedení projektů jednatelem společnosti Alešem Groškem se zárukou stoprocentního splnění legislativních i termínových požadavků"
+  ],
+  "vady_stareho_webu": [
+    "Web běží výhradně na nezabezpečeném protokolu HTTP bez SSL/TLS šifrování – moderní prohlížeče označují stránku varováním 'Nezabezpečeno'",
+    "Úplná absence viewportu a mobilní responzivity – na mobilních telefonech a tabletech je web zmenšený na fixní šířku 1100 px a nutí návštěvníky k nepohodlnému zoomování",
+    "Fixní tabulkový layout z roku 2014 se starým skriptovacím přepínáním bez možnosti přímého odkazování na konkrétní reference a služby",
+    "182 špičkových referenčních projektů v objemu stovek milionů Kč je skryto v prosté textové HTML tabulce bez vyhledávání, filtrování a technických detailů"
+  ],
+  "vylepseni_noveho_webu": [
+    "High-tech designový archetyp Tech & Precision s precizní CAD mřížkou, technickou typografií a interaktivními záložkami inženýrských oborů v záhlaví",
+    "Interaktivní inženýrský katalog s 24 stěžejními referenčními projekty, fulltextovým vyhledáváním a filtrem kategorií (Průmysl, Komerce, Rezidence, Veřejné)",
+    "Technická modální okna (#techModalBackdrop) s normovými specifikacemi ČSN EN, fázemi dokumentace, projektovým softwarem a responzivními tabulkami",
+    "100% mobilní responzivita s nulovým přetečením (0px overflow) na kompaktních displejích 360px a 375px pro pohodlnou prezentaci na stavbě i v terénu",
+    "Ověřená adresa sídla a přesný Mapy.cz špendlík dle katastru RÚIAN ČÚZK (lat=49.21569, lon=16.49704)",
+    "Animované čítače praxe, referencí a norem s respektem k preferencím uživatele (prefers-reduced-motion)"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2014,
+    "jednatel": "Aleš Grošek",
+    "pocet_projektu": 182,
+    "pocet_let_praxe": 16,
+    "normy": [
+      "ČSN EN 1990",
+      "ČSN EN 1991",
+      "ČSN EN 1992",
+      "ČSN EN 1993",
+      "ČSN EN 1995",
+      "ČSN EN 1997",
+      "ČSN 73 4301",
+      "ČSN 73 0802",
+      "ČSN 73 0804"
+    ],
+    "software": [
+      "Autodesk AutoCAD",
+      "SCIA Engineer",
+      "FINE GEO5",
+      "RTS Stavitel+"
+    ],
+    "klicove_reference": [
+      "Fotovoltaická elektrárna Rosice 2,44 MWp (Raiffeisenbank AT, 200 mil. Kč)",
+      "Fotovoltaická elektrárna Tábor 2,1 MWp (Raiffeisenbank AT, 160 mil. Kč)",
+      "Obytný soubor Klecany u Prahy (PZ Development a.s., 150 mil. Kč)",
+      "Výstavba rodinných domů Studnice (PZ Development a.s., 60 mil. Kč)",
+      "Saunový svět Saunia OC Letmo Brno (PZ Projekt a.s., 45 mil. Kč)",
+      "IFM Centrum Brno (IFM Group a.s., 40 mil. Kč)",
+      "AZ Tower Brno – nejvyšší budova ČR (AZ Tower a.s.)"
+    ]
+  }
+}

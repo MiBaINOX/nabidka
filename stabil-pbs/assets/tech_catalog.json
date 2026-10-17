@@ -1,0 +1,206 @@
+[
+  {
+    "id": "sprinklerove-shz",
+    "category": "shz",
+    "category_title": "Vodní SHZ",
+    "title": "Sprinklerové hasicí zařízení",
+    "norm": "ČSN EN 12845",
+    "fire_class": "Automatická ochrana",
+    "short_desc": "Samočinné vodní hasicí systémy v mokrém, suchém i předstihovém provedení pro průmyslové a logistické haly.",
+    "partner": "Rolland Sprinklers, TPZ PEGA",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 12845, VdS / CEA 4001"},
+      {"param": "Typy soustav", "val": "Mokré, suché, předstihové"},
+      {"param": "Zdroje vody", "val": "Požární nádrže, tlakové čerpací stanice"},
+      {"param": "Ověřené instalace", "val": "Slovnaft a.s., Goldbeck Lozorno, Lidl"}
+    ],
+    "applications": "Výrobní závody, logistické areály, skladovací haly a obchodní centra."
+  },
+  {
+    "id": "drencerove-chlazeni",
+    "category": "shz",
+    "category_title": "Vodní SHZ",
+    "title": "Drenčerové systémy a vodní clony",
+    "norm": "ČSN EN 12845",
+    "fire_class": "Požární chlazení",
+    "short_desc": "Otevřené hubicové soustavy pro velkoplošné chlazení technologických celků a oddělení požárních úseků vodní clonou.",
+    "partner": "Caccialanza, Rolland Sprinklers",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 12845, ČSN 73 0810"},
+      {"param": "Funkce systému", "val": "Prostorové hašení a chlazení konstrukcí"},
+      {"param": "Spouštěcí mechanizmus", "val": "Elektrická nebo pneumatická aktivace"},
+      {"param": "Ověřené instalace", "val": "AE Jaslovské Bohunice V-1, Johns Manville"}
+    ],
+    "applications": "Potrubní mosty, kabelové prostory, nádrže ropy a dělení velkých hal."
+  },
+  {
+    "id": "plynove-shz-co2",
+    "category": "shz",
+    "category_title": "Plynové SHZ",
+    "title": "Plynové hasicí systémy CO2 a plyny",
+    "norm": "ČSN EN 15004",
+    "fire_class": "Bezezbytkové hašení",
+    "short_desc": "Objemové a zónové plynové hasicí systémy chránící citlivé technologie, rozvodny, turbíny a datová centra bez sekundárních škod.",
+    "partner": "LPG - Técnicas en Extinción",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 15004, ISO 14520"},
+      {"param": "Hasiva", "val": "CO2, chemické a inertní plyny"},
+      {"param": "Tlakové nádoby", "val": "Vysokotlaké i nízkotlaké moduly"},
+      {"param": "Ověřené instalace", "val": "Amylum Boleráz, PSA Trnava, JE V-2"}
+    ],
+    "applications": "Serverovny, strojovny, parní turbíny, lakovny a elektrorozvodny."
+  },
+  {
+    "id": "vazici-monitorovaci-system",
+    "category": "shz",
+    "category_title": "Plynové SHZ",
+    "title": "Vážicí a monitorovací systémy SHZ",
+    "norm": "ČSN EN 12094",
+    "fire_class": "Diagnostika SHZ",
+    "short_desc": "Kontinuální tenzometrické vážení a tlakový monitoring stavu plynových hasicích náplní s dálkovým hlášením úniku.",
+    "partner": "LPG Técnicas, TPZ PEGA",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 12094, ČSN EN 15004"},
+      {"param": "Monitorovaná veličina", "val": "Úbytek hmotnosti a provozní tlak hasiva"},
+      {"param": "Armatury", "val": "Rychloaktivační a pojistné ventily"},
+      {"param": "Tlumiče rázu", "val": "Automatické tlakové kompenzátory"}
+    ],
+    "applications": "Baterie tlakových lahví plynového hašení v jaderné i průmyslové energetice."
+  },
+  {
+    "id": "detekce-plynu-pointwatch",
+    "category": "detekce",
+    "category_title": "Detekce plynů",
+    "title": "Detekce plynů PointWatch PIR9400",
+    "norm": "ČSN EN 60079-29-1",
+    "fire_class": "Ex zóna ATEX",
+    "short_desc": "Optický infračervený detektor hořlavých uhlovodíkových plynů a par pro nejtěžší průmyslové podmínky v zónách s nebezpečím výbuchu.",
+    "partner": "PointWatch, Det-Tronics",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 60079-29-1, certifikace ATEX"},
+      {"param": "Princip měření", "val": "Dvojvlnová infračervená optika"},
+      {"param": "Kompatibilní vysílač", "val": "Vysílač detekce plynů model 505"},
+      {"param": "Ověřené instalace", "val": "Transpetrol a.s., Duslo Šaľa"}
+    ],
+    "applications": "Ropné terminály, chemické provozy, sklady uhlovodíků a kompresorovny."
+  },
+  {
+    "id": "eps-multisenzor-esser",
+    "category": "detekce",
+    "category_title": "EPS signalizace",
+    "title": "Elektrická požární signalizace ESSER",
+    "norm": "ČSN EN 54-2",
+    "fire_class": "Certifikace VdS",
+    "short_desc": "Špičkové kruhové adresné ústředny a inteligentní multisenzorové hlásiče s odolností proti falešným poplachům.",
+    "partner": "ESSER by Honeywell, Group 4 Falck",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 54-2, ČSN EN 54-7, ČSN 34 2710"},
+      {"param": "Typ technologie", "val": "Adresná kruhová smyčka essernet"},
+      {"param": "Senzorické krytí", "val": "Optické, termické a CO senzory v jednom"},
+      {"param": "Ověřené instalace", "val": "Transpetrol, SE Bohunice, VÚJE Trnava"}
+    ],
+    "applications": "Energetické stavby, administrativní budovy, archivy a výrobní areály."
+  },
+  {
+    "id": "eps-cerberus-siemens",
+    "category": "detekce",
+    "category_title": "EPS signalizace",
+    "title": "Požární systémy Cerberus Siemens",
+    "norm": "ČSN EN 54",
+    "fire_class": "Certifikace ISO",
+    "short_desc": "Robustní modulární systémy elektrické požární signalizace Siemens Cerberus pro rozsáhlé komerční a průmyslové komplexy.",
+    "partner": "Siemens Building Technologies",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 54, ISO 7240, ČSN 34 2710"},
+      {"param": "Algoritmus detekce", "val": "ASAtechnology pro náročná prostředí"},
+      {"param": "Periferie", "val": "Kombinované hlásiče, tlačítka a sirény"},
+      {"param": "Integrace", "val": "Napojení na velíny a MaR dispečinky"}
+    ],
+    "applications": "Veřejné budovy, nemocnice, nákupní centra a rozsáhlé výrobní závody."
+  },
+  {
+    "id": "plamenove-detektory",
+    "category": "detekce",
+    "category_title": "EPS detekce",
+    "title": "Infračervené a frekvenční hlásiče plamene",
+    "norm": "ČSN EN 54-10",
+    "fire_class": "Blesková odezva",
+    "short_desc": "Specializované optické hlásiče plamene TEDIS reagující na spektrální vyzařování a frekvenční pulsaci otevřeného ohně v milisekundách.",
+    "partner": "TEDIS, Cerberus, Esser",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 54-10, třída 1"},
+      {"param": "Detekční pásmo", "val": "Vícepásmová IR / frekvenční analýza"},
+      {"param": "Odolnost", "val": "Ignoruje sluneční svit i svářečské oblouky"},
+      {"param": "Ověřené instalace", "val": "Skladovací nádrže Transpetrol, transformátory"}
+    ],
+    "applications": "Venkovní i vnitřní sklady hořlavých kapalin, trafostanice a hangáry."
+  },
+  {
+    "id": "protipozarni-ucpavky",
+    "category": "pasivni",
+    "category_title": "Pasivní PBS",
+    "title": "Protipožární utěsnění a ucpávky prostupů",
+    "norm": "ČSN EN 1366-3",
+    "fire_class": "EI 30 až EI 120",
+    "short_desc": "Certifikované ucpávky kabelových svazků, kovových a plastových trubek a dilatačních spár zabraňující šíření ohně a toxických zplodin.",
+    "partner": "G + H Montage GmbH, Hilti, Promat",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 1366-3, ČSN 73 0810"},
+      {"param": "Požární odolnost", "val": "EI 30, EI 60, EI 90 až EI 120"},
+      {"param": "Prostupující média", "val": "Silové kabely, sdělovací kabely, potrubí"},
+      {"param": "Materiály", "val": "Intumescentní tmely, manžety, minerální desky"}
+    ],
+    "applications": "Dělící stěny a stropy všech požárních úseků pozemních i průmyslových staveb."
+  },
+  {
+    "id": "protipozarni-nastriky",
+    "category": "pasivni",
+    "category_title": "Pasivní PBS",
+    "title": "Protipožární nástřiky a obklady konstrukcí",
+    "norm": "ČSN EN 13381",
+    "fire_class": "R 30 až R 180",
+    "short_desc": "Ochranné tepelně-izolační nástřiky a deskové obklady ocelových, betonových a dřevěných nosných konstrukcí zvyšující jejich únosnost při požáru.",
+    "partner": "G + H Montage GmbH, Knauf, Promat",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 13381-4, ČSN EN 13381-8"},
+      {"param": "Třída odolnosti", "val": "R 30, R 60, R 90, R 120 až R 180"},
+      {"param": "Typ systémů", "val": "Vláknité nástřiky, protipožární desky"},
+      {"param": "Životnost", "val": "Dlouhodobá stálost bez ztráty účinnosti"}
+    ],
+    "applications": "Ocelové skelety hal, kabelové lávky, střešní vazníky a nosné sloupy."
+  },
+  {
+    "id": "odvod-koure-geze",
+    "category": "odvetrani",
+    "category_title": "ZOKT systémy",
+    "title": "Zařízení pro odvod kouře a tepla GEZE",
+    "norm": "ČSN EN 12101-2",
+    "fire_class": "ČSN EN 12101",
+    "short_desc": "Systémy gravitačního i nuceného odvodu tepla a kouře s elektromechanickými pohony GEZE pro udržení volných únikových cest.",
+    "partner": "GEZE Německo / Česká republika",
+    "specs": [
+      {"param": "Předpisová norma", "val": "ČSN EN 12101-2, ČSN 73 0804"},
+      {"param": "Pohony oken a klapky", "val": "Řetězové a vřetenové pohony 24V"},
+      {"param": "Řídicí centrály", "val": "THZ zálohované centrály s EPS vazbou"},
+      {"param": "Ověřené instalace", "val": "Elektrárna Nováky, Vojany EVO, AE Bohunice"}
+    ],
+    "applications": "Schodišťové prostory, výrobní a skladovací haly, atria a sportovní centra."
+  },
+  {
+    "id": "projekce-revize-pbs",
+    "category": "inzenyring",
+    "category_title": "Inženýring PBS",
+    "title": "Požárně bezpečnostní řešení a revize PBZ",
+    "norm": "Vyhláška 246/2001 Sb.",
+    "fire_class": "Akreditace ČKAIT",
+    "short_desc": "Kompletní projektová dokumentace požární bezpečnosti staveb (PBŘ), autorizovaný inženýring, revizní zprávy a periodické kontroly provozuschopnosti.",
+    "partner": "ČKAIT, HZS ČR / SR, SE a.s.",
+    "specs": [
+      {"param": "Legislativní rámec", "val": "Vyhláška č. 246/2001 Sb., ČSN 73 0810"},
+      {"param": "Rozsah projekce", "val": "PBŘ staveb, koncepce SHZ, EPS a ZOKT"},
+      {"param": "Revizní činnost", "val": "Výchozí a periodické revize PBZ zařízení"},
+      {"param": "Ověřené instalace", "val": "Archiv Trnava, ŽOS Trnava, Skloplast"}
+    ],
+    "applications": "Novostavby, rekonstrukce výrobních provozů a kolaudační řízení staveb."
+  }
+]
