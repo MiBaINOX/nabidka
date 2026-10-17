@@ -1,0 +1,56 @@
+{
+  "slug": "posgir",
+  "firma": "POSGIR s.r.o.",
+  "ico": "06461191",
+  "dic": "CZ06461191",
+  "obec": "Újezd u Brna",
+  "okres": "Brno-venkov",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Kovoobrábění a kovovýroba / Průmyslové nástroje pro obrábění dřeva, plastů a neželezných kovů, CNC ostření pilových kotoučů, diamantové (PKD) a tvrdokovové (HW) nástroje, nástrčné a stopkové frézy, vrtáky, sukovníky, oficiální zástupce DIMAR GROUP a OSEKON",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://posgir.cz",
+  "email": "dimar@posgir.cz",
+  "telefon": "+420 777 999 289",
+  "mobil": "+420 777 661 200",
+  "adresa_plna": "Sušilova 12, 664 53 Újezd u Brna",
+  "jednatel": "Roman Kaňa",
+  "vedeni": "Roman Kaňa (jednatel & obchodně-technické poradenství)",
+  "osloveni": "Vážený pane Kaňo,",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Oficiální obchodní zastoupení renomované značky DIMAR GROUP pro Jižní Moravu a návaznost na tradici Drakona s.r.o.",
+    "Kompletní sortiment průmyslových nástrojů: pilové kotouče pro nářezová centra (Holzma, Schelling, Biesse), diamantové PKD frézy, tvrdokovové VHM spirály i sukovníky",
+    "Autorizovaný CNC servis a ostření nástrojů na německých automatech Loroch a pětiosých bruskách Walter Helitronic s laserovým proměřováním"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez platného SSL/TLS certifikátu (prohlížeče hlásí varování Nezabezpečeno)",
+    "Absence responzivity pro mobilní telefony (chybí meta viewport, na telefonech nutno zoomovat a posouvat layout)",
+    "Nefunkční interní odkazy v menu (mod_rewrite selhává na novějších serverech a vrací úvodní stránku)",
+    "Statický katalog bez možnosti interaktivního vyhledávání dle parametrů a materiálů obrobku"
+  ],
+  "vylepseni_noveho_webu": [
+    "Responzivní Heavy Industrial design optimalizovaný pro tablety i smartphony s 0px horizontálním přetečením",
+    "Interaktivní katalog s 16 výrobními a servisními řadami, živým vyhledáváním a filtrem dle materiálů",
+    "Technická modální okna (#techModalBackdrop) s kompletními tabulkami průměrů D, upínacích stopek d a norem ČSN EN 847-1",
+    "Přímá integrace PDF katalogů DIMAR ke stažení a zabezpečeného poptávkového formuláře",
+    "Ověřená adresa a geolokační Mapy.cz špendlík na sídlo Sušilova 12, Újezd u Brna"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2017,
+    "ico": "06461191",
+    "jednatel": "Roman Kaňa",
+    "katalog_pocet": 16,
+    "stroje": [
+      "CNC automaty Loroch",
+      "5osé CNC brusky Walter Helitronic",
+      "Brusky vrtáků Gühring"
+    ],
+    "normy": [
+      "ČSN EN 847-1",
+      "DIN 1837",
+      "DIN 1838"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60" fill="none">
+  <rect x="2" y="2" width="56" height="56" rx="6" fill="#1e293b" stroke="#f97316" stroke-width="2"/>
+  <path d="M14 42L14 18H28C33.5 18 38 21.5 38 27C38 32.5 33.5 36 28 36H21V42H14Z" fill="#f97316"/>
+  <path d="M21 24V30H27.5C29.5 30 31 28.8 31 27C31 25.2 29.5 24 27.5 24H21Z" fill="#fff"/>
+  <path d="M42 16L48 22L42 28L36 22Z" fill="#fff"/>
+  <circle cx="42" cy="22" r="2" fill="#f97316"/>
+  <path d="M45 32L51 38L45 44L39 38Z" fill="#f97316"/>
+  <text x="70" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="26" fill="#fff" letter-spacing="1.5">POSGIR</text>
+  <text x="195" y="32" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#f97316" letter-spacing="0.5">s.r.o.</text>
+  <text x="70" y="47" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="9" fill="#94a3b8" letter-spacing="1.2">PRŮMYSLOVÉ NÁSTROJE • DIMAR</text>
+</svg>

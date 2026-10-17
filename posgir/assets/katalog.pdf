@@ -1,0 +1,114 @@
+  
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs"> 
+  <head>
+    <meta http-equiv="Content-language" content="cs" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <meta name="Author" content="Číkus"/>
+    
+    <meta name="robots" content="index, follow"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    
+    
+    <meta name="Description" content="POSGIR s.r.o. - komplexní řešení"/>
+    <meta name="Keywords" content="kotouče,frézy,frézky,vrtáky,cnc,Dimar"/>
+    <title>POSGIR s.r.o. - komplexní řešení</title>
+        
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico"/>
+    <meta http-equiv='X-UA-Compatible' content='IE=7'/>
+    
+    <link rel="stylesheet" type="text/css" href="/css/jquery.lightbox-0.5.css" media="screen" />
+    
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.lightbox-0.5.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>
+    
+
+
+  </head>
+  <body>
+    <div id="header" class="wrap">
+      <p id="logo_dimar"><span>Dimar</span></p>
+      <a id="logo" href="/" title="Na hlavní stránku"><span>Osekon</span></a>
+      
+    </div>
+    <div id="menu1">
+      <ul class="wrap">
+        <li><a href="/" class="first">Domů</a></li>
+        <!--<li><a href="novinky" >Novinky</a></li>-->
+        <li><a href="dimar" >Dimar Group</a></li>
+        <li><a href="kontakt" >Kontakt</a></li>
+        <li><a href="http://www.osekon.cz/" class="osekon">Servis nástrojů</a></li>
+      </ul>
+
+    </div>
+    <div id="menu2">
+      <ul class="wrap default">
+        <li><a href="kotouce" >Kotouče</a></li>
+        <li><a href="cnc" >CNC</a></li>
+        <li><a href="nastrcne-frezy" >Nástrčné frézy</a></li>
+        <li><a href="vrtaky-sukovniky" >Vrtáky, sukovníky</a></li>
+        <li><a href="stopkove-frezky" >Stopkové frézky</a></li>
+      </ul>
+      
+    </div>
+    <div class="wrap" id="content">
+      <h1>POSGIR s.r.o.</h1>
+
+<p>
+  Společnost POSGIR s.r.o. vznikla v&nbsp;roce 2017 jako nástupce společnosti Drakona s.r.o., dřívějšího obchodního zástoupení značky 
+  <a href="/dimar">Dimar</a> pro Jižní Moravu, čímž převzala
+  veškeré obchodní aktivity včetně péče o&nbsp;stávající klienty. Cílem společnosti POSGIR s.r.o. je prezentace a&nbsp;prodej nástrojů značky Dimar.
+  Pro maximální výkon, dostatečnou životnost a&nbsp;precizní provedení Vámi požadovaných operací Vám poskytneme poradenství prostřednictvím
+  našich obchodních zástupců, kteří mají se značkou Dimar dlouholeté zkušenosti a&nbsp;tudíž mohou navrhnout optimální řešení dle Vašich představ
+  a&nbsp;požadavků.
+</p>
+
+<h2>Sortiment</h2>
+
+<p>
+  Zejména náročné a&nbsp;profesionální klientele nabízíme vysoce kvalitní nástroje. 
+  V&nbsp;našem sortimentu naleznete pilové kotouče, CNC nástroje, nástrčné frézy, vrtáky a&nbsp;sukovníky, stopkové frézy,
+  výměnné nože, ložiska a&nbsp;ostatní příslušenství.
+</p>
+<p><a href="/files/katalog/2017/katalog.pdf">Katalog Dimar</a></p>
+
+<h2>Servis nástrojů</h2>
+
+<p>
+  Dodáním nástrojů naše práce nekončí. Pro Vaši spokojenost a&nbsp;maximální výkon i&nbsp;životnost nástrojů nabízíme i&nbsp;komplexní servis.
+  Poskytujeme broušení, čištění, kontrolu, opravy a&nbsp;další potřebné služby.
+</p>
+
+<p>
+  Zákazníkům nabízíme poradenskou činnost a&nbsp;pravidelné svozy nástrojů.
+</p>    
+
+
+
+ 
+
+
+
+
+
+      
+    </div>
+    <div class="wrap" id="footer">
+      &copy;2017 - 2026 POSGIR s.r.o.<br/>vytvořil Číkus
+    </div>
+    
+
+  </body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33377590-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-33377590-2');
+</script>
+
+</html>

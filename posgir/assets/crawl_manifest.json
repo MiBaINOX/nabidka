@@ -1,0 +1,338 @@
+{
+  "firm": "POSGIR s.r.o.",
+  "ico": "06461191",
+  "base_url": "http://posgir.cz",
+  "pages_crawled_count": 16,
+  "pages": [
+    "domu",
+    "dimar",
+    "kontakt",
+    "kotouce",
+    "cnc",
+    "nastrcne-frezy",
+    "vrtaky-sukovniky",
+    "stopkove-frezky",
+    "osekon-domu",
+    "osekon-o-spolecnosti",
+    "osekon-kontakt",
+    "osekon-deleni-kovu",
+    "osekon-obrabeni-plastu",
+    "osekon-polygrafie",
+    "osekon-pro-domacnosti",
+    "osekon-ostreni-vrtaku"
+  ],
+  "assets_downloaded_count": 50,
+  "assets": [
+    {
+      "url": "http://www.osekon.cz/css/img/bg.png",
+      "filename": "bg.png",
+      "size": 4430,
+      "content_type": "image/png"
+    },
+    {
+      "url": "http://www.osekon.cz/css/img/logo.png",
+      "filename": "logo.png",
+      "size": 27149,
+      "content_type": "image/png"
+    },
+    {
+      "url": "http://www.osekon.cz/css/img/menu2-hover.png",
+      "filename": "menu2-hover.png",
+      "size": 4638,
+      "content_type": "image/png"
+    },
+    {
+      "url": "http://www.osekon.cz/css/img/splash.png",
+      "filename": "splash.png",
+      "size": 309485,
+      "content_type": "image/png"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/Walter_zuby.jpg",
+      "filename": "Walter_zuby.jpg",
+      "size": 54533,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/00.jpg",
+      "filename": "00.jpg",
+      "size": 21811,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/01.jpg",
+      "filename": "01.jpg",
+      "size": 45220,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/02.jpg",
+      "filename": "02.jpg",
+      "size": 45184,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/10.jpg",
+      "filename": "10.jpg",
+      "size": 23043,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/11.jpg",
+      "filename": "11.jpg",
+      "size": 46669,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/12.jpg",
+      "filename": "12.jpg",
+      "size": 50334,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/20.jpg",
+      "filename": "20.jpg",
+      "size": 23925,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/21.jpg",
+      "filename": "21.jpg",
+      "size": 49017,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/22.jpg",
+      "filename": "22.jpg",
+      "size": 58260,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/30.jpg",
+      "filename": "30.jpg",
+      "size": 23868,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/31.jpg",
+      "filename": "31.jpg",
+      "size": 41518,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/32.jpg",
+      "filename": "32.jpg",
+      "size": 53766,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/40.jpg",
+      "filename": "40.jpg",
+      "size": 23688,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/41.jpg",
+      "filename": "41.jpg",
+      "size": 45583,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/brouseni-vrtaku/42.jpg",
+      "filename": "42.jpg",
+      "size": 51311,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/cermentova-pila1.jpg",
+      "filename": "cermentova-pila1.jpg",
+      "size": 106804,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/cermentova-pila1_s.jpg",
+      "filename": "cermentova-pila1_s.jpg",
+      "size": 71673,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/cermentova-pila2.jpg",
+      "filename": "cermentova-pila2.jpg",
+      "size": 87718,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/cermentova-pila2_s.jpg",
+      "filename": "cermentova-pila2_s.jpg",
+      "size": 69657,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/chlazeni-olejem.jpg",
+      "filename": "chlazeni-olejem.jpg",
+      "size": 71052,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/chlazeni-olejem_s.jpg",
+      "filename": "chlazeni-olejem_s.jpg",
+      "size": 32168,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/loroch1.jpg",
+      "filename": "loroch1.jpg",
+      "size": 68359,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/loroch1_s.jpg",
+      "filename": "loroch1_s.jpg",
+      "size": 32297,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/loroch2.jpg",
+      "filename": "loroch2.jpg",
+      "size": 65869,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/loroch2_s.jpg",
+      "filename": "loroch2_s.jpg",
+      "size": 41775,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/polygrafie1.jpg",
+      "filename": "polygrafie1.jpg",
+      "size": 91979,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/polygrafie1_s.jpg",
+      "filename": "polygrafie1_s.jpg",
+      "size": 40281,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/tvary-zubu1.jpg",
+      "filename": "tvary-zubu1.jpg",
+      "size": 25937,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/tvary-zubu1_s.jpg",
+      "filename": "tvary-zubu1_s.jpg",
+      "size": 17395,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/tvary-zubu2.jpg",
+      "filename": "tvary-zubu2.jpg",
+      "size": 45752,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/tvary-zubu2_s.jpg",
+      "filename": "tvary-zubu2_s.jpg",
+      "size": 25916,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/tvary-zubu3.jpg",
+      "filename": "tvary-zubu3.jpg",
+      "size": 48186,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/tvary-zubu3_s.jpg",
+      "filename": "tvary-zubu3_s.jpg",
+      "size": 28870,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/walter1.jpg",
+      "filename": "walter1.jpg",
+      "size": 89144,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/walter1_s.jpg",
+      "filename": "walter1_s.jpg",
+      "size": 28941,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/walter2.jpg",
+      "filename": "walter2.jpg",
+      "size": 60496,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/walter2_s.jpg",
+      "filename": "walter2_s.jpg",
+      "size": 36427,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/walter3.jpg",
+      "filename": "walter3.jpg",
+      "size": 77421,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/walter3_s.jpg",
+      "filename": "walter3_s.jpg",
+      "size": 52047,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/zub2.jpg",
+      "filename": "zub2.jpg",
+      "size": 97024,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/zub2_s.jpg",
+      "filename": "zub2_s.jpg",
+      "size": 12136,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/zub3.jpg",
+      "filename": "zub3.jpg",
+      "size": 69934,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/zub3_s.jpg",
+      "filename": "zub3_s.jpg",
+      "size": 9514,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/zub4.jpg",
+      "filename": "zub4.jpg",
+      "size": 63711,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "http://www.osekon.cz/pics/zub4_s.jpg",
+      "filename": "zub4_s.jpg",
+      "size": 10093,
+      "content_type": "image/jpeg"
+    }
+  ],
+  "menu_categories": [
+    "Domů",
+    "Dimar Group",
+    "Kontakt",
+    "Servis nástrojů",
+    "Kotouče",
+    "CNC",
+    "Nástrčné frézy",
+    "Vrtáky, sukovníky",
+    "Stopkové frézky"
+  ]
+}

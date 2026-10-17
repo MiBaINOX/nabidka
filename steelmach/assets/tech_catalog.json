@@ -1,0 +1,242 @@
+[
+  {
+    "id": "celni-ozubeni",
+    "title": "Čelní ozubení s přímým a šikmým zubem",
+    "category": "ozubeni",
+    "category_label": "Výroba ozubení",
+    "badge": "Modul m=0,5 až 16",
+    "modul": "m = 0,5 až 16",
+    "capacity": "do Ø 1 200 mm",
+    "image": "assets/soukol_-1-1024x768.jpg",
+    "short_desc": "Výroba čelních ozubených kol s přímým i šikmým ozubením, vnější i vnitřní ozubení metodou odvalovacího frézování a obrážení.",
+    "description": "Zajišťujeme kompletní výrobu čelních ozubených kol v širokém modulovém rozsahu m = 0,5 až m = 16. Výroba probíhá odvalovacím frézováním na osvědčených odvalovacích frézkách i na moderních CNC centrech s CAD/CAM podporou. Dodáváme ozubená kola s přímými i šikmými zuby, včetně tepelného zpracování a broušení funkčních ploch.",
+    "specs": [
+      { "label": "Modulový rozsah", "value": "m = 0,5 až m = 16" },
+      { "label": "Max. točný průměr", "value": "do Ø 1 200 mm" },
+      { "label": "Třída přesnosti", "value": "DIN 3962 / ČSN 01 4682" },
+      { "label": "Materiály", "value": "16MnCr5, 42CrMo4, C45, nástrojové oceli" },
+      { "label": "Tepelné zpracování", "value": "Cementování, kalení, zušlechťování, nitridace" },
+      { "label": "Úhel sklonu zubu", "value": "0° (přímé) až 45° (šikmé)" }
+    ]
+  },
+  {
+    "id": "kuzelove-soukoli",
+    "title": "Kuželová soukolí (přímá, Gleason, paloidní)",
+    "category": "prevody",
+    "category_label": "Převody a soukolí",
+    "badge": "Gleason & Paloid",
+    "modul": "m = 1 až 12",
+    "capacity": "do Ø 600 mm",
+    "image": "assets/Kuzelove-kolo-1-1024x768.jpg",
+    "short_desc": "Přesná kuželová kola s přímým, šikmým a zakřiveným ozubením systému Gleason a paloidním profilem pro úhlové převody.",
+    "description": "Vyrábíme kuželová soukolí pro úhlové převodovky s různou geometrií ozubení – od přímých zubů přes šikmé až po zakřivené ozubení Gleason a paloidní profily. Soukolí jsou dodávána v přesně spárovaných dvojicích po záběhovém lapování pro tichý a plynulý chod.",
+    "specs": [
+      { "label": "Typ ozubení", "value": "Přímé, zakřivené Gleason, paloidní, epicykloidní" },
+      { "label": "Modulový rozsah", "value": "m = 1 až m = 12" },
+      { "label": "Úhel os soukolí", "value": "Standardně 90° (zakázkově variabilní)" },
+      { "label": "Materiály", "value": "16MnCr5, 42CrMo4, 18CrNiMo7-6" },
+      { "label": "Broušení a lapování", "value": "Záběhové lapování soukolí v páru" },
+      { "label": "Tepelné zpracování", "value": "Cementace a kalení do 58–62 HRC" }
+    ]
+  },
+  {
+    "id": "snekove-prevody",
+    "title": "Šnekové převody (šneky a šneková kola)",
+    "category": "prevody",
+    "category_label": "Převody a soukolí",
+    "badge": "1 až 6 chodů",
+    "modul": "m = 1 až 10",
+    "capacity": "do Ø 800 mm",
+    "image": "assets/_nekova-h__del-oz1c61jpldmdpvtoveu9xj7lrqbej3a5dqkes94hqi.jpg",
+    "short_desc": "Kompletní výroba šnekových hřídelí s broušeným profilem šneku a šnekových kol s bronzovým věncem či litinovým tělem.",
+    "description": "Specializujeme se na výrobu šnekových hřídelí (jednochodých i vícechodých) a šnekových kol pro samosvorné a vysoce převodové mechanismy. Šnekové hřídele vyrábíme z cementačních nebo zušlechtěných ocelí s následným broušením profilu závitu, věnce kol z jakostních cínových či hliníkových bronzů.",
+    "specs": [
+      { "label": "Typ převodu", "value": "Válcový šnek (broušený) a globoidní nebo válcové kolo" },
+      { "label": "Materiál kola", "value": "Bronz CuSn12, CuAl10Fe3, šedá litina" },
+      { "label": "Materiál šneku", "value": "16MnCr5, 42CrMo4, cementováno a broušeno" },
+      { "label": "Modulový rozsah", "value": "m = 1 až m = 10" },
+      { "label": "Chodost šneku", "value": "1 až 6 chodů" },
+      { "label": "Kontrola záběru", "value": "Otisková kontrola záběru šnekového soukolí" }
+    ]
+  },
+  {
+    "id": "vnitrni-ozubeni",
+    "title": "Vnitřní ozubení a ozubené věnce",
+    "category": "ozubeni",
+    "category_label": "Výroba ozubení",
+    "badge": "Systém Fellow",
+    "modul": "m = 0,8 až 10",
+    "capacity": "do Ø 1 000 mm",
+    "image": "assets/Vnit_n_-ozubeni-oz1c6rv6wqmeqyrglq7tvckieipoim6mtcu0801gwa.jpg",
+    "short_desc": "Přesné obrážení vnitřního ozubení systémem Fellow a drážkování dutin pro planetové převodovky a náboje.",
+    "description": "Výroba vnitřního ozubení metodou odvalovacího obrážení kotoučovým nožem Fellow. Zajišťujeme ozubení věnců planetových převodovek, nábojů, zubových spojek a dutých těles v tolerancích dle DIN norem.",
+    "specs": [
+      { "label": "Metoda výroby", "value": "Obrážení odvalovacím kotoučovým nožem (Fellow)" },
+      { "label": "Modul", "value": "m = 0,8 až m = 10" },
+      { "label": "Vnitřní průměr", "value": "od Ø 30 mm do Ø 1 000 mm" },
+      { "label": "Zdvih obrážecího nože", "value": "do 180 mm" },
+      { "label": "Použití", "value": "Planetové převody, spojkové bubny, ozubené věnce" },
+      { "label": "Přesnost", "value": "DIN 3962 stupeň 7–8" }
+    ]
+  },
+  {
+    "id": "epicykloidni-ozubeni",
+    "title": "Epicykloidní ozubení a speciální profily",
+    "category": "ozubeni",
+    "category_label": "Výroba ozubení",
+    "badge": "CAD/CAM & EDM",
+    "modul": "m = 1 až 8",
+    "capacity": "do Ø 500 mm",
+    "image": "assets/Epicykloidni-ozubeni-oz1c676qqdu3njlhyha1chsdc1jlt9wjeihbnww4p6.jpg",
+    "short_desc": "Zakázková výroba speciálních epicykloidních a nekruhových profilů ozubení pro hydraulické stroje, čerpadla a mechanismy.",
+    "description": "Díky kombinaci CAD/CAM modelování a elektroerozivního drátového řezání vyrábíme nestandardní profily ozubení – epicykloidy, hypocykloidy a evolventy s modifikovanou hlavou či patou zubu. Vhodné pro zubová čerpadla, rotační motory a speciální reduktory.",
+    "specs": [
+      { "label": "Profil ozubení", "value": "Epicykloidní, hypo- a cykloidní křivky" },
+      { "label": "Výrobní postup", "value": "CAD/CAM konstrukce + EDM drátové řezání + 4,5-osé frézování" },
+      { "label": "Tolerance tvaru", "value": "± 0,005 mm" },
+      { "label": "Materiály", "value": "Nástrojové oceli, korozivzdorné oceli, bronz" },
+      { "label": "Kontrola geometrie", "value": "Optické měření a 3D kontrola profilu" },
+      { "label": "Zakázkový vývoj", "value": "Optimalizace záběru dle zadané kinematiky" }
+    ]
+  },
+  {
+    "id": "ozubene-tyce-hrebeny",
+    "title": "Ozubené tyče a hřebeny",
+    "category": "ozubeni",
+    "category_label": "Výroba ozubení",
+    "badge": "Přímé i šikmé",
+    "modul": "m = 1 až 12",
+    "capacity": "délka do 3 000 mm",
+    "image": "assets/Soukol_-3-1024x768.jpg",
+    "short_desc": "Frézování přesných ozubených hřebenů s přímým i šikmým zubem dle 3D modelu pro lineární posuvy a automatizaci.",
+    "description": "Zajišťujeme frézování ozubených tyčí a hřebenů pro převod rotačního pohybu na přímočarý. Vyrábíme hřebeny s přímými i šikmými zuby z ušlechtilých ocelí s možností indukčního kalení zubů pro vysokou odolnost proti opotřebení.",
+    "specs": [
+      { "label": "Moduly", "value": "m = 1 až m = 12" },
+      { "label": "Délka segmentu", "value": "do 3 000 mm (možnost návazného skládání)" },
+      { "label": "Orientace ozubení", "value": "Přímé (úhel 0°) i šikmé (úhel 19°31'42\" nebo variabilní)" },
+      { "label": "Materiály", "value": "C45, 42CrMo4, 16MnCr5" },
+      { "label": "Jakost ozubení", "value": "Broušené nebo frézované dle DIN 3962" },
+      { "label": "Možnosti", "value": "Indukční kalení zubů na 50–55 HRC" }
+    ]
+  },
+  {
+    "id": "drazkovani-hridele",
+    "title": "Drážkované hřídele a náboje (evolventní, rovnoboké)",
+    "category": "drazkovani",
+    "category_label": "Drážkování a profily",
+    "badge": "DIN 5480 / ČSN",
+    "modul": "DIN 5480 / ČSN 01 4942",
+    "capacity": "délka do 2 000 mm",
+    "image": "assets/Pastorek-1024x768.jpg",
+    "short_desc": "Odvalovací frézování vnějšího evolventního a rovnobokého drážkování a vnitřní protahování a obrážení drážek nábojů.",
+    "description": "Vyrábíme drážkovaná spojení pro přenos vysokých krouticích momentů. Nabízíme kompletní sortiment drážkování dle norem DIN 5480, DIN 5482, ČSN i zakázkových profilů. Zajišťujeme vnější frézování hřídelí i vnitřní obrážení protikusů.",
+    "specs": [
+      { "label": "Normy profilů", "value": "DIN 5480, DIN 5482, ČSN 01 4942, ČSN 01 4943" },
+      { "label": "Druh drážkování", "value": "Evolventní, rovnoboké, jemné jemnozubé" },
+      { "label": "Točná délka hřídele", "value": "do 2 000 mm" },
+      { "label": "Moduly drážkování", "value": "m = 0,8 až m = 8" },
+      { "label": "Vystředění", "value": "Na boky zubů nebo na vnější/vnitřní průměr" },
+      { "label": "Tepelné zpracování", "value": "Zušlechťování, nitridace, cementace" }
+    ]
+  },
+  {
+    "id": "cnc-soustruzeni-velke",
+    "title": "Konvenční a CNC soustružení (do Ø 1 000 × 6 000 mm)",
+    "category": "obrabeni",
+    "category_label": "Strojní obrábění",
+    "badge": "Ø 1 000 × 6 000 mm",
+    "modul": "Přesnost IT6–IT7",
+    "capacity": "Ø do 1 000 mm, L = 6 000 mm",
+    "image": "assets/Nerez-h__del-1024x768.jpg",
+    "short_desc": "Kusové a malosériové soustružení rozměrných hřídelí, válců a obrobků na soustruzích MAS Masturn a konvenčních strojích.",
+    "description": "Disponujeme rozsáhlou soustružnickou kapacitou pro kusovou i malosériovou výrobu. Obrábíme dílce od drobných přesných čepů až po mohutné hřídele a válce o točném průměru 1 000 mm a délce až 6 000 mm. Strojní park zahrnuje CNC soustruhy MAS Masturn s řídicím systémem Heidenhain a klasické hrotové soustruhy.",
+    "specs": [
+      { "label": "Točný průměr nad ložem", "value": "až 1 000 mm" },
+      { "label": "Točná délka", "value": "až 6 000 mm" },
+      { "label": "Strojní park", "value": "CNC soustruhy MAS Masturn (Heidenhain) a konvenční soustruhy" },
+      { "label": "Operace", "value": "Podélné i čelní soustružení, řezání závitů, vrtání hlubokých děr" },
+      { "label": "Hmotnost obrobku", "value": "Manipulace jeřábem do několika tun" },
+      { "label": "Materiály", "value": "Uhlíkové, legované, nerezové oceli, barevné kovy" }
+    ]
+  },
+  {
+    "id": "cnc-frezovani-45ose",
+    "title": "CNC frézování a 4,5-osé obrábění CAD/CAM",
+    "category": "obrabeni",
+    "category_label": "Strojní obrábění",
+    "badge": "4,5 osy Heidenhain",
+    "modul": "Tolerance ± 0,005 mm",
+    "capacity": "pojezdy do 1 500 mm",
+    "image": "assets/44112923_881509615383711_5579249155584294912_o-1024x768.jpg",
+    "short_desc": "Vysoce přesné CNC frézování složitých tvarových součástí, skříní převodovek a technologických přípravků s podporou 3D CAD/CAM.",
+    "description": "Nabízíme 4,5-osé CNC frézování na vertikálních a horizontálních obráběcích centrech se systémem Heidenhain. Od roku 2021 využíváme pokročilou víceosou technologii pro obrábění složitých prostorových ploch, forem a těles převodovek přímo ze 3D dat.",
+    "specs": [
+      { "label": "Kinematika", "value": "4,5-osé plynulé a polohované frézování (zavedeno 2021)" },
+      { "label": "Řídicí systém", "value": "HEIDENHAIN" },
+      { "label": "CAD/CAM integrace", "value": "Obrábění přímo ze 3D modelů (STEP, IGES, Parasolid)" },
+      { "label": "Materiály", "value": "Konstrukční a nástrojové oceli, hliník, dural, bronz, plasty" },
+      { "label": "Přesnost polohování", "value": "± 0,005 mm" },
+      { "label": "Kapacita", "value": "Kusová zakázková výroba i opakované série" }
+    ]
+  },
+  {
+    "id": "edm-dratove-rezani",
+    "title": "EDM drátové řezání zubů a tvarových otvorů",
+    "category": "edm",
+    "category_label": "EDM a vývoj",
+    "badge": "Elektroeroze Ra 0,4",
+    "modul": "Drát Ø 0,25 mm",
+    "capacity": "výška řezu do 300 mm",
+    "image": "assets/Drobn_-d_ly-768x1024.jpg",
+    "short_desc": "Elektroerozivní drátové řezání přesných zubů, vnitřních profilů, drážek a kalených materiálů bez mechanického pnutí.",
+    "description": "Od roku 2013 disponujeme vlastní technologií elektroerozivního drátového řezání (EDM). Umožňuje přesné dělení elektricky vodivých materiálů jakékoliv tvrdosti, výrobu tenkostěnných dílců, přesných drážek a vnitřních ozubení s nulovým silovým namáháním materiálu.",
+    "specs": [
+      { "label": "Technologie", "value": "Elektroerozivní dělení drátovou řezačkou (od roku 2013)" },
+      { "label": "Drsnost povrchu", "value": "Ra až 0,4 µm" },
+      { "label": "Obráběné materiály", "value": "Kalené oceli do 65 HRC, tvrdokov, titan, nerez" },
+      { "label": "Geometrická přesnost", "value": "± 0,003 mm" },
+      { "label": "Možnosti řezu", "value": "Kuželové řezy, tvarové zubové mezery, vnitřní ozubení" },
+      { "label": "Programování", "value": "Přímo ze 3D CAD geometrie" }
+    ]
+  },
+  {
+    "id": "somicut-hoblovaci-valce",
+    "title": "SOMICUT – Spirálové hoblovací válce se žiletkami VBD",
+    "category": "somicut",
+    "category_label": "SOMICUT technologie",
+    "badge": "VBD tvrdokov 4břitý",
+    "modul": "VBD tvrdokov 4břitý",
+    "capacity": "šířky 300 až 1 200 mm",
+    "image": "assets/valec-1024x344.jpg",
+    "short_desc": "Zakázková výroba tichých spirálových hoblovacích válců se 4břitými VBD plátky z tvrdokovu pro modernizaci truhlářských strojů.",
+    "description": "Divize SOMICUT firmy STEELMach s.r.o. vyrábí na míru spirálové hoblovací válce pro modernizaci srovnávacích a tloušťkovacích fréz. Spirálové uspořádání břitů zajišťuje plynulý šikmý střih dřeva, zásadní snížení hlučnosti a excelentní kvalitu hoblovaného povrchu i na problematickém dřevě.",
+    "specs": [
+      { "label": "Typ nožů", "value": "Tvrdokovové VBD plátky se 4 otočnými řeznými hranami" },
+      { "label": "Hlučnost", "value": "Snížení hluku chodu stroje až o 50 %" },
+      { "label": "Kvalita povrchu", "value": "Čistý řez bez vytrhávání vláken i u sukatého dřeva" },
+      { "label": "Doba doběhu", "value": "Výrazně kratší doběh vřetena" },
+      { "label": "Montáž", "value": "Návrh na míru dle odměření původního nožového hřídele" },
+      { "label": "Servis", "value": "Rychlá otočka břitu přímo na stroji bez seřizování výšky" }
+    ]
+  },
+  {
+    "id": "somicut-modernizace-stroju",
+    "title": "SOMICUT – Modernizace srovnávacích a tloušťkovacích fréz",
+    "category": "somicut",
+    "category_label": "SOMICUT technologie",
+    "badge": "Digitál a elektrika",
+    "modul": "Digitál & elektrika",
+    "capacity": "retrofity všech značek",
+    "image": "assets/valecek_spodni-frezka-1140x641-1-1024x576.jpg",
+    "short_desc": "Kompletní retrofity a modernizace dřevoobráběcích strojů: elektrické zvedání stolů, digitální odměřování a spirálové frézy na horní frézky.",
+    "description": "Nabízíme ucelené modernizační balíčky pro dřevoobráběcí stroje. Kromě spirálových válců dodáváme motorické elektrické zvedání pracovního stolu a digitální odměřovací systémy tloušťky materiálu s přesností na desetiny milimetru.",
+    "specs": [
+      { "label": "Komponenty modernizace", "value": "Elektrické motorické zvedání stolu, digitální odměřování tloušťky" },
+      { "label": "Přesnost nastavení", "value": "0,1 mm na digitálním displeji" },
+      { "label": "Nástrojové vybavení", "value": "Spirálové frézy na horní frézky s vyměnitelnými VBD" },
+      { "label": "Návratnost investice", "value": "Vysoká úspora času při seřizování a broušení HSS nožů" },
+      { "label": "Realizace", "value": "Kompletní mechanická i elektrická montáž a zprovoznění" },
+      { "label": "Konzultace", "value": "Technické zaměření přímo u zákazníka" }
+    ]
+  }
+]

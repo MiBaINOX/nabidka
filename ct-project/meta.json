@@ -1,0 +1,47 @@
+{
+  "slug": "ct-project",
+  "firma": "CT Project s.r.o.",
+  "ico": "03268012",
+  "dic": "CZ03268012",
+  "obec": "Brno",
+  "cast_obce": "Slatina",
+  "ulice": "Drážní 1152/11",
+  "psc": "627 00",
+  "okres": "Brno-město",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Speciální zakládání staveb, velkoprůměrové vrty, mikropiloty, trysková injektáž, zemní kotvy a servis vrtných souprav",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://ctproject.cz",
+  "email": "obchod@ctproject.cz",
+  "telefon": "+420 604 299 275",
+  "vady_stareho_webu": [
+    "Nezabezpečené připojení pouze přes HTTP bez platného SSL/TLS certifikátu (prohlížeče varují před nebezpečím)",
+    "Absence meta viewport značky – web není responzivní a na mobilních telefonech vyžaduje nepohodlné zoomování a posouvání",
+    "Zastaralá tabulková struktura s drobným textem a nevyhovujícím kontrastem",
+    "Statické reference bez možnosti filtrování podle geologických metod a bez detailních technických parametrů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Čistý švýcarský Bento Grid design s precizními linkami a špičkovou moderní typografií",
+    "Interaktivní katalog 17 geotechnických technologií a strojního parku s rychlým vyhledáváním a filtrem",
+    "Technická modální okna (#techModalBackdrop) s normami ČSN EN 1536, 14199, 12716 a tabulkami parametrů",
+    "100% mobilní responzivita s 0px přetečením na všech zařízeních a plynulými animacemi",
+    "Ověřená adresa provozovny s interaktivním Mapy.cz špendlíkem a přímými kontakty na vedení společnosti"
+  ],
+  "prodejni_body": [
+    "Přes 20 let geotechnických zkušeností klíčových expertů na strategických stavbách v ČR i na Slovensku",
+    "Vlastní těžká vrtná mechanizace BAUER (BG 23H, BG 28, BG 36) a univerzální soupravy KLEMM s vysokotlakým centrem METAX",
+    "Kompletní portfolio prací speciálního zakládání od velkoprůměrových pilot po mikrozáporové stěny a dnové těsnicí zátky",
+    "Autorizovaní inženýři ČKAIT a certifikovaný systém řízení jakosti"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2014,
+    "zkusenosti_tymu": "více než 20 let praxe klíčových expertů v oboru geotechniky",
+    "max_prumer_vrtani": "až 2800 mm",
+    "max_hloubka_vrtani": "až 68 m",
+    "max_kroutici_moment": "367 kNm",
+    "strojni_soupravy": "BAUER BG 23H, BAUER BG 28, BAUER BG 36, KLEMM KR 806-3, KLEMM KR 807, KLEMM 704 D, METAX JM 30, METAX MP7 690S"
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

@@ -1,0 +1,835 @@
+[
+  {
+    "id": "tech-piloty",
+    "name": "Velkoprůměrové piloty a pilotové stěny",
+    "category": "velkoprofil",
+    "category_title": "Velkoprůměrové vrty",
+    "tech_type": "Vrtané piloty kruhového průřezu",
+    "norm": "ČSN EN 1536",
+    "diameters": "Ø 630 mm až 1500 mm",
+    "max_depth": "do 35 m",
+    "equipment": "Soupravy BAUER BG 23H, BG 28, BG 36",
+    "description": "Základní nosný a pažicí prvek hlubinného zakládání kruhového průřezu s armokošem. Prováděno rotačně náběrovým vrtáním s výpažnicemi, metodou CFA nebo technologií FDP/Omega pilot. Možnost zhotovení jako převrtávané vodotěsné stěny.",
+    "applications": "Založení výškových a průmyslových objektů, mostní pilíře, těsnicí a pažicí stěny stavebních jam, stabilizace sesuvných svahů.",
+    "geology": "Soudržné i nesoudržné zeminy, poloskalní horniny do pevnosti R3, pod i nad hladinou podzemní vody.",
+    "features": [
+      "Průměr vrtání 630 až 1500 mm",
+      "Hloubka vetknutí do 35 m",
+      "Možnost vodotěsného převrtávání",
+      "Vysoká ohybová tuhost konstrukce"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Rozsah průměrů vrtu",
+          "Ø 630 – 1500 mm",
+          "Dle statického návrhu a zatížení"
+        ],
+        [
+          "Maximální hloubka piloty",
+          "až 35 m",
+          "Kelly vrtání s plným pažením"
+        ],
+        [
+          "Použité normy jakosti",
+          "ČSN EN 1536 + Eurokód 7",
+          "Certifikované zkoušky celistvosti PIT"
+        ],
+        [
+          "Vrtná mechanizace",
+          "BAUER BG 23H / 28 / 36",
+          "Točivý moment až 367 kNm"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tech-zaporove-pazeni",
+    "name": "Záporové (berlínské) pažení",
+    "category": "velkoprofil",
+    "category_title": "Velkoprůměrové vrty",
+    "tech_type": "Pažicí ocelové konstrukce",
+    "norm": "ČSN EN 1997-1",
+    "diameters": "Ø 630 mm až 900 mm (vrt pro profil)",
+    "max_depth": "do 20 m",
+    "equipment": "Vrtné soupravy BAUER, vibrační technika",
+    "description": "Hospodárné dočasné zajištění stavebních jam nad hladinou podzemní vody. Ocelové válcované profily (I, IPE, HEB) jsou osazeny do vrtů, pata zabetonována a meziprostor je pažen dřevěnou výdřevou nebo stříkaným betonem.",
+    "applications": "Dočasné pažení stavebních jam pozemních staveb, dálničních zářezů a inženýrských výkopů.",
+    "geology": "Zeminové prostředí nad hladinou vody nebo při možnosti snížení HPV čerpáním.",
+    "features": [
+      "Rychlý postup výstavby",
+      "Vysoká hospodárnost",
+      "Možnost kotvení v několika kotevních úrovních",
+      "Snadná demontáž horní části profilů"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Používané profily",
+          "HEB, I, IPE, 2× U",
+          "Staticky dimenzované ocelové nosníky"
+        ],
+        [
+          "Rozteč zápor",
+          "1,5 až 3,0 m",
+          "Dle hloubky a geologického tlaku"
+        ],
+        [
+          "Typ pažicí výplně",
+          "Dřevěná výdřeva / Torkret",
+          "Stříkaný beton s ocelovými sítěmi"
+        ],
+        [
+          "Hloubka jámy",
+          "až 20 m",
+          "S jedno- a víceúrovňovým kotvením"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tech-cfa-piloty",
+    "name": "CFA a FDP průběžné a výtlačné piloty",
+    "category": "velkoprofil",
+    "category_title": "Velkoprůměrové vrty",
+    "tech_type": "Bezotřesové kontinuální pilotování",
+    "norm": "ČSN EN 1536",
+    "diameters": "Ø 600 mm až 1000 mm",
+    "max_depth": "do 25 m",
+    "equipment": "BAUER BG 23H / BG 28 s CFA nástavbou",
+    "description": "Technologie kontinuálního šnekového vrtání s betonáží čerpadlem přes dutou středovou rouru šneku od paty piloty při jeho vytahování. Následně je do čerstvé směsi zavibrován armokoš. FDP metoda zeminu nevynáší, ale hutní do stran.",
+    "applications": "Městská zástavba v těsné blízkosti stávajících objektů, logistická centra a haly s vysokými nároky na rychlost.",
+    "geology": "Méně stabilní a zvodnělé zeminy bez nutnosti pažení ocelovými výpažnicemi.",
+    "features": [
+      "Zcela bezotřesový postup",
+      "Vysoká denní metráž realizace",
+      "Kontinuální kontrola betonáže palubním počítačem",
+      "Minimální hlučnost"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Průměr šneku",
+          "Ø 600 – 1000 mm",
+          "Kontinuální vrtný šnek CFA"
+        ],
+        [
+          "Max. délka piloty",
+          "až 25 m",
+          "S přídavným prodloužením soutyčí"
+        ],
+        [
+          "Kontrola kvality",
+          "Digitální monitoring tlaku",
+          "Záznam průběhu betonáže a objemu směsi"
+        ],
+        [
+          "Výztužný koš",
+          "Délka až 18 m",
+          "Zavibrován vibrátorem do čerstvého betonu"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tech-mikropiloty",
+    "name": "Trubní a tyčové mikropiloty",
+    "category": "maloprofil",
+    "category_title": "Maloprůměrové vrty & pažení",
+    "tech_type": "Maloprůměrové hlubinné prvky",
+    "norm": "ČSN EN 14199",
+    "diameters": "Ø 100 mm až 300 mm",
+    "max_depth": "do 25 m",
+    "equipment": "KLEMM KR 806-3, KR 807, 704 D",
+    "description": "Maloprůměrové vrtané prvky schopné přenášet tlaková i tahová zatížení do hlubších vrstev. Skládají se z ocelové silnostěnné trubky s manžetami nebo tyčové výztuže, zalité a tlakově proinjektované cementovou suspenzí.",
+    "applications": "Podchycení základů stávajících budov při sanacích a vestavbách, zakládání ve stísněných prostorách, sanace mostních pilířů.",
+    "geology": "Univerzální v jakýchkoliv geologických poměrech včetně navážek a skalních formací.",
+    "features": [
+      "Vrtání pod libovolným úhlem od 0° do 90°",
+      "Vysoká únosnost při malém průměru",
+      "Realizace uvnitř suterénů a historických budov",
+      "Opakovaná selektivní injektáž"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Vrtný průměr",
+          "Ø 100 – 300 mm",
+          "Rotační a příklepové vrtání"
+        ],
+        [
+          "Typ výztuže",
+          "Ocelová trubka / Titan tyče",
+          "Trubky Ø 89/10, 108/16 s manžetami"
+        ],
+        [
+          "Tlaková injektáž",
+          "až 4,0 MPa",
+          "Cementová suspenze vodní součinitel 0,4–0,5"
+        ],
+        [
+          "Únosnost mikropiloty",
+          "250 až 1000 kN",
+          "Dle geologických parametrů kořene"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tech-kotvy",
+    "name": "Předpínané lanové a tyčové zemní kotvy",
+    "category": "maloprofil",
+    "category_title": "Maloprůměrové vrty & pažení",
+    "tech_type": "Předpínané geotechnické kotvy",
+    "norm": "ČSN EN 1537",
+    "diameters": "Ø 110 mm až 220 mm",
+    "max_depth": "do 35 m",
+    "equipment": "Soupravy KLEMM KR 806-3 / KR 807",
+    "description": "Vysoce únosné tahové kotevní prvky s volnou a kořenovou délkou. Vyráběny ze svazků sedmidrátových předpínacích lan nebo vysokopevnostních závitových tyčí. Provádí se jako dočasné (do 2 let) nebo trvalé s dvojitou antikorozní ochranou.",
+    "applications": "Kotvení pažicích stěn hlubokých stavebních jam, opěrných zdí, mostních opěr a stabilizace skalních svahů.",
+    "geology": "Štěrky, soudržné zeminy, poloskalní a skalní masivy.",
+    "features": [
+      "Kotevní síla 300 až 1200+ kN",
+      "Volná délka s PE chráničkou",
+      "Vícenásobná injektáž kořenové části",
+      "Přesná průkazní a přejímací zkouška předpětím"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Počet lan v kotevním svazku",
+          "3 až 12 lan Ø 15,7 mm",
+          "Předpínací ocel Y1860S7"
+        ],
+        [
+          "Max. kotevní síla",
+          "až 1500 kN",
+          "Ověřeno hydraulickým zkušebním lisem"
+        ],
+        [
+          "Injektáž kořene",
+          "Manžetová / jednorázová",
+          "Vysokopevnostní cementová suspenze"
+        ],
+        [
+          "Antikorozní ochrana",
+          "Trvalá (vlnitá PE trubka)",
+          "Zaručená životnost přes 50 let"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tech-hrebikovani",
+    "name": "Hřebíkování zemin se stříkaným betonem",
+    "category": "maloprofil",
+    "category_title": "Maloprůměrové vrty & pažení",
+    "tech_type": "Zajišťování svahů a zářezů",
+    "norm": "ČSN EN 14490",
+    "diameters": "Ø 90 mm až 150 mm",
+    "max_depth": "do 18 m",
+    "equipment": "KLEMM KR 806-3, torkretovací stroje",
+    "description": "Flexibilní metoda vyztužování přírodních nebo odtěžovaných svahů. Do vrtů se vkládají svorníky a injektují se cementem. Povrch svahu je chráněn vyztuženou vrstvou stříkaného betonu s roznášecími ocelovými deskami.",
+    "applications": "Zajištění strmých zářezů dopravních staveb, železničních těles, svahování stavebních jam a sanace sesuvů.",
+    "geology": "Soudržné zeminy, svahové hlíny, poloskalní a zvětralé horniny.",
+    "features": [
+      "Rychlý a ekonomický postup po etážích",
+      "Přizpůsobení geometrii svahu",
+      "Vysoká prostorová stabilita",
+      "Možnost zatravnění horní etáže"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Délka půdních hřebíků",
+          "4 až 18 m",
+          "Dle hloubky smykové plochy svahu"
+        ],
+        [
+          "Výztužné ocelové tyče",
+          "B500B / Samovrtné tyče",
+          "Průměry Ø 25 až 40 mm"
+        ],
+        [
+          "Tloušťka torkretu",
+          "100 až 200 mm",
+          "Stříkaný beton C 20/25 s KARI sítí"
+        ],
+        [
+          "Rozteč hřebíků",
+          "1,2 × 1,2 m až 2,0 × 2,0 m",
+          "Rastrové uspořádání"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tech-mikrozapory",
+    "name": "Mikrozáporové stěny pro stísněné poměry",
+    "category": "maloprofil",
+    "category_title": "Maloprůměrové vrty & pažení",
+    "tech_type": "Kompaktní pažicí konstrukce",
+    "norm": "ČSN EN 1997-1 / ČSN EN 14199",
+    "diameters": "Ø 150 mm až 300 mm",
+    "max_depth": "do 16 m",
+    "equipment": "KLEMM 704 D, KLEMM KR 806-3",
+    "description": "Pažení stavebních jam a výkopů v místech s drastickým prostorovým omezením, kde nelze nasadit velkoprofilovou mechanizaci. Ocelové mikrozápory (HEB, silnostěnné trubky) jsou osazeny do vrtů a kotveny přes převázky.",
+    "applications": "Rekonstrukce v historických centrech, suterény stávajících budov, železniční koridory za plného provozu sousední koleje.",
+    "geology": "Stavební jámy nad hladinou podzemní vody.",
+    "features": [
+      "Minimální půdorysné nároky",
+      "Možnost práce pod nízkým stropem (od 2,5 m)",
+      "Vysoká bezpečnost pro přilehlé konstrukce",
+      "Převázkové ocelové ztužení"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Použité profily",
+          "HEB 100–160 / Trubky 133–159 mm",
+          "Ocel jakosti S235 / S355"
+        ],
+        [
+          "Průjezdný profil stroje",
+          "Šířka pouhých 1,20 m",
+          "Souprava KLEMM 704 D"
+        ],
+        [
+          "Rozteč mikrozápor",
+          "0,8 až 1,5 m",
+          "Dřevěná výdřeva nebo torkret"
+        ],
+        [
+          "Kotvení stěny",
+          "1 až 2 kotevní úrovně",
+          "Předpínané tyčové a lanové kotvy"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tech-injektazni-vrty",
+    "name": "Injektážní vrty a těsnění podloží",
+    "category": "maloprofil",
+    "category_title": "Maloprůměrové vrty & pažení",
+    "tech_type": "Zlepšování vlastností zemin a těsnění",
+    "norm": "ČSN EN 12715",
+    "diameters": "Ø 50 mm až 120 mm",
+    "max_depth": "do 30 m",
+    "equipment": "Injekční soupravy METAX a manžetový systém TaM",
+    "description": "Cílené vnášení cementových, bentonitových nebo chemických suspenzí pod tlakem do porézního podloží či poruchových zón. Zvyšuje únosnost zemin, vyplňuje kaverny a radikálně snižuje propustnost zvodnělých vrstev.",
+    "applications": "Zpevnění podzákladí přitížených konstrukcí, těsnicí clony pod přehradami a hrázemi, vyplňování dutin a sanace zdiva.",
+    "geology": "Štěrkopísky, propustné sedimenty, tektonicky porušené skalní zóny.",
+    "features": [
+      "Selektivní manžetové injektování (systém TaM)",
+      "Přesné měření tlaku a průtoku",
+      "Nízká viskozita mikrocementů",
+      "Ekologická nezávadnost použitých směsí"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Vrtný průměr",
+          "Ø 50 – 120 mm",
+          "Perforované nebo manžetové trubky"
+        ],
+        [
+          "Injekční tlak",
+          "0,5 až 5,0 MPa",
+          "Kontrolovaný vzestup tlaku"
+        ],
+        [
+          "Použité směsi",
+          "Cement, mikrocement, bentonit",
+          "Možnost akcelerátorů tuhnutí"
+        ],
+        [
+          "Účinek",
+          "Zvýšení modulu deformace Edef",
+          "Snížení koeficientu filtrace kf"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tech-ti-pilire",
+    "name": "Pilíře tryskové injektáže (Jet Grouting M1/M2)",
+    "category": "injektaz",
+    "category_title": "Trysková injektáž",
+    "tech_type": "Vysokotlaké promíchávání půdy",
+    "norm": "ČSN EN 12716",
+    "diameters": "Ø 600 mm až 2000 mm",
+    "max_depth": "do 25 m",
+    "equipment": "KLEMM KR 806-3 / 704 D + METAX JM 30 / MP7",
+    "description": "Vysokotlaké rozrušení zeminy paprskem cementové suspenze o tlaku až 600 bar. Část zeminy je vyplavena na povrch a zbytek promíchán na vysoce pevný cementozeminový monolit (pilíř). Jednofázový (M1) i dvoufázový vzduchový systém (M2).",
+    "applications": "Podchycení základů stávajících budov přímo pod jejich patou, pažicí a těsnicí stěny jam, dnové zátky, zpevnění tunelových výrubů.",
+    "geology": "Široká škála zemin od jemnozrnných spraší a jílů po hrubozrnné štěrky a písky.",
+    "features": [
+      "Provádění i v extrémně stísněných prostorách",
+      "Průměry pilířů až 2000 mm",
+      "Nezmenšuje užitnou plochu stavební jámy",
+      "Možnost armování ocelovým nosníkem"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Pracovní tlak suspenze",
+          "300 až 600 bar",
+          "Vysokotlaké čerpadlo METAX MP7"
+        ],
+        [
+          "Systém M1 (jednofázový)",
+          "Ø pilíře 600 – 1200 mm",
+          "Čistý paprsek cementové suspenze"
+        ],
+        [
+          "Systém M2 (dvoufázový)",
+          "Ø pilíře 1000 – 2000 mm",
+          "Paprsek obalený stlačeným vzduchem"
+        ],
+        [
+          "Pevnost cementozeminy",
+          "5 až 25 MPa",
+          "Dle zrnitosti a obsahu cementu"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tech-ti-lamely",
+    "name": "Podzemní těsnicí lamely a dnové zátky",
+    "category": "injektaz",
+    "category_title": "Trysková injektáž",
+    "tech_type": "Těsnicí podzemní clony",
+    "norm": "ČSN EN 12716",
+    "diameters": "Šířka cca 300 mm, délka 800 až 2000 mm",
+    "max_depth": "do 22 m",
+    "equipment": "KLEMM soupravy + METAX mísicí centrum",
+    "description": "Ploché lamely vytvářené kývavým pohybem trysky bez plné rotace. Uplatňují se jako podzemní těsnicí clony zamezující proudění vody nebo jako vodorovné dnové zátky proti vztlakovému prolomení dna stavební jámy.",
+    "applications": "Dotěsnění pažicích konstrukcí, sanace průsaků hrází rybníků a nádrží, horizontální těsnicí desky pod hladinou HPV.",
+    "geology": "Vysoce propustné a zvodnělé vrstvy s hydrostatickým přetlakem vody.",
+    "features": [
+      "100% vodotěsné napojení sousedních lamel",
+      "Vysoká odolnost vůči hydraulickému prolomení",
+      "Kombinace s nosnými prvky pilot a mikropilot",
+      "Šetrné k okolním inženýrským sítím"
+    ],
+    "table": {
+      "headers": [
+        "Parametr",
+        "Hodnota",
+        "Poznámka"
+      ],
+      "rows": [
+        [
+          "Tloušťka lamely",
+          "cca 300 mm",
+          "Plochý tvarovaný paprsek"
+        ],
+        [
+          "Délka jedné lamely",
+          "800 až 2000 mm",
+          "Dle úhlu kývání trysky"
+        ],
+        [
+          "Účel konstrukce",
+          "Vodotěsná podzemní bariéra",
+          "Zastavení filtrace vody do jámy"
+        ],
+        [
+          "Poloha zátky",
+          "Horizontální i vertikální",
+          "Těsnění dna i boků výkopu"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "stroj-bauer-bg23h",
+    "name": "Vrtná souprava BAUER BG 23H",
+    "category": "stroje",
+    "category_title": "Strojní vybavení & servis",
+    "tech_type": "Pásová hydraulická vrtná souprava",
+    "norm": "ČSN EN 16228 / CE",
+    "diameters": "do Ø 1900 mm (pažený vrt)",
+    "max_depth": "až 43 m (Kelly) / 20 m (CFA)",
+    "equipment": "CT Project servisní s.r.o.",
+    "description": "Moderní vrtná souprava střední váhové kategorie s krouticím momentem 235 kNm. Vyniká vysokou mobilitou, univerzálností pro Kelly vrtání s výpažnicemi i CFA technologii a robustním hydraulickým podvozkem.",
+    "applications": "Velkoprůměrové vrtání pilot, záporového pažení a převrtávaných stěn pro bytové, komerční i dopravní stavby.",
+    "geology": "Všechny typy zemin a poloskalních hornin.",
+    "features": [
+      "Točivý moment 235 kNm",
+      "Provozní hmotnost cca 72 tun",
+      "Palubní diagnostika B-Tronic",
+      "Výkon motoru 261 kW"
+    ],
+    "table": {
+      "headers": [
+        "Technický parametr",
+        "Hodnota",
+        "Specifikace"
+      ],
+      "rows": [
+        [
+          "Max. krouticí moment",
+          "235 kNm",
+          "Hydraulická rotační hlava KDK"
+        ],
+        [
+          "Max. průměr paženého vrtu",
+          "Ø 1900 mm",
+          "S dopouzdřením vrtáku"
+        ],
+        [
+          "Max. hloubka Kelly vrtání",
+          "43,0 m",
+          "Se 4dílnou Kelly tyčí"
+        ],
+        [
+          "Provozní hmotnost",
+          "cca 72 000 kg",
+          "Včetně vrtného nářadí"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "stroj-bauer-bg28",
+    "name": "Vrtná souprava BAUER BG 28",
+    "category": "stroje",
+    "category_title": "Strojní vybavení & servis",
+    "tech_type": "Těžká hydraulická vrtná souprava",
+    "norm": "ČSN EN 16228 / CE",
+    "diameters": "do Ø 2500 mm",
+    "max_depth": "až 65 m",
+    "equipment": "CT Project servisní s.r.o.",
+    "description": "Těžká vrtná souprava s točivým momentem 277 kNm pro hlubinné zakládání nejnáročnějších inženýrských objektů. Zvládá velkoformátové vrtání v pevných horninách s vysokým odporem.",
+    "applications": "Piloty dálničních mostů, výškových budov a těžkých průmyslových celků s extrémními svislými a vodorovnými silami.",
+    "geology": "Těžké jíly, štěrkopísky s balvany, skalní masivy s vysokou pevností.",
+    "features": [
+      "Točivý moment 277 kNm",
+      "Hmotnost soupravy cca 96 tun",
+      "Vysoká tlačná a tažná síla na lafetě (330 kN)",
+      "Motor CAT s výkonem 354 kW"
+    ],
+    "table": {
+      "headers": [
+        "Technický parametr",
+        "Hodnota",
+        "Specifikace"
+      ],
+      "rows": [
+        [
+          "Max. krouticí moment",
+          "277 kNm",
+          "Dvoustupňový hydrostatický pohon"
+        ],
+        [
+          "Max. průměr vrtání",
+          "Ø 2500 mm",
+          "Vrtání bez zapažení i s pažením"
+        ],
+        [
+          "Max. hloubka vrtu",
+          "65,0 m",
+          "S teleskopickou Kelly tyčí"
+        ],
+        [
+          "Provozní hmotnost",
+          "cca 96 000 kg",
+          "Stabilní teleskopický podvozek"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "stroj-bauer-bg36",
+    "name": "Těžká vrtná souprava BAUER BG 36",
+    "category": "stroje",
+    "category_title": "Strojní vybavení & servis",
+    "tech_type": "Extrémní velkoprofilová souprava",
+    "norm": "ČSN EN 16228 / CE",
+    "diameters": "do Ø 2800 mm",
+    "max_depth": "až 68 m",
+    "equipment": "CT Project servisní s.r.o.",
+    "description": "Vlajková loď těžkého vrtání s obrovským točivým momentem 367 kNm a hmotností 115 tun. Určena pro ty nejhlubší a nejrozsáhlejší pilotové základy v ČR a SR.",
+    "applications": "Strategické dopravní koridory, dálniční estakády, velká obchodní centra a hluboké podzemní stěny.",
+    "geology": "Nejtěžší geologické podmínky, skalní formace i tekuté písky.",
+    "features": [
+      "Točivý moment 367 kNm",
+      "Hmotnost přes 115 tun",
+      "Elektronické řízení B-Drive",
+      "Maximální stabilita a produktivita"
+    ],
+    "table": {
+      "headers": [
+        "Technický parametr",
+        "Hodnota",
+        "Specifikace"
+      ],
+      "rows": [
+        [
+          "Max. krouticí moment",
+          "367 kNm",
+          "Nejvýkonnější rotační hlava ve třídě"
+        ],
+        [
+          "Max. průměr vrtání",
+          "Ø 2800 mm",
+          "Těžké výpažnice a šapové nářadí"
+        ],
+        [
+          "Max. hloubka Kelly",
+          "68,0 m",
+          "Hluboké založení pilířů v údolích"
+        ],
+        [
+          "Výkon pohonné jednotky",
+          "433 kW (588 HP)",
+          "Turbodiesel CAT"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "stroj-klemm-kr806",
+    "name": "Vrtná souprava KLEMM KR 806-3",
+    "category": "stroje",
+    "category_title": "Strojní vybavení & servis",
+    "tech_type": "Univerzální maloprofilová souprava",
+    "norm": "ČSN EN 16228 / CE",
+    "diameters": "Ø 100 mm až 300 mm",
+    "max_depth": "do 30 m",
+    "equipment": "CT Project servisní s.r.o.",
+    "description": "Špičková maloprůměrová souprava německého výrobce KLEMM s plnou výbavou pro rotační i příklepové vrtání kotev, mikropilot i tryskové injektáže Jet Grouting. Disponuje všesměrovou kinematikou lafety.",
+    "applications": "Zemní a horninové kotvy, mikropiloty, hřebíkování svahů, trysková injektáž pod budovami.",
+    "geology": "Všechny horninové typy od náplavů po žuly.",
+    "features": [
+      "360° kinematika lafety pro svahy i stropy",
+      "Výbava pro tryskovou injektáž s prodloužením lafety",
+      "Dálkové radiové ovládání",
+      "Hmotnost cca 18 tun"
+    ],
+    "table": {
+      "headers": [
+        "Technický parametr",
+        "Hodnota",
+        "Specifikace"
+      ],
+      "rows": [
+        [
+          "Max. krouticí moment",
+          "24 kNm",
+          "Dvourychlostní vrtná hlava"
+        ],
+        [
+          "Tažná síla na lafetě",
+          "100 kN",
+          "Zatahování výpažnicových kolon"
+        ],
+        [
+          "Dosah kinematiky",
+          "Plných 360 stupňů",
+          "Vrtání pod jakýmkoliv sklonem"
+        ],
+        [
+          "Hmotnost stroje",
+          "cca 18 500 kg",
+          "Pryžové/ocelové pásy"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "stroj-klemm-kr807",
+    "name": "Vrtná souprava KLEMM KR 807",
+    "category": "stroje",
+    "category_title": "Strojní vybavení & servis",
+    "tech_type": "Těžká maloprofilová souprava",
+    "norm": "ČSN EN 16228 / CE",
+    "diameters": "Ø 100 mm až 300 mm",
+    "max_depth": "do 35 m",
+    "equipment": "CT Project servisní s.r.o.",
+    "description": "Robustní a těžká souprava pro náročné hluboké kotvy a mikropiloty velkých nosností. Vyniká vysokou stabilitou podvozku a schopností vrtat těžkým nářadím v komplikovaném terénu.",
+    "applications": "Hluboké kotvení pažicích stěn, vysoké zářezy železničních koridorů a sanace rozsáhlých sesuvů.",
+    "geology": "Složité a nesourodé geologické vrstvy, tvrdé horniny.",
+    "features": [
+      "Vysoká tažná a tlačná kapacita",
+      "Dlouhý posuv vrtné hlavy na lafetě",
+      "Hydraulické sevření a rozpojování výpažnic",
+      "Provozní hmotnost cca 22 tun"
+    ],
+    "table": {
+      "headers": [
+        "Technický parametr",
+        "Hodnota",
+        "Specifikace"
+      ],
+      "rows": [
+        [
+          "Max. krouticí moment",
+          "32 kNm",
+          "Vysoký točivý moment pro těžké horniny"
+        ],
+        [
+          "Zdvih vrtné hlavy",
+          "7 000 mm",
+          "Práce s dlouhými tyčemi"
+        ],
+        [
+          "Max. tažná síla",
+          "140 kN",
+          "Spolehlivé vytahování výpažnic"
+        ],
+        [
+          "Hmotnost soupravy",
+          "cca 22 000 kg",
+          "Široký stabilní podvozek"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "stroj-klemm-704d",
+    "name": "Kompaktní souprava KLEMM 704 D",
+    "category": "stroje",
+    "category_title": "Strojní vybavení & servis",
+    "tech_type": "Kompaktní interiérová souprava",
+    "norm": "ČSN EN 16228 / CE",
+    "diameters": "Ø 80 mm až 200 mm",
+    "max_depth": "do 20 m",
+    "equipment": "CT Project servisní s.r.o.",
+    "description": "Mimořádně kompaktní vrtná souprava o průjezdné šířce pouhých 1,20 m a schopnosti pracovat ve stísněných prostorách s výškou stropu od 2,5 m. Umožňuje vrtání mikropilot a tryskovou injektáž v interiérech.",
+    "applications": "Podchycení základů historických památek, práce ve sklepech, suterénech, průmyslových halách za provozu a ve dvorních traktech.",
+    "geology": "Všechny typy podzákladí stávajících budov.",
+    "features": [
+      "Průjezdná šířka pouhých 1,2 m",
+      "Možnost odděleného agregátu pro nulové emise v budově",
+      "Plná podpora tryskové injektáže",
+      "Hmotnost pouze 4,5 tuny"
+    ],
+    "table": {
+      "headers": [
+        "Technický parametr",
+        "Hodnota",
+        "Specifikace"
+      ],
+      "rows": [
+        [
+          "Celková šířka stroje",
+          "1 200 mm",
+          "Projede standardními vraty"
+        ],
+        [
+          "Minimální světlá výška",
+          "od 2 500 mm",
+          "Práce v podzemních podlažích"
+        ],
+        [
+          "Max. krouticí moment",
+          "11 kNm",
+          "Dostatečný pro mikropiloty i TI"
+        ],
+        [
+          "Hmotnost stroje",
+          "cca 4 500 kg",
+          "Šetrné zatížení podlahových desek"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "stroj-metax-system",
+    "name": "Injekční soustrojí METAX JM 30 + MP7 690S",
+    "category": "stroje",
+    "category_title": "Strojní vybavení & servis",
+    "tech_type": "Automatizované injekční centrum a pumpa",
+    "norm": "ČSN EN 12716 / CE",
+    "diameters": "Pracovní tlak 400 až 600 bar, průtok do 450 l/min",
+    "max_depth": "Kontinuální dodávka do hloubky 35 m",
+    "equipment": "CT Project servisní s.r.o.",
+    "description": "Plně automatizované mísicí centrum METAX JM 30 s výkonem až 30 m³/h cementové suspenze v kombinaci s vysokotlakým třípístovým čerpadlem METAX MP7 - 690S. Zajišťuje stálou hustotu směsi a enormní kinetickou energii tryskacího paprsku.",
+    "applications": "Vysokotlaká trysková injektáž Jet Grouting (pilíře, lamely, zátky) a velkoobjemové těsnicí injektáže.",
+    "geology": "Všechny typy zvodnělých a zeminových profilů.",
+    "features": [
+      "Automatické váhové dávkování cementu, bentonitu a vody",
+      "Pracovní tlak až 600 bar",
+      "Kontinuální záznam parametrů injektáže",
+      "Kapacita míchání 30 m³/h"
+    ],
+    "table": {
+      "headers": [
+        "Technický parametr",
+        "Hodnota",
+        "Specifikace"
+      ],
+      "rows": [
+        [
+          "Kapacita míchání",
+          "až 30 m³/hod",
+          "Automatické kontinuální mísicí centrum JM 30"
+        ],
+        [
+          "Maximální pracovní tlak",
+          "až 600 bar",
+          "Vysokotlaká pumpa MP7 - 690S"
+        ],
+        [
+          "Čerpací výkon",
+          "až 450 l/min",
+          "Třípístové vysokotlaké čerpadlo"
+        ],
+        [
+          "Výkon motoru soustrojí",
+          "přes 500 kW",
+          "Nezávislý dieselový pohon v kontejneru"
+        ]
+      ]
+    }
+  }
+]

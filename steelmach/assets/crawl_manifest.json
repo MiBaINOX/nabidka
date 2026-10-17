@@ -1,0 +1,213 @@
+{
+  "base_url": "http://steelmach.cz",
+  "pages_crawled_count": 9,
+  "pages": [
+    {
+      "url": "http://steelmach.cz",
+      "title": "",
+      "text_len": 1183
+    },
+    {
+      "url": "http://steelmach.cz/",
+      "title": "",
+      "text_len": 1183
+    },
+    {
+      "url": "http://steelmach.cz/nase-sluzby/",
+      "title": "Naše služby",
+      "text_len": 194
+    },
+    {
+      "url": "http://steelmach.cz/somicut/",
+      "title": "SOMICUT",
+      "text_len": 917
+    },
+    {
+      "url": "http://steelmach.cz/o-nas/",
+      "title": "O Nás",
+      "text_len": 421
+    },
+    {
+      "url": "http://steelmach.cz/fotoukazky/",
+      "title": "Fotoukázky",
+      "text_len": 196
+    },
+    {
+      "url": "http://steelmach.cz/dotace-eu/",
+      "title": "Dotace EU",
+      "text_len": 168
+    },
+    {
+      "url": "http://steelmach.cz/kontakt/",
+      "title": "Kontakt",
+      "text_len": 410
+    },
+    {
+      "url": "http://steelmach.cz/nabidka-zamestnani/",
+      "title": "Nabídka zaměstnání",
+      "text_len": 3238
+    }
+  ],
+  "images_found_count": 30,
+  "downloaded_images": [
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2020/11/Kuzelove-kolo-1-1024x768.jpg",
+      "filename": "Kuzelove-kolo-1-1024x768.jpg",
+      "size": 159454
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2020/11/Nerez-hřídel-1024x768.jpg",
+      "filename": "Nerez-h__del-1024x768.jpg",
+      "size": 67448
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/ukázky-obrobků13-1-oec4w33v1cxisu026cj4eqvaw4ngxquxovddt5npvu.jpg",
+      "filename": "uk_zky-obrobk_13-1-oec4w33v1cxisu026cj4eqvaw4ngxquxovddt5npvu.jpg",
+      "size": 16793
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/Epicykloidni-ozubeni-oz1c676qqdu3njlhyha1chsdc1jlt9wjeihbnww4p6.jpg",
+      "filename": "Epicykloidni-ozubeni-oz1c676qqdu3njlhyha1chsdc1jlt9wjeihbnww4p6.jpg",
+      "size": 11077
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/10/44112923_881509615383711_5579249155584294912_o-1024x768.jpg",
+      "filename": "44112923_881509615383711_5579249155584294912_o-1024x768.jpg",
+      "size": 95267
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/10/Soukolí-2-720x405.jpg",
+      "filename": "Soukol_-2-720x405.jpg",
+      "size": 37370
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/10/soukolí-1-1024x768.jpg",
+      "filename": "soukol_-1-1024x768.jpg",
+      "size": 67632
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/ernst-of27q80ciw14zwbmss0suwk5fxxv6h47u43h8ktpsa.jpg",
+      "filename": "ernst-of27q80ciw14zwbmss0suwk5fxxv6h47u43h8ktpsa.jpg",
+      "size": 13240
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/Drobné-dílce-oz1c5xscu1h8ffz5hd7rnk5re6txoav817ygv5a2fe.jpg",
+      "filename": "Drobn_-d_lce-oz1c5xscu1h8ffz5hd7rnk5re6txoav817ygv5a2fe.jpg",
+      "size": 14631
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/34339209_779872808880726_3569451799632936960_n-of27x9srs5ok2m2zmtq2k4iltz6ywr3qt08ktadf4a.jpg",
+      "filename": "34339209_779872808880726_3569451799632936960_n-of27x9srs5ok2m2zmtq2k4iltz6ywr3qt08ktadf4a.jpg",
+      "size": 13987
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/10/Soukolí-3-720x405.jpg",
+      "filename": "Soukol_-3-720x405.jpg",
+      "size": 29520
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/Pastorek-mosaz-oz1c7i6o83mfs1p8c1ldt5xf1b3yi5348z3lnqyg22.jpg",
+      "filename": "Pastorek-mosaz-oz1c7i6o83mfs1p8c1ldt5xf1b3yi5348z3lnqyg22.jpg",
+      "size": 14414
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2020/11/6choda-matice-lichobeznikovy-zavit-768x1024.jpg",
+      "filename": "6choda-matice-lichobeznikovy-zavit-768x1024.jpg",
+      "size": 84045
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2020/11/Pastorek-1024x768.jpg",
+      "filename": "Pastorek-1024x768.jpg",
+      "size": 145234
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/Vnitřní-ozubeni-oz1c6rv6wqmeqyrglq7tvckieipoim6mtcu0801gwa.jpg",
+      "filename": "Vnit_n_-ozubeni-oz1c6rv6wqmeqyrglq7tvckieipoim6mtcu0801gwa.jpg",
+      "size": 11891
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/44199730_882408128627193_2399631312408281088_o-of280570nxm3jpwsv2f16efb6d1cfgi7v7zzlq443u.jpg",
+      "filename": "44199730_882408128627193_2399631312408281088_o-of280570nxm3jpwsv2f16efb6d1cfgi7v7zzlq443u.jpg",
+      "size": 12371
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/44328528_882408161960523_5386913854280171520_o-of27z5h5g897ajconmz7jnfslpxeaykf2b7jd7l2oa.jpg",
+      "filename": "44328528_882408161960523_5386913854280171520_o-of27z5h5g897ajconmz7jnfslpxeaykf2b7jd7l2oa.jpg",
+      "size": 13933
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/56848155_977503732450965_2245263908547854336_n-of27yd9zr76lm8hn8asegujys5sdw1ggyfmyywqvuy.jpg",
+      "filename": "56848155_977503732450965_2245263908547854336_n-of27yd9zr76lm8hn8asegujys5sdw1ggyfmyywqvuy.jpg",
+      "size": 8419
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/Kladka-z-nástrojové-oceli-oz1c6gl4mq6yvn7uflcb1fez9w99y8xurt06goi6yy.jpg",
+      "filename": "Kladka-z-n_strojov_-oceli-oz1c6gl4mq6yvn7uflcb1fez9w99y8xurt06goi6yy.jpg",
+      "size": 14125
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2022/04/valec-1024x344.jpg",
+      "filename": "valec-1024x344.jpg",
+      "size": 41877
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/10/Snímek-obrazovky-287-1024x488.jpg",
+      "filename": "Sn_mek-obrazovky-287-1024x488.jpg",
+      "size": 54817
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/09/cropped-image-2019-09-26T131209.885-1.jpg",
+      "filename": "cropped-image-2019-09-26T131209.885-1.jpg",
+      "size": 7121
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/10/Soukolí-4-1024x768.jpg",
+      "filename": "Soukol_-4-1024x768.jpg",
+      "size": 80539
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2020/11/Drobné-díly-768x1024.jpg",
+      "filename": "Drobn_-d_ly-768x1024.jpg",
+      "size": 60068
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2020/11/Vretenikova-hřídel-1024x768.jpg",
+      "filename": "Vretenikova-h__del-1024x768.jpg",
+      "size": 137064
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/elementor/thumbs/Šnekova-hřídel-oz1c61jpldmdpvtoveu9xj7lrqbej3a5dqkes94hqi.jpg",
+      "filename": "_nekova-h__del-oz1c61jpldmdpvtoveu9xj7lrqbej3a5dqkes94hqi.jpg",
+      "size": 14512
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/10/Soukolí-3-1024x768.jpg",
+      "filename": "Soukol_-3-1024x768.jpg",
+      "size": 56610
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2022/04/valecek_spodni-frezka-1140x641-1-1024x576.jpg",
+      "filename": "valecek_spodni-frezka-1140x641-1-1024x576.jpg",
+      "size": 109480
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/10/Soukolí-5-1024x768.jpg",
+      "filename": "Soukol_-5-1024x768.jpg",
+      "size": 108681
+    },
+    {
+      "url": "http://steelmach.cz/wp-content/uploads/2019/10/Soukolí-2-1024x768.jpg",
+      "filename": "Soukol_-2-1024x768.jpg",
+      "size": 82354
+    }
+  ],
+  "menu_categories": [
+    "Úvodní stránka",
+    "Naše služby",
+    "SOMICUT",
+    "O Nás",
+    "Fotoukázky",
+    "Kontakt",
+    "Nabídka zaměstnání"
+  ]
+}

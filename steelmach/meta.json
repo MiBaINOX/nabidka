@@ -1,0 +1,49 @@
+{
+  "slug": "steelmach",
+  "firma": "STEELMach s.r.o.",
+  "ico": "05660653",
+  "obec": "Moravany",
+  "okres": "Brno-venkov",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Kovoobrábění a kovovýroba / Specializovaná výroba ozubení a spirálových hoblovacích válců SOMICUT",
+  "archetyp": "Corporate Portal – styl Hakov / Swiss Bento Grid pro ozubení",
+  "stary_web": "http://steelmach.cz",
+  "email": "steelmach@email.cz",
+  "telefon": "603 119 306",
+  "sidlo": "Jabloňová 874/19, 664 48 Moravany u Brna",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Specializovaná výroba ozubených kol a soukolí od modulu m = 0,5 až do modulu m = 16",
+    "Výroba čelního ozubení, přesných kuželových soukolí Gleason, šnekových převodů a vnitřního ozubení Fellow",
+    "Velká soustružnická kapacita do točného průměru 1 000 mm a točné délky až 6 000 mm na konvenčních i CNC strojích",
+    "Vlastní vývoj a výroba patentovaných tichých spirálových hoblovacích válců SOMICUT se 4břitými VBD žiletkami",
+    "Tradice a technologické know-how mistrů ozubení již od roku 1979 z ozubárny Zbrojovky Brno"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený provoz na starém protokolu HTTP bez SSL/TLS šifrování",
+    "Zastaralý neoptimalizovaný vzhled bez moderní sémantické struktury a typografie",
+    "Klíčové schéma výrobního sortimentu ozubení bylo vloženo pouze jako statický obrázek bez možnosti vyhledávání",
+    "Chybějící interaktivní katalog s technickými parametry modulů, přesností dle DIN a rozměrových kapacit",
+    "Chybějící moderní přehled strojního parku a reálných referenčních výrobků"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní Corporate Portal styl s technickou modální architekturou (#techModalBackdrop)",
+    "Interaktivní katalog s živým vyhledáváním a filtrací podle typu ozubení a výrobních modulů m=0,5 až 16",
+    "Kompletní převod obrázkového schématu ozubení do přehledných karet a technických tabulek s DIN / ČSN přesnostmi",
+    "Plně responzivní layout optimalizovaný pro chytré telefony a tablety s nulovým přetečením (0px overflow)",
+    "Přesný widget Mapy.cz s červeným špendlíkem ověřeným v RÚIAN na oficiální sídlo v Moravanech",
+    "Integrovaná divize SOMICUT s technickými výhodami spirálových hoblovacích válců a poptávkovým formulářem"
+  ],
+  "fakta": [
+    "Založení společnosti: 2016 (IČO 05660653)",
+    "Odborná tradice: od roku 1979 v ozubárně Zbrojovka Brno",
+    "Modulový rozsah odvalovacího frézování: m = 0,5 až m = 16",
+    "Maximální točný průměr ozubených věnců: až 1 200 mm",
+    "Soustružnická kapacita: točný průměr 1 000 mm, točná délka 6 000 mm",
+    "Strojní vybavení: MAS Masturn, 4,5-osá frézovací centra, odvalovací frézky, obrážečky Fellow, EDM drátovka",
+    "Sídlo: Jabloňová 874/19, 664 48 Moravany u Brna",
+    "Provozovny: Masná 27/9 (areál Mrazíren Rovner), 602 00 Brno & Horákov"
+  ]
+}
