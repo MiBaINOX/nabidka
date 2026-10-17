@@ -5455,6 +5455,17 @@ obracím se na Vás přímo jako na vedení společnosti ohledně webových str�
             window.open(gmailUrl, '_blank');
         }
 
+        function formatStatDate(dStr) {
+            if (!dStr) return '';
+            try {
+                var d = new Date(dStr);
+                if (!isNaN(d.getTime())) {
+                    return d.getDate() + '. ' + (d.getMonth() + 1) + '. ' + String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
+                }
+            } catch(e) {}
+            return String(dStr).split('T')[0];
+        }
+
         function loadVisitStats() {
             try {
                 localStorage.setItem('miba_admin', '1');
@@ -5472,7 +5483,8 @@ obracím se na Vás přímo jako na vedení společnosti ohledně webových str�
                         var box = document.getElementById('stat_' + slug);
                         if (box && stat.count > 0) {
                             box.style.display = 'flex';
-                            box.innerHTML = '🟢 <strong>Klient otevřel web ' + stat.count + '×</strong> (naposledy ' + stat.last + ' • ' + (stat.device || 'Web') + ')';
+                            var dateFmt = formatStatDate(stat.last);
+                            box.innerHTML = '🟢 <strong>Klient otevřel web ' + stat.count + '×</strong> (naposledy: ' + dateFmt + ' • ' + (stat.device || 'Počítač') + ')';
                         }
                     }
                 })
