@@ -1,0 +1,195 @@
+[
+  {
+    "id": "razidla-rucni",
+    "title": "Ruční ocelová razidla v sadách i jednotlivě",
+    "category": "razidla",
+    "category_name": "Výroba razidel & značení",
+    "perex": "Klasická i speciální ruční razidla pro ražení do oceli a kovů za studena i za tepla. Písmena, číslice a zakázkové znaky.",
+    "material": "Kalená nástrojová ocel 19 312 / 19 573",
+    "params": {
+      "Tvrdost břitu": "58–62 HRC (kaleno a popuštěno)",
+      "Provedení": "Písmena A–Z, číslice 0–9 v sadách i kusově",
+      "Výška písma": "1,0 mm až 25,0 mm",
+      "Profil břitu": "Standardní ostrý břit nebo zaoblený (low-stress)",
+      "Použití": "Ruční ražení za studena i za tepla"
+    },
+    "image": "assets/ko.jpg",
+    "badge": "Tradiční výroba"
+  },
+  {
+    "id": "razidla-kontrola",
+    "title": "Speciální razidla pro technickou kontrolu",
+    "category": "razidla",
+    "category_name": "Výroba razidel & značení",
+    "perex": "Inspekční a kontrolní značky pro výstupní kontrolu OTK, svářečské značky a kódová razidla s vysokou ostrostí detailu.",
+    "material": "Nástrojová ocel 19 312, selektivně kalená",
+    "params": {
+      "Tvrdost břitu": "60–62 HRC (odolná úderová hlava)",
+      "Typy motivů": "Geometrické znaky, čísla kontrolorů, loga OTK",
+      "Provedení": "Kulatý dřík s rýhováním nebo čtyřhran",
+      "Bezpečnost": "Tvrzený dřík s úpravou proti otřepům"
+    },
+    "image": "assets/hz.jpg",
+    "badge": "Kontrola jakosti OTK"
+  },
+  {
+    "id": "razidla-strojni",
+    "title": "Strojní razidla pro lisovací operace",
+    "category": "razidla",
+    "category_name": "Výroba razidel & značení",
+    "perex": "Průmyslová strojní razidla přizpůsobená pro mechanické, pneumatické a hydraulické lisy s vysokou dynamickou odolností.",
+    "material": "Vysokolegovaná nástrojová ocel 19 573",
+    "params": {
+      "Tepelné zpracování": "Vakuové kalení na 58–60 HRC",
+      "Upínací stopka": "Válcová, prizmatická nebo dle výkresu",
+      "Režim ražení": "Za studena i za tepla (vysoká odolnost proti popouštění)",
+      "Životnost": "Vysoká cyklická odolnost břitu"
+    },
+    "image": "assets/juk.jpg",
+    "badge": "Strojní lisy"
+  },
+  {
+    "id": "kotouce-navalovaci",
+    "title": "Navalovací a razicí kotouče",
+    "category": "razidla",
+    "category_name": "Výroba razidel & značení",
+    "perex": "Rotační navalovací segmenty a kotouče pro kontinuální značení trubek, profilů, tyčí a rotačních součástí přímo ve výrobní lince.",
+    "material": "Kalená nástrojová ocel s vysokou otěruvzdorností",
+    "params": {
+      "Průměr kotouče": "Dle zástavby linky a kroku značení",
+      "Typ značení": "Kontinuální obvodové značení nebo segmentové",
+      "Aplikace": "Hutní materiály, automobilový a zbrojní průmysl",
+      "Tolerance obvodu": "Broušeno na přesný valivý průměr"
+    },
+    "image": "assets/0730.jpg",
+    "badge": "Rotační značení"
+  },
+  {
+    "id": "drzaky-skupinove",
+    "title": "Držáky a hlavy pro skupinové ražení",
+    "category": "razidla",
+    "category_name": "Výroba razidel & značení",
+    "perex": "Výměnné stavebnicové držáky pro víceřádkové ražení textů, šarží, výrobních čísel a dat výroby s rychlou aretací znaků.",
+    "material": "Konstrukční a zušlechtěná nástrojová ocel",
+    "params": {
+      "Počet řádků": "1 až 4 řádky (modulární provedení)",
+      "Systém upnutí": "Rychloupínací klín nebo přítlačná lišta",
+      "Kapacita znaků": "Dle šířky segmentů a velikosti písma",
+      "Využití": "Ruční úderové ražení i strojní lisovací hlavy"
+    },
+    "image": "assets/0999.jpg",
+    "badge": "Stavebnicový systém"
+  },
+  {
+    "id": "razidla-zrcadlova",
+    "title": "Zrcadlově obrácená razidla do matric a forem",
+    "category": "razidla",
+    "category_name": "Výroba razidel & značení",
+    "perex": "Precizní reverzně gravírovaná razidla určená pro vkládání do tvářecích matric, vstřikovacích forem a slévárenských modelů.",
+    "material": "Žárupevní a nástrojové oceli",
+    "params": {
+      "Geometrie": "Zrcadlový reliéf s úkosem stěn pro odformování",
+      "Odolnost za tepla": "Maximální odolnost proti popouštění",
+      "Přesnost gravírování": "CNC rytecké mikro-frézování",
+      "Využití": "Formy pro plasty, pryž, tlakové lití kovů"
+    },
+    "image": "assets/0753.jpg",
+    "badge": "Formy a matrice"
+  },
+  {
+    "id": "razidla-mosaz",
+    "title": "Mosazná razidla pro slepotisk a kůži",
+    "category": "razidla",
+    "category_name": "Výroba razidel & značení",
+    "perex": "Jemně rytá mosazná razidla s vynikající tepelnou vodivostí pro horkou ražbu do kůže, dřeva, plastů, papíru a knihařský slepotisk.",
+    "material": "Gravírovací polotvrdá mosaz Ms58",
+    "params": {
+      "Tepelná vodivost": "Ideální pro termoražbu (horké razidlo)",
+      "Uchycení": "Se závitovým čepem pro topné těleso nebo dřík",
+      "Detail grafiky": "Vysoké rozlišení linek od 0,2 mm",
+      "Použití": "Kožedělný, obuvnický a luxusní obalový průmysl"
+    },
+    "image": "assets/0708.jpg",
+    "badge": "Termoražba & slepotisk"
+  },
+  {
+    "id": "cnc-dilce",
+    "title": "Přesné CNC tvarové díly a kovoobrábění",
+    "category": "kovoobrabeni",
+    "category_name": "CNC Kovoobrábění & Nástrojárna",
+    "perex": "Zakázkové frézování a soustružení tvarově náročných dílců na CNC centrech ZPS a MAS. Kusová i sériová přesná produkce.",
+    "material": "Ocel, ocelolitina, litina, dural, barevné kovy",
+    "params": {
+      "Pracovní rozsah": "Až 1060 × 610 × 760 mm",
+      "Tolerance rozměrů": "V přesných tolerancích dle ISO norem",
+      "Operace": "Frézování, vrtání, vystružování, řezání závitů",
+      "Chlazení": "Středový přívod chladicí kapaliny pro hluboké otvory"
+    },
+    "image": "assets/0652.jpg",
+    "badge": "CNC 3 osy"
+  },
+  {
+    "id": "celisti-prizmata",
+    "title": "Upínací čelisti, prizmata a tvarové bloky",
+    "category": "kovoobrabeni",
+    "category_name": "CNC Kovoobrábění & Nástrojárna",
+    "perex": "Výroba vysoce přesných upínacích čelistí pro svěráky a hydraulická upínadla, kalená prizmata a polohovací bloky.",
+    "material": "Nástrojová ocel legovaná, kalená na 58–60 HRC",
+    "params": {
+      "Broušení": "Přesné rovinné broušení funkčních ploch",
+      "Tvarování": "Rovinné i tvarové drážky dle upínaného profilu",
+      "Trvanlivost": "Vysoká odolnost proti opotřebení a otlačení",
+      "Zakázková výroba": "Dle výkresové dokumentace zákazníka"
+    },
+    "image": "assets/0633.jpg",
+    "badge": "Nástrojové upínky"
+  },
+  {
+    "id": "karusel-900mm",
+    "title": "Karuselové obrábění tvarů a průměrů do 900 mm",
+    "category": "kovoobrabeni",
+    "category_name": "CNC Kovoobrábění & Nástrojárna",
+    "perex": "Obrábění rozměrných rotačních těles, přírub, prstenců a velkých tvarových dílů na svislých karuselových strojích.",
+    "material": "Ušlechtilá ocel, litina, svařence, výkovky",
+    "params": {
+      "Maximální průměr obrobku": "Až do 900 mm",
+      "Typ stroje": "Svislý soustruh – karusel",
+      "Operace": "Soustružení vnějších a vnitřních průměrů, čel a kuželů",
+      "Hmotnost dílce": "Vysoká nosnost stolu pro těžké polotovary"
+    },
+    "image": "assets/0644.jpg",
+    "badge": "Průměr do 900 mm"
+  },
+  {
+    "id": "nastrojove-desky",
+    "title": "Tvarové desky a kalené vložky",
+    "category": "nastrojarna",
+    "category_name": "Nástrojárna & broušení",
+    "perex": "Kompletní výroba vodicích lišt, kalených střižných desek, opěrných podložek a tvarových nástrojových komponent.",
+    "material": "Nástrojová ocel 19 312 / 19 573",
+    "params": {
+      "Tepelné zpracování": "Kalené a popouštěné na 58–62 HRC",
+      "Povrch": "Jemně broušené rovinné plochy",
+      "Rovinnost": "Vysoká přesnost rovnoběžnosti a kolmosti",
+      "Použití": "Střižné a lisovací nástroje, jednoúčelové stroje"
+    },
+    "image": "assets/0698.jpg",
+    "badge": "Přesné broušení"
+  },
+  {
+    "id": "gravirovani-rytectvi",
+    "title": "Rytecké práce a CNC gravírování",
+    "category": "nastrojarna",
+    "category_name": "Nástrojárna & broušení",
+    "perex": "Počítačově řízené gravírování technických reliéfů, firemních logotypů, výrobních štítků, přístrojových panelů a měřítek.",
+    "material": "Ocel, mosaz, dural, technické plasty",
+    "params": {
+      "Řízení": "Plně počítačem řízené CNC gravírovací stroje",
+      "Podklady": "Výroba dle CAD dat, DXF, vektorových log i vzorků",
+      "Geometrie rytí": "2D i 3D prostorové reliéfní gravírování",
+      "Použití": "Strojírenství, hutě, svařovny, potravinářství"
+    },
+    "image": "assets/0655.jpg",
+    "badge": "CAD/CNC rytí"
+  }
+]

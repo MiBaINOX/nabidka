@@ -1,0 +1,106 @@
+{
+  "total_pages": 23,
+  "menu_categories": [
+    "Úvod",
+    "O nás",
+    "Služby",
+    "Produkty",
+    "Reference",
+    "Certifikáty",
+    "Kontakty"
+  ],
+  "pages": [
+    {
+      "url": "http://sancofasady.cz/",
+      "title": "Sanco Fasády - Prodej a realizace fasád na míru"
+    },
+    {
+      "url": "http://sancofasady.cz/o-nas/",
+      "title": "O nás | SANCO FASÁDY s.r.o."
+    },
+    {
+      "url": "http://sancofasady.cz/sluzby/",
+      "title": "Služby | SANCO FASÁDY s.r.o."
+    },
+    {
+      "url": "http://sancofasady.cz/sluzby/kompletni-servis/",
+      "title": "Prodej stavebního materiálu a kompletní servis fasád"
+    },
+    {
+      "url": "http://sancofasady.cz/sluzby/cisteni-graffiti-a-preventivni-ochrana/",
+      "title": "Čištění graffiti a preventivní ochrana povrchů"
+    },
+    {
+      "url": "http://sancofasady.cz/sluzby/kvalita-prace/",
+      "title": "Kvalita práce a certifikované realizace fasád"
+    },
+    {
+      "url": "http://sancofasady.cz/sluzby/reference/",
+      "title": "Čištění fasád a střech | SANCO FASÁDY s.r.o."
+    },
+    {
+      "url": "http://sancofasady.cz/sluzby/tonovani/",
+      "title": "Vlastní tónovací centrum fasádních barev a omítek"
+    },
+    {
+      "url": "http://sancofasady.cz/reference/",
+      "title": "Reference realizovaných fasád a zateplení budov"
+    },
+    {
+      "url": "http://sancofasady.cz/kategorie/produkty/",
+      "title": "Katalog produktů a systémů pro fasády"
+    },
+    {
+      "url": "http://sancofasady.cz/produkty/zateplovaci-systemy/",
+      "title": "Kontaktní zateplovací systémy ETICS"
+    },
+    {
+      "url": "http://sancofasady.cz/produkty/profi-zateplovaci-systemy/",
+      "title": "Profi Baustoffe zateplovací systémy"
+    },
+    {
+      "url": "http://sancofasady.cz/produkty/profi-sanacni-systemy/",
+      "title": "Sanační a odvlhčovací systémy zdiva"
+    },
+    {
+      "url": "http://sancofasady.cz/produkty/profi-omitky/",
+      "title": "Fasádní pastovité a minerální omítky"
+    },
+    {
+      "url": "http://sancofasady.cz/produkty/styroprofile/",
+      "title": "Fasádní profily a příslušenství Styroprofile"
+    },
+    {
+      "url": "http://sancofasady.cz/kategorie/produkty/keim/",
+      "title": "Silikátové minerální systémy KEIM"
+    },
+    {
+      "url": "http://sancofasady.cz/kategorie/produkty/baumit/",
+      "title": "Fasádní systémy Baumit"
+    },
+    {
+      "url": "http://sancofasady.cz/kategorie/produkty/quick-mix/",
+      "title": "Maltové a zateplovací směsi quick-mix"
+    },
+    {
+      "url": "http://sancofasady.cz/kategorie/produkty/visco/",
+      "title": "Výhradní zastoupení fasádních materiálů Visco"
+    },
+    {
+      "url": "http://sancofasady.cz/kategorie/produkty/trion-tensid-ab/",
+      "title": "Systémy Trion Tensid AB pro ochranu povrchů a anti-graffiti"
+    },
+    {
+      "url": "http://sancofasady.cz/kategorie/produkty/polystyren/",
+      "title": "Fasádní polystyren EPS a soklové desky XPS"
+    },
+    {
+      "url": "http://sancofasady.cz/certifikaty/",
+      "title": "Certifikáty a autorizace SANCO FASÁDY s.r.o."
+    },
+    {
+      "url": "http://sancofasady.cz/kontakty/",
+      "title": "Kontakty a vzorková prodejna Olomouc"
+    }
+  ]
+}

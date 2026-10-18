@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KROKOV - Výroba razidel, CNC kovoobrábění & karusel | Olomouc</title>
+  <meta name="description" content="Tradiční výroba klasických i speciálních razidel k ručnímu i strojnímu ražení za studena i za tepla, přesné CNC kovoobrábění a karusel do 900 mm. Tradice od roku 1990.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a href="#uvod" class="brand-link" aria-label="KROKOV - Návrat na úvod">
+        <div class="logo-box">
+          <img src="assets/LOGO.jpg" alt="KROKOV - výroba razidel" class="header-logo-img">
+        </div>
+      </a>
+      <nav class="main-nav" aria-label="Hlavní navigace">
+        <a href="#uvod" class="nav-link active" data-i18n="nav_home">Úvod</a>
+        <a href="#obory" class="nav-link" data-i18n="nav_disciplines">Výrobní obory</a>
+        <a href="#katalog" class="nav-link" data-i18n="nav_products">Výrobky & Razidla</a>
+        <a href="#stroje" class="nav-link" data-i18n="nav_machines">Strojní park</a>
+        <a href="#pronajem" class="nav-link" data-i18n="nav_rental">Pronájem areálu</a>
+        <a href="#kontakt" class="nav-link" data-i18n="nav_contact">Kontakty</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switcher" aria-label="Jazykový přepínač">
+          <button type="button" class="lang-btn active" data-lang="cs" aria-label="Čeština">CZ</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-label="English">EN</button>
+        </div>
+        <a href="#kontakt" class="btn-primary header-cta" data-i18n="hero_cta_inquiry">Poptat výrobu</a>
+        <button type="button" class="mobile-toggle" aria-label="Otevřít menu" id="mobileMenuBtn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="uvod" class="hero-section">
+      <div class="hero-pattern"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-tag">
+            <span class="badge-dot"></span>
+            <span data-i18n="hero_badge">Tradiční výroba nástrojů a razidel od roku 1990</span>
+          </div>
+          <h1 class="hero-heading" data-i18n="hero_title">Přesná razidla, CNC kovoobrábění a karusel do 900 mm</h1>
+          <p class="hero-desc" data-i18n="hero_subtitle">Vyrábíme ocelová a mosazná razidla pro ruční i strojní ražení za studena i za tepla, znaky OTK, navalovací kotouče a přesné strojní díly s více než 30 lety zkušeností.</p>
+          <div class="hero-cta-group">
+            <a href="#katalog" class="btn-primary" data-i18n="hero_cta_cat">Prohlédnout katalog výrobků</a>
+            <a href="#kontakt" class="btn-outline" data-i18n="hero_cta_inquiry">Poptat zakázkovou výrobu</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-val"><span class="counter" data-target="1990">1990</span></div>
+              <div class="stat-label" data-i18n="stat_year">Rok založení firmy</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-val"><span class="counter" data-target="34">34</span>+</div>
+              <div class="stat-label" data-i18n="stat_years">Let nástrojářské tradice</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-val"><span class="counter" data-target="900">900</span> mm</div>
+              <div class="stat-label" data-i18n="stat_diameter">Maximální průměr karuselu</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-val"><span class="counter" data-target="62">62</span> HRC</div>
+              <div class="stat-label" data-i18n="stat_hardness">Tvrdost kalených razidel</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-frame">
+            <img src="assets/uvodka.jpg" alt="Výroba razidel KROKOV v dílně" class="hero-main-img">
+            <div class="hero-float-card">
+              <div class="float-icon">⚙️</div>
+              <div class="float-text">
+                <strong data-i18n="hero_float_title">Kalená nástrojová ocel</strong>
+                <span data-i18n="hero_float_desc">Třídy 19 312 a 19 573 s odolností proti popouštění</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="obory" class="section-sectors">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag" data-i18n="tabs_title">Specializované výrobní obory</span>
+          <h2 class="section-title" data-i18n="tabs_subtitle">Kompletní technologické zázemí od CAD modelování a gravírování po CNC frézování a tepelné zpracování.</h2>
+        </div>
+        <div class="sectors-grid">
+          <div class="sector-card">
+            <div class="sector-icon">
+              <img src="assets/razid.gif" alt="Ikona výroba razidel" class="sec-ico-img">
+            </div>
+            <h3 class="sector-title" data-i18n="tab_stamps">Výroba razidel & log</h3>
+            <p class="sector-desc" data-i18n="tech_stamps_desc">Výroba klasických i speciálních razidel z nástrojové oceli 19 312 a 19 573 k ručnímu i strojnímu ražení za studena i za tepla. Znaky, firemní loga, kontrolní razidla OTK a navalovací kotouče.</p>
+            <ul class="sector-features">
+              <li>Písmena A–Z a číslice 0–9 v sadách i kusově</li>
+              <li>Kalení a popouštění na 58–62 HRC</li>
+              <li>Zrcadlově obrácená razidla do matric a forem</li>
+            </ul>
+          </div>
+          <div class="sector-card">
+            <div class="sector-icon">
+              <img src="assets/kovoobr.gif" alt="Ikona kovoobrábění" class="sec-ico-img">
+            </div>
+            <h3 class="sector-title" data-i18n="tab_cnc">CNC kovoobrábění</h3>
+            <p class="sector-desc" data-i18n="tech_cnc_desc">Přesné 3-osé frézování na vertikálních centrech ZPS MCFV a MAS MCV s pojezdy do 1060 mm. Tvarové dílce, upínací čelisti, nástrojové desky a kusová i sériová výroba.</p>
+            <ul class="sector-features">
+              <li>Obráběcí centra ZPS MCFV 1060 NT & MAS MCV 750</li>
+              <li>Frézování oceli, ocelolitiny, litiny i slitin kovů</li>
+              <li>Středové chlazení pro hluboké vrtací operace</li>
+            </ul>
+          </div>
+          <div class="sector-card">
+            <div class="sector-icon">
+              <img src="assets/karus.gif" alt="Ikona karusel" class="sec-ico-img">
+            </div>
+            <h3 class="sector-title" data-i18n="tab_carousel">Karusel do 900 mm</h3>
+            <p class="sector-desc" data-i18n="tech_carousel_desc">Obrábění rozměrných rotačních tvarů a součástí až do průměru 900 mm na svislých karuselových strojích. Těžké příruby, prstence a rotační polotovary.</p>
+            <ul class="sector-features">
+              <li>Soustružení vnějších i vnitřních ploch do Ø 900 mm</li>
+              <li>Těžké výkovky, svařence a odlitky</li>
+              <li>Kusová i malosériová přesná zakázková výroba</li>
+            </ul>
+          </div>
+          <div class="sector-card">
+            <div class="sector-icon">
+              <img src="assets/ryt.gif" alt="Ikona rytecké práce" class="sec-ico-img">
+            </div>
+            <h3 class="sector-title" data-i18n="tab_engraving">Rytecké práce</h3>
+            <p class="sector-desc" data-i18n="tech_engraving_desc">Počítačově řízené gravírování na CNC strojích. Precizní reliéfy, matricová zrcadlová razidla, měřítka, technické logotypy a značení do oceli i mosazi.</p>
+            <ul class="sector-features">
+              <li>Gravírování 2D/3D z dodaných CAD/vektorových dat</li>
+              <li>Mosazná razidla pro slepotisk a ražbu do kůže</li>
+              <li>Výrobní štítky, ovládací panely a přístrojová měřítka</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="katalog" class="section-catalog">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag" data-i18n="cat_section_title">Katalog výrobků a technologických dílů</span>
+          <h2 class="section-title" data-i18n="cat_section_subtitle">Interaktivní přehled standardních i zakázkových razidel, obráběných součástí a nástrojových komponentů.</h2>
+        </div>
+
+        <div class="catalog-controls">
+          <div class="filter-tabs" role="tablist">
+            <button type="button" class="tab-btn active" data-filter="all" role="tab" data-i18n="filter_all">Všechny výrobky (12)</button>
+            <button type="button" class="tab-btn" data-filter="razidla" role="tab" data-i18n="filter_razidla">Razidla a značení</button>
+            <button type="button" class="tab-btn" data-filter="kovoobrabeni" role="tab" data-i18n="filter_cnc">CNC kovoobrábění</button>
+            <button type="button" class="tab-btn" data-filter="nastrojarna" role="tab" data-i18n="filter_tooling">Nástrojárna & broušení</button>
+          </div>
+          <div class="catalog-search-wrap">
+            <input type="text" id="catalogSearch" class="catalog-search-input" placeholder="Hledat razidlo, materiál, stroj..." data-i18n-placeholder="search_placeholder" aria-label="Vyhledávání v katalogu">
+            <div class="search-counter-badge">
+              <span data-i18n="catalog_count_label">Zobrazeno</span> <span id="itemCount">12</span> <span data-i18n="catalog_count_items">položek</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="catalog-grid" id="catalogGrid">
+          <div class="cat-card" data-category="razidla" data-open-tech="razidla-rucni">
+            <div class="item-img-wrap">
+              <img src="assets/ko.jpg" alt="Ruční ocelová razidla v sadách i jednotlivě" class="item-img">
+              <span class="item-badge">Tradiční výroba</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">Výroba razidel & značení</div>
+              <h3 class="item-title" data-i18n="item_1_title">Ruční ocelová razidla v sadách i jednotlivě</h3>
+              <p class="item-desc" data-i18n="item_1_desc">Klasická i speciální ruční razidla pro ražení do oceli a kovů za studena i za tepla. Písmena, číslice a zakázkové znaky.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">19 312 / 19 573</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="razidla-rucni" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="razidla" data-open-tech="razidla-kontrola">
+            <div class="item-img-wrap">
+              <img src="assets/hz.jpg" alt="Speciální razidla pro technickou kontrolu" class="item-img">
+              <span class="item-badge">Kontrola jakosti OTK</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">Výroba razidel & značení</div>
+              <h3 class="item-title" data-i18n="item_2_title">Speciální razidla pro technickou kontrolu</h3>
+              <p class="item-desc" data-i18n="item_2_desc">Inspekční a kontrolní značky pro výstupní kontrolu OTK, svářečské značky a kódová razidla s vysokou ostrostí detailu.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">19 312 selektivně kalená</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="razidla-kontrola" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="razidla" data-open-tech="razidla-strojni">
+            <div class="item-img-wrap">
+              <img src="assets/juk.jpg" alt="Strojní razidla pro lisovací operace" class="item-img">
+              <span class="item-badge">Strojní lisy</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">Výroba razidel & značení</div>
+              <h3 class="item-title" data-i18n="item_3_title">Strojní razidla pro lisovací operace</h3>
+              <p class="item-desc" data-i18n="item_3_desc">Průmyslová strojní razidla přizpůsobená pro mechanické, pneumatické a hydraulické lisy s vysokou dynamickou odolností.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">19 573 vakuově kalená</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="razidla-strojni" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="razidla" data-open-tech="kotouce-navalovaci">
+            <div class="item-img-wrap">
+              <img src="assets/0730.jpg" alt="Navalovací a razicí kotouče" class="item-img">
+              <span class="item-badge">Rotační značení</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">Výroba razidel & značení</div>
+              <h3 class="item-title" data-i18n="item_4_title">Navalovací a razicí kotouče</h3>
+              <p class="item-desc" data-i18n="item_4_desc">Rotační navalovací segmenty a kotouče pro kontinuální značení trubek, profilů, tyčí a rotačních součástí přímo ve výrobní lince.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">Nástrojová ocel otěruvzdorná</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="kotouce-navalovaci" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="razidla" data-open-tech="drzaky-skupinove">
+            <div class="item-img-wrap">
+              <img src="assets/0999.jpg" alt="Držáky a hlavy pro skupinové ražení" class="item-img">
+              <span class="item-badge">Stavebnicový systém</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">Výroba razidel & značení</div>
+              <h3 class="item-title" data-i18n="item_5_title">Držáky a hlavy pro skupinové ražení</h3>
+              <p class="item-desc" data-i18n="item_5_desc">Výměnné stavebnicové držáky pro víceřádkové ražení textů, šarží, výrobních čísel a dat výroby s rychlou aretací znaků.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">Zušlechtěná ocel</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="drzaky-skupinove" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="razidla" data-open-tech="razidla-zrcadlova">
+            <div class="item-img-wrap">
+              <img src="assets/0753.jpg" alt="Zrcadlově obrácená razidla do matric a forem" class="item-img">
+              <span class="item-badge">Formy a matrice</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">Výroba razidel & značení</div>
+              <h3 class="item-title" data-i18n="item_6_title">Zrcadlově obrácená razidla do matric a forem</h3>
+              <p class="item-desc" data-i18n="item_6_desc">Precizní reverzně gravírovaná razidla určená pro vkládání do tvářecích matric, vstřikovacích forem a slévárenských modelů.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">Žárupevná ocel</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="razidla-zrcadlova" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="razidla" data-open-tech="razidla-mosaz">
+            <div class="item-img-wrap">
+              <img src="assets/0708.jpg" alt="Mosazná razidla pro slepotisk a kůži" class="item-img">
+              <span class="item-badge">Termoražba & slepotisk</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">Výroba razidel & značení</div>
+              <h3 class="item-title" data-i18n="item_7_title">Mosazná razidla pro slepotisk a kůži</h3>
+              <p class="item-desc" data-i18n="item_7_desc">Jemně rytá mosazná razidla s vynikající tepelnou vodivostí pro horkou ražbu do kůže, dřeva, plastů, papíru a knihařský slepotisk.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">Gravírovací mosaz Ms58</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="razidla-mosaz" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="kovoobrabeni" data-open-tech="cnc-dilce">
+            <div class="item-img-wrap">
+              <img src="assets/0652.jpg" alt="Přesné CNC tvarové díly a kovoobrábění" class="item-img">
+              <span class="item-badge">CNC 3 osy</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">CNC Kovoobrábění & Nástrojárna</div>
+              <h3 class="item-title" data-i18n="item_8_title">Přesné CNC tvarové díly a kovoobrábění</h3>
+              <p class="item-desc" data-i18n="item_8_desc">Zakázkové frézování a soustružení tvarově náročných dílců na CNC centrech ZPS a MAS. Kusová i sériová přesná produkce.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">Ocel, litina, dural</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="cnc-dilce" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="kovoobrabeni" data-open-tech="celisti-prizmata">
+            <div class="item-img-wrap">
+              <img src="assets/0633.jpg" alt="Upínací čelisti, prizmata a tvarové bloky" class="item-img">
+              <span class="item-badge">Nástrojové upínky</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">CNC Kovoobrábění & Nástrojárna</div>
+              <h3 class="item-title" data-i18n="item_9_title">Upínací čelisti, prizmata a tvarové bloky</h3>
+              <p class="item-desc" data-i18n="item_9_desc">Výroba vysoce přesných upínacích čelistí pro svěráky a hydraulická upínadla, kalená prizmata a polohovací bloky.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">Kalená ocel 58–60 HRC</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="celisti-prizmata" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="kovoobrabeni" data-open-tech="karusel-900mm">
+            <div class="item-img-wrap">
+              <img src="assets/0644.jpg" alt="Karuselové obrábění tvarů a průměrů do 900 mm" class="item-img">
+              <span class="item-badge">Průměr do 900 mm</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">CNC Kovoobrábění & Nástrojárna</div>
+              <h3 class="item-title" data-i18n="item_10_title">Karuselové obrábění tvarů a průměrů do 900 mm</h3>
+              <p class="item-desc" data-i18n="item_10_desc">Obrábění rozměrných rotačních těles, přírub, prstenců a velkých tvarových dílů na svislých karuselových strojích.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">Ocel, litina, výkovky</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="karusel-900mm" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="nastrojarna" data-open-tech="nastrojove-desky">
+            <div class="item-img-wrap">
+              <img src="assets/0698.jpg" alt="Tvarové desky a kalené vložky" class="item-img">
+              <span class="item-badge">Přesné broušení</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">Nástrojárna & broušení</div>
+              <h3 class="item-title" data-i18n="item_11_title">Tvarové desky a kalené vložky</h3>
+              <p class="item-desc" data-i18n="item_11_desc">Kompletní výroba vodicích lišt, kalených střižných desek, opěrných podložek a tvarových nástrojových komponent.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">19 312 / 19 573</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="nastrojove-desky" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+
+          <div class="cat-card" data-category="nastrojarna" data-open-tech="gravirovani-rytectvi">
+            <div class="item-img-wrap">
+              <img src="assets/0655.jpg" alt="Rytecké práce a CNC gravírování" class="item-img">
+              <span class="item-badge">CAD/CNC rytí</span>
+            </div>
+            <div class="item-body">
+              <div class="item-category-tag">Nástrojárna & broušení</div>
+              <h3 class="item-title" data-i18n="item_12_title">Rytecké práce a CNC gravírování</h3>
+              <p class="item-desc" data-i18n="item_12_desc">Počítačově řízené gravírování technických reliéfů, firemních logotypů, výrobních štítků, přístrojových panelů a měřítek.</p>
+              <div class="item-meta">
+                <span class="meta-label">Materiál:</span> <span class="meta-val">Ocel, mosaz, dural</span>
+              </div>
+              <button type="button" class="btn-detail" data-target-tech="gravirovani-rytectvi" data-i18n="btn_open_detail">Technická specifikace</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stroje" class="section-machines">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag" data-i18n="machines_title">Špičkový strojní park a vybavení</span>
+          <h2 class="section-title" data-i18n="machines_subtitle">Moderní obráběcí centra ZPS a MAS doplněná stabilní dělicí pilou BOMAR a konvenčními stroji pro kusovou výrobu.</h2>
+        </div>
+        <div class="machines-grid">
+          <div class="machine-card">
+            <div class="machine-img-wrap">
+              <img src="assets/ZPSMCFV1060NT.JPG" alt="CNC obráběcí centrum ZPS MCFV 1060 NT" class="machine-img">
+            </div>
+            <div class="machine-body">
+              <div class="machine-badge">CNC Obráběcí centrum</div>
+              <h3 class="machine-title">ZPS MCFV 1060 NT</h3>
+              <p class="machine-desc">Klasické frézovací centrum s moderně řešenou konstrukcí s lineárními vedeními ve všech osách a digitálními pohony posuvů. Tři souvisle řízené osy pro frézovací, vrtací, vystružovací a zahlubovací operace včetně řezání závitů v oceli, ocelolitině, litině i slitinách lehkých a barevných kovů.</p>
+              <div class="machine-spec-list">
+                <div class="m-spec-row"><span>Pojezdy os X / Y / Z:</span><strong>1016 × 610 × 760 mm</strong></div>
+                <div class="m-spec-row"><span>Typ vedení:</span><strong>Valivá lineární vedení</strong></div>
+                <div class="m-spec-row"><span>Řízení:</span><strong>Digitální pohony posuvů</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="machine-card">
+            <div class="machine-img-wrap">
+              <img src="assets/MASMCV750.JPG" alt="Vysokorychlostní centrum MAS MCV 750 Rapid" class="machine-img">
+            </div>
+            <div class="machine-body">
+              <div class="machine-badge">Vysokorychlostní frézování</div>
+              <h3 class="machine-title">MAS MCV 750 Rapid</h3>
+              <p class="machine-desc">Stroj postavený na nosném rámu ve tvaru C s optimalizovaným tvarem odlitků pro vysokou tuhost a dynamiku. Lineární vedení ve všech osách garantuje špičkovou přesnost. Automatická výměna nástrojů ze zásobníku pro práci v automatickém cyklu se středovým přívodem chladicí kapaliny.</p>
+              <div class="machine-spec-list">
+                <div class="m-spec-row"><span>Konstrukce:</span><strong>Rám ve tvaru C</strong></div>
+                <div class="m-spec-row"><span>Otáčky vřetene:</span><strong>Až 24 000 ot./min</strong></div>
+                <div class="m-spec-row"><span>Krouticí moment:</span><strong>Až 620 Nm s převodovkou</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="machine-card">
+            <div class="machine-img-wrap">
+              <img src="assets/BOMAR.JPG" alt="Pásová pila na kov BOMAR individual řada GH" class="machine-img">
+            </div>
+            <div class="machine-body">
+              <div class="machine-badge">Přesné dělení materiálu</div>
+              <h3 class="machine-title">BOMAR individual (řada GH)</h3>
+              <p class="machine-desc">Stabilní strojní pásová pila pro univerzální použití s nízkou úrovní vibrací a vysokou přesností řezu. Jednoduchá obsluha při úhlovém řezání do 60° ve spojení s možností dělení polotovarů až do délky 6 500 mm pomocí vícenásobného podání materiálu.</p>
+              <div class="machine-spec-list">
+                <div class="m-spec-row"><span>Úhlové řezání:</span><strong>Do 60° oboustranně</strong></div>
+                <div class="m-spec-row"><span>Délka dělení:</span><strong>Až 6 500 mm</strong></div>
+                <div class="m-spec-row"><span>Konstrukce:</span><strong>Nízká úroveň vibrací</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="machine-card machine-card-compact">
+            <div class="machine-body">
+              <div class="machine-badge">Konvenční strojní park</div>
+              <h3 class="machine-title">Konvenční stroje pro kusovou výrobu</h3>
+              <p class="machine-desc">Firma disponuje celou řadou konvenčních nástrojářských strojů pro flexibilní kusovou produkci, úpravy střižných hran, broušení a dokončovací operace.</p>
+              <div class="machine-tags">
+                <span class="m-tag">Nástrojářské frézky</span>
+                <span class="m-tag">Univerzální soustruhy</span>
+                <span class="m-tag">Rovinné a hrotové brusky</span>
+                <span class="m-tag">Svislé karusely do Ø 900 mm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pronajem" class="section-rental">
+      <div class="container">
+        <div class="rental-box">
+          <div class="rental-content">
+            <span class="section-tag" data-i18n="rental_title">Průmyslový areál a prostory k pronájmu</span>
+            <h2 class="rental-heading">Volné výrobní a skladové prostory 250 až 1 000 m²</h2>
+            <p class="rental-desc" data-i18n="rental_subtitle">Kromě kovoobrábění nabízíme volné výrobní a skladové prostory o rozloze 250 až 1 000 m² s kompletním zabezpečením.</p>
+            <div class="rental-checklist">
+              <div class="rental-check-item">
+                <span class="check-ico">✓</span>
+                <span data-i18n="rental_feature_1">Rozloha 250 až 1 000 m²</span>
+              </div>
+              <div class="rental-check-item">
+                <span class="check-ico">✓</span>
+                <span data-i18n="rental_feature_2">Kamerový a vnitřní zabezpečovací systém</span>
+              </div>
+              <div class="rental-check-item">
+                <span class="check-ico">✓</span>
+                <span data-i18n="rental_feature_3">Parkovací plochy a příjezd pro nákladní dopravu</span>
+              </div>
+            </div>
+            <div class="rental-cta">
+              <a href="#kontakt" class="btn-primary" data-i18n="rental_inquire">Informovat se o pronájmu</a>
+            </div>
+          </div>
+          <div class="rental-gallery">
+            <img src="assets/P2071406.JPG" alt="Areál KROKOV - pohled na výrobní halu" class="rental-img main-r-img">
+            <div class="rental-sub-imgs">
+              <img src="assets/P2061402.JPG" alt="Areál KROKOV - parkovací a manipulační plocha" class="rental-img">
+              <img src="assets/PA311324.JPG" alt="Areál KROKOV - vstupní prostory a kanceláře" class="rental-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section-contact">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag" data-i18n="contact_title">Kontakty a nezávazná poptávka</span>
+          <h2 class="section-title" data-i18n="contact_subtitle">Pošlete nám výkresovou dokumentaci nebo specifikaci požadovaného razidla či obrobku. Obratem se vám ozveme.</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-panel">
+            <div class="info-card">
+              <h3 class="info-heading">KROČKOVÁ s.r.o.</h3>
+              <p class="info-sub">Výroba razidel, CNC kovoobrábění & karusel</p>
+              <div class="info-items">
+                <div class="info-row">
+                  <span class="info-icon">📍</span>
+                  <div>
+                    <strong>Sídlo společnosti:</strong>
+                    <p>Pavlovická 83/17, Pavlovičky, 779 00 Olomouc</p>
+                    <small>IČO: 07376791</small>
+                  </div>
+                </div>
+                <div class="info-row">
+                  <span class="info-icon">📞</span>
+                  <div>
+                    <strong>Telefonní kontakt:</strong>
+                    <p><a href="tel:+420777100951">+420 777 100 951</a></p>
+                    <p><a href="tel:+420723062670">+420 723 062 670</a></p>
+                  </div>
+                </div>
+                <div class="info-row">
+                  <span class="info-icon">✉️</span>
+                  <div>
+                    <strong>E-mailové adresy:</strong>
+                    <p><a href="mailto:krokov@centrum.cz">krokov@centrum.cz</a></p>
+                    <p><a href="mailto:sale@krokov.cz">sale@krokov.cz</a></p>
+                  </div>
+                </div>
+                <div class="info-row">
+                  <span class="info-icon">🕒</span>
+                  <div>
+                    <strong data-i18n="contact_hours_title">Provozní a pracovní doba</strong>
+                    <p data-i18n="contact_hours_mon_thu">Pondělí – Čtvrtek: 7:00 – 16:00</p>
+                    <p data-i18n="contact_hours_fri">Pátek: 7:00 – 14:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="map-wrapper">
+              <iframe src="https://frame.mapy.cz/zakladni?x=17.27766&y=49.60224&z=16&source=coor&id=17.27766%2C49.60224" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" title="Mapa sídla KROČKOVÁ s.r.o. Olomouc"></iframe>
+              <div class="map-link-wrap">
+                <a href="https://mapy.cz/zakladni?x=17.27766&y=49.60224&z=16&source=coor&id=17.27766%2C49.60224" target="_blank" rel="noopener" class="btn-map">Zobrazit přesný bod na Mapy.cz</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <form id="inquiryForm" class="inquiry-form" onsubmit="event.preventDefault(); alert('Děkujeme za poptávku. Váš požadavek byl úspěšně zaevidován.');">
+              <h3 class="form-title">Poptávkový formulář zakázky</h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="formName">Jméno a příjmení *</label>
+                  <input type="text" id="formName" name="name" required placeholder="Vaše jméno a příjmení" data-i18n-placeholder="form_name_placeholder">
+                </div>
+                <div class="form-group">
+                  <label for="formCompany">Firma / IČO</label>
+                  <input type="text" id="formCompany" name="company" placeholder="Název firmy / IČO" data-i18n-placeholder="form_company_placeholder">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="formEmail">E-mailová adresa *</label>
+                  <input type="email" id="formEmail" name="email" required placeholder="firemni@email.cz" data-i18n-placeholder="form_email_placeholder">
+                </div>
+                <div class="form-group">
+                  <label for="formPhone">Telefonní číslo *</label>
+                  <input type="tel" id="formPhone" name="phone" required placeholder="+420 123 456 789" data-i18n-placeholder="form_phone_placeholder">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="formCategory" data-i18n="form_tech_label">Typ technologie / poptávky</label>
+                <select id="formCategory" name="category">
+                  <option value="razidla">Výroba ocelových razidel</option>
+                  <option value="otk">Razidla pro kontrolu OTK</option>
+                  <option value="kotouce">Navalovací a razicí kotouče</option>
+                  <option value="cnc">CNC frézování a soustružení</option>
+                  <option value="karusel">Karuselové tvary do 900 mm</option>
+                  <option value="gravirovani">Rytecké práce a gravírování</option>
+                  <option value="pronajem">Pronájem výrobních prostor</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="formMessage">Specifikace poptávky a parametry dílce *</label>
+                <textarea id="formMessage" name="message" rows="5" required placeholder="Popište požadavek, typ materiálu, počet kusů, požadavky na tepelné zpracování..." data-i18n-placeholder="form_msg_placeholder"></textarea>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn-primary btn-submit" data-i18n="form_submit">Odeslat nezávaznou poptávku</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#uvod" class="footer-logo-link" aria-label="KROKOV - Zpět na úvod">
+            <div class="logo-box">
+              <img src="assets/LOGO.jpg" alt="KROKOV - výroba razidel" class="footer-logo-img">
+            </div>
+          </a>
+          <p class="footer-text" data-i18n="footer_desc">Výroba razidel, znaků, logotypů, přesné CNC kovoobrábění a karuselové tvary do 900 mm s tradicí od roku 1990.</p>
+        </div>
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">Rychlá navigace</h4>
+          <ul class="footer-links">
+            <li><a href="#uvod" data-i18n="nav_home">Úvod</a></li>
+            <li><a href="#obory" data-i18n="nav_disciplines">Výrobní obory</a></li>
+            <li><a href="#katalog" data-i18n="nav_products">Výrobky & Razidla</a></li>
+            <li><a href="#stroje" data-i18n="nav_machines">Strojní park</a></li>
+            <li><a href="#pronajem" data-i18n="nav_rental">Pronájem areálu</a></li>
+            <li><a href="#kontakt" data-i18n="nav_contact">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact-col">
+          <h4 class="footer-col-title" data-i18n="nav_contact">Kontakt</h4>
+          <p class="footer-adr">Pavlovická 83/17, Pavlovičky, 779 00 Olomouc</p>
+          <p class="footer-phone"><a href="tel:+420777100951">+420 777 100 951</a></p>
+          <p class="footer-mail"><a href="mailto:krokov@centrum.cz">krokov@centrum.cz</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 KROČKOVÁ s.r.o. | <span data-i18n="footer_rights">Všechna práva vyhrazena.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="techModalBackdrop" class="tech-modal-backdrop" style="display: none;" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="tech-modal-dialog">
+      <div class="tech-modal-header">
+        <div class="modal-title-wrap">
+          <span id="modalCategory" class="modal-badge-cat">Kategorie</span>
+          <h3 id="modalTitle" class="modal-heading">Název výrobku</h3>
+        </div>
+        <button type="button" id="techModalClose" class="tech-modal-close" aria-label="Zavřít modální okno">&times;</button>
+      </div>
+      <div class="tech-modal-body">
+        <div class="modal-grid">
+          <div class="modal-media-col">
+            <div class="modal-img-frame">
+              <img id="modalImg" src="assets/ko.jpg" alt="Detail výrobku" class="modal-main-img">
+            </div>
+            <div class="modal-material-box">
+              <span class="m-box-lbl">Konstrukční materiál:</span>
+              <strong id="modalMaterial" class="m-box-val">Nástrojová ocel</strong>
+            </div>
+          </div>
+          <div class="modal-info-col">
+            <h4 class="modal-subheading">Popis technologie a použití</h4>
+            <p id="modalDesc" class="modal-text">Detailní popis vybraného razidla nebo komponentu.</p>
+            <h4 class="modal-subheading">Technické a rozměrové parametry</h4>
+            <div class="table-responsive">
+              <table class="modal-specs-table">
+                <tbody id="modalSpecsTbody">
+                  <tr><td>Parametr</td><td>Hodnota</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-actions">
+              <a href="#kontakt" class="btn-primary modal-inquire-btn" id="modalInquireBtn" data-i18n="hero_cta_inquiry">Poptat tento díl</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../ping-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

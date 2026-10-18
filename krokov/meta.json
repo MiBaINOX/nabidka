@@ -1,0 +1,49 @@
+{
+  "slug": "krokov",
+  "firma": "KROČKOVÁ s.r.o.",
+  "ico": "07376791",
+  "obec": "Olomouc",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Kovoobrábění & Nástrojárna / Výroba razidel, znaků a logotypů pro ruční i strojní ražení za studena i za tepla (ocelová, mosazná, speciální kontrolní razidla, razicí a navalovací kotouče), přesné CNC kovoobrábění, karuselové obrábění tvarů a průměrů do 900 mm, rytecké práce a gravírování",
+  "archetyp": "TECH & PRECISION",
+  "stary_web": "http://krokov.cz",
+  "email": "krokov@centrum.cz",
+  "jazyky": [
+    "CZ",
+    "EN"
+  ],
+  "prodejni_body": [
+    "Tradice výroby speciálních razidel k ručnímu i strojnímu ražení za tepla i za studena již od roku 1990",
+    "Kompletní sortiment razidel: písmena, číslice, kontrolní znaky OTK, firemní logotypy i zrcadlová razidla do forem",
+    "Špičkový strojní park: CNC obráběcí centra ZPS MCFV 1060 NT, MAS MCV 750 Rapid a pásová pila BOMAR",
+    "Karuselové obrábění velkorozměrových rotačních součástí až do průměru 900 mm",
+    "Tepelné zpracování selektivním i vakuovým kalením na 58–62 HRC z nástrojových ocelí 19 312 a 19 573",
+    "Kompletní zázemí pro nájemce v průmyslovém areálu (250–1000 m² výrobních a skladových ploch)"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený protokol HTTP bez platného SSL/TLS certifikátu",
+    "Chybějící meta viewport – web se na mobilních zařízeních nezalamuje a vyžaduje horizontální posuv",
+    "Zastaralý fixní tabulkový layout z roku 2012 s miniaturním písmem",
+    "Absence interaktivního katalogu a technických specifikací výrobků",
+    "Chybějící poptávkový formulář – kontakt pouze přes prostý statický e-mail"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Tech & Precision v souladu s oborem nástrojárny a přesného strojírenství",
+    "100% responzivní layout optimalizovaný pro chytré telefony, tablety i velkoformátové monitory",
+    "Interaktivní katalog 12 výrobků s okamžitým filtrováním kategorií, fulltextovým vyhledáváním a modálním oknem technických parametrů",
+    "Plnohodnotný dvoujazyčný přepínač CZ/EN s okamžitým dynamickým překladem celé stránky bez reloadu",
+    "Interaktivní poptávkový konfigurátor s volbou technologie pro rychlé nacenění zakázky",
+    "Oficiální Mapy.cz widget s přesným RÚIAN špendlíkem sídla v Olomouci"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1990,
+    "tradice_let": 34,
+    "max_prumer_karuselu_mm": 900,
+    "tvrdost_razidel_hrc": "58-62",
+    "adresa": "Pavlovická 83/17, Pavlovičky, 779 00 Olomouc",
+    "gps": "49.60224 N, 17.27766 E",
+    "telefon": "+420 777 100 951",
+    "email": "krokov@centrum.cz"
+  }
+}

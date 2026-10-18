@@ -1,0 +1,503 @@
+{
+  "target_url": "http://www.gtc-hranice.cz/",
+  "pages_crawled_count": 14,
+  "pages": [
+    "galerie.html",
+    "index-3.html",
+    "index-cinnost.html",
+    "index-dok.html",
+    "index-eng.html",
+    "index-kon_kan.html",
+    "index-kontakty.html",
+    "index-pas.html",
+    "index-vyrobky.html",
+    "index.html",
+    "neni.html",
+    "servis.html",
+    "svarkon.html",
+    "technologie.html"
+  ],
+  "images_count": 94,
+  "images": [
+    {
+      "url": "http://www.gtc-hranice.cz/images/1b_foto1.jpg",
+      "filename": "1b_foto1.jpg",
+      "size_bytes": 10737
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/1b_foto2.jpg",
+      "filename": "1b_foto2.jpg",
+      "size_bytes": 12123
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/1b_foto3.jpg",
+      "filename": "1b_foto3.jpg",
+      "size_bytes": 10741
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/1b_tt3.gif",
+      "filename": "1b_tt3.gif",
+      "size_bytes": 157
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/3b_foto2.jpg",
+      "filename": "3b_foto2.jpg",
+      "size_bytes": 13364
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/3b_foto3.jpg",
+      "filename": "3b_foto3.jpg",
+      "size_bytes": 11355
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/3b_tt2.gif",
+      "filename": "3b_tt2.gif",
+      "size_bytes": 175
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/3b_tt3.gif",
+      "filename": "3b_tt3.gif",
+      "size_bytes": 326
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/LOGO_GTCPLUSR.jpg",
+      "filename": "LOGO_GTCPLUSR.jpg",
+      "size_bytes": 24313
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/PD_500-5000_1.jpg",
+      "filename": "PD_500-5000_1.jpg",
+      "size_bytes": 35379
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/SM-1.jpg",
+      "filename": "SM-1.jpg",
+      "size_bytes": 38179
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/aktuality.gif",
+      "filename": "aktuality.gif",
+      "size_bytes": 1257
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/analyzator.jpg",
+      "filename": "analyzator.jpg",
+      "size_bytes": 44413
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/bott_konstrukce.gif",
+      "filename": "bott_konstrukce.gif",
+      "size_bytes": 1119
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/bott_servis.gif",
+      "filename": "bott_servis.gif",
+      "size_bytes": 1303
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/bott_technologie.gif",
+      "filename": "bott_technologie.gif",
+      "size_bytes": 1154
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/cel_drtic.jpg",
+      "filename": "cel_drtic.jpg",
+      "size_bytes": 33979
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/chlazeni_3-1.jpg",
+      "filename": "chlazeni_3-1.jpg",
+      "size_bytes": 43818
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/chlazeni_3.jpg",
+      "filename": "chlazeni_3.jpg",
+      "size_bytes": 41004
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/cinnosti.gif",
+      "filename": "cinnosti.gif",
+      "size_bytes": 977
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/d5.jpg",
+      "filename": "d5.jpg",
+      "size_bytes": 43249
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/desky_vyr.jpg",
+      "filename": "desky_vyr.jpg",
+      "size_bytes": 50588
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/dp-phs.jpg",
+      "filename": "dp-phs.jpg",
+      "size_bytes": 65368
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/durl_1.jpg",
+      "filename": "durl_1.jpg",
+      "size_bytes": 16963
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/dvojklapka-rch.jpg",
+      "filename": "dvojklapka-rch.jpg",
+      "size_bytes": 33727
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/engineering.gif",
+      "filename": "engineering.gif",
+      "size_bytes": 1349
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/fotogal.gif",
+      "filename": "fotogal.gif",
+      "size_bytes": 2365
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/freza.jpg",
+      "filename": "freza.jpg",
+      "size_bytes": 89075
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/gambarotta-spojka.jpg",
+      "filename": "gambarotta-spojka.jpg",
+      "size_bytes": 36971
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/h_butt1.gif",
+      "filename": "h_butt1.gif",
+      "size_bytes": 1737
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/h_butt2.gif",
+      "filename": "h_butt2.gif",
+      "size_bytes": 559
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/h_butt3.gif",
+      "filename": "h_butt3.gif",
+      "size_bytes": 1580
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/h_butt4.gif",
+      "filename": "h_butt4.gif",
+      "size_bytes": 1679
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/h_butt5.gif",
+      "filename": "h_butt5.gif",
+      "size_bytes": 2038
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/hridel_kep1418.jpg",
+      "filename": "hridel_kep1418.jpg",
+      "size_bytes": 61800
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ico-kep.jpg",
+      "filename": "ico-kep.jpg",
+      "size_bytes": 2948
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ico-pd.jpg",
+      "filename": "ico-pd.jpg",
+      "size_bytes": 3880
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ico-podavac.jpg",
+      "filename": "ico-podavac.jpg",
+      "size_bytes": 3688
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ico-rozbocka.jpg",
+      "filename": "ico-rozbocka.jpg",
+      "size_bytes": 3871
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ico-sd.jpg",
+      "filename": "ico-sd.jpg",
+      "size_bytes": 4021
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ico-uzaver.jpg",
+      "filename": "ico-uzaver.jpg",
+      "size_bytes": 3550
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ico-vru.jpg",
+      "filename": "ico-vru.jpg",
+      "size_bytes": 2947
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/katalog.gif",
+      "filename": "katalog.gif",
+      "size_bytes": 2218
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/kauf_palm.jpg",
+      "filename": "kauf_palm.jpg",
+      "size_bytes": 2181
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/kep1418_m.jpg",
+      "filename": "kep1418_m.jpg",
+      "size_bytes": 45992
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/kep1418m.gif",
+      "filename": "kep1418m.gif",
+      "size_bytes": 99372
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/kladivkove-drtice.jpg",
+      "filename": "kladivkove-drtice.jpg",
+      "size_bytes": 35567
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/kriz_vest.jpg",
+      "filename": "kriz_vest.jpg",
+      "size_bytes": 61914
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/lavka1.jpg",
+      "filename": "lavka1.jpg",
+      "size_bytes": 43496
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/lavka2.jpg",
+      "filename": "lavka2.jpg",
+      "size_bytes": 41510
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/lic-tds.jpg",
+      "filename": "lic-tds.jpg",
+      "size_bytes": 37513
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/lic-zwcad.jpg",
+      "filename": "lic-zwcad.jpg",
+      "size_bytes": 50863
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/mapa.jpg",
+      "filename": "mapa.jpg",
+      "size_bytes": 28265
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/nabidka_cinnost.gif",
+      "filename": "nabidka_cinnost.gif",
+      "size_bytes": 1158
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/nabidka_vyrobky.gif",
+      "filename": "nabidka_vyrobky.gif",
+      "size_bytes": 1172
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/o_firme.gif",
+      "filename": "o_firme.gif",
+      "size_bytes": 1221
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/obj_kncl.JPG",
+      "filename": "obj_kncl.JPG",
+      "size_bytes": 22966
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/obr-neni.jpg",
+      "filename": "obr-neni.jpg",
+      "size_bytes": 10052
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/odbocka_do_js.jpg",
+      "filename": "odbocka_do_js.jpg",
+      "size_bytes": 32799
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/odbocka_na_pas.jpg",
+      "filename": "odbocka_na_pas.jpg",
+      "size_bytes": 38862
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/odkazy.gif",
+      "filename": "odkazy.gif",
+      "size_bytes": 1212
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ofuk-rp.jpg",
+      "filename": "ofuk-rp.jpg",
+      "size_bytes": 64561
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ok-svar.jpg",
+      "filename": "ok-svar.jpg",
+      "size_bytes": 86154
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ok_svar.jpg",
+      "filename": "ok_svar.jpg",
+      "size_bytes": 49468
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/pec1.jpg",
+      "filename": "pec1.jpg",
+      "size_bytes": 43096
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/plos_rp3.jpg",
+      "filename": "plos_rp3.jpg",
+      "size_bytes": 40266
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/plosina1.jpg",
+      "filename": "plosina1.jpg",
+      "size_bytes": 35852
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/plosiny_kab_stup.jpg",
+      "filename": "plosiny_kab_stup.jpg",
+      "size_bytes": 33930
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/plot1.jpg",
+      "filename": "plot1.jpg",
+      "size_bytes": 27805
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/pohon1322.gif",
+      "filename": "pohon1322.gif",
+      "size_bytes": 13079
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/pohon1322_m.jpg",
+      "filename": "pohon1322_m.jpg",
+      "size_bytes": 57129
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/pohon51.jpg",
+      "filename": "pohon51.jpg",
+      "size_bytes": 30472
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/pohon5522.jpg",
+      "filename": "pohon5522.jpg",
+      "size_bytes": 53649
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/pohon7275.jpg",
+      "filename": "pohon7275.jpg",
+      "size_bytes": 36314
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/pohon_3Daxo1.jpg",
+      "filename": "pohon_3Daxo1.jpg",
+      "size_bytes": 2120
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/potrubi1.jpg",
+      "filename": "potrubi1.jpg",
+      "size_bytes": 35927
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/pracovna.jpg",
+      "filename": "pracovna.jpg",
+      "size_bytes": 57331
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/predmet.gif",
+      "filename": "predmet.gif",
+      "size_bytes": 1322
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/prezentace.gif",
+      "filename": "prezentace.gif",
+      "size_bytes": 1261
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/sd-pod-filtry.jpg",
+      "filename": "sd-pod-filtry.jpg",
+      "size_bytes": 38218
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/ss_pt_1.jpg",
+      "filename": "ss_pt_1.jpg",
+      "size_bytes": 36092
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/sus_bub.jpg",
+      "filename": "sus_bub.jpg",
+      "size_bytes": 49976
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/susicka.jpg",
+      "filename": "susicka.jpg",
+      "size_bytes": 37897
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/svarec.jpg",
+      "filename": "svarec.jpg",
+      "size_bytes": 64764
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/teo.jpg",
+      "filename": "teo.jpg",
+      "size_bytes": 40609
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/uprava_pohonu_kep.jpg",
+      "filename": "uprava_pohonu_kep.jpg",
+      "size_bytes": 40288
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/vitejte.gif",
+      "filename": "vitejte.gif",
+      "size_bytes": 1490
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/vstup_pristresek.jpg",
+      "filename": "vstup_pristresek.jpg",
+      "size_bytes": 39678
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/vykladac3Dmal.jpg",
+      "filename": "vykladac3Dmal.jpg",
+      "size_bytes": 2629
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/vyrobky.gif",
+      "filename": "vyrobky.gif",
+      "size_bytes": 986
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/zabr_vjezdu.jpg",
+      "filename": "zabr_vjezdu.jpg",
+      "size_bytes": 80121
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/zapisOS.jpg",
+      "filename": "zapisOS.jpg",
+      "size_bytes": 60721
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/zebr_strojovna.jpg",
+      "filename": "zebr_strojovna.jpg",
+      "size_bytes": 28480
+    },
+    {
+      "url": "http://www.gtc-hranice.cz/images/zl.jpg",
+      "filename": "zl.jpg",
+      "size_bytes": 4196
+    }
+  ],
+  "menu_categories": [
+    "Úvod",
+    "Výrobky",
+    "Technologie",
+    "Konstrukční kancelář",
+    "Servis",
+    "Svařované konstrukce",
+    "Dokumenty",
+    "Kontakt"
+  ]
+}

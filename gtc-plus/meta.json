@@ -1,0 +1,46 @@
+{
+  "slug": "gtc-plus",
+  "firma": "GTC Plus Hranice, s.r.o.",
+  "ico": "06723241",
+  "obec": "Hranice",
+  "okres": "Přerov",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Strojírenství & Výroba jednoúčelových strojů / Návrh, výroba a montáž jednoúčelových strojů, technologických linek pro průmysl stavebních hmot, úpravu a zpracování nerostných surovin, chemický a gumárenský průmysl, výroba a montáž ocelových konstrukcí a dílů, konstrukční a technická kancelář (SolidWorks/AutoCAD)",
+  "archetyp": "Heavy Industrial",
+  "jazyky": [
+    "CZ"
+  ],
+  "stary_web": "http://gtchranice.cz",
+  "email": "bohumil.stastny@gtc-hranice.cz",
+  "prodejni_body": [
+    "29 let tradice ve strojírenství a výrobě technologických celků od roku 1997",
+    "Komplexní inženýrský cyklus od 3D CAD vývoje (SolidWorks, ZwCAD) po šéfmontáž",
+    "Výroba ocelových konstrukcí dle ČSN EN 1090-2 a úřední svářečské zkoušky EN 287-1",
+    "Vlastní vývoj a výroba typové řady válcových regulačních uzávěrů VRU 200 až 400",
+    "Prověřené reference v těžkém provozu (Cement Hranice, Kamenolomy ČR, CEMMAC)"
+  ],
+  "vady_stareho_webu": [
+    "Zastaralý tabulkový layout bez mobilní responzivity (chybí viewport meta tag)",
+    "Nezabezpečené HTTP spojení bez platného SSL/TLS šifrování",
+    "Zastaralé kódování Windows-1250 způsobující problémy se zobrazením znaků na moderních zařízeních",
+    "Chybějící interaktivní katalog s technickými specifikacemi a parametry zařízení",
+    "Zastaralá fotogalerie s nízkým rozlišením a bez strukturovaných referenčních dat"
+  ],
+  "vylepseni_noveho_webu": [
+    "Plně responzivní industriální design (Heavy Industrial) optimalizovaný pro chytré telefony, tablety i velká rozlišení",
+    "Interaktivní technický katalog 18 výrobních řad a zařízení s živým filtrem odvětví a rychlým vyhledáváním",
+    "Detailní technická modální okna s parametry, výkony a rozměrovými tabulkami strojů",
+    "Ověřená poloha sídla na Mapy.cz s přesným červeným špendlíkem z katastru RÚIAN",
+    "Přehledná prezentace konstrukční kanceláře, licencí CAD softwaru a úředních certifikátů svářečů dle EN 287-1"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1997,
+    "ochranna_znamka": "Zápis č. 315623 u Úřadu průmyslového vlastnictví ČR (8. 12. 2010)",
+    "sidlo": "Rezkova 1669, Hranice I-Město, 753 01 Hranice",
+    "kancelar_a_provoz": "Bělotínská 288, 753 01 Hranice (objekt před Cement Hranice, a.s.)",
+    "vedeni": "Bohumil Šťastný (jednatel a technický ředitel)",
+    "telefony": "GSM: +420 604 984 689, TEL: +420 581 651 344",
+    "datova_schranka": "zvux3fc",
+    "normy": "ČSN EN 1090-2, EN 287-1 (metody MMA 111, MIG/MAG 135)"
+  }
+}

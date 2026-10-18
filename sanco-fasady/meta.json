@@ -1,0 +1,47 @@
+{
+  "slug": "sanco-fasady",
+  "firma": "SANCO FASÁDY s.r.o.",
+  "ico": "02958732",
+  "dic": "CZ02958732",
+  "obec": "Olomouc",
+  "cast_obce": "Chválkovice",
+  "ulice": "Na Zákopě",
+  "cislo_popisne": "524",
+  "psc": "779 00",
+  "okres": "Olomouc",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Stavebnictví & Zateplování budov / Kontaktní zateplovací systémy ETICS (polystyren EPS, minerální vata MW), kompletní revitalizace a rekonstrukce bytových i panelových domů, sanace zdiva a balkonů, fasádní omítky a nátěry, lešenářské práce a dotace Nová zelená úsporám",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://sancoolomouc.cz",
+  "email": "info@sancofasady.cz",
+  "telefon": "+420 602 717 223",
+  "vady_stareho_webu": [
+    "Nezabezpečené připojení pouze přes HTTP bez platného SSL/TLS certifikátu (prohlížeče hlásí varování Nezabezpečeno)",
+    "Absence značky meta viewport – web není optimalizován pro mobilní telefony a vyžaduje nepohodlné zoomování",
+    "Zastaralý layout z roku 2016 s nízkým kontrastem textů a archaickou navigací",
+    "Statická fotogalerie bez možnosti filtrování podle typu stavby, použitých systémů a technických parametrů"
+  ],
+  "vylepseni_noveho_webu": [
+    "Precizní švýcarský Bento Grid design s jemnými linkami (#E2E8F0) a moderní čitelnou typografií",
+    "Interaktivní katalog 12 fasádních technologií a realizovaných referencí s okamžitým vyhledáváním a filtry",
+    "Energetický kalkulátor tloušťky zateplení a odhadu úspory tepla dle ČSN 73 0540-2 a dotačního programu NZÚ",
+    "Detailní technické modální okno (#techModalBackdrop) s certifikacemi ETAG 004 / EAD a přehlednými tabulkami parametrů",
+    "Ověřené GPS souřadnice sídla s červeným Mapy.cz špendlíkem a 100% mobilní responzivitou s 0px overflow"
+  ],
+  "prodejni_body": [
+    "Dlouholetá tradice od roku 2014 a více než 450 dokončených fasád a zateplení v Olomouckém kraji",
+    "Certifikovaný aplikační partner předních výrobců Baumit, KEIM, quick-mix, tubag a Profi Baustoffe",
+    "Vlastní míchací centrum fasádních barev a pastovitých omítek v Olomouci Na Zákopě – tisíce odstínů na počkání",
+    "Ucelené portfolio: zateplení ETICS, sanace zdiva dle WTA, sanace lodžií, lešení i dotace Nová zelená úsporám"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2014,
+    "dokoncene_fasady": "přes 450 realizovaných objektů",
+    "certifikace": "ETICS dle ETAG 004 / EAD, Baumit, KEIM, quick-mix, tubag, Visco, ČKAIT",
+    "specializace": "minerální vata MW, šedý polystyren EPS Neopor, sanace lodžií, vápenné a silikátové omítky",
+    "michaci_centrum": "vlastní tónovací stanice v areálu Na Zákopě 524, Olomouc Chválkovice"
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}
