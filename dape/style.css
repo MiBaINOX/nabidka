@@ -1686,7 +1686,7 @@ select:focus, input:focus, textarea:focus {
     display: flex;
   }
   .header-cta {
-    display: none;
+    display: none !important;
   }
   .hero-counters {
     grid-template-columns: repeat(2, 1fr);
@@ -1726,4 +1726,31 @@ select:focus, input:focus, textarea:focus {
   .hero-counters {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+header nav a,
+.nav a,
+.nav-link,
+header button,
+header [class*="btn"],
+header [class*="cta"] {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+button,
+[class*="btn"],
+[class*="cta-"],
+.filter-btn,
+.tab-btn,
+a[href="#kontakt"],
+a[href*="mailto:"] {
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: 1.2;
 }

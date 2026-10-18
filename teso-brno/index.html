@@ -198,7 +198,7 @@
                 </div>
                 <div class="certs-grid" id="certsGrid">
                     <article class="cert-card" data-cert="autorizace-emise">
-                        <div class="cert-thumb-wrap">
+                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="autorizace-emise" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/autorizace-emise-nahled-full.jpg" alt="Osvědčení o autorizaci MŽP – měření emisí" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Autorizace MŽP</span>
                         </div>
@@ -214,7 +214,7 @@
                     </article>
 
                     <article class="cert-card" data-cert="autorizace-posudky">
-                        <div class="cert-thumb-wrap">
+                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="autorizace-posudky" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/autorizace-posudky-nahled-full.jpg" alt="Osvědčení o autorizaci MŽP – odborné posudky" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Autorizace MŽP</span>
                         </div>
@@ -230,7 +230,7 @@
                     </article>
 
                     <article class="cert-card" data-cert="autorizace-posudky-prodlouzeni">
-                        <div class="cert-thumb-wrap">
+                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="autorizace-posudky-prodlouzeni" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/autorizace-posudky-prodlouzeni-nahled-full.jpg" alt="Rozhodnutí MŽP – prodloužení autorizace na odborné posudky" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Prodloužení MŽP</span>
                         </div>
@@ -246,7 +246,7 @@
                     </article>
 
                     <article class="cert-card" data-cert="akreditace-cia">
-                        <div class="cert-thumb-wrap">
+                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="akreditace-cia" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/akreditace-cia-nahled-full.jpg" alt="Osvědčení o akreditaci ČIA – Zkušební laboratoř č. 1421" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Akreditace ČIA</span>
                         </div>
@@ -262,7 +262,7 @@
                     </article>
 
                     <article class="cert-card" data-cert="autorizace-rozptyl">
-                        <div class="cert-thumb-wrap">
+                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="autorizace-rozptyl" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/autorizace-rozptyl-nahled-full.jpg" alt="Osvědčení o autorizaci MŽP – rozptylové studie" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Rozptylové studie</span>
                         </div>
@@ -488,6 +488,7 @@
                     <button type="button" class="btn-cert-nav" id="certPageNext" aria-label="Další strana">Další &rarr;</button>
                 </div>
                 <div class="btn-group cert-lightbox-actions">
+                    <button type="button" class="btn-cert-zoom" id="certZoomBtn" aria-label="Přiblížit 100% detaily scanu">🔍 100% Zoom</button>
                     <a href="#" id="certLightboxDownload" class="btn-cert-download" download target="_blank">Stáhnout originální PDF</a>
                 </div>
             </div>

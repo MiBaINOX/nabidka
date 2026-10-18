@@ -1279,6 +1279,7 @@ img {
     overflow: hidden;
     border-bottom: 1px solid var(--color-border);
     padding: 16px;
+    cursor: pointer;
 }
 
 .cert-thumb {
@@ -1424,9 +1425,10 @@ img {
 .cert-lightbox-dialog {
     background: #ffffff;
     border-radius: var(--radius-md);
-    max-width: 860px;
-    width: 100%;
+    max-width: 1180px;
+    width: 96vw;
     max-height: 94vh;
+    height: 94vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -1498,7 +1500,6 @@ img {
     align-items: center;
     justify-content: center;
     min-height: 320px;
-    max-height: calc(94vh - 180px);
 }
 
 .cert-lightbox-img {
@@ -1508,6 +1509,43 @@ img {
     object-fit: contain;
     border-radius: 4px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    cursor: zoom-in;
+    transition: transform 0.2s ease;
+}
+
+.cert-lightbox-img.zoomed {
+    max-width: none !important;
+    max-height: none !important;
+    width: auto !important;
+    min-width: 1050px;
+    cursor: zoom-out;
+    margin: auto;
+}
+
+.btn-cert-zoom {
+    background: #ffffff;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+    padding: 9px 16px;
+    border-radius: var(--radius-sm);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    cursor: pointer;
+    min-height: 40px;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+    line-height: 1.2;
+}
+
+.btn-cert-zoom:hover {
+    background: var(--color-bg);
+    border-color: var(--color-primary);
+}
+
+.btn-cert-zoom.active {
+    background: var(--color-teal);
+    color: #ffffff;
+    border-color: var(--color-teal);
 }
 
 .cert-lightbox-controls {

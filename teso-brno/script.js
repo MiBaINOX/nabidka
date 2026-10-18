@@ -339,12 +339,36 @@ document.addEventListener("DOMContentLoaded", () => {
   const certNext = document.getElementById("certPageNext");
   const certInfo = document.getElementById("certPageInfo");
   const certClose = document.getElementById("certLightboxClose");
+  const certZoomBtn = document.getElementById("certZoomBtn");
 
   let currentCert = null;
   let currentPageIndex = 0;
 
+  function setZoom(isZoomed) {
+    if (!certImg) return;
+    if (isZoomed) {
+      certImg.classList.add("zoomed");
+      if (certZoomBtn) {
+        certZoomBtn.classList.add("active");
+        certZoomBtn.textContent = "🔍 Zmenšit";
+      }
+    } else {
+      certImg.classList.remove("zoomed");
+      if (certZoomBtn) {
+        certZoomBtn.classList.remove("active");
+        certZoomBtn.textContent = "🔍 100% Zoom";
+      }
+    }
+  }
+
+  function toggleZoom() {
+    if (!certImg) return;
+    setZoom(!certImg.classList.contains("zoomed"));
+  }
+
   function renderCertPage() {
     if (!currentCert || !currentCert.pages || currentCert.pages.length === 0) return;
+    setZoom(false);
     if (certImg) certImg.src = currentCert.pages[currentPageIndex];
     if (certInfo) certInfo.textContent = "Strana " + (currentPageIndex + 1) + " / " + currentCert.pages.length;
     if (certPrev) certPrev.disabled = (currentPageIndex === 0);
@@ -367,10 +391,19 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function closeCertLightbox() {
+    setZoom(false);
     if (certModal) {
       certModal.style.display = "none";
       certModal.setAttribute("aria-hidden", "true");
     }
+  }
+
+  if (certZoomBtn) {
+    certZoomBtn.addEventListener("click", toggleZoom);
+  }
+
+  if (certImg) {
+    certImg.addEventListener("click", toggleZoom);
   }
 
   if (certPrev) {
@@ -407,6 +440,13 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.addEventListener("click", () => {
       const id = btn.getAttribute("data-open-cert");
       openCertLightbox(id);
+    });
+    btn.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        const id = btn.getAttribute("data-open-cert");
+        openCertLightbox(id);
+      }
     });
   });
 

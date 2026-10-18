@@ -1526,7 +1526,7 @@ a[href^="tel:"], .branch-links a, .footer-phone-big {
   transform: translateY(0);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -1534,32 +1534,6 @@ a[href^="tel:"], .branch-links a, .footer-phone-big {
   
   .hero-title {
     font-size: 38px;
-  }
-
-  .catalog-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .branches-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .stats-bar {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .stat-card:nth-child(2) {
-    border-right: none;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 768px) {
-  .top-bar-right {
-    display: none;
   }
 
   .mobile-toggle {
@@ -1586,6 +1560,32 @@ a[href^="tel:"], .branch-links a, .footer-phone-big {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+  }
+
+  .catalog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .branches-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-bar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stat-card:nth-child(2) {
+    border-right: none;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar-right {
+    display: none;
   }
 
   .grid-2-cols,
@@ -1631,7 +1631,8 @@ a[href^="tel:"], .branch-links a, .footer-phone-big {
   }
 
   .filter-tabs > * {
-    flex: 1 1 calc(50% - 8px);
+    flex: 1 1 100%;
+    width: 100%;
   }
 
   .stats-bar {
@@ -1665,4 +1666,30 @@ a[href^="tel:"], .branch-links a, .footer-phone-big {
   .modal-actions > * {
     width: 100%;
   }
+}
+
+header nav a,
+.nav a,
+.nav-link,
+header button,
+header [class*="btn"],
+header [class*="cta"] {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+button,
+[class*="btn"],
+[class*="cta-"],
+.filter-tab,
+a[href="#kontakt"],
+a[href*="mailto:"] {
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: 1.2;
 }
