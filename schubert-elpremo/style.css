@@ -193,7 +193,7 @@ p {
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: clamp(10px, 1.4vw, 20px);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -206,11 +206,19 @@ p {
   padding: 6px 10px;
   border-radius: var(--radius-sm);
   transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
 }
 
 .nav-link:hover {
   color: var(--color-primary-light);
   background-color: rgba(255, 255, 255, 0.05);
+}
+
+.nav-cta {
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  min-height: 40px;
 }
 
 .mobile-toggle {
@@ -236,7 +244,7 @@ p {
   transition: 0.3s ease;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1080px) {
   .mobile-toggle {
     display: flex;
   }
@@ -308,6 +316,10 @@ p {
   transition: all 0.2s ease;
   text-decoration: none;
   box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .btn-primary {
@@ -1444,4 +1456,29 @@ textarea {
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+header nav a,
+.nav a,
+.nav-link,
+header button,
+header [class*="btn"],
+header [class*="cta"] {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+button,
+[class*="btn"],
+[class*="cta-"],
+a[href="#kontakt"],
+a[href*="mailto:"] {
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: 1.2;
 }

@@ -200,13 +200,15 @@ button {
 }
 
 .header-container {
-  max-width: 1200px;
+  max-width: 1240px;
+  width: 100%;
   margin: 0 auto;
-  padding: 14px 20px;
+  padding: 12px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 12px;
+  box-sizing: border-box;
 }
 
 .brand-link {
@@ -216,7 +218,7 @@ button {
 }
 
 .brand-logo {
-  height: 42px;
+  height: 40px;
   width: auto;
   object-fit: contain;
 }
@@ -230,13 +232,13 @@ button {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 6px;
+  gap: clamp(2px, 0.5vw, 6px);
 }
 
 .nav-link {
-  padding: 8px 12px;
+  padding: 6px 9px;
   border-radius: var(--radius-sm);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   font-weight: 600;
   color: var(--text-muted);
 }
@@ -249,7 +251,7 @@ button {
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
   flex-shrink: 0;
 }
 
@@ -1432,7 +1434,7 @@ button {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1040px) {
   .header-phone,
   .header-cta {
     display: none !important;
@@ -1532,4 +1534,29 @@ button {
   .modal-actions > * {
     width: 100%;
   }
+}
+
+header nav a,
+.nav a,
+.nav-link,
+header button,
+header [class*="btn"],
+header [class*="cta"] {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+button,
+[class*="btn"],
+[class*="cta-"],
+a[href="#kontakt"],
+a[href*="mailto:"] {
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: 1.2;
 }
