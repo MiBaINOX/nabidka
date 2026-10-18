@@ -95,7 +95,11 @@ a[href^="tel:"] {
   font-family: var(--font-family);
   font-size: 0.95rem;
   font-weight: 600;
-  padding: 0 24px;
+  padding: 12px 24px;
+  min-height: 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border-radius: var(--radius-sm);
   border: 1px solid transparent;
   cursor: pointer;
@@ -103,6 +107,8 @@ a[href^="tel:"] {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   white-space: nowrap;
+  box-sizing: border-box;
+  line-height: 1.2;
 }
 
 .btn-primary {
@@ -140,6 +146,14 @@ a[href^="tel:"] {
   background-color: var(--accent-yellow);
   color: #0B0F19;
   box-shadow: 0 4px 14px var(--accent-yellow-glow);
+}
+
+header [class*="btn"]:not(.lang-btn) {
+  font-size: 18px !important;
+  min-height: 46px;
+  height: 46px;
+  padding: 10px 22px;
+  box-sizing: border-box;
 }
 
 .top-bar {
@@ -260,10 +274,11 @@ a[href^="tel:"] {
 .lang-switcher {
   display: inline-flex;
   align-items: center;
+  gap: 6px;
   background-color: #162032;
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
-  padding: 2px;
+  padding: 2px 4px;
 }
 
 .lang-btn {
@@ -271,13 +286,16 @@ a[href^="tel:"] {
   border: none;
   color: var(--text-secondary);
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.8rem !important;
   font-weight: 700;
-  padding: 6px 10px;
+  padding: 4px 10px !important;
+  min-width: 36px;
   border-radius: 2px;
   cursor: pointer;
   transition: var(--transition);
-  min-height: auto;
+  min-height: 32px !important;
+  height: 32px !important;
+  box-sizing: border-box;
 }
 
 .lang-btn.active {
@@ -1123,15 +1141,25 @@ a[href^="tel:"] {
 .map-link-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   margin-top: 12px;
   font-size: 0.85rem;
   color: var(--accent-yellow);
   font-weight: 600;
+  padding: 8px 16px;
+  min-height: 40px;
+  background-color: #111827;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  text-decoration: none;
 }
 
 .map-link-btn:hover {
-  text-decoration: underline;
+  background-color: #1e293b;
+  border-color: var(--accent-yellow);
+  color: #ffffff;
 }
 
 .form-group {
@@ -1413,12 +1441,12 @@ a[href^="tel:"] {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1150px) {
   .top-bar {
     display: none;
   }
   .site-header .header-actions .btn-primary {
-    display: none;
+    display: none !important;
   }
   .brand-logo {
     height: 28px;
@@ -1448,6 +1476,9 @@ a[href^="tel:"] {
   .menu-toggle {
     display: block;
   }
+}
+
+@media (max-width: 768px) {
   .hero-title {
     font-size: 2.2rem;
   }

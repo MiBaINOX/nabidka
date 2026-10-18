@@ -276,6 +276,16 @@ button {
   background-color: var(--primary-subtle);
 }
 
+header [class*="btn"],
+.header-cta {
+  font-size: 18px !important;
+  min-height: 46px;
+  height: 46px;
+  padding: 10px 22px;
+  border-radius: var(--radius-sm);
+  box-sizing: border-box;
+}
+
 .mobile-menu-toggle {
   display: none;
   flex-direction: column;
