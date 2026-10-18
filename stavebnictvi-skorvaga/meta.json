@@ -1,0 +1,32 @@
+{
+  "slug": "stavebnictvi-skorvaga",
+  "ico": "29393698",
+  "firma": "Štefan Škorvaga s.r.o.",
+  "obec": "Ostrava",
+  "okres": "Ostrava-město",
+  "kraj": "Moravskoslezský kraj",
+  "obor_plny": "Pozemní stavitelství, zateplování fasád a rodinné domy na klíč",
+  "archetyp": "Editorial & Story",
+  "stary_web": "https://www.skorvaga.cz",
+  "email": "info@skorvaga.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "✓ Interaktivní archiv staveb podle let a typů prací",
+    "✓ Fotodokumentace průběhů realizací (fáze stavby)",
+    "✓ Kompletní kontaktní adresář vedení a stavbyvedoucích"
+  ],
+  "vady_stareho_webu": [
+    "Nepřehledná struktura referencí na mobilních zařízeních",
+    "Zastaralé zobrazení fotogalerií z realizací"
+  ],
+  "vylepseni_noveho_webu": [
+    "Duální filtrování referencí podle roku a druhu stavebních prací",
+    "Fázová fotogalerie průběhu staveb a rekonstrukcí",
+    "Přímá napojení na dotační programy Nová zelená úsporám"
+  ],
+  "fakta": {
+    "zalozeno": 2004
+  }
+}

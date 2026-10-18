@@ -1,0 +1,32 @@
+{
+  "slug": "revize-bagru",
+  "ico": "01719980",
+  "firma": "REVIZE BAGRU s.r.o.",
+  "obec": "Ostrava",
+  "okres": "Ostrava-město",
+  "kraj": "Moravskoslezský kraj",
+  "obor_plny": "Technické kontroly a školení obsluh stavebních strojů",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://www.revizebagru.cz",
+  "email": "info@revizebagru.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "✓ Technické kontroly stavební a zemní mechanizace po celé ČR",
+    "✓ Akreditované školící středisko strojníků",
+    "✓ Přehled legislativy a přímá objednávka revize"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez šifrování",
+    "Neresponzivní zobrazení na mobilních telefonech v terénu"
+  ],
+  "vylepseni_noveho_webu": [
+    "Přehledný rozcestník technických kontrol a průkazů strojníků",
+    "Rychlá mobilní poptávka revize přímo ze stavby",
+    "Interaktivní mapa působnosti"
+  ],
+  "fakta": {
+    "zalozeno": 2013
+  }
+}

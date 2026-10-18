@@ -1,0 +1,32 @@
+{
+  "slug": "arktis-servis",
+  "ico": "06576443",
+  "firma": "Arktis Servis, s.r.o.",
+  "obec": "Ostrava",
+  "okres": "Ostrava-město",
+  "kraj": "Moravskoslezský kraj",
+  "obor_plny": "Průmyslové chlazení, klimatizační technika a tepelná čerpadla",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://www.arktis-servis.cz",
+  "email": "info@arktis-servis.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "✓ Certifikovaný servis průmyslového chlazení a klimatizací",
+    "✓ Revize úniků F-plynů a záruční i pozáruční pohotovost",
+    "✓ Realizace pro průmyslové haly, gastronomii a komerční objekty"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený protokol HTTP",
+    "Zastaralé mobilní zobrazení"
+  ],
+  "vylepseni_noveho_webu": [
+    "Přehledný katalog chladicí a klimatizační techniky",
+    "Rychlé objednání servisního výjezdu a revize",
+    "100% responzivní technický design"
+  ],
+  "fakta": {
+    "zalozeno": 2017
+  }
+}

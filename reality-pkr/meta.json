@@ -1,0 +1,32 @@
+{
+  "slug": "reality-pkr",
+  "ico": "27462684",
+  "firma": "P.K.R. s.r.o. (REALITY KRKONOŠE)",
+  "obec": "Trutnov",
+  "okres": "Trutnov",
+  "kraj": "Královéhradecký kraj",
+  "obor_plny": "Realitní a znalecká kancelář pro Krkonoše a Podkrkonoší",
+  "archetyp": "Editorial & Story",
+  "stary_web": "http://www.pkr.cz",
+  "email": "m.danielis@pkr.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "✓ Interaktivní katalog nemovitostí (Prodej / Pronájem) s fotogalerií",
+    "✓ Znalecké posudky a tržní odhady nemovitostí od roku 1994",
+    "✓ Pobočky Trutnov a Vrchlabí s přímými kontakty na makléře"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený protokol HTTP bez SSL certifikátu",
+    "Zastaralé prohlížení nabídek nemovitostí na mobilu"
+  ],
+  "vylepseni_noveho_webu": [
+    "Živý filtr nemovitostí s modálním prohlížečem fotografií",
+    "Autentické horské panorama Krkonoš a přehled makléřů",
+    "Plně responzivní zobrazení na telefonech a tabletech"
+  ],
+  "fakta": {
+    "zalozeno": 1994
+  }
+}

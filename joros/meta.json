@@ -1,0 +1,32 @@
+{
+  "slug": "joros",
+  "ico": "27775402",
+  "firma": "JOROS s.r.o.",
+  "obec": "Ostrava",
+  "okres": "Ostrava-město",
+  "kraj": "Moravskoslezský kraj",
+  "obor_plny": "Generální dodávky staveb, inženýrské sítě a průmyslové rekonstrukce",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://www.joros.cz",
+  "email": "joros@joros.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "✓ Generální dodavatel inženýrských sítí a pozemních staveb",
+    "✓ Kompletní fotogalerie referenčních zakázek v MSK",
+    "✓ Certifikovaný systém řízení kvality a vlastní technika"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez SSL",
+    "Archaický neresponzivní layout"
+  ],
+  "vylepseni_noveho_webu": [
+    "Strukturovaný přehled stavebních divizí a realizací",
+    "Interaktivní galerie referencí s přiblížením",
+    "Moderní responzivní rozhraní"
+  ],
+  "fakta": {
+    "zalozeno": 2007
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "sts-sluzby-kravare",
+  "ico": "47682175",
+  "firma": "STS - služby Kravaře spol. s r.o.",
+  "obec": "Kravaře",
+  "okres": "Opava",
+  "kraj": "Moravskoslezský kraj",
+  "obor_plny": "Strojírenská výroba, kuličkové točnice pro přívěsy a CNC obrábění",
+  "archetyp": "Corporate Portal",
+  "stary_web": "http://www.stssluzby.cz",
+  "email": "info@stssluzby.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "✓ Tradiční výrobce kuličkových točnic pro zemědělské a nákladní vleky",
+    "✓ Přesné CNC obrábění, soustružení, frézování a zámečnická výroba",
+    "✓ Navazuje na strojírenskou tradici STS Kravaře od roku 1993"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený HTTP web bez SSL certifikátu",
+    "Chybějící mobilní responzivita technických tabulek"
+  ],
+  "vylepseni_noveho_webu": [
+    "Přehledný katalog kuličkových točnic a strojního parku",
+    "Detailní technické parametry a poptávkový formulář",
+    "Plně responzivní zobrazení na všech zařízeních"
+  ],
+  "fakta": {
+    "zalozeno": 1993
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "kotas",
+  "ico": "00560235",
+  "firma": "K.o.T.a.S, spol. s r.o.",
+  "obec": "Třinec",
+  "okres": "Frýdek-Místek",
+  "kraj": "Moravskoslezský kraj",
+  "obor_plny": "Bankovní, pokladní a trezorová technika",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://www.kotas.cz",
+  "email": "all@kotas.com",
+  "jazyky": [
+    "CZ",
+    "EN",
+    "DE"
+  ],
+  "prodejni_body": [
+    "✓ Přepínač 3 jazyků (CZ | EN | DE)",
+    "✓ Katalog počítaček, detektorů FALSE HUNTER a trezorů",
+    "✓ Přímá lokace pobočky v Třinci na Mapy.cz"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez SSL certifikátu",
+    "Chybějící mobilní responzivita a zastaralý tabulkový layout"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní vícejazyčný katalog bankovní techniky (CZ/EN/DE)",
+    "Interaktivní filtrování produktů s technickými parametry",
+    "Responzivní zobrazení na všech zařízeních"
+  ],
+  "fakta": {
+    "zalozeno": 1990
+  }
+}

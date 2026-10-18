@@ -1,0 +1,32 @@
+{
+  "slug": "vv-saveko",
+  "ico": "25818881",
+  "firma": "V+V SAVEKO s.r.o.",
+  "obec": "Kopřivnice",
+  "okres": "Nový Jičín",
+  "kraj": "Moravskoslezský kraj",
+  "obor_plny": "Výstavba inženýrských sítí, vodovodů, kanalizací a komunikací",
+  "archetyp": "Heavy Industrial",
+  "stary_web": "http://www.saveko.cz",
+  "email": "saveko@saveko.cz",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "✓ Vlastní těžká stavební mechanizace a strojní vybavení",
+    "✓ Certifikace kvality ČSN EN ISO 9001 a přehled osvědčení",
+    "✓ Realizace vodohospodářských staveb a komunikací od roku 1998"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený protokol HTTP",
+    "Chybějící responzivita pro mobilní zařízení"
+  ],
+  "vylepseni_noveho_webu": [
+    "Přehledný katalog strojního parku a referenčních staveb",
+    "Prezentace certifikátů ISO a kontaktního týmu",
+    "Interaktivní mapa sídla v Kopřivnici"
+  ],
+  "fakta": {
+    "zalozeno": 1998
+  }
+}

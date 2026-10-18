@@ -107,7 +107,7 @@
             <div class="filters-group">
                 <select id="districtFilter" class="filter-select" onchange="applyFilters()">
                     <option value="all">Všechny okresy</option>
-                    <option value="Beroun">Beroun</option><option value="Blansko">Blansko</option><option value="Brno-město">Brno-město</option><option value="Brno-venkov">Brno-venkov</option><option value="Břeclav">Břeclav</option><option value="Frýdek-Místek">Frýdek-Místek</option><option value="Hlavní město Praha">Hlavní město Praha</option><option value="Hodonín">Hodonín</option><option value="Jeseník">Jeseník</option><option value="Jihlava">Jihlava</option><option value="Olomouc">Olomouc</option><option value="Praha">Praha</option><option value="Prostějov">Prostějov</option><option value="Přerov">Přerov</option><option value="Uherské Hradiště">Uherské Hradiště</option><option value="Vyškov">Vyškov</option><option value="Zlín">Zlín</option><option value="Znojmo">Znojmo</option><option value="Šumperk">Šumperk</option>
+                    <option value="Beroun">Beroun</option><option value="Blansko">Blansko</option><option value="Brno-město">Brno-město</option><option value="Brno-venkov">Brno-venkov</option><option value="Břeclav">Břeclav</option><option value="Frýdek-Místek">Frýdek-Místek</option><option value="Hlavní město Praha">Hlavní město Praha</option><option value="Hodonín">Hodonín</option><option value="Jeseník">Jeseník</option><option value="Jihlava">Jihlava</option><option value="Nový Jičín">Nový Jičín</option><option value="Olomouc">Olomouc</option><option value="Opava">Opava</option><option value="Ostrava-město">Ostrava-město</option><option value="Praha">Praha</option><option value="Prostějov">Prostějov</option><option value="Přerov">Přerov</option><option value="Trutnov">Trutnov</option><option value="Uherské Hradiště">Uherské Hradiště</option><option value="Vyškov">Vyškov</option><option value="Zlín">Zlín</option><option value="Znojmo">Znojmo</option><option value="Šumperk">Šumperk</option>
                 </select>
                 <select id="statusFilter" class="filter-select" onchange="applyFilters()">
                     <option value="all">Všechny stavy</option>
@@ -117,7 +117,7 @@
                     <option value="Zájem">🔥 Zájem</option>
                     <option value="Odmítnuto">❌ Odmítnuto</option>
                 </select>
-                <div class="stats-counter" id="statsCounter">96 firem</div>
+                <div class="stats-counter" id="statsCounter">104 firem</div>
             </div>
         </div>
 
@@ -8758,6 +8758,726 @@ Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného ko
 Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky kmsbrno.cz.
 
 Živá ukázka nového webu: https://nabidka.mibainox.cz/kms-brno/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="00560235" data-okres="Frýdek-Místek" data-kraj="Moravskoslezský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_kotas">
+                <img class="img-preview img-new" src="kotas/screenshots/screen_desktop.jpg" alt="K.o.T.a.S, spol. s r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="kotas/screenshots/screen_old.jpg" alt="K.o.T.a.S, spol. s r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('kotas', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('kotas', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Bankovní, pokladní a trezorová technika</span>
+                    <span class="card-ico">IČO: 00560235</span>
+                </div>
+                <h2 class="card-title">K.o.T.a.S, spol. s r.o.</h2>
+                <div class="card-meta">📍 Frýdek-Místek (Moravskoslezský kraj) • ✉️ all@kotas.com</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Henryk Kotas (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ | EN | DE</span>
+                    <span>✓ Přepínač 3 jazyků (CZ | EN | DE)</span><span>✓ Katalog počítaček, detektorů FALSE HUNTER a trezorů</span><span>✓ Přímá lokace pobočky v Třinci na Mapy.cz</span>
+                </div>
+                <div class="card-visit-stat" id="stat_kotas" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('00560235', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="kotas/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://www.kotas.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_kotas.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('00560235', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('00560235', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('00560235', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_00560235" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Modernizace webové prezentace – K.o.T.a.S, spol. s r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">all@kotas.com</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_kotas.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('00560235', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Kotasi,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.kotas.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/kotas/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</div>
+                </div>
+                <textarea id="email_text_00560235" style="display:none;">Vážený pane Kotasi,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.kotas.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/kotas/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</textarea>
+                <input type="hidden" id="email_to_00560235" value="all@kotas.com">
+                <input type="hidden" id="email_sub_00560235" value="Modernizace webové prezentace – K.o.T.a.S, spol. s r.o.">
+                <input type="hidden" id="email_teaser_00560235" value="Vážený pane Kotasi,
+
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.kotas.cz.
+
+Živá ukázka nového webu: https://nabidka.mibainox.cz/kotas/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="01719980" data-okres="Ostrava-město" data-kraj="Moravskoslezský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_revize-bagru">
+                <img class="img-preview img-new" src="revize-bagru/screenshots/screen_desktop.jpg" alt="REVIZE BAGRU s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="revize-bagru/screenshots/screen_old.jpg" alt="REVIZE BAGRU s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('revize-bagru', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('revize-bagru', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Technické kontroly a školení obsluh stavebních strojů</span>
+                    <span class="card-ico">IČO: 01719980</span>
+                </div>
+                <h2 class="card-title">REVIZE BAGRU s.r.o.</h2>
+                <div class="card-meta">📍 Ostrava-město (Moravskoslezský kraj) • ✉️ info@revizebagru.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Petr Gavlík (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>✓ Technické kontroly stavební a zemní mechanizace po celé ČR</span><span>✓ Akreditované školící středisko strojníků</span><span>✓ Přehled legislativy a přímá objednávka revize</span>
+                </div>
+                <div class="card-visit-stat" id="stat_revize-bagru" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('01719980', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="revize-bagru/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://www.revizebagru.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_revize-bagru.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('01719980', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('01719980', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('01719980', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_01719980" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Modernizace webové prezentace – REVIZE BAGRU s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">info@revizebagru.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_revize-bagru.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('01719980', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Gavlíku,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.revizebagru.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/revize-bagru/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</div>
+                </div>
+                <textarea id="email_text_01719980" style="display:none;">Vážený pane Gavlíku,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.revizebagru.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/revize-bagru/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</textarea>
+                <input type="hidden" id="email_to_01719980" value="info@revizebagru.cz">
+                <input type="hidden" id="email_sub_01719980" value="Modernizace webové prezentace – REVIZE BAGRU s.r.o.">
+                <input type="hidden" id="email_teaser_01719980" value="Vážený pane Gavlíku,
+
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.revizebagru.cz.
+
+Živá ukázka nového webu: https://nabidka.mibainox.cz/revize-bagru/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="27462684" data-okres="Trutnov" data-kraj="Královéhradecký kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_reality-pkr">
+                <img class="img-preview img-new" src="reality-pkr/screenshots/screen_desktop.jpg" alt="P.K.R. s.r.o. (REALITY KRKONOŠE) - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="reality-pkr/screenshots/screen_old.jpg" alt="P.K.R. s.r.o. (REALITY KRKONOŠE) - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('reality-pkr', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('reality-pkr', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Realitní a znalecká kancelář pro Krkonoše a Podkrkonoší</span>
+                    <span class="card-ico">IČO: 27462684</span>
+                </div>
+                <h2 class="card-title">P.K.R. s.r.o. (REALITY KRKONOŠE)</h2>
+                <div class="card-meta">📍 Trutnov (Královéhradecký kraj) • ✉️ m.danielis@pkr.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Michal Danielis (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>✓ Interaktivní katalog nemovitostí (Prodej / Pronájem) s fotogalerií</span><span>✓ Znalecké posudky a tržní odhady nemovitostí od roku 1994</span><span>✓ Pobočky Trutnov a Vrchlabí s přímými kontakty na makléře</span>
+                </div>
+                <div class="card-visit-stat" id="stat_reality-pkr" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('27462684', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="reality-pkr/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://www.pkr.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_reality-pkr.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('27462684', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('27462684', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('27462684', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_27462684" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Modernizace webové prezentace – P.K.R. s.r.o. (REALITY KRKONOŠE)</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">m.danielis@pkr.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_reality-pkr.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('27462684', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Danielisi,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.pkr.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/reality-pkr/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</div>
+                </div>
+                <textarea id="email_text_27462684" style="display:none;">Vážený pane Danielisi,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.pkr.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/reality-pkr/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</textarea>
+                <input type="hidden" id="email_to_27462684" value="m.danielis@pkr.cz">
+                <input type="hidden" id="email_sub_27462684" value="Modernizace webové prezentace – P.K.R. s.r.o. (REALITY KRKONOŠE)">
+                <input type="hidden" id="email_teaser_27462684" value="Vážený pane Danielisi,
+
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.pkr.cz.
+
+Živá ukázka nového webu: https://nabidka.mibainox.cz/reality-pkr/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="29393698" data-okres="Ostrava-město" data-kraj="Moravskoslezský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_stavebnictvi-skorvaga">
+                <img class="img-preview img-new" src="stavebnictvi-skorvaga/screenshots/screen_desktop.jpg" alt="Štefan Škorvaga s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="stavebnictvi-skorvaga/screenshots/screen_old.jpg" alt="Štefan Škorvaga s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('stavebnictvi-skorvaga', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('stavebnictvi-skorvaga', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Pozemní stavitelství, zateplování fasád a rodinné domy na klíč</span>
+                    <span class="card-ico">IČO: 29393698</span>
+                </div>
+                <h2 class="card-title">Štefan Škorvaga s.r.o.</h2>
+                <div class="card-meta">📍 Ostrava-město (Moravskoslezský kraj) • ✉️ info@skorvaga.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Štefan Škorvaga (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>✓ Interaktivní archiv staveb podle let a typů prací</span><span>✓ Fotodokumentace průběhů realizací (fáze stavby)</span><span>✓ Kompletní kontaktní adresář vedení a stavbyvedoucích</span>
+                </div>
+                <div class="card-visit-stat" id="stat_stavebnictvi-skorvaga" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('29393698', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="stavebnictvi-skorvaga/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="https://www.skorvaga.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_stavebnictvi-skorvaga.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('29393698', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('29393698', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('29393698', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_29393698" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Modernizace webové prezentace – Štefan Škorvaga s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">info@skorvaga.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_stavebnictvi-skorvaga.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('29393698', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Škorvago,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.skorvaga.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/stavebnictvi-skorvaga/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</div>
+                </div>
+                <textarea id="email_text_29393698" style="display:none;">Vážený pane Škorvago,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.skorvaga.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/stavebnictvi-skorvaga/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</textarea>
+                <input type="hidden" id="email_to_29393698" value="info@skorvaga.cz">
+                <input type="hidden" id="email_sub_29393698" value="Modernizace webové prezentace – Štefan Škorvaga s.r.o.">
+                <input type="hidden" id="email_teaser_29393698" value="Vážený pane Škorvago,
+
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.skorvaga.cz.
+
+Živá ukázka nového webu: https://nabidka.mibainox.cz/stavebnictvi-skorvaga/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="25818881" data-okres="Nový Jičín" data-kraj="Moravskoslezský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_vv-saveko">
+                <img class="img-preview img-new" src="vv-saveko/screenshots/screen_desktop.jpg" alt="V+V SAVEKO s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="vv-saveko/screenshots/screen_old.jpg" alt="V+V SAVEKO s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('vv-saveko', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('vv-saveko', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Výstavba inženýrských sítí, vodovodů, kanalizací a komunikací</span>
+                    <span class="card-ico">IČO: 25818881</span>
+                </div>
+                <h2 class="card-title">V+V SAVEKO s.r.o.</h2>
+                <div class="card-meta">📍 Nový Jičín (Moravskoslezský kraj) • ✉️ saveko@saveko.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Ing. Vojtěch Pšeja (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>✓ Vlastní těžká stavební mechanizace a strojní vybavení</span><span>✓ Certifikace kvality ČSN EN ISO 9001 a přehled osvědčení</span><span>✓ Realizace vodohospodářských staveb a komunikací od roku 1998</span>
+                </div>
+                <div class="card-visit-stat" id="stat_vv-saveko" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('25818881', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="vv-saveko/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://www.saveko.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_vv-saveko.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('25818881', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('25818881', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('25818881', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_25818881" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Modernizace webové prezentace – V+V SAVEKO s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">saveko@saveko.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_vv-saveko.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('25818881', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane inženýre Pšejo,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.saveko.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/vv-saveko/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</div>
+                </div>
+                <textarea id="email_text_25818881" style="display:none;">Vážený pane inženýre Pšejo,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.saveko.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/vv-saveko/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</textarea>
+                <input type="hidden" id="email_to_25818881" value="saveko@saveko.cz">
+                <input type="hidden" id="email_sub_25818881" value="Modernizace webové prezentace – V+V SAVEKO s.r.o.">
+                <input type="hidden" id="email_teaser_25818881" value="Vážený pane inženýre Pšejo,
+
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.saveko.cz.
+
+Živá ukázka nového webu: https://nabidka.mibainox.cz/vv-saveko/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="27775402" data-okres="Ostrava-město" data-kraj="Moravskoslezský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_joros">
+                <img class="img-preview img-new" src="joros/screenshots/screen_desktop.jpg" alt="JOROS s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="joros/screenshots/screen_old.jpg" alt="JOROS s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('joros', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('joros', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Generální dodávky staveb, inženýrské sítě a průmyslové rekonstrukce</span>
+                    <span class="card-ico">IČO: 27775402</span>
+                </div>
+                <h2 class="card-title">JOROS s.r.o.</h2>
+                <div class="card-meta">📍 Ostrava-město (Moravskoslezský kraj) • ✉️ joros@joros.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Ing. Roman Žalmánek (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>✓ Generální dodavatel inženýrských sítí a pozemních staveb</span><span>✓ Kompletní fotogalerie referenčních zakázek v MSK</span><span>✓ Certifikovaný systém řízení kvality a vlastní technika</span>
+                </div>
+                <div class="card-visit-stat" id="stat_joros" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('27775402', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="joros/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://www.joros.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_joros.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('27775402', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('27775402', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('27775402', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_27775402" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Modernizace webové prezentace – JOROS s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">joros@joros.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_joros.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('27775402', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane inženýre Žalmánku,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.joros.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/joros/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</div>
+                </div>
+                <textarea id="email_text_27775402" style="display:none;">Vážený pane inženýre Žalmánku,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.joros.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/joros/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</textarea>
+                <input type="hidden" id="email_to_27775402" value="joros@joros.cz">
+                <input type="hidden" id="email_sub_27775402" value="Modernizace webové prezentace – JOROS s.r.o.">
+                <input type="hidden" id="email_teaser_27775402" value="Vážený pane inženýre Žalmánku,
+
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.joros.cz.
+
+Živá ukázka nového webu: https://nabidka.mibainox.cz/joros/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="06576443" data-okres="Ostrava-město" data-kraj="Moravskoslezský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_arktis-servis">
+                <img class="img-preview img-new" src="arktis-servis/screenshots/screen_desktop.jpg" alt="Arktis Servis, s.r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="arktis-servis/screenshots/screen_old.jpg" alt="Arktis Servis, s.r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('arktis-servis', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('arktis-servis', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Průmyslové chlazení, klimatizační technika a tepelná čerpadla</span>
+                    <span class="card-ico">IČO: 06576443</span>
+                </div>
+                <h2 class="card-title">Arktis Servis, s.r.o.</h2>
+                <div class="card-meta">📍 Ostrava-město (Moravskoslezský kraj) • ✉️ info@arktis-servis.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Vladimír Šindelka (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>✓ Certifikovaný servis průmyslového chlazení a klimatizací</span><span>✓ Revize úniků F-plynů a záruční i pozáruční pohotovost</span><span>✓ Realizace pro průmyslové haly, gastronomii a komerční objekty</span>
+                </div>
+                <div class="card-visit-stat" id="stat_arktis-servis" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('06576443', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="arktis-servis/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://www.arktis-servis.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_arktis-servis.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('06576443', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('06576443', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('06576443', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_06576443" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Modernizace webové prezentace – Arktis Servis, s.r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">info@arktis-servis.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_arktis-servis.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('06576443', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Šindelko,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.arktis-servis.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/arktis-servis/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</div>
+                </div>
+                <textarea id="email_text_06576443" style="display:none;">Vážený pane Šindelko,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.arktis-servis.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/arktis-servis/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</textarea>
+                <input type="hidden" id="email_to_06576443" value="info@arktis-servis.cz">
+                <input type="hidden" id="email_sub_06576443" value="Modernizace webové prezentace – Arktis Servis, s.r.o.">
+                <input type="hidden" id="email_teaser_06576443" value="Vážený pane Šindelko,
+
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.arktis-servis.cz.
+
+Živá ukázka nového webu: https://nabidka.mibainox.cz/arktis-servis/?ref=nabidka
+
+(Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
+            </div>
+        </div>
+        
+        <div class="card" data-ico="47682175" data-okres="Opava" data-kraj="Moravskoslezský kraj" data-stav="✅ HOTOVO">
+            <div class="card-thumb" id="thumb_sts-sluzby-kravare">
+                <img class="img-preview img-new" src="sts-sluzby-kravare/screenshots/screen_desktop.jpg" alt="STS - služby Kravaře spol. s r.o. - Nový web" onerror="this.src='https://via.placeholder.com/640x360?text=Náhled+webu'">
+                <img class="img-preview img-old" src="sts-sluzby-kravare/screenshots/screen_old.jpg" alt="STS - služby Kravaře spol. s r.o. - Původní web" style="display:none;" onerror="this.src='https://via.placeholder.com/640x360?text=Původní+web'">
+                <span class="card-status-badge status-done">✅ HOTOVO</span>
+                <div class="thumb-toggle-bar">
+                    <button class="thumb-btn active" onclick="switchThumb('sts-sluzby-kravare', 'new', this)">Nový web</button>
+                    <button class="thumb-btn" onclick="switchThumb('sts-sluzby-kravare', 'old', this)">Původní web</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-header-line">
+                    <span class="card-obor">Strojírenská výroba, kuličkové točnice pro přívěsy a CNC obrábění</span>
+                    <span class="card-ico">IČO: 47682175</span>
+                </div>
+                <h2 class="card-title">STS - služby Kravaře spol. s r.o.</h2>
+                <div class="card-meta">📍 Opava (Moravskoslezský kraj) • ✉️ info@stssluzby.cz</div>
+                <div class="card-jednatel">👤 Kontakt: <strong>Pavel Duda (jednatel)</strong></div>
+                
+                <div class="card-badges">
+                    <span style="background:rgba(56, 189, 248, 0.15); color:#38bdf8; border:1px solid rgba(56, 189, 248, 0.35); font-weight:700;">🌐 CZ</span>
+                    <span>✓ Tradiční výrobce kuličkových točnic pro zemědělské a nákladní vleky</span><span>✓ Přesné CNC obrábění, soustružení, frézování a zámečnická výroba</span><span>✓ Navazuje na strojírenskou tradici STS Kravaře od roku 1993</span>
+                </div>
+                <div class="card-visit-stat" id="stat_sts-sluzby-kravare" style="display:none;"></div>
+
+                <div class="crm-select-box">
+                    <label>CRM stav oslovení:</label>
+                    <select class="crm-select" onchange="updateCrmStatus('47682175', this.value)">
+                        <option value="Neosloveno">⚪ Neosloveno</option>
+                        <option value="Poslán e-mail">📧 Poslán e-mail</option>
+                        <option value="Voláno">📞 Voláno</option>
+                        <option value="Zájem">🔥 Zájem</option>
+                        <option value="Odmítnuto">❌ Odmítnuto</option>
+                    </select>
+                </div>
+
+                <div class="card-actions">
+                    <a href="sts-sluzby-kravare/" target="_blank" class="btn btn-web">🌐 Otevřít web</a>
+                    <a href="http://www.stssluzby.cz" target="_blank" rel="noopener" class="btn btn-old">Původní ↗</a>
+                    <a href="pdf/Nabidka_sts-sluzby-kravare.pdf" target="_blank" class="btn btn-pdf">📄 PDF nabídka</a>
+                    <button class="btn btn-preview" onclick="toggleEmailPreview('47682175', this)">👁️ Náhled e-mailu</button>
+                    <button class="btn btn-gmail" onclick="sendViaGmail('47682175', this)">✉️ Odeslat přes Gmail</button>
+                    <button class="btn btn-copy" onclick="copyEmailText('47682175', this)">📋 Kopírovat text do schránky</button>
+                </div>
+                <div class="email-preview-box" id="preview_47682175" style="display:none;">
+                    <div class="preview-header">
+                        <div class="preview-meta">
+                            <div><span class="preview-lbl">Předmět:</span> <span class="preview-val">Modernizace webové prezentace – STS - služby Kravaře spol. s r.o.</span></div>
+                            <div><span class="preview-lbl">Příjemce:</span> <span class="preview-val">info@stssluzby.cz</span></div>
+                            <div><span class="preview-lbl">Příloha PDF:</span> <span class="preview-val">Nabidka_sts-sluzby-kravare.pdf</span></div>
+                        </div>
+                        <button class="btn btn-copy-sm" onclick="copyEmailText('47682175', this)">📋 Kopírovat</button>
+                    </div>
+                    <div class="preview-text">Vážený pane Dudo,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.stssluzby.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/sts-sluzby-kravare/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</div>
+                </div>
+                <textarea id="email_text_47682175" style="display:none;">Vážený pane Dudo,
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.stssluzby.cz. Vaše firma má za sebou zavedenou historii a spoustu odvedené práce, Váš současný web však technicky i funkčně vznikal v době, kdy platily úplně jiné standardy – především co se týče zobrazení na mobilních telefonech a zabezpečení.
+
+Nechci Vám jen teoreticky popisovat, co by se dalo zlepšit, připravil jsem pro Vás rovnou funkční, modernizovanou ukázku webu s Vašimi reálnými daty, obsahem i fotografiemi:
+Živá ukázka nového webu: https://nabidka.mibainox.cz/sts-sluzby-kravare/?ref=nabidka
+
+V přiloženém PDF zasílám stručné shrnutí hlavních technických bodů, které současný web brzdí, a srovnání s novým řešením.
+
+Ukázka je z mé strany zcela nezávazná a k ničemu Vás nezavazuje. Pokud by Vám dávalo smysl posunout digitální vizitku firmy na současnou úroveň bez zdlouhavého vymýšlení od nuly, rád s Vámi proberu detaily. V opačném případě berte zprávu pouze jako nezávazný podnět.
+
+--
+Tuto zprávu jsem Vám zaslal jednorázově na základě veřejně uvedeného kontaktu na Vašem webu. Pokud si nepřejete dostávat žádné další zprávy, stačí krátce odepsat „Nezájem“ a již Vás nebudu kontaktovat.</textarea>
+                <input type="hidden" id="email_to_47682175" value="info@stssluzby.cz">
+                <input type="hidden" id="email_sub_47682175" value="Modernizace webové prezentace – STS - služby Kravaře spol. s r.o.">
+                <input type="hidden" id="email_teaser_47682175" value="Vážený pane Dudo,
+
+Při procházení firem v našem regionu a okolí jsem narazil na Vaše současné webové stránky www.stssluzby.cz.
+
+Živá ukázka nového webu: https://nabidka.mibainox.cz/sts-sluzby-kravare/?ref=nabidka
 
 (Kompletní text zprávy máte zkopírovaný ve schránce – stačí v okně e-mailu nad Váš podpis stisknout Ctrl+V)">
             </div>
