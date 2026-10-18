@@ -89,6 +89,66 @@ const TECH_CATALOG = [
   }
 ];
 
+const CERTS_DATA = [
+  {
+    id: "autorizace-emise",
+    title: "Osvědčení o autorizaci MŽP – měření emisí",
+    authority: "Ministerstvo životního prostředí ČR",
+    law: "Zákon č. 201/2012 Sb. o ochraně ovzduší",
+    pdf: "assets/certs/autorizace-mereni-emisi-2020.pdf",
+    pages: [
+      "assets/certs/autorizace-mereni-emisi-1.jpg",
+      "assets/certs/autorizace-mereni-emisi-2.jpg"
+    ]
+  },
+  {
+    id: "autorizace-posudky",
+    title: "Osvědčení o autorizaci MŽP – odborné posudky",
+    authority: "Ministerstvo životního prostředí ČR",
+    law: "Zákon č. 201/2012 Sb. o ochraně ovzduší",
+    pdf: "assets/certs/autorizace-odborne-posudky.pdf",
+    pages: [
+      "assets/certs/autorizace-odborne-posudky-1.jpg",
+      "assets/certs/autorizace-odborne-posudky-2.jpg"
+    ]
+  },
+  {
+    id: "autorizace-posudky-prodlouzeni",
+    title: "Rozhodnutí MŽP – prodloužení autorizace na odborné posudky",
+    authority: "Ministerstvo životního prostředí ČR",
+    law: "Zákon č. 201/2012 Sb. o ochraně ovzduší",
+    pdf: "assets/certs/autorizace-odborne-posudky-prodlouzeni.pdf",
+    pages: [
+      "assets/certs/autorizace-odborne-posudky-prodlouzeni-1.jpg",
+      "assets/certs/autorizace-odborne-posudky-prodlouzeni-2.jpg"
+    ]
+  },
+  {
+    id: "akreditace-cia",
+    title: "Osvědčení o akreditaci ČIA – Zkušební laboratoř č. 1421",
+    authority: "Český institut pro akreditaci, o.p.s. (ČIA)",
+    law: "ČSN EN ISO/IEC 17025:2018",
+    pdf: "assets/certs/osvedceni-o-akreditaci-cia-p355.pdf",
+    pages: [
+      "assets/certs/osvedceni-akreditace-cia-1421.jpg",
+      "assets/certs/priloha-akreditace-cia-strana-1.jpg",
+      "assets/certs/priloha-akreditace-cia-strana-2.jpg",
+      "assets/certs/priloha-akreditace-cia-strana-3.jpg"
+    ]
+  },
+  {
+    id: "autorizace-rozptyl",
+    title: "Osvědčení o autorizaci MŽP – rozptylové studie",
+    authority: "Ministerstvo životního prostředí ČR",
+    law: "Zákon č. 201/2012 Sb. a metodika SYMOS97",
+    pdf: "assets/certs/autorizace-rozptylove-studie.pdf",
+    pages: [
+      "assets/certs/autorizace-rozptylove-studie-1.jpg",
+      "assets/certs/autorizace-rozptylove-studie-2.jpg"
+    ]
+  }
+];
+
 document.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);
   if (urlParams.get("ref") === "nabidka") {
@@ -269,4 +329,99 @@ document.addEventListener("DOMContentLoaded", () => {
     }, { threshold: 0.5 });
     counters.forEach(c => obs.observe(c));
   }
+
+  const certModal = document.getElementById("certLightboxModal");
+  const certTitle = document.getElementById("certModalTitle");
+  const certLaw = document.getElementById("certModalLaw");
+  const certImg = document.getElementById("certLightboxImg");
+  const certDownload = document.getElementById("certLightboxDownload");
+  const certPrev = document.getElementById("certPagePrev");
+  const certNext = document.getElementById("certPageNext");
+  const certInfo = document.getElementById("certPageInfo");
+  const certClose = document.getElementById("certLightboxClose");
+
+  let currentCert = null;
+  let currentPageIndex = 0;
+
+  function renderCertPage() {
+    if (!currentCert || !currentCert.pages || currentCert.pages.length === 0) return;
+    if (certImg) certImg.src = currentCert.pages[currentPageIndex];
+    if (certInfo) certInfo.textContent = "Strana " + (currentPageIndex + 1) + " / " + currentCert.pages.length;
+    if (certPrev) certPrev.disabled = (currentPageIndex === 0);
+    if (certNext) certNext.disabled = (currentPageIndex === currentCert.pages.length - 1);
+  }
+
+  function openCertLightbox(id) {
+    const cert = CERTS_DATA.find(c => c.id === id);
+    if (!cert) return;
+    currentCert = cert;
+    currentPageIndex = 0;
+    if (certTitle) certTitle.textContent = cert.title;
+    if (certLaw) certLaw.textContent = cert.authority + " • " + cert.law;
+    if (certDownload) certDownload.href = cert.pdf;
+    renderCertPage();
+    if (certModal) {
+      certModal.style.display = "flex";
+      certModal.setAttribute("aria-hidden", "false");
+    }
+  }
+
+  function closeCertLightbox() {
+    if (certModal) {
+      certModal.style.display = "none";
+      certModal.setAttribute("aria-hidden", "true");
+    }
+  }
+
+  if (certPrev) {
+    certPrev.addEventListener("click", () => {
+      if (currentCert && currentPageIndex > 0) {
+        currentPageIndex--;
+        renderCertPage();
+      }
+    });
+  }
+
+  if (certNext) {
+    certNext.addEventListener("click", () => {
+      if (currentCert && currentPageIndex < currentCert.pages.length - 1) {
+        currentPageIndex++;
+        renderCertPage();
+      }
+    });
+  }
+
+  if (certClose) {
+    certClose.addEventListener("click", closeCertLightbox);
+  }
+
+  if (certModal) {
+    certModal.addEventListener("click", (e) => {
+      if (e.target === certModal) {
+        closeCertLightbox();
+      }
+    });
+  }
+
+  document.querySelectorAll("[data-open-cert]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.getAttribute("data-open-cert");
+      openCertLightbox(id);
+    });
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      closeCertLightbox();
+      if (typeof window.closeModalFromBtn === "function") {
+        window.closeModalFromBtn();
+      }
+    } else if (certModal && certModal.style.display === "flex") {
+      if (e.key === "ArrowLeft" && certPrev && !certPrev.disabled) {
+        certPrev.click();
+      } else if (e.key === "ArrowRight" && certNext && !certNext.disabled) {
+        certNext.click();
+      }
+    }
+  });
 });

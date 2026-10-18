@@ -1,0 +1,122 @@
+[
+  {
+    "id": "autorizace-emise",
+    "title": "Osvědčení o autorizaci MŽP – měření emisí",
+    "authority": "Ministerstvo životního prostředí ČR",
+    "law": "Zákon č. 201/2012 Sb. o ochraně ovzduší",
+    "desc": "Autorizace k autorizovanému měření emisí stacionárních zdrojů znečišťování ovzduší v kompletním rozsahu.",
+    "pdf_file": "assets/certs/autorizace-mereni-emisi-2020.pdf",
+    "primary_preview": "assets/certs/autorizace-mereni-emisi-1.jpg",
+    "pdf_render": "assets/certs/autorizace-emise-nahled-full.jpg",
+    "pages": [
+      {
+        "file": "assets/certs/autorizace-mereni-emisi-1.jpg",
+        "width": 1240,
+        "height": 1754
+      },
+      {
+        "file": "assets/certs/autorizace-mereni-emisi-2.jpg",
+        "width": 1240,
+        "height": 1754
+      }
+    ]
+  },
+  {
+    "id": "autorizace-posudky",
+    "title": "Osvědčení o autorizaci MŽP – odborné posudky",
+    "authority": "Ministerstvo životního prostředí ČR",
+    "law": "Zákon č. 201/2012 Sb. o ochraně ovzduší",
+    "desc": "Autorizace ke zpracování odborných posudků dle zákona o ochraně ovzduší pro stacionární zdroje znečišťování.",
+    "pdf_file": "assets/certs/autorizace-odborne-posudky.pdf",
+    "primary_preview": "assets/certs/autorizace-odborne-posudky-1.jpg",
+    "pdf_render": "assets/certs/autorizace-posudky-nahled-full.jpg",
+    "pages": [
+      {
+        "file": "assets/certs/autorizace-odborne-posudky-1.jpg",
+        "width": 850,
+        "height": 1169
+      },
+      {
+        "file": "assets/certs/autorizace-odborne-posudky-2.jpg",
+        "width": 850,
+        "height": 1169
+      }
+    ]
+  },
+  {
+    "id": "autorizace-posudky-prodlouzeni",
+    "title": "Rozhodnutí MŽP – prodloužení autorizace na odborné posudky",
+    "authority": "Ministerstvo životního prostředí ČR",
+    "law": "Zákon č. 201/2012 Sb. o ochraně ovzduší",
+    "desc": "Rozhodnutí Ministerstva životního prostředí o prodloužení platnosti autorizace ke zpracování odborných posudků.",
+    "pdf_file": "assets/certs/autorizace-odborne-posudky-prodlouzeni.pdf",
+    "primary_preview": "assets/certs/autorizace-odborne-posudky-prodlouzeni-1.jpg",
+    "pdf_render": "assets/certs/autorizace-posudky-prodlouzeni-nahled-full.jpg",
+    "pages": [
+      {
+        "file": "assets/certs/autorizace-odborne-posudky-prodlouzeni-1.jpg",
+        "width": 850,
+        "height": 1169
+      },
+      {
+        "file": "assets/certs/autorizace-odborne-posudky-prodlouzeni-2.jpg",
+        "width": 850,
+        "height": 1169
+      }
+    ]
+  },
+  {
+    "id": "akreditace-cia",
+    "title": "Osvědčení o akreditaci ČIA – Zkušební laboratoř č. 1421",
+    "authority": "Český institut pro akreditaci, o.p.s. (ČIA)",
+    "law": "ČSN EN ISO/IEC 17025:2018",
+    "desc": "Akreditace zkušební laboratoře č. 1421 pro zkoušky a autorizovaná měření emisí znečišťujících látek a spalin dle ISO/IEC 17025.",
+    "pdf_file": "assets/certs/osvedceni-o-akreditaci-cia-p355.pdf",
+    "primary_preview": "assets/certs/osvedceni-akreditace-cia-1421.jpg",
+    "pdf_render": "assets/certs/akreditace-cia-nahled-full.jpg",
+    "pages": [
+      {
+        "file": "assets/certs/osvedceni-akreditace-cia-1421.jpg",
+        "width": 1540,
+        "height": 2238
+      },
+      {
+        "file": "assets/certs/priloha-akreditace-cia-strana-1.jpg",
+        "width": 1241,
+        "height": 1755
+      },
+      {
+        "file": "assets/certs/priloha-akreditace-cia-strana-2.jpg",
+        "width": 1241,
+        "height": 1755
+      },
+      {
+        "file": "assets/certs/priloha-akreditace-cia-strana-3.jpg",
+        "width": 1241,
+        "height": 1755
+      }
+    ]
+  },
+  {
+    "id": "autorizace-rozptyl",
+    "title": "Osvědčení o autorizaci MŽP – rozptylové studie",
+    "authority": "Ministerstvo životního prostředí ČR",
+    "law": "Zákon č. 201/2012 Sb. a metodika SYMOS97",
+    "desc": "Autorizace ke zpracování rozptylových studií znečišťujících látek v ovzduší pro územní řízení a stavební povolení.",
+    "pdf_file": "assets/certs/autorizace-rozptylove-studie.pdf",
+    "primary_preview": "assets/certs/autorizace-rozptylove-studie-1.jpg",
+    "pdf_render": "assets/certs/autorizace-rozptyl-nahled-full.jpg",
+    "pages": [
+      {
+        "file": "assets/certs/autorizace-rozptylove-studie-1.jpg",
+        "width": 1024,
+        "height": 1448
+      },
+      {
+        "file": "assets/certs/autorizace-rozptylove-studie-2.jpg",
+        "width": 1024,
+        "height": 1448
+      }
+    ]
+  }
+]
