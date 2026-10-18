@@ -1,0 +1,52 @@
+{
+  "slug": "elektromotory-moravec",
+  "firma": "Elektromotory Moravec s.r.o.",
+  "ico": "05626013",
+  "dic": "CZ05626013",
+  "obec": "Hoštejn",
+  "okres": "Šumperk",
+  "kraj": "Olomoucký kraj",
+  "obor_plny": "Průmyslové pohony & Elektromotory SIEMENS / Specializovaný dodavatel nízkonapěťových i vysokonapěťových elektromotorů SIEMENS (řady 1LE1, 1MB1 do výbušného prostředí Ex, brzdové motory 1LE1 se zabudovanou elektromagnetickou brzdou, motory s nucenou ventilací, těžký těžební a chemický průmysl), šnekové a čelní průmyslové převodovky, frekvenční měniče a komplexní pohonářské komponenty.",
+  "archetyp": "Swiss Bento Grid",
+  "stary_web": "http://elektromotorymoravec.cz",
+  "email": "moravec@elektromotory.net",
+  "telefon": "+420 583 443 133",
+  "mobil": "+420 737 931 539",
+  "jazyky": [
+    "CZ",
+    "EN"
+  ],
+  "prodejni_body": [
+    "Oficiální specializovaný distributor a sklad elektromotorů SIEMENS",
+    "Expedice standardních motorů a pohonů ze skladu do 24 hodin po celé ČR",
+    "Kompletní rozsah účinností od standardu IE1/IE2 až po prémiovou třídu IE3 a IE4",
+    "Certifikované nevýbušné motory ATEX pro Zónu 1/21 (Ex d) a Zónu 2/22 (Ex ec)",
+    "Pohonářská technika na míru: motory s elektromagnetickou brzdou, nuceným chlazením, šnekové i čelní převodovky a měniče SINAMICS",
+    "Expertní technické poradenství a přímé náhrady za dosluhující motory MEZ Mohelnice a Frenštát"
+  ],
+  "vady_stareho_webu": [
+    "Absence mobilní responzivity (chybějící viewport, rozpadlý layout na chytrých telefonech)",
+    "Nezabezpečené HTTP spojení bez SSL/TLS certifikátu",
+    "Zastaralé kódování Windows-1250 způsobující problémy se zobrazením znaků na moderních zařízeních",
+    "Archaický tabulkový katalog s nepřehledným vyhledáváním a nulovou interaktivitou",
+    "Původní automatický překladač závislý na externím skriptu bez nativní vícejazyčné podpory"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní designový archetyp Swiss Bento Grid s čistou technickou estetikou a přehlednou strukturou",
+    "100% responzivní mobilní zobrazení pro tablety, telefony i velká 4K desktopová pracoviště",
+    "Interaktivní konfigurátor a katalog motorů s živým filtrováním dle výkonu, otáček a prostředí",
+    "Detailní technické modální okno s rozměrovými řadami, elektrickými parametry a normami ČSN EN 60034",
+    "Okamžitý přepínač jazyků CZ / EN s kompletním překladem všech prvků",
+    "Ověřená kontaktní sekce s interaktivní mapou Mapy.cz s přesným zaměřením areálu v Hoštejně"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2016,
+    "sidlo": "Hoštejn č.p. 20, 789 01 Hoštejn (Zábřeh)",
+    "skladova_expedice": "do 24 hodin",
+    "rozsah_vykonu": "0,09 kW až 200 kW",
+    "osove_vysky": "63 mm až 315 mm",
+    "otacky": "750 / 1000 / 1500 / 3000 ot/min",
+    "normy": "ČSN EN 60034-1, ČSN EN 60034-30-1, ATEX ČSN EN 60079",
+    "tridy_ucinnosti": "IE1, IE2, IE3, IE4"
+  }
+}

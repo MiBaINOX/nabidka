@@ -1,0 +1,24 @@
+{
+  "site_url": "http://kmsbrno.cz",
+  "crawled_pages_count": 23,
+  "downloaded_images_count": 63,
+  "menu_categories": [
+    "O firmě",
+    "Výrobní program",
+    "Fotogalerie",
+    "Kontakt"
+  ],
+  "company_details": {
+    "name": "KMS BRNO s.r.o.",
+    "ico": "26306727",
+    "dic": "CZ26306727",
+    "registered_office": "Nádražní 557/36, 664 47 Střelice",
+    "production_facility": "Areál Metalpres s.r.o., Stará osada 94, 664 84 Zastávka u Brna",
+    "executive": "Ing. Jaroslav Martikan",
+    "phone": "+420 604 206 331",
+    "email": "martikan@kmsbrno.com",
+    "crane_capacity": "12,5 t",
+    "machine_weight_range": "10 až 30 tun",
+    "heritage": "Tradice Strojírny Zbrojovka Brno (výroba jednoúčelových strojů)"
+  }
+}

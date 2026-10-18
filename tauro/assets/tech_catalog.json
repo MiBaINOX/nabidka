@@ -1,0 +1,338 @@
+[
+  {
+    "id": "svar-tezke",
+    "title": "Těžké ocelové svařence do 3 tun",
+    "category": "svarovani",
+    "category_name": "Svařované díly & Sestavy",
+    "badge": "MIG/MAG / TIG do 3 000 kg",
+    "perex": "Výroba nosných rámů, strojních základů a ocelových sestav dle výrobní dokumentace zákazníka ze všech jakostí konstrukční oceli i nerezu.",
+    "params": {
+      "Maximální hmotnost dílce": "3 000 kg (3 t)",
+      "Svářečské metody": "MIG/MAG (CO2), TIG (WIG), MMA elektroda, plamen",
+      "Materiálové portfolio": "Konstrukční oceli, nerezové oceli, žáruvzdorné materiály",
+      "Zkoušky a kontrola": "Vizuální kontrola (VT), rozměrová inspekce",
+      "Povrchová úprava": "Základní a vrchní syntetické laky, kooperace zinkování"
+    },
+    "image": "assets/svarovane-dily_index.jpg"
+  },
+  {
+    "id": "svar-nerez",
+    "title": "Nerezové sestavy a svařence",
+    "category": "svarovani",
+    "category_name": "Svařované díly & Sestavy",
+    "badge": "Metoda TIG / Čisté provozy",
+    "perex": "Přesné svařování tenkostěnných i masivních dílů z nerezových ocelí třídy AISI 304 a 316 metodou TIG v ochranné atmosféře argonu.",
+    "params": {
+      "Materiál": "Nerezová ocel AISI 304, AISI 316, žárupevná ocel",
+      "Metoda svařování": "TIG v argonové ochranné atmosféře, pulzní svařování",
+      "Tloušťka svařovaných materiálů": "0,8 mm až 15 mm",
+      "Využití": "Potravinářství, chemický průmysl, solární systémy, designové prvky",
+      "Moření a pasivace": "Chemické čištění a pasivace svárů"
+    },
+    "image": "assets/svarovane-dily_produkt2prev.jpg"
+  },
+  {
+    "id": "svar-strojni",
+    "title": "Strojírenské podsestavy a dílce",
+    "category": "svarovani",
+    "category_name": "Svařované díly & Sestavy",
+    "badge": "Komplexní kooperace",
+    "perex": "Kompletní výroba strojních celků kombinující dělení materiálu, přesné pálení, lisování, svařování a finální třískové obrábění.",
+    "params": {
+      "Výrobní postup": "Dělení -> Lisování / Ohýbání -> Svařování -> Obrábění -> Lak",
+      "Obráběcí operace": "Soustružení, frézování, vyvrtávání, závitování na míru",
+      "Sériovost": "Kusové prototypy i opakované výrobní série",
+      "Přesnost": "Dle výkresových tolerancí zákazníka (ISO 2768-mK)",
+      "Logistika": "Balení a expedice na paletách v režimu Just-in-Time"
+    },
+    "image": "assets/svarovane-dily_produkt3prev.jpg"
+  },
+  {
+    "id": "svar-pluh",
+    "title": "Zemědělské a stavební nářadí a díly",
+    "category": "svarovani",
+    "category_name": "Svařované díly & Sestavy",
+    "badge": "Otěruvzdorná ocel",
+    "perex": "Výroba odolných svařenců pro zemědělskou a stavební techniku, radlice, rámy kultivátorů a pluhové prvky z vysokopevnostních ocelí.",
+    "params": {
+      "Materiálové provedení": "Otěruvzdorné a vysokopevnostní oceli",
+      "Zatížení": "Dynamicky a mechanicky namáhané konstrukce",
+      "Svářecí technologie": "Vícevrstvé koutové a tupé sváry MIG/MAG",
+      "Kontrola jakosti": "Nedestruktivní zkoušení svárů",
+      "Dodávky": "Sériová výroba pro výrobce zemědělských strojů"
+    },
+    "image": "assets/svarovane-dily_pluh-detail.jpg"
+  },
+  {
+    "id": "lis-tvareni",
+    "title": "Lisování a tváření dílů (25 až 160 t)",
+    "category": "lisovani",
+    "category_name": "Lisování & Tváření plechů",
+    "badge": "Lisovací síla 250 - 1 600 kN",
+    "perex": "Kusové i sériové lisování ocelových, nerezových a hliníkových plechů na výstředníkových a hydraulických lisech s vlastní přípravou nástrojů.",
+    "params": {
+      "Lisovací síla": "25 až 160 tun (250 – 1 600 kN)",
+      "Typy lisů": "Výstředníkové lisy LEN / LE, hydraulické lisy",
+      "Tloušťka zpracovávaných plechů": "0,5 mm až 8,0 mm dle materiálu",
+      "Operace": "Děrování, vystřihování, tažení, ražení, kalibrování",
+      "Sériovost": "Od stovek kusů po statisícové série ročně"
+    },
+    "image": "assets/sluzby-tauro.jpg"
+  },
+  {
+    "id": "lis-ohyb",
+    "title": "CNC ohraňování a ohýbání plechů",
+    "category": "lisovani",
+    "category_name": "Lisování & Tváření plechů",
+    "badge": "50 t / délka 2 500 mm",
+    "perex": "Přesné ohýbání plechů a profilů na ohraňovacím lisu s vysokou opakovatelností úhlů a délek pro elektrotechniku i strojírenství.",
+    "params": {
+      "Ohraňovací síla": "50 tun",
+      "Maximální délka ohybu": "2 500 mm (při tl. 6 mm délka 2 000 mm)",
+      "Max. tloušťka ohybu": "Do 6,0 mm konstrukční oceli",
+      "Opakovatelnost": "Vysoká úhlová přesnost a rovinnost hran",
+      "Nástrojové vybavení": "Široká škála razníků a matric pro různé poloměry"
+    },
+    "image": "assets/tauro-uvod02.jpg"
+  },
+  {
+    "id": "lis-strihani",
+    "title": "Stříhání a zakružování plechů",
+    "category": "lisovani",
+    "category_name": "Lisování & Tváření plechů",
+    "badge": "Střih do 10 mm / délka 3 000 mm",
+    "perex": "Dělení plechů na padacích tabulových nůžkách a přesné zakružování plechů do válcových a kuželových tvarů od průměru 280 mm.",
+    "params": {
+      "Kapacita stříhání": "Tloušťka plechu do 10 mm, délka střihu do 3 000 mm",
+      "Zakružování plechů": "Od průměru 280 mm do tloušťky 6,0 mm",
+      "Třískové obrábění": "Soustružení, frézování, vrtání a závitování",
+      "Kvalita řezu": "Čisté pravoúhlé hrany bez otřepů a deformací",
+      "Kompatibilita materiálů": "Uhlíkové oceli, nerez, měď, hliníkové slitiny"
+    },
+    "image": "assets/kazety-vrtaky.jpg"
+  },
+  {
+    "id": "trezor-nabytkovy",
+    "title": "Nábytkové trezory řady TN (třída I a II)",
+    "category": "trezory",
+    "category_name": "Komerční trezory & Bezpečnost",
+    "badge": "ČSN EN 1143-1 / NBÚ Tajné",
+    "perex": "Tříplášťová konstrukce s ohnivzdornou izolací, dveře z 10mm oceli, čtyřstranný rozvorový mechanismus a vnitřní uzamykatelná schránka.",
+    "params": {
+      "Modely řady TN": "TN 40 (105 kg), TN 70 (165 kg), TN 130 (310 kg), TN 330 (470 kg), TN 470 (510 kg)",
+      "Bezpečnostní třída": "Třída I a Třída II dle normy ČSN EN 1143-1",
+      "Certifikace NBÚ": "Ověřeno pro ochranu utajovaných skutečností do stupně 'Tajné'",
+      "Konstrukce": "Tříplášťová s ohnivzdornou výplní, čelní deska 10 mm ocel",
+      "Zámkový systém": "Mechanický motýlkový klíčový zámek + kombinační nebo elektronický LaGard"
+    },
+    "image": "assets/nabytkove-trezory_prev.jpg"
+  },
+  {
+    "id": "trezor-zdi",
+    "title": "Trezory do zdi řady T (třída I)",
+    "category": "trezory",
+    "category_name": "Komerční trezory & Bezpečnost",
+    "badge": "ČSN EN 1143-1 / Ocel 8 mm",
+    "perex": "Trezory určené k zazdění s čelní deskou z 8mm ocelového plechu v masivním profilovém rámu s třístranným rozvorovým mechanismem.",
+    "params": {
+      "Modely řady T": "T 20 H, T 20 HS, T 50 V, T 50 VS, T 50 H, T 70 V, T 70 VS (28 až 85 kg)",
+      "Bezpečnostní třída": "Třída I dle ČSN EN 1143-1 (Akreditovaný orgán č. 3025)",
+      "Dveřní stěna": "Ocelový plech tloušťky 8 mm se zesíleným obvodovým rámem",
+      "Ochrana rozvorů": "Mechanická ochrana proti odvrtání a rozlomení",
+      "Vnitřní vybavení": "Polohovatelné police + volitelná vnitřní schránka (100–175 mm)"
+    },
+    "image": "assets/trezory-do-zdi.jpg"
+  },
+  {
+    "id": "trezor-vhozovy",
+    "title": "Vhozové depozitní trezory řady TVN & TV",
+    "category": "trezory",
+    "category_name": "Komerční trezory & Bezpečnost",
+    "badge": "Depozit s gravitačním propadem",
+    "perex": "Speciální vhozové trezory pro maloobchodní prodejny, čerpací stanice a směnárny s okamžitým propadem hotovosti a ochranou proti vylovení.",
+    "params": {
+      "Typy provedení": "TVN nábytkové (TVN 20–130) a TV do zdi (TV 20–70)",
+      "Princip funkce": "Vhozová zásuvka s bezpečnostní gravitační klapkou proti zpětnému vytažení",
+      "Konstrukce": "Dvouplášťové dveře z 8mm oceli, oddělené uzamykání vhozu",
+      "Bezpečnostní třída": "Třída I a II dle ČSN EN 1143-1",
+      "Standardní barvy": "Černá RAL 9005 a bílá RAL 9010 (jiné RAL na zakázku)"
+    },
+    "image": "assets/nabytkove-trezory-vhozove_prev.jpg"
+  },
+  {
+    "id": "trezor-zbrane",
+    "title": "Skříně a trezory na zbraně",
+    "category": "trezory",
+    "category_name": "Komerční trezory & Bezpečnost",
+    "badge": "Na pušky i pistole dle zákona",
+    "perex": "Certifikované bezpečnostní skříně a schránky pro uložení dlouhých loveckých zbraní a krátkých pistolí s oddělenou schránkou na střelivo.",
+    "params": {
+      "Provedení": "Nábytkové dvouplášťové nebo vestavné do zdi",
+      "Kapacita": "Až 10 dlouhých zbraní (pušek) + police na příslušenství",
+      "Vnitřní schránky": "2 na sobě nezávislé schránky na střelivo s FAB zámky",
+      "Zámková výbava": "Klíčový trezorový zámek CISA + kódový LaGard",
+      "Legislativa": "Plní zákon č. 119/2002 Sb. o zbraních a střelivu"
+    },
+    "image": "assets/skrine-schranky-zbrane_prev.jpg"
+  },
+  {
+    "id": "trezor-schranky",
+    "title": "Kompaktní bezpečnostní schránky (C 1, BS 1, BS 2)",
+    "category": "trezory",
+    "category_name": "Komerční trezory & Bezpečnost",
+    "badge": "Čelní ocel 5 mm",
+    "perex": "Jednoplášťové ocelové schránky pro montáž do nábytku i zabudování do stěny, vhodné pro hotely, kanceláře i domácnosti.",
+    "params": {
+      "Modely schránek": "C 1 (3,5 kg), BS 1 (11,5 kg), BS 1 kód, BS 2 (14,1 kg), BS 2 kód, BSZ 2",
+      "Tloušťka čela": "Masivní ocelový plech 5 mm",
+      "Zamykání": "Trezorový klíčový zámek nebo mechanický kódový číselník",
+      "Montáž": "Kotevní otvory do dna a zadní stěny nebo pro zazdění",
+      "Povrch": "Odolný práškový lak RAL 9005 / RAL 9010"
+    },
+    "image": "assets/bezpecnostni-schranky.jpg"
+  },
+  {
+    "id": "trezor-zakazka",
+    "title": "Zakázkové trezory a atypická řešení",
+    "category": "trezory",
+    "category_name": "Komerční trezory & Bezpečnost",
+    "badge": "Individuální rozměry a pancéřování",
+    "perex": "Výroba trezorů nestandardních rozměrů, pancéřovaných trezorových dveří, speciálních bankovních schránek a vestaveb na míru.",
+    "params": {
+      "Konstrukce na míru": "Atypické výšky, hloubky a šířky dle dispozic interiéru",
+      "Pancéřování": "Sendvičové výplně odolné řezání autogenem a rozbrusu",
+      "Elektronika": "Příprava na napojení na PZTS / EZS a tichý alarm",
+      "Vnitřní vybavení": "Čalounění, zásuvkové boxy, skleněné police, trezorové vitríny",
+      "Reference": "Bankovní ústavy, luxusní rezidence, klenotnictví"
+    },
+    "image": "assets/trezory-zakazka2.jpg"
+  },
+  {
+    "id": "regal-dily",
+    "title": "Komponenty pro obchodní a skladové regály",
+    "category": "regaly",
+    "category_name": "Regálové systémy & Logistika",
+    "badge": "Vysokopevnostní lisované díly",
+    "perex": "Přesné lisované výztuhy, nosné patky, stojiny a rohové spojovací prvky pro obchodní domy, velkoobchodní sklady a distribuční centra.",
+    "params": {
+      "Sortiment dílů": "Lisované výztuhy, stojiny, nosné nohy, police a spojovací uzly",
+      "Materiál": "Konstrukční a hlubokotažné ocelové plechy S235 / S355",
+      "Přesnost lisování": "Vysoká opakovatelnost v tolerancích setin milimetru",
+      "Sériovost": "Opakované velkosériové dodávky pro regálové výrobce",
+      "Povrchová ochrana": "Možnost kataforézy, galvanického zinku nebo práškové barvy"
+    },
+    "image": "assets/regalove-systemy03prev.jpg"
+  },
+  {
+    "id": "regal-svar",
+    "title": "Svařované rámy a paletové nosníky",
+    "category": "regaly",
+    "category_name": "Regálové systémy & Logistika",
+    "badge": "Statická únosnost a stabilita",
+    "perex": "Svařované dílce pro těžké skladové regály a paletové zakladače dimenzované na vysoké dynamické i statické zatížení.",
+    "params": {
+      "Únosnost": "Sestavy pro vysokozátěžové paletové a konzolové regály",
+      "Svařování": "Certifikované procesy MIG/MAG se 100% průvarem",
+      "Dimenze": "Délky nosníků až do 4 metrů",
+      "Kontrola geometrie": "Kontrola přímosti a pravoúhlosti v přesných přípravcích",
+      "Expedice": "Svazkování a paletizace přímo na montážní stavbu"
+    },
+    "image": "assets/regalove-systemy_produkty-index.jpg"
+  },
+  {
+    "id": "krb-rada-b",
+    "title": "Teplovzdušné krbové vložky řady B",
+    "category": "krby",
+    "category_name": "Krbové vložky & Vytápěcí technika",
+    "badge": "Save line & Quick air",
+    "perex": "Špičkové krbové vložky s moderní technologií spalování 'Save line' a 'Quick air' splňující nejpřísnější emisní limity v Německu a Rakousku.",
+    "params": {
+      "Emisní certifikace": "CE, německá norma Stufe II, rakouská norma 15a-BVG",
+      "Spalovací technologie": "Regulovaný přívod spalovacích vzduchů Save line a Quick air",
+      "Topeniště": "Vysoce kvalitní akumulační vyzdívka s rozvodem terciálního vzduchu",
+      "Provedení": "Jednoplášťové i dvouplášťové s externím přisáváním",
+      "Kooperace": "Výroba pro přední evropské značky krbů (Hakr Trade)"
+    },
+    "image": "assets/krbove-vlozky_produkty-index.jpg"
+  },
+  {
+    "id": "krb-teplovodni",
+    "title": "Teplovodní krbové vložky pro ústřední vytápění",
+    "category": "krby",
+    "category_name": "Krbové vložky & Vytápěcí technika",
+    "badge": "Vytápěný prostor 350 až 640 m³",
+    "perex": "Výkonná krbová tělesa s integrovaným teplovodním výměníkem pro napojení do topného okruhu rodinných domů a akumulačních nádrží.",
+    "params": {
+      "Vytápěný objem": "Varianta pro domy do 350 m³ a varianta pro prostory do 640 m³",
+      "Konstrukce výměníku": "Silnostěnný kotlový plech s tlakovou zkouškou těsnosti",
+      "Vystýlka topeniště": "Lehce vyměnitelná šamotová nebo litinová vyzdívka",
+      "Regulace výkonu": "Primární a sekundární vzduch, komínová klapka",
+      "Bezpečnost": "Příprava na vychlazovací smyčku proti přetopení"
+    },
+    "image": "assets/krbove-vlozky_teplovodni-prev.jpg"
+  },
+  {
+    "id": "krb-biokrby",
+    "title": "Designové bio krby z nerezové oceli",
+    "category": "krby",
+    "category_name": "Krbové vložky & Vytápěcí technika",
+    "badge": "Ekologický provoz bez komína",
+    "perex": "Moderní interiérové krby na bioetanol s korpusem z broušené nerezové oceli. Hoření nevytváří kouř ani zápach, není nutný komín.",
+    "params": {
+      "Materiál korpusu": "Broušený nerezový plech jakosti AISI 304",
+      "Palivo": "Ekologický bioetanol (čisté spalování na vodní páru a CO2)",
+      "Instalace": "Bez nutnosti komínového průduchu, zavěšení na stěnu či volně stojící",
+      "Bezpečnostní hořák": "Dvouplášťový hořák s absorpční keramickou vatou",
+      "Použití": "Byty, kanceláře, hotely, wellness centra"
+    },
+    "image": "assets/krbove-vlozky_bio-prev.jpg"
+  },
+  {
+    "id": "fve-komponenty",
+    "title": "Nosné prvky pro fotovoltaické elektrárny",
+    "category": "kooperace",
+    "category_name": "Fotovoltaika & Kooperace",
+    "badge": "Nerezové a ocelové prvky FVE",
+    "perex": "Výroba střešních nerezových háků, nosných profilů, spojovacích trojúhelníků a zemních konstrukcí pro solární parky i střešní instalace.",
+    "params": {
+      "Komponenty": "Střešní háky (A2 nerez), kotevní patky, spojky profilů, zemní rámy",
+      "Materiály": "Nerezová ocel AISI 304, žárově zinkovaná ocel",
+      "Odolnost": "Vysoká korozní odolnost a statická pevnost vůči větru a sněhu",
+      "Sériovost": "Dodávky po desítkách tisíc kusů pro montážní firmy FVE",
+      "Výroba": "Lisování, ohýbání, svařování TIG/MAG"
+    },
+    "image": "assets/komponenty-fotovoltaika.jpg"
+  },
+  {
+    "id": "plech-kazety",
+    "title": "Kovové kazety a skříňky na vrtáky a nářadí",
+    "category": "kooperace",
+    "category_name": "Fotovoltaika & Kooperace",
+    "badge": "Přesné lisované plechové obaly",
+    "perex": "Lisované plechové krabičky a sklopné kazety pro sady vrtáků, závitníků a přesných nástrojů s povrchovou úpravou práškovým lakem.",
+    "params": {
+      "Provedení": "Kovové výlisky se sklopnými vnitřními přihrádkami",
+      "Uzavírání": "Pružinový západkový mechanismus",
+      "Značení": "Možnost sítotisku nebo ražby loga zákazníka",
+      "Využití": "Výrobci nástrojů, železářství, profesionální dílny",
+      "Trvanlivost": "Oproti plastovým boxům extrémní mechanická odolnost"
+    },
+    "image": "assets/kazety-vrtaky.jpg"
+  },
+  {
+    "id": "kolobezky-sport",
+    "title": "Sportovní, závodní a tréninkové koloběžky TAURO",
+    "category": "kooperace",
+    "category_name": "Fotovoltaika & Kooperace",
+    "badge": "Česká atletická reprezentace",
+    "perex": "Zakázková výroba masivních ocelových rámů závodních a turistických koloběžek. Dodavatel tréninkových koloběžek pro českou reprezentaci.",
+    "params": {
+      "Konstrukce rámu": "Masivní ocelový rám z vysoce jakostní pevnostní oceli",
+      "Komponenty": "Závodní řídítka, hydraulické brzdy, odlehčené ráfky světových značek",
+      "Speciální modely": "Koloběžky na zakázku pro tréninkovou skupinu skokanů o tyči",
+      "Sponzoring": "Partner Ivo Koblasy, českého paralympijského reprezentanta v cyklistice",
+      "Vlastnosti": "Maximální tuhost rámu pro efektivní přenos odrazové síly"
+    },
+    "image": "assets/kolobezky_produkty-index.jpg"
+  }
+]

@@ -1,0 +1,905 @@
+[
+  {
+    "id": "1le1001-ie2",
+    "code": "1LE1001",
+    "name": "SIEMENS 1LE1001 – Standardní třífázové motory IE2",
+    "category": "standard",
+    "category_name": "Standardní asynchronní motory",
+    "power_range": "0,12 kW až 18,5 kW",
+    "speeds": "3000 / 1500 / 1000 / 750 ot/min (2800, 1400, 900, 700 synchr.)",
+    "frame_sizes": "63M až 160L (osová výška 63 – 160 mm)",
+    "frame_material": "Tlakově litý hliník (lehká a odolná kostra)",
+    "efficiency": "IE2 – Zvýšená účinnost dle ČSN EN 60034-30-1",
+    "protection": "IP55 (na přání IP56 / IP65)",
+    "cooling": "IC 411 (vlastní povrchové chlazení ventilátorem)",
+    "insulation": "Třída F (oteplení ve třídě B, rezerva pro spolehlivost)",
+    "voltage": "230V Δ / 400V Y (do 3 kW), 400V Δ / 690V Y (od 4 kW), 50 Hz",
+    "mounting": "IM B3 (patkové), IM B5 (velká příruba), IM B14 (malá příruba), IM B35",
+    "image": "assets/1le1-imb3b5.jpg",
+    "short_desc": "Průmyslový standard pro čerpadla, ventilátory, dopravníky a kompresory. Lehká hliníková kostra, vysoká provozní spolehlivost, skladem pro expedici do 24 hodin.",
+    "specs": [
+      {
+        "typ": "1LE1001-0BB22",
+        "vykon": "0,12 kW",
+        "otacky": "1390 ot/min",
+        "vyska": "63 mm",
+        "proud": "0,42 A",
+        "moment": "0,82 Nm",
+        "hmotnost": "3,8 kg"
+      },
+      {
+        "typ": "1LE1001-0BB32",
+        "vykon": "0,18 kW",
+        "otacky": "1385 ot/min",
+        "vyska": "63 mm",
+        "proud": "0,58 A",
+        "moment": "1,24 Nm",
+        "hmotnost": "4,2 kg"
+      },
+      {
+        "typ": "1LE1001-0CB22",
+        "vykon": "0,25 kW",
+        "otacky": "1395 ot/min",
+        "vyska": "71 mm",
+        "proud": "0,76 A",
+        "moment": "1,71 Nm",
+        "hmotnost": "5,6 kg"
+      },
+      {
+        "typ": "1LE1001-0CB32",
+        "vykon": "0,37 kW",
+        "otacky": "1380 ot/min",
+        "vyska": "71 mm",
+        "proud": "1,04 A",
+        "moment": "2,56 Nm",
+        "hmotnost": "6,5 kg"
+      },
+      {
+        "typ": "1LE1001-0DB22",
+        "vykon": "0,55 kW",
+        "otacky": "1440 ot/min",
+        "vyska": "80 mm",
+        "proud": "1,42 A",
+        "moment": "3,65 Nm",
+        "hmotnost": "9,2 kg"
+      },
+      {
+        "typ": "1LE1001-0DB32",
+        "vykon": "0,75 kW",
+        "otacky": "1440 ot/min",
+        "vyska": "80 mm",
+        "proud": "1,82 A",
+        "moment": "4,97 Nm",
+        "hmotnost": "11,0 kg"
+      },
+      {
+        "typ": "1LE1001-1AB42",
+        "vykon": "2,20 kW",
+        "otacky": "1460 ot/min",
+        "vyska": "100 mm",
+        "proud": "4,60 A",
+        "moment": "14,4 Nm",
+        "hmotnost": "21,0 kg"
+      },
+      {
+        "typ": "1LE1001-1CB23",
+        "vykon": "7,50 kW",
+        "otacky": "1465 ot/min",
+        "vyska": "132 mm",
+        "proud": "14,7 A",
+        "moment": "48,9 Nm",
+        "hmotnost": "53,0 kg"
+      },
+      {
+        "typ": "1LE1001-1DB43",
+        "vykon": "15,00 kW",
+        "otacky": "1475 ot/min",
+        "vyska": "160 mm",
+        "proud": "28,5 A",
+        "moment": "97,1 Nm",
+        "hmotnost": "84,0 kg"
+      }
+    ]
+  },
+  {
+    "id": "1le1003-ie3",
+    "code": "1LE1003",
+    "name": "SIEMENS 1LE1003 – Prémiová účinnost IE3 (hliníkový rám)",
+    "category": "ie3_ie4",
+    "category_name": "Vysoká a prémiová účinnost IE3 / IE4",
+    "power_range": "0,75 kW až 22 kW",
+    "speeds": "3000 / 1500 / 1000 ot/min (2940, 1465, 970 skutečné)",
+    "frame_sizes": "80M až 160L",
+    "frame_material": "Hliníková slitina s optimalizovaným aerodynamickým žebrováním",
+    "efficiency": "IE3 – Prémiová vysoká účinnost dle ČSN EN 60034-30-1",
+    "protection": "IP55",
+    "cooling": "IC 411",
+    "insulation": "Třída F s teplotní rezervou B",
+    "voltage": "230V / 400V, 400V / 690V, 50 Hz / 60 Hz",
+    "mounting": "IM B3, IM B5, IM B14, IM B35",
+    "image": "assets/01.jpg",
+    "short_desc": "Prémiová řada motorů splňující nejnovější ekologické směrnice EU pro energetickou náročnost. Výrazné snížení provozních nákladů na elektřinu v nepřetržitém provozu S1.",
+    "specs": [
+      {
+        "typ": "1LE1003-0DB22",
+        "vykon": "0,55 kW",
+        "otacky": "1440 ot/min",
+        "vyska": "80 mm",
+        "proud": "1,38 A",
+        "moment": "3,65 Nm",
+        "hmotnost": "10,5 kg"
+      },
+      {
+        "typ": "1LE1003-0DB32",
+        "vykon": "0,75 kW",
+        "otacky": "1450 ot/min",
+        "vyska": "80 mm",
+        "proud": "1,75 A",
+        "moment": "4,94 Nm",
+        "hmotnost": "12,5 kg"
+      },
+      {
+        "typ": "1LE1003-0EB02",
+        "vykon": "1,10 kW",
+        "otacky": "1440 ot/min",
+        "vyska": "90 mm",
+        "proud": "2,40 A",
+        "moment": "7,30 Nm",
+        "hmotnost": "15,0 kg"
+      },
+      {
+        "typ": "1LE1003-0EB42",
+        "vykon": "1,50 kW",
+        "otacky": "1445 ot/min",
+        "vyska": "90 mm",
+        "proud": "3,15 A",
+        "moment": "9,91 Nm",
+        "hmotnost": "18,0 kg"
+      },
+      {
+        "typ": "1LE1003-1AB42",
+        "vykon": "2,20 kW",
+        "otacky": "1465 ot/min",
+        "vyska": "100 mm",
+        "proud": "4,40 A",
+        "moment": "14,3 Nm",
+        "hmotnost": "24,0 kg"
+      },
+      {
+        "typ": "1LE1003-1AB52",
+        "vykon": "3,00 kW",
+        "otacky": "1460 ot/min",
+        "vyska": "100 mm",
+        "proud": "5,90 A",
+        "moment": "19,6 Nm",
+        "hmotnost": "29,0 kg"
+      },
+      {
+        "typ": "1LE1003-1CB03",
+        "vykon": "5,50 kW",
+        "otacky": "1470 ot/min",
+        "vyska": "132 mm",
+        "proud": "10,5 A",
+        "moment": "35,7 Nm",
+        "hmotnost": "55,0 kg"
+      },
+      {
+        "typ": "1LE1003-1DB23",
+        "vykon": "11,00 kW",
+        "otacky": "1475 ot/min",
+        "vyska": "160 mm",
+        "proud": "20,5 A",
+        "moment": "71,2 Nm",
+        "hmotnost": "92,0 kg"
+      }
+    ]
+  },
+  {
+    "id": "1le1503-litina-ie3",
+    "code": "1LE1503",
+    "name": "SIEMENS 1LE1503 – Litinové motory IE3 (Cast Iron)",
+    "category": "ie3_ie4",
+    "category_name": "Vysoká a prémiová účinnost IE3 / IE4",
+    "power_range": "2,2 kW až 200 kW",
+    "speeds": "3000 / 1500 / 1000 / 750 ot/min",
+    "frame_sizes": "100L až 315L",
+    "frame_material": "Masivní šedá litina GG20 / EN-GJL-200",
+    "efficiency": "IE3 dle ČSN EN 60034-30-1",
+    "protection": "IP55 (volitelně IP65)",
+    "cooling": "IC 411",
+    "insulation": "Třída F (oteplení B)",
+    "voltage": "400V Δ / 690V Y, 50 Hz",
+    "mounting": "IM B3, IM B5, IM B35, IM V1",
+    "image": "assets/foto1.jpg",
+    "short_desc": "Vysoce tuhá litinová konstrukce s vynikajícím tlumením vibrací a dlouhou životností ložisek. Ideální pro velké ventilátory, průmyslové mlýny a těžké čerpací agregáty.",
+    "specs": [
+      {
+        "typ": "1LE1503-1EB23",
+        "vykon": "18,5 kW",
+        "otacky": "1470 ot/min",
+        "vyska": "180 mm",
+        "proud": "35,0 A",
+        "moment": "120 Nm",
+        "hmotnost": "160 kg"
+      },
+      {
+        "typ": "1LE1503-1EB43",
+        "vykon": "22,0 kW",
+        "otacky": "1470 ot/min",
+        "vyska": "180 mm",
+        "proud": "41,0 A",
+        "moment": "143 Nm",
+        "hmotnost": "175 kg"
+      },
+      {
+        "typ": "1LE1503-2AB53",
+        "vykon": "30,0 kW",
+        "otacky": "1475 ot/min",
+        "vyska": "200 mm",
+        "proud": "55,0 A",
+        "moment": "194 Nm",
+        "hmotnost": "240 kg"
+      },
+      {
+        "typ": "1LE1503-2BB03",
+        "vykon": "37,0 kW",
+        "otacky": "1480 ot/min",
+        "vyska": "225 mm",
+        "proud": "67,0 A",
+        "moment": "239 Nm",
+        "hmotnost": "310 kg"
+      },
+      {
+        "typ": "1LE1503-2CB23",
+        "vykon": "55,0 kW",
+        "otacky": "1482 ot/min",
+        "vyska": "250 mm",
+        "proud": "98,0 A",
+        "moment": "354 Nm",
+        "hmotnost": "430 kg"
+      },
+      {
+        "typ": "1LE1503-2DB23",
+        "vykon": "90,0 kW",
+        "otacky": "1485 ot/min",
+        "vyska": "280 mm",
+        "proud": "158 A",
+        "moment": "579 Nm",
+        "hmotnost": "670 kg"
+      },
+      {
+        "typ": "1LE1503-3AB43",
+        "vykon": "160,0 kW",
+        "otacky": "1488 ot/min",
+        "vyska": "315 mm",
+        "proud": "275 A",
+        "moment": "1027 Nm",
+        "hmotnost": "1050 kg"
+      }
+    ]
+  },
+  {
+    "id": "1le1601-heavy-duty",
+    "code": "1LE1601",
+    "name": "SIEMENS 1LE1601 / 1LE1603 – Heavy Duty do těžkého provozu",
+    "category": "heavy_duty",
+    "category_name": "Těžký těžební a chemický průmysl",
+    "power_range": "11 kW až 200 kW",
+    "speeds": "3000 / 1500 / 1000 / 750 ot/min (2940, 1475 ot/min)",
+    "frame_sizes": "160M až 315L",
+    "frame_material": "Masivní litina s antikorozním nátěrovým systémem C3 až C5",
+    "efficiency": "IE2 / IE3",
+    "protection": "IP55 / IP65 (ocelový kryt ventilátoru)",
+    "cooling": "IC 411 s vyztuženým ventilátorem",
+    "insulation": "Třída F (oteplení B), ochrana vinutí 3× PTC termistory",
+    "voltage": "400V Δ / 690V Y, 50 Hz",
+    "mounting": "IM B3, IM B5, IM B35",
+    "image": "assets/06.jpg",
+    "short_desc": "Konstrukce pro extrémní mechanické namáhání, prašné provozy, chemické prostředí a venkovní instalace. Zesílená domazávaná ložiska od velikosti 160 a prodloužená záruka 36 měsíců.",
+    "specs": [
+      {
+        "typ": "1LE1601-1EA23",
+        "vykon": "22,0 kW",
+        "otacky": "2940 ot/min",
+        "vyska": "180 mm",
+        "proud": "40,0 A",
+        "moment": "71,5 Nm",
+        "hmotnost": "185 kg"
+      },
+      {
+        "typ": "1LE1601-2AA43",
+        "vykon": "30,0 kW",
+        "otacky": "2960 ot/min",
+        "vyska": "200 mm",
+        "proud": "54,0 A",
+        "moment": "96,7 Nm",
+        "hmotnost": "245 kg"
+      },
+      {
+        "typ": "1LE1601-2AA53",
+        "vykon": "37,0 kW",
+        "otacky": "2960 ot/min",
+        "vyska": "200 mm",
+        "proud": "66,0 A",
+        "moment": "119 Nm",
+        "hmotnost": "260 kg"
+      },
+      {
+        "typ": "1LE1601-2BA23",
+        "vykon": "45,0 kW",
+        "otacky": "2965 ot/min",
+        "vyska": "225 mm",
+        "proud": "79,0 A",
+        "moment": "145 Nm",
+        "hmotnost": "335 kg"
+      },
+      {
+        "typ": "1LE1601-2CA23",
+        "vykon": "75,0 kW",
+        "otacky": "2975 ot/min",
+        "vyska": "250 mm",
+        "proud": "131 A",
+        "moment": "241 Nm",
+        "hmotnost": "510 kg"
+      }
+    ]
+  },
+  {
+    "id": "1le1-brzdove",
+    "code": "1LE1-BRZDY",
+    "name": "SIEMENS 1LE1 – Brzdové elektromotory s pružinovou brzdou",
+    "category": "special",
+    "category_name": "Speciální motory a příslušenství",
+    "power_range": "0,12 kW až 45 kW",
+    "speeds": "3000 / 1500 / 1000 ot/min",
+    "frame_sizes": "63M až 225M",
+    "frame_material": "Hliník (63–160) / Litina (180–225)",
+    "efficiency": "IE2 / IE3",
+    "protection": "IP55 (brzda chráněna těsněním)",
+    "cooling": "IC 411",
+    "insulation": "Třída F",
+    "voltage": "Motor 400V, cívka brzdy 24V DC / 180V DC / 230V AC",
+    "mounting": "IM B3, IM B5, IM B14, IM B35",
+    "image": "assets/05.jpg",
+    "short_desc": "Elektromotor se zabudovanou elektromagnetickou bezpečnostní kotoučovou brzdou. Okamžité bezpečné zabrzdění při výpadku napětí, možnost ručního odbrzdění pákou pro jeřáby a zdvihy.",
+    "specs": [
+      {
+        "typ": "1LE1001-0DB22-Z F01",
+        "vykon": "0,55 kW",
+        "otacky": "1440 ot/min",
+        "vyska": "80 mm",
+        "brzda": "5 Nm",
+        "hmotnost": "13,5 kg"
+      },
+      {
+        "typ": "1LE1001-0EB02-Z F01",
+        "vykon": "1,10 kW",
+        "otacky": "1440 ot/min",
+        "vyska": "90 mm",
+        "brzda": "10 Nm",
+        "hmotnost": "19,0 kg"
+      },
+      {
+        "typ": "1LE1001-1AB42-Z F01",
+        "vykon": "2,20 kW",
+        "otacky": "1460 ot/min",
+        "vyska": "100 mm",
+        "brzda": "20 Nm",
+        "hmotnost": "28,0 kg"
+      },
+      {
+        "typ": "1LE1001-1CB03-Z F01",
+        "vykon": "5,50 kW",
+        "otacky": "1465 ot/min",
+        "vyska": "132 mm",
+        "brzda": "60 Nm",
+        "hmotnost": "68,0 kg"
+      },
+      {
+        "typ": "1LE1001-1DB43-Z F01",
+        "vykon": "15,00 kW",
+        "otacky": "1475 ot/min",
+        "vyska": "160 mm",
+        "brzda": "150 Nm",
+        "hmotnost": "108 kg"
+      }
+    ]
+  },
+  {
+    "id": "aom-avm-nevubusne",
+    "code": "AOM/AVM",
+    "name": "Nevýbušné motory AOM / AVM – Ex d IIC T4 Gb (Zóna 1 / 21)",
+    "category": "ex",
+    "category_name": "Nevýbušné elektromotory Ex (ATEX)",
+    "power_range": "0,25 kW až 37 kW",
+    "speeds": "3000 / 1500 / 1000 / 750 ot/min (2800, 1400, 910 ot/min)",
+    "frame_sizes": "71M až 200L",
+    "frame_material": "Masivní nevýbušný plášť z oceli a litiny",
+    "efficiency": "IE3 dle ČSN EN 60034-30-1",
+    "protection": "IP55 / IP65, certifikace ATEX dle ČSN EN 60079",
+    "cooling": "IC 411",
+    "insulation": "Třída F, povrchový nátěr RAL 7030",
+    "voltage": "400V, kmitočet 50 Hz",
+    "mounting": "AOM (patkové provedení), AVM (přírubové provedení)",
+    "image": "assets/07.jpg",
+    "short_desc": "Nevýbušné trojfázové asynchronní motory nakrátko do prostředí s nebezpečím výbuchu hořlavých plynů, par a prachů. Označení Ex d IIC T4 Gb (H=71-132) a Ex d IIB+H2 T4 Gb (H=160-200).",
+    "specs": [
+      {
+        "typ": "AOM071MK02",
+        "vykon": "0,37 kW",
+        "otacky": "2800 ot/min",
+        "vyska": "71 mm",
+        "ex_trida": "II 2G Ex d IIC T4",
+        "hmotnost": "12,0 kg"
+      },
+      {
+        "typ": "AOM080MK06",
+        "vykon": "0,37 kW",
+        "otacky": "910 ot/min",
+        "vyska": "80 mm",
+        "ex_trida": "II 2G Ex d IIC T4",
+        "hmotnost": "16,5 kg"
+      },
+      {
+        "typ": "AOM080M06",
+        "vykon": "0,55 kW",
+        "otacky": "910 ot/min",
+        "vyska": "80 mm",
+        "ex_trida": "II 2G Ex d IIC T4",
+        "hmotnost": "18,0 kg"
+      },
+      {
+        "typ": "AOM090LK06",
+        "vykon": "0,75 kW",
+        "otacky": "940 ot/min",
+        "vyska": "90 mm",
+        "ex_trida": "II 2G Ex d IIC T4",
+        "hmotnost": "24,0 kg"
+      },
+      {
+        "typ": "AOM100L02",
+        "vykon": "3,00 kW",
+        "otacky": "2880 ot/min",
+        "vyska": "100 mm",
+        "ex_trida": "II 2G Ex d IIC T4",
+        "hmotnost": "42,0 kg"
+      },
+      {
+        "typ": "AOM132M04",
+        "vykon": "7,50 kW",
+        "otacky": "1460 ot/min",
+        "vyska": "132 mm",
+        "ex_trida": "II 2G Ex d IIC T4",
+        "hmotnost": "95,0 kg"
+      },
+      {
+        "typ": "AOM160L04",
+        "vykon": "15,00 kW",
+        "otacky": "1470 ot/min",
+        "vyska": "160 mm",
+        "ex_trida": "II 2G Ex d IIB+H2 T4",
+        "hmotnost": "178 kg"
+      }
+    ]
+  },
+  {
+    "id": "1mb1553-ex-zona2",
+    "code": "1MB1553",
+    "name": "SIEMENS 1MB1553 – Nevýbušné motory Ex ec / Ex tc (Zóna 2 / 22)",
+    "category": "ex",
+    "category_name": "Nevýbušné elektromotory Ex (ATEX)",
+    "power_range": "0,75 kW až 200 kW",
+    "speeds": "3000 / 1500 / 1000 ot/min",
+    "frame_sizes": "80M až 315L",
+    "frame_material": "Šedá litina s vysokou chemickou odolností",
+    "efficiency": "IE3 Premium Efficiency",
+    "protection": "IP55 (Zóna 2 – Ex ec IIC T3 Gc) / IP65 (Zóna 22 – Ex tc IIIB T120°C Dc)",
+    "cooling": "IC 411",
+    "insulation": "Třída F (oteplení B)",
+    "voltage": "400V / 690V, 50 Hz",
+    "mounting": "IM B3, IM B5, IM B35",
+    "image": "assets/1le1-imb3b5.jpg",
+    "short_desc": "Moderní řada nevýbušných motorů SIEMENS SIMOTICS XP pro Zóny 2 (plyny) a 22 (nevodivý prach). Plná certifikace ATEX a IECEx, bezpečný provoz v chemickém a petrochemickém průmyslu.",
+    "specs": [
+      {
+        "typ": "1MB1553-1AB4",
+        "vykon": "2,2 kW",
+        "otacky": "1465 ot/min",
+        "vyska": "100 mm",
+        "zona": "Zóna 2 / 22",
+        "hmotnost": "28 kg"
+      },
+      {
+        "typ": "1MB1553-1CB2",
+        "vykon": "7,5 kW",
+        "otacky": "1470 ot/min",
+        "vyska": "132 mm",
+        "zona": "Zóna 2 / 22",
+        "hmotnost": "62 kg"
+      },
+      {
+        "typ": "1MB1553-1DB4",
+        "vykon": "15,0 kW",
+        "otacky": "1475 ot/min",
+        "vyska": "160 mm",
+        "zona": "Zóna 2 / 22",
+        "hmotnost": "112 kg"
+      },
+      {
+        "typ": "1MB1553-2AB5",
+        "vykon": "30,0 kW",
+        "otacky": "1480 ot/min",
+        "vyska": "200 mm",
+        "zona": "Zóna 2 / 22",
+        "hmotnost": "255 kg"
+      }
+    ]
+  },
+  {
+    "id": "1la9-zvyseny-vykon",
+    "code": "1LA9/1LG4",
+    "name": "SIEMENS 1LA9 / 1LG4 – Řada se zvýšeným výkonem",
+    "category": "standard",
+    "category_name": "Standardní asynchronní motory",
+    "power_range": "0,18 kW až 45 kW",
+    "speeds": "3000 / 1500 / 1000 ot/min",
+    "frame_sizes": "56M až 225M",
+    "frame_material": "Hliník / Litina",
+    "efficiency": "IE1 / IE2",
+    "protection": "IP55",
+    "cooling": "IC 411",
+    "insulation": "Třída F",
+    "voltage": "230V / 400V, 400V / 690V",
+    "mounting": "IM B3, IM B5, IM B14",
+    "image": "assets/01.jpg",
+    "short_desc": "Elektromotory nabízející o 1 až 2 stupně vyšší jmenovitý výkon při zachování menší osové výšky. Nepostradatelné pro rekonstrukce strojů s omezeným montážním prostorem.",
+    "specs": [
+      {
+        "typ": "1LA9-083-2LA",
+        "vykon": "1,5 kW",
+        "otacky": "2860 ot/min",
+        "vyska": "80 mm (standardně 90)",
+        "hmotnost": "12,5 kg"
+      },
+      {
+        "typ": "1LA9-096-2LA",
+        "vykon": "3,0 kW",
+        "otacky": "2880 ot/min",
+        "vyska": "90 mm (standardně 100)",
+        "hmotnost": "18,0 kg"
+      },
+      {
+        "typ": "1LA9-113-2LA",
+        "vykon": "5,5 kW",
+        "otacky": "2910 ot/min",
+        "vyska": "112 mm (standardně 132)",
+        "hmotnost": "34,0 kg"
+      },
+      {
+        "typ": "1LA9-133-2LA",
+        "vykon": "11,0 kW",
+        "otacky": "2930 ot/min",
+        "vyska": "132 mm (standardně 160)",
+        "hmotnost": "64,0 kg"
+      }
+    ]
+  },
+  {
+    "id": "1la7-dvouobratkove",
+    "code": "1LA7-DVOUOBR",
+    "name": "SIEMENS 1LA7 – Dvouobrátkové elektromotory",
+    "category": "special",
+    "category_name": "Speciální motory a příslušenství",
+    "power_range": "0,15 kW až 18 kW",
+    "speeds": "1400/2800 ot/min (4/2 póly), 700/1400 ot/min (8/4 póly), 900/1400 ot/min (6/4 póly)",
+    "frame_sizes": "63M až 160L",
+    "frame_material": "Hliníková slitina",
+    "efficiency": "Standardní dle zapojení",
+    "protection": "IP55",
+    "cooling": "IC 411",
+    "insulation": "Třída F",
+    "voltage": "400V, 50 Hz",
+    "mounting": "IM B3, IM B5, IM B14",
+    "image": "assets/foto1.jpg",
+    "short_desc": "Přepínatelné asynchronní motory nakrátko pro aplikace s dvěma pevnými provozními rychlostmi. K dispozici v provedení s konstantním točivým momentem nebo pro ventilátory.",
+    "specs": [
+      {
+        "typ": "1LA7070-0AA",
+        "vykon": "0,25 / 0,37 kW",
+        "otacky": "1400 / 2800 ot/min",
+        "vyska": "71 mm",
+        "ucel": "Konstantní moment",
+        "hmotnost": "6,5 kg"
+      },
+      {
+        "typ": "1LA7080-0AA",
+        "vykon": "0,55 / 0,75 kW",
+        "otacky": "1400 / 2800 ot/min",
+        "vyska": "80 mm",
+        "ucel": "Konstantní moment",
+        "hmotnost": "10,5 kg"
+      },
+      {
+        "typ": "1LA7090-0BA",
+        "vykon": "1,1 / 1,5 kW",
+        "otacky": "1400 / 2800 ot/min",
+        "vyska": "90 mm",
+        "ucel": "Pohon ventilátorů",
+        "hmotnost": "15,5 kg"
+      },
+      {
+        "typ": "1LA7113-0BA",
+        "vykon": "3,0 / 4,4 kW",
+        "otacky": "1400 / 2800 ot/min",
+        "vyska": "112 mm",
+        "ucel": "Pohon ventilátorů",
+        "hmotnost": "32,0 kg"
+      }
+    ]
+  },
+  {
+    "id": "1lf7-jednofazove",
+    "code": "1LF7",
+    "name": "SIEMENS 1LF7 – Jednofázové elektromotory 230 V",
+    "category": "special",
+    "category_name": "Speciální motory a příslušenství",
+    "power_range": "0,12 kW až 3,0 kW",
+    "speeds": "3000 / 1500 ot/min (2800, 1400 ot/min)",
+    "frame_sizes": "63M až 100L",
+    "frame_material": "Hliníkový plášť s integrovaným kondenzátorem",
+    "efficiency": "Standardní jednofázová",
+    "protection": "IP55",
+    "cooling": "IC 411",
+    "insulation": "Třída F",
+    "voltage": "1× 230 V AC, 50 Hz",
+    "mounting": "IM B3, IM B5, IM B14",
+    "image": "assets/05.jpg",
+    "short_desc": "Jednofázové asynchronní motory napájené z běžné sítě 230 V. Řada 1LF7-AB s běhovým kondenzátorem pro ventilátory a řada 1LF7-AE s rozběhovým kondenzátorem pro kompresory a pily.",
+    "specs": [
+      {
+        "typ": "1LF7063-2AB",
+        "vykon": "0,25 kW",
+        "otacky": "2800 ot/min",
+        "vyska": "63 mm",
+        "rozbeh": "Běhový kondenzátor",
+        "hmotnost": "4,5 kg"
+      },
+      {
+        "typ": "1LF7073-2AB",
+        "vykon": "0,55 kW",
+        "otacky": "2800 ot/min",
+        "vyska": "71 mm",
+        "rozbeh": "Běhový kondenzátor",
+        "hmotnost": "7,5 kg"
+      },
+      {
+        "typ": "1LF7083-2AE",
+        "vykon": "1,10 kW",
+        "otacky": "2800 ot/min",
+        "vyska": "80 mm",
+        "rozbeh": "Těžký rozběh (odstředivý spínač)",
+        "hmotnost": "13,0 kg"
+      },
+      {
+        "typ": "1LF7096-2AE",
+        "vykon": "2,20 kW",
+        "otacky": "2800 ot/min",
+        "vyska": "90 mm",
+        "rozbeh": "Těžký rozběh (odstředivý spínač)",
+        "hmotnost": "19,5 kg"
+      }
+    ]
+  },
+  {
+    "id": "krouzkove-p-vp-r",
+    "code": "P/VP/R/VR",
+    "name": "Kroužkové elektromotory P, VP, R, VR – Jeřábové a hutní",
+    "category": "heavy_duty",
+    "category_name": "Těžký těžební a chemický průmysl",
+    "power_range": "2,2 kW až 132 kW",
+    "speeds": "1500 / 1000 / 750 / 580 ot/min",
+    "frame_sizes": "132M až 355L",
+    "frame_material": "Odolná šedá litina / svařovaná ocel",
+    "efficiency": "Kroužková konstrukce s vinutým rotorem",
+    "protection": "IP54 / IP55",
+    "cooling": "IC 411",
+    "insulation": "Třída F / H",
+    "voltage": "400V / 500V, 50 Hz",
+    "mounting": "IM B3 (patkové), IM V1 (svislé jeřábové)",
+    "image": "assets/06.jpg",
+    "short_desc": "Trojfázové kroužkové asynchronní motory s vinutým rotorem a kartáčovým ústrojím. Určeny pro těžké rozběhy pod plnou zátěží, zdvihadla, těžební vrátky, lisy a kulové mlýny.",
+    "specs": [
+      {
+        "typ": "P-160M-06",
+        "vykon": "7,5 kW",
+        "otacky": "940 ot/min",
+        "vyska": "160 mm",
+        "pouziti": "Jeřábové zdvihy",
+        "hmotnost": "125 kg"
+      },
+      {
+        "typ": "P-180L-06",
+        "vykon": "15,0 kW",
+        "otacky": "950 ot/min",
+        "vyska": "180 mm",
+        "pouziti": "Jeřábové pojezdy",
+        "hmotnost": "190 kg"
+      },
+      {
+        "typ": "R-200L-06",
+        "vykon": "22,0 kW",
+        "otacky": "960 ot/min",
+        "vyska": "200 mm",
+        "pouziti": "Těžké lisy a drtiče",
+        "hmotnost": "285 kg"
+      },
+      {
+        "typ": "R-250M-08",
+        "vykon": "45,0 kW",
+        "otacky": "720 ot/min",
+        "vyska": "250 mm",
+        "pouziti": "Mlýny a dopravníky",
+        "hmotnost": "510 kg"
+      }
+    ]
+  },
+  {
+    "id": "snekovo-celni-prevodovky",
+    "code": "PREVODOVKY",
+    "name": "Průmyslové šnekové a čelní převodovky",
+    "category": "components",
+    "category_name": "Pohonářské komponenty a měniče",
+    "power_range": "Pro motory 0,09 kW až 30 kW",
+    "speeds": "Výstupní otáčky 0,5 až 500 ot/min dle převodového poměru",
+    "frame_sizes": "Velikosti NMRV 025 až 150, čelní řady C / F",
+    "frame_material": "Hliník (vel. 25–90) / Šedá litina (vel. 110–150)",
+    "efficiency": "Až 96 % u kuželočelních soukolí",
+    "protection": "IP55 / IP65",
+    "cooling": "Přirozený odvod tepla žebrováním",
+    "insulation": "Syntetická celoživotní olejová náplň ISO VG 320",
+    "voltage": "Přírubové napojení dle normy IEC (B5, B14)",
+    "mounting": "Univerzální patkové i přírubové, dutá hřídel s perodrážkou",
+    "image": "assets/07.jpg",
+    "short_desc": "Kompaktní mechanické převodovky navržené pro přímé spojení s motory SIEMENS 1LE1 přes IEC přírubu. Vysoký krouticí moment, tichý chod a bezúdržbový provoz s dlouhou životností.",
+    "specs": [
+      {
+        "typ": "NMRV 040",
+        "prevod": "i = 7,5 až 100",
+        "motor": "0,12 – 0,37 kW",
+        "max_moment": "45 Nm",
+        "hdel": "Dutá d=18 mm",
+        "hmotnost": "2,3 kg"
+      },
+      {
+        "typ": "NMRV 063",
+        "prevod": "i = 7,5 až 100",
+        "motor": "0,37 – 1,50 kW",
+        "max_moment": "160 Nm",
+        "hdel": "Dutá d=25 mm",
+        "hmotnost": "6,2 kg"
+      },
+      {
+        "typ": "NMRV 090",
+        "prevod": "i = 7,5 až 100",
+        "motor": "1,10 – 4,00 kW",
+        "max_moment": "380 Nm",
+        "hdel": "Dutá d=35 mm",
+        "hmotnost": "13,0 kg"
+      },
+      {
+        "typ": "NMRV 130",
+        "prevod": "i = 7,5 až 100",
+        "motor": "3,00 – 9,20 kW",
+        "max_moment": "1050 Nm",
+        "hdel": "Dutá d=45 mm",
+        "hmotnost": "48,0 kg"
+      }
+    ]
+  },
+  {
+    "id": "menice-sinamics",
+    "code": "SINAMICS",
+    "name": "Frekvenční měniče SIEMENS SINAMICS (V20 / G120)",
+    "category": "components",
+    "category_name": "Pohonářské komponenty a měniče",
+    "power_range": "0,12 kW až 132 kW",
+    "speeds": "Plynulá regulace frekvence 0 až 550 Hz",
+    "frame_sizes": "FSA až FSF",
+    "frame_material": "Kompaktní modulární pouzdro na DIN lištu nebo montážní desku",
+    "efficiency": "Až 98 % účinnost výkonové elektroniky",
+    "protection": "IP20 (volitelně krytí IP55 pro náročné prostředí)",
+    "cooling": "Nucená ventilace / chladič",
+    "insulation": "Integrovaný odrušovací EMC filtr třídy C1 / C2",
+    "voltage": "1× 230 V AC (do 3 kW), 3× 400 V AC (od 0,37 kW výše)",
+    "mounting": "Nástěnná montáž / montáž do rozváděče",
+    "image": "assets/1le1-imb3b5.jpg",
+    "short_desc": "Průmyslové měniče kmitočtu SIEMENS SINAMICS pro plynulé řízení otáček asynchronních motorů. Zajišťují měkký rozběh bez proudových rázů, brzdění do sítě a úsporu až 60 % energie.",
+    "specs": [
+      {
+        "typ": "SINAMICS V20 - 0,37 kW",
+        "napajeni": "1× 230 V",
+        "vystup": "0,37 kW / 2,3 A",
+        "rozmery": "68 × 142 × 108 mm",
+        "komunikace": "USS / Modbus RTU"
+      },
+      {
+        "typ": "SINAMICS V20 - 1,5 kW",
+        "napajeni": "3× 400 V",
+        "vystup": "1,5 kW / 4,1 A",
+        "rozmery": "90 × 166 × 146 mm",
+        "komunikace": "USS / Modbus RTU"
+      },
+      {
+        "typ": "SINAMICS V20 - 5,5 kW",
+        "napajeni": "3× 400 V",
+        "vystup": "5,5 kW / 12,5 A",
+        "rozmery": "140 × 160 × 165 mm",
+        "komunikace": "USS / Modbus RTU"
+      },
+      {
+        "typ": "SINAMICS G120 - 15 kW",
+        "napajeni": "3× 400 V",
+        "vystup": "15,0 kW / 31 A",
+        "rozmery": "Modulární PM240",
+        "komunikace": "PROFINET / PROFIBUS"
+      }
+    ]
+  },
+  {
+    "id": "mez-prepravnik-nahrady",
+    "code": "MEZ-NAHRADY",
+    "name": "Převodník a přímé náhrady za staré motory MEZ",
+    "category": "standard",
+    "category_name": "Standardní asynchronní motory",
+    "power_range": "0,12 kW až 160 kW",
+    "speeds": "3000, 1500, 1000, 750 ot/min",
+    "frame_sizes": "Náhrady za osové výšky 63 až 315 mm",
+    "frame_material": "Přechodové příruby a mezikusy pro 100% rozměrovou shodu",
+    "efficiency": "Přechod z původních neklasifikovaných motorů na IE2 / IE3",
+    "protection": "IP55 (oproti původnímu IP44 u MEZ)",
+    "cooling": "IC 411",
+    "insulation": "Třída F (původní MEZ motory mívaly třídu E / B)",
+    "voltage": "Standardní napěťové hladiny 230/400V a 400/690V",
+    "mounting": "Patky a příruby se shodnými roztečemi šroubů",
+    "image": "assets/01.jpg",
+    "short_desc": "Odborná náhrada dosluhujících motorů MEZ Mohelnice, Vsetín a Frenštát (řady 4AP, 7AA, 7BA, 1LA7). Okamžitá náhrada kus za kus bez nutnosti mechanických úprav základové desky.",
+    "specs": [
+      {
+        "puvodni": "4AP63-2 / 7AA63M02",
+        "vykon": "0,25 kW / 2800 ot",
+        "nahrada": "SIEMENS 1LE1002-0BA32",
+        "shoda": "100% osová výška i průměr hřídele d=11 mm"
+      },
+      {
+        "puvodni": "4AP71-2 / 7AA71M02",
+        "vykon": "0,37 kW / 2800 ot",
+        "nahrada": "SIEMENS 1LE1002-0CA22",
+        "shoda": "100% osová výška i průměr hřídele d=14 mm"
+      },
+      {
+        "puvodni": "4AP80-4 / 7AA80M04",
+        "vykon": "0,75 kW / 1400 ot",
+        "nahrada": "SIEMENS 1LE1001-0DB32",
+        "shoda": "100% osová výška i průměr hřídele d=19 mm"
+      },
+      {
+        "puvodni": "4AP90L-4 / 7AA90L04",
+        "vykon": "1,5 kW / 1400 ot",
+        "nahrada": "SIEMENS 1LE1001-0EB42",
+        "shoda": "100% osová výška i průměr hřídele d=24 mm"
+      },
+      {
+        "puvodni": "1LA7130-4AA10",
+        "vykon": "5,5 kW / 1400 ot",
+        "nahrada": "SIEMENS 1LE1001-1CB03",
+        "shoda": "Přímá náhrada novou generací 1LE1"
+      },
+      {
+        "puvodni": "1LA7163-4AA10",
+        "vykon": "11,0 kW / 1400 ot",
+        "nahrada": "SIEMENS 1LE1001-1DB43",
+        "shoda": "Přímá náhrada novou generací 1LE1"
+      }
+    ]
+  }
+]

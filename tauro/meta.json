@@ -1,0 +1,37 @@
+{
+  "slug": "tauro",
+  "firma": "TAURO, a.s.",
+  "ico": "25292749",
+  "obec": "Podomí",
+  "okres": "Vyškov",
+  "kraj": "Jihomoravský kraj",
+  "obor_plny": "Zakázkové svařování ocelových dílů do 3 tun, lisování a tváření kovů (25-160 t), výroba certifikovaných trezorů dle ČSN EN 1143-1, regálových systémů a krbových vložek",
+  "archetyp": "Tech & Precision",
+  "stary_web": "http://tauro.cz",
+  "email": "info@tauro.cz",
+  "prodejni_body": [
+    "✓ Certifikovaná výroba komerčních trezorů dle ČSN EN 1143-1 bezpečnostní třídy I a II s prověřením NBÚ pro stupeň Tajné",
+    "✓ Strojírenské svařence o hmotnosti až 3 000 kg metodami MIG/MAG, TIG, MMA a lisovací kapacity 25 až 160 tun",
+    "✓ Komplexní kooperační výroba regálových komponent, fotovoltaických konstrukcí a krbových vložek od roku 1998"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečený provoz na protokolu HTTP bez SSL/TLS šifrování",
+    "Absence meta viewportu – web není mobilně responzivní a vyžaduje horizontální scrollování a manuální zoomování",
+    "Archaický fixní layout z roku 2011 s nefunkčními skripty a špatně čitelnými technickými tabulkami"
+  ],
+  "vylepseni_noveho_webu": [
+    "Moderní responzivní architektura v archetypu Tech & Precision s nulovým přetečením na mobilních displejích",
+    "Interaktivní technologický katalog 21 výrobních programů s kategoriemi a detailním technickým modálním oknem",
+    "Ověřená GPS lokalizace výrobního areálu v Podomí s červeným Mapy.cz špendlíkem a přímými kontakty na vedení a mistry výroby"
+  ],
+  "fakta": {
+    "rok_zalozeni": 1998,
+    "max_hmotnost_svarce_kg": 3000,
+    "lisovaci_sila_t": "25 - 160",
+    "bezpecnostni_tridy_trezoru": "Třída I a II dle ČSN EN 1143-1",
+    "adresa": "č.p. 9, 683 04 Podomí"
+  },
+  "jazyky": [
+    "CZ"
+  ]
+}

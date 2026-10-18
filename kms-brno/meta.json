@@ -1,0 +1,55 @@
+{
+  "slug": "kms-brno",
+  "firma": "KMS BRNO s.r.o.",
+  "ico": "26306727",
+  "dic": "CZ26306727",
+  "obec": "Střelice",
+  "okres": "Brno-venkov",
+  "kraj": "Jihomoravský kraj",
+  "adresa": "Nádražní 557/36, 664 47 Střelice",
+  "vyrobni_hala": "Areál firmy Metalpres s.r.o., Stará osada 94, 664 84 Zastávka u Brna",
+  "telefon": "+420 604 206 331",
+  "telefon_fax": "+420 547 239 850",
+  "email": "martikan@kmsbrno.com",
+  "stary_web": "http://kmsbrno.cz",
+  "obor_plny": "Strojírenská výroba & Jednoúčelové stroje / Konstrukce, 3D návrh (CAD) a výroba jednoúčelových strojů a automatizovaných linek, montážní a kontrolní přípravky pro automotive, strojírenství a elektrotechniku, robotická pracoviště, řídicí systémy PLC (Siemens Simatic, Allen-Bradley), elektroprojekce a uvádění do provozu",
+  "archetyp": "Editorial & Story",
+  "jazyky": [
+    "CZ"
+  ],
+  "prodejni_body": [
+    "Více než 20 let specializovaného vývoje a výroby jednoúčelových strojů a linek navazující na tradici Strojírny Zbrojovky Brno",
+    "Referenční portfolio těžkého průmyslu a automotive: Siemens Frenštát a Mohelnice, Bonatrans Bohumín, FAB Rychnov (ASSA ABLOY), VIADRUS a Třinecké železárny",
+    "Komplexní inženýrský cyklus od 3D CAD projekce přes montáž v hale s mostovým jeřábem 12,5 t až po řízení CNC/PLC a oživení",
+    "Výroba strojů o hmotnosti 10 až 30 tun s mikrometrickou přesností a plnou shodou dle norem ČSN EN ISO 12100 a ČSN EN 60204-1 (CE)",
+    "Nový moderní Editorial & Story web s interaktivním katalogem 14 zařízení, vyhledáváním dle odvětví a technickým modálním oknem specifikací"
+  ],
+  "vady_stareho_webu": [
+    "Nezabezpečené spojení HTTP bez platného SSL certifikátu (prohlížeče varují uživatele před bezpečnostním rizikem)",
+    "Chybějící značka meta viewport a nulová mobilní responzivita (na telefonech vyžaduje nepohodlné posouvání do stran a zoomování)",
+    "Zastaralý fixní tabulkový layout z roku 2008 s nízkým rozlišením grafiky a nečitelností na moderních zařízeních",
+    "Statická fotogalerie s drobnými náhledy a skrytými technickými parametry bez možnosti vyhledávání a filtrování dle oboru",
+    "Absence strukturovaného poptávkového formuláře a chybějící moderní mapová navigace s přesnou lokalizací haly a sídla"
+  ],
+  "vylepseni_noveho_webu": [
+    "Autentický Editorial & Story design s vertikální časovou osou historie od kořenů ve Zbrojovce Brno a plovoucími statistikami",
+    "Interaktivní technický katalog 14 realizovaných strojů s filtrováním (Automotive, Elektrotechnika, Strojírenství) a živým fulltextem",
+    "Technické modální okno (#techModalBackdrop) s fotogalerií a přehlednou tabulkou parametrů v responzivním kontejneru",
+    "100% mobilní responzivita s nulovým horizontálním přetečením (0px overflow) na všech typech displejů",
+    "Ověřená geografická lokalizace sídla ve Střelicích a areálu v Zastávce s interaktivní Mapy.cz mapou a červeným RÚIAN špendlíkem"
+  ],
+  "fakta": {
+    "rok_zalozeni": 2002,
+    "praxe_let": 24,
+    "stroju_v_katalogu": 14,
+    "nosnost_jerabu_t": 12.5,
+    "max_hmotnost_stroje_t": 30,
+    "jednatele": [
+      "Ing. Jaroslav Martikan"
+    ],
+    "gps": {
+      "lat": 49.15472,
+      "lon": 16.4843
+    }
+  }
+}

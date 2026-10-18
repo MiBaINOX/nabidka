@@ -1,0 +1,565 @@
+{
+  "total_pages": 23,
+  "pages": [
+    {
+      "url": "http://tauro.cz/",
+      "title": "Výrobní firma TAURO a.s. | Svařování, lisování a obrábění všech typů kovů"
+    },
+    {
+      "url": "http://tauro.cz/bezpecnostni-schranky_tauro.html",
+      "title": "Bezpečnostní schránky | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/fotovoltaicke-elektrarny.html",
+      "title": "Komponenty pro fotovoltaické elektrárny | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/index.html",
+      "title": "Výrobní firma TAURO a.s. | Svařování, lisování a obrábění všech typů kovů"
+    },
+    {
+      "url": "http://tauro.cz/ivo-koblasa.html",
+      "title": "Ivo Koblasa | Výrobní firma TAURO a.s. Sponzoring"
+    },
+    {
+      "url": "http://tauro.cz/kazety-vrtaky_tauro.html",
+      "title": "Kazety na vrtáky | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/kolobezky.html",
+      "title": "Turistické a závodní Koloběžky | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky.html",
+      "title": "Krbové vložky a krby | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/nabytkove-trezory-vhozove_tauro.html",
+      "title": "Nábytkové trezory vhozové | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/nabytkove-trezory_tauro.html",
+      "title": "Nábytkové trezory | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/provedeni-trezoru_tauro.html",
+      "title": "Provedení trezorů | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy.html",
+      "title": "Komponenty pro regálové systémy | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/skrine-a-bezpecnostni-schranky-na-zbrane_tauro.html",
+      "title": "Skříně a bezpečnostní schránky na zbraně | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/sluzby_tauro.html",
+      "title": "Výrobní firma TAURO a.s. | Služby"
+    },
+    {
+      "url": "http://tauro.cz/svarovane-dily.html",
+      "title": "Svařované díly | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/tauro-kontakty.html",
+      "title": "Výrobní firma TAURO a.s. | kontakty společnosti a mapa"
+    },
+    {
+      "url": "http://tauro.cz/tauro-produkty.html",
+      "title": "Výrobní firma TAURO a.s. | Přehled produktů"
+    },
+    {
+      "url": "http://tauro.cz/tauro-spolecnost.html",
+      "title": "Výrobní firma TAURO a.s. | Historie společnosti, zaměření a vize"
+    },
+    {
+      "url": "http://tauro.cz/tauro_obchodni-podminky.html",
+      "title": "Výrobní firma TAURO a.s. | Obchodní podmínky"
+    },
+    {
+      "url": "http://tauro.cz/trezory-do-zdi-vhozove_tauro.html",
+      "title": "Vhozové trezory do zdi  | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/trezory-do-zdi_tauro.html",
+      "title": "Trezory do zdi | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/trezory-na-zakazku_tauro.html",
+      "title": "Trezory na zakázku | Výrobní firma TAURO a.s."
+    },
+    {
+      "url": "http://tauro.cz/trezory-prehled_tauro.html",
+      "title": "Komerční trezory - Přehled typů | Výrobní firma TAURO a.s."
+    }
+  ],
+  "total_images_found": 91,
+  "total_images_downloaded": 91,
+  "images": [
+    {
+      "url": "http://tauro.cz/trezory/provedeni-trezoru_prev.jpg",
+      "file": "provedeni-trezoru_prev.jpg",
+      "size": 6136
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky/krby-typ-b_prev.jpg",
+      "file": "krby-typ-b_prev.jpg",
+      "size": 4473
+    },
+    {
+      "url": "http://tauro.cz/komponenty-fotovoltaika/solarni-elektrarny-nerezove-komponenty2prev.jpg",
+      "file": "solarni-elektrarny-nerezove-komponenty2prev.jpg",
+      "size": 3411
+    },
+    {
+      "url": "http://tauro.cz/images/portfolio/1b.jpg",
+      "file": "1b.jpg",
+      "size": 2480
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy/regalove-systemy_index.jpg",
+      "file": "regalove-systemy_index.jpg",
+      "size": 22413
+    },
+    {
+      "url": "http://tauro.cz/koblasa/image001nahled.jpg",
+      "file": "image001nahled.jpg",
+      "size": 19578
+    },
+    {
+      "url": "http://tauro.cz/images/svarovane-dily.jpg",
+      "file": "svarovane-dily.jpg",
+      "size": 100515
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy/regalove-systemy03prev.jpg",
+      "file": "regalove-systemy03prev.jpg",
+      "size": 6146
+    },
+    {
+      "url": "http://tauro.cz/kazety-vrtaky/kazety-vrtaky_detail.jpg",
+      "file": "kazety-vrtaky_detail.jpg",
+      "size": 21680
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy/regalove-systemy_produkty-index.jpg",
+      "file": "regalove-systemy_produkty-index.jpg",
+      "size": 17560
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky/krbove-vlozky_produkty-index.jpg",
+      "file": "krbove-vlozky_produkty-index.jpg",
+      "size": 10609
+    },
+    {
+      "url": "http://tauro.cz/trezory/skrin-pusky-pistole-zed.jpg",
+      "file": "skrin-pusky-pistole-zed.jpg",
+      "size": 12148
+    },
+    {
+      "url": "http://tauro.cz/komponenty-fotovoltaika/solarni-elektrarny-nerezove-komponenty1prev.jpg",
+      "file": "solarni-elektrarny-nerezove-komponenty1prev.jpg",
+      "size": 3359
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky/krbove-vlozky_atypicke-prev.jpg",
+      "file": "krbove-vlozky_atypicke-prev.jpg",
+      "size": 4400
+    },
+    {
+      "url": "http://tauro.cz/kolobezky/kolobezky_zavodni-prev.jpg",
+      "file": "kolobezky_zavodni-prev.jpg",
+      "size": 16158
+    },
+    {
+      "url": "http://tauro.cz/komponenty-fotovoltaika/komponenty-fotovoltaika.jpg",
+      "file": "komponenty-fotovoltaika.jpg",
+      "size": 40809
+    },
+    {
+      "url": "http://tauro.cz/komponenty-fotovoltaika/komponenty-fotovoltaika_produkty-index.jpg",
+      "file": "komponenty-fotovoltaika_produkty-index.jpg",
+      "size": 15574
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory_index.jpg",
+      "file": "trezory_index.jpg",
+      "size": 13457
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy/regalove-systemy06prev.jpg",
+      "file": "regalove-systemy06prev.jpg",
+      "size": 4781
+    },
+    {
+      "url": "http://tauro.cz/koblasa/image001prev.jpg",
+      "file": "image001prev.jpg",
+      "size": 4665
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky/krbove-vlozky_index.jpg",
+      "file": "krbove-vlozky_index.jpg",
+      "size": 14578
+    },
+    {
+      "url": "http://tauro.cz/svarovane-dily/svarovane-dily_produkty-index.jpg",
+      "file": "svarovane-dily_produkty-index.jpg",
+      "size": 13789
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory_banner02.jpg",
+      "file": "trezory_banner02.jpg",
+      "size": 45894
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/trezor-sirka.gif",
+      "file": "trezor-sirka.gif",
+      "size": 4081
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/trezor-sirka_vnitrni.gif",
+      "file": "trezor-sirka_vnitrni.gif",
+      "size": 4086
+    },
+    {
+      "url": "http://tauro.cz/trezory/nabytkove-trezory-vhozove.jpg",
+      "file": "nabytkove-trezory-vhozove.jpg",
+      "size": 6970
+    },
+    {
+      "url": "http://tauro.cz/images/ivo-kloblasa01prev.jpg",
+      "file": "ivo-kloblasa01prev.jpg",
+      "size": 8017
+    },
+    {
+      "url": "http://tauro.cz/images/ivo-kloblasa07prev.jpg",
+      "file": "ivo-kloblasa07prev.jpg",
+      "size": 12022
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/nbu.gif",
+      "file": "nbu.gif",
+      "size": 3894
+    },
+    {
+      "url": "http://tauro.cz/images/tauro-uvod02.jpg",
+      "file": "tauro-uvod02.jpg",
+      "size": 115170
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/bezpecnostni-trida.gif",
+      "file": "bezpecnostni-trida.gif",
+      "size": 4000
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-do-zdi_prev.jpg",
+      "file": "trezory-do-zdi_prev.jpg",
+      "size": 6172
+    },
+    {
+      "url": "http://tauro.cz/trezory/nabytkove-trezory_prev.jpg",
+      "file": "nabytkove-trezory_prev.jpg",
+      "size": 4525
+    },
+    {
+      "url": "http://tauro.cz/images/tauro-profil.jpg",
+      "file": "tauro-profil.jpg",
+      "size": 44277
+    },
+    {
+      "url": "http://tauro.cz/images/tauro-mapa.gif",
+      "file": "tauro-mapa.gif",
+      "size": 24934
+    },
+    {
+      "url": "http://tauro.cz/svarovane-dily/svarovane-dily_index.jpg",
+      "file": "svarovane-dily_index.jpg",
+      "size": 21634
+    },
+    {
+      "url": "http://tauro.cz/trezory/skrine-schranky-zbrane_prev.jpg",
+      "file": "skrine-schranky-zbrane_prev.jpg",
+      "size": 3665
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-zakazka2.jpg",
+      "file": "trezory-zakazka2.jpg",
+      "size": 11303
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/trezor-vyska_vnitrni.gif",
+      "file": "trezor-vyska_vnitrni.gif",
+      "size": 4095
+    },
+    {
+      "url": "http://tauro.cz/images/ivo-kloblasa_butt.jpg",
+      "file": "ivo-kloblasa_butt.jpg",
+      "size": 5471
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-zakazka1.jpg",
+      "file": "trezory-zakazka1.jpg",
+      "size": 8488
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-vhozove-do-zdi.jpg",
+      "file": "trezory-vhozove-do-zdi.jpg",
+      "size": 9826
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-do-zdi.jpg",
+      "file": "trezory-do-zdi.jpg",
+      "size": 11538
+    },
+    {
+      "url": "http://tauro.cz/trezory/bezpecnostni-schranky.jpg",
+      "file": "bezpecnostni-schranky.jpg",
+      "size": 6956
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/trezor-vyska.gif",
+      "file": "trezor-vyska.gif",
+      "size": 4075
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy/regalove-systemy05prev.jpg",
+      "file": "regalove-systemy05prev.jpg",
+      "size": 7397
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky/krbove-vlozky_banner01.jpg",
+      "file": "krbove-vlozky_banner01.jpg",
+      "size": 70960
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy/regalove-systemy01prev.jpg",
+      "file": "regalove-systemy01prev.jpg",
+      "size": 5300
+    },
+    {
+      "url": "http://tauro.cz/svarovane-dily/svarovane-dily_produkt4prev.jpg",
+      "file": "svarovane-dily_produkt4prev.jpg",
+      "size": 10740
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/trezor-hloubka_vnitrni.gif",
+      "file": "trezor-hloubka_vnitrni.gif",
+      "size": 4197
+    },
+    {
+      "url": "http://tauro.cz/images/logo.png",
+      "file": "logo.png",
+      "size": 1504
+    },
+    {
+      "url": "http://tauro.cz/trezory/provedeni-trezoru.jpg",
+      "file": "provedeni-trezoru.jpg",
+      "size": 42522
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/trezor-hloubka.gif",
+      "file": "trezor-hloubka.gif",
+      "size": 4080
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/sanon.gif",
+      "file": "sanon.gif",
+      "size": 4018
+    },
+    {
+      "url": "http://tauro.cz/kolobezky/kolobezky_produkty-index.jpg",
+      "file": "kolobezky_produkty-index.jpg",
+      "size": 6239
+    },
+    {
+      "url": "http://tauro.cz/sluzby/sluzby_produkty-index.jpg",
+      "file": "sluzby_produkty-index.jpg",
+      "size": 11502
+    },
+    {
+      "url": "http://tauro.cz/images/slider_right.gif",
+      "file": "slider_right.gif",
+      "size": 54
+    },
+    {
+      "url": "http://tauro.cz/images/ivo-koblasa-rio-small01.jpg",
+      "file": "ivo-koblasa-rio-small01.jpg",
+      "size": 8466
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy/regalove-systemy02prev.jpg",
+      "file": "regalove-systemy02prev.jpg",
+      "size": 7214
+    },
+    {
+      "url": "http://tauro.cz/svarovane-dily/svarovane-dily_pluh-detail.jpg",
+      "file": "svarovane-dily_pluh-detail.jpg",
+      "size": 32336
+    },
+    {
+      "url": "http://tauro.cz/images/tauro-uvod01.jpg",
+      "file": "tauro-uvod01.jpg",
+      "size": 119314
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky/krbove-vlozky_bio-prev.jpg",
+      "file": "krbove-vlozky_bio-prev.jpg",
+      "size": 11004
+    },
+    {
+      "url": "http://tauro.cz/images/slider_left.gif",
+      "file": "slider_left.gif",
+      "size": 54
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy/regalove-systemy.jpg",
+      "file": "regalove-systemy.jpg",
+      "size": 40144
+    },
+    {
+      "url": "http://tauro.cz/trezory/nabytkove-trezory-vhozove_prev.jpg",
+      "file": "nabytkove-trezory-vhozove_prev.jpg",
+      "size": 5073
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory_produkty-index.jpg",
+      "file": "trezory_produkty-index.jpg",
+      "size": 10655
+    },
+    {
+      "url": "http://tauro.cz/kolobezky/kolobezky_turisticke-prev.jpg",
+      "file": "kolobezky_turisticke-prev.jpg",
+      "size": 17321
+    },
+    {
+      "url": "http://tauro.cz/images/fotovoltaicke-elektrarny-komponenty.jpg",
+      "file": "fotovoltaicke-elektrarny-komponenty.jpg",
+      "size": 94690
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky/krbove-vlozky_teplovodni-prev.jpg",
+      "file": "krbove-vlozky_teplovodni-prev.jpg",
+      "size": 6403
+    },
+    {
+      "url": "http://tauro.cz/trezory/nabytkove-trezory.jpg",
+      "file": "nabytkove-trezory.jpg",
+      "size": 10285
+    },
+    {
+      "url": "http://tauro.cz/svarovane-dily/svarovane-dily_produkt2prev.jpg",
+      "file": "svarovane-dily_produkt2prev.jpg",
+      "size": 4098
+    },
+    {
+      "url": "http://tauro.cz/svarovane-dily/svarovane-dily_produkt3prev.jpg",
+      "file": "svarovane-dily_produkt3prev.jpg",
+      "size": 3848
+    },
+    {
+      "url": "http://tauro.cz/images/kazety-vrtaky.jpg",
+      "file": "kazety-vrtaky.jpg",
+      "size": 37924
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/trezor-hmotnost.gif",
+      "file": "trezor-hmotnost.gif",
+      "size": 5264
+    },
+    {
+      "url": "http://tauro.cz/images/ivo-kloblasa05prev.jpg",
+      "file": "ivo-kloblasa05prev.jpg",
+      "size": 6242
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory_banner01.jpg",
+      "file": "trezory_banner01.jpg",
+      "size": 41633
+    },
+    {
+      "url": "http://tauro.cz/images/kolobezky-tauro.jpg",
+      "file": "kolobezky-tauro.jpg",
+      "size": 72195
+    },
+    {
+      "url": "http://tauro.cz/images/ivo-koblasa-rio-small03.jpg",
+      "file": "ivo-koblasa-rio-small03.jpg",
+      "size": 12299
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky/krbove-vlozky_celolitinove-prev.jpg",
+      "file": "krbove-vlozky_celolitinove-prev.jpg",
+      "size": 3680
+    },
+    {
+      "url": "http://tauro.cz/images/sluzby-tauro.jpg",
+      "file": "sluzby-tauro.jpg",
+      "size": 71561
+    },
+    {
+      "url": "http://tauro.cz/images/regalove-systemy-komponenty.jpg",
+      "file": "regalove-systemy-komponenty.jpg",
+      "size": 74149
+    },
+    {
+      "url": "http://tauro.cz/regalove-systemy/regalove-systemy04prev.jpg",
+      "file": "regalove-systemy04prev.jpg",
+      "size": 4697
+    },
+    {
+      "url": "http://tauro.cz/trezory/bezpecnostni-schranky_prev.jpg",
+      "file": "bezpecnostni-schranky_prev.jpg",
+      "size": 4539
+    },
+    {
+      "url": "http://tauro.cz/images/ivo-koblasa-rio-small02.jpg",
+      "file": "ivo-koblasa-rio-small02.jpg",
+      "size": 9320
+    },
+    {
+      "url": "http://tauro.cz/svarovane-dily/svarovane-dily_produkt1prev.jpg",
+      "file": "svarovane-dily_produkt1prev.jpg",
+      "size": 2554
+    },
+    {
+      "url": "http://tauro.cz/komponenty-fotovoltaika/solarni-elektrarny-nerezove-komponenty3prev.jpg",
+      "file": "solarni-elektrarny-nerezove-komponenty3prev.jpg",
+      "size": 2874
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/trezor-objem.gif",
+      "file": "trezor-objem.gif",
+      "size": 4268
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-vhozove-do-zdi_prev.jpg",
+      "file": "trezory-vhozove-do-zdi_prev.jpg",
+      "size": 4636
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-ico/stena-tloustka.gif",
+      "file": "stena-tloustka.gif",
+      "size": 3930
+    },
+    {
+      "url": "http://tauro.cz/trezory/trezory-zakazka_prev.jpg",
+      "file": "trezory-zakazka_prev.jpg",
+      "size": 8300
+    },
+    {
+      "url": "http://tauro.cz/krbove-vlozky/krbove-vlozky_prev.jpg",
+      "file": "krbove-vlozky_prev.jpg",
+      "size": 8746
+    }
+  ],
+  "menu_categories": [
+    "Svařované díly",
+    "Komponenty pro regálové systémy",
+    "Krbové vložky",
+    "Komerční trezory",
+    "Komponenty pro fotovoltaické elektrárny",
+    "Společnost Tauro",
+    "Kontakty"
+  ]
+}
