@@ -141,6 +141,14 @@ const CERTS_DATA = {
   }
 };
 
+const CERTS_KEYS = [
+  "autorizace-emise",
+  "autorizace-posudky",
+  "autorizace-posudky-prodlouzeni",
+  "akreditace-cia",
+  "autorizace-rozptyl"
+];
+
 let currentCertKey = null;
 let currentCertPageIndex = 0;
 
@@ -154,6 +162,7 @@ function updateCertLbPage() {
 
   if (img) {
     img.src = data.pages[currentCertPageIndex];
+    img.classList.remove("is-zoomed");
     img.classList.remove("zoomed");
   }
   if (counter) {
@@ -167,7 +176,19 @@ function updateCertLbPage() {
   }
 }
 
+function openCertModal(input) {
+  let key = input;
+  if (typeof input === "number" || (typeof input === "string" && /^\d+$/.test(input))) {
+    const idx = parseInt(input, 10);
+    key = CERTS_KEYS[idx] || "autorizace-emise";
+  }
+  openCertLightbox(key);
+}
+
 function openCertLightbox(key) {
+  if (typeof key === "number" || (typeof key === "string" && /^\d+$/.test(key))) {
+    key = CERTS_KEYS[parseInt(key, 10)] || "autorizace-emise";
+  }
   const data = CERTS_DATA[key];
   if (!data) return;
   currentCertKey = key;
@@ -185,6 +206,7 @@ function openCertLightbox(key) {
   updateCertLbPage();
 
   if (lb) {
+    lb.classList.add("is-open");
     lb.style.display = "flex";
     lb.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
@@ -194,8 +216,12 @@ function openCertLightbox(key) {
 function closeCertLightbox() {
   const lb = document.getElementById("certLightbox");
   const img = document.getElementById("certLbImg");
-  if (img) img.classList.remove("zoomed");
+  if (img) {
+    img.classList.remove("is-zoomed");
+    img.classList.remove("zoomed");
+  }
   if (lb) {
+    lb.classList.remove("is-open");
     lb.style.display = "none";
     lb.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
@@ -219,10 +245,11 @@ function nextCertPage() {
 function toggleCertZoom() {
   const img = document.getElementById("certLbImg");
   if (img) {
-    img.classList.toggle("zoomed");
+    img.classList.toggle("is-zoomed");
   }
 }
 
+window.openCertModal = openCertModal;
 window.openCertLightbox = openCertLightbox;
 window.closeCertLightbox = closeCertLightbox;
 window.prevCertPage = prevCertPage;
