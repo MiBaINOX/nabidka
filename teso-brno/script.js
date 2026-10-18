@@ -89,12 +89,10 @@ const TECH_CATALOG = [
   }
 ];
 
-const CERTS_DATA = [
-  {
-    id: "autorizace-emise",
+const CERTS_DATA = {
+  "autorizace-emise": {
+    badge: "Autorizace MŽP",
     title: "Osvědčení o autorizaci MŽP – měření emisí",
-    authority: "Ministerstvo životního prostředí ČR",
-    law: "Zákon č. 201/2012 Sb. o ochraně ovzduší",
     pdf: "assets/certs/autorizace-mereni-emisi-2020.pdf",
     pages: [
       "assets/certs/emise_strana_1.jpg",
@@ -103,33 +101,27 @@ const CERTS_DATA = [
       "assets/certs/emise_strana_4.jpg"
     ]
   },
-  {
-    id: "autorizace-posudky",
+  "autorizace-posudky": {
+    badge: "Autorizace MŽP",
     title: "Osvědčení o autorizaci MŽP – odborné posudky",
-    authority: "Ministerstvo životního prostředí ČR",
-    law: "Zákon č. 201/2012 Sb. o ochraně ovzduší",
     pdf: "assets/certs/autorizace-odborne-posudky.pdf",
     pages: [
       "assets/certs/posudky_strana_1.jpg",
       "assets/certs/posudky_strana_2.jpg"
     ]
   },
-  {
-    id: "autorizace-posudky-prodlouzeni",
+  "autorizace-posudky-prodlouzeni": {
+    badge: "Prodloužení MŽP",
     title: "Rozhodnutí MŽP – prodloužení autorizace na odborné posudky",
-    authority: "Ministerstvo životního prostředí ČR",
-    law: "Zákon č. 201/2012 Sb. o ochraně ovzduší",
     pdf: "assets/certs/autorizace-odborne-posudky-prodlouzeni.pdf",
     pages: [
       "assets/certs/posudky_prodlouzeni_strana_1.jpg",
       "assets/certs/posudky_prodlouzeni_strana_2.jpg"
     ]
   },
-  {
-    id: "akreditace-cia",
+  "akreditace-cia": {
+    badge: "Akreditace ČIA",
     title: "Osvědčení o akreditaci ČIA – Zkušební laboratoř č. 1421",
-    authority: "Český institut pro akreditaci, o.p.s. (ČIA)",
-    law: "ČSN EN ISO/IEC 17025:2018",
     pdf: "assets/certs/osvedceni-o-akreditaci-cia-p355.pdf",
     pages: [
       "assets/certs/osvedceni-akreditace-cia-1421.jpg",
@@ -138,36 +130,124 @@ const CERTS_DATA = [
       "assets/certs/cia_priloha_strana_3.jpg"
     ]
   },
-  {
-    id: "autorizace-rozptyl",
+  "autorizace-rozptyl": {
+    badge: "Rozptylové studie",
     title: "Osvědčení o autorizaci MŽP – rozptylové studie",
-    authority: "Ministerstvo životního prostředí ČR",
-    law: "Zákon č. 201/2012 Sb. a metodika SYMOS97",
     pdf: "assets/certs/autorizace-rozptylove-studie.pdf",
     pages: [
       "assets/certs/rozptyl_strana_1.jpg",
       "assets/certs/rozptyl_strana_2.jpg"
     ]
   }
-];
+};
+
+let currentCertKey = null;
+let currentCertPageIndex = 0;
+
+function updateCertLbPage() {
+  const data = CERTS_DATA[currentCertKey];
+  if (!data || !data.pages) return;
+  const img = document.getElementById("certLbImg");
+  const counter = document.getElementById("certLbCounter");
+  const prevBtn = document.getElementById("certLbPrev");
+  const nextBtn = document.getElementById("certLbNext");
+
+  if (img) {
+    img.src = data.pages[currentCertPageIndex];
+    img.classList.remove("zoomed");
+  }
+  if (counter) {
+    counter.textContent = "Strana " + (currentCertPageIndex + 1) + " / " + data.pages.length;
+  }
+  if (prevBtn) {
+    prevBtn.disabled = (currentCertPageIndex === 0);
+  }
+  if (nextBtn) {
+    nextBtn.disabled = (currentCertPageIndex === data.pages.length - 1);
+  }
+}
+
+function openCertLightbox(key) {
+  const data = CERTS_DATA[key];
+  if (!data) return;
+  currentCertKey = key;
+  currentCertPageIndex = 0;
+
+  const lb = document.getElementById("certLightbox");
+  const badge = document.getElementById("certLbBadge");
+  const title = document.getElementById("certLbTitle");
+  const pdf = document.getElementById("certLbPdf");
+
+  if (badge) badge.textContent = data.badge;
+  if (title) title.textContent = data.title;
+  if (pdf) pdf.href = data.pdf;
+
+  updateCertLbPage();
+
+  if (lb) {
+    lb.style.display = "flex";
+    lb.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+}
+
+function closeCertLightbox() {
+  const lb = document.getElementById("certLightbox");
+  const img = document.getElementById("certLbImg");
+  if (img) img.classList.remove("zoomed");
+  if (lb) {
+    lb.style.display = "none";
+    lb.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+}
+
+function prevCertPage() {
+  const data = CERTS_DATA[currentCertKey];
+  if (!data || currentCertPageIndex <= 0) return;
+  currentCertPageIndex--;
+  updateCertLbPage();
+}
+
+function nextCertPage() {
+  const data = CERTS_DATA[currentCertKey];
+  if (!data || currentCertPageIndex >= data.pages.length - 1) return;
+  currentCertPageIndex++;
+  updateCertLbPage();
+}
+
+function toggleCertZoom() {
+  const img = document.getElementById("certLbImg");
+  if (img) {
+    img.classList.toggle("zoomed");
+  }
+}
+
+window.openCertLightbox = openCertLightbox;
+window.closeCertLightbox = closeCertLightbox;
+window.prevCertPage = prevCertPage;
+window.nextCertPage = nextCertPage;
+window.toggleCertZoom = toggleCertZoom;
 
 document.addEventListener("DOMContentLoaded", () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  if (urlParams.get("ref") === "nabidka") {
-    if (!sessionStorage.getItem("ping_sent_teso")) {
-      sessionStorage.setItem("ping_sent_teso", "1");
-      const record = { slug: "teso-brno", time: new Date().toISOString(), ua: navigator.userAgent };
-      localStorage.setItem("nabidka_open_teso-brno", JSON.stringify(record));
-      if (window.NABIDKA_PING_URL) {
-        const pingUrl = window.NABIDKA_PING_URL + "?slug=teso-brno&t=" + Date.now();
-        if (navigator.sendBeacon) {
-          navigator.sendBeacon(pingUrl);
-        } else {
-          new Image().src = pingUrl;
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get("ref") === "nabidka") {
+      if (!sessionStorage.getItem("ping_sent_teso")) {
+        sessionStorage.setItem("ping_sent_teso", "1");
+        const record = { slug: "teso-brno", time: new Date().toISOString(), ua: navigator.userAgent };
+        localStorage.setItem("nabidka_open_teso-brno", JSON.stringify(record));
+        if (window.NABIDKA_PING_URL) {
+          const pingUrl = window.NABIDKA_PING_URL + "?slug=teso-brno&t=" + Date.now();
+          if (navigator.sendBeacon) {
+            navigator.sendBeacon(pingUrl);
+          } else {
+            new Image().src = pingUrl;
+          }
         }
       }
     }
-  }
+  } catch (e) {}
 
   const mobileBtn = document.getElementById("mobileMenuBtn");
   const mobileNav = document.getElementById("mobileNav");
@@ -263,27 +343,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
     modal.style.display = "flex";
     modal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
   }
 
   window.closeModalFromBtn = function() {
     if (modal) {
       modal.style.display = "none";
       modal.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
     }
   };
 
   if (modalClose) {
     modalClose.addEventListener("click", () => {
-      modal.style.display = "none";
-      modal.setAttribute("aria-hidden", "true");
+      window.closeModalFromBtn();
     });
   }
 
   if (modal) {
     modal.addEventListener("click", (e) => {
       if (e.target === modal) {
-        modal.style.display = "none";
-        modal.setAttribute("aria-hidden", "true");
+        window.closeModalFromBtn();
       }
     });
   }
@@ -332,128 +412,32 @@ document.addEventListener("DOMContentLoaded", () => {
     counters.forEach(c => obs.observe(c));
   }
 
-  const certModal = document.getElementById("certLightboxModal");
-  const certTitle = document.getElementById("certModalTitle");
-  const certLaw = document.getElementById("certModalLaw");
-  const certImg = document.getElementById("certLightboxImg");
-  const certDownload = document.getElementById("certLightboxDownload");
-  const certPrev = document.getElementById("certPagePrev");
-  const certNext = document.getElementById("certPageNext");
-  const certInfo = document.getElementById("certPageInfo");
-  const certClose = document.getElementById("certLightboxClose");
-  const certZoomBtn = document.getElementById("certZoomBtn");
+  const lbClose = document.getElementById("certLbClose");
+  if (lbClose) lbClose.addEventListener("click", closeCertLightbox);
 
-  let currentCert = null;
-  let currentPageIndex = 0;
+  const lbPrev = document.getElementById("certLbPrev");
+  if (lbPrev) lbPrev.addEventListener("click", prevCertPage);
 
-  function setZoom(isZoomed) {
-    if (!certImg) return;
-    if (isZoomed) {
-      certImg.classList.add("zoomed");
-      if (certZoomBtn) {
-        certZoomBtn.classList.add("active");
-        certZoomBtn.textContent = "🔍 Zmenšit";
-      }
-    } else {
-      certImg.classList.remove("zoomed");
-      if (certZoomBtn) {
-        certZoomBtn.classList.remove("active");
-        certZoomBtn.textContent = "🔍 100% Zoom";
-      }
-    }
-  }
+  const lbNext = document.getElementById("certLbNext");
+  if (lbNext) lbNext.addEventListener("click", nextCertPage);
 
-  function toggleZoom() {
-    if (!certImg) return;
-    setZoom(!certImg.classList.contains("zoomed"));
-  }
+  const lbImg = document.getElementById("certLbImg");
+  if (lbImg) lbImg.addEventListener("click", toggleCertZoom);
 
-  function renderCertPage() {
-    if (!currentCert || !currentCert.pages || currentCert.pages.length === 0) return;
-    setZoom(false);
-    if (certImg) certImg.src = currentCert.pages[currentPageIndex];
-    if (certInfo) certInfo.textContent = "Strana " + (currentPageIndex + 1) + " / " + currentCert.pages.length;
-    if (certPrev) certPrev.disabled = (currentPageIndex === 0);
-    if (certNext) certNext.disabled = (currentPageIndex === currentCert.pages.length - 1);
-  }
-
-  function openCertLightbox(id) {
-    const cert = CERTS_DATA.find(c => c.id === id);
-    if (!cert) return;
-    currentCert = cert;
-    currentPageIndex = 0;
-    if (certTitle) certTitle.textContent = cert.title;
-    if (certLaw) certLaw.textContent = cert.authority + " • " + cert.law;
-    if (certDownload) certDownload.href = cert.pdf;
-    renderCertPage();
-    if (certModal) {
-      certModal.style.display = "flex";
-      certModal.setAttribute("aria-hidden", "false");
-    }
-  }
-
-  function closeCertLightbox() {
-    setZoom(false);
-    if (certModal) {
-      certModal.style.display = "none";
-      certModal.setAttribute("aria-hidden", "true");
-    }
-  }
-
-  window.openCertLightbox = openCertLightbox;
-  window.closeCertLightbox = closeCertLightbox;
-
-  if (certZoomBtn) {
-    certZoomBtn.addEventListener("click", toggleZoom);
-  }
-
-  if (certImg) {
-    certImg.addEventListener("click", toggleZoom);
-  }
-
-  if (certPrev) {
-    certPrev.addEventListener("click", () => {
-      if (currentCert && currentPageIndex > 0) {
-        currentPageIndex--;
-        renderCertPage();
-      }
-    });
-  }
-
-  if (certNext) {
-    certNext.addEventListener("click", () => {
-      if (currentCert && currentPageIndex < currentCert.pages.length - 1) {
-        currentPageIndex++;
-        renderCertPage();
-      }
-    });
-  }
-
-  if (certClose) {
-    certClose.addEventListener("click", closeCertLightbox);
-  }
-
-  if (certModal) {
-    certModal.addEventListener("click", (e) => {
-      if (e.target === certModal) {
+  const lbModal = document.getElementById("certLightbox");
+  if (lbModal) {
+    lbModal.addEventListener("click", (e) => {
+      if (e.target === lbModal || e.target.id === "certLbBody") {
         closeCertLightbox();
       }
     });
   }
 
-  document.querySelectorAll("[data-open-cert]").forEach(btn => {
-    btn.addEventListener("click", (e) => {
+  document.querySelectorAll("[data-open-cert]").forEach(trigger => {
+    trigger.addEventListener("click", (e) => {
       e.stopPropagation();
-      const id = btn.getAttribute("data-open-cert");
+      const id = trigger.getAttribute("data-open-cert");
       openCertLightbox(id);
-    });
-    btn.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        e.stopPropagation();
-        const id = btn.getAttribute("data-open-cert");
-        openCertLightbox(id);
-      }
     });
   });
 
@@ -468,16 +452,17 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener("keydown", (e) => {
+    const lb = document.getElementById("certLightbox");
     if (e.key === "Escape") {
       closeCertLightbox();
       if (typeof window.closeModalFromBtn === "function") {
         window.closeModalFromBtn();
       }
-    } else if (certModal && certModal.style.display === "flex") {
-      if (e.key === "ArrowLeft" && certPrev && !certPrev.disabled) {
-        certPrev.click();
-      } else if (e.key === "ArrowRight" && certNext && !certNext.disabled) {
-        certNext.click();
+    } else if (lb && lb.style.display === "flex") {
+      if (e.key === "ArrowLeft") {
+        prevCertPage();
+      } else if (e.key === "ArrowRight") {
+        nextCertPage();
       }
     }
   });

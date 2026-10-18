@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2.7">
 </head>
 <body>
     <header class="editorial-header">
@@ -197,8 +197,8 @@
                     <p class="section-subtext">Veškerá autorizovaná měření, rozptylové studie a odborné posudky provádíme na základě platných osvědčení Ministerstva životního prostředí ČR a osvědčení o akreditaci Českého institutu pro akreditaci dle ČSN EN ISO/IEC 17025.</p>
                 </div>
                 <div class="certs-grid" id="certsGrid">
-                    <article class="cert-card" data-cert="autorizace-emise">
-                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="autorizace-emise" aria-label="Zvětšit certifikát">
+                    <article class="cert-card" data-cert="autorizace-emise" role="button" tabindex="0" onclick="openCertLightbox('autorizace-emise')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openCertLightbox('autorizace-emise')}">
+                        <div class="cert-thumb-wrap" data-open-cert="autorizace-emise" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/autorizace-emise-nahled-full.jpg" alt="Osvědčení o autorizaci MŽP – měření emisí" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Autorizace MŽP</span>
                             <div class="cert-hover-hint">🔍 Kliknutím zvětšíte (4 strany)</div>
@@ -208,14 +208,14 @@
                             <h3 class="cert-title">Osvědčení o autorizaci MŽP – měření emisí</h3>
                             <p class="cert-desc">Autorizace Ministerstva životního prostředí k autorizovanému měření emisí stacionárních zdrojů znečišťování ovzduší v plném rozsahu stanovených znečišťujících látek.</p>
                             <div class="btn-group cert-actions">
-                                <button type="button" class="btn-cert-view" data-open-cert="autorizace-emise">Zvětšit náhled</button>
-                                <a href="assets/certs/autorizace-mereni-emisi-2020.pdf" class="btn-cert-pdf" download target="_blank">Originál PDF</a>
+                                <button type="button" class="btn-cert-view" data-open-cert="autorizace-emise" onclick="event.stopPropagation(); openCertLightbox('autorizace-emise')">Zvětšit náhled</button>
+                                <a href="assets/certs/autorizace-mereni-emisi-2020.pdf" class="btn-cert-pdf" download target="_blank" onclick="event.stopPropagation()">Originál PDF</a>
                             </div>
                         </div>
                     </article>
 
-                    <article class="cert-card" data-cert="autorizace-posudky">
-                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="autorizace-posudky" aria-label="Zvětšit certifikát">
+                    <article class="cert-card" data-cert="autorizace-posudky" role="button" tabindex="0" onclick="openCertLightbox('autorizace-posudky')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openCertLightbox('autorizace-posudky')}">
+                        <div class="cert-thumb-wrap" data-open-cert="autorizace-posudky" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/autorizace-posudky-nahled-full.jpg" alt="Osvědčení o autorizaci MŽP – odborné posudky" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Autorizace MŽP</span>
                             <div class="cert-hover-hint">🔍 Kliknutím zvětšíte (2 strany)</div>
@@ -225,14 +225,14 @@
                             <h3 class="cert-title">Osvědčení o autorizaci MŽP – odborné posudky</h3>
                             <p class="cert-desc">Autorizace ke zpracování odborných posudků dle zákona o ochraně ovzduší pro stacionární zdroje znečišťování jako povinný podklad pro řízení orgánů ochrany ovzduší.</p>
                             <div class="btn-group cert-actions">
-                                <button type="button" class="btn-cert-view" data-open-cert="autorizace-posudky">Zvětšit náhled</button>
-                                <a href="assets/certs/autorizace-odborne-posudky.pdf" class="btn-cert-pdf" download target="_blank">Originál PDF</a>
+                                <button type="button" class="btn-cert-view" data-open-cert="autorizace-posudky" onclick="event.stopPropagation(); openCertLightbox('autorizace-posudky')">Zvětšit náhled</button>
+                                <a href="assets/certs/autorizace-odborne-posudky.pdf" class="btn-cert-pdf" download target="_blank" onclick="event.stopPropagation()">Originál PDF</a>
                             </div>
                         </div>
                     </article>
 
-                    <article class="cert-card" data-cert="autorizace-posudky-prodlouzeni">
-                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="autorizace-posudky-prodlouzeni" aria-label="Zvětšit certifikát">
+                    <article class="cert-card" data-cert="autorizace-posudky-prodlouzeni" role="button" tabindex="0" onclick="openCertLightbox('autorizace-posudky-prodlouzeni')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openCertLightbox('autorizace-posudky-prodlouzeni')}">
+                        <div class="cert-thumb-wrap" data-open-cert="autorizace-posudky-prodlouzeni" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/autorizace-posudky-prodlouzeni-nahled-full.jpg" alt="Rozhodnutí MŽP – prodloužení autorizace na odborné posudky" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Prodloužení MŽP</span>
                             <div class="cert-hover-hint">🔍 Kliknutím zvětšíte (2 strany)</div>
@@ -242,14 +242,14 @@
                             <h3 class="cert-title">Rozhodnutí MŽP – prodloužení autorizace posudků</h3>
                             <p class="cert-desc">Rozhodnutí Ministerstva životního prostředí o prodloužení platnosti autorizace ke zpracování odborných posudků potvrzující nepřetržitou způsobilost posuzovatele.</p>
                             <div class="btn-group cert-actions">
-                                <button type="button" class="btn-cert-view" data-open-cert="autorizace-posudky-prodlouzeni">Zvětšit náhled</button>
-                                <a href="assets/certs/autorizace-odborne-posudky-prodlouzeni.pdf" class="btn-cert-pdf" download target="_blank">Originál PDF</a>
+                                <button type="button" class="btn-cert-view" data-open-cert="autorizace-posudky-prodlouzeni" onclick="event.stopPropagation(); openCertLightbox('autorizace-posudky-prodlouzeni')">Zvětšit náhled</button>
+                                <a href="assets/certs/autorizace-odborne-posudky-prodlouzeni.pdf" class="btn-cert-pdf" download target="_blank" onclick="event.stopPropagation()">Originál PDF</a>
                             </div>
                         </div>
                     </article>
 
-                    <article class="cert-card" data-cert="akreditace-cia">
-                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="akreditace-cia" aria-label="Zvětšit certifikát">
+                    <article class="cert-card" data-cert="akreditace-cia" role="button" tabindex="0" onclick="openCertLightbox('akreditace-cia')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openCertLightbox('akreditace-cia')}">
+                        <div class="cert-thumb-wrap" data-open-cert="akreditace-cia" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/akreditace-cia-nahled-full.jpg" alt="Osvědčení o akreditaci ČIA – Zkušební laboratoř č. 1421" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Akreditace ČIA</span>
                             <div class="cert-hover-hint">🔍 Kliknutím zvětšíte (4 strany)</div>
@@ -259,14 +259,14 @@
                             <h3 class="cert-title">Osvědčení o akreditaci ČIA – Laboratoř č. 1421</h3>
                             <p class="cert-desc">Osvědčení o akreditaci zkušební laboratoře č. 1421 vydané Českým institutem pro akreditaci pro zkoušky a autorizovaná měření emisí znečišťujících látek a spalin dle ISO/IEC 17025.</p>
                             <div class="btn-group cert-actions">
-                                <button type="button" class="btn-cert-view" data-open-cert="akreditace-cia">Zvětšit náhled</button>
-                                <a href="assets/certs/osvedceni-o-akreditaci-cia-p355.pdf" class="btn-cert-pdf" download target="_blank">Originál PDF</a>
+                                <button type="button" class="btn-cert-view" data-open-cert="akreditace-cia" onclick="event.stopPropagation(); openCertLightbox('akreditace-cia')">Zvětšit náhled</button>
+                                <a href="assets/certs/osvedceni-o-akreditaci-cia-p355.pdf" class="btn-cert-pdf" download target="_blank" onclick="event.stopPropagation()">Originál PDF</a>
                             </div>
                         </div>
                     </article>
 
-                    <article class="cert-card" data-cert="autorizace-rozptyl">
-                        <div class="cert-thumb-wrap" role="button" tabindex="0" data-open-cert="autorizace-rozptyl" aria-label="Zvětšit certifikát">
+                    <article class="cert-card" data-cert="autorizace-rozptyl" role="button" tabindex="0" onclick="openCertLightbox('autorizace-rozptyl')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openCertLightbox('autorizace-rozptyl')}">
+                        <div class="cert-thumb-wrap" data-open-cert="autorizace-rozptyl" aria-label="Zvětšit certifikát">
                             <img src="assets/certs/autorizace-rozptyl-nahled-full.jpg" alt="Osvědčení o autorizaci MŽP – rozptylové studie" class="cert-thumb" width="400" height="566" loading="lazy">
                             <span class="cert-badge">Rozptylové studie</span>
                             <div class="cert-hover-hint">🔍 Kliknutím zvětšíte (2 strany)</div>
@@ -276,8 +276,8 @@
                             <h3 class="cert-title">Osvědčení o autorizaci MŽP – rozptylové studie</h3>
                             <p class="cert-desc">Autorizace ke zpracování rozptylových studií znečišťujících látek v ovzduší pro územní řízení, posuzování vlivů na životní prostředí (EIA) a stavební povolení.</p>
                             <div class="btn-group cert-actions">
-                                <button type="button" class="btn-cert-view" data-open-cert="autorizace-rozptyl">Zvětšit náhled</button>
-                                <a href="assets/certs/autorizace-rozptylove-studie.pdf" class="btn-cert-pdf" download target="_blank">Originál PDF</a>
+                                <button type="button" class="btn-cert-view" data-open-cert="autorizace-rozptyl" onclick="event.stopPropagation(); openCertLightbox('autorizace-rozptyl')">Zvětšit náhled</button>
+                                <a href="assets/certs/autorizace-rozptylove-studie.pdf" class="btn-cert-pdf" download target="_blank" onclick="event.stopPropagation()">Originál PDF</a>
                             </div>
                         </div>
                     </article>
@@ -475,32 +475,28 @@
         </div>
     </footer>
 
-    <div id="certLightboxModal" class="cert-lightbox-modal" aria-hidden="true" style="display:none;">
-        <div class="cert-lightbox-dialog" role="dialog" aria-modal="true">
-            <button type="button" class="cert-lightbox-close" id="certLightboxClose" aria-label="Zavřít náhled">&times;</button>
-            <div class="cert-lightbox-header">
-                <span class="cert-modal-tag" id="certModalTag">Úřední certifikace</span>
-                <h3 class="cert-modal-title" id="certModalTitle">Osvědčení o autorizaci</h3>
-                <p class="cert-modal-law" id="certModalLaw">Ministerstvo životního prostředí ČR</p>
-            </div>
-            <div class="cert-lightbox-stage">
-                <img src="assets/certs/akreditace-cia-nahled-full.jpg" alt="Scan certifikátu ve vysokém rozlišení" id="certLightboxImg" class="cert-lightbox-img" width="1200" height="1700">
-            </div>
-            <div class="cert-lightbox-controls">
-                <div class="cert-pagination" id="certPagination">
-                    <button type="button" class="btn-cert-nav" id="certPagePrev" aria-label="Předchozí strana">&larr; Předchozí</button>
-                    <span class="cert-page-info" id="certPageInfo">Strana 1 / 1</span>
-                    <button type="button" class="btn-cert-nav" id="certPageNext" aria-label="Další strana">Další &rarr;</button>
-                </div>
-                <div class="btn-group cert-lightbox-actions">
-                    <button type="button" class="btn-cert-zoom" id="certZoomBtn" aria-label="Přiblížit 100% detaily scanu">🔍 100% Zoom</button>
-                    <a href="#" id="certLightboxDownload" class="btn-cert-download" download target="_blank">Stáhnout originální PDF</a>
-                </div>
-            </div>
+    <div id="certLightbox" class="cert-lightbox-backdrop" role="dialog" aria-modal="true" aria-hidden="true" style="display: none;">
+      <div class="cert-lightbox-window">
+        <div class="cert-lightbox-header">
+          <div>
+            <span class="cert-lightbox-badge" id="certLbBadge">Státní autorizace</span>
+            <h3 id="certLbTitle">Název certifikátu</h3>
+          </div>
+          <div class="cert-lightbox-controls">
+            <button type="button" class="cert-lb-btn" id="certLbPrev">← Předchozí strana</button>
+            <span class="cert-lb-page" id="certLbCounter">Strana 1 / 2</span>
+            <button type="button" class="cert-lb-btn" id="certLbNext">Další strana →</button>
+            <a href="#" id="certLbPdf" class="cert-lb-btn cert-lb-pdf" target="_blank" download>📥 Originál PDF</a>
+            <button type="button" class="cert-lb-close" id="certLbClose" aria-label="Zavřít">&times;</button>
+          </div>
         </div>
+        <div class="cert-lightbox-body" id="certLbBody">
+          <img src="" alt="Sken certifikátu" id="certLbImg" class="cert-lightbox-img">
+        </div>
+      </div>
     </div>
 
-    <div id="techModalBackdrop" class="tech-modal-backdrop" aria-hidden="true" style="display:none;">
+    <div id="techModalBackdrop" class="tech-modal-backdrop" aria-hidden="true" style="display: none;">
         <div class="tech-modal-dialog" role="dialog" aria-modal="true">
             <button class="modal-close-btn" id="modalCloseBtn" aria-label="Zavřít okno">&times;</button>
             <div class="modal-body" id="modalDynamicContent"></div>
@@ -508,6 +504,6 @@
     </div>
 
     <script src="../ping-config.js"></script>
-    <script src="script.js?v=2.2"></script>
+    <script src="script.js?v=2.7"></script>
 </body>
 </html>
