@@ -119,70 +119,59 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 10px;
     text-decoration: none;
     color: var(--text-main);
-}
-
-.logo-box {
-    background: var(--primary);
-    color: #000000;
-    padding: 6px 12px;
-    font-family: var(--font-head);
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1;
-    border: 1px solid var(--primary);
-}
-
-.logo-txt {
-    font-size: 16px;
-    letter-spacing: 0.05em;
-}
-
-.logo-sub {
-    font-size: 9px;
-    letter-spacing: 0.15em;
+    flex-shrink: 0;
 }
 
 .logo-label {
     display: flex;
     flex-direction: column;
     font-family: var(--font-head);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
+    line-height: 1.15;
+    white-space: nowrap;
+}
+
+.logo-brand-name {
+    color: #FFFFFF;
 }
 
 .logo-tag {
     font-size: 10px;
-    color: var(--text-muted);
-    font-weight: 500;
+    color: var(--primary);
+    font-weight: 600;
+    letter-spacing: 0.06em;
 }
 
 .nav-list {
     display: flex;
     list-style: none;
-    gap: 22px;
+    gap: 16px;
+    align-items: center;
 }
 
 .nav-link {
     color: var(--text-muted);
     text-decoration: none;
     font-family: var(--font-head);
-    font-size: 13px;
+    font-size: 12.5px;
     font-weight: 600;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     transition: color 0.2s;
     position: relative;
     padding: 4px 0;
+    white-space: nowrap;
 }
 
 .nav-link:hover,
@@ -203,7 +192,8 @@ body {
 .header-actions {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
+    flex-shrink: 0;
 }
 
 .btn {
@@ -1064,8 +1054,9 @@ body {
     border: 1px solid var(--border-color);
     color: var(--text-muted);
     font-family: var(--font-mono);
-    font-size: 10px;
-    padding: 2px 6px;
+    font-size: 11px;
+    padding: 6px 12px;
+    min-height: 36px;
     cursor: pointer;
     transition: all 0.2s;
 }
@@ -1220,6 +1211,29 @@ body {
     }
 }
 
+@media (max-width: 1140px) {
+    .menu-toggle {
+        display: flex;
+    }
+    .nav {
+        position: fixed;
+        top: 69px;
+        left: 0;
+        right: 0;
+        background: #0E1420;
+        border-bottom: 1px solid var(--border-color);
+        padding: 20px;
+        display: none;
+    }
+    .nav.open {
+        display: block;
+    }
+    .nav-list {
+        flex-direction: column;
+        gap: 14px;
+    }
+}
+
 @media (max-width: 768px) {
     .top-bar {
         display: none;
@@ -1236,25 +1250,8 @@ body {
     .header-actions .btn {
         display: none;
     }
-    .menu-toggle {
-        display: flex;
-    }
     .nav {
-        position: fixed;
         top: 61px;
-        left: 0;
-        right: 0;
-        background: #0E1420;
-        border-bottom: 1px solid var(--border-color);
-        padding: 20px;
-        display: none;
-    }
-    .nav.open {
-        display: block;
-    }
-    .nav-list {
-        flex-direction: column;
-        gap: 14px;
     }
     .machines-grid,
     .products-grid,
@@ -1296,8 +1293,8 @@ a[href^="tel:"] {
     background: #111827;
     border: 1px solid var(--border-color);
     border-radius: 2px;
-    padding: 2px;
-    gap: 2px;
+    padding: 3px;
+    gap: 6px;
 }
 
 .lang-btn {
@@ -1307,7 +1304,8 @@ a[href^="tel:"] {
     font-family: var(--font-head);
     font-size: 11px;
     font-weight: 700;
-    padding: 3px 6px;
+    padding: 8px 10px;
+    min-height: 36px;
     border-radius: 1px;
     cursor: pointer;
     transition: all 0.2s ease;

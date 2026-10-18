@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="preview-guard.css">
+      <link rel="stylesheet" href="preview-guard.css">
 </head>
 <body>
 
@@ -36,34 +36,30 @@
     <header class="header" id="header">
         <div class="container header-inner">
             <a href="#uvod" class="logo">
-                <img src="assets/images/img_53_logo.png" alt="S.CH.W. SERVICE, s.r.o." style="height: 36px; width: auto; border-radius: 3px; flex-shrink: 0;">
-                <div class="logo-box">
-                    <span class="logo-txt">S.CH.W.</span>
-                    <span class="logo-sub">SERVICE</span>
-                </div>
+                <img src="assets/images/img_53_logo.png" alt="S.CH.W. SERVICE, s.r.o." style="height: 40px; width: auto; border-radius: 3px; flex-shrink: 0;">
                 <div class="logo-label">
-                    <span>CNC OBRÁBĚNÍ KOVŮ</span>
-                    <span class="logo-tag">HANUŠOVICE • OD 1994</span>
+                    <span class="logo-brand-name">S.CH.W. SERVICE</span>
+                    <span class="logo-tag" data-i18n="logo_tag">CNC OBRÁBĚNÍ • OD 1994</span>
                 </div>
             </a>
 
             <nav class="nav" id="nav">
                 <ul class="nav-list">
                     <li><a href="#uvod" class="nav-link active" data-i18n="nav_home">Úvod</a></li>
-                    <li><a href="#o-nas" class="nav-link" data-i18n="nav_story">Příběh & Historie</a></li>
+                    <li><a href="#o-nas" class="nav-link" data-i18n="nav_story">Historie</a></li>
                     <li><a href="#stroje" class="nav-link" data-i18n="nav_machines">Strojní park</a></li>
                     <li><a href="#produkty" class="nav-link" data-i18n="nav_products">Výrobní možnosti</a></li>
+                    <li><a href="#galerie" class="nav-link" data-i18n="nav_gallery">Díly &amp; Výroba</a></li>
                     <li><a href="#reference" class="nav-link" data-i18n="nav_industries">Odvětví</a></li>
-                    <li><a href="#galerie" class="nav-link" data-i18n="nav_gallery">Díly & Výroba</a></li>
                     <li><a href="#kontakt" class="nav-link" data-i18n="nav_contact">Kontakt</a></li>
                 </ul>
             </nav>
 
             <div class="header-actions">
                 <div class="lang-switcher" id="langSwitcher">
-                    <button type="button" class="lang-btn active" data-lang="cs" onclick="setLanguage('cs')">CZ</button>
-                    <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">EN</button>
-                    <button type="button" class="lang-btn" data-lang="de" onclick="setLanguage('de')">DE</button>
+                    <button type="button" class="lang-btn active" data-lang="cs">CZ</button>
+                    <button type="button" class="lang-btn" data-lang="en">EN</button>
+                    <button type="button" class="lang-btn" data-lang="de">DE</button>
                 </div>
                 <a href="#kontakt" class="btn btn-primary" data-i18n="nav_cta">Zadat poptávku</a>
                 <button class="menu-toggle" id="menuToggle" aria-label="Menu">
@@ -82,7 +78,7 @@
                     <span class="tag-dot"></span>
                     <span data-i18n="hero_tag">ŠPIČKOVÉ OBRÁBĚNÍ NEREZOVÉ A ZUŠLECHTĚNÉ OCELI</span>
                 </div>
-                <h1 class="hero-title" data-i18n="hero_title">PŘESNÉ CNC OBRÁBĚNÍ S TECHNOLOGIÍ <span>MORI SEIKI & HYUNDAI</span></h1>
+                <h1 class="hero-title" data-i18n="hero_title">PŘESNÉ CNC OBRÁBĚNÍ S TECHNOLOGIÍ <span>MORI SEIKI &amp; HYUNDAI</span></h1>
                 <p class="hero-desc" data-i18n="hero_desc">Od závodního autokrosu v roce 1994 k modernímu strojírenskému provozu s víceosými soustruhy a frézovacími centry. Vyrábíme náročné nerezové díly, příruby, hřídele a pouzdra s garantovaným přenosem tavby materiálu a kalibrovanou kontrolou jakosti.</p>
                 <div class="hero-points">
                     <div class="point-item">
@@ -110,25 +106,25 @@
                     <div class="machine-frame">
                         <img src="assets/images/img_01_NL3000y.jpg" alt="Mori Seiki NL3000Y/700 - vlajková loď S.CH.W. Service">
                         <div class="machine-overlay">
-                            <span class="status-live">ONLINE V PROVOZU</span>
+                            <span class="status-live" data-i18n="hero_mach_live">ONLINE V PROVOZU</span>
                             <span class="machine-model">MORI SEIKI NL 3000Y / 700</span>
                         </div>
                     </div>
                     <div class="machine-specs-strip">
                         <div class="strip-item">
-                            <span class="strip-label">POJEZD Y</span>
+                            <span class="strip-label" data-i18n="hero_strip1">POJEZD Y</span>
                             <span class="strip-val">120 mm</span>
                         </div>
                         <div class="strip-item">
-                            <span class="strip-label">TOČNÁ DÉLKA</span>
+                            <span class="strip-label" data-i18n="hero_strip2">TOČNÁ DÉLKA</span>
                             <span class="strip-val">700 mm</span>
                         </div>
                         <div class="strip-item">
-                            <span class="strip-label">SKLÍČIDLO</span>
+                            <span class="strip-label" data-i18n="hero_strip3">SKLÍČIDLO</span>
                             <span class="strip-val">12" (300 mm)</span>
                         </div>
                         <div class="strip-item">
-                            <span class="strip-label">MAX. TYČ</span>
+                            <span class="strip-label" data-i18n="hero_strip4">MAX. TYČ</span>
                             <span class="strip-val">Ø 90 mm</span>
                         </div>
                     </div>
@@ -167,7 +163,7 @@
     <section class="section section-dark" id="o-nas">
         <div class="container">
             <div class="section-head reveal">
-                <div class="section-tag" data-i18n="sec_story_sub">PŘÍBĚH ZAKLADATELE & HISTORIE SPOLEČNOSTI</div>
+                <div class="section-tag" data-i18n="sec_story_sub">PŘÍBĚH ZAKLADATELE &amp; HISTORIE SPOLEČNOSTI</div>
                 <h2 class="section-title" data-i18n="sec_story_title">OD ZÁVODNÍHO AUTOKROSU K <span>ŠPIČKOVÉMU CNC OBRÁBĚNÍ</span></h2>
             </div>
 
@@ -206,7 +202,7 @@
                             </div>
                         </div>
                         <div class="time-node">
-                            <span class="time-year">Dnes</span>
+                            <span class="time-year" data-i18n="tnow_year">Dnes</span>
                             <div class="time-body">
                                 <h4 data-i18n="tnow_title">Stabilní dodavatel pro lídry českého i evropského průmyslu</h4>
                                 <p data-i18n="tnow_desc">Desítky tisíc vyrobených přesných komponentů ročně s přenosem taveb materiálu a trvalá podpora mladých talentů v kartingu.</p>
@@ -229,7 +225,7 @@
                         </div>
                     </div>
                     <div class="tech-box">
-                        <div class="tech-box-title">CAM PROGRAMOVÁNÍ</div>
+                        <div class="tech-box-title" data-i18n="cam_title">CAM PROGRAMOVÁNÍ</div>
                         <p data-i18n="cam_desc">Veškerou přípravu a simulaci 3D obrábění realizujeme v profesionálním prostředí <strong>GibbsCAM</strong> s přímým generováním G-kódů pro řídicí systémy Siemens 840D a Mori Seiki M730BM.</p>
                     </div>
                 </div>
@@ -250,185 +246,185 @@
             <div class="machine-tabs filter-tabs btn-group reveal">
                 <button class="m-tab active" data-tab="all" data-i18n="mtab_all">Všechny stroje (8)</button>
                 <button class="m-tab" data-tab="moriseiki" data-i18n="mtab_mori">Mori Seiki (3)</button>
-                <button class="m-tab" data-tab="milling" data-i18n="mtab_mill">5-osá & Frézky (2)</button>
-                <button class="m-tab" data-tab="hyundai" data-i18n="mtab_hyu">Hyundai & Ostatní (3)</button>
+                <button class="m-tab" data-tab="milling" data-i18n="mtab_mill">5-osá &amp; Frézky (2)</button>
+                <button class="m-tab" data-tab="hyundai" data-i18n="mtab_hyu">Hyundai &amp; Ostatní (3)</button>
             </div>
 
             <div class="machines-grid" id="machinesGrid">
                 
                 <div class="m-card reveal" data-category="moriseiki">
                     <div class="m-card-header">
-                        <span class="m-cat">CNC SOUSTRUŽNICKÉ CENTRUM S OSOU Y</span>
+                        <span class="m-cat" data-i18n="m1_cat">CNC SOUSTRUŽNICKÉ CENTRUM S OSOU Y</span>
                         <h3>Mori Seiki NL 3000Y / 700</h3>
                     </div>
                     <div class="m-img-box">
                         <img src="assets/images/img_01_NL3000y.jpg" alt="Mori Seiki NL 3000Y/700">
                     </div>
                     <div class="m-specs-table">
-                        <div class="m-spec-row"><span>Točná délka:</span><strong>700 mm</strong></div>
-                        <div class="m-spec-row"><span>Průměr sklíčidla:</span><strong>12" (300 mm)</strong></div>
-                        <div class="m-spec-row"><span>Max. průměr tyče:</span><strong>Ø 90 mm</strong></div>
-                        <div class="m-spec-row"><span>Počet poloh NH:</span><strong>10 nástrojů</strong></div>
-                        <div class="m-spec-row"><span>Rozsah osy X:</span><strong>280 mm</strong></div>
-                        <div class="m-spec-row"><span>Rozsah osy Y:</span><strong>120 mm (±60 mm)</strong></div>
-                        <div class="m-spec-row"><span>Rozsah osy Z:</span><strong>820 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turn_len">Točná délka:</span><strong>700 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_chuck">Průměr sklíčidla:</span><strong>12" (300 mm)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_bar">Max. průměr tyče:</span><strong>Ø 90 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turret">Počet poloh NH:</span><strong>10</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_axis_x">Rozsah osy X:</span><strong>280 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_axis_y">Rozsah osy Y:</span><strong>120 mm (±60 mm)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_axis_z">Rozsah osy Z:</span><strong>820 mm</strong></div>
                     </div>
                     <div class="m-footer">
-                        <span>Výkonné frézování na průměru i čele</span>
+                        <span data-i18n="m1_foot">Výkonné frézování na průměru i čele</span>
                     </div>
                 </div>
 
                 <div class="m-card reveal" data-category="moriseiki">
                     <div class="m-card-header">
-                        <span class="m-cat">CNC DLOUHÉ SOUSTRUŽNICKÉ CENTRUM S OSOU Y</span>
+                        <span class="m-cat" data-i18n="m2_cat">CNC DLOUHÉ SOUSTRUŽNICKÉ CENTRUM S OSOU Y</span>
                         <h3>Mori Seiki NL 3000Y / 1250</h3>
                     </div>
                     <div class="m-img-box">
                         <img src="assets/images/img_22_NL3000.jpg" alt="Mori Seiki NL 3000Y/1250">
                     </div>
                     <div class="m-specs-table">
-                        <div class="m-spec-row"><span>Točná délka:</span><strong>1 250 mm</strong></div>
-                        <div class="m-spec-row"><span>Průměr sklíčidla:</span><strong>12" (300 mm)</strong></div>
-                        <div class="m-spec-row"><span>Max. průměr tyče:</span><strong>Ø 90 mm</strong></div>
-                        <div class="m-spec-row"><span>Počet poloh NH:</span><strong>10 nástrojů</strong></div>
-                        <div class="m-spec-row"><span>Rozsah osy X:</span><strong>280 mm</strong></div>
-                        <div class="m-spec-row"><span>Rozsah osy Y:</span><strong>120 mm (±60 mm)</strong></div>
-                        <div class="m-spec-row"><span>Rozsah osy Z:</span><strong>1 370 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turn_len">Točná délka:</span><strong>1 250 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_chuck">Průměr sklíčidla:</span><strong>12" (300 mm)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_bar">Max. průměr tyče:</span><strong>Ø 90 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turret">Počet poloh NH:</span><strong>10</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_axis_x">Rozsah osy X:</span><strong>280 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_axis_y">Rozsah osy Y:</span><strong>120 mm (±60 mm)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_axis_z">Rozsah osy Z:</span><strong>1 370 mm</strong></div>
                     </div>
                     <div class="m-footer">
-                        <span>Obrábění dlouhých hřídelí a náprav</span>
+                        <span data-i18n="m2_foot">Obrábění dlouhých hřídelí a náprav</span>
                     </div>
                 </div>
 
                 <div class="m-card reveal" data-category="moriseiki">
                     <div class="m-card-header">
-                        <span class="m-cat">DVOUVŘETENOVÉ CNC CENTRUM S PROTIVŘETENEM</span>
+                        <span class="m-cat" data-i18n="m3_cat">DVOUVŘETENOVÉ CNC CENTRUM S PROTIVŘETENEM</span>
                         <h3>Mori Seiki NL 2500 SMC / 700</h3>
                     </div>
                     <div class="m-img-box">
                         <img src="assets/images/img_02_NL2500.jpg" alt="Mori Seiki NL 2500 SMC/700">
                     </div>
                     <div class="m-specs-table">
-                        <div class="m-spec-row"><span>Točná délka:</span><strong>700 mm</strong></div>
-                        <div class="m-spec-row"><span>Vřeteno 1 (hlavní):</span><strong>10" (250 mm)</strong></div>
-                        <div class="m-spec-row"><span>Vřeteno 2 (protivřeteno):</span><strong>6" (150 mm)</strong></div>
-                        <div class="m-spec-row"><span>Max. průměr tyče:</span><strong>Ø 80 mm</strong></div>
-                        <div class="m-spec-row"><span>Počet poloh NH:</span><strong>12 poháněných</strong></div>
-                        <div class="m-spec-row"><span>Rozsah osy X / Z:</span><strong>260 / 795 mm</strong></div>
-                        <div class="m-spec-row"><span>Předání obrobku:</span><strong>Automatické v cyklu</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turn_len">Točná délka:</span><strong>700 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_spindle1">Vřeteno 1 (hlavní):</span><strong>10" (250 mm)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_spindle2">Vřeteno 2 (protivřeteno):</span><strong>6" (150 mm)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_bar">Max. průměr tyče:</span><strong>Ø 80 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turret_live">Poháněné polohy NH:</span><strong>12</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_axis_xz">Rozsah osy X / Z:</span><strong>260 / 795 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_transfer">Předání obrobku:</span><strong data-i18n="val_auto">Automatické v cyklu</strong></div>
                     </div>
                     <div class="m-footer">
-                        <span>Kompletní obrobení obou stran dílu</span>
+                        <span data-i18n="m3_foot">Kompletní obrobení obou stran dílu</span>
                     </div>
                 </div>
 
                 <div class="m-card reveal" data-category="milling">
                     <div class="m-card-header">
-                        <span class="m-cat">5-OSÉ SIMULTÁNNÍ OBRÁBĚCÍ CENTRUM</span>
+                        <span class="m-cat" data-i18n="m4_cat">5-OSÉ SIMULTÁNNÍ OBRÁBĚCÍ CENTRUM</span>
                         <h3>DMG DMU 50 eVolution</h3>
                     </div>
                     <div class="m-img-box">
                         <img src="assets/images/img_43_ecoMill50.jpg" alt="DMG DMU 50 eVolution">
                     </div>
                     <div class="m-specs-table">
-                        <div class="m-spec-row"><span>Pojezdy X / Y / Z:</span><strong>500 / 450 / 400 mm</strong></div>
-                        <div class="m-spec-row"><span>Rychloposuv:</span><strong>24 m/min</strong></div>
-                        <div class="m-spec-row"><span>Otáčky vřetena:</span><strong>20 – 12 000 ot./min</strong></div>
-                        <div class="m-spec-row"><span>Pohon vřetena:</span><strong>13 / 9 kW (83 Nm)</strong></div>
-                        <div class="m-spec-row"><span>Otočný stůl:</span><strong>B (-5°/+110°) / C (360°)</strong></div>
-                        <div class="m-spec-row"><span>Zásobník nástrojů:</span><strong>16 / 32 míst (SK40)</strong></div>
-                        <div class="m-spec-row"><span>Řídicí systém:</span><strong>Siemens 840D SL 3D</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_xyz">Pojezdy X / Y / Z:</span><strong>500 / 450 / 400 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_rapid">Rychloposuv:</span><strong>24 m/min</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_rpm">Otáčky vřetena:</span><strong>20 – 12 000 rpm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_power">Pohon vřetena:</span><strong>13 / 9 kW (83 Nm)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_table_bc">Otočný stůl:</span><strong>B (-5°/+110°) / C (360°)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_mag">Zásobník nástrojů:</span><strong>16 / 32 (SK40)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_ctrl">Řídicí systém:</span><strong>Siemens 840D SL 3D</strong></div>
                     </div>
                     <div class="m-footer">
-                        <span>Složité tvarové matrice, formy a implantáty</span>
+                        <span data-i18n="m4_foot">Složité tvarové matrice, formy a díly</span>
                     </div>
                 </div>
 
                 <div class="m-card reveal" data-category="milling">
                     <div class="m-card-header">
-                        <span class="m-cat">VERTIKÁLNÍ FRÉZOVACÍ CENTRUM</span>
+                        <span class="m-cat" data-i18n="m5_cat">VERTIKÁLNÍ FRÉZOVACÍ CENTRUM</span>
                         <h3>Hyundai SPT – V550D</h3>
                     </div>
                     <div class="m-img-box">
                         <img src="assets/images/img_19_engineering.jpg" alt="Hyundai SPT V550D">
                     </div>
                     <div class="m-specs-table">
-                        <div class="m-spec-row"><span>Velikost stolu:</span><strong>2 ks (650 × 410 mm)</strong></div>
-                        <div class="m-spec-row"><span>Max. nosnost:</span><strong>2 × 300 kg</strong></div>
-                        <div class="m-spec-row"><span>Pojezdy X / Y / Z:</span><strong>570 / 410 / 580 mm</strong></div>
-                        <div class="m-spec-row"><span>Kužel vřetene:</span><strong>ISO 40</strong></div>
-                        <div class="m-spec-row"><span>Výměna nástroje:</span><strong>24 ks (čas 4,3 s)</strong></div>
-                        <div class="m-spec-row"><span>Otáčky vřetena:</span><strong>10 000 ot./min</strong></div>
-                        <div class="m-spec-row"><span>Řídicí systém:</span><strong>SIEMENS 840D</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_table_sz">Velikost stolu:</span><strong>2 × (650 × 410 mm)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_load">Max. nosnost:</span><strong>2 × 300 kg</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_xyz">Pojezdy X / Y / Z:</span><strong>570 / 410 / 580 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_taper">Kužel vřetene:</span><strong>ISO 40</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_atc">Výměna nástroje:</span><strong>24 (4,3 s)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_rpm">Otáčky vřetena:</span><strong>10 000 rpm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_ctrl">Řídicí systém:</span><strong>SIEMENS 840D</strong></div>
                     </div>
                     <div class="m-footer">
-                        <span>Paletové provedení pro sériové frézování</span>
+                        <span data-i18n="m5_foot">Paletové provedení pro sériové frézování</span>
                     </div>
                 </div>
 
                 <div class="m-card reveal" data-category="hyundai">
                     <div class="m-card-header">
-                        <span class="m-cat">VÝKONNÝ CNC SOUSTRUH</span>
+                        <span class="m-cat" data-i18n="m6_cat">VÝKONNÝ CNC SOUSTRUH</span>
                         <h3>Hyundai HiT – 18</h3>
                     </div>
                     <div class="m-img-box">
                         <img src="assets/images/img_41_hit18.jpg" alt="Hyundai HiT 18">
                     </div>
                     <div class="m-specs-table">
-                        <div class="m-spec-row"><span>Max. točná délka:</span><strong>500 mm</strong></div>
-                        <div class="m-spec-row"><span>Max. točný průměr:</span><strong>Ø 440 mm</strong></div>
-                        <div class="m-spec-row"><span>Průměr sklíčidla:</span><strong>250 mm (10")</strong></div>
-                        <div class="m-spec-row"><span>Kalibr vřetena:</span><strong>Ø 80 mm (tyč 70 mm)</strong></div>
-                        <div class="m-spec-row"><span>Otáčky vřetena:</span><strong>max. 4 500 ot./min</strong></div>
-                        <div class="m-spec-row"><span>Nástrojová hlava:</span><strong>8 poloh</strong></div>
-                        <div class="m-spec-row"><span>Řídicí systém:</span><strong>SIEMENS 840 C</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turn_len">Točná délka:</span><strong>500 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turn_dia">Max. točný průměr:</span><strong>Ø 440 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_chuck">Průměr sklíčidla:</span><strong>250 mm (10")</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_bore">Kalibr vřetena:</span><strong>Ø 80 mm (Ø 70 mm)</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_rpm">Otáčky vřetena:</span><strong>max. 4 500 rpm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turret">Počet poloh NH:</span><strong>8</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_ctrl">Řídicí systém:</span><strong>SIEMENS 840 C</strong></div>
                     </div>
                     <div class="m-footer">
-                        <span>Robustní hrubování i přesné dokončování</span>
+                        <span data-i18n="m6_foot">Robustní hrubování i přesné dokončování</span>
                     </div>
                 </div>
 
                 <div class="m-card reveal" data-category="hyundai">
                     <div class="m-card-header">
-                        <span class="m-cat">TĚŽKÝ DVOUOSÝ CNC SOUSTRUH</span>
+                        <span class="m-cat" data-i18n="m7_cat">TĚŽKÝ DVOUOSÝ CNC SOUSTRUH</span>
                         <h3>Hyundai SKT – 25 / SKT 300</h3>
                     </div>
                     <div class="m-img-box">
                         <img src="assets/images/img_52_skt.jpg" alt="Hyundai SKT 25">
                     </div>
                     <div class="m-specs-table">
-                        <div class="m-spec-row"><span>Velikost sklíčidla:</span><strong>305 mm (12")</strong></div>
-                        <div class="m-spec-row"><span>Max. obráběný průměr:</span><strong>Ø 560 mm</strong></div>
-                        <div class="m-spec-row"><span>Max. obráběná délka:</span><strong>720 mm</strong></div>
-                        <div class="m-spec-row"><span>Max. průměr tyče:</span><strong>Ø 90 mm</strong></div>
-                        <div class="m-spec-row"><span>Výkon na vřetenu:</span><strong>26 kW</strong></div>
-                        <div class="m-spec-row"><span>Převodovka:</span><strong>2-stupňová automatická</strong></div>
-                        <div class="m-spec-row"><span>Hmotnost stroje:</span><strong>6 400 kg</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_chuck">Průměr sklíčidla:</span><strong>305 mm (12")</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turn_dia">Max. točný průměr:</span><strong>Ø 560 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_turn_len">Točná délka:</span><strong>720 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_bar">Max. průměr tyče:</span><strong>Ø 90 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_power">Pohon vřetena:</span><strong>26 kW</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_gear">Převodovka:</span><strong>2-st. auto</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_weight">Hmotnost stroje:</span><strong>6 400 kg</strong></div>
                     </div>
                     <div class="m-footer">
-                        <span>Extrémní tuhost pro velkorozměrové díly</span>
+                        <span data-i18n="m7_foot">Extrémní tuhost pro velkorozměrové díly</span>
                     </div>
                 </div>
 
                 <div class="m-card reveal" data-category="hyundai">
                     <div class="m-card-header">
-                        <span class="m-cat">POPOUŠTĚCÍ A ŽÍHACÍ PEC</span>
-                        <h3>LAC PP 270/65 s regulací Ht200</h3>
+                        <span class="m-cat" data-i18n="m8_cat">POPOUŠTĚCÍ A ŽÍHACÍ PEC</span>
+                        <h3>LAC PP 270/65 (Ht200)</h3>
                     </div>
                     <div class="m-img-box">
                         <img src="assets/images/img_21_Popousteci-pec-PP-140_65.jpg" alt="Popouštěcí pec PP 270/65">
                     </div>
                     <div class="m-specs-table">
-                        <div class="m-spec-row"><span>Maximální teplota (Tmax):</span><strong>650 °C</strong></div>
-                        <div class="m-spec-row"><span>Rozsah pracovních teplot:</span><strong>200 – 600 °C</strong></div>
-                        <div class="m-spec-row"><span>Užitný objem komory:</span><strong>270 litrů</strong></div>
-                        <div class="m-spec-row"><span>Vnitřní rozměry (š×v×h):</span><strong>600 × 600 × 750 mm</strong></div>
-                        <div class="m-spec-row"><span>Elektrický příkon:</span><strong>20,0 kW</strong></div>
-                        <div class="m-spec-row"><span>Max. nosnost dna:</span><strong>240 kg</strong></div>
-                        <div class="m-spec-row"><span>Hmotnost zařízení:</span><strong>580 kg</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_tmax">Maximální teplota:</span><strong>650 °C</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_trange">Pracovní teplota:</span><strong>200 – 600 °C</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_vol">Užitný objem:</span><strong>270 l</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_dim">Vnitřní rozměry:</span><strong>600 × 600 × 750 mm</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_power_in">Elektrický příkon:</span><strong>20,0 kW</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_load">Max. nosnost:</span><strong>240 kg</strong></div>
+                        <div class="m-spec-row"><span data-i18n="lbl_weight">Hmotnost stroje:</span><strong>580 kg</strong></div>
                     </div>
                     <div class="m-footer">
-                        <span>Žíhání na snížení pnutí a popouštění</span>
+                        <span data-i18n="m8_foot">Žíhání na snížení pnutí a popouštění</span>
                     </div>
                 </div>
 
@@ -439,71 +435,71 @@
     <section class="section section-dark" id="produkty">
         <div class="container">
             <div class="section-head reveal">
-                <div class="section-tag">ZAKÁZKOVÁ VÝROBA DLE VÝKRESU</div>
-                <h2 class="section-title">PORTFOLIO VÝROBKŮ <span>A MATERIÁLŮ</span></h2>
-                <p class="section-subtitle">
+                <div class="section-tag" data-i18n="sec_prod_sub">ZAKÁZKOVÁ VÝROBA DLE VÝKRESU</div>
+                <h2 class="section-title" data-i18n="sec_prod_title">PORTFOLIO VÝROBKŮ <span>A MATERIÁLŮ</span></h2>
+                <p class="section-subtitle" data-i18n="sec_prod_lead">
                     Obrábíme díly od kusových prototypů po tisícové série z korozivzdorných, konstrukčních, zušlechtěných i nástrojových ocelí.
                 </p>
             </div>
 
             <div class="products-grid">
                 <div class="prod-card reveal">
-                    <div class="prod-badge">PRODUKT</div>
-                    <h3>Přesná nerezová pouzdra</h3>
-                    <p>Broušené vnější i vnitřní průměry v tolerancích H7/h6, mazací drážky, kalení a cementování.</p>
+                    <div class="prod-badge" data-i18n="p_badge">PRODUKT</div>
+                    <h3 data-i18n="p1_title">Přesná nerezová pouzdra</h3>
+                    <p data-i18n="p1_desc">Broušené vnější i vnitřní průměry v tolerancích H7/h6, mazací drážky, kalení a cementování.</p>
                     <ul class="prod-list">
-                        <li>Materiál: 1.4301, 1.4404, 1.4571</li>
-                        <li>Drsnost povrchu až Ra 0,4</li>
+                        <li data-i18n="p1_l1">Materiál: 1.4301, 1.4404, 1.4571</li>
+                        <li data-i18n="p1_l2">Drsnost povrchu až Ra 0,4</li>
                     </ul>
                 </div>
 
                 <div class="prod-card reveal">
-                    <div class="prod-badge">PRODUKT</div>
-                    <h3>Příruby a víka armatur</h3>
-                    <p>Kombinované soustružení s vrtáním roztečných kružnic, závitováním a frézováním těsnicích drážek.</p>
+                    <div class="prod-badge" data-i18n="p_badge">PRODUKT</div>
+                    <h3 data-i18n="p2_title">Příruby a víka armatur</h3>
+                    <p data-i18n="p2_desc">Kombinované soustružení s vrtáním roztečných kružnic, závitováním a frézováním těsnicích drážek.</p>
                     <ul class="prod-list">
-                        <li>Do průměru Ø 560 mm</li>
-                        <li>Pro tlakové řady PN16 až PN400</li>
+                        <li data-i18n="p2_l1">Do průměru Ø 560 mm</li>
+                        <li data-i18n="p2_l2">Pro tlakové řady PN16 až PN400</li>
                     </ul>
                 </div>
 
                 <div class="prod-card reveal">
-                    <div class="prod-badge">PRODUKT</div>
-                    <h3>Hřídele a vřetena</h3>
-                    <p>Dlouhé hřídele s drážkami pro pera, jemnými závity a broušenými ložiskovými čepy na stroji NL 3000Y.</p>
+                    <div class="prod-badge" data-i18n="p_badge">PRODUKT</div>
+                    <h3 data-i18n="p3_title">Hřídele a vřetena</h3>
+                    <p data-i18n="p3_desc">Dlouhé hřídele s drážkami pro pera, jemnými závity a broušenými ložiskovými čepy na stroji NL 3000Y.</p>
                     <ul class="prod-list">
-                        <li>Délka dílu až 1 250 mm</li>
-                        <li>Dynamické vyvažování</li>
+                        <li data-i18n="p3_l1">Délka dílu až 1 250 mm</li>
+                        <li data-i18n="p3_l2">Dynamické vyvažování</li>
                     </ul>
                 </div>
 
                 <div class="prod-card reveal">
-                    <div class="prod-badge">PRODUKT</div>
-                    <h3>Tvarové matrice a razníky</h3>
-                    <p>Komplexní 5-osé frézování kalených ocelí na centru DMG DMU 50 eVolution v prostředí Siemens 840D.</p>
+                    <div class="prod-badge" data-i18n="p_badge">PRODUKT</div>
+                    <h3 data-i18n="p4_title">Tvarové matrice a razníky</h3>
+                    <p data-i18n="p4_desc">Komplexní 5-osé frézování kalených ocelí na centru DMG DMU 50 eVolution v prostředí Siemens 840D.</p>
                     <ul class="prod-list">
-                        <li>Oceli 1.2379, 1.2343, 1.2083</li>
-                        <li>Tvrdost po kalení až 62 HRC</li>
+                        <li data-i18n="p4_l1">Oceli 1.2379, 1.2343, 1.2083</li>
+                        <li data-i18n="p4_l2">Tvrdost po kalení až 62 HRC</li>
                     </ul>
                 </div>
 
                 <div class="prod-card reveal">
-                    <div class="prod-badge">PRODUKT</div>
-                    <h3>Čepy, šrouby a spojovací prvky</h3>
-                    <p>Vysokopevnostní spojovací materiál se speciálními závity, zápichy a povrchovými úpravami.</p>
+                    <div class="prod-badge" data-i18n="p_badge">PRODUKT</div>
+                    <h3 data-i18n="p5_title">Čepy, šrouby a spojovací prvky</h3>
+                    <p data-i18n="p5_desc">Vysokopevnostní spojovací materiál se speciálními závity, zápichy a povrchovými úpravami.</p>
                     <ul class="prod-list">
-                        <li>Zušlechtěné oceli 42CrMo4, 16MnCr5</li>
-                        <li>Výroba přímo z tyčoviny</li>
+                        <li data-i18n="p5_l1">Zušlechtěné oceli 42CrMo4, 16MnCr5</li>
+                        <li data-i18n="p5_l2">Výroba přímo z tyčoviny</li>
                     </ul>
                 </div>
 
                 <div class="prod-card reveal">
-                    <div class="prod-badge">PROCES</div>
-                    <h3>Kompletní metalurgický servis</h3>
-                    <p>Garantujeme 100% sledovatelnost každého kusu s přenosem čísla tavby přímo na hotový obrobek.</p>
+                    <div class="prod-badge" data-i18n="p6_badge">PROCES</div>
+                    <h3 data-i18n="p6_title">Kompletní metalurgický servis</h3>
+                    <p data-i18n="p6_desc">Garantujeme 100% sledovatelnost každého kusu s přenosem čísla tavby přímo na hotový obrobek.</p>
                     <ul class="prod-list">
-                        <li>Hutní atesty 3.1 dle EN 10204</li>
-                        <li>Protokoly rozměrové kontroly</li>
+                        <li data-i18n="p6_l1">Hutní atesty 3.1 dle EN 10204</li>
+                        <li data-i18n="p6_l2">Protokoly rozměrové kontroly</li>
                     </ul>
                 </div>
             </div>
@@ -513,45 +509,45 @@
     <section class="section section-metal" id="galerie">
         <div class="container">
             <div class="section-head reveal">
-                <div class="section-tag">FOTODOKUMENTACE VÝROBY</div>
-                <h2 class="section-title">REÁLNÉ DÍLY <span>Z NAŠÍ DÍLNY</span></h2>
-                <p class="section-subtitle">
-                    Kliknutím na fotografii otevřete detail ve vysokém rozlišení.
+                <div class="section-tag" data-i18n="sec_gal_sub">FOTODOKUMENTACE VÝROBY</div>
+                <h2 class="section-title" data-i18n="sec_gal_title">REÁLNÉ DÍLY <span>Z NAŠÍ DÍLNY</span></h2>
+                <p class="section-subtitle" data-i18n="sec_gal_lead">
+                    Kliknutím na fotografii otevřete detail ve vysokém rozlišení (800 × 600 px).
                 </p>
             </div>
 
             <div class="gallery-grid">
                 <div class="gallery-item reveal" onclick="openLightbox('assets/images/img_34_01.jpg')">
                     <img src="assets/images/img_34_01.jpg" alt="Přesný soustružený díl z nerezové oceli">
-                    <div class="gallery-hover"><span>PŘESNÉ SOUSTRUŽENÍ</span></div>
+                    <div class="gallery-hover"><span data-i18n="g1_lbl">PŘESNÉ SOUSTRUŽENÍ</span></div>
                 </div>
                 <div class="gallery-item reveal" onclick="openLightbox('assets/images/img_37_02.jpg')">
                     <img src="assets/images/img_37_02.jpg" alt="Frézovaný nerezový díl se závity">
-                    <div class="gallery-hover"><span>FRÉZOVÁNÍ ZÁVITŮ</span></div>
+                    <div class="gallery-hover"><span data-i18n="g2_lbl">FRÉZOVÁNÍ ZÁVITŮ</span></div>
                 </div>
                 <div class="gallery-item reveal" onclick="openLightbox('assets/images/img_20_03.jpg')">
                     <img src="assets/images/img_20_03.jpg" alt="Příruba s otvory na roztečné kružnici">
-                    <div class="gallery-hover"><span>PŘÍRUBOVÝ DÍL</span></div>
+                    <div class="gallery-hover"><span data-i18n="g3_lbl">PŘÍRUBOVÝ DÍL</span></div>
                 </div>
                 <div class="gallery-item reveal" onclick="openLightbox('assets/images/img_40_04.jpg')">
                     <img src="assets/images/img_40_04.jpg" alt="Soustružené nerezové pouzdro">
-                    <div class="gallery-hover"><span>POUZDRO V TOLERANCI</span></div>
+                    <div class="gallery-hover"><span data-i18n="g4_lbl">POUZDRO V TOLERANCI</span></div>
                 </div>
                 <div class="gallery-item reveal" onclick="openLightbox('assets/images/img_61_05.jpg')">
                     <img src="assets/images/img_61_05.jpg" alt="Čep s vnějším jemným závitem">
-                    <div class="gallery-hover"><span>ZÁVITOVÝ ČEP</span></div>
+                    <div class="gallery-hover"><span data-i18n="g5_lbl">ZÁVITOVÝ ČEP</span></div>
                 </div>
                 <div class="gallery-item reveal" onclick="openLightbox('assets/images/img_55_06.jpg')">
                     <img src="assets/images/img_55_06.jpg" alt="Série obrobků po výstupní kontrole">
-                    <div class="gallery-hover"><span>KONTROLA JAKOSTI</span></div>
+                    <div class="gallery-hover"><span data-i18n="g6_lbl">KONTROLA JAKOSTI</span></div>
                 </div>
                 <div class="gallery-item reveal" onclick="openLightbox('assets/images/img_49_07.jpg')">
                     <img src="assets/images/img_49_07.jpg" alt="Komponenty pro armatury a hydrauliku">
-                    <div class="gallery-hover"><span>HYDRAULICKÉ DÍLY</span></div>
+                    <div class="gallery-hover"><span data-i18n="g7_lbl">HYDRAULICKÉ DÍLY</span></div>
                 </div>
                 <div class="gallery-item reveal" onclick="openLightbox('assets/images/img_51_08.jpg')">
                     <img src="assets/images/img_51_08.jpg" alt="Přesné nerezové hřídele">
-                    <div class="gallery-hover"><span>BROUŠENÁ HŘÍDEL</span></div>
+                    <div class="gallery-hover"><span data-i18n="g8_lbl">BROUŠENÁ HŘÍDEL</span></div>
                 </div>
             </div>
         </div>
@@ -560,8 +556,8 @@
     <section class="section section-dark" id="reference">
         <div class="container">
             <div class="section-head reveal">
-                <div class="section-tag">ODVĚTVÍ & APLIKACE</div>
-                <h2 class="section-title">KDE NAŠE DÍLY <span>SPOLEHLIVĚ PRACUJÍ</span></h2>
+                <div class="section-tag" data-i18n="sec_ref_sub">ODVĚTVÍ &amp; APLIKACE</div>
+                <h2 class="section-title" data-i18n="sec_ref_title">KDE NAŠE DÍLY <span>SPOLEHLIVĚ PRACUJÍ</span></h2>
             </div>
 
             <div class="sectors-grid">
@@ -570,8 +566,8 @@
                         <img src="assets/images/img_19_engineering.jpg" alt="Všeobecné strojírenství a mechanizace">
                     </div>
                     <div class="sector-body">
-                        <h3>Všeobecné strojírenství</h3>
-                        <p>Dodávky hřídelí, převodových skříní, čepů a přírub pro výrobce průmyslových linek, jednoúčelových strojů a hydrauliky.</p>
+                        <h3 data-i18n="r1_title">Všeobecné strojírenství</h3>
+                        <p data-i18n="r1_desc">Dodávky hřídelí, převodových skříní, čepů a přírub pro výrobce průmyslových linek, jednoúčelových strojů a hydrauliky.</p>
                     </div>
                 </div>
                 <div class="sector-card reveal">
@@ -579,8 +575,8 @@
                         <img src="assets/images/img_50_chemical.jpg" alt="Chemický a potravinářský průmysl">
                     </div>
                     <div class="sector-body">
-                        <h3>Chemický a petrochemický průmysl</h3>
-                        <p>Přísně sledované díly z nerezových kyselinovzdorných ocelí AISI 316Ti / 1.4571 pro ventily, čerpadla a potrubní systémy.</p>
+                        <h3 data-i18n="r2_title">Chemický a petrochemický průmysl</h3>
+                        <p data-i18n="r2_desc">Přísně sledované díly z nerezových kyselinovzdorných ocelí AISI 316Ti / 1.4571 pro ventily, čerpadla a potrubní systémy.</p>
                     </div>
                 </div>
                 <div class="sector-card reveal">
@@ -588,8 +584,8 @@
                         <img src="assets/images/img_62_cars.jpg" alt="Automotive a motorsport">
                     </div>
                     <div class="sector-body">
-                        <h3>Automobilový průmysl & Motorsport</h3>
-                        <p>Kořeny v autokrosu a kartingu – výroba odlehčených vysoce namáhaných dílů náprav, těhlic a brzdových komponentů.</p>
+                        <h3 data-i18n="r3_title">Automobilový průmysl &amp; Motorsport</h3>
+                        <p data-i18n="r3_desc">Kořeny v autokrosu a kartingu – výroba odlehčených vysoce namáhaných dílů náprav, těhlic a brzdových komponentů.</p>
                     </div>
                 </div>
             </div>
@@ -599,51 +595,51 @@
     <section class="section section-metal" id="kontakt">
         <div class="container">
             <div class="section-head reveal">
-                <div class="section-tag">IDENTIFIKAČNÍ & FAKTURAČNÍ ÚDAJE</div>
-                <h2 class="section-title">KONTAKTUJTE <span>VÝROBNÍ TÝM</span></h2>
+                <div class="section-tag" data-i18n="sec_contact_sub">IDENTIFIKAČNÍ &amp; FAKTURAČNÍ ÚDAJE</div>
+                <h2 class="section-title" data-i18n="sec_contact_title">KONTAKTUJTE <span>VÝROBNÍ TÝM</span></h2>
             </div>
 
             <div class="contact-grid">
                 <div class="contact-info reveal">
                     <div class="company-card">
                         <h3>S.CH.W. SERVICE, s.r.o.</h3>
-                        <p class="company-sub">Zakázkové CNC obrábění kovů a strojírenská výroba</p>
+                        <p class="company-sub" data-i18n="comp_sub">Zakázkové CNC obrábění kovů a strojírenská výroba</p>
                         
                         <div class="info-row">
-                            <span class="info-lbl">Sídlo & Provozovna:</span>
+                            <span class="info-lbl" data-i18n="c_addr_lbl">Sídlo &amp; Provozovna:</span>
                             <span class="info-val">
                                 Hlavní 73, 788 33 Hanušovice
-                                <a href="https://mapy.cz/zakladni?x=16.93642&y=50.08054&z=16&source=coor&id=16.93642%2C50.08054" target="_blank" rel="noopener" style="display:block; margin-top: 4px; color: var(--primary); text-decoration: none; font-size: 0.85rem;">📍 Otevřít na Mapy.cz</a>
+                                <a href="https://mapy.cz/zakladni?x=16.93642&y=50.08054&z=16&source=coor&id=16.93642%2C50.08054" target="_blank" rel="noopener" style="display:block; margin-top: 4px; color: var(--primary); text-decoration: none; font-size: 0.85rem;" data-i18n="c_map_open">📍 Otevřít na Mapy.cz</a>
                             </span>
                         </div>
                         <div class="info-row">
                             <span class="info-lbl">IČO:</span>
                             <span class="info-val">
                                 <strong>27766641</strong>
-                                <button class="btn-copy" onclick="copyIco('27766641', this)">Kopírovat</button>
+                                <button class="btn-copy" onclick="copyIco('27766641', this)" data-i18n="btn_copy">Kopírovat</button>
                             </span>
                         </div>
                         <div class="info-row">
                             <span class="info-lbl">DIČ:</span>
                             <span class="info-val">
                                 <strong>CZ27766641</strong>
-                                <button class="btn-copy" onclick="copyIco('CZ27766641', this)">Kopírovat</button>
+                                <button class="btn-copy" onclick="copyIco('CZ27766641', this)" data-i18n="btn_copy">Kopírovat</button>
                             </span>
                         </div>
                         <div class="info-row">
-                            <span class="info-lbl">Bankovní účet (CZK):</span>
+                            <span class="info-lbl" data-i18n="c_bank_czk">Bankovní účet (CZK):</span>
                             <span class="info-val">2200547720 / 2010 (Fio banka)</span>
                         </div>
                         <div class="info-row">
-                            <span class="info-lbl">Účet EUR:</span>
+                            <span class="info-lbl" data-i18n="c_bank_eur">Účet EUR:</span>
                             <span class="info-val">2300534732 / 2010 (Fio banka)</span>
                         </div>
                         <div class="info-row">
-                            <span class="info-lbl">Datová schránka:</span>
+                            <span class="info-lbl" data-i18n="c_ds">Datová schránka:</span>
                             <span class="info-val"><code>y7szhg7</code></span>
                         </div>
                         <div class="info-row">
-                            <span class="info-lbl">Telefon:</span>
+                            <span class="info-lbl" data-i18n="c_phone">Telefon:</span>
                             <span class="info-val"><a href="tel:+420602521089">+420 602 521 089</a></span>
                         </div>
                         <div class="info-row">
@@ -651,7 +647,7 @@
                             <span class="info-val">+420 605 296 308</span>
                         </div>
                         <div class="info-row">
-                            <span class="info-lbl">E-mail poptávky:</span>
+                            <span class="info-lbl" data-i18n="c_email">E-mail poptávky:</span>
                             <span class="info-val"><a href="mailto:info@schwservice.cz">info@schwservice.cz</a></span>
                         </div>
                     </div>
@@ -659,8 +655,8 @@
 
                 <div class="contact-form-wrap reveal">
                     <div class="form-card">
-                        <h3>Poptávka CNC výroby</h3>
-                        <p>Zašlete nám výkresovou dokumentaci v PDF/STEP nebo specifikaci série. Odpovíme vám do 24 hodin.</p>
+                        <h3 data-i18n="form_head">Poptávka CNC výroby</h3>
+                        <p data-i18n="form_lead">Zašlete nám výkresovou dokumentaci v PDF/STEP nebo specifikaci série. Odpovíme vám do 24 hodin.</p>
                         <form onsubmit="handleInquiry(event)">
                             <div class="form-row">
                                 <input type="text" id="inqName" placeholder="Jméno a příjmení / Firma" required>
@@ -671,24 +667,24 @@
                             </div>
                             <div class="form-row">
                                 <select id="inqMaterial">
-                                    <option value="Nerezová ocel (AISI 304, 316)">Nerezová ocel (AISI 304 / 316Ti / 1.4404)</option>
-                                    <option value="Konstrukční / Zušlechtěná ocel">Konstrukční / Zušlechtěná ocel (42CrMo4)</option>
-                                    <option value="Nástrojová ocel (1.2379, 1.2083)">Nástrojová ocel (1.2379 / 1.2343)</option>
-                                    <option value="Jiné / Dle výkresu">Jiné materiály (dural, mosaz, bronz)</option>
+                                    <option value="Nerezová ocel (AISI 304, 316)" data-i18n="opt_mat1">Nerezová ocel (AISI 304 / 316Ti / 1.4404)</option>
+                                    <option value="Konstrukční / Zušlechtěná ocel" data-i18n="opt_mat2">Konstrukční / Zušlechtěná ocel (42CrMo4)</option>
+                                    <option value="Nástrojová ocel (1.2379, 1.2083)" data-i18n="opt_mat3">Nástrojová ocel (1.2379 / 1.2343)</option>
+                                    <option value="Jiné / Dle výkresu" data-i18n="opt_mat4">Jiné materiály (dural, mosaz, bronz)</option>
                                 </select>
                             </div>
                             <div class="form-row">
                                 <textarea id="inqMsg" rows="4" placeholder="Popis dílu, počet kusů, požadovaný termín a tolerance..."></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block">Odeslat poptávku přes e-mail</button>
+                            <button type="submit" class="btn btn-primary btn-block" data-i18n="form_submit">Odeslat poptávku přes e-mail</button>
                         </form>
                     </div>
                 </div>
             </div>
             <div class="reveal" style="margin-top: 2rem; border: 1px solid rgba(255,255,255,0.12); background: rgba(15,23,42,0.8);">
                 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; padding: 0.85rem 1.25rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                    <strong style="font-size: 0.95rem; color: #f8fafc;">📍 Výrobní areál S.CH.W. SERVICE, s.r.o. – Hlavní 73, 788 33 Hanušovice</strong>
-                    <a href="https://mapy.cz/zakladni?x=16.93642&y=50.08054&z=16&source=coor&id=16.93642%2C50.08054" target="_blank" rel="noopener" style="color: var(--primary); text-decoration: none; font-size: 0.85rem; font-weight: 600;">Otevřít na Mapy.cz ↗</a>
+                    <strong style="font-size: 0.95rem; color: #f8fafc;" data-i18n="map_bar_title">📍 Výrobní areál S.CH.W. SERVICE, s.r.o. – Hlavní 73, 788 33 Hanušovice</strong>
+                    <a href="https://mapy.cz/zakladni?x=16.93642&y=50.08054&z=16&source=coor&id=16.93642%2C50.08054" target="_blank" rel="noopener" style="color: var(--primary); text-decoration: none; font-size: 0.85rem; font-weight: 600;" data-i18n="map_bar_link">Otevřít na Mapy.cz ↗</a>
                 </div>
                 <iframe src="https://frame.mapy.cz/zakladni?x=16.93642&y=50.08054&z=16&source=coor&id=16.93642%2C50.08054" width="100%" height="360" frameborder="0" allowfullscreen style="display: block; border: 0; width: 100%;" title="Mapa výrobního závodu S.CH.W. SERVICE Hanušovice"></iframe>
             </div>
@@ -702,7 +698,7 @@
                 <span>&copy; 2026 S.CH.W. SERVICE, s.r.o. • Hlavní 73, 788 33 Hanušovice • IČO: 27766641</span>
             </div>
             <div class="footer-links">
-                <a href="#uvod">Zpět nahoru ↑</a>
+                <a href="#uvod" data-i18n="foot_top">Zpět nahoru ↑</a>
                 <a href="https://mapy.cz/zakladni?x=16.93642&y=50.08054&z=16&source=coor&id=16.93642%2C50.08054" target="_blank" rel="noopener">📍 Mapy.cz</a>
                 <a href="mailto:info@schwservice.cz">info@schwservice.cz</a>
                 <a href="tel:+420602521089">+420 602 521 089</a>
@@ -710,16 +706,38 @@
         </div>
     </footer>
 
-    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)" style="display: none;">
         <div class="lightbox-box">
-            <button class="lightbox-close" onclick="closeLightboxDirect()">&times;</button>
-            <img id="lightboxImg" src="" alt="Detail dílu">
+            <button class="lightbox-close" onclick="closeLightboxDirect()" aria-label="Zavřít">&times;</button>
+            <img id="lightboxImg" src="" alt="Detail výrobku S.CH.W. SERVICE">
         </div>
     </div>
 
     <script src="../ping-config.js"></script>
     <script src="script.js"></script>
-  <aside id="mibaPreviewBar" class="miba-preview-pill" aria-label="Náhledový prototyp">
+  <div class="miba-form-group">
+          <label for="mibaContactNote">Poznámka / požadované úpravy</label>
+          <textarea id="mibaContactNote" name="note" rows="3" placeholder="Co byste chtěli upravit, doplnit nebo upřesnit..."></textarea>
+        </div>
+        <div class="miba-modal-actions">
+          <button type="submit" class="miba-submit-btn">Odeslat nezávazný zájem</button>
+        </div>
+        <div id="mibaFormStatus" class="miba-form-status" style="display: none;"></div>
+      </form>
+    </div>
+  </div>
+    <div class="miba-form-group">
+          <label for="mibaContactNote">Poznámka / požadované úpravy</label>
+          <textarea id="mibaContactNote" name="note" rows="3" placeholder="Co byste chtěli upravit, doplnit nebo upřesnit..."></textarea>
+        </div>
+        <div class="miba-modal-actions">
+          <button type="submit" class="miba-submit-btn">Odeslat nezávazný zájem</button>
+        </div>
+        <div id="mibaFormStatus" class="miba-form-status" style="display: none;"></div>
+      </form>
+    </div>
+  </div>
+    <aside id="mibaPreviewBar" class="miba-preview-pill" aria-label="Náhledový prototyp">
     <span class="miba-preview-text">🔒 Interaktivní návrh pro <strong>S.CH.W. SERVICE, s.r.o.</strong> • MiBa INOX</span>
     <button type="button" class="miba-preview-cta" id="mibaInterestOpen">Mám zájem o tento web</button>
   </aside>

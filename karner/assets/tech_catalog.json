@@ -1,122 +1,122 @@
 [
   {
     "id": "karner-skrine",
-    "title": "Zakázková výroba a úpravy rozváděčových skříní",
-    "category": "Rozváděčové systémy",
-    "badge": "ČSN EN 61439-1/2",
-    "short_desc": "Dodávky a přesné mechanické úpravy oceloplechových i nerezových rozváděčových skříní na míru technologiím zákazníka včetně výřezů, kabelových průchodek a montážních desek.",
+    "title": "Dodávky a zakázkové úpravy rozváděčových skříní",
+    "category": "Rozváděčové skříně",
+    "badge": "Úpravy na míru",
+    "short_desc": "Nabízíme dodávky rozváděčových skříní a jejich mechanické i konstrukční úpravy přesně podle přání a technické dokumentace zákazníka.",
     "specs": [
       {
-        "label": "Konstrukční provedení",
-        "value": "Oceloplechové samostatně stojící skříně i řadové stavebnice"
+        "label": "Rozsah dodávek",
+        "value": "Samostatně stojící, nástěnné i řadové rozváděčové skříně"
       },
       {
-        "label": "Krytí skříní",
-        "value": "IP43, IP54 až IP65 pro náročná průmyslová prostředí"
+        "label": "Zakázkové úpravy",
+        "value": "Výřezy otvorů pro přístroje, ventilaci, průchodky a ovládací prvky"
+      },
+      {
+        "label": "Konstrukční doplňky",
+        "value": "Montážní desky, sokly, přístrojové rošty a vnitřní dělení"
       },
       {
         "label": "Povrchová úprava",
-        "value": "Práškový vypalovaný lak RAL 7035 / nerez AISI 304"
-      },
-      {
-        "label": "Mechanické úpravy",
-        "value": "CNC vysekávání, laserové výřezy otvorů pro ovládací prvky"
+        "value": "Kvalitní práškové lakování dle stupnice RAL"
       }
     ],
     "features": [
-      "Individuální úprava skříní přesně podle projektové dokumentace",
-      "Vysoká mechanická tuhost skeletu a bezpečnost obsluhy",
-      "Dodávka včetně zemnicích sad, soklů a transportních ok"
+      "Individuální úprava rozváděčových skříní přesně podle požadavků projektu",
+      "Kompletní příprava skeletu pro následné osazení elektrotechnickými přístroji",
+      "Spolehlivá kvalita zpracování s tradicí od roku 1992"
     ]
   },
   {
     "id": "karner-rozvadece",
-    "title": "Dodávky a rekonstrukce rozváděčů nízkého napětí",
-    "category": "Elektrotechnika",
-    "badge": "Norma ČSN EN",
-    "short_desc": "Kompletní osazení rozváděčů NN komponenty renomovaných výrobců (ABB, Schneider Electric, Siemens, Eaton) pro průmyslové haly, trafostanice i administrativní objekty.",
+    "title": "Dodávky, rekonstrukce a ekologická likvidace rozváděčů NN",
+    "category": "Rozváděče NN",
+    "badge": "ČSN EN 61439",
+    "short_desc": "Zprostředkováváme kompletní dodávky rozváděčů nízkého napětí, včetně úprav a rekonstrukcí stávajících rozváděčů a ekologické likvidace dosloužilých celků.",
     "specs": [
       {
-        "label": "Jmenovité napětí",
-        "value": "3× 400 / 230 V, 50 Hz, síť TN-S, TN-C-S"
+        "label": "Nové rozváděče NN",
+        "value": "Zprostředkování dodávek vystrojených rozváděčů nízkého napětí"
       },
       {
-        "label": "Jmenovitý proud",
-        "value": "Do 2 500 A s dimenzovanou zkratovou odolností"
+        "label": "Modernizace a úpravy",
+        "value": "Rekonstrukce a doplnění stávajících rozváděčů v provozu"
       },
       {
-        "label": "Komponentová báze",
-        "value": "ABB, Schneider Electric, Siemens, OEZ, Eaton"
+        "label": "Ekologická likvidace",
+        "value": "Demontáž a ekologická likvidace starých vysloužilých rozváděčů"
       },
       {
-        "label": "Revizní zprávy",
-        "value": "Výchozí revize dle ČSN 33 2000-6 a kusové ověření"
+        "label": "Technické provedení",
+        "value": "Přehledné osazení, značení obvodů a příprava pro revizi"
       }
     ],
     "features": [
-      "Rekonstrukce a modernizace stávajících rozvoden bez nutnosti dlouhých odstávek",
-      "Přehledné vnitřní uspořádání a značení vodičů usnadňující údržbu",
-      "Garance plné provozní bezpečnosti a protokol o kusové zkoušce"
+      "Komplexní služba od dodávky nového rozváděče až po likvidaci původního zařízení",
+      "Rekonstrukce a úpravy stávajících rozváděčů NN podle aktuálních potřeb provozu",
+      "Bezpečná a ekologická likvidace vyřazených rozváděčových skříní"
     ]
   },
   {
     "id": "karner-servis",
-    "title": "Servis a ekologická likvidace elektro zařízení",
-    "category": "Elektro servis",
-    "badge": "ISO 14001 / Zákon o odpadech",
-    "short_desc": "Odborná demontáž dosloužilých rozvodných celků, trafozařízení a kabelových tras s garantovanou ekologickou likvidací a recyklací materiálů dle legislativy ČR.",
+    "title": "Servis elektro zařízení – opravy UPS, měničů a svářeček",
+    "category": "Servis elektro",
+    "badge": "Záruční i pozáruční servis",
+    "short_desc": "Zajišťujeme záruční a pozáruční servis všech námi dodaných zařízení. Opravujeme záložní zdroje (UPS), měniče, svářečky a další elektro přístroje.",
     "specs": [
       {
-        "label": "Rozsah služeb",
-        "value": "Demontáže, bezpečné odpojení, odvoz a recyklace"
+        "label": "Opravy elektroniky",
+        "value": "Záložní zdroje (UPS), frekvenční a napěťové měniče"
       },
       {
-        "label": "Odpadové hospodářství",
-        "value": "Třídění mědi, hliníku, oceli, izolantů a nebezpečných látek"
+        "label": "Servis svařovací techniky",
+        "value": "Diagnostika a opravy svářeček a průmyslových elektro přístrojů"
       },
       {
-        "label": "Osvědčení o likvidaci",
-        "value": "Vystavení oficiálního protokolu pro orgány ŽP"
+        "label": "Podpora dodávek",
+        "value": "Záruční a pozáruční servis všech námi dodaných zařízení"
       },
       {
-        "label": "Disponibilita",
-        "value": "Celá ČR s prioritním pokrytím Prahy a Středních Čech"
+        "label": "Diagnostika závad",
+        "value": "Měření elektronických obvodů, výměna výkonových prvků a testování"
       }
     ],
     "features": [
-      "Kompletní administrativní a legislativní servis likvidace odpadů",
-      "Zkušený tým certifikovaných elektrotechniků s vyhláškou 50 / NV 194/2022 Sb.",
-      "Uvolnění prostor zákazníka pro instalaci moderních technologií"
+      "Odborné opravy záložních zdrojů (UPS), měničů a svářeček na komponentové úrovni",
+      "Prodloužení životnosti průmyslových elektro přístrojů bez nutnosti nákupu nových",
+      "Spolehlivý záruční i pozáruční servis pro všechny realizované dodávky"
     ]
   },
   {
     "id": "karner-zamecnictvi",
-    "title": "Zámečnická a kovoobráběcí výroba pro elektro",
-    "category": "Kovovýroba",
-    "badge": "Vlastní zámečnická dílna",
-    "short_desc": "Zakázková výroba nosných ocelových rámů, kabelových lávek, přístrojových roštů, krycích plechů a atypických zámečnických prvků pro elektrotechniku.",
+    "title": "Zámečnická výroba, kované prvky a prášková lakovna",
+    "category": "Zámečnická výroba",
+    "badge": "Zakázková kovovýroba",
+    "short_desc": "Vyrábíme kované i standardní mříže, brány, ploty a ocelové konstrukce. Realizujeme veškerou zámečnickou výrobu dle přání zákazníka včetně lakování v práškové lakovně.",
     "specs": [
       {
-        "label": "Strojní možnosti",
-        "value": "Stříhání, ohýbání plechů na ohraňovacích lisech, svařování"
+        "label": "Brány, ploty a mříže",
+        "value": "Kované nebo standardní mříže, vjezdové brány, branky a plotové dílce"
       },
       {
-        "label": "Zpracovávané materiály",
-        "value": "Ocelový plech 1–5 mm, nerez, pozinkovaný plech, měděné pasoviny"
+        "label": "Ocelové konstrukce",
+        "value": "Svařované ocelové konstrukce, zábradlí a nosné prvky na míru"
       },
       {
-        "label": "Metody spojování",
-        "value": "Svařování MIG/MAG, TIG, bodové navařování svorníků"
+        "label": "Zakázková výroba",
+        "value": "Veškerá kusová i malosériová zámečnická výroba dle přání zákazníka"
       },
       {
-        "label": "Doplňkové úpravy",
-        "value": "Galvanické a žárové zinkování, komaxitování RAL"
+        "label": "Povrchová úprava",
+        "value": "Lakování zámečnických výrobků v práškové lakovně (komaxit)"
       }
     ],
     "features": [
-      "Přesná výroba atypických komponentů s minimálními tolerancemi",
-      "Rychlé vzorkování a operativní řešení montážních problémů",
-      "Dlouholetá tradice na trhu od roku 1992"
+      "Kompletní realizace od zaměření a výroby až po povrchovou úpravu v práškové lakovně",
+      "Poctivé řemeslné zpracování kovaných i klasických ocelových bran, plotů a mříží",
+      "Individuální přístup k atypickým zámečnickým konstrukcím dle zadání klienta"
     ]
   }
 ]
