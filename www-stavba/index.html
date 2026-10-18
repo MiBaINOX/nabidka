@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="preview-guard.css">
 </head>
 <body>
   <div id="refBanner" class="ref-banner">
@@ -736,5 +737,48 @@
 
   <script src="../ping-config.js"></script>
   <script src="script.js"></script>
+  <aside id="mibaPreviewBar" class="miba-preview-pill" aria-label="Náhledový prototyp">
+    <span class="miba-preview-text">🔒 Interaktivní návrh pro <strong>WWW STAVBA s.r.o.</strong> • MiBa INOX</span>
+    <button type="button" class="miba-preview-cta" id="mibaInterestOpen">Mám zájem o tento web</button>
+  </aside>
+  <div id="mibaInterestModal" class="miba-modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true" style="display: none;">
+    <div class="miba-modal-window">
+      <div class="miba-modal-header">
+        <div>
+          <span class="miba-modal-badge">MiBa INOX • Autorizovaná realizace</span>
+          <h3>Mám zájem o spuštění tohoto webu</h3>
+        </div>
+        <button type="button" class="miba-modal-close" id="mibaInterestClose" aria-label="Zavřít">×</button>
+      </div>
+      <form id="mibaInterestForm" class="miba-modal-form">
+        <input type="hidden" name="company" value="WWW STAVBA s.r.o.">
+        <input type="hidden" name="slug" value="www-stavba">
+        <p class="miba-modal-desc">Návrh je připraven k okamžitému ostrému nasazení na Vaší doméně. Vyplňte kontakt a my se Vám obratem ozveme s harmonogramem spuštění.</p>
+        <div class="miba-form-group">
+          <label for="mibaContactName">Jméno kontaktní osoby *</label>
+          <input type="text" id="mibaContactName" name="name" required placeholder="např. Jan Novák">
+        </div>
+        <div class="miba-form-row">
+          <div class="miba-form-group">
+            <label for="mibaContactPhone">Telefon *</label>
+            <input type="tel" id="mibaContactPhone" name="phone" required placeholder="+420 ...">
+          </div>
+          <div class="miba-form-group">
+            <label for="mibaContactEmail">E-mail *</label>
+            <input type="email" id="mibaContactEmail" name="email" required placeholder="jmeno@firma.cz">
+          </div>
+        </div>
+        <div class="miba-form-group">
+          <label for="mibaContactNote">Poznámka / požadované úpravy</label>
+          <textarea id="mibaContactNote" name="note" rows="3" placeholder="Co byste chtěli upravit, doplnit nebo upřesnit..."></textarea>
+        </div>
+        <div class="miba-modal-actions">
+          <button type="submit" class="miba-submit-btn">Odeslat nezávazný zájem</button>
+        </div>
+        <div id="mibaFormStatus" class="miba-form-status" style="display: none;"></div>
+      </form>
+    </div>
+  </div>
+  <script src="preview-guard.js" defer></script>
 </body>
 </html>

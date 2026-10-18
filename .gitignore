@@ -1,0 +1,6 @@
+# Clean master sources - NEVER push to public GitHub!
+_clean_masters/
+_clean_masters
+*.pyc
+__pycache__/
+b2b-audit-app/

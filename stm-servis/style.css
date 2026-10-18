@@ -1678,3 +1678,28 @@ img {
     padding: 18px 14px;
   }
 }
+
+header nav a,
+.nav a,
+.nav-link,
+header button,
+header [class*="btn"],
+header [class*="cta"] {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+button,
+[class*="btn"],
+[class*="cta-"],
+a[href="#kontakt"],
+a[href*="mailto:"] {
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: 1.2;
+}
