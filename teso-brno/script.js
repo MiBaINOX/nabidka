@@ -97,8 +97,10 @@ const CERTS_DATA = [
     law: "Zákon č. 201/2012 Sb. o ochraně ovzduší",
     pdf: "assets/certs/autorizace-mereni-emisi-2020.pdf",
     pages: [
-      "assets/certs/autorizace-mereni-emisi-1.jpg",
-      "assets/certs/autorizace-mereni-emisi-2.jpg"
+      "assets/certs/emise_strana_1.jpg",
+      "assets/certs/emise_strana_2.jpg",
+      "assets/certs/emise_strana_3.jpg",
+      "assets/certs/emise_strana_4.jpg"
     ]
   },
   {
@@ -108,8 +110,8 @@ const CERTS_DATA = [
     law: "Zákon č. 201/2012 Sb. o ochraně ovzduší",
     pdf: "assets/certs/autorizace-odborne-posudky.pdf",
     pages: [
-      "assets/certs/autorizace-odborne-posudky-1.jpg",
-      "assets/certs/autorizace-odborne-posudky-2.jpg"
+      "assets/certs/posudky_strana_1.jpg",
+      "assets/certs/posudky_strana_2.jpg"
     ]
   },
   {
@@ -119,8 +121,8 @@ const CERTS_DATA = [
     law: "Zákon č. 201/2012 Sb. o ochraně ovzduší",
     pdf: "assets/certs/autorizace-odborne-posudky-prodlouzeni.pdf",
     pages: [
-      "assets/certs/autorizace-odborne-posudky-prodlouzeni-1.jpg",
-      "assets/certs/autorizace-odborne-posudky-prodlouzeni-2.jpg"
+      "assets/certs/posudky_prodlouzeni_strana_1.jpg",
+      "assets/certs/posudky_prodlouzeni_strana_2.jpg"
     ]
   },
   {
@@ -131,9 +133,9 @@ const CERTS_DATA = [
     pdf: "assets/certs/osvedceni-o-akreditaci-cia-p355.pdf",
     pages: [
       "assets/certs/osvedceni-akreditace-cia-1421.jpg",
-      "assets/certs/priloha-akreditace-cia-strana-1.jpg",
-      "assets/certs/priloha-akreditace-cia-strana-2.jpg",
-      "assets/certs/priloha-akreditace-cia-strana-3.jpg"
+      "assets/certs/cia_priloha_strana_1.jpg",
+      "assets/certs/cia_priloha_strana_2.jpg",
+      "assets/certs/cia_priloha_strana_3.jpg"
     ]
   },
   {
@@ -143,8 +145,8 @@ const CERTS_DATA = [
     law: "Zákon č. 201/2012 Sb. a metodika SYMOS97",
     pdf: "assets/certs/autorizace-rozptylove-studie.pdf",
     pages: [
-      "assets/certs/autorizace-rozptylove-studie-1.jpg",
-      "assets/certs/autorizace-rozptylove-studie-2.jpg"
+      "assets/certs/rozptyl_strana_1.jpg",
+      "assets/certs/rozptyl_strana_2.jpg"
     ]
   }
 ];
@@ -398,6 +400,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  window.openCertLightbox = openCertLightbox;
+  window.closeCertLightbox = closeCertLightbox;
+
   if (certZoomBtn) {
     certZoomBtn.addEventListener("click", toggleZoom);
   }
@@ -437,14 +442,26 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   document.querySelectorAll("[data-open-cert]").forEach(btn => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
       const id = btn.getAttribute("data-open-cert");
       openCertLightbox(id);
     });
     btn.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
+        e.stopPropagation();
         const id = btn.getAttribute("data-open-cert");
+        openCertLightbox(id);
+      }
+    });
+  });
+
+  document.querySelectorAll(".cert-card").forEach(card => {
+    card.addEventListener("click", (e) => {
+      if (e.target.closest("a") || e.target.closest(".btn-cert-pdf")) return;
+      const id = card.getAttribute("data-cert");
+      if (id) {
         openCertLightbox(id);
       }
     });
